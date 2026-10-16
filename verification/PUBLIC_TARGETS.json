@@ -1,0 +1,762 @@
+[
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.PointCurvature.pointConformalDensity_distributional_curvature",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.PointDistributionalCurvature"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.atomic_pointCore_weighted_moment_bound",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicFormMoment"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.atomic_pointForm_uniform_quadratic_moment",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicFormMoment"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.atomic_pointForm_weighted_moment_bound",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicFormMoment"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.atomic_pointScore_uncertainty",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicScoreUncertainty"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.core_defective_lsi_of_gaussian_spi",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianSPIWang"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.core_global_superPoincare",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianCoreGlobalSPI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.core_global_superPoincare_small",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianCoreGlobalSPI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.core_poincare_of_raw_sobolev",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianGlobalPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.disk_half_mass_ball",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianDiskHalfMass"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.form_global_superPoincare",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianFormSPI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.form_poincare_of_raw_sobolev",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianGlobalPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.lipschitzMollify_centered_moment_tendsto",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzSobolevClosure"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.lipschitzMollify_energy_tendsto",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzSobolevClosure"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.lipschitzMollify_fderiv_ae_tendsto",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzMollification"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.lipschitzMollify_hasFDerivAt",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzMollification"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_gaussian_local_geometry",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianLocalGeometry"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_gaussian_local_sobolev_locallyLipschitz",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalLipschitzSobolev"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_gaussian_strong_sobolev_closedBall",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalLipschitzSobolev"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_point_doubling_and_locallyLipschitz_PI",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalPointAdmissibility"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_point_localGeometry",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalPointGeometry"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_point_physical_weak_one_two",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalPointGeometry"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_raw_local_sobolev_locallyLipschitz",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalLipschitzSobolev"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_raw_strong_sobolev_c1_center",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalLipschitzSobolev"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_raw_strong_sobolev_closedBall",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalLipschitzSobolev"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_raw_strong_sobolev_locallyLipschitz",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalLipschitzSobolev"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.original_weighted_full_domain",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianWeightedRoute"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperCompactLabeledRateFromReferenceFamily",
+    "kind": "def",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.CompactDiskReferenceLabeledLSI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperCwt_scaling",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianWeightedRoute"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperLabeledRateFromReference",
+    "kind": "def",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.LabeledLSIFromReferenceMoments"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate",
+    "kind": "def",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalInputLabeledLSI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate_le_optimal",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalOptimalLSIRates"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate_pos",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalInputLabeledLSI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate",
+    "kind": "def",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalInputLabeledLSI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate_le_optimal",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalOptimalLSIRates"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate_pos",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalInputLabeledLSI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperRhoWt_scaling",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianWeightedRoute"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperTranspositionKernel_identity",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.NormalizedTranspositionLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperTranspositionKernel_row_sum",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.NormalizedTranspositionLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperTranspositionKernel_swap",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.NormalizedTranspositionLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paperUniformTransposition_gap_exact",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.NormalizedTranspositionLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_center_imaginary_form_witness",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GinibreSymmetricSharpness"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_center_real_form_witness",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GinibreSymmetricSharpness"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_common_phase_identity",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_complete_graph_relative_gradient",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_coulomb_potential_distribution",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.CollisionPotentialLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_dbar_core_distance",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_dbar_graph_distance",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_dbar_kernel_holomorphic",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_dg_fixed_coupling",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.DGFixedCoupling"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_entropy_factorization_disk",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AllParameterDiskEntropy"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_exp_integral_inverse_power_concavity",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ProductPowerConcavity"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_finite_defect_nonneg_disk",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AllParameterDiskEntropy"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_fixed_particle_compact_temperature",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_fixed_particle_form_compact",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_fixed_particle_kernel_constants",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_fixed_particle_operator_selfAdjoint",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_fixed_particle_poincare_via_resolvent",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ResolventLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_fixed_particle_resolvent_compact",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_full_defective_compact_via_disk_reference_family",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.CompactDiskReferenceLabeledLSI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_full_defective_of_reference_bounds_of_exp_integrable",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.LabeledEntropyFromExplicitMoments"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_full_labeled_lsi_original",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalInputLabeledLSI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_full_labeled_poincare_uniform_via_resolvent",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.CompactResolventLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_full_labeled_poincare_via_resolvent",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ResolventLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_gibbs_defect_moment_product_power",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GibbsProductPower"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_ginibre_center_equality_witnesses",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GinibreSymmetricSharpness"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_ginibre_symmetric_poincare_sharp_all_N",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GinibreSymmetricSharpness"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_label_fluctuation",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_capacity_open_neighborhood",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalCollisionCapacity"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_capacity_physical_cost",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalCollisionCapacity"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_center_mass",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalCenterOfMass"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_center_mass_optimal_rate",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalCenterOfMass"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_collision_capacity",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalCollisionCapacity"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_collision_capacity_and_common_core",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalCollisionCapacity"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_compact_optimal_double_inf_lower",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalOptimalLSIRates"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_compact_optimal_double_inf_pos",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalOptimalLSIRates"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_compact_optimal_real_double_inf_lower",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalOptimalLSIRates"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_helmert_center",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalCenterOfMass"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_helmert_relative",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalCenterOfMass"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_helmert_unitary",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalCenterOfMass"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_original_particle_optimal_inf_pos",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalOptimalLSIRates"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_random_transposition_gap",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_real_dbar_physical_energy",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_reference_EL_normalizer_disk",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalDiskReferenceBounds"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_reference_compact_bounds_disk",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalDiskReferenceBounds"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_reference_partition_holder",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePartitionBounds"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_reference_partition_lower_polynomial",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePolynomialIntegrability"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_reference_partition_uniform",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePartitionBounds"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_reference_spatial_bridge",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceSpatialPartition"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_reference_spatial_energy_ae",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceSpatialPartition"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_reference_spatial_partition_eq",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceSpatialPartition"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_relative_core",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_relative_form_swap",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_relative_full",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_resolvent_form_residual",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ResolventLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_spatial_partition_uniform",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceSpatialPartition"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_symmetric_holomorphic_removal",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_symmetric_poincare_small_exponent",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_symmetric_poincare_via_resolvent",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ResolventLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_thermal_B_gibbs_integrable_positive_log",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.PositiveLogGibbsIntegrability"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_transposition_core",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_uniform_defectAt_compact_disk",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AllParameterDiskEntropy"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_uniform_defectAt_finite_disk",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AllParameterDiskEntropy"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_uniform_labeled_lsi_original",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalInputLabeledLSI"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_variance_reduction",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.paper_weighted_named_inequalities",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianWeightedRoute"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.pointLogForce_weak_l2_atomic_maximal",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicMaximalWeakForce"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.pointLogForce_weak_l2_atomic_maximal_of_total_le",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicMaximalWeakForce"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.strong_sobolev_on_balls_of_lipschitzOn",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzSobolevClosure"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.strong_sobolev_squared_norm_of_dilation_two",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolev"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.thermalConstructedReference_measure_unique",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalReference"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.thermalConstructedReference_multiIndex_tail",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalDerivativeTails"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.thermalConstructedReference_nonempty",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalReference"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.PaperRoute.thermal_physicalReference_from_minimizer",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalReference"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombCollisionSet_capacity_zero",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombGlobalVariationalCapacity"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombConstantForm_energy",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombConstantDomain"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombConstantForm_value",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombConstantDomain"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombConstantJet_mem_closedCore",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombConstantDomain"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombCoreGraph_zero_gradient",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombClosability"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombCoreGraph_zero_of_value_zero",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombClosability"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombExhaustion_line_laplacian_pos",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombExhaustionGeometry"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombExhaustion_strict_sublevel_relativelyCompact",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombExhaustionCompact"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombFormEnergy_eq_integral",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombClosedForm"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombFormValueL_injective",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombClosedForm"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombMeasure_isProbability",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombPartition_lt_top",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombPartition_pos",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombPotential_mixedWirtinger_contraction",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.DbarBranchPotentialMixedWirtinger"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombPotential_mixedWirtinger_entry",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.DbarBranchPotentialMixedWirtinger"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulombWeight_integrable",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulomb_center_mass_manuscript",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombCenterManuscript"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulomb_center_mass_optimal_lsi_rate_all_N",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombCenterManuscript"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.coulomb_collision_capacity_and_common_core",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.CoulombGlobalVariationalCapacity"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.equilibriumReferencePartition_canonical_eq",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.EquilibriumBranchCanonicalSplitting"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.equilibriumReference_coulombMeasure_eq_tilted",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.EquilibriumBranchCanonicalSplitting"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.planar_ladyzhenskaya",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PlanarLadyzhenskaya"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.pointConstantForm_energy",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PointConstantDomain"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.pointConstantForm_value",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PointConstantDomain"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.pointConstantJet_mem_closedCore",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PointConstantDomain"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.pointGroundState_energy_identity",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.PointGroundStateEnergy"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.pointMeasure_disk_tail_le",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.UnitDiskUniformTails"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.pointMeasure_disk_tail_real_le",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.UnitDiskUniformTails"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.pointPartition_integral_unitDisk_lower",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.UnitDiskNormalization"
+  },
+  {
+    "declaration": "RepulsiveCoulomb.pointPartition_unitDisk_lower_uniform",
+    "kind": "theorem",
+    "module": "LeanResearch.RepulsiveCoulomb.UnitDiskNormalization"
+  },
+  {
+    "declaration": "IntegratedOriginalReferenceInstances.original_canonical_splitting",
+    "kind": "theorem",
+    "module": "IntegratedPaperRoute"
+  },
+  {
+    "declaration": "IntegratedOriginalReferenceInstances.original_canonical_partition",
+    "kind": "theorem",
+    "module": "IntegratedPaperRoute"
+  },
+  {
+    "declaration": "IntegratedOriginalReferenceInstances.original_spatial_collisionfree",
+    "kind": "theorem",
+    "module": "IntegratedPaperRoute"
+  },
+  {
+    "declaration": "IntegratedOriginalReferenceInstances.original_spatial_partition",
+    "kind": "theorem",
+    "module": "IntegratedPaperRoute"
+  },
+  {
+    "declaration": "IntegratedOriginalReferenceInstances.original_partition_uniform",
+    "kind": "theorem",
+    "module": "IntegratedPaperRoute"
+  },
+  {
+    "declaration": "IntegratedOriginalReferenceInstances.original_entropy_factorization",
+    "kind": "theorem",
+    "module": "IntegratedPaperRoute"
+  },
+  {
+    "declaration": "IntegratedOriginalReferenceInstances.original_compact_all_ell_defect",
+    "kind": "theorem",
+    "module": "IntegratedPaperRoute"
+  },
+  {
+    "declaration": "IntegratedOriginalReferenceInstances.original_fixed_all_ell_defect",
+    "kind": "theorem",
+    "module": "IntegratedPaperRoute"
+  }
+]

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this Lean formalization when using the source."
+title: "Lean formalization of uniform logarithmic Sobolev inequalities for the two-dimensional Coulomb gas at the diffusive temperature scale"
+authors:
+  - family-names: Rosenzweig
+    given-names: Matthew
+year: 2026
+repository-code: "https://github.com/matthewrosenzweigwork-max/LSI-2D-Diffusive-Coulomb-Gas-Lean-Public"
