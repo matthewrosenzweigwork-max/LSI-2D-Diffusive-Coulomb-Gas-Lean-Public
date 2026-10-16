@@ -7,8 +7,8 @@ project:
     Frozen Lean sources supporting uniform logarithmic Sobolev inequalities for the two-dimensional Coulomb gas at the diffusive temperature scale and the supporting declarations listed in verification/PUBLIC_TARGETS.json. Precise hypotheses and conclusions must be taken from the selected formal declarations.
   authors:
     - "Matthew Rosenzweig"
-  responsible_maintainers: [] # TODO: obtain the responsible humans' confirmation.
-  license: null # TODO: owner-approved SPDX identifier matching one root LICENSE.
+  responsible_maintainers: ["Matthew Rosenzweig"]
+  license: Apache-2.0
 classification:
   arxiv: [math.PR, math.AP] # Proposed classification; confirm with final statement.
   msc2020: []

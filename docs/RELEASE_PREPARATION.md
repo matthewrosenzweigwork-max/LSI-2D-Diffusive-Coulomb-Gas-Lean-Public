@@ -1,6 +1,6 @@
 # Public release preparation
 
-Status: documentation preparation only, 16 October 2026. No publication, registry submission, dependency upgrade, proof edit, or new Lean build was performed.
+Status: documentation preparation only, 16 October 2026. The local release-preparation branch adds the owner-approved Apache-2.0 license. No registry submission, dependency upgrade, proof edit, or new project Lean build was performed.
 
 ## Snapshot and build
 
@@ -28,7 +28,7 @@ python3 scripts/release_inventory.py c1faa35a5258f743890515f01c858c07e4eca2ff
 - 18 files have a leading module header; 1,914 need migration. There are no Lean Lakefiles requiring an exemption.
 - No file exceeds 10,000 physical lines. The largest is `LeanResearch/RepulsiveCoulomb/Imported/ScalarCoarea/ScalarCoarea.lean` at 3,620 lines; `IntegratedPaperRoute.lean` has 3,467 lines. No submodule gitlinks, symlinks, Git LFS pointers, or listed compiled artifacts were found in the submitted tree.
 - The committed manifest uses public HTTPS GitHub Git URLs and full lowercase 40-character commit revisions. These syntactic checks do not authenticate dependency bytes.
-- There is exactly one active root Lakefile and a committed manifest, but no root license, `formalization.yaml`, Challenge/Solution pair, Comparator configuration, or current full Palomar workflow report.
+- There is exactly one active root Lakefile and a committed manifest, but no completed `formalization.yaml`, Challenge/Solution pair, Comparator configuration, or current full Palomar workflow report.
 - Lean 4.34.1 is below the currently declared Palomar minimum, v4.35.0-rc2. A new toolchain also requires a matching new Mathlib pin and source migration.
 
 These are lexical/source inventory checks, not a Lean parser run or certification of registry compliance. Dependencies fetched in a future build were not scanned.
@@ -41,12 +41,12 @@ All retained and imported source files remain part of the repository-wide module
 
 ## Decisions and evidence still needed
 
-- The owners must choose and authorize one root repository license, check the inherited source notices, and supply the matching SPDX identifier. This preparation assigns no license.
+- The owner authorized Apache-2.0 for both repositories and confirmed authority on behalf of the authors. The root license and draft SPDX metadata now agree. Existing third-party notices remain intact.
 - Confirm the human author and responsible-maintainer lists, precise paper/source titles and identifiers, source relationships, historical automation roles, and completed review status. Existing citations establish attribution, not a new endorsement of a submission.
 - Select the principal declarations to register and document all their actual hypotheses and limitations. Supporting targets do not automatically become advertised principal results. A fresh statement/argument correspondence audit remains distinct from a kernel check.
 - Recover or link the exact historical machine-readable receipts and logs from the original verification campaigns if they will be cited as release evidence. The public summaries alone do not reproduce those runs.
 
-[formalization.yaml.draft](formalization.yaml.draft) supplies a conservative abstract and proposed classification. Null and empty fields are deliberate unresolved decisions. Do not copy it to the project root as submission-ready metadata. No Comparator configuration is supplied: its theorem list cannot be finalized before the statement surface is designed.
+[formalization.yaml.draft](formalization.yaml.draft) supplies a conservative abstract and proposed classification. Empty provenance and automation fields are deliberate unresolved decisions. Do not copy it to the project root as submission-ready metadata. No Comparator configuration is supplied: its theorem list cannot be finalized before the statement surface is designed.
 
 ## Staged route to Palomar
 

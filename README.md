@@ -17,7 +17,7 @@ The exact source was checked on 10 October 2026. The recorded checks cover 148 t
 Kernel checking establishes the formal declarations. Correspondence to the written mathematical statements and arguments is a separate review. The repository does not imply that every sentence of the manuscript is a Lean declaration.
 
 ## Citation and notices
-Use [CITATION.cff](CITATION.cff) for the release citation. Original source notices are preserved. No root license file is present and no new blanket license is assigned by this snapshot. A repository license decision is still needed before a Palomar submission.
+Use [CITATION.cff](CITATION.cff) for the release citation. The original repository code is licensed under [Apache-2.0](LICENSE). Existing third-party source notices and dependency licenses remain in force; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Frozen source and release preparation
 
