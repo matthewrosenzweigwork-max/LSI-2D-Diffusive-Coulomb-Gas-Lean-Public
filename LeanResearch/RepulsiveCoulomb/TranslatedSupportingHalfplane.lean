@@ -13,7 +13,7 @@ noncomputable section
 open Set Metric
 namespace RepulsiveCoulomb
 
-private theorem conePhase_neg_mul_self (stripAngle : ℝ) : conePhase (-stripAngle) * conePhase stripAngle = 1 := by
+theorem conePhase_neg_mul_self (stripAngle : ℝ) : conePhase (-stripAngle) * conePhase stripAngle = 1 := by
   unfold conePhase
   rw [← Complex.exp_add]
   have hz : ((-stripAngle : ℝ) : ℂ) * Complex.I + (stripAngle : ℂ) * Complex.I = 0 := by

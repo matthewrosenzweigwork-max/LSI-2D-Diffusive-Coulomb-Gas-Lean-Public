@@ -59,12 +59,12 @@ theorem coulombHolomorphic_weak_dbar_pairing {N : ℕ} {h : CoulombConfig N → 
   let vx := coulombCoordinateInjection N i 1
   let vy := coulombCoordinateInjection N i Complex.I
   have hw := coulombHolomorphic_hasWeakFDeriv hh
-  have hx := (hw vx).integral_lineDeriv_smul_eq_neg_integral_smul φ
-  have hy := (hw vy).integral_lineDeriv_smul_eq_neg_integral_smul φ
+  have hx := (hw.hasWeakLineDerivOn vx).integral_lineDeriv_smul_eq_neg_integral_smul φ
+  have hy := (hw.hasWeakLineDerivOn vy).integral_lineDeriv_smul_eq_neg_integral_smul φ
   have hxi : Integrable (fun z => φ z • fderiv ℝ h z vx) volume :=
-    φ.integrable_smul (hw vx).locallyIntegrableOn_deriv
+    φ.integrable_smul (hw.hasWeakLineDerivOn vx).locallyIntegrableOn_deriv
   have hyi : Integrable (fun z => φ z • fderiv ℝ h z vy) volume :=
-    φ.integrable_smul (hw vy).locallyIntegrableOn_deriv
+    φ.integrable_smul (hw.hasWeakLineDerivOn vy).locallyIntegrableOn_deriv
   have hs : (∫ z, φ z • fderiv ℝ h z vx) + Complex.I * (∫ z, φ z • fderiv ℝ h z vy) = 0 := by
     rw [← integral_const_mul, ← integral_add hxi (hyi.const_mul Complex.I)]
     apply integral_eq_zero_of_ae

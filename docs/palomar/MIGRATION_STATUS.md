@@ -1,8 +1,8 @@
 # Compatibility candidate status
 
-This branch is a compatibility candidate pending full exact-commit verification. Its frozen `main` and `release-preparation-2026-10-16` branches remain separately reproducible. The first module-interface pass preserved original theorem/proof text. Subsequent minimal API repairs are documented in the component COMPATIBILITY_REPAIRS.md records and hash ledger. Original theorem statements, mathematical definitions, hypotheses and permitted axioms are retained.
+This branch is a compatibility candidate. Only the pinned full workflow report for an exact commit establishes mechanical verification. Its frozen `main` and `release-preparation-2026-10-16` branches remain separately reproducible. The first module-interface pass preserved original theorem/proof text. Subsequent minimal API repairs are documented in the component COMPATIBILITY_REPAIRS.md records and hash ledger. Original theorem statements, mathematical definitions, hypotheses and permitted axioms are retained.
 
-The target is the lowest version currently accepted by Palomar: Lean v4.35.0-rc2, with canonical Mathlib release commit `065356127b1dc0016f66b7283ce0ce2c4055aa55`. The new dependency lock is assembled from that exact Mathlib revision's manifest, retaining the package's own Mathlib entry. Lake has not yet revalidated this candidate lock. API incompatibilities may still require explicit repairs.
+The target is the lowest version currently accepted by Palomar: Lean v4.35.0-rc2, with canonical Mathlib release commit `065356127b1dc0016f66b7283ce0ce2c4055aa55`. The new dependency lock is assembled from that exact Mathlib revision's manifest, retaining the package's own Mathlib entry. Hosted dependency-cache retrieval and build startup have accepted this lock without manifest drift. API compatibility and final acceptance remain governed by the actual source-build and exact-commit full verification reports.
 
 The module transformation inserts `module`, changes the existing header imports to `public import`, and inserts `@[expose] public section` after them. The 18 existing module files in the planar baseline are preserved. This preserves source text and intended cross-module visibility, but does not establish type correctness under the new compiler.
 
@@ -12,7 +12,7 @@ The tiny module/import/exposed-definition syntax smoke passed with the already-i
 
 ## Compute route
 
-The least disruptive build route is GitHub-hosted `ubuntu-24.04`, already used for the original joint repository's cold verification. `migration-build.yml` has independent jobs for the independent projects, two Lean runtime threads per job, a 120-minute job timeout, fresh project objects, and retained logs. It does not represent a Palomar pass or an independent correspondence audit. It starts only on a push to this migration branch or manual dispatch.
+The least disruptive build route is GitHub-hosted `ubuntu-24.04`, already used for the original joint repository's cold verification. `migration-build.yml` builds the three retained root targets plus Challenge/Solution in one hosted job, with two Lean runtime threads, a 120-minute timeout, fresh project objects, and retained logs. It does not represent a Palomar pass or an independent correspondence audit. It starts only on a push to this migration branch or manual dispatch.
 
 Project compilation and dependency-cache retrieval run on GitHub-hosted Linux. The Mac is used for source review, normal Git, and lightweight validation; unrelated active verification campaigns remain untouched.
 

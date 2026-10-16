@@ -1,5 +1,7 @@
 # Uniform logarithmic Sobolev inequalities for the two-dimensional Coulomb gas in Lean
 
+[![Palomar full preflight](https://github.com/matthewrosenzweigwork-max/LSI-2D-Diffusive-Coulomb-Gas-Lean-Public/actions/workflows/palomar-full.yml/badge.svg?branch=palomar-migration-2026-10-16)](https://github.com/matthewrosenzweigwork-max/LSI-2D-Diffusive-Coulomb-Gas-Lean-Public/actions/workflows/palomar-full.yml?query=branch%3Apalomar-migration-2026-10-16)
+
 This repository formalizes the paper's two main theorems: full labeled Coulomb-gas LSI at fixed and compact positive temperatures, and point-weighted full-domain Gaussian Poincaré/LSI with constants uniform in the point configuration under a total-exponent bound.
 
 This branch is a compatibility candidate for Palomar. Its new toolchain, module interfaces, and documented API repairs require fresh exact-commit verification; historical checks do not certify the migrated sources. No Palomar intake or registration has been performed.

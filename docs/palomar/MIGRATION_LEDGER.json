@@ -4,7 +4,7 @@
   "baseline_manifest": "verification/PUBLIC_SOURCE_MANIFEST.json",
   "target_lean": "leanprover/lean4:v4.35.0-rc2",
   "target_mathlib": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
-  "verification_status": "FULL_PREFLIGHT_PENDING",
+  "verification_status": "EXACT_COMMIT_FULL_REPORT_REQUIRED",
   "module_transformation": "Original declaration/proof text is unchanged in module-interface-only files. Explicit compatibility-repair files have separately recorded before/after hashes and rationale. No theorem statement or physical definition is intentionally changed; a fresh kernel/Comparator pass is required.",
   "changes": [
     {
@@ -2077,9 +2077,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/DbarBranchHolomorphicWeakKernel.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "d9fe64f2be6b170a70296c711a30c3d18abd2aa1ed0831e0621d0a485fb60d6a",
-      "after_sha256": "3d890ca64b8eaed42fc7da33f5fdf8b0bd2b260cedd94e418bd811381a9cb863"
+      "after_sha256": "44a9ce21a8a7db3b570e38f9fa04d89c157197df171bcd4179848b5a7d3d7bea",
+      "interface_only_sha256": "3d890ca64b8eaed42fc7da33f5fdf8b0bd2b260cedd94e418bd811381a9cb863",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/DbarBranchInverseRootL2.lean",
@@ -10975,9 +10977,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/TranslatedSupportingHalfplane.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "67e8a2f919f90ab476cbb4cca73f55312ad0b9fc3eeee832d1c90b88c6590915",
-      "after_sha256": "896e4930e868cea7738d8ab72daef435b57aed397b347439b56533984a6dc849"
+      "after_sha256": "d8b612bf95524df5bbbac7c2d710974948c81aac01ac1feaea534240d036126c",
+      "interface_only_sha256": "896e4930e868cea7738d8ab72daef435b57aed397b347439b56533984a6dc849",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/TranspositionBochner.lean",
