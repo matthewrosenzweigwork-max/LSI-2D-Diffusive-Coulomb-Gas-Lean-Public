@@ -12,23 +12,26 @@ automation:
       and costs have not been reconstructed.
 review:
   status: self-assessed
-  notes: The compact statement surface was checked against the accepted source text by its preparation
-    agents. This is a writer self-check, not an independent mathematical review or a completed Palomar
-    run. Historical kernel and source-review evidence is identified separately in the README and migration
-    records.
+  notes: Preparation agents checked the compact statement surface against the accepted source. A separate
+    fresh agent then performed a bounded read-only comparison of selected statements and fixed definitions,
+    including English-first reconstruction of the planar weighted theorem; no discrepancy was found in
+    that scope. Subsequent API-repair diffs were separately checked for unchanged statements, definitions
+    and hypotheses. This agent source review is not a full manuscript proof-argument audit, external human
+    review, or a mechanical verification pass. Historical evidence and current exact-commit workflow reports
+    are identified separately.
 project:
   name: Uniform logarithmic Sobolev inequalities for the two-dimensional Coulomb gas at the diffusive
     temperature scale
-  description: Logarithmic Sobolev inequalities for the original labeled two-dimensional repulsive
-    Coulomb Gibbs law at the diffusive temperature scale on its full closed smooth-core form domain,
-    with positive rates uniform in particle count and locally uniform over positive compact temperature
-    intervals. The second main result gives Poincare and logarithmic Sobolev inequalities for planar
-    Gaussian laws weighted by arbitrary finite products of nonnegative powers of point distances,
-    uniformly in point count, locations and individual exponents under a total-exponent bound. Exact
-    confinement scaling and common constants for confinement bounded below are included. The Challenge
-    fixes both physical laws, full closed domains, energies and all selected statements. Four positive
-    rate/constant witness functions receive their values from the original Solution constructions;
-    supporting construction and normalization theorems are compared explicitly.
+  description: Logarithmic Sobolev inequalities for the original labeled two-dimensional repulsive Coulomb
+    Gibbs law at the diffusive temperature scale on its full closed smooth-core form domain, with positive
+    rates uniform in particle count and locally uniform over positive compact temperature intervals. The
+    second main result gives Poincare and logarithmic Sobolev inequalities for planar Gaussian laws weighted
+    by arbitrary finite products of nonnegative powers of point distances, uniformly in point count, locations
+    and individual exponents under a total-exponent bound. Exact confinement scaling and common constants
+    for confinement bounded below are included. The Challenge fixes both physical laws, full closed domains,
+    energies and all selected statements. Four positive rate/constant witness functions receive their
+    values from the original Solution constructions; supporting construction and normalization theorems
+    are compared explicitly.
   authors:
   - Matthew Rosenzweig
   responsible_maintainers:
@@ -43,12 +46,12 @@ sources:
   relationship: formalizes
   notes: The 7 October 2026 revised paper and supplement are preserved in manuscript/revised-20261007
     at original source commit 7ebe828bf7f69471c8120bd03a876666abd8e53f. MANUSCRIPT_VERSIONS.md distinguishes
-    that revision from the recorded public arXiv:2608.24863v1 and describes the qualified historical
-    review scope.
+    that revision from the recorded public arXiv:2608.24863v1 and describes the qualified historical review
+    scope.
 known_gaps: Four selected positive witness functions retain dependence only on the fixed temperature,
-  compact temperature interval or total-exponent bound as appropriate. Their actual original Solution
-  constructions are checked, but their literal internal choice/thermal-reference formulas are not
-  fixed in the Challenge. Weighted Cwt and RhoWt formulas and their confinement scaling are fixed
-  exactly. No sharpness formula, higher-order thermal derivative-tail clause, or labeled LSI uniformity
-  down to zero temperature is attributed to this entry. Historical manuscript reviews are qualified
-  and do not certify every inherited prose argument.
+  compact temperature interval or total-exponent bound as appropriate. The Solution retains the original
+  constructions; their literal internal choice/thermal-reference formulas are not fixed or compared as
+  Challenge contracts. Weighted Cwt and RhoWt formulas and their confinement scaling are fixed exactly.
+  No sharpness formula, higher-order thermal derivative-tail clause, or labeled LSI uniformity down to
+  zero temperature is attributed to this entry. Historical manuscript reviews are qualified and do not
+  certify every inherited prose argument.

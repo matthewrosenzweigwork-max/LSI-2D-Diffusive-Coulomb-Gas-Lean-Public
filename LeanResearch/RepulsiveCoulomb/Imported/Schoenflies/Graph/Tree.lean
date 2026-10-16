@@ -243,7 +243,8 @@ edges are vertices it visits, so they too survive. -/
 theorem IsWalk.deleteVerts {X : Set α} (h : G.IsWalk u W v)
     (hX : ∀ z ∈ G.walkVertices u W, z ∉ X) : (G.deleteVerts X).IsWalk u W v := by
   refine h.anti deleteVerts_le ?_ fun g hg ↦ ?_
-  · exact ⟨h.left_mem, hX u mem_walkVertices_self⟩
+  · rw [vertexSet_deleteVerts]
+    exact ⟨h.left_mem, hX u mem_walkVertices_self⟩
   · obtain ⟨p, q, hpq⟩ := exists_isLink_of_mem_edgeSet (h.edge_mem hg)
     simp only [edgeSet_deleteVerts, Set.mem_setOf_eq]
     exact ⟨p, q, hpq, hX p (mem_walkVertices_of_mem_covered ⟨g, hg, hpq.inc_left⟩),

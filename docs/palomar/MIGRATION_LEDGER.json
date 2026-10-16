@@ -4089,9 +4089,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/Graph/Relabel.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "5bac34274e2a7dff16df3f798e3b1b76b15f864f32da1a1527d380156be05d19",
-      "after_sha256": "34e4ba4bbe3cbb16a0699b5e2d1aab8c385c31356bb1df5c96ec02e76304beaa"
+      "after_sha256": "94ab0a8fab5ecc435c8a008286ddd526e56d667b79de9b6c2c279dbb09657a76",
+      "interface_only_sha256": "34e4ba4bbe3cbb16a0699b5e2d1aab8c385c31356bb1df5c96ec02e76304beaa",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/Graph/RelativeEar.lean",
@@ -4101,9 +4103,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/Graph/Tree.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "11bb03b5583d3062390df83759de74f54f4c3773826d65be8e46166cfae2fc66",
-      "after_sha256": "fb0fea94a944e1731f441004fd2d16e09d954b54df0e69cb66bd803f21ccdb4c"
+      "after_sha256": "983b580c8c302b0faa79471abbe032c679e5999f3ae3e16b6dea5b2349b54f8e",
+      "interface_only_sha256": "fb0fea94a944e1731f441004fd2d16e09d954b54df0e69cb66bd803f21ccdb4c",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/Graph/TwoConnected.lean",
@@ -4151,9 +4155,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/InitialPair.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "63551539c32668459f5438afd5af8205cd63a342a65dd92a1263b91794b86e46",
-      "after_sha256": "66c3fd62052cce9937c57ca0b45488c794036c3437deb0f64137caec3563bfd7"
+      "after_sha256": "dfe39838068af7dafec97e6fa57ddb60f4062769e5cd17c0568e006a50cf180f",
+      "interface_only_sha256": "66c3fd62052cce9937c57ca0b45488c794036c3437deb0f64137caec3563bfd7",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/InitialPairFixed.lean",
@@ -11527,7 +11533,7 @@
     },
     {
       "path": "formalization.yaml",
-      "sha256": "2ecdaef40594141a909b2bf51cf7976b358d7b2876c8d1b5f9fc2f00c07db074"
+      "sha256": "e8b772fd0da4011e2ba7b3316147594d3a0e0d852c2cc426b4003f1bd7d89b47"
     }
   ]
 }

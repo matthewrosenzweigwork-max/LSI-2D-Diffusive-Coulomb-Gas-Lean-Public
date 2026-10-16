@@ -163,8 +163,7 @@ theorem IsWalk.relabelEdges_deleteVerts {X : Set α} {u v : α} {W : List β}
   induction h with
   | nil hx =>
       apply IsWalk.nil
-      rw [vertexSet_deleteVerts, vertexSet_relabelEdges]
-      exact hx
+      simpa only [vertexSet_deleteVerts, vertexSet_relabelEdges] using hx
   | cons hl hW ih =>
       apply IsWalk.cons _ ih
       rw [deleteVerts_isLink] at hl ⊢

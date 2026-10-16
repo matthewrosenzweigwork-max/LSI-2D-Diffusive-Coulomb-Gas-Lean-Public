@@ -46,7 +46,7 @@ jobs:
       - name: Build migrated source from fresh project objects
         run: |
           set -o pipefail
-          lake --fail-fast build IntegratedPaperRoute RetainedReload PlanBAudit 2>&1 | tee "$RUNNER_TEMP/build.log"
+          lake build IntegratedPaperRoute RetainedReload PlanBAudit Challenge Solution 2>&1 | tee "$RUNNER_TEMP/build.log"
       - name: Check migrated source did not drift
         if: always()
         working-directory: .
