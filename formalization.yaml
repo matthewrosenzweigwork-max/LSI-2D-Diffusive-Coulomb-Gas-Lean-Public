@@ -1,0 +1,49 @@
+version: v0.4
+classification:
+  arxiv:
+  - math.PR
+  - math.AP
+  msc2020: []
+automation:
+  methods:
+  - method: agent
+    tool_setup: Historical source development used automated proof agents. This compatibility migration
+      and compact statement extraction used Codex agents. Exact historical per-declaration model versions
+      and costs have not been reconstructed.
+review:
+  status: self-assessed
+  notes: The compact statement surface was checked against the accepted source text by its preparation
+    agents. This is a writer self-check, not an independent mathematical review or a completed Palomar
+    run. Historical kernel and source-review evidence is identified separately in the README and migration
+    records.
+project:
+  name: Uniform logarithmic Sobolev inequalities for the two-dimensional Coulomb gas at the diffusive
+    temperature scale
+  description: Logarithmic Sobolev inequalities for the original labeled two-dimensional repulsive
+    Coulomb Gibbs law at the diffusive temperature scale, on its full closed smooth-core form domain.
+    The fixed-positive-temperature rate is independent of particle count and observable. A single
+    positive rate also works for every temperature in a fixed positive compact interval and every
+    particle count N >= 2. The Challenge fixes the literal Gibbs law, energy and closed form domain;
+    selected rate definitions are witness holes whose Solution values are the original constructed
+    rates. Supporting construction theorems and rate positivity are compared explicitly.
+  authors:
+  - Matthew Rosenzweig
+  responsible_maintainers:
+  - Matthew Rosenzweig
+  license: Apache-2.0
+sources:
+- type: paper
+  title: Uniform Logarithmic Sobolev Inequalities for the 2D Coulomb Gas at the Diffusive Temperature
+    Scale
+  authors:
+  - Matthew Rosenzweig
+  relationship: formalizes
+  notes: The 7 October 2026 revised paper and supplement are preserved in manuscript/revised-20261007
+    at original source commit 7ebe828bf7f69471c8120bd03a876666abd8e53f. MANUSCRIPT_VERSIONS.md distinguishes
+    that revision from the recorded public arXiv:2608.24863v1 and describes the qualified historical
+    review scope.
+known_gaps: The rate-hole types retain dependence only on the fixed temperature or fixed compact temperature
+  interval. Their actual original Solution constructions are checked, but the Challenge does not specify
+  the literal thermal-reference/family-supremum formulas. No sharpness formula, higher-order thermal
+  derivative-tail clause, or uniformity down to zero temperature is attributed to this entry. Historical
+  manuscript reviews are qualified and do not certify every inherited prose argument.

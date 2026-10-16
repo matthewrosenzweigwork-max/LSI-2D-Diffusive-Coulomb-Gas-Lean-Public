@@ -123,7 +123,15 @@ theorem mem_deleteVerts_singleton_of_ne (hy : y ∈ V(G)) (hyx : y ≠ x) :
 /-- Deleting a vertex the graph does not have leaves the graph alone — on the nose, not merely
 up to isomorphism, because `V(G) \ {x}` is literally `V(G)`. -/
 theorem deleteVerts_singleton_eq_self (hx : x ∉ V(G)) : G.deleteVerts {x} = G := by
-  rw [deleteVerts, sdiff_singleton_eq_self hx, induce_vertexSet]
+  apply le_antisymm deleteVerts_le
+  refine { vertexSet_mono := ?_, isLink_mono := ?_ }
+  · simpa only [vertexSet_deleteVerts, sdiff_singleton_eq_self hx] using
+      (Subset.rfl : V(G) ⊆ V(G))
+  · intro e u v huv
+    rw [deleteVerts_isLink]
+    have hu : u ≠ x := fun hux ↦ hx (hux ▸ huv.left_mem)
+    have hv : v ≠ x := fun hvx ↦ hx (hvx ▸ huv.right_mem)
+    exact ⟨huv, by simpa using hu, by simpa using hv⟩
 
 /-- Deleting the same vertices from both sides of an inclusion keeps it. -/
 theorem deleteVerts_mono (h : G ≤ H) (X : Set α) : G.deleteVerts X ≤ H.deleteVerts X where

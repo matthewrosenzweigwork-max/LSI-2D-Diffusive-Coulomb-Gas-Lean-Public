@@ -4,8 +4,8 @@
   "baseline_manifest": "verification/PUBLIC_SOURCE_MANIFEST.json",
   "target_lean": "leanprover/lean4:v4.35.0-rc2",
   "target_mathlib": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
-  "verification_status": "STATIC_ONLY_NOT_BUILT",
-  "module_transformation": "Insert module; make existing header imports public; insert @[expose] public section after the import header. No original declaration or proof text is removed or rewritten. Existing module files and lakefile.lean headers are unchanged.",
+  "verification_status": "FULL_PREFLIGHT_PENDING",
+  "module_transformation": "Original declaration/proof text is unchanged in module-interface-only files. Explicit compatibility-repair files have separately recorded before/after hashes and rationale. No theorem statement or physical definition is intentionally changed; a fresh kernel/Comparator pass is required.",
   "changes": [
     {
       "path": "IntegratedPaperRoute.lean",
@@ -4107,9 +4107,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/Graph/TwoConnected.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "7e84eb61b9576b084d38aea6bb179fcc2047ad87aa3295670563755f9f584fad",
-      "after_sha256": "a1589521fbdd90f85aabc98d9f3e14ff51a0f10ef63ffc3bb3b19482286062e2"
+      "after_sha256": "e98132c5fcac54acee80fd3421416706cb840ae0befaae6543bfe5d46c40f421",
+      "interface_only_sha256": "a1589521fbdd90f85aabc98d9f3e14ff51a0f10ef63ffc3bb3b19482286062e2",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/Graph/TwoPaths.lean",
@@ -11492,22 +11494,40 @@
       "after_sha256": "216b8d7479eafc5655c5613fa03ea8caa255b0b88a7465db833ad5cfbe447f30"
     },
     {
-      "path": "lean-toolchain",
-      "kind": "toolchain",
-      "before_sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
-      "after_sha256": "8dc8d6f560141069d9073e370611716ef77ada0da8ffa37e2149f44b2e63ac7a"
-    },
-    {
-      "path": "lakefile.toml",
-      "kind": "lake-mathlib-pin",
-      "before_sha256": "936a326cd39b3b9bc11c82bddd913a05f132d85f3a0082f1afdcd0b7fb007194",
-      "after_sha256": "811cde60d2a0f36f02d7a286987ef97454ae011923fbd9c27a0884efe6566891"
-    },
-    {
       "path": "lake-manifest.json",
       "kind": "dependency-lock",
       "before_sha256": "ceba2c7a517b501d87ee72f8ed070d307c44bac966ea3bde9d7f06286cac2d38",
       "after_sha256": "13aa28da02be4327250a682c8c22da851314f3737b81bef9905821eb4b848ae4"
+    },
+    {
+      "path": "lakefile.toml",
+      "kind": "lake-configuration",
+      "before_sha256": "936a326cd39b3b9bc11c82bddd913a05f132d85f3a0082f1afdcd0b7fb007194",
+      "after_sha256": "8f169d4b78091ef02ca1a76cb5a3e6c99dab7b2a58cffa7a2aabab459062863a"
+    },
+    {
+      "path": "lean-toolchain",
+      "kind": "toolchain",
+      "before_sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "after_sha256": "8dc8d6f560141069d9073e370611716ef77ada0da8ffa37e2149f44b2e63ac7a"
+    }
+  ],
+  "additional_statement_inputs": [
+    {
+      "path": "Challenge.lean",
+      "sha256": "4d15e8d6c510313278adee5d1e7683024055ec553df4ac06b3adb9116fac1a4c"
+    },
+    {
+      "path": "Solution.lean",
+      "sha256": "924302cd895902150185694746c9b4e39944f208881403250eb0588b71f1ae38"
+    },
+    {
+      "path": "comparator.json",
+      "sha256": "781ba5689389ace59b2d605d3104faaaa275321084e31b3b3520381d0ae18bb0"
+    },
+    {
+      "path": "formalization.yaml",
+      "sha256": "44fb5776e345467dc5bd8ef2ddcb4d3bec269d98cbc563f13494f785ced8f626"
     }
   ]
 }

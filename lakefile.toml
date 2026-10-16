@@ -19,3 +19,10 @@ name = "RetainedReload"
 
 [[lean_lib]]
 name = "PlanBAudit"
+
+# Independent audited statement and existing-proof implementation.
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"

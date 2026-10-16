@@ -1,0 +1,24 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "RepulsiveCoulomb.coulombVandermonde_continuous",
+    "RepulsiveCoulomb.coulombCoreJet_memLp",
+    "RepulsiveCoulomb.coulombCoreJet_add",
+    "RepulsiveCoulomb.coulombCoreJet_smul",
+    "RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate_pos",
+    "RepulsiveCoulomb.PaperRoute.paper_full_labeled_lsi_original",
+    "RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate_pos",
+    "RepulsiveCoulomb.PaperRoute.paper_uniform_labeled_lsi_original"
+  ],
+  "definition_names": [
+    "RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate",
+    "RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
