@@ -12,7 +12,7 @@ The tiny module/import/exposed-definition syntax smoke passed with the already-i
 
 ## Compute route
 
-The least disruptive build route is GitHub-hosted `ubuntu-24.04`, already used for the original joint repository's cold verification. `migration-build.yml` builds the three retained root targets plus Challenge/Solution in one hosted job, with two Lean runtime threads, a 120-minute timeout, fresh project objects, and retained logs. It does not represent a Palomar pass or an independent correspondence audit. It starts only on a push to this migration branch or manual dispatch.
+The least disruptive build route is GitHub-hosted `ubuntu-24.04`, already used for the original joint repository's cold verification. `migration-build.yml` builds Challenge/Solution, records bounded correspondence diagnostics, then builds the three retained audit roots in one hosted job, with two Lean runtime threads, a 120-minute timeout, fresh project objects, and retained logs. It does not represent a Palomar pass or an independent correspondence audit. It starts only on a push to this migration branch or manual dispatch.
 
 Project compilation and dependency-cache retrieval run on GitHub-hosted Linux. The Mac is used for source review, normal Git, and lightweight validation; unrelated active verification campaigns remain untouched.
 

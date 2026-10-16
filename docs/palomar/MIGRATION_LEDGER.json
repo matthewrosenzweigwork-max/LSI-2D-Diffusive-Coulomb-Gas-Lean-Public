@@ -11,7 +11,7 @@
       "path": "IntegratedPaperRoute.lean",
       "kind": "compatibility-repair",
       "before_sha256": "526da7d0261a2759be2c57164e1eacfd4ff66d350a41828eb4e9ac00af9d62b2",
-      "after_sha256": "b1089b8fb6741b885be8996aaf4e78dca9393652160cc0de7a9abeb050554ca6",
+      "after_sha256": "0e780fa0c374161069cc0863a45da9c4228544ff90ab3426c8e16ccd4f9b21ff",
       "interface_only_sha256": "f36b53b9a81a27e7084e7082db849ccb3575fcccc27dfefbb8b9d4cf77ce1d57",
       "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
@@ -11533,15 +11533,19 @@
     },
     {
       "path": "PlanBAudit.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "e5feb110c2ceec2a6bdc5e5201a1807313de27e845833854065c5ce2f5ab530c",
-      "after_sha256": "e1fdb157f16c091d415b40256244bb5a93795cf117e6188f027413254ed9edd9"
+      "after_sha256": "1c94262177347f2e516bf4e67260cc367c04169e802eb135c85058c9b4b8c681",
+      "interface_only_sha256": "e1fdb157f16c091d415b40256244bb5a93795cf117e6188f027413254ed9edd9",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "RetainedReload.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "19d21b44098574488ff9913cedb5d5e0d36b6fa72d84340e457ba2ada5924f8c",
-      "after_sha256": "216b8d7479eafc5655c5613fa03ea8caa255b0b88a7465db833ad5cfbe447f30"
+      "after_sha256": "4c6ec017f9b0dfe2c51efc33aff6f2e64702452752511ab8b1b8c440893b7f55",
+      "interface_only_sha256": "216b8d7479eafc5655c5613fa03ea8caa255b0b88a7465db833ad5cfbe447f30",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "lake-manifest.json",
@@ -11565,11 +11569,11 @@
   "additional_statement_inputs": [
     {
       "path": "Challenge.lean",
-      "sha256": "1fa2fe87f6b03464fd7b94ce8c271443f3b9cc1417463ad23ed31a0a51c0d5e5"
+      "sha256": "9aeace75383beb5146f2bebc0424a4e0b390e807563c56f0ff062dafd7480651"
     },
     {
       "path": "Solution.lean",
-      "sha256": "e0b2e3466fbe2b48a765095d4a033224068e55947968c224a6f886a2afeb37af"
+      "sha256": "f9827e39194bc1c6ee8420fe1fd58d70111c25db29833e9dd281a8d69769f8f9"
     },
     {
       "path": "comparator.json",

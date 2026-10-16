@@ -95,3 +95,19 @@ no original mathematical statement, definition or proof body is edited.
 [PLANAR_COMPARATOR_REPAIRS.md](PLANAR_COMPARATOR_REPAIRS.md) records the raw
 instance/cache/universe findings, scope and required fresh verification. The
 accepted frozen baseline and original source manifest remain unchanged.
+
+## Downstream audit adapters: exact import census and fixed-definition inspection
+
+Static inspection identified two downstream audit adaptations needed after introducing the private-body adapter. `RetainedReload` retains its original literal 1,929-name expected project-module array byte-for-byte, then explicitly appends the single known new name `LeanResearch.PalomarAuditPrivateImports` in a separate `expected.push` expression. Its exact-count comparison and per-module membership rejection are unchanged. No blanket namespace exclusion, broad adapter exception, or inferred count replaces them.
+
+`PlanBAudit` retains `public import RetainedReload` and separately adds plain `import all IntegratedPaperRoute`. This gives its private metaprogram access to the original integrated root declarations and the transitive private-body adapter while preserving its existing public reexport. Both audit adapters use an explicit nonexporting environment snapshot. The existing fixed-closure walk, including its type traversal and theorem-hole body cuts, is unchanged. All literal theorem-hole, four-definition, and witness arrays remain unchanged, as do the declaration-kind checks, missing-constant rejection, `sorryAx` rejection, and required fixed-definition membership guards.
+
+Only the fixed-closure axiom classifier changes from raw `.axiomInfo` inspection to official `Lean.collectAxioms` for each visited constant, rejecting every returned axiom outside the original `propext` / `Classical.choice` / `Quot.sound` list. This avoids treating sealed interface placeholders as new axioms. The public collector checks actual proof dependencies, including those recorded in imported module metadata; it does not allow a new mathematical axiom. The adapter's fixed dependency traversal still has exactly its original cuts, while axiom safety is checked independently with Lean's collector.
+
+These are static bookkeeping/module-visibility repairs. No mathematical source, model, bound, theorem, or proof changed; the original mathematical source remains unchanged by this audit batch. The final Solution wrapper imports PlanBAudit after its two original endpoint imports, requiring IntegratedPaperRoute, RetainedReload, and PlanBAudit to compile in the exact full-preflight candidate. This wiring does not itself establish a full pass.
+
+## Audit elaboration resource budget
+
+The c87 hosted audit build produced exactly fourteen deterministic heartbeat-limit diagnostics in `IntegratedPaperRoute`, all at the compiler's 200,000-heartbeat default while elaborating large audit metaprograms. The mathematical source and Challenge/Solution build had already passed. No additional type, axiom, producer, forbidden-route, or kernel diagnostic was reported, although timed-out commands had not completed their checks.
+
+All seventeen integrated `run_cmd` audit blocks, plus the retained census and Plan B audit block, now receive a finite scoped 2,000,000-heartbeat elaboration budget. The pre-existing unlimited setting in the point-admissibility namespace is replaced with the same finite budget. The original recursion-depth setting remains unchanged. This allocates compiler work; it does not disable an audit, alter a root/name array, change traversal cuts or the three-axiom allowlist, or modify mathematical declarations. The hosted workflow's wall-clock bound remains in force. The tenfold budget is headroom, not an assertion that compilation has passed; the exact final full preflight must execute every retained guard.
