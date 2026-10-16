@@ -1,0 +1,89 @@
+{
+  "commit": "c1faa35a5258f743890515f01c858c07e4eca2ff",
+  "method": "git archive; lexical leading-token scan; LF/CRLF physical line count; no Lean build",
+  "regular_files": 1945,
+  "regular_file_bytes": 15545145,
+  "lean_files_outside_git_and_lake": 1932,
+  "module_headers_found": 18,
+  "lakefile_header_exemptions": 0,
+  "missing_module_headers": 1914,
+  "missing_headers_by_directory": {
+    ".": 3,
+    "LeanResearch/PeriodicAttractiveLogGas": 3,
+    "LeanResearch/RepulsiveCoulomb": 1636,
+    "LeanResearch/RepulsiveCoulomb/Imported/ScalarCoarea": 1,
+    "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies": 108,
+    "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/Graph": 20,
+    "LeanResearch/RepulsiveCoulomb/PaperRoute": 143
+  },
+  "missing_header_examples": [
+    "IntegratedPaperRoute.lean",
+    "LeanResearch/PeriodicAttractiveLogGas/Entropy.lean",
+    "LeanResearch/PeriodicAttractiveLogGas/EntropyL2.lean",
+    "LeanResearch/PeriodicAttractiveLogGas/Rothaus.lean",
+    "LeanResearch/RepulsiveCoulomb/AffineAngularTailPotential.lean",
+    "LeanResearch/RepulsiveCoulomb/AffineCurveVariation.lean",
+    "LeanResearch/RepulsiveCoulomb/AffineLevelEdge.lean",
+    "LeanResearch/RepulsiveCoulomb/AffineLineTailTransport.lean",
+    "LeanResearch/RepulsiveCoulomb/AffineMomentumPotentialBound.lean",
+    "LeanResearch/RepulsiveCoulomb/AffineTriangleLevel.lean"
+  ],
+  "over_10000_lines": [],
+  "largest_lean_files": [
+    {
+      "path": "LeanResearch/RepulsiveCoulomb/Imported/ScalarCoarea/ScalarCoarea.lean",
+      "physical_lines": 3620,
+      "bytes": 183627
+    },
+    {
+      "path": "IntegratedPaperRoute.lean",
+      "physical_lines": 3467,
+      "bytes": 218766
+    },
+    {
+      "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/ArcCollars.lean",
+      "physical_lines": 1966,
+      "bytes": 97839
+    },
+    {
+      "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/InitialPair.lean",
+      "physical_lines": 1913,
+      "bytes": 93202
+    },
+    {
+      "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/FiniteTransferTarget.lean",
+      "physical_lines": 1908,
+      "bytes": 97844
+    },
+    {
+      "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/GeneratedStructure.lean",
+      "physical_lines": 1824,
+      "bytes": 95213
+    },
+    {
+      "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/FiniteTransfer.lean",
+      "physical_lines": 1794,
+      "bytes": 95858
+    },
+    {
+      "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/CommonSubdivision.lean",
+      "physical_lines": 1630,
+      "bytes": 77900
+    },
+    {
+      "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/Realization.lean",
+      "physical_lines": 1600,
+      "bytes": 81813
+    },
+    {
+      "path": "LeanResearch/RepulsiveCoulomb/Imported/Schoenflies/SourceAttachment.lean",
+      "physical_lines": 1594,
+      "bytes": 75949
+    }
+  ],
+  "symlinks": [],
+  "lfs_pointers": [],
+  "compiled_artifacts_outside_lake": [],
+  "submodules": [],
+  "limitations": "Not a Lean-parser, dependency-authentication, build, axiom, correspondence, Comparator, or registry check."
+}
