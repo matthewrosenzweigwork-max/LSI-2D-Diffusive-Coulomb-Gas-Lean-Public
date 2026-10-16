@@ -11515,19 +11515,19 @@
   "additional_statement_inputs": [
     {
       "path": "Challenge.lean",
-      "sha256": "4d15e8d6c510313278adee5d1e7683024055ec553df4ac06b3adb9116fac1a4c"
+      "sha256": "964006544d623331fc9ca280170694fa3f2c9869a15656032fc19384325cc5d0"
     },
     {
       "path": "Solution.lean",
-      "sha256": "924302cd895902150185694746c9b4e39944f208881403250eb0588b71f1ae38"
+      "sha256": "e0b2e3466fbe2b48a765095d4a033224068e55947968c224a6f886a2afeb37af"
     },
     {
       "path": "comparator.json",
-      "sha256": "781ba5689389ace59b2d605d3104faaaa275321084e31b3b3520381d0ae18bb0"
+      "sha256": "7035cc3821721522ad4f9fca55cf7d0e966b0e03af85f4a396bb52ce0ce2744e"
     },
     {
       "path": "formalization.yaml",
-      "sha256": "44fb5776e345467dc5bd8ef2ddcb4d3bec269d98cbc563f13494f785ced8f626"
+      "sha256": "2ecdaef40594141a909b2bf51cf7976b358d7b2876c8d1b5f9fc2f00c07db074"
     }
   ]
 }

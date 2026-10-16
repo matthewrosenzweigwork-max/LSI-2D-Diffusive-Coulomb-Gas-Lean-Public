@@ -9,11 +9,26 @@
     "RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate_pos",
     "RepulsiveCoulomb.PaperRoute.paper_full_labeled_lsi_original",
     "RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate_pos",
-    "RepulsiveCoulomb.PaperRoute.paper_uniform_labeled_lsi_original"
+    "RepulsiveCoulomb.PaperRoute.paper_uniform_labeled_lsi_original",
+    "RepulsiveCoulomb.pointPunctures_finite",
+    "RepulsiveCoulomb.pointMeasure_isProbability",
+    "RepulsiveCoulomb.pointCoreJet_memLp",
+    "RepulsiveCoulomb.pointCoreJet_add",
+    "RepulsiveCoulomb.pointCoreJet_smul",
+    "RepulsiveCoulomb.PaperRoute.paperWeightedP1_pos",
+    "RepulsiveCoulomb.PaperRoute.paperWeightedK1_pos",
+    "RepulsiveCoulomb.PaperRoute.paperCwt_pos",
+    "RepulsiveCoulomb.PaperRoute.paperRhoWt_pos",
+    "RepulsiveCoulomb.PaperRoute.paperCwt_scaling",
+    "RepulsiveCoulomb.PaperRoute.paperRhoWt_scaling",
+    "RepulsiveCoulomb.PaperRoute.paper_weighted_named_inequalities",
+    "RepulsiveCoulomb.PaperRoute.paper_weighted_named_full_above"
   ],
   "definition_names": [
     "RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate",
-    "RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate"
+    "RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate",
+    "RepulsiveCoulomb.PaperRoute.paperWeightedP1",
+    "RepulsiveCoulomb.PaperRoute.paperWeightedK1"
   ],
   "permitted_axioms": [
     "propext",
