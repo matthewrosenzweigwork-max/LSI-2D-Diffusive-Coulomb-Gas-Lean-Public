@@ -1,6 +1,7 @@
 module
 
 public import IntegratedPaperRoute
+import all IntegratedPaperRoute
 
 @[expose] public section
 noncomputable section
