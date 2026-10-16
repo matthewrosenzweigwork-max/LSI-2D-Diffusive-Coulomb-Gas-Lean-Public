@@ -77,3 +77,21 @@ The pinned rc2 parser (`src/Lean/Parser/Module.lean`, lines 100–105) explicitl
 The exact pinned module loader's private-import rule propagates private bodies through an `import all` chain: if `A` is loaded at private-all level and `A import all B`, then `B` is loaded at private-all level as well. A three-module Lean-only fixture confirmed the behavior with the installed Lean v4.35.0-rc3: `A` defined a public endpoint proved by a private helper; `B` used plain `import all A`; `C` used plain `import all B`. In `C`, a nonexporting `Environment.find?` returned actual theorem bodies for both the endpoint and its original private helper, and `collectAxioms` returned the empty array. All three fixture compilations exited zero in about three seconds. Fixture source/output lives at `/tmp/planar-private-import-fixture-_ja63m2h`.
 
 This is an executable rc3 syntax/import-transitivity smoke plus exact rc2 parser/loader source inspection, not an rc2 project build. The rc2 hosted project build remains required. Source: [pinned rc2 parser restriction](https://github.com/leanprover/lean4/blob/11acb17ec6b07a8f9e9173e6845197929540936b/src/Lean/Parser/Module.lean#L100-L105). No project mathematical source, axiom allowlist, or build/cache configuration changed during this correction.
+
+### Audit helper module-documentation ordering correction
+
+Hosted source run `38947998056` compiled the mathematical source and Solution, then rejected the audit helper's first import because its preceding `/-! ... -/` module documentation had already ended Lean's import header. The helper documentation now follows all 1,929 plain `import all` directives. The import names, their order, and every other non-comment token remain unchanged; the file remains 1,941 lines. `IntegratedPaperRoute` has no analogous issue: before its final import it uses only ordinary whitespace and a line comment, with its first actual command after all imports.
+
+The revised Lean-only `B`/`C` fixture compiled successfully with the installed rc3 compiler, preserving transitive access to both original theorem bodies and returning no axioms. In addition, a Lean-only parser check read the **exact saved project files** as text, without importing/building the project, and called `Lean.Parser.parseHeader`: it parsed all 1,929 helper imports and all 61 integrated-root imports with no errors. This verifies the complete header layouts rather than a shortened approximation. The check source is `/tmp/planar-private-import-fixture-_ja63m2h/HeaderCheck.lean`; it is an rc3 parser smoke, not an rc2 project build.
+
+No mathematical file, build/cache setting, audit allowlist, or traversal guard changed. No project build, commit, or push was performed during this correction.
+
+### Strict compact correspondence: elaborator cache metadata
+
+The twelve source files containing the 63 compact declarations receive only
+canonical meta imports and auxiliary-lemma cache resets before those existing
+declarations. Removing those added lines recovers their previous bytes exactly;
+no original mathematical statement, definition or proof body is edited.
+[PLANAR_COMPARATOR_REPAIRS.md](PLANAR_COMPARATOR_REPAIRS.md) records the raw
+instance/cache/universe findings, scope and required fresh verification. The
+accepted frozen baseline and original source manifest remain unchanged.

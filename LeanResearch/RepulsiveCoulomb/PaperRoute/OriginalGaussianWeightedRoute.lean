@@ -4,6 +4,8 @@ public import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianLocalGeom
 public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianDiskHalfMass
 public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianDilationRoute
 public import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicFormMoment
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -49,9 +51,11 @@ theorem original_weighted_full_domain (Q : ℝ) :
     intro γ hγ m a ha y hQ u
     exact (hQ0 ((Finset.sum_nonneg (fun j _ => ha j)).trans hQ)).elim
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def paperWeightedP1 (Q : ℝ) : ℝ :=
   Classical.choose (original_weighted_full_domain Q)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def paperWeightedK1 (Q : ℝ) : ℝ :=
   Classical.choose (Classical.choose_spec (original_weighted_full_domain Q))
 
@@ -65,27 +69,35 @@ theorem paper_weighted_named_spec (Q : ℝ) :
         (((paperWeightedK1 Q / γ) * pointFormEnergy hγ ha y u : ℝ) : EReal) :=
   Classical.choose_spec (Classical.choose_spec (original_weighted_full_domain Q))
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem paperWeightedP1_pos (Q : ℝ) : 0 < paperWeightedP1 Q :=
   (paper_weighted_named_spec Q).1
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem paperWeightedK1_pos (Q : ℝ) : 0 < paperWeightedK1 Q :=
   (paper_weighted_named_spec Q).2.1
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def paperCwt (γ Q : ℝ) : ℝ := paperWeightedP1 Q / γ
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def paperRhoWt (γ Q : ℝ) : ℝ := 2 * γ / paperWeightedK1 Q
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem paperCwt_pos {γ : ℝ} (hγ : 0 < γ) (Q : ℝ) :
     0 < paperCwt γ Q := div_pos (paperWeightedP1_pos Q) hγ
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem paperRhoWt_pos {γ : ℝ} (hγ : 0 < γ) (Q : ℝ) :
     0 < paperRhoWt γ Q :=
   div_pos (mul_pos (by norm_num) hγ) (paperWeightedK1_pos Q)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem paperCwt_scaling (γ Q : ℝ) :
     paperCwt γ Q = paperCwt 1 Q / γ := by
   simp only [paperCwt, div_one]
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem paperRhoWt_scaling (γ Q : ℝ) :
     paperRhoWt γ Q = γ * paperRhoWt 1 Q := by
   unfold paperRhoWt
@@ -96,6 +108,7 @@ theorem paper_two_div_RhoWt {γ : ℝ} (hγ : 0 < γ) (Q : ℝ) :
   unfold paperRhoWt
   field_simp [hγ.ne', (paperWeightedK1_pos Q).ne']
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem paper_weighted_named_inequalities (Q : ℝ) {γ : ℝ} (hγ : 0 < γ)
     (m : ℕ) (a : Fin m → ℝ) (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ)
     (hQ : ∑ j, a j ≤ Q) (u : PointFormDomain hγ ha y) :
@@ -122,6 +135,7 @@ theorem paper_weighted_named_core (Q : ℝ) {γ : ℝ} (hγ : 0 < γ)
   rw [pointFormCore_variance, pointFormCore_energy_eq_integral, entropy_congr_ae hsq] at h
   exact h
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem paper_weighted_named_full_above (Q : ℝ) {γ₀ γ : ℝ}
     (hγ₀ : 0 < γ₀) (hγ : 0 < γ) (hγle : γ₀ ≤ γ)
     (m : ℕ) (a : Fin m → ℝ) (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ)

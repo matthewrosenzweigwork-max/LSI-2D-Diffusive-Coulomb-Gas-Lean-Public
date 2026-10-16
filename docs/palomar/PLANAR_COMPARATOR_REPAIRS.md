@@ -121,3 +121,262 @@ lake env lean --run scripts/compare_constants.lean comparator.json > constants.j
 ```
 
 The source-build workflow runs this after its build attempt and preserves the JSONL output alongside the actual build logs. Configured theorem holes compare kind and ConstantVal; configured definition holes compare ConstantVal and safety, retaining their intended witness-value freedom. Every other Challenge-origin declaration is compared fully. This complete inventory is diagnostic, not a selected-closure acceptance verdict.
+
+## Fixed-dependency module provenance (read-only map at `d2ee2fc`)
+
+This inventory covers all **38 fixed definitions/abbreviations in ten source modules**. There are no structure declarations in this surface. The four explicitly selected witness definitions are excluded from the fixed count and marked `H` when they precede a fixed definition. All paths below are relative to this repository. Line numbers refer to the current module-only port, not to manuscript line numbers.
+
+For each group, `#` is the ordinal of a named source declaration (`def`, `abbrev`, `theorem`, `lemma`, or `instance`) within that original file. To recover the exact original predecessor set of a fixed declaration numbered *k*, take every row with number smaller than *k*. The prefix stops at the last fixed declaration; later source declarations cannot populate the cache before these definitions. `F` means a fixed Challenge declaration, `H` a selected theorem/witness hole, and `O` an omitted declaration. The original theorem proofs of `H` declarations are also absent from Challenge, so their elaboration activity is not reproduced. This is a source inventory rather than a claim that every listed proof allocates an auxiliary lemma.
+
+### `LeanResearch/RepulsiveCoulomb/Imported/TauCeti/Analysis/Sobolev/W1p/Basic.lean`
+
+Namespace: `TauCeti`. Fixed declarations in original order: `Sobolev1Jet`.
+
+| # | Source line | Kind | Declaration | Challenge context |
+|---|---:|---|---|---|
+| 1 | 80 | abbrev | `Sobolev1Jet` | F |
+
+### `LeanResearch/PeriodicAttractiveLogGas/Entropy.lean`
+
+Namespace: `PeriodicAttractiveLogGas`. Fixed declarations in original order: `entropyDensity`, `entropy`.
+
+| # | Source line | Kind | Declaration | Challenge context |
+|---|---:|---|---|---|
+| 1 | 28 | def | `entropyDensity` | F |
+| 2 | 30 | theorem | `entropyDensity_nonneg` | O |
+| 3 | 35 | theorem | `continuous_entropyDensity` | O |
+| 4 | 41 | def | `entropy` | F |
+
+### `LeanResearch/RepulsiveCoulomb/LabeledCoulombModel.lean`
+
+Namespace: `RepulsiveCoulomb`. Fixed declarations in original order: `CoulombConfig`, `coulombPairs`, `coulombCoordinate`, `coulombVandermonde`, `coulombDomain`, `coulombWeight`, `coulombPartition`, `coulombMeasure`.
+
+| # | Source line | Kind | Declaration | Challenge context |
+|---|---:|---|---|---|
+| 1 | 18 | abbrev | `CoulombConfig` | F |
+| 2 | 20 | def | `coulombPairs` | F |
+| 3 | 23 | theorem | `mem_coulombPairs` | O |
+| 4 | 26 | def | `coulombCoordinate` | F |
+| 5 | 29 | theorem | `coulombCoordinate_apply` | O |
+| 6 | 32 | def | `coulombVandermonde` | F |
+| 7 | 35 | theorem | `coulombVandermonde_continuous` | H |
+| 8 | 39 | theorem | `coulombVandermonde_ne_zero_iff` | O |
+| 9 | 50 | def | `coulombDomain` | F |
+| 10 | 53 | def | `coulombWeight` | F |
+| 11 | 57 | theorem | `coulombWeight_nonneg` | O |
+| 12 | 61 | theorem | `coulombWeight_continuous` | O |
+| 13 | 70 | theorem | `coulombWeight_pos_off_collisions` | O |
+| 14 | 80 | theorem | `coulombWeight_zero_at_collision` | O |
+| 15 | 92 | def | `coulombPartition` | F |
+| 16 | 95 | def | `coulombMeasure` | F |
+
+### `LeanResearch/RepulsiveCoulomb/CoulombFormCore.lean`
+
+Namespace: `RepulsiveCoulomb`. Fixed declarations in original order: `CoulombJetL2`, `coulombJetValueL`, `coulombJetGradientL`, `coulombCoreJet`.
+
+| # | Source line | Kind | Declaration | Challenge context |
+|---|---:|---|---|---|
+| 1 | 16 | abbrev | `CoulombJetL2` | F |
+| 2 | 18 | def | `coulombJetValueL` | F |
+| 3 | 21 | def | `coulombJetGradientL` | F |
+| 4 | 24 | theorem | `coulombJetValueL_coe` | O |
+| 5 | 28 | theorem | `coulombJetGradientL_coe` | O |
+| 6 | 32 | theorem | `coulombCoreJet_memLp` | H |
+| 7 | 45 | def | `coulombCoreJet` | F |
+
+### `LeanResearch/RepulsiveCoulomb/CoulombClosedForm.lean`
+
+Namespace: `RepulsiveCoulomb`. Fixed declarations in original order: `coulombCoreJetLinear`, `coulombFormSubmodule`, `CoulombFormDomain`, `coulombFormValueL`, `coulombFormGradientL`, `coulombFormEnergy`.
+
+| # | Source line | Kind | Declaration | Challenge context |
+|---|---:|---|---|---|
+| 1 | 14 | theorem | `coulombCoreJet_add` | H |
+| 2 | 28 | theorem | `coulombCoreJet_smul` | H |
+| 3 | 42 | def | `coulombCoreJetLinear` | F |
+| 4 | 48 | def | `coulombFormSubmodule` | F |
+| 5 | 51 | theorem | `coe_coulombFormSubmodule` | O |
+| 6 | 56 | abbrev | `CoulombFormDomain` | F |
+| 7 | 58 | instance | `coulombFormDomain_completeSpace` | O |
+| 8 | 61 | def | `coulombFormValueL` | F |
+| 9 | 65 | def | `coulombFormGradientL` | F |
+| 10 | 69 | theorem | `coulombFormValueL_eq_zero_iff` | O |
+| 11 | 78 | theorem | `coulombFormValueL_injective` | O |
+| 12 | 84 | def | `coulombFormEnergy` | F |
+
+### `LeanResearch/RepulsiveCoulomb/WeightedPointModel.lean`
+
+Namespace: `RepulsiveCoulomb`. Fixed declarations in original order: `pointWeight`, `pointPunctures`, `pointPartition`, `pointMeasure`.
+
+| # | Source line | Kind | Declaration | Challenge context |
+|---|---:|---|---|---|
+| 1 | 26 | def | `pointWeight` | F |
+| 2 | 30 | def | `pointPunctures` | F |
+| 3 | 34 | def | `pointWeightAdmissible` | O |
+| 4 | 37 | theorem | `pointWeight_nonneg` | O |
+| 5 | 43 | theorem | `pointWeight_pos_of_avoids` | O |
+| 6 | 51 | theorem | `pointWeight_zero_exponents` | O |
+| 7 | 55 | theorem | `pointWeight_empty` | O |
+| 8 | 61 | def | `pointPartition` | F |
+| 9 | 64 | def | `pointMeasure` | F |
+
+### `LeanResearch/RepulsiveCoulomb/PointWeightRegularity.lean`
+
+Namespace: `RepulsiveCoulomb`. Fixed declarations in original order: `pointDomain`.
+
+| # | Source line | Kind | Declaration | Challenge context |
+|---|---:|---|---|---|
+| 1 | 17 | theorem | `pointPunctures_finite` | H |
+| 2 | 23 | def | `pointDomain` | F |
+
+### `LeanResearch/RepulsiveCoulomb/PointWeightFormCore.lean`
+
+Namespace: `RepulsiveCoulomb`. Fixed declarations in original order: `PointJetL2`, `pointJetValueL`, `pointJetGradientL`, `pointCoreJet`.
+
+| # | Source line | Kind | Declaration | Challenge context |
+|---|---:|---|---|---|
+| 1 | 20 | abbrev | `PointJetL2` | F |
+| 2 | 23 | def | `pointJetValueL` | F |
+| 3 | 27 | def | `pointJetGradientL` | F |
+| 4 | 31 | theorem | `pointJetValueL_coe` | O |
+| 5 | 36 | theorem | `pointJetGradientL_coe` | O |
+| 6 | 41 | theorem | `pointCoreJet_memLp` | H |
+| 7 | 56 | def | `pointCoreJet` | F |
+
+### `LeanResearch/RepulsiveCoulomb/PointWeightClosedForm.lean`
+
+Namespace: `RepulsiveCoulomb`. Fixed declarations in original order: `pointCoreJetLinear`, `pointFormSubmodule`, `PointFormDomain`, `pointFormValueL`, `pointFormGradientL`, `pointFormEnergy`.
+
+| # | Source line | Kind | Declaration | Challenge context |
+|---|---:|---|---|---|
+| 1 | 16 | theorem | `pointCoreJet_add` | H |
+| 2 | 33 | theorem | `pointCoreJet_smul` | H |
+| 3 | 48 | def | `pointCoreJetLinear` | F |
+| 4 | 55 | def | `pointFormSubmodule` | F |
+| 5 | 60 | theorem | `coe_pointFormSubmodule` | O |
+| 6 | 67 | abbrev | `PointFormDomain` | F |
+| 7 | 71 | instance | `pointFormDomain_completeSpace` | O |
+| 8 | 76 | def | `pointFormValueL` | F |
+| 9 | 81 | def | `pointFormGradientL` | F |
+| 10 | 86 | theorem | `pointFormValueL_eq_zero_iff` | O |
+| 11 | 97 | theorem | `pointFormValueL_injective` | O |
+| 12 | 105 | def | `pointFormEnergy` | F |
+
+### `LeanResearch/RepulsiveCoulomb/PaperRoute/OriginalGaussianWeightedRoute.lean`
+
+Namespace: `RepulsiveCoulomb.PaperRoute`. Fixed declarations in original order: `paperCwt`, `paperRhoWt`.
+
+| # | Source line | Kind | Declaration | Challenge context |
+|---|---:|---|---|---|
+| 1 | 21 | theorem | `original_weighted_full_domain_of_moment` | O |
+| 2 | 37 | theorem | `original_weighted_full_domain` | O |
+| 3 | 52 | def | `paperWeightedP1` | H |
+| 4 | 55 | def | `paperWeightedK1` | H |
+| 5 | 58 | theorem | `paper_weighted_named_spec` | O |
+| 6 | 68 | theorem | `paperWeightedP1_pos` | H |
+| 7 | 71 | theorem | `paperWeightedK1_pos` | H |
+| 8 | 74 | def | `paperCwt` | F |
+| 9 | 76 | def | `paperRhoWt` | F |
+
+### Definite context omissions and interpretation
+
+1. **Source-module boundaries are absent.** All ten groups elaborate in one Challenge module. Lean’s nonpersistent `Lean.Meta.auxLemmasExt` cache starts fresh for separately elaborated source modules but is not reset by ordinary `namespace`/`section` boundaries. Cross-group reuse is therefore possible in Challenge. A reset before each original group would address only that cross-group difference; it would not restore omitted within-group proof elaboration. Resetting before every definition would also destroy legitimate original within-group reuse. No reset has been applied here.
+
+2. **The prefix tables contain 29 omitted declarations before a fixed dependency.** The omitted `mem_coulombPairs` and `coulombCoordinate_apply` precede the first failing selected theorem; `coulombVandermonde_ne_zero_iff` and four weight lemmas precede the model normalizers. `entropy` omits two preceding entropy-density lemmas. Both jet-core modules omit their two projection-coercion lemmas before the core constructor. Each closed-form module omits its graph-coercion theorem, its completeness instance, and its value-zero/injectivity lemmas before the final energy definition. The weighted model omits `pointWeightAdmissible` and four elementary weight lemmas before normalization. The final weighted-rate module omits the two producer theorems and `paper_weighted_named_spec`; its two witnesses have their intended selected-hole bodies in Challenge. Their mathematical producers remain in Solution.
+
+3. **Omitted persistent instances deserve separate interpretation.** `coulombFormDomain_completeSpace` and `pointFormDomain_completeSpace` are named instance declarations, not merely potential cache contributors. Solution has them available before its form projections and energy; Challenge does not declare them. Their absence may select a different available elaborated instance term even if the resulting physical form is the same. No such mismatch is established without the raw ConstantInfo output. There are no additional local/scoped instance declarations, `set_option`, `attribute`, or `run_cmd` commands in the ten inspected source prefixes.
+
+4. **Other module context.** All ten source modules are noncomputable public sections; all except imported Tau Ceti `W1p.Basic` use `@[expose] public section`, whereas that file uses `public section`. `W1p.Basic` declares ambient variables/classes for subsequent Sobolev constructions before `Sobolev1Jet`, but the copied abbreviation explicitly binds its own `E` and its body is just `WithLp 2 (ℝ × E)`; no Haar or finite-dimensional assumption is added to that fibre. Entropy has the same ambient `{α : Type*} [MeasurableSpace α]` variables in both files. The remaining fixed declarations bind their parameters explicitly. Imports and open scopes differ from the monolithic canonical `Mathlib` context; imported logical constants and persistent instances are available in Solution, while an imported module does not serialize this local proof cache.
+
+5. **No mathematical difference follows from these omissions alone.** No formula, normalization, domain, energy, selected signature, theorem assumption or quantifier has been changed in this investigation. Both manuscript main theorem surfaces remain present. The source-provenance map identifies exact elaboration contexts to consult when the hosted raw inventory arrives; it does not justify new assumptions, weaker endpoints, or guessed proof substitutions.
+
+Only this documentation was updated for the provenance task. Challenge, Solution, original proof modules, comparator/configuration, workflow and ledgers were not edited; no build or cache download was run.
+
+## Complete target diagnostic at `d2ee2fc`
+
+Hosted run [38947998056](https://github.com/matthewrosenzweigwork-max/LSI-2D-Diffusive-Coulomb-Gas-Lean-Public/actions/runs/38947998056)
+compiled the mathematical source, Solution and Challenge. The retained audit did
+not run successfully because its new helper placed module documentation before
+imports; that syntax defect is corrected separately. The constant diagnostic
+completed and its artifact archive SHA256 was checked against GitHub's digest:
+`f2813d1ca001007bb6cfc5b24428ed4584a671078b67a07d42d45c82faaf2616`.
+
+The inventory checked 103 Challenge-origin/configured constants: 36 matched and
+67 differed under the applicable raw comparison rule. This complete inventory
+includes generated helpers and is not itself the selected-closure verdict.
+The 890 MB raw JSON Lines output is retained privately with the build logs;
+the bounded diagnostic below avoids repeating these very large type dumps.
+
+A separate streamed review found exactly ten selected theorem type mismatches.
+All ten become exactly equal after whitespace normalization and only these
+identifier correspondences:
+
+- `CommCStarAlgebra.toNormedCommRing` / `instCommCStarAlgebraComplex` versus
+  `NormedField.toNormedCommRing` / `Complex.instNormedField`;
+- generated proofs of the same canonical numeric fact cached under
+  `TauCeti.Sobolev1Jet._proof_1` versus the original jet declaration's helper.
+
+The broad `Mathlib` import installs an additional complex C-star-algebra
+instance that the original source imports did not install at elaboration time.
+For fixed declarations, the broader import also chooses
+`Complex.instFiniteDimensionalReal` where the source uses the canonical
+`FiniteDimensional.rclike_to_real` construction. Challenge-local removal of the
+two alternate instance registrations restores the original search context
+without introducing a replacement mathematical instance or hypothesis.
+
+All 20 differing fixed-root type fields and 28 differing fixed-root value
+fields became exactly equal after only the two canonical instance-path
+correspondences and generated auxiliary-proof-name normalization. The generic
+`TauCeti.Sobolev1Jet` additionally uses the universe parameter name `u_2` in the
+source and `u_1` in the compact file; its polymorphic domain is unchanged.
+Four regular-height metadata differences were found: the two open-domain
+values and the two derived weighted constants. The domain height difference
+tracks the alternate complex instance path. The weighted constants depend on
+selected witness definitions whose source values and hole placeholder values
+have different heights. Their actual source heights must be inspected before
+using Lean's supported definition-height override extension.
+
+These normalizations identify the causes; they do not establish a Comparator
+pass. The repaired source and compact surface require fresh hosted builds,
+retained audits and a full exact-commit preflight.
+
+## Bounded follow-up diagnostic
+
+```sh
+lake env lean --run scripts/inspect_correspondence.lean comparator.json > bounded-correspondence.jsonl
+```
+
+This script uses separate environments and the same configured-hole matching
+rules. It reports bounded expression-tree differences, all four configured
+witness heights, and fixed declaration metadata. Its tiny Lean-only smoke test
+covered type, value, universe, generated-helper and missing-declaration cases;
+that smoke is not a project build or rc2 verification pass. The workflow runs
+it after building Challenge and Solution, then builds all retained audit roots.
+
+## Administrative cache alignment for the next candidate
+
+The compact file and the twelve original files containing its declarations now
+clear `Lean.Meta.auxLemmasExt` before the same 63 declarations: 38 fixed
+definitions/abbreviations, 21 selected theorems, and four selected witness
+definitions. The reset precedes any attached docstring. The two added canonical
+meta imports provide the existing Lean command and auxiliary-lemma APIs.
+
+The extension is an elaborator memo table for auxiliary proofs. Clearing it
+makes each copied declaration start with the same empty cache in both source
+and Challenge, independent of omitted preceding proof bodies or original file
+boundaries. Each generated helper is still elaborated and kernel checked
+normally. These commands do not alter the logical constant map, add an axiom,
+change a kernel option, or supply a proof hole to Solution.
+
+A programmatic fidelity check removed only the added imports and reset lines
+and recovered all twelve prior source files and the prior Challenge byte for
+byte. Original declaration statements, mathematical definitions, proof bodies
+and documentation are therefore retained literally by this alignment. The
+Challenge's separate universe spelling and canonical-instance metadata repairs
+are described above. No additional completeness instance or selected hole was
+introduced.
+
+Tiny installed-rc3 fixtures also checked that instance erasure restores the
+original fallback, explicit `u_2` stays in its namespace scope, later automatic
+universe naming remains `u_1`, and an already registered outer `u_1` leaves a subsequent automatic
+universe parameter at `u_2` across a reset. These are language smoke tests; the next
+hosted rc2 build and exact-commit Comparator report remain required.

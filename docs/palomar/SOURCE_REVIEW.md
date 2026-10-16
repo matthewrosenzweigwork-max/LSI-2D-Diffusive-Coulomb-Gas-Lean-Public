@@ -41,3 +41,30 @@ A separate reviewer compared the `IntegratedPaperRoute` repair against `506828c9
 The audit-only helper imports exactly the prior 1,929-module project closure and is absent from Solution's dependencies. Root review caught an unsupported `public import all` modifier combination before push; the helper now uses supported plain `import all`. Independent review checked the corrected syntax and transitive private-import semantics against exact rc2 source. A tiny three-module rc3 fixture was run successfully, including a root rerun: the endpoint and its original private helper proof bodies were accessible through both private import layers, with empty collected axioms. This is a targeted syntax/visibility test, not an rc2 project build. No mathematical proof or statement changed. Hosted compilation remains required.
 
 The source-build workflow also retains a read-only JSONL comparison of both compact environments. The script reads the configured theorem and definition-hole selections, uses the same comparison boundaries as Lake, and reports all Challenge-owned declarations. Its diagnostics are not a Comparator or independent-kernel pass.
+
+
+## Bounded review of the planar correspondence repair
+
+After the `d2ee2fc` hosted diagnostic, a separate agent streamed every selected
+theorem type difference and accounted for all ten by canonical complex-instance
+paths and generated auxiliary-proof names. Root separately accounted for all
+20 differing fixed-root type fields and 28 differing fixed-root value fields
+using only the same paths, the canonical real finite-dimensional construction,
+and auxiliary-proof-name correspondence. The generic Sobolev jet had only a
+universe-parameter spelling difference. This identifies elaboration causes;
+it does not establish actual Comparator acceptance.
+
+A separate read-only diff review then checked the next administrative repair
+against `d2ee2fc`: removing only the two canonical meta imports and reset lines
+recovered all twelve original source files byte for byte. The same held for
+Challenge after additionally undoing its intended canonical-instance erasures
+and explicit source universe spelling. All 25 configured holes, original
+docstrings, and audit guards were retained. No new mathematical axiom,
+hypothesis, Solution hole, fixed-formula change, or proof-body edit was found.
+The retained audit root itself is unchanged by this cache repair. Its helper
+keeps exactly the same 1,929 imports, with documentation moved after them.
+
+The review is bounded automated source review. It is not external human review
+or a full manuscript proof-argument audit. The fresh hosted rc2 source/audit
+build and full exact-commit preflight remain required; actual selected witness
+heights will be inspected before any height override is applied.

@@ -1,15 +1,5 @@
 module
 
-/-!
-# Private proof data for the integrated release audit
-
-This module imports precisely the project modules already reachable from the
-original IntegratedPaperRoute imports. The audit needs their private bodies to
-check required/forbidden proof routes under Lean's module system. Mathematical
-consumers and Solution do not import this audit-only module. Canonical library
-axioms are checked with Lean.collectAxioms and its saved module metadata.
--/
-
 import all LeanResearch.PeriodicAttractiveLogGas.Entropy
 import all LeanResearch.PeriodicAttractiveLogGas.EntropyL2
 import all LeanResearch.PeriodicAttractiveLogGas.Rothaus
@@ -1939,3 +1929,13 @@ import all LeanResearch.RepulsiveCoulomb.WeightedPointNormalization
 import all LeanResearch.RepulsiveCoulomb.WeightedPunctureMassBound
 import all LeanResearch.RepulsiveCoulomb.WeightedPunctureVanishing
 import all LeanResearch.RepulsiveCoulomb.WeightedSetMeanCentering
+
+/-!
+# Private proof data for the integrated release audit
+
+This module imports precisely the project modules already reachable from the
+original IntegratedPaperRoute imports. The audit needs their private bodies to
+check required/forbidden proof routes under Lean's module system. Mathematical
+consumers and Solution do not import this audit-only module. Canonical library
+axioms are checked with Lean.collectAxioms and its saved module metadata.
+-/

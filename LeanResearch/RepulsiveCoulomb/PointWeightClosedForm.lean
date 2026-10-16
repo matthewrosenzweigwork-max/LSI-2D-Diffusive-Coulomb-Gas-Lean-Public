@@ -1,6 +1,8 @@
 module
 
 public import LeanResearch.RepulsiveCoulomb.PointWeightClosability
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -13,6 +15,7 @@ open MeasureTheory Set Filter TopologicalSpace
 open scoped ENNReal Topology
 namespace RepulsiveCoulomb
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem pointCoreJet_add {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     {a : Fin m → ℝ} (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ)
     (φ ψ : TestFunction (pointDomain a y) ℝ ⊤) :
@@ -30,6 +33,7 @@ theorem pointCoreJet_add {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
   · exact TauCeti.gradient_add (φ.contDiff.differentiable (by simp) z)
       (ψ.contDiff.differentiable (by simp) z)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem pointCoreJet_smul {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     {a : Fin m → ℝ} (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ)
     (c : ℝ) (φ : TestFunction (pointDomain a y) ℝ ⊤) :
@@ -45,6 +49,7 @@ theorem pointCoreJet_smul {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
   · rfl
   · simpa using (TauCeti.gradient_const_smul (𝕜 := ℝ) (f := (φ : ℂ → ℝ)) (x := z) c)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def pointCoreJetLinear {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     {a : Fin m → ℝ} (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ) :
     TestFunction (pointDomain a y) ℝ ⊤ →ₗ[ℝ] PointJetL2 γ a y where
@@ -52,6 +57,7 @@ def pointCoreJetLinear {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
   map_add' := pointCoreJet_add hγ ha y
   map_smul' := pointCoreJet_smul hγ ha y
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def pointFormSubmodule {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     {a : Fin m → ℝ} (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ) :
     ClosedSubmodule ℝ (PointJetL2 γ a y) :=
@@ -63,6 +69,7 @@ theorem coe_pointFormSubmodule {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
   rw [pointFormSubmodule, Submodule.coe_closure, LinearMap.coe_range]
   rfl
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- The completion of the prescribed core in its value/gradient Hilbert norm. -/
 abbrev PointFormDomain {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     {a : Fin m → ℝ} (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ) :=
@@ -73,11 +80,13 @@ instance pointFormDomain_completeSpace {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     CompleteSpace (PointFormDomain hγ ha y) :=
   (pointFormSubmodule hγ ha y).isClosed.completeSpace_coe
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def pointFormValueL {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     {a : Fin m → ℝ} (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ) :
     PointFormDomain hγ ha y →L[ℝ] Lp ℝ 2 (pointMeasure γ a y) :=
   (pointJetValueL γ a y).comp (pointFormSubmodule hγ ha y).toSubmodule.subtypeL
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def pointFormGradientL {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     {a : Fin m → ℝ} (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ) :
     PointFormDomain hγ ha y →L[ℝ] Lp ℂ 2 (pointMeasure γ a y) :=
@@ -102,6 +111,7 @@ theorem pointFormValueL_injective {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
   apply (pointFormValueL_eq_zero_iff hγ ha y (u - v)).mp
   rw [map_sub, huv, sub_self]
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def pointFormEnergy {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     {a : Fin m → ℝ} (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ)
     (u : PointFormDomain hγ ha y) : ℝ := ‖pointFormGradientL hγ ha y u‖ ^ 2

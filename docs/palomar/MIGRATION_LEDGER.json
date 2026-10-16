@@ -17,9 +17,11 @@
     },
     {
       "path": "LeanResearch/PeriodicAttractiveLogGas/Entropy.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "d6d818dfc6e238e394dc09b7c374db6333b7d3d142543eed1f5e4fea6584001c",
-      "after_sha256": "b198e0710def48cc03261c6c3476e71a506b3741433415a0c7776fa71b79a2f1"
+      "after_sha256": "b60371d07e4ea83bc200ab3d392782fc3346644290cb2e6c5b632c1e3e5f1cb1",
+      "interface_only_sha256": "b198e0710def48cc03261c6c3476e71a506b3741433415a0c7776fa71b79a2f1",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/PeriodicAttractiveLogGas/EntropyL2.lean",
@@ -799,9 +801,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/CoulombClosedForm.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "4486d93a406f1209cd6382c54669efb388b03de190e600325dc3998404c9a34e",
-      "after_sha256": "50d269bbe125d0ad34dee1d5bff75060e862d1e45c4c62e17e3eefce6e933d8c"
+      "after_sha256": "7eb2bd2a670878092b0f0536aa595623be93b5dff9a3f52eb7ff7a70d6872924",
+      "interface_only_sha256": "50d269bbe125d0ad34dee1d5bff75060e862d1e45c4c62e17e3eefce6e933d8c",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/CoulombCollisionCapacity.lean",
@@ -1021,9 +1025,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/CoulombFormCore.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "9752ef36b083141c26f7c143ab7a266747254a1f821cb8df46c96b36c00af49b",
-      "after_sha256": "45c03c022bb12223a937494cabf53723e1ec7c0fcabed8651e92e64b4a3e4f8b"
+      "after_sha256": "525cc5357feef1c74aa77eb462bec64c23ffab073798e5b38f20cd637d87792b",
+      "interface_only_sha256": "45c03c022bb12223a937494cabf53723e1ec7c0fcabed8651e92e64b4a3e4f8b",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/CoulombFormDenseValue.lean",
@@ -4592,6 +4598,14 @@
       "after_sha256": "8db7117795de2ecd090e0fceb74184a00343337142193aa9de67556b992f961f"
     },
     {
+      "path": "LeanResearch/RepulsiveCoulomb/Imported/TauCeti/Analysis/Sobolev/W1p/Basic.lean",
+      "before_sha256": "99a5b1f09a1adb8c3dcf9b74b5de0c0e73f26c3753cb5f16e141281401652cca",
+      "after_sha256": "020b1d5b99f3bf1068c916b93e6f05cea6008be94cfe0f18330404b3a7b79bf2",
+      "kind": "compatibility-repair",
+      "interface_only_sha256": "99a5b1f09a1adb8c3dcf9b74b5de0c0e73f26c3753cb5f16e141281401652cca",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
+    },
+    {
       "path": "LeanResearch/RepulsiveCoulomb/IntegralNormUncentering.lean",
       "kind": "module-interface-only",
       "before_sha256": "d3868ac9b2faf7d0fd00ca524e8a64c6c6d23c918bbab107f179f68825fe5ea0",
@@ -5001,9 +5015,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/LabeledCoulombModel.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "a4bf61d54b9d8dc573fc203d33abdb3aef3a1393f2a8f36db74da6252e6000bb",
-      "after_sha256": "5e3e68fa23eaa27cb93eed16ae254e6696d4e691f5be8ad4b732db9366dcaefa"
+      "after_sha256": "a34c8fdb937fcace02265c91921c49507df5174200c9fdac729b0eecf72bfb2d",
+      "interface_only_sha256": "5e3e68fa23eaa27cb93eed16ae254e6696d4e691f5be8ad4b732db9366dcaefa",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/LabeledCoulombNormalization.lean",
@@ -5877,15 +5893,19 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PaperRoute/OriginalGaussianWeightedRoute.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "24b532e441b99dcff3bc2910345879ba62ad0a0997ef75dae69ec67568cb6397",
-      "after_sha256": "cf1b1b1810a0dd7c6e7672ccadf6b10554d60af2ca73aaefb7af611bd241c885"
+      "after_sha256": "2a326e1d95d767508e84b0f905ca71786709021fbb9320802d96204982a37b01",
+      "interface_only_sha256": "cf1b1b1810a0dd7c6e7672ccadf6b10554d60af2ca73aaefb7af611bd241c885",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PaperRoute/OriginalInputLabeledLSI.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "13fcb3ab26604b2426616158ac2d32bad8f873f1e1c4d81c8951f8744ce492d1",
-      "after_sha256": "18a5865bc04784a900b9b9e510c9b827dfbd94e640a82117bc1d23c37b0f7ec2"
+      "after_sha256": "8c2d26e87925a648fcd275192c1ebba109982f54d151efa69564992f04b4a429",
+      "interface_only_sha256": "18a5865bc04784a900b9b9e510c9b827dfbd94e640a82117bc1d23c37b0f7ec2",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PaperRoute/OriginalLabeledPoincare.lean",
@@ -10271,9 +10291,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PointWeightClosedForm.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "9059c34d343f7114989a32888cbaeb62ae6047724367b8d21e6dba95f3b12118",
-      "after_sha256": "45dfd63326b356c579e0186ffabbe94db344f5c6b96e4812757a663563c85f75"
+      "after_sha256": "cd46a46e60eb56c2c771c428ee2a305be6de1e92a347f5a92c7353d73f496bd0",
+      "interface_only_sha256": "45dfd63326b356c579e0186ffabbe94db344f5c6b96e4812757a663563c85f75",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PointWeightFormApproximation.lean",
@@ -10283,9 +10305,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PointWeightFormCore.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "479e16645d47918222aaff807dd854799c3ec23b823e3b88432c0693b9e134d9",
-      "after_sha256": "3fa206e89b90a68f7790c84144e0ac62df461c5573c5652b6d95be522e81f2d9"
+      "after_sha256": "f2b7faaf66228a5055a01b22f0035f425031d76efa98dd74cda50eef0e3d49e9",
+      "interface_only_sha256": "3fa206e89b90a68f7790c84144e0ac62df461c5573c5652b6d95be522e81f2d9",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PointWeightLocalComparison.lean",
@@ -10307,9 +10331,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PointWeightRegularity.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "f5c6599fbc291216cc8d306e7d78e851bc4071e66e610b81c4db42a67bb749b3",
-      "after_sha256": "25ed66ecaa78689d84957364db53470dd89241fafda95dc97eca8220bb755cb2"
+      "after_sha256": "8fa265712bc26dbe0b1583019585b83bfe1d6876d8cea4539c40e03f28f10bee",
+      "interface_only_sha256": "25ed66ecaa78689d84957364db53470dd89241fafda95dc97eca8220bb755cb2",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PointWeightScore.lean",
@@ -11473,15 +11499,19 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/WeightedPointModel.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "0976ac6edd987429f92a8500a363e829c3059f66c22d81673b2bba7528cf9c5f",
-      "after_sha256": "c66eafd26b0f935cc6d40af5b50c203dce58c0d31a95a8a3024f9e20b3530f0d"
+      "after_sha256": "bd8457b06bccaf8aab2f5ce2ed14e97cd26fff2025c625210e471ae7613715e5",
+      "interface_only_sha256": "c66eafd26b0f935cc6d40af5b50c203dce58c0d31a95a8a3024f9e20b3530f0d",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/WeightedPointNormalization.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "12c2652fb7081a1a8fae86dac88da7377e616fed1adbf9b1e4e25bfd0d0c9734",
-      "after_sha256": "786abdffd2f789568a321a3cac965f045c23e5b95b82daa08c09f75866cff895"
+      "after_sha256": "65242c9005d194dbeafc6186a23f7479ffe6a73991da2c19ceac0c587f3c1be3",
+      "interface_only_sha256": "786abdffd2f789568a321a3cac965f045c23e5b95b82daa08c09f75866cff895",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/WeightedPunctureMassBound.lean",
@@ -11535,7 +11565,7 @@
   "additional_statement_inputs": [
     {
       "path": "Challenge.lean",
-      "sha256": "964006544d623331fc9ca280170694fa3f2c9869a15656032fc19384325cc5d0"
+      "sha256": "1fa2fe87f6b03464fd7b94ce8c271443f3b9cc1417463ad23ed31a0a51c0d5e5"
     },
     {
       "path": "Solution.lean",

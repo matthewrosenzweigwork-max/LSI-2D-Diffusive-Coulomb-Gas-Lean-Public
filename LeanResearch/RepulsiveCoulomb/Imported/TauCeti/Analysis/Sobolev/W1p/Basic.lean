@@ -11,6 +11,8 @@ public import Mathlib.MeasureTheory.Function.L2Space
 public import Mathlib.MeasureTheory.SpecificCodomains.WithLp
 public import Mathlib.Analysis.InnerProductSpace.ProdL2
 import Mathlib.Analysis.InnerProductSpace.Dual
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 /-!
 # First-order weak Sobolev spaces
@@ -75,6 +77,7 @@ variable {E : Type*} [MeasurableSpace E] [NormedAddCommGroup E] [InnerProductSpa
   [FiniteDimensional ℝ E] [BorelSpace E] {mu : Measure E} [mu.IsAddHaarMeasure]
   {Omega : Opens E} {p : ENNReal} [Fact (1 <= p)]
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- The fibre of a first-order scalar Sobolev jet: a value and its gradient, with the Euclidean
 product norm. -/
 abbrev Sobolev1Jet (E : Type*) :=

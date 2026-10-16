@@ -3,6 +3,8 @@ module
 public import LeanResearch.RepulsiveCoulomb.PointWeightLocalComparison
 public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
 public import Mathlib.Analysis.InnerProductSpace.Calculus
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -14,12 +16,14 @@ open MeasureTheory Real Filter Set
 open scoped ENNReal BigOperators Topology
 namespace RepulsiveCoulomb
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem pointPunctures_finite {m : ℕ} (a : Fin m → ℝ) (y : Fin m → ℂ) :
     (pointPunctures a y).Finite := by
   apply (Set.finite_range y).subset
   rintro z ⟨j, _, rfl⟩
   exact ⟨j, rfl⟩
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def pointDomain {m : ℕ} (a : Fin m → ℝ) (y : Fin m → ℂ) : TopologicalSpace.Opens ℂ :=
   ⟨(pointPunctures a y)ᶜ, (pointPunctures_finite a y).isClosed.isOpen_compl⟩
 

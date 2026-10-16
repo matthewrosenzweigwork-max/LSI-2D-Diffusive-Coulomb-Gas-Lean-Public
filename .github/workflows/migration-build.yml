@@ -44,15 +44,20 @@ jobs:
         run: |
           set -o pipefail
           lake exe cache get 2>&1 | tee "$RUNNER_TEMP/cache.log"
-      - name: Build migrated source from fresh project objects
+      - name: Build migrated mathematical source and compact surfaces
         run: |
           set -o pipefail
-          lake build IntegratedPaperRoute RetainedReload PlanBAudit Challenge Solution 2>&1 | tee "$RUNNER_TEMP/build.log"
+          lake build Challenge Solution 2>&1 | tee "$RUNNER_TEMP/build.log"
       - name: Inspect compact statement correspondence
         if: always()
         run: |
           set -o pipefail
-          lake env lean --run scripts/compare_constants.lean comparator.json 2>&1 | tee "$RUNNER_TEMP/constants.jsonl"
+          lake env lean --run scripts/inspect_correspondence.lean comparator.json 2>&1 | tee "$RUNNER_TEMP/bounded-correspondence.jsonl"
+      - name: Build retained audit roots
+        if: always()
+        run: |
+          set -o pipefail
+          lake build IntegratedPaperRoute RetainedReload PlanBAudit 2>&1 | tee "$RUNNER_TEMP/audit-build.log"
       - name: Check migrated source did not drift
         if: always()
         working-directory: .
@@ -65,6 +70,7 @@ jobs:
           path: |
             ${{ runner.temp }}/cache.log
             ${{ runner.temp }}/build.log
-            ${{ runner.temp }}/constants.jsonl
+            ${{ runner.temp }}/bounded-correspondence.jsonl
+            ${{ runner.temp }}/audit-build.log
           if-no-files-found: warn
           retention-days: 30

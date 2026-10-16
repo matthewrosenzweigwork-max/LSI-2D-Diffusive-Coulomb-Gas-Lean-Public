@@ -3,6 +3,8 @@ module
 public import LeanResearch.RepulsiveCoulomb.PlanarWeightedGaussian
 public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
 public import Mathlib.MeasureTheory.Integral.Pi
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -15,23 +17,28 @@ open Set MeasureTheory Filter TopologicalSpace
 open scoped Topology BigOperators ENNReal
 namespace RepulsiveCoulomb
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 abbrev CoulombConfig (N : ℕ) := EuclideanSpace ℂ (Fin N)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombPairs (N : ℕ) : Finset (Fin N × Fin N) :=
   Finset.univ.filter (fun p => p.1 < p.2)
 
 theorem mem_coulombPairs {N : ℕ} (p : Fin N × Fin N) : p ∈ coulombPairs N ↔ p.1 < p.2 := by
   simp [coulombPairs]
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombCoordinate {N : ℕ} (i : Fin N) : CoulombConfig N →L[ℝ] ℂ :=
   (EuclideanSpace.proj i).restrictScalars ℝ
 
 theorem coulombCoordinate_apply {N : ℕ} (i : Fin N) (z : CoulombConfig N) :
     coulombCoordinate i z = z i := rfl
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombVandermonde {N : ℕ} (z : CoulombConfig N) : ℂ :=
   ∏ p ∈ coulombPairs N, (z p.1 - z p.2)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem coulombVandermonde_continuous (N : ℕ) : Continuous (coulombVandermonde (N := N)) := by
   unfold coulombVandermonde
   exact continuous_finset_prod _ (fun p _ => (coulombCoordinate p.1).continuous.sub (coulombCoordinate p.2).continuous)
@@ -47,9 +54,11 @@ theorem coulombVandermonde_ne_zero_iff {N : ℕ} (z : CoulombConfig N) :
   · intro h p hp
     exact sub_ne_zero.mpr (h p.1 p.2 (ne_of_lt ((mem_coulombPairs _).mp hp)))
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombDomain (N : ℕ) : Opens (CoulombConfig N) :=
   ⟨{z | coulombVandermonde z ≠ 0}, (isClosed_eq (coulombVandermonde_continuous N) continuous_const).isOpen_compl⟩
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombWeight {N : ℕ} (β : ℝ) (z : CoulombConfig N) : ℝ :=
   Real.exp (-β * ‖z‖ ^ 2 / 2) *
     ∏ p ∈ coulombPairs N, ‖z p.1 - z p.2‖ ^ (β / (N : ℝ))
@@ -89,9 +98,11 @@ theorem coulombWeight_zero_at_collision {N : ℕ} {β : ℝ} (hN : 0 < N) (hβ :
   · rw [hfactor (i, j) ((mem_coulombPairs _).mpr hl) hz, mul_zero]
   · rw [hfactor (j, i) ((mem_coulombPairs _).mpr hl) hz.symm, mul_zero]
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombPartition (N : ℕ) (β : ℝ) : ℝ≥0∞ :=
   ∫⁻ z : CoulombConfig N, ENNReal.ofReal (coulombWeight β z)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombMeasure (N : ℕ) (β : ℝ) : Measure (CoulombConfig N) :=
   (coulombPartition N β)⁻¹ • volume.withDensity (fun z => ENNReal.ofReal (coulombWeight β z))
 

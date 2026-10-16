@@ -3,6 +3,8 @@ module
 public import LeanResearch.RepulsiveCoulomb.WeightedPointModel
 public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
 public import Mathlib.MeasureTheory.Integral.Prod
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -135,6 +137,7 @@ theorem pointPartition_pos {m : ℕ} (γ : ℝ) (a : Fin m → ℝ) (y : Fin m �
     exact (ne_of_gt (ENNReal.ofReal_pos.mpr hpos)) heq
   exact hfalse.exists.elim (fun _ h ↦ h)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- Normalization is unconditional on partition hypotheses: only the actual
 positive Gaussian parameter and nonnegative finite exponents are required. -/
 theorem pointMeasure_isProbability {m : ℕ} {γ : ℝ} (hγ : 0 < γ)

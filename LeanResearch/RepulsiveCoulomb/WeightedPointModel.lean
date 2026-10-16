@@ -5,6 +5,8 @@ public import Mathlib.Analysis.Complex.Basic
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import Mathlib.MeasureTheory.Measure.WithDensity
 public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -22,10 +24,12 @@ open scoped BigOperators ENNReal
 
 namespace RepulsiveCoulomb
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- Literal density before normalization, with a finite indexed point family. -/
 def pointWeight {m : ℕ} (γ : ℝ) (a : Fin m → ℝ) (y : Fin m → ℂ) (z : ℂ) : ℝ :=
   Real.exp (-γ * ‖z‖ ^ 2 / 2) * ∏ j, ‖z - y j‖ ^ a j
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- The removed points are precisely those carrying a positive exponent. -/
 def pointPunctures {m : ℕ} (a : Fin m → ℝ) (y : Fin m → ℂ) : Set ℂ :=
   {z | ∃ j, 0 < a j ∧ z = y j}
@@ -56,11 +60,13 @@ theorem pointWeight_empty (γ : ℝ) (a : Fin 0 → ℝ) (y : Fin 0 → ℂ) (z 
     pointWeight γ a y z = Real.exp (-γ * ‖z‖ ^ 2 / 2) := by
   simp [pointWeight]
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- Extended normalization avoids assuming the Gaussian-polynomial integral
 is already finite. Proving that it is finite and positive is still required. -/
 def pointPartition {m : ℕ} (γ : ℝ) (a : Fin m → ℝ) (y : Fin m → ℂ) : ℝ≥0∞ :=
   ∫⁻ z : ℂ, ENNReal.ofReal (pointWeight γ a y z)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def pointMeasure {m : ℕ} (γ : ℝ) (a : Fin m → ℝ) (y : Fin m → ℂ) : Measure ℂ :=
   (pointPartition γ a y)⁻¹ •
     volume.withDensity (fun z ↦ ENNReal.ofReal (pointWeight γ a y z))

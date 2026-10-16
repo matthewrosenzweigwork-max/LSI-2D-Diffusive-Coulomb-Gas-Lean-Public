@@ -3,6 +3,8 @@ module
 public import LeanResearch.RepulsiveCoulomb.CoulombLocalL2
 public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.W1p.Basic
 public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.TestFunctionLp
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -13,11 +15,14 @@ open Set MeasureTheory Filter TopologicalSpace
 open scoped Topology ENNReal
 namespace RepulsiveCoulomb
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 abbrev CoulombJetL2 (N : ℕ) (β : ℝ) := Lp (TauCeti.Sobolev1Jet (CoulombConfig N)) 2 (coulombMeasure N β)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombJetValueL (N : ℕ) (β : ℝ) : CoulombJetL2 N β →L[ℝ] Lp ℝ 2 (coulombMeasure N β) :=
   (WithLp.fstL 2 ℝ ℝ (CoulombConfig N)).compLpL 2 (coulombMeasure N β)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombJetGradientL (N : ℕ) (β : ℝ) : CoulombJetL2 N β →L[ℝ] Lp (CoulombConfig N) 2 (coulombMeasure N β) :=
   (WithLp.sndL 2 ℝ ℝ (CoulombConfig N)).compLpL 2 (coulombMeasure N β)
 
@@ -29,6 +34,7 @@ theorem coulombJetGradientL_coe (N : ℕ) (β : ℝ) (J : CoulombJetL2 N β) :
     ∀ᵐ z ∂coulombMeasure N β, coulombJetGradientL N β J z = WithLp.snd (J z) :=
   (WithLp.sndL 2 ℝ ℝ (CoulombConfig N)).coeFn_compLp J
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem coulombCoreJet_memLp {N : ℕ} {β : ℝ} (hβ : 0 < β)
     (φ : TestFunction (coulombDomain N) ℝ ⊤) :
     MemLp (fun z => WithLp.toLp 2 (φ z, gradient (φ : CoulombConfig N → ℝ) z)) 2 (coulombMeasure N β) := by
@@ -42,6 +48,7 @@ theorem coulombCoreJet_memLp {N : ℕ} {β : ℝ} (hβ : 0 < β)
         (TauCeti.hasCompactSupport_gradient_testFunction φ) :
         MemLp (fun z => gradient (φ : CoulombConfig N → ℝ) z) 2 (coulombMeasure N β))
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombCoreJet {N : ℕ} {β : ℝ} (hβ : 0 < β)
     (φ : TestFunction (coulombDomain N) ℝ ⊤) : CoulombJetL2 N β :=
   (coulombCoreJet_memLp hβ φ).toLp _

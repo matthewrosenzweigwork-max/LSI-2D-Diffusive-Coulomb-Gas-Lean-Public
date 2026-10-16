@@ -2,6 +2,8 @@ module
 
 public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalReference
 public import LeanResearch.RepulsiveCoulomb.PaperRoute.CompactDiskReferenceLabeledLSI
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -16,14 +18,17 @@ open MeasureTheory Set
 open PeriodicAttractiveLogGas
 namespace RepulsiveCoulomb.PaperRoute
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- Fixed-temperature rate evaluated on the actual NEW physical reference. -/
 def paperOriginalLabeledRate {β : ℝ} (hβ : 0 < β) : ℝ :=
   paperLabeledRateFromReference hβ (thermalConstructedReference β hβ)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem paperOriginalLabeledRate_pos {β : ℝ} (hβ : 0 < β) :
     0 < paperOriginalLabeledRate hβ :=
   paperLabeledRateFromReference_pos_via_disk hβ (thermalConstructedReference β hβ)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- No thermal reference, moment bound, PI/LSI certificate, or entropy
 prerequisite is supplied by the caller. The domain is the original full
 closed Coulomb form domain and the measure is the original labeled law. -/
@@ -38,15 +43,18 @@ def paperOriginalReferenceFamily {a b : ℝ} (ha : 0 < a)
     (β : Set.Icc a b) : EquilibriumConstructedReference β.1 :=
   thermalConstructedReference β.1 (ha.trans_le β.2.1)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- The exact compact-temperature assembled rate, including the literal
 supremum D_I over the new family. It is fixed before β, N and u. -/
 def paperOriginalCompactLabeledRate {a b : ℝ} (ha : 0 < a) : ℝ :=
   paperCompactLabeledRateFromReferenceFamily ha (paperOriginalReferenceFamily (b := b) ha)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem paperOriginalCompactLabeledRate_pos {a b : ℝ} (ha : 0 < a) (hab : a ≤ b) :
     0 < paperOriginalCompactLabeledRate (b := b) ha :=
   paperCompactLabeledRateFromReferenceFamily_pos ha hab (paperOriginalReferenceFamily ha)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- Original-input uniform labeled full-form LSI with a single positive
 rate for the entire positive compact temperature interval, all N≥2, and
 all original full-form observables. -/

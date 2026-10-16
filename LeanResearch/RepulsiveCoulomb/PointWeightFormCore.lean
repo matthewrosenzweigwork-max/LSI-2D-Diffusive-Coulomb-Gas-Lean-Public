@@ -3,6 +3,8 @@ module
 public import LeanResearch.RepulsiveCoulomb.PointWeightLocalL2
 public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.W1p.Basic
 public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.TestFunctionLp
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -17,13 +19,16 @@ open MeasureTheory Set Filter TopologicalSpace
 open scoped ENNReal Topology
 namespace RepulsiveCoulomb
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 abbrev PointJetL2 {m : ℕ} (γ : ℝ) (a : Fin m → ℝ) (y : Fin m → ℂ) :=
   Lp (TauCeti.Sobolev1Jet ℂ) 2 (pointMeasure γ a y)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def pointJetValueL {m : ℕ} (γ : ℝ) (a : Fin m → ℝ) (y : Fin m → ℂ) :
     PointJetL2 γ a y →L[ℝ] Lp ℝ 2 (pointMeasure γ a y) :=
   (WithLp.fstL 2 ℝ ℝ ℂ).compLpL 2 (pointMeasure γ a y)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def pointJetGradientL {m : ℕ} (γ : ℝ) (a : Fin m → ℝ) (y : Fin m → ℂ) :
     PointJetL2 γ a y →L[ℝ] Lp ℂ 2 (pointMeasure γ a y) :=
   (WithLp.sndL 2 ℝ ℝ ℂ).compLpL 2 (pointMeasure γ a y)
@@ -38,6 +43,7 @@ theorem pointJetGradientL_coe {m : ℕ} (γ : ℝ) (a : Fin m → ℝ) (y : Fin 
     ∀ᵐ z ∂pointMeasure γ a y, pointJetGradientL γ a y J z = WithLp.snd (J z) :=
   (WithLp.sndL 2 ℝ ℝ ℂ).coeFn_compLp J
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem pointCoreJet_memLp {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     {a : Fin m → ℝ} (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ)
     (φ : TestFunction (pointDomain a y) ℝ ⊤) :
@@ -53,6 +59,7 @@ theorem pointCoreJet_memLp {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
         (TauCeti.hasCompactSupport_gradient_testFunction φ) :
         MemLp (fun z ↦ gradient (φ : ℂ → ℝ) z) 2 (pointMeasure γ a y))
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def pointCoreJet {m : ℕ} {γ : ℝ} (hγ : 0 < γ)
     {a : Fin m → ℝ} (ha : ∀ j, 0 ≤ a j) (y : Fin m → ℂ)
     (φ : TestFunction (pointDomain a y) ℝ ⊤) : PointJetL2 γ a y :=

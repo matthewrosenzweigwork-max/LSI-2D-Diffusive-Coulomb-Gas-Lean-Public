@@ -4,6 +4,8 @@ public import Mathlib.InformationTheory.KullbackLeibler.KLFun
 public import Mathlib.MeasureTheory.Integral.Lebesgue.Add
 public import Mathlib.Data.EReal.Operations
 public import Mathlib.Topology.Instances.EReal.Lemmas
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -24,6 +26,7 @@ namespace PeriodicAttractiveLogGas
 
 variable {α : Type*} [MeasurableSpace α]
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- The continuous, nonnegative (on nonnegative inputs) shifted entropy density. -/
 def entropyDensity (t : ℝ) : ℝ := t * Real.log t + 1
 
@@ -35,6 +38,7 @@ theorem entropyDensity_nonneg {t : ℝ} (ht : 0 ≤ t) : 0 ≤ entropyDensity t 
 theorem continuous_entropyDensity : Continuous entropyDensity :=
   Real.continuous_mul_log.add continuous_const
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 /-- Entropy, on nonnegative integrable functions over a finite measure.
 For a probability measure this is exactly the source's unnormalised entropy.
 The value can be positive infinity. -/

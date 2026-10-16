@@ -1,6 +1,8 @@
 module
 
 public import LeanResearch.RepulsiveCoulomb.CoulombClosability
+public meta import Lean.Meta.Tactic.AuxLemma
+public meta import Lean.Elab.Command
 
 @[expose] public section
 
@@ -11,6 +13,7 @@ open Set MeasureTheory Filter TopologicalSpace
 open scoped Topology ENNReal
 namespace RepulsiveCoulomb
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem coulombCoreJet_add {N : ℕ} {β : ℝ} (hβ : 0 < β)
     (φ ψ : TestFunction (coulombDomain N) ℝ ⊤) :
     coulombCoreJet hβ (φ + ψ) = coulombCoreJet hβ φ + coulombCoreJet hβ ψ := by
@@ -25,6 +28,7 @@ theorem coulombCoreJet_add {N : ℕ} {β : ℝ} (hβ : 0 < β)
   · rfl
   · exact TauCeti.gradient_add (φ.contDiff.differentiable (by simp) z) (ψ.contDiff.differentiable (by simp) z)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 theorem coulombCoreJet_smul {N : ℕ} {β : ℝ} (hβ : 0 < β)
     (c : ℝ) (φ : TestFunction (coulombDomain N) ℝ ⊤) :
     coulombCoreJet hβ (c • φ) = c • coulombCoreJet hβ φ := by
@@ -39,12 +43,14 @@ theorem coulombCoreJet_smul {N : ℕ} {β : ℝ} (hβ : 0 < β)
   · rfl
   · simpa using (TauCeti.gradient_const_smul (𝕜 := ℝ) (f := (φ : CoulombConfig N → ℝ)) (x := z) c)
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombCoreJetLinear (N : ℕ) {β : ℝ} (hβ : 0 < β) :
     TestFunction (coulombDomain N) ℝ ⊤ →ₗ[ℝ] CoulombJetL2 N β where
   toFun := coulombCoreJet hβ
   map_add' := coulombCoreJet_add hβ
   map_smul' := coulombCoreJet_smul hβ
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombFormSubmodule (N : ℕ) {β : ℝ} (hβ : 0 < β) : ClosedSubmodule ℝ (CoulombJetL2 N β) :=
   (LinearMap.range (coulombCoreJetLinear N hβ)).closure
 
@@ -53,15 +59,18 @@ theorem coe_coulombFormSubmodule (N : ℕ) {β : ℝ} (hβ : 0 < β) :
   rw [coulombFormSubmodule, Submodule.coe_closure, LinearMap.coe_range]
   rfl
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 abbrev CoulombFormDomain (N : ℕ) {β : ℝ} (hβ : 0 < β) := (coulombFormSubmodule N hβ).toSubmodule
 
 instance coulombFormDomain_completeSpace (N : ℕ) {β : ℝ} (hβ : 0 < β) : CompleteSpace (CoulombFormDomain N hβ) :=
   (coulombFormSubmodule N hβ).isClosed.completeSpace_coe
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombFormValueL (N : ℕ) {β : ℝ} (hβ : 0 < β) :
     CoulombFormDomain N hβ →L[ℝ] Lp ℝ 2 (coulombMeasure N β) :=
   (coulombJetValueL N β).comp (coulombFormSubmodule N hβ).toSubmodule.subtypeL
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombFormGradientL (N : ℕ) {β : ℝ} (hβ : 0 < β) :
     CoulombFormDomain N hβ →L[ℝ] Lp (CoulombConfig N) 2 (coulombMeasure N β) :=
   (coulombJetGradientL N β).comp (coulombFormSubmodule N hβ).toSubmodule.subtypeL
@@ -81,6 +90,7 @@ theorem coulombFormValueL_injective (N : ℕ) {β : ℝ} (hβ : 0 < β) : Functi
   apply (coulombFormValueL_eq_zero_iff N hβ (u - v)).mp
   rw [map_sub, huv, sub_self]
 
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
 def coulombFormEnergy (N : ℕ) {β : ℝ} (hβ : 0 < β) (u : CoulombFormDomain N hβ) : ℝ :=
   ‖coulombFormGradientL N hβ u‖ ^ 2
 
