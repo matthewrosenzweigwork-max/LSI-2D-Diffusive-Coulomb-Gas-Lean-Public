@@ -61,6 +61,10 @@ public import LeanResearch.RepulsiveCoulomb.PointGroundStateEnergy
 public import LeanResearch.RepulsiveCoulomb.UnitDiskNormalization
 public import LeanResearch.RepulsiveCoulomb.UnitDiskUniformTails
 
+
+-- Full project proof bodies are needed only for the custom route audits.
+import all LeanResearch.PalomarAuditPrivateImports
+
 @[expose] public section
 
 noncomputable section
@@ -586,7 +590,7 @@ private partial def visit (env : Environment) (n : Name) : StateM NameSet Unit :
 
 open Lean Elab Command in
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``RepulsiveCoulomb.PaperRoute.original_weighted_full_domain_of_moment,
     ``RepulsiveCoulomb.PaperRoute.original_weighted_full_domain,
     ``RepulsiveCoulomb.PaperRoute.paperWeightedP1,
@@ -637,9 +641,9 @@ run_cmd do
       `sorryAx] do
     if deps.contains n then throwError "Forbidden actual transitive dependency: {n}"
   for n in deps do
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   let (_, endpointDeps) := (visit env ``paper_weighted_named_inequalities).run ({} : NameSet)
   for n in #[``original_weighted_full_domain,
       ``original_point_localGeometry, ``original_uniform_raw_strong_sobolev,
@@ -751,15 +755,15 @@ partial def visitAuthored (env : Environment) (n : Name) : StateM NameSet Unit :
     if let some v := ci.value? (allowOpaque := true) then
       for d in v.getUsedConstants do visitAuthored env d
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let (_, deps) := (visit env ``paper_uniform_labeled_lsi_original).run ({} : NameSet)
   let allNew := #[``thermal_physicalReference_from_minimizer, ``thermalConstructedReference_nonempty, ``thermalConstructedReference, ``thermalConstructedReference_measure_unique, ``paperOriginalLabeledRate, ``paperOriginalLabeledRate_pos, ``paper_full_labeled_lsi_original, ``paperOriginalReferenceFamily, ``paperOriginalCompactLabeledRate, ``paperOriginalCompactLabeledRate_pos, ``paper_uniform_labeled_lsi_original]
   let (_, allDeps) := (do for n in allNew do visit env n).run ({} : NameSet)
   for n in allDeps do
     if n == `sorryAx then throwError "Incomplete proof in new bounded radial EL representative"
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
     for forbidden in #["equilibriumConstructedReference", "equilibriumConstructedReference_nonempty",
         "equilibriumConstructedReference_measure_unique", "equilibrium_pointwise_EL_densities_unique",
         "equilibriumCanonicalMinimizers_unique", "equilibrium_pointwise_EL_radial",
@@ -1102,7 +1106,7 @@ partial def visit (env : Environment) (n : Name) : StateM NameSet Unit := do
     if let some v := ci.value? (allowOpaque := true) then
       for d in v.getUsedConstants do visit env d
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let (_, deps) := (visit env ``thermalConstructedReference_multiIndex_tail).run ({} : NameSet)
   let allNew := #[``RepulsiveCoulomb.PaperRoute.thermalDensityProfile, ``RepulsiveCoulomb.PaperRoute.thermalPotentialProfile, ``RepulsiveCoulomb.PaperRoute.thermalMassProfile, ``RepulsiveCoulomb.PaperRoute.thermalConfinementProfile, ``RepulsiveCoulomb.PaperRoute.thermalDensityProfile_contDiff, ``RepulsiveCoulomb.PaperRoute.thermalPotentialProfile_contDiff, ``RepulsiveCoulomb.PaperRoute.thermalConfinementProfile_contDiff, ``RepulsiveCoulomb.PaperRoute.thermalMassProfile_hasDerivAt, ``RepulsiveCoulomb.PaperRoute.thermalMassProfile_deriv, ``RepulsiveCoulomb.PaperRoute.thermalMassProfile_contDiff, ``RepulsiveCoulomb.PaperRoute.thermalMassProfile_eq_cumulative, ``RepulsiveCoulomb.PaperRoute.thermalMassProfile_mem_unitInterval, ``RepulsiveCoulomb.PaperRoute.thermalPotentialProfile_hasDerivAt, ``RepulsiveCoulomb.PaperRoute.thermalPotentialProfile_mul_deriv, ``RepulsiveCoulomb.PaperRoute.thermalDensityProfile_eq_exp, ``RepulsiveCoulomb.PaperRoute.thermalDensityProfile_deriv_score, ``RepulsiveCoulomb.PaperRoute.thermal_hasDerivAt_iteratedDeriv, ``RepulsiveCoulomb.PaperRoute.thermal_iteratedDeriv_radius_mul_succ, ``RepulsiveCoulomb.PaperRoute.thermal_iteratedDeriv_radius_mul, ``RepulsiveCoulomb.PaperRoute.thermalMassProfile_iteratedDeriv, ``RepulsiveCoulomb.PaperRoute.thermal_potential_profile_derivative_recurrence, ``RepulsiveCoulomb.PaperRoute.ThermalExteriorDerivativeBound, ``RepulsiveCoulomb.PaperRoute.thermal_exterior_potential_derivatives_bounded, ``RepulsiveCoulomb.PaperRoute.thermalExteriorWeight, ``RepulsiveCoulomb.PaperRoute.ThermalExteriorTail, ``RepulsiveCoulomb.PaperRoute.thermalExteriorWeight_pos, ``RepulsiveCoulomb.PaperRoute.thermalExteriorWeight_mono, ``RepulsiveCoulomb.PaperRoute.thermalExteriorWeight_succ, ``RepulsiveCoulomb.PaperRoute.thermalExteriorWeight_eq_polynomialGaussian, ``RepulsiveCoulomb.PaperRoute.thermalExteriorWeight_uniform_bound, ``RepulsiveCoulomb.PaperRoute.ThermalExteriorTail.derivativeBound, ``RepulsiveCoulomb.PaperRoute.thermalRadialScore, ``RepulsiveCoulomb.PaperRoute.thermalRadialScore_contDiff, ``RepulsiveCoulomb.PaperRoute.thermalConfinementProfile_deriv, ``RepulsiveCoulomb.PaperRoute.thermalRadialScore_abs_le, ``RepulsiveCoulomb.PaperRoute.thermalRadialScore_derivative_bound, ``RepulsiveCoulomb.PaperRoute.thermalRadialScore_derivative_linear_bound, ``RepulsiveCoulomb.PaperRoute.thermal_exterior_density_tail_step, ``RepulsiveCoulomb.PaperRoute.thermal_exterior_density_tails, ``RepulsiveCoulomb.PaperRoute.thermal_actual_density_profile_tails, ``RepulsiveCoulomb.PaperRoute.thermal_norm_derivatives_sphere_bound, ``RepulsiveCoulomb.PaperRoute.thermal_radial_cartesian_scaled_bound, ``RepulsiveCoulomb.PaperRoute.thermal_radial_cartesian_bound, ``RepulsiveCoulomb.PaperRoute.thermal_cartesian_exterior_tails_of_profile, ``RepulsiveCoulomb.PaperRoute.thermalExteriorWeight_lower_on_unitBall, ``RepulsiveCoulomb.PaperRoute.thermal_cartesian_tails_of_profile, ``RepulsiveCoulomb.PaperRoute.thermal_actual_density_cartesian_tails, ``RepulsiveCoulomb.PaperRoute.thermalReference_potential_contDiff, ``RepulsiveCoulomb.PaperRoute.thermalReference_iteratedFDeriv_tail, ``RepulsiveCoulomb.PaperRoute.thermalReference_multiIndex_tail, ``RepulsiveCoulomb.PaperRoute.thermalConstructedReference_iteratedFDeriv_tail, ``RepulsiveCoulomb.PaperRoute.thermalConstructedReference_multiIndex_tail]
   let (_, allDeps) := (do for n in allNew do visit env n).run ({} : NameSet)
@@ -1110,9 +1114,9 @@ run_cmd do
     if n == `sorryAx then throwError "Incomplete proof in new bounded radial EL representative"
     if n.toString.startsWith "RepulsiveCoulomb.equilibriumReference_" then
       throwError "Frozen supplied-reference producer appears in thermal tail closure: {n}"
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
     for forbidden in #["equilibriumConstructedReference", "equilibriumConstructedReference_nonempty",
         "equilibriumReference_derivative_tail_step", "equilibriumReference_allDerivative_tails",
         "equilibriumReference_firstDerivative_tail", "equilibriumReference_fderiv_globally_bounded",
@@ -1283,13 +1287,13 @@ private partial def visit (env : Environment) (n : Name) (authored : Bool := fal
 
 open Lean Elab Command in
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``RepulsiveCoulomb.PaperRoute.paper_exp_div_nat_integrable, ``RepulsiveCoulomb.PaperRoute.paper_product_exp_average_power, ``RepulsiveCoulomb.PaperRoute.paper_exp_integral_inverse_power_concavity, ``RepulsiveCoulomb.PaperRoute.paper_exp_integral_power_le, ``RepulsiveCoulomb.PaperRoute.paper_exp_integral_half_power_le, ``RepulsiveCoulomb.PaperRoute.paper_gibbs_defect_moment_product_power, ``RepulsiveCoulomb.PaperRoute.paper_physical_gibbs_defect_moment_product_power, ``RepulsiveCoulomb.PaperRoute.paper_gibbs_defect_moment_via_concavity, ``RepulsiveCoulomb.PaperRoute.paper_rpow_positive_log_bound, ``RepulsiveCoulomb.PaperRoute.paper_coulomb_positive_log_density_gaussian_bound, ``RepulsiveCoulomb.PaperRoute.paper_coulomb_positive_log_integrable_of_pair, ``RepulsiveCoulomb.PaperRoute.paper_coulomb_pair_positive_log_integrable, ``RepulsiveCoulomb.PaperRoute.paper_coulomb_pair_log_integrable, ``RepulsiveCoulomb.PaperRoute.paper_thermal_B_gibbs_integrable_positive_log, ``RepulsiveCoulomb.PaperRoute.paper_gibbs_defect_moment_of_oneBody, ``RepulsiveCoulomb.PaperRoute.paper_thermal_B_gibbs_integrable_polynomial, ``RepulsiveCoulomb.PaperRoute.paper_full_labeled_lsi_via_disk_reference, ``RepulsiveCoulomb.PaperRoute.paper_full_labeled_lsi_compact_via_disk_reference_family, ``RepulsiveCoulomb.PaperRoute.paper_uniform_defectAt_compact_disk]
   let (_, deps) := (roots.forM (fun n => visit env n)).run ({} : NameSet)
   for n in deps do
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   for n in #[`RepulsiveCoulomb.equilibriumConstructedReference,
       `RepulsiveCoulomb.equilibriumConstructedReference_nonempty,
       `RepulsiveCoulomb.equilibriumCanonical_exists_global_minimizer,
@@ -1398,13 +1402,13 @@ private partial def visit (env : Environment) (n : Name) (authored : Bool := fal
 
 open Lean Elab Command in
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate_le_optimal, ``RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate_le_particle_inf, ``RepulsiveCoulomb.PaperRoute.paper_original_particle_optimal_inf_pos, ``RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate_le_optimal, ``RepulsiveCoulomb.PaperRoute.paper_original_compact_optimal_double_inf_lower, ``RepulsiveCoulomb.PaperRoute.paper_original_compact_optimal_real_double_inf_lower, ``RepulsiveCoulomb.PaperRoute.paper_original_compact_optimal_double_inf_pos]
   let (_, deps) := (roots.forM (fun n => visit env n)).run ({} : NameSet)
   for n in deps do
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   for n in #[`RepulsiveCoulomb.equilibriumConstructedReference,
       `RepulsiveCoulomb.equilibriumConstructedReference_nonempty,
       `RepulsiveCoulomb.equilibriumCanonical_exists_global_minimizer,
@@ -1520,13 +1524,13 @@ private partial def visit (env : Environment) (n : Name) : StateM NameSet Unit :
 
 open Lean Elab Command in
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``RepulsiveCoulomb.PaperRoute.paper_original_collision_capacity, ``RepulsiveCoulomb.PaperRoute.paper_original_collision_capacity_and_common_core, ``RepulsiveCoulomb.PaperRoute.paper_original_capacity_open_neighborhood, ``RepulsiveCoulomb.PaperRoute.paper_original_capacity_physical_cost, ``RepulsiveCoulomb.PaperRoute.paper_original_center_mass, ``RepulsiveCoulomb.PaperRoute.paper_original_center_mass_optimal_rate, ``RepulsiveCoulomb.PaperRoute.paper_original_helmert_center, ``RepulsiveCoulomb.PaperRoute.paper_original_helmert_relative, ``RepulsiveCoulomb.PaperRoute.paper_original_helmert_unitary]
   let (_, deps) := (roots.forM (visit env)).run ({} : NameSet)
   for n in deps do
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
     if n.toString.startsWith "RepulsiveCoulomb.coulomb_named_" ||
         n.toString.startsWith "RepulsiveCoulomb.pointDilationBranch_named_" then
       throwError "Forbidden old named endpoint: {n}"
@@ -1659,13 +1663,13 @@ private partial def visit (env : Environment) (n : Name) : StateM NameSet Unit :
 
 open Lean Elab Command in
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``RepulsiveCoulomb.PaperRoute.paper_gaussian_linear_memLp, ``RepulsiveCoulomb.PaperRoute.paper_gaussian_linear_mean, ``RepulsiveCoulomb.PaperRoute.paper_gaussian_linear_second_moment, ``RepulsiveCoulomb.PaperRoute.paper_smooth_L2_cutoff_value, ``RepulsiveCoulomb.PaperRoute.paper_smooth_L2_cutoff_gradient, ``RepulsiveCoulomb.PaperRoute.paper_smooth_L2_bounded_gradient_lift, ``RepulsiveCoulomb.PaperRoute.paperCenterOfMass_formula, ``RepulsiveCoulomb.PaperRoute.paperCenterOfMass_permute, ``RepulsiveCoulomb.PaperRoute.paperCenterLinearObservable_contDiff, ``RepulsiveCoulomb.PaperRoute.paper_linear_gradient, ``RepulsiveCoulomb.PaperRoute.paperCenterLinearObservable_gradient, ``RepulsiveCoulomb.PaperRoute.paperCenterLinearObservable_gradient_norm, ``RepulsiveCoulomb.PaperRoute.paperCenterLinearObservable_memLp, ``RepulsiveCoulomb.PaperRoute.paperCenterLinearObservable_mean, ``RepulsiveCoulomb.PaperRoute.paperCenterLinearObservable_second_moment, ``RepulsiveCoulomb.PaperRoute.paper_center_linear_form_witness, ``RepulsiveCoulomb.PaperRoute.paper_center_real_form_witness, ``RepulsiveCoulomb.PaperRoute.paper_center_imaginary_form_witness, ``RepulsiveCoulomb.PaperRoute.paper_symmetric_poincare_coefficient_lower_bound, ``RepulsiveCoulomb.PaperRoute.paper_ginibre_symmetric_poincare, ``RepulsiveCoulomb.PaperRoute.paper_ginibre_symmetric_poincare_iff, ``RepulsiveCoulomb.PaperRoute.paper_ginibre_symmetric_poincare_sharp_all_N, ``RepulsiveCoulomb.PaperRoute.paper_ginibre_center_equality_witnesses]
   let (_, deps) := (roots.forM (visit env)).run ({} : NameSet)
   for n in deps do
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
     if n.toString.startsWith "RepulsiveCoulomb.coulomb_named_" ||
         n.toString.startsWith "RepulsiveCoulomb.pointDilationBranch_named_" then
       throwError "Forbidden old named endpoint: {n}"
@@ -1840,14 +1844,14 @@ partial def visit (env : Environment) (n : Name) : StateM NameSet Unit := do
     if let some v := ci.value? (allowOpaque := true) then
       for d in v.getUsedConstants do visit env d
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``RepulsiveCoulomb.PaperRoute.lipschitzSmoothingScale, ``RepulsiveCoulomb.PaperRoute.lipschitzSmoothingScale_pos, ``RepulsiveCoulomb.PaperRoute.lipschitzSmoothingScale_le_one, ``RepulsiveCoulomb.PaperRoute.lipschitzSmoothingScale_tendsto, ``RepulsiveCoulomb.PaperRoute.lipschitzSmoothingBump, ``RepulsiveCoulomb.PaperRoute.lipschitzSmoothingKernel, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_contDiff, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_tendsto, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_dist_le, ``RepulsiveCoulomb.PaperRoute.lipschitz_fderiv_locallyIntegrable, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_hasFDerivAt, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_fderiv, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_fderiv_norm_le, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_fderiv_ae_tendsto, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_norm_le, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_mean_tendsto, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_centered_moment_tendsto, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_energy_tendsto, ``RepulsiveCoulomb.PaperRoute.strong_sobolev_of_lipschitz, ``RepulsiveCoulomb.PaperRoute.strong_sobolev_on_balls_of_lipschitzOn, ``RepulsiveCoulomb.PaperRoute.original_raw_strong_sobolev_c1_center, ``RepulsiveCoulomb.PaperRoute.original_raw_strong_sobolev_closedBall, ``RepulsiveCoulomb.PaperRoute.original_raw_strong_sobolev_locallyLipschitz, ``RepulsiveCoulomb.PaperRoute.original_raw_local_sobolev_locallyLipschitz, ``RepulsiveCoulomb.PaperRoute.original_gaussian_strong_sobolev_closedBall, ``RepulsiveCoulomb.PaperRoute.original_gaussian_local_sobolev_locallyLipschitz]
   let (_, allDeps) := (roots.forM (visit env)).run ({} : NameSet)
   for n in allDeps do
     if n == `sorryAx then throwError "Incomplete locally-Lipschitz proof: {n}"
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   for n in #[`RepulsiveCoulomb.pointSobolevKappa,
       `RepulsiveCoulomb.rawPointMeasure_strong_sobolev_squared_norm,
       `RepulsiveCoulomb.rawPoint_uniform_local_sobolev_poincare,
@@ -1955,7 +1959,7 @@ private partial def visitAuthored (env : Environment) (n : Name) : StateM NameSe
 
 open Lean Elab Command in
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``RepulsiveCoulomb.PaperRoute.paper_reference_partition_pair_compact_ell_via_spatial, ``RepulsiveCoulomb.PaperRoute.paper_compact_reference_integral_bounds_ell_disk, ``RepulsiveCoulomb.PaperRoute.paper_defect_exp_integrable_disk, ``RepulsiveCoulomb.PaperRoute.paper_entropy_factorization_disk, ``RepulsiveCoulomb.PaperRoute.paper_finite_defect_nonneg_disk, ``RepulsiveCoulomb.PaperRoute.paper_finite_defect_compact_uniform_disk, ``RepulsiveCoulomb.PaperRoute.paperUniformEntropyDefectAt, ``RepulsiveCoulomb.PaperRoute.paperUniformEntropyDefectAt_two, ``RepulsiveCoulomb.PaperRoute.paper_uniform_defectAt_compact_disk, ``RepulsiveCoulomb.PaperRoute.paper_uniform_defectAt_finite_disk]
   let (_, deps) := (roots.forM (visit env)).run ({} : NameSet)
   for n in #[`sorryAx,
@@ -1989,9 +1993,9 @@ run_cmd do
     if n.toString.startsWith "RepulsiveCoulomb.coulomb_named_" ||
         n.toString.startsWith "RepulsiveCoulomb.pointDilationBranch_named_" then
       throwError "Forbidden old named endpoint: {n}"
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   let (_, main) := (visit env ``paper_uniform_defectAt_compact_disk).run ({} : NameSet)
   for n in #[``paper_reference_partition_pair_compact_ell_via_spatial,
       ``paper_compact_reference_integral_bounds_ell_disk,
@@ -2277,7 +2281,7 @@ private partial def visit (env : Environment) (n : Name) : StateM NameSet Unit :
 
 open Lean Elab Command in
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``RepulsiveCoulomb.PaperRoute.CollisionCalculus.laplacian_comp_linearIsometryEquiv,
     ``RepulsiveCoulomb.PaperRoute.CollisionCalculus.second_fderiv_apply_eq_iterated,
     ``RepulsiveCoulomb.PaperRoute.CollisionCalculus.laplacian_eq_second_fderiv_basis,
@@ -2350,9 +2354,9 @@ run_cmd do
     if n.toString.startsWith "RepulsiveCoulomb.pointDilationBranch_named_" ||
         n.toString.startsWith "RepulsiveCoulomb.coulomb_named_" then
       throwError "Unrelated old named endpoint selected: {n}"
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   let (_, main) := (visit env ``paper_coulomb_potential_distribution).run ({} : NameSet)
   for n in #[`RepulsiveCoulomb.coulomb_fixed_particle_poincare,
       `RepulsiveCoulomb.coulombDbarWeakGraph_small_solution,
@@ -2440,7 +2444,7 @@ partial def visit (env : Environment) (n : Name) : StateM NameSet Unit := do
     if let some v := ci.value? (allowOpaque := true) then
       for d in v.getUsedConstants do visit env d
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``original_point_locallyLipschitz_geometry,
     ``original_point_doubling_and_locallyLipschitz_PI,
     ``original_point_physical_weak_one_two_closedDoubleBall]
@@ -2514,9 +2518,9 @@ run_cmd do
   if deps.contains ``original_point_localGeometry then
     throwError "Full Lipschitz endpoint incorrectly depends on the C1-only original geometry proof"
   for n in deps do
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   logInfo "PASS: one original-input map supplies the literal physical path gauge and full Lipschitz DS/weak-PI route."
   logInfo "PASS: actual Lipschitz Rademacher, measurable-gradient energy, real extension and derivative localization are load-bearing."
   logInfo "PASS: foundational axioms and actual type/proof-route exclusions; the original scoped import census is retained in its separately bound receipt."
@@ -2685,15 +2689,15 @@ partial def visit (env : Environment) (n : Name) : StateM NameSet Unit := do
     if let some v := ci.value? (allowOpaque := true) then
       for d in v.getUsedConstants do visit env d
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let (_, deps) := (visit env ``thermal_exists_weak_regular_EL_minimizer).run ({} : NameSet)
   let allNew := #[``RepulsiveCoulomb.PaperRoute.translated_log_fundamental_solution, ``RepulsiveCoulomb.PaperRoute.boundedDensityPotential_kernel_integrable, ``RepulsiveCoulomb.PaperRoute.boundedDensityPotential_locallyIntegrable, ``RepulsiveCoulomb.PaperRoute.boundedDensity_kernel_compact_test_integrable, ``RepulsiveCoulomb.PaperRoute.boundedDensityPotential_weak_poisson, ``RepulsiveCoulomb.PaperRoute.cumulativeMass_increment_le_of_density_bound, ``RepulsiveCoulomb.PaperRoute.thermalNewtonGradient, ``RepulsiveCoulomb.PaperRoute.thermalNewtonGradient_zero, ``RepulsiveCoulomb.PaperRoute.thermal_radial_coefficient_variation, ``RepulsiveCoulomb.PaperRoute.thermalNewtonGradient_norm_sub_le_ordered, ``RepulsiveCoulomb.PaperRoute.thermalNewtonLipschitzConstant, ``RepulsiveCoulomb.PaperRoute.thermalNewtonGradient_lipschitz, ``RepulsiveCoulomb.PaperRoute.thermalNewtonGradient_riesz, ``RepulsiveCoulomb.PaperRoute.thermalDensityPotential_fderiv_eq_newtonGradient, ``RepulsiveCoulomb.PaperRoute.plane_continuous_of_lipschitzOn_closedBall, ``RepulsiveCoulomb.PaperRoute.plane_ae_differentiableAt_of_lipschitzOn_closedBall, ``RepulsiveCoulomb.PaperRoute.plane_memLp_isCompact_of_lipschitzOn_closedBall, ``RepulsiveCoulomb.PaperRoute.plane_fderiv_memLp_isCompact_of_lipschitzOn_closedBall, ``RepulsiveCoulomb.PaperRoute.plane_fderiv_locallyIntegrable_of_lipschitzOn_closedBall, ``RepulsiveCoulomb.PaperRoute.scalar_integral_lineDeriv_mul_of_lipschitzOn_closedBall, ``RepulsiveCoulomb.PaperRoute.plane_projection_integral_fderiv_mul_of_lipschitzOn_closedBall, ``RepulsiveCoulomb.PaperRoute.plane_projection_hasWeakLineDerivOn_of_lipschitzOn_closedBall, ``RepulsiveCoulomb.PaperRoute.plane_hasWeakFDerivOn_of_lipschitzOn_closedBall, ``RepulsiveCoulomb.PaperRoute.thermalWeakHessian, ``RepulsiveCoulomb.PaperRoute.thermalNewtonGradient_ballwise_lipschitz, ``RepulsiveCoulomb.PaperRoute.thermal_radial_potential_contDiff_one, ``RepulsiveCoulomb.PaperRoute.thermal_radial_potential_fderiv_function, ``RepulsiveCoulomb.PaperRoute.thermal_radial_potential_hasWeakFDerivOn, ``RepulsiveCoulomb.PaperRoute.thermalNewtonGradient_hasWeakFDerivOn, ``RepulsiveCoulomb.PaperRoute.thermal_radial_potential_fderiv_hasWeakFDerivOn, ``RepulsiveCoulomb.PaperRoute.thermal_radial_potential_memLp_isCompact, ``RepulsiveCoulomb.PaperRoute.thermal_radial_potential_fderiv_memLp_isCompact, ``RepulsiveCoulomb.PaperRoute.thermalWeakHessian_memLp_isCompact, ``RepulsiveCoulomb.PaperRoute.thermal_radial_potential_fderiv_lipschitz, ``RepulsiveCoulomb.PaperRoute.thermal_radial_potential_fderiv_holder_closedBall, ``RepulsiveCoulomb.PaperRoute.thermal_radial_weak_regularity, ``RepulsiveCoulomb.PaperRoute.thermal_EL_contDiff_one_of_potential, ``RepulsiveCoulomb.PaperRoute.thermalCanonical_minimizer_exists_weak_regular_EL_density, ``RepulsiveCoulomb.PaperRoute.thermal_exists_weak_regular_EL_minimizer]
   let (_, allDeps) := (do for n in allNew do visit env n).run ({} : NameSet)
   for n in allDeps do
     if n == `sorryAx then throwError "Incomplete proof in new bounded radial EL representative"
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
     for forbidden in #["equilibriumLogKernel_zeroMass_nonneg", "equilibrium_pointwise_EL_densities_unique",
         "equilibriumCanonicalMinimizers_unique", "equilibrium_pointwise_EL_radial",
         "equilibriumObjective_lowerSemicontinuous", "equilibriumExtendedInteraction_lowerSemicontinuous",
@@ -2778,7 +2782,7 @@ private partial def visit (env : Environment) (n : Name) : StateM NameSet Unit :
 
 open Lean Elab Command in
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let (_, deps) := (visit env ``paper_full_labeled_poincare_uniform_via_resolvent).run ({} : NameSet)
   for n in #[`RepulsiveCoulomb.coulomb_fixed_particle_poincare,
       `RepulsiveCoulomb.coulombForm_coercivity_of_meanZero_kernel,
@@ -2793,9 +2797,9 @@ run_cmd do
     if n.toString.startsWith "RepulsiveCoulomb.pointDilationBranch_named_" ||
         n.toString.startsWith "RepulsiveCoulomb.coulomb_named_" then
       throwError "Forbidden old named endpoint: {n}"
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   for n in #[`RepulsiveCoulomb.PaperRoute.compact_resolvent_mean_zero_coercivity,
       `RepulsiveCoulomb.PaperRoute.paper_resolvent_form_residual,
       `RepulsiveCoulomb.coulombFormResolvent_isCompactOperator,
@@ -2937,7 +2941,7 @@ private partial def visit (env : Environment) (n : Name) : StateM NameSet Unit :
 
 open Lean Elab Command in
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``RepulsiveCoulomb.PaperRoute.paper_reference_partition_pair_via_spatial, ``RepulsiveCoulomb.PaperRoute.paper_reference_partition_pair_compact_via_spatial, ``RepulsiveCoulomb.PaperRoute.paperLabeledRateFromReference_pos_via_spatial, ``RepulsiveCoulomb.PaperRoute.paper_full_labeled_lsi_via_spatial_reference, ``RepulsiveCoulomb.PaperRoute.paperSignedSquare, ``RepulsiveCoulomb.PaperRoute.paper_signed_hasProd, ``RepulsiveCoulomb.PaperRoute.paper_signed_difference_square, ``RepulsiveCoulomb.PaperRoute.paper_signed_square_smul, ``RepulsiveCoulomb.PaperRoute.paper_signed_restricted_square_integrable, ``RepulsiveCoulomb.PaperRoute.paper_signed_restricted_square_integral, ``RepulsiveCoulomb.PaperRoute.paperCountingMeasure, ``RepulsiveCoulomb.PaperRoute.paperEmpiricalMeasure, ``RepulsiveCoulomb.PaperRoute.paperSpatialOffDiagonal, ``RepulsiveCoulomb.PaperRoute.paperSpatialOffDiagonal_measurable, ``RepulsiveCoulomb.PaperRoute.paperSpatialLogKernel, ``RepulsiveCoulomb.PaperRoute.paperSpatialModulatedF, ``RepulsiveCoulomb.PaperRoute.paperSpatialModulatedEnergy, ``RepulsiveCoulomb.PaperRoute.paperFluctuationMeasure, ``RepulsiveCoulomb.PaperRoute.paper_fluctuation_half_interaction, ``RepulsiveCoulomb.PaperRoute.paper_empirical_probability, ``RepulsiveCoulomb.PaperRoute.paper_fluctuation_total_mass, ``RepulsiveCoulomb.PaperRoute.paper_empirical_spatial_integrals, ``RepulsiveCoulomb.PaperRoute.paper_reference_spatial_bridge, ``RepulsiveCoulomb.PaperRoute.paper_reference_spatial_energy_ae, ``RepulsiveCoulomb.PaperRoute.paperSpatialPartition, ``RepulsiveCoulomb.PaperRoute.paper_reference_spatial_exponential_integrable, ``RepulsiveCoulomb.PaperRoute.paper_reference_spatial_partition_eq, ``RepulsiveCoulomb.PaperRoute.paper_spatial_partition_uniform]
   let (_, deps) := (roots.forM (visit env)).run ({} : NameSet)
   for n in #[`RepulsiveCoulomb.PaperRoute.paper_full_labeled_lsi_of_reference, `sorryAx, `RepulsiveCoulomb.equilibriumConstructedReference,
@@ -2949,9 +2953,9 @@ run_cmd do
       `RepulsiveCoulomb.equilibriumConstructedReference_partition_uniform] do
     if deps.contains n then throwError "Forbidden selected producer: {n}"
   for n in deps do
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   let (_, endpointDeps) := (visit env ``paper_spatial_partition_uniform).run ({} : NameSet)
   for n in #[``paper_signed_difference_square,
       ``paper_signed_restricted_square_integral,
@@ -3084,7 +3088,7 @@ partial def visit (env : Environment) (n : Name) : StateM NameSet Unit := do
     if let some v := ci.value? (allowOpaque := true) then
       for d in v.getUsedConstants do visit env d
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``atomic_pointScore_small_region_measure,
     ``atomicScoreBadAreaConstant_nonneg,
     ``atomic_pointScoreBadAnnulus_volume_le,
@@ -3126,9 +3130,9 @@ run_cmd do
     `RepulsiveCoulomb.pointCore_uniform_exterior_mass, `sorryAx] do
     if deps.contains n then throwError "Forbidden transitive producer or chosen constant: {n}"
   for n in deps do
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   let (_, endpointDeps) := (visit env ``atomic_pointForm_uniform_quadratic_moment).run ({} : NameSet)
   for n in #[``planar_vitali_two_measure_bound,
     ``Vitali.exists_disjoint_subfamily_covering_enlargement_ball,
@@ -3218,7 +3222,7 @@ private partial def visit (env : Environment) (n : Name) : StateM NameSet Unit :
 
 open Lean Elab Command in
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``diskEnvelopeMeasure, ``diskEnvelopeMeasure_finite,
     ``pointMeasure_le_diskEnvelopeMeasure, ``diskEnvelopeMeasure_tail_tendsto,
     ``disk_half_mass_ball]
@@ -3234,9 +3238,9 @@ run_cmd do
       `sorryAx] do
     if deps.contains n then throwError "Forbidden actual transitive dependency: {n}"
   for n in deps do
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Unexpected axiom: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Unexpected axiom: {ax} (dependency of {n})"
   let (_, endpointDeps) := (visit env ``disk_half_mass_ball).run ({} : NameSet)
   for n in #[``RepulsiveCoulomb.pointMeasure_le_disk_envelope,
       ``RepulsiveCoulomb.pointPartition_unitDisk_lower_uniform,
@@ -3359,15 +3363,15 @@ partial def visit (env : Environment) (authored : Bool) (n : Name) : StateM Name
     if let some v := ci.value? (allowOpaque := true) then
       for d in v.getUsedConstants do visit env authored d
 run_cmd do
-  let env ← getEnv
+  let env := (← getEnv).setExporting false
   let roots := #[``RepulsiveCoulomb.PaperRoute.PointCurvature.pointConformalDensity_distributional_curvature, ``RepulsiveCoulomb.PaperRoute.atomic_pointCore_weighted_moment_bound, ``RepulsiveCoulomb.PaperRoute.atomic_pointForm_uniform_quadratic_moment, ``RepulsiveCoulomb.PaperRoute.atomic_pointForm_weighted_moment_bound, ``RepulsiveCoulomb.PaperRoute.atomic_pointScore_uncertainty, ``RepulsiveCoulomb.PaperRoute.core_defective_lsi_of_gaussian_spi, ``RepulsiveCoulomb.PaperRoute.core_global_superPoincare, ``RepulsiveCoulomb.PaperRoute.core_global_superPoincare_small, ``RepulsiveCoulomb.PaperRoute.core_poincare_of_raw_sobolev, ``RepulsiveCoulomb.PaperRoute.disk_half_mass_ball, ``RepulsiveCoulomb.PaperRoute.form_global_superPoincare, ``RepulsiveCoulomb.PaperRoute.form_poincare_of_raw_sobolev, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_centered_moment_tendsto, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_energy_tendsto, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_fderiv_ae_tendsto, ``RepulsiveCoulomb.PaperRoute.lipschitzMollify_hasFDerivAt, ``RepulsiveCoulomb.PaperRoute.original_gaussian_local_geometry, ``RepulsiveCoulomb.PaperRoute.original_gaussian_local_sobolev_locallyLipschitz, ``RepulsiveCoulomb.PaperRoute.original_gaussian_strong_sobolev_closedBall, ``RepulsiveCoulomb.PaperRoute.original_point_doubling_and_locallyLipschitz_PI, ``RepulsiveCoulomb.PaperRoute.original_point_localGeometry, ``RepulsiveCoulomb.PaperRoute.original_point_physical_weak_one_two, ``RepulsiveCoulomb.PaperRoute.original_raw_local_sobolev_locallyLipschitz, ``RepulsiveCoulomb.PaperRoute.original_raw_strong_sobolev_c1_center, ``RepulsiveCoulomb.PaperRoute.original_raw_strong_sobolev_closedBall, ``RepulsiveCoulomb.PaperRoute.original_raw_strong_sobolev_locallyLipschitz, ``RepulsiveCoulomb.PaperRoute.original_weighted_full_domain, ``RepulsiveCoulomb.PaperRoute.paperCompactLabeledRateFromReferenceFamily, ``RepulsiveCoulomb.PaperRoute.paperCwt_scaling, ``RepulsiveCoulomb.PaperRoute.paperLabeledRateFromReference, ``RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate, ``RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate_le_optimal, ``RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate_pos, ``RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate, ``RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate_le_optimal, ``RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate_pos, ``RepulsiveCoulomb.PaperRoute.paperRhoWt_scaling, ``RepulsiveCoulomb.PaperRoute.paperTranspositionKernel_identity, ``RepulsiveCoulomb.PaperRoute.paperTranspositionKernel_row_sum, ``RepulsiveCoulomb.PaperRoute.paperTranspositionKernel_swap, ``RepulsiveCoulomb.PaperRoute.paperUniformTransposition_gap_exact, ``RepulsiveCoulomb.PaperRoute.paper_center_imaginary_form_witness, ``RepulsiveCoulomb.PaperRoute.paper_center_real_form_witness, ``RepulsiveCoulomb.PaperRoute.paper_common_phase_identity, ``RepulsiveCoulomb.PaperRoute.paper_complete_graph_relative_gradient, ``RepulsiveCoulomb.PaperRoute.paper_coulomb_potential_distribution, ``RepulsiveCoulomb.PaperRoute.paper_dbar_core_distance, ``RepulsiveCoulomb.PaperRoute.paper_dbar_graph_distance, ``RepulsiveCoulomb.PaperRoute.paper_dbar_kernel_holomorphic, ``RepulsiveCoulomb.PaperRoute.paper_dg_fixed_coupling, ``RepulsiveCoulomb.PaperRoute.paper_entropy_factorization_disk, ``RepulsiveCoulomb.PaperRoute.paper_exp_integral_inverse_power_concavity, ``RepulsiveCoulomb.PaperRoute.paper_finite_defect_nonneg_disk, ``RepulsiveCoulomb.PaperRoute.paper_fixed_particle_compact_temperature, ``RepulsiveCoulomb.PaperRoute.paper_fixed_particle_form_compact, ``RepulsiveCoulomb.PaperRoute.paper_fixed_particle_kernel_constants, ``RepulsiveCoulomb.PaperRoute.paper_fixed_particle_operator_selfAdjoint, ``RepulsiveCoulomb.PaperRoute.paper_fixed_particle_poincare_via_resolvent, ``RepulsiveCoulomb.PaperRoute.paper_fixed_particle_resolvent_compact, ``RepulsiveCoulomb.PaperRoute.paper_full_defective_compact_via_disk_reference_family, ``RepulsiveCoulomb.PaperRoute.paper_full_defective_of_reference_bounds_of_exp_integrable, ``RepulsiveCoulomb.PaperRoute.paper_full_labeled_lsi_original, ``RepulsiveCoulomb.PaperRoute.paper_full_labeled_poincare_uniform_via_resolvent, ``RepulsiveCoulomb.PaperRoute.paper_full_labeled_poincare_via_resolvent, ``RepulsiveCoulomb.PaperRoute.paper_gibbs_defect_moment_product_power, ``RepulsiveCoulomb.PaperRoute.paper_ginibre_center_equality_witnesses, ``RepulsiveCoulomb.PaperRoute.paper_ginibre_symmetric_poincare_sharp_all_N, ``RepulsiveCoulomb.PaperRoute.paper_label_fluctuation, ``RepulsiveCoulomb.PaperRoute.paper_original_capacity_open_neighborhood, ``RepulsiveCoulomb.PaperRoute.paper_original_capacity_physical_cost, ``RepulsiveCoulomb.PaperRoute.paper_original_center_mass, ``RepulsiveCoulomb.PaperRoute.paper_original_center_mass_optimal_rate, ``RepulsiveCoulomb.PaperRoute.paper_original_collision_capacity, ``RepulsiveCoulomb.PaperRoute.paper_original_collision_capacity_and_common_core, ``RepulsiveCoulomb.PaperRoute.paper_original_compact_optimal_double_inf_lower, ``RepulsiveCoulomb.PaperRoute.paper_original_compact_optimal_double_inf_pos, ``RepulsiveCoulomb.PaperRoute.paper_original_compact_optimal_real_double_inf_lower, ``RepulsiveCoulomb.PaperRoute.paper_original_helmert_center, ``RepulsiveCoulomb.PaperRoute.paper_original_helmert_relative, ``RepulsiveCoulomb.PaperRoute.paper_original_helmert_unitary, ``RepulsiveCoulomb.PaperRoute.paper_original_particle_optimal_inf_pos, ``RepulsiveCoulomb.PaperRoute.paper_random_transposition_gap, ``RepulsiveCoulomb.PaperRoute.paper_real_dbar_physical_energy, ``RepulsiveCoulomb.PaperRoute.paper_reference_EL_normalizer_disk, ``RepulsiveCoulomb.PaperRoute.paper_reference_compact_bounds_disk, ``RepulsiveCoulomb.PaperRoute.paper_reference_partition_holder, ``RepulsiveCoulomb.PaperRoute.paper_reference_partition_lower_polynomial, ``RepulsiveCoulomb.PaperRoute.paper_reference_partition_uniform, ``RepulsiveCoulomb.PaperRoute.paper_reference_spatial_bridge, ``RepulsiveCoulomb.PaperRoute.paper_reference_spatial_energy_ae, ``RepulsiveCoulomb.PaperRoute.paper_reference_spatial_partition_eq, ``RepulsiveCoulomb.PaperRoute.paper_relative_core, ``RepulsiveCoulomb.PaperRoute.paper_relative_form_swap, ``RepulsiveCoulomb.PaperRoute.paper_relative_full, ``RepulsiveCoulomb.PaperRoute.paper_resolvent_form_residual, ``RepulsiveCoulomb.PaperRoute.paper_spatial_partition_uniform, ``RepulsiveCoulomb.PaperRoute.paper_symmetric_holomorphic_removal, ``RepulsiveCoulomb.PaperRoute.paper_symmetric_poincare_small_exponent, ``RepulsiveCoulomb.PaperRoute.paper_symmetric_poincare_via_resolvent, ``RepulsiveCoulomb.PaperRoute.paper_thermal_B_gibbs_integrable_positive_log, ``RepulsiveCoulomb.PaperRoute.paper_transposition_core, ``RepulsiveCoulomb.PaperRoute.paper_uniform_defectAt_compact_disk, ``RepulsiveCoulomb.PaperRoute.paper_uniform_defectAt_finite_disk, ``RepulsiveCoulomb.PaperRoute.paper_uniform_labeled_lsi_original, ``RepulsiveCoulomb.PaperRoute.paper_variance_reduction, ``RepulsiveCoulomb.PaperRoute.paper_weighted_named_inequalities, ``RepulsiveCoulomb.PaperRoute.pointLogForce_weak_l2_atomic_maximal, ``RepulsiveCoulomb.PaperRoute.pointLogForce_weak_l2_atomic_maximal_of_total_le, ``RepulsiveCoulomb.PaperRoute.strong_sobolev_on_balls_of_lipschitzOn, ``RepulsiveCoulomb.PaperRoute.strong_sobolev_squared_norm_of_dilation_two, ``RepulsiveCoulomb.PaperRoute.thermalConstructedReference_measure_unique, ``RepulsiveCoulomb.PaperRoute.thermalConstructedReference_multiIndex_tail, ``RepulsiveCoulomb.PaperRoute.thermalConstructedReference_nonempty, ``RepulsiveCoulomb.PaperRoute.thermal_physicalReference_from_minimizer, ``RepulsiveCoulomb.coulombCollisionSet_capacity_zero, ``RepulsiveCoulomb.coulombConstantForm_energy, ``RepulsiveCoulomb.coulombConstantForm_value, ``RepulsiveCoulomb.coulombConstantJet_mem_closedCore, ``RepulsiveCoulomb.coulombCoreGraph_zero_gradient, ``RepulsiveCoulomb.coulombCoreGraph_zero_of_value_zero, ``RepulsiveCoulomb.coulombExhaustion_line_laplacian_pos, ``RepulsiveCoulomb.coulombExhaustion_strict_sublevel_relativelyCompact, ``RepulsiveCoulomb.coulombFormEnergy_eq_integral, ``RepulsiveCoulomb.coulombFormValueL_injective, ``RepulsiveCoulomb.coulombMeasure_isProbability, ``RepulsiveCoulomb.coulombPartition_lt_top, ``RepulsiveCoulomb.coulombPartition_pos, ``RepulsiveCoulomb.coulombPotential_mixedWirtinger_contraction, ``RepulsiveCoulomb.coulombPotential_mixedWirtinger_entry, ``RepulsiveCoulomb.coulombWeight_integrable, ``RepulsiveCoulomb.coulomb_center_mass_manuscript, ``RepulsiveCoulomb.coulomb_center_mass_optimal_lsi_rate_all_N, ``RepulsiveCoulomb.coulomb_collision_capacity_and_common_core, ``RepulsiveCoulomb.equilibriumReferencePartition_canonical_eq, ``RepulsiveCoulomb.equilibriumReference_coulombMeasure_eq_tilted, ``RepulsiveCoulomb.planar_ladyzhenskaya, ``RepulsiveCoulomb.pointConstantForm_energy, ``RepulsiveCoulomb.pointConstantForm_value, ``RepulsiveCoulomb.pointConstantJet_mem_closedCore, ``RepulsiveCoulomb.pointGroundState_energy_identity, ``RepulsiveCoulomb.pointMeasure_disk_tail_le, ``RepulsiveCoulomb.pointMeasure_disk_tail_real_le, ``RepulsiveCoulomb.pointPartition_integral_unitDisk_lower, ``RepulsiveCoulomb.pointPartition_unitDisk_lower_uniform, ``IntegratedOriginalReferenceInstances.original_canonical_splitting, ``IntegratedOriginalReferenceInstances.original_canonical_partition, ``IntegratedOriginalReferenceInstances.original_spatial_collisionfree, ``IntegratedOriginalReferenceInstances.original_spatial_partition, ``IntegratedOriginalReferenceInstances.original_partition_uniform, ``IntegratedOriginalReferenceInstances.original_entropy_factorization, ``IntegratedOriginalReferenceInstances.original_compact_all_ell_defect, ``IntegratedOriginalReferenceInstances.original_fixed_all_ell_defect]
   let (_, full) := (roots.forM (visit env false)).run ({} : NameSet)
   let (_, authored) := (roots.forM (visit env true)).run ({} : NameSet)
   for n in full do
     if n == `sorryAx then throwError "Incomplete integrated proof: {n}"
-    if let some (.axiomInfo _) := env.find? n then
-      unless #[`propext, `Classical.choice, `Quot.sound].contains n do
-        throwError "Nonstandard axiom in integrated closure: {n}"
+    for ax in (← collectAxioms n) do
+      unless #[`propext, `Classical.choice, `Quot.sound].contains ax do
+        throwError "Nonstandard axiom in integrated closure: {ax} (dependency of {n})"
     if n.toString.startsWith "RepulsiveCoulomb.coulomb_named_" ||
         n.toString.startsWith "RepulsiveCoulomb.pointDilationBranch_named_" then
       throwError "Old named final endpoint in integrated closure: {n}"

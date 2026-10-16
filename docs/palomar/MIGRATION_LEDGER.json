@@ -9,9 +9,11 @@
   "changes": [
     {
       "path": "IntegratedPaperRoute.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "526da7d0261a2759be2c57164e1eacfd4ff66d350a41828eb4e9ac00af9d62b2",
-      "after_sha256": "f36b53b9a81a27e7084e7082db849ccb3575fcccc27dfefbb8b9d4cf77ce1d57"
+      "after_sha256": "b1089b8fb6741b885be8996aaf4e78dca9393652160cc0de7a9abeb050554ca6",
+      "interface_only_sha256": "f36b53b9a81a27e7084e7082db849ccb3575fcccc27dfefbb8b9d4cf77ce1d57",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/PeriodicAttractiveLogGas/Entropy.lean",
