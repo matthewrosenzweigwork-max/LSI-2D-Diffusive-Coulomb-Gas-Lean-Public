@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchComplexLpAlgebra
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelRegularity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchComplexLpAlgebra
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelRegularity
+
+@[expose] public section
 
 /-! Symmetry and constants for the actual weak-kernel projection. This records-
 only draft depends on the genuine weak-kernel regularity theorem, not on an

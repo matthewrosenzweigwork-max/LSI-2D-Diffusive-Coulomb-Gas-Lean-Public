@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchSquareDensity
-import Mathlib.Probability.Kernel.MeasurableIntegral
-import Mathlib.Probability.Kernel.WithDensity
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchSquareDensity
+public import Mathlib.Probability.Kernel.MeasurableIntegral
+public import Mathlib.Probability.Kernel.WithDensity
+
+@[expose] public section
 
 /-!
 Measurable family of actual normalized density laws, including zero conditional

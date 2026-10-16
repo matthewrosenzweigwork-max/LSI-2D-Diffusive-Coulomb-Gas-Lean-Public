@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanNormalSegmentRatio
-import LeanResearch.RepulsiveCoulomb.JordanNormalSegmentSeparation
-import Mathlib.Topology.Order.ProjIcc
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanNormalSegmentRatio
+public import LeanResearch.RepulsiveCoulomb.JordanNormalSegmentSeparation
+public import Mathlib.Topology.Order.ProjIcc
+
+@[expose] public section
 
 /-! The signed 2π argument jump across an actual isolated normal crossing.
 The principal ratio argument is continuous on the open parameter interval and

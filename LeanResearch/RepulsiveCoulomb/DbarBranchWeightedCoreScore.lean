@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeightedCoreAdjoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeightedCoreAdjoint
+
+@[expose] public section
 
 /-! Expand the normalized compact adjoint into -partial + partial(Potential),
 using the checked actual normalized-density derivative. -/

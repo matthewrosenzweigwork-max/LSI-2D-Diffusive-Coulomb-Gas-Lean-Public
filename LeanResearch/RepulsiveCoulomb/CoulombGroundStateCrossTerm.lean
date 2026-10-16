@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateIBP
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateIBP
+
+@[expose] public section
 
 /-! Finite real orthonormal-basis aggregation of the actual ground-state
 cross term. No integration-by-parts or integrability hypothesis is supplied. -/

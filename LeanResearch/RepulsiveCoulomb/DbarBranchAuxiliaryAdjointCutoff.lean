@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCutoffCoreProduct
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryMinimalOperator
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCutoffCoreProduct
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryMinimalOperator
+
+@[expose] public section
 
 /-! The exact proper-cutoff product rule on the genuine Hilbert adjoint
 of the auxiliary minimal operator. Its domain is preserved, and the values

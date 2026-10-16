@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalPointGeometry
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianFromDoubling
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalPointGeometry
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianFromDoubling
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. The original finite configuration
 feeds the actual same-map Bonk--Lang/Semmes/DS producer, then the newly proved

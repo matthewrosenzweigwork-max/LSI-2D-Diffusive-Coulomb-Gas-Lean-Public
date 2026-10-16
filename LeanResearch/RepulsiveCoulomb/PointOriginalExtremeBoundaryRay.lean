@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointCleanBoundaryEndRay
-import LeanResearch.RepulsiveCoulomb.PointGeometricCutState
-import Mathlib.Data.Finset.Max
-import Mathlib.Topology.Algebra.Group.ContinuousDiv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCleanBoundaryEndRay
+public import LeanResearch.RepulsiveCoulomb.PointGeometricCutState
+public import Mathlib.Data.Finset.Max
+public import Mathlib.Topology.Algebra.Group.ContinuousDiv
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Original-state finite extremum construction.
 No complete boundary ray, unit-speed clock, or zero ambient exponent is an

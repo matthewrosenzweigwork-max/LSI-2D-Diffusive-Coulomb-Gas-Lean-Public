@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ClassicalConeSectorIsometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeSectorIsometry
+
+@[expose] public section
 
 /-! The actual circular-cone through-apex criterion for two directions of a
 retained interval. Both physical sides are checked; exponent zero is included. -/

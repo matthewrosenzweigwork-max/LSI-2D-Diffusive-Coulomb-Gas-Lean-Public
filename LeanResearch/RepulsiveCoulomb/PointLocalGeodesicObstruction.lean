@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.LocallyConstantSpeedInterval
-import LeanResearch.RepulsiveCoulomb.PointConstantSpeedRestriction
-import LeanResearch.RepulsiveCoulomb.PointGeodesicLocalAdditivity
-import LeanResearch.RepulsiveCoulomb.PointGeodesicStarGerms
+module
+
+public import LeanResearch.RepulsiveCoulomb.LocallyConstantSpeedInterval
+public import LeanResearch.RepulsiveCoulomb.PointConstantSpeedRestriction
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicLocalAdditivity
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicStarGerms
+
+@[expose] public section
 
 /-! An actual locally minimizing constant-speed curve that has a shorter
 endpoint distance produces an actual simple geodesic bigon or an actual simple

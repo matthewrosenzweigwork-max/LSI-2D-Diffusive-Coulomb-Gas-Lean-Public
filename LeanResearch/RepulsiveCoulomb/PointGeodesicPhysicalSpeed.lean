@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicAnalytic
-import LeanResearch.RepulsiveCoulomb.MetricSpeedDerivative
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicAnalytic
+public import LeanResearch.RepulsiveCoulomb.MetricSpeedDerivative
+
+@[expose] public section
 
 /-! The constant metric speed equals the physical density-weighted Euclidean
 speed at every interior parameter away from positive punctures. -/

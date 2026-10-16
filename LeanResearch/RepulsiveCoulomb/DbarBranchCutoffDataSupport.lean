@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryAdjointCutoff
-import LeanResearch.RepulsiveCoulomb.DbarBranchCutoffExteriorError
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactL2Support
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryAdjointCutoff
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCutoffExteriorError
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactL2Support
+
+@[expose] public section
 
 /-! The cutoff value and both actual operator outputs have one common compact
 collision-free support. Their global Lebesgue L2 and L1 membership follows

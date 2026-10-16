@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightRegularity
-import Mathlib.MeasureTheory.Function.LpSpace.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightRegularity
+public import Mathlib.MeasureTheory.Function.LpSpace.Basic
+
+@[expose] public section
 
 /-! Quantitative local L2 restriction for the actual point-weighted measure.
 The compact-set lower density bound is used only locally. In particular this

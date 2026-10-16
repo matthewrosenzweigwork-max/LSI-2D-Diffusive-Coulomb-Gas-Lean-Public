@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryBasicEstimate
-import LeanResearch.RepulsiveCoulomb.DbarBranchClosedGraphVariational
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryBasicEstimate
+public import LeanResearch.RepulsiveCoulomb.DbarBranchClosedGraphVariational
+
+@[expose] public section
 
 /-! The actual curvature-weighted dual construction. A Euclidean-L2 datum
 alpha enters the auxiliary space as R*alpha, and its dual norm is exactly

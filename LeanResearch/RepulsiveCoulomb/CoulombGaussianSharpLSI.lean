@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianEntropyDerivative
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianInterpolationEndpoints
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianEntropyDerivative
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianInterpolationEndpoints
+
+@[expose] public section
 
 /-! Sharp logarithmic Sobolev inequality for the actual planar center
 Gaussian β/(2π) exp(-β|z|²/2). The analytic chain is concrete: literal Mehler

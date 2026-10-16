@@ -1,10 +1,14 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.OverlayExtension
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.StageTransition
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.OverlayExtension
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.StageTransition
+
+@[expose] public section
 
 /-!
 # Polygonal joining ears for boundary-touching source crosscuts

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConeBoundaryTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConeBoundaryTurn
+
+@[expose] public section
 
 /-! Equality in the radial lower bound forces points onto the same cone ray.
 This is an actual metric statement, useful for describing a shortest arc ending

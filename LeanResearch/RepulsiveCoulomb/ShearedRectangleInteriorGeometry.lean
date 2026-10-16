@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleGeometry
-import Mathlib.Analysis.Convex.Topology
+module
+
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleGeometry
+public import Mathlib.Analysis.Convex.Topology
+
+@[expose] public section
 
 /-!
 NEW implementation from accepted flatShearedPoint/flatShearedRectangle and

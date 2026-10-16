@@ -1,6 +1,10 @@
-import Mathlib.Data.Fin.VecNotation
-import Mathlib.Algebra.BigOperators.Fin
-import Mathlib.Tactic
+module
+
+public import Mathlib.Data.Fin.VecNotation
+public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! The finite sign combinatorics of a triangular affine level contour. A level
 avoiding vertex values crosses either zero or exactly two cyclic edges. Geometry

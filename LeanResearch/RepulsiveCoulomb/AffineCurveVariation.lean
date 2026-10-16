@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LocalRectifiability
-import Mathlib.Analysis.Convex.Segment
+module
+
+public import LeanResearch.RepulsiveCoulomb.LocalRectifiability
+public import Mathlib.Analysis.Convex.Segment
+
+@[expose] public section
 
 /-! Exact invariance of metric variation under affine parametrization of an
 unordered closed real interval by the unit interval. -/

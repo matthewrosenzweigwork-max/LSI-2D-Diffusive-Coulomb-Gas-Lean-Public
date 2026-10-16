@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourNonintersection
-import LeanResearch.RepulsiveCoulomb.EmbeddedSimpleGraphCycles
-import Mathlib.Analysis.InnerProductSpace.PiL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourNonintersection
+public import LeanResearch.RepulsiveCoulomb.EmbeddedSimpleGraphCycles
+public import Mathlib.Analysis.InnerProductSpace.PiL2
+
+@[expose] public section
 
 /-! The canonical finite contour graph itself is an actual straight-line planar
 drawing, and each of its simple cycles realizes a Jordan curve. -/

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreMomentBound
-import LeanResearch.RepulsiveCoulomb.DoubleOscillationFatou
-import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreMomentBound
+public import LeanResearch.RepulsiveCoulomb.DoubleOscillationFatou
+public import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
+
+@[expose] public section
 
 /-! Exact norm/integral and finiteness adapters for closing the weighted
 quadratic-moment estimate on the actual complete form domain. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalBiholomorphicCharts
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalBiholomorphicCharts
+
+@[expose] public section
 
 /-! Exact transport and localization of smooth paths for the constructed metrics.
 All densities and physical derivatives are explicit. -/

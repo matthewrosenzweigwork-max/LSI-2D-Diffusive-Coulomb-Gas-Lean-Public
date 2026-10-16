@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ComplexDirectMotionRigidity
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkNormalizedPolar
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexDirectMotionRigidity
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkNormalizedPolar
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Explicit direct/reflected placement of a new
 Euclidean sector in a prescribed ordered target angular interval. The same

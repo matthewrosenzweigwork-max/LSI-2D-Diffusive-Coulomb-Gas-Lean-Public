@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzMollification
-import Mathlib.MeasureTheory.Integral.Average
-import Mathlib.Topology.MetricSpace.Lipschitz
-import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzMollification
+public import Mathlib.MeasureTheory.Integral.Average
+public import Mathlib.Topology.MetricSpace.Lipschitz
+public import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
+
+@[expose] public section
 
 /-! Weighted dominated convergence transfers a genuine smooth Sobolev inequality
 to the actual locally-Lipschitz scalar and actual physical derivative. The

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeForm
-import LeanResearch.RepulsiveCoulomb.CoulombCenterCylinderTests
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeForm
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterCylinderTests
+
+@[expose] public section
 
 /-! Genuine isometric embedding of the closed relative physical graph into the
 original full form. In particular, closability of the relative form is proved

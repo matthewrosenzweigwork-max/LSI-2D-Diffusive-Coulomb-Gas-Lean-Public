@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFiniteEntropyMoment
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceBounds
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedDefinition
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchFiniteIntegrability
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFiniteEntropyMoment
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceBounds
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedDefinition
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchFiniteIntegrability
+
+@[expose] public section
 
 /-!
 Actual competitor integrability needed before the thermal product entropy

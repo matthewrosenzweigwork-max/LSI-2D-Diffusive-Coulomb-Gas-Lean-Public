@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceGibbsIntegrability
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LabeledEntropyFromReferenceMoments
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceGibbsIntegrability
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LabeledEntropyFromReferenceMoments
+
+@[expose] public section
 
 /-! Additive repair source; validation is recorded separately. All uses of Gibbs exponential integrability are
 explicit genuine integrability arguments, so a new disk-normalized producer can

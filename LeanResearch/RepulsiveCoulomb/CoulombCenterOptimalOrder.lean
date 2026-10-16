@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeEmbedding
-import Mathlib.Order.CompleteBooleanAlgebra
-import Mathlib.Order.UpperLower.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeEmbedding
+public import Mathlib.Order.CompleteBooleanAlgebra
+public import Mathlib.Order.UpperLower.Basic
+
+@[expose] public section
 
 /-! Actual full-relative-domain optimal LSI rates, with an extended supremum
 so that an unbounded admissible set is never silently assigned real sSup=0.

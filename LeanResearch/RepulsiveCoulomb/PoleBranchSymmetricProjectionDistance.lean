@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchConjugateCancellation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchConjugateCancellation
+
+@[expose] public section
 
 /-! Exact factor-two projection-distance algebra for real centered symmetric
 Gibbs L2 elements. The final conditional bridge records the missing dbar

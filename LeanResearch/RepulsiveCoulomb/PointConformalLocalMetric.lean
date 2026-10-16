@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalPathTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalPathTransport
+
+@[expose] public section
 
 /-! From exact local curve-length transport to an actual local equality of the
 ambient smooth-path metrics. Short competitors are proved to stay in the chart;

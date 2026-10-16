@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FiniteLinkEndpointSubdivision
-import LeanResearch.RepulsiveCoulomb.FlatLinkSectorDisk
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteLinkEndpointSubdivision
+public import LeanResearch.RepulsiveCoulomb.FlatLinkSectorDisk
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Cut actual occupied polar intervals at a chosen
 period boundary. Recentring is proved by periodicity of the actual polar map.

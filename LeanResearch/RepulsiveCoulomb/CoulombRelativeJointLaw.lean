@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeDisintegration
-import Mathlib.Probability.Kernel.Composition.IntegralCompProd
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeDisintegration
+public import Mathlib.Probability.Kernel.Composition.IntegralCompProd
+
+@[expose] public section
 
 /-! Actual relative joint law and signed tower with genuine integrability. -/
 noncomputable section

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridHatCell
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridHatCell
+
+@[expose] public section
 
 /-! Exact lattice nodal values and local support of the regular triangular hats. -/
 noncomputable section

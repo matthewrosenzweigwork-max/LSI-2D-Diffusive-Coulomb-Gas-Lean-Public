@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorStageCompatibility
-import LeanResearch.RepulsiveCoulomb.FlatRadialRadiusSupremum
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorStageCompatibility
+public import LeanResearch.RepulsiveCoulomb.FlatRadialRadiusSupremum
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Actual bounded-radius construction in every
 strict interior angular window. Initial maps, stage regularity, compatibility,

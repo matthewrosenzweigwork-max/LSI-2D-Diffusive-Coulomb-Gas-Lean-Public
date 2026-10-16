@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourJordanPartition
-import LeanResearch.RepulsiveCoulomb.TriangularContourWeightedLength
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourJordanPartition
+public import LeanResearch.RepulsiveCoulomb.TriangularContourWeightedLength
+
+@[expose] public section
 
 /-! Exact additivity of the physical raw weighted length over the finite,
 pairwise-disjoint polygonal Jordan component partition. -/

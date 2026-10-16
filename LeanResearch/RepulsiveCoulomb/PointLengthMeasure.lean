@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightedSegment
-import Mathlib.MeasureTheory.Measure.AEDisjoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightedSegment
+public import Mathlib.MeasureTheory.Measure.AEDisjoint
+
+@[expose] public section
 
 /-! The actual raw-weighted Hausdorff length measure and exact finite edge-length
 accounting when distinct edges intersect only in finitely many points. -/

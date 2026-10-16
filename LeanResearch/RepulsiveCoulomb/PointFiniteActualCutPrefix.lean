@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointActualUnmarkedPreparationState
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualUnmarkedPreparationState
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. A well-founded construction using only currently
 available actual geometric transitions. It returns a finite actual prefix,

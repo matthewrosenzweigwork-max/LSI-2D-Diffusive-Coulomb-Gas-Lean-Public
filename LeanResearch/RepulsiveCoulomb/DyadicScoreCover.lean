@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DyadicScoreIntegralSums
+module
+
+public import LeanResearch.RepulsiveCoulomb.DyadicScoreIntegralSums
+
+@[expose] public section
 
 /-! Actual finite dyadic coverage outside the fixed core. -/
 noncomputable section

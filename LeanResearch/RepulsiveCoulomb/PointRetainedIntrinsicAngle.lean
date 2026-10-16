@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntervalLocalMetric
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicRadialGerms
-import LeanResearch.RepulsiveCoulomb.ClassicalConeRetainedChord
-import LeanResearch.RepulsiveCoulomb.ClassicalConeRetainedPassage
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntervalLocalMetric
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicRadialGerms
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeRetainedChord
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeRetainedPassage
+
+@[expose] public section
 
 /-! The actual short-chord contradiction at a retained interval-cone vertex.
 An intrinsically minimizing passage through the vertex must have unwrapped

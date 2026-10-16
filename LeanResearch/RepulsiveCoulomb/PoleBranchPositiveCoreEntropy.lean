@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
-import LeanResearch.PeriodicAttractiveLogGas.Entropy
-import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
-import Mathlib.MeasureTheory.Measure.OpenPos
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+public import LeanResearch.PeriodicAttractiveLogGas.Entropy
+public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
+public import Mathlib.MeasureTheory.Measure.OpenPos
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED. A genuine finite positive entropy test from the
 original compact smooth collision-free core. Positivity uses open-set Gibbs

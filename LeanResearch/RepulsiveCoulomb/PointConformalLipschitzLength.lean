@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalDistanceSlope
-import Mathlib.Analysis.Calculus.Rademacher
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalDistanceSlope
+public import Mathlib.Analysis.Calculus.Rademacher
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
+
+@[expose] public section
 
 /-! Every Euclidean Lipschitz curve has physical weighted length at least the
 actual smooth-path metric distance. This holds for arbitrary finite nonnegative

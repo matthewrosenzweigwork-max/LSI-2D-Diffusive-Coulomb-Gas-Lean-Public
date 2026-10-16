@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalMollifier
-import LeanResearch.RepulsiveCoulomb.DbarBranchCoreCompatibility
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalMollifier
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCoreCompatibility
+
+@[expose] public section
 
 /-! Reflected normalized mollifiers are actual collision-free test functions
 when their full support ball avoids collisions. Their exact derivative sign

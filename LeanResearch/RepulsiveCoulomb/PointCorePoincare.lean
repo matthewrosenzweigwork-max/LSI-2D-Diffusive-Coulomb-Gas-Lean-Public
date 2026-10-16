@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointMomentTail
-import LeanResearch.RepulsiveCoulomb.PointUniformLocalGeometry
-import Mathlib.Probability.Moments.Variance
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMomentTail
+public import LeanResearch.RepulsiveCoulomb.PointUniformLocalGeometry
+public import Mathlib.Probability.Moments.Variance
+
+@[expose] public section
 
 /-! Uniform global Poincare on the actual original core, using the full-domain
 moment bound for subtraction of a noncompact constant. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedRegionIntrinsicMetric
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedRegionIntrinsicMetric
+
+@[expose] public section
 
 /-! Actual radial legs of an intrinsic minimizer issuing from a retained chart
 center. Endpoint saturation forces ambient minimality on each individual leg.

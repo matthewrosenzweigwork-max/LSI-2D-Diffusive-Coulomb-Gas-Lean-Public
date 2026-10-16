@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentChartMetricBounds
-import LeanResearch.RepulsiveCoulomb.PointConformalGeodesic
-import Mathlib.Topology.OpenPartialHomeomorph.IsImage
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentChartMetricBounds
+public import LeanResearch.RepulsiveCoulomb.PointConformalGeodesic
+public import Mathlib.Topology.OpenPartialHomeomorph.IsImage
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Shrink actual open charts in the old metric.
 A minimizing path between points of a sufficiently small old ball stays in

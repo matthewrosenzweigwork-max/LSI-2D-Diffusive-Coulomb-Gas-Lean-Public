@@ -1,9 +1,13 @@
-import Mathlib.Topology.Instances.Rat
-import Mathlib.Topology.MetricSpace.Isometry
-import Mathlib.Topology.UniformSpace.UniformEmbedding
-import Mathlib.Topology.Compactness.Compact
-import Mathlib.Topology.Sequences
-import Mathlib.Tactic
+module
+
+public import Mathlib.Topology.Instances.Rat
+public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Topology.UniformSpace.UniformEmbedding
+public import Mathlib.Topology.Compactness.Compact
+public import Mathlib.Topology.Sequences
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Construct a complete isometric line from
 compact rational-time samples whose finite distances are eventually exact.

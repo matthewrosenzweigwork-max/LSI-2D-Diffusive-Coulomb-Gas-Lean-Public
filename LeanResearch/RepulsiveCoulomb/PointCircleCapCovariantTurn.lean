@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointExteriorArcArgument
-import LeanResearch.RepulsiveCoulomb.PointCircleCapArc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointExteriorArcArgument
+public import LeanResearch.RepulsiveCoulomb.PointCircleCapArc
+
+@[expose] public section
 
 /-! Exact covariant turning of a large positively oriented circle cap for
 the literal finite-point conformal metric. The endpoint correction and its

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCenteredErrorMoments
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchErrorMomentTransfer
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionParameters
-import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchCorrelation
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCenteredErrorMoments
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchErrorMomentTransfer
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionParameters
+public import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchCorrelation
+
+@[expose] public section
 
 /-! Instantiation of the genuine finite-product correlation theorem with the
 actual double-error kernel. No analytic moment hypothesis remains: centering,

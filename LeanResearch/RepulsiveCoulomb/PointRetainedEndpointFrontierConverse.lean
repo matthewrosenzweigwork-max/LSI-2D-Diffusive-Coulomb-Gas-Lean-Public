@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkFrontierEndpoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkFrontierEndpoint
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Converse to the old-frontier endpoint lemma.
 A positive-radius endpoint of a PROPER full retained interval is genuinely on

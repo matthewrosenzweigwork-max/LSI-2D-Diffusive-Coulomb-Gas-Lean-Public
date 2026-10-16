@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointSurgeryInteriorOverlap
-import LeanResearch.RepulsiveCoulomb.PointSurgeryUnselectedOverlap
-import LeanResearch.RepulsiveCoulomb.PointIncidentStrictCellClassification
-import LeanResearch.RepulsiveCoulomb.PointIncidentTargetCellWidths
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSurgeryInteriorOverlap
+public import LeanResearch.RepulsiveCoulomb.PointSurgeryUnselectedOverlap
+public import LeanResearch.RepulsiveCoulomb.PointIncidentStrictCellClassification
+public import LeanResearch.RepulsiveCoulomb.PointIncidentTargetCellWidths
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual recentered transitions have Euclidean
 motion germs on every strict target cell. Occupied cells use the same global

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularInterpolantDerivative
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularInterpolantDerivative
+
+@[expose] public section
 
 /-! Exact translation covariance of the finite grid construction. -/
 noncomputable section

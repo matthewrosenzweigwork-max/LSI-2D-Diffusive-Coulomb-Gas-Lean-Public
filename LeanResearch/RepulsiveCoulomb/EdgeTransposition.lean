@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TripleEmbedding
-import LeanResearch.RepulsiveCoulomb.TripleCounting
+module
+
+public import LeanResearch.RepulsiveCoulomb.TripleEmbedding
+public import LeanResearch.RepulsiveCoulomb.TripleCounting
+
+@[expose] public section
 
 /-! Transpositions indexed by genuine unordered two-element subsets. -/
 noncomputable section

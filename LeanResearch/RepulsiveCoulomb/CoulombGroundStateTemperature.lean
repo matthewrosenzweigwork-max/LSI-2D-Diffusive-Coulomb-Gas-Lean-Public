@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateInverseCore
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateEnergy
-import LeanResearch.RepulsiveCoulomb.CoulombPotentialGradient
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateInverseCore
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateEnergy
+public import LeanResearch.RepulsiveCoulomb.CoulombPotentialGradient
+
+@[expose] public section
 
 /-! Exact fixed-core temperature comparison for normalized ground states.
 All integrals here have compact collision-free support. -/

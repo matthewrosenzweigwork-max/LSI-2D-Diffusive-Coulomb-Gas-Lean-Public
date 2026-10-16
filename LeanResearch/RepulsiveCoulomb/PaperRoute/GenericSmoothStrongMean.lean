@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericSmoothStrongMedian
-import LeanResearch.RepulsiveCoulomb.MeanRpowCentering
-import LeanResearch.RepulsiveCoulomb.FiniteMeasureMedian
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericSmoothStrongMedian
+public import LeanResearch.RepulsiveCoulomb.MeanRpowCentering
+public import LeanResearch.RepulsiveCoulomb.FiniteMeasureMedian
+
+@[expose] public section
 
 /-
 Additive paper-route copy of the generic argument in SmoothStrongMean.lean.

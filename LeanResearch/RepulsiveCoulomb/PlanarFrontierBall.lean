@@ -1,4 +1,8 @@
-import Mathlib.Analysis.Complex.AbsMax
+module
+
+public import Mathlib.Analysis.Complex.AbsMax
+
+@[expose] public section
 
 /-! A bounded planar region lies in any closed ball containing its frontier.
 Uses Mathlib's maximum modulus principle applied to the affine map z ↦ z-c. -/

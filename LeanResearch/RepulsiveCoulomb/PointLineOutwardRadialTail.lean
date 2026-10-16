@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.AffineLineTailTransport
-import LeanResearch.RepulsiveCoulomb.PointMetricLineEscapeBounds
-import LeanResearch.RepulsiveCoulomb.ContinuousLastLevelCrossing
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.AffineLineTailTransport
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineEscapeBounds
+public import LeanResearch.RepulsiveCoulomb.ContinuousLastLevelCrossing
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Apply the original-time finite tail theorem directly to a rescaled chunk of
  the actual complete line. This proves regularity, positive radial component,

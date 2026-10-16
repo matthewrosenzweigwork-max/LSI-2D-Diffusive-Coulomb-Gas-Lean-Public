@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TriangularInterpolantCell
-import Mathlib.Analysis.Calculus.FDeriv.Add
-import Mathlib.Analysis.Calculus.FDeriv.Linear
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularInterpolantCell
+public import Mathlib.Analysis.Calculus.FDeriv.Add
+public import Mathlib.Analysis.Calculus.FDeriv.Linear
+
+@[expose] public section
 
 /-! Actual physical Frechet derivatives of the finite interpolant in the open
 triangles. No differentiability across grid edges is asserted. -/

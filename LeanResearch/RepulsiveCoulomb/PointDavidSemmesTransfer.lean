@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointMeanTransfer
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMeanTransfer
+
+@[expose] public section
 
 /-! Connect the exact quoted David--Semmes double-average form to the completed
 mean transfer, using the proved raw/squared-weight radius factor. The displayed

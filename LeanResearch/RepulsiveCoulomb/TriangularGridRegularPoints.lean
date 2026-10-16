@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridNullLines
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridNullLines
+
+@[expose] public section
 
 /-! Almost every physical point lies in an open triangle for every mesh in a
 specified countable positive mesh sequence. -/

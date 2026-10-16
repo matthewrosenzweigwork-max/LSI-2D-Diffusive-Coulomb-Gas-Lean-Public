@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.JordanCornerInterpolation
-import Mathlib.Analysis.Calculus.Deriv.Pow
-import Mathlib.Analysis.Calculus.Deriv.Add
-import Mathlib.Analysis.Calculus.Deriv.Mul
-import Mathlib.Analysis.Calculus.ContDiff.Operations
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanCornerInterpolation
+public import Mathlib.Analysis.Calculus.Deriv.Pow
+public import Mathlib.Analysis.Calculus.Deriv.Add
+public import Mathlib.Analysis.Calculus.Deriv.Mul
+public import Mathlib.Analysis.Calculus.ContDiff.Operations
+
+@[expose] public section
 
 /-! A concrete regular quadratic smoothing of an actual noncuspidal radial
 corner. Injectivity and exclusion of the retained radial tails are proved

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MetricRegionPathDistance
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRegionPathDistance
+
+@[expose] public section
 
 /-! Transport of the genuine path infimum under actual metric coordinate maps.
 All paths are transported, so these statements do not assume finitely many

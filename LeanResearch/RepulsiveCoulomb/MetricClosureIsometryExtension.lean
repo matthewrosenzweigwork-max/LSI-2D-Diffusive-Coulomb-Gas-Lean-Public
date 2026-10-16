@@ -1,6 +1,10 @@
-import Mathlib.Topology.MetricSpace.Isometry
-import Mathlib.Topology.UniformSpace.UniformEmbedding
-import Mathlib.Topology.Maps.Proper.Basic
+module
+
+public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Topology.UniformSpace.UniformEmbedding
+public import Mathlib.Topology.Maps.Proper.Basic
+
+@[expose] public section
 
 /-! Extend an already proved isometry from a literal subset to its closure.
 

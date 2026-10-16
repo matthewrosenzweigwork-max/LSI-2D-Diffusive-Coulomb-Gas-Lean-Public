@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateEnergy
-import LeanResearch.RepulsiveCoulomb.CoulombPotentialGradient
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateEnergy
+public import LeanResearch.RepulsiveCoulomb.CoulombPotentialGradient
+
+@[expose] public section
 
 /-! Explicit fixed-particle ground-state coercivity on the original core.
 The closed-domain and compact-temperature consequences are separate steps. -/

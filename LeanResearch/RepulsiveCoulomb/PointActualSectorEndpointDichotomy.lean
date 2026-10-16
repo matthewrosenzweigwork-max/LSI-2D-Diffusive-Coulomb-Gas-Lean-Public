@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConstructedSectorProgress
-import LeanResearch.RepulsiveCoulomb.PointActualDisappearingApexIteration
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConstructedSectorProgress
+public import LeanResearch.RepulsiveCoulomb.PointActualDisappearingApexIteration
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Uses the uniquely selected Classical-cover Case II
 successor, never its known-broken predecessor. Both nonterminal endpoint

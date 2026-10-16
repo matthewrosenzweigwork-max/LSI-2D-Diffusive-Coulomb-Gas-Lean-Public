@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCoreCompatibility
-import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCoreCompatibility
+public import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+
+@[expose] public section
 
 /-! The maximal dbar operator has a dense value-domain in the weighted Hilbert
 space. This only proves density for the L2 value norm, not graph-core density

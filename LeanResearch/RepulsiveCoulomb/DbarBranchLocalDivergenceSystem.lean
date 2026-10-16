@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalSystemExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalSystemExtension
+
+@[expose] public section
 
 /-! Literal conversion of a local weak divergence system to the combined
 first-order system used by the one-sequence Friedrichs argument. The input

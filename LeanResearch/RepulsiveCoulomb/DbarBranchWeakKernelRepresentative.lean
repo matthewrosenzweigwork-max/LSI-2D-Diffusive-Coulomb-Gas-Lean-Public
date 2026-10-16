@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelLocalRegularity
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelProjection
-import Mathlib.Topology.Compactness.Lindelof
-import Mathlib.MeasureTheory.Measure.OpenPos
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelLocalRegularity
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelProjection
+public import Mathlib.Topology.Compactness.Lindelof
+public import Mathlib.MeasureTheory.Measure.OpenPos
+
+@[expose] public section
 
 /-! Genuine global holomorphic representatives of the actual weighted-L2
 weak kernel, obtained by local mollification and countable gluing. This

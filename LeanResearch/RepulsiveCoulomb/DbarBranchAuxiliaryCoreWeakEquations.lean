@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreL2Estimate
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryRawWeakSystem
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreL2Estimate
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryRawWeakSystem
+
+@[expose] public section
 
 /-! Genuine compact vector cores belong to the actual auxiliary Hilbert
 adjoint domain, and their raw exterior source satisfies the literal weak

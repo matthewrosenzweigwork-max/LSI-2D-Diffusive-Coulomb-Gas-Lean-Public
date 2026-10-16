@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointDyadicMeanOscillation
-import LeanResearch.RepulsiveCoulomb.PointDyadicMaximal
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDyadicMeanOscillation
+public import LeanResearch.RepulsiveCoulomb.PointDyadicMaximal
+
+@[expose] public section
 
 /-! Pointwise dyadic representation conditional on a displayed weak Poincare
 estimate. This is the telescoping step of the Sobolev upgrade, not a proof of

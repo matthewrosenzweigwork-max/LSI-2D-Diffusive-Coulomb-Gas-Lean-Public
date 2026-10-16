@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCompactMeanZeroCoercivity
-import LeanResearch.RepulsiveCoulomb.CoulombFormCenter
-import LeanResearch.RepulsiveCoulomb.CoulombFormInner
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCompactMeanZeroCoercivity
+public import LeanResearch.RepulsiveCoulomb.CoulombFormCenter
+public import LeanResearch.RepulsiveCoulomb.CoulombFormInner
+
+@[expose] public section
 
 /-! Fixed-particle Poincare assembly from an independently proved kernel
 input. This adapter does not claim the kernel premise has been discharged. -/

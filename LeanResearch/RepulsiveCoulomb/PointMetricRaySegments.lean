@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRayPrefixSegmentAdapters
-import Mathlib.Topology.Order.DenselyOrdered
-import Mathlib.Topology.Maps.Proper.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRayPrefixSegmentAdapters
+public import Mathlib.Topology.Order.DenselyOrdered
+public import Mathlib.Topology.Maps.Proper.Basic
+
+@[expose] public section
 
 /-! A ray preserving an open prescribed edge preserves its closed endpoint as
 well. Actual bounded portions of an isometric ray are constructed as minimizing

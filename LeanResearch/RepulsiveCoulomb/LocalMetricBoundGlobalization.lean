@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LocallyConstantSpeedInterval
-import Mathlib.Topology.MetricSpace.Lipschitz
+module
+
+public import LeanResearch.RepulsiveCoulomb.LocallyConstantSpeedInterval
+public import Mathlib.Topology.MetricSpace.Lipschitz
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Local pairwise bounds globalize along genuine
 minimizing source segments. The subdivision is an open-cover subdivision in

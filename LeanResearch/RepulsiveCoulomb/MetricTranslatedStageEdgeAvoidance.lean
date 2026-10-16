@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricTranslatedPrescribedEdgeNoReturn
-import LeanResearch.RepulsiveCoulomb.PointTranslatedLongitudinalExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricTranslatedPrescribedEdgeNoReturn
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedLongitudinalExtension
+
+@[expose] public section
 
 /-! SOURCE-ONLY ASSEMBLY AFTER THE FROZEN PRODUCER SUBSET. Derive all easy
 edge exclusions from the actual finite rectangle. These are not assumed

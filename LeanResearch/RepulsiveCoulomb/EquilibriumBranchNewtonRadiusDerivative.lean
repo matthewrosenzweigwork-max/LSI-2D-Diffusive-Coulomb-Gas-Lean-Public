@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCumulativeMass
-import Mathlib.Analysis.Calculus.ParametricIntegral
-import Mathlib.Analysis.Calculus.MeanValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCumulativeMass
+public import Mathlib.Analysis.Calculus.ParametricIntegral
+public import Mathlib.Analysis.Calculus.MeanValue
+
+@[expose] public section
 
 /-! The Newton radius derivative for merely measurable densities. The moving
 maximum in the cutoff is handled with a uniform local Lipschitz bound and a

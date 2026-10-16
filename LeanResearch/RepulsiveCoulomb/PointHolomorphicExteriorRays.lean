@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointHolomorphicSecantCorrection
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointHolomorphicSecantCorrection
+
+@[expose] public section
 
 /-! Actual argument branches on the holomorphic images of both radial legs,
 with the exact observer and cutoff limits. The disk and its common phase

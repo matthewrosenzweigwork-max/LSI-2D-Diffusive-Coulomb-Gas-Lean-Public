@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombHelmertCoefficients
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombHelmertCoefficients
+
+@[expose] public section
 
 /-! Exact all-particle Helmert orthonormal basis, with the order and signs
 printed in proposition `prop:com` of the canonical manuscript. -/

@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPositiveBoundaryAtom
-import LeanResearch.RepulsiveCoulomb.PointPositiveLoopFullSide
-import Mathlib.Tactic.Positivity
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPositiveBoundaryAtom
+public import LeanResearch.RepulsiveCoulomb.PointPositiveLoopFullSide
+public import Mathlib.Tactic.Positivity
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Preserve the actual full side sets of
 an original finite family rather than discarding them after point-flux accounting. -/

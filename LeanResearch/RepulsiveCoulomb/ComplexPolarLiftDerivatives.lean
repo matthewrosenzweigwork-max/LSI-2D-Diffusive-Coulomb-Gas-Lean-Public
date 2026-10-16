@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointArgumentLiftDerivative
-import Mathlib.Analysis.Complex.Trigonometric
-import Mathlib.Analysis.InnerProductSpace.Calculus
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointArgumentLiftDerivative
+public import Mathlib.Analysis.Complex.Trigonometric
+public import Mathlib.Analysis.InnerProductSpace.Calculus
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive draft. Actual polar identities for radial and tangent
 lifts, without changing the metric-affine curve parameter. -/

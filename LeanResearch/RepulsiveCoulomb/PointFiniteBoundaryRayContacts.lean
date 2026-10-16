@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.FiniteClosedContactComponents
-import LeanResearch.RepulsiveCoulomb.PointActualGeodesicUniqueness
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
-import LeanResearch.RepulsiveCoulomb.PointLineCapJordan
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteClosedContactComponents
+public import LeanResearch.RepulsiveCoulomb.PointActualGeodesicUniqueness
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
+public import LeanResearch.RepulsiveCoulomb.PointLineCapJordan
+
+@[expose] public section
 
 /-! Source-only draft. Old boundary pieces are actual isometrically parametrized
 closed real intervals, not a claim that the whole boundary is geodesic. Closed

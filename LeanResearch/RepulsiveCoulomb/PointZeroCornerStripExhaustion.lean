@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointZeroCornerTopIdentification
-import LeanResearch.RepulsiveCoulomb.PointTranslatedTopBoundaryFullness
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRelativeFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointZeroCornerTopIdentification
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedTopBoundaryFullness
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRelativeFullness
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. In the zero-corner case, an actual entire top on the

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPermutation
-import Mathlib.Analysis.Complex.Isometry
-import Mathlib.Analysis.Complex.MeanValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPermutation
+public import Mathlib.Analysis.Complex.Isometry
+public import Mathlib.Analysis.Complex.MeanValue
+
+@[expose] public section
 
 /-! Actual common-phase rotations and Gibbs invariance. -/
 noncomputable section

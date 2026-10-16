@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeBarrierDerivative
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeBarrierDerivative
+
+@[expose] public section
 
 /-! The cone support profile is genuinely C1 across the apex, with the sharp
 weighted gradient bound and hence a global intrinsic distance lower bound. -/

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchTestPairing
-import LeanResearch.RepulsiveCoulomb.CoulombWirtinger
-import Mathlib.Topology.Algebra.Module.ClosedSubmodule
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchTestPairing
+public import LeanResearch.RepulsiveCoulomb.CoulombWirtinger
+public import Mathlib.Topology.Algebra.Module.ClosedSubmodule
+
+@[expose] public section
 
 /-! The maximal distributional dbar graph on the actual weighted L2 spaces.
 Its equations test the literal (D_x + i D_y)/2 against every compact smooth

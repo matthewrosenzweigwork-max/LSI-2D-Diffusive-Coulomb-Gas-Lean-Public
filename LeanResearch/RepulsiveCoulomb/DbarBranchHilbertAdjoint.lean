@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchComplexGraph
-import Mathlib.Analysis.InnerProductSpace.LinearPMap
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchComplexGraph
+public import Mathlib.Analysis.InnerProductSpace.LinearPMap
+
+@[expose] public section
 
 /-! The genuine maximal unbounded dbar operator and its Hilbert adjoint.
 The domain is proved dense before Mathlib's adjoint is used, so its

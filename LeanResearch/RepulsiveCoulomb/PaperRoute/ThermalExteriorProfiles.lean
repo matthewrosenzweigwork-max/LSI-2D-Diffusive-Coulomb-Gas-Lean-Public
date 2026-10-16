@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialELBootstrap
-import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialELBootstrap
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
+
+@[expose] public section
 
 /-! Actual real-axis profiles and enclosed mass. The potential derivative is obtained
 from the actual Newton derivative of the literal convolution. No old all-order

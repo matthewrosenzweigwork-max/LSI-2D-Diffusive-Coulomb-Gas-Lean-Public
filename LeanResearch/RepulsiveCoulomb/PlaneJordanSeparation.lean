@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
-import Mathlib.Analysis.InnerProductSpace.PiL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
+public import Mathlib.Analysis.InnerProductSpace.PiL2
+
+@[expose] public section
 
 /-! Transport of Álvaro Begué's Jordan separation theorem to arbitrary spaces
 homeomorphic to the Euclidean plane. Source and pinned import attribution are in

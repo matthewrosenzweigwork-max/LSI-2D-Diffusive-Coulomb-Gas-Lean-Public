@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanNormalSegmentJump
-import LeanResearch.RepulsiveCoulomb.JordanArgumentHomotopy
-import LeanResearch.RepulsiveCoulomb.JordanBoundedInsideSupport
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanNormalSegmentJump
+public import LeanResearch.RepulsiveCoulomb.JordanArgumentHomotopy
+public import LeanResearch.RepulsiveCoulomb.JordanBoundedInsideSupport
+
+@[expose] public section
 
 /-! Actual signed inside/outside argument-increment classification for a
 supported normalized regular simple loop. A normal observation point is forced

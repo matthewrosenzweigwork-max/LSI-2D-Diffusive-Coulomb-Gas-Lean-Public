@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricFullStripLocalFilling
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
-import Mathlib.Topology.Connected.Clopen
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricFullStripLocalFilling
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
+public import Mathlib.Topology.Connected.Clopen
+
+@[expose] public section
 
 /-! Source-only, uncompiled. A contained minimizing segment of length h
 cannot leave a closed strip below its top: the image is locally open there.

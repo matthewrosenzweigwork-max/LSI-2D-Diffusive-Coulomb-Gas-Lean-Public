@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPositiveTraversal
-import LeanResearch.RepulsiveCoulomb.PointRadialPlaneArcArgumentTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPositiveTraversal
+public import LeanResearch.RepulsiveCoulomb.PointRadialPlaneArcArgumentTurn
+
+@[expose] public section
 
 /-! Choose positive orientation while retaining the literal radial plane-arc
 objects, source-derived geodesic argument transport and puncture-free open

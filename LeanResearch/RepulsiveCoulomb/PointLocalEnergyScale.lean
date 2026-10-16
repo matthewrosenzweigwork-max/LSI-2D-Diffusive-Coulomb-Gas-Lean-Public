@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointLocalMaximalEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLocalMaximalEnergy
+
+@[expose] public section
 
 /-! Explicit growth of the square-root local energy along the dyadic chain.
 The dimension is deliberately enlarged to 2(Q+2), giving the target Sobolev

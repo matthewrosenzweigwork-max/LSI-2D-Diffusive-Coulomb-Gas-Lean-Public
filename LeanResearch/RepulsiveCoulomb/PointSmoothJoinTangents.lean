@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointSmoothArcCollars
-import Mathlib.Analysis.Calculus.TangentCone.Real
-import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSmoothArcCollars
+public import Mathlib.Analysis.Calculus.TangentCone.Real
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+
+@[expose] public section
 
 /-! Actual derivative alignment at artificial collar/middle joins. Equality
 on the closed interval suffices by one-sided derivative uniqueness at its

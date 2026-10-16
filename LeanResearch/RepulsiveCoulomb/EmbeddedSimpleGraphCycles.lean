@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EmbeddedSimpleGraphDrawing
-import Mathlib.Combinatorics.SimpleGraph.Paths
+module
+
+public import LeanResearch.RepulsiveCoulomb.EmbeddedSimpleGraphDrawing
+public import Mathlib.Combinatorics.SimpleGraph.Paths
+
+@[expose] public section
 
 /-! Exact edge-list-preserving transport from simple graph paths and cycles to
 the approved geometric graph API. -/

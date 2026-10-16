@@ -1,10 +1,14 @@
-import LeanResearch.RepulsiveCoulomb.CoulombTemperatureCoreSequence
-import LeanResearch.RepulsiveCoulomb.CoulombTemperatureCompactSubsequence
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateIntervalDrift
-import LeanResearch.RepulsiveCoulomb.CoulombTemperatureEnergyLimit
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateClosedLimit
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateSequenceIdentities
-import LeanResearch.RepulsiveCoulomb.CoulombFixedParticlePoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombTemperatureCoreSequence
+public import LeanResearch.RepulsiveCoulomb.CoulombTemperatureCompactSubsequence
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateIntervalDrift
+public import LeanResearch.RepulsiveCoulomb.CoulombTemperatureEnergyLimit
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateClosedLimit
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateSequenceIdentities
+public import LeanResearch.RepulsiveCoulomb.CoulombFixedParticlePoincare
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. The actual normalized-sequence contradiction
 for a fixed particle number and a positive compact temperature interval. -/

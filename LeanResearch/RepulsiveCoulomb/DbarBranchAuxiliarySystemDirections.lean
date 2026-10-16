@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchDensityLocalizedData
-import LeanResearch.RepulsiveCoulomb.DbarBranchComplexDivergenceTests
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchDensityLocalizedData
+public import LeanResearch.RepulsiveCoulomb.DbarBranchComplexDivergenceTests
+
+@[expose] public section
 
 /-! Exact real coordinate directions and Wirtinger weights for the local
 auxiliary system after w=rho*u. Both signs and the factor one-half are explicit. -/

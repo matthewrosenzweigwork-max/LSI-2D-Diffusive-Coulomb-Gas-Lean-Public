@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+
+@[expose] public section
 
 /-! The actual endpoint-fixed radial-V to quadratic-corner homotopy stays in a
 small disk. It transports through a continuous chart and avoids every point

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFirstMarkedContact
-import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFirstMarkedContact
+public import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Actual positive radial portions before the
 constructed first marked direction cannot contain any marked point. The proof

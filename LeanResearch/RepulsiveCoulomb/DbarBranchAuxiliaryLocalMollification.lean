@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCompactData
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCompactData
+
+@[expose] public section
 
 /-! Actual simultaneous local mollification of a genuine auxiliary adjoint
 and compatibility-domain pair, after one fixed proper cutoff. The common

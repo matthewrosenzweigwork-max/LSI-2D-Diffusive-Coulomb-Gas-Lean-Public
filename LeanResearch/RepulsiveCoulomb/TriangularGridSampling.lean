@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ScaledGridDoubleOscillation
-import Mathlib.Data.Int.Interval
+module
+
+public import LeanResearch.RepulsiveCoulomb.ScaledGridDoubleOscillation
+public import Mathlib.Data.Int.Interval
+
+@[expose] public section
 
 /-! Actual finite nodal samples of a compactly supported function, with exact
 values at every lattice node. No finite-support sampling hypothesis is assumed. -/

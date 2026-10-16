@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExponentialLayercake
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExponentialLayercake
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+
+@[expose] public section
 
 /-! Actual improper integrals and constant algebra for exponential layer cake.
 The N-dependent truncated exponential is controlled by the exact log-N cutoff;

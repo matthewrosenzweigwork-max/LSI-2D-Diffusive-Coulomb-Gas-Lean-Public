@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogSmoothConvolution
-import Mathlib.Analysis.InnerProductSpace.Dual
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogSmoothConvolution
+public import Mathlib.Analysis.InnerProductSpace.Dual
+public import Mathlib.Analysis.Complex.Basic
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Set InnerProductSpace

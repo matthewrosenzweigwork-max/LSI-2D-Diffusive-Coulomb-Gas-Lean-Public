@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombAssociatedGraph
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombAssociatedGraph
+
+@[expose] public section
 
 /-! Self-adjointness of the literal unbounded graph built from the actual
 variational resolvent. Dense domain is proved, never assumed. -/

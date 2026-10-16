@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStageFlatCharts
-import LeanResearch.RepulsiveCoulomb.PointCleanRayRetainedHalfDisks
-import LeanResearch.RepulsiveCoulomb.MetricRayAnchoredPatchUniqueness
-import LeanResearch.RepulsiveCoulomb.PointTranslatedCornerSeed
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStageFlatCharts
+public import LeanResearch.RepulsiveCoulomb.PointCleanRayRetainedHalfDisks
+public import LeanResearch.RepulsiveCoulomb.MetricRayAnchoredPatchUniqueness
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedCornerSeed
+
+@[expose] public section
 
 /-! SOURCE-ONLY ASSEMBLY. Original geometric data for the initial translated
 strip. The two trace fields are literal one-dimensional identifications in a

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
-import LeanResearch.RepulsiveCoulomb.ComplexLineLaplacian
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+public import LeanResearch.RepulsiveCoulomb.ComplexLineLaplacian
+
+@[expose] public section
 
 /-! The actual effective potential and its Levi quadratic form via complex lines. -/
 noncomputable section

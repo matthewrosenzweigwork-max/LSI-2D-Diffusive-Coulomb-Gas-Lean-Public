@@ -1,5 +1,9 @@
-import Mathlib.MeasureTheory.Integral.Bochner.Basic
-import Mathlib.Data.EReal.Operations
+module
+
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Data.EReal.Operations
+
+@[expose] public section
 
 /-! Extended signed integrals with an actually integrable negative part.
 The shift identity includes infinite positive integrals and is intended for the

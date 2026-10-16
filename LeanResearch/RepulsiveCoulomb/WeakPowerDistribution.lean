@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointHedbergOscillation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointHedbergOscillation
+
+@[expose] public section
 
 /-! A genuine weak distribution bound obtained from a pointwise power estimate
 and a genuine weak(1,1) bound. This abstract scalar step does not assert either

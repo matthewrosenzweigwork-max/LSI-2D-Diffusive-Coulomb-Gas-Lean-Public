@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkOccupancy
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkOccupancy
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+
+@[expose] public section
 
 /-! SOURCE-ONLY, NOT COMPILED. An actual isometric halfdisk supplies not only
 its occupied interval, but the EXACT pair of radial edge germs. Orientation

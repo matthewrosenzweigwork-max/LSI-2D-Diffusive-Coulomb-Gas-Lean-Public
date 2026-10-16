@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatEmbeddingOpenImage
-import Mathlib.Analysis.Convex.Topology
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatEmbeddingOpenImage
+public import Mathlib.Analysis.Convex.Topology
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Closed ranges, density of the literal source
 interior image, and exclusion of another open sector from the closed image.

@@ -1,5 +1,9 @@
-import LeanResearch.PeriodicAttractiveLogGas.Rothaus
-import Mathlib.Analysis.SpecialFunctions.Exp
+module
+
+public import LeanResearch.PeriodicAttractiveLogGas.Rothaus
+public import Mathlib.Analysis.SpecialFunctions.Exp
+
+@[expose] public section
 
 /-! Bounded scalar KL dual approximations for the thermal direct method.
 This proves the actual scalar monotone approximation; it does not assume or

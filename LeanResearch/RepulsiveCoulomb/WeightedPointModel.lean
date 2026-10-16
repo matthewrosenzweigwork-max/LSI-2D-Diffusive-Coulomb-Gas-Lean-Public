@@ -1,8 +1,12 @@
-import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
-import Mathlib.MeasureTheory.Measure.WithDensity
-import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+module
+
+public import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.MeasureTheory.Measure.WithDensity
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+
+@[expose] public section
 
 /-!
 Concrete unnormalized point-weighted Gaussian of Theorem 1.2 (eq. 1.11).

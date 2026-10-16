@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkOldIntervalAlignment
-import LeanResearch.RepulsiveCoulomb.PointFlatSectorLinkOccupancy
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexRestrictChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexAngularCut
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkOldIntervalAlignment
+public import LeanResearch.RepulsiveCoulomb.PointFlatSectorLinkOccupancy
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexRestrictChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexAngularCut
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, NOT COMPILED. Derive BOTH occupied-sector and free-ray germs in the

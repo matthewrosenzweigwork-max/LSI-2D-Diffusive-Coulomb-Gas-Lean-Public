@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridHat
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridHat
+
+@[expose] public section
 
 /-! Exact affine-sector formulas for the explicit regular-grid nodal hat. -/
 noncomputable section

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointBoundaryFiniteCoverGeometry
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnCapAdapter
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnFiniteGBData
-import LeanResearch.RepulsiveCoulomb.PointRadialListSourceSlots
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointBoundaryFiniteCoverGeometry
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnCapAdapter
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnFiniteGBData
+public import LeanResearch.RepulsiveCoulomb.PointRadialListSourceSlots
+
+@[expose] public section
 
 /-! Successor draft. Construct the actual first-return finite radial family
 from the literal finite old-boundary geodesic-piece cover and stopped metric

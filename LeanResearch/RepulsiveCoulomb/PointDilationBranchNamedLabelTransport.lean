@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchNamedPairTransport
-import LeanResearch.RepulsiveCoulomb.CoulombPermutationGap
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchNamedPairTransport
+public import LeanResearch.RepulsiveCoulomb.CoulombPermutationGap
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED. Sharp transposition and physical-gradient
 summation cancel the particle factor, leaving the supplied P exactly. No

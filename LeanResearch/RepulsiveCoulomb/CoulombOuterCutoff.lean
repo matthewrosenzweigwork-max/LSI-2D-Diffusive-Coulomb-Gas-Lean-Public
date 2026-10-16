@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombOuterBump
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombOuterBump
+
+@[expose] public section
 
 /-! Outer approximants: genuine probability normalization controls tails,
 and the physical gradient energy is O(radius^-2). -/

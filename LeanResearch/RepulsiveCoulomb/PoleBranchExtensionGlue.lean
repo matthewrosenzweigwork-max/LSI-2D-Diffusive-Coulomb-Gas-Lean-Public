@@ -1,5 +1,9 @@
-import Mathlib.Analysis.Calculus.FDeriv.Congr
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import Mathlib.Analysis.Calculus.FDeriv.Congr
+public import Mathlib.Analysis.Complex.Basic
+
+@[expose] public section
 
 /-! Compatible local holomorphic extensions across a dense domain glue without
 any prior global-extension hypothesis. -/

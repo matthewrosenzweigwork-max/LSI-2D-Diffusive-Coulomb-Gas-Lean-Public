@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
-import Mathlib.MeasureTheory.Integral.Pi
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
+public import Mathlib.MeasureTheory.Integral.Pi
+
+@[expose] public section
 
 /-! Actual product-reference densities. This is a new records-only
 reconstruction after the 2026-10-01 workspace recovery; it is not asserted

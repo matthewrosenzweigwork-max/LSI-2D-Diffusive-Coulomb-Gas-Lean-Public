@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricRelativeHalfDiskPatchExtension
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleInteriorGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRelativeHalfDiskPatchExtension
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleInteriorGeometry
+
+@[expose] public section
 
 /-! Pure Euclidean supporting geometry for the compact top. The supporting
 set is the halfplane on the inward side of the adjacent old edge. It is not

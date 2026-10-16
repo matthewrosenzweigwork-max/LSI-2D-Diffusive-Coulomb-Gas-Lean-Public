@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualBigonExclusion
-import LeanResearch.RepulsiveCoulomb.PointGeodesicJordanBigon
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualBigonExclusion
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicJordanBigon
+
+@[expose] public section
 
 /-! Global uniqueness of the actual exact metric segment. Disagreement of
 two minimizing segments constructs a genuine simple bigon, now excluded by

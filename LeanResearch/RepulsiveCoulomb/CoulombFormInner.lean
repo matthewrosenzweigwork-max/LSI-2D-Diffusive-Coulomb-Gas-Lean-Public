@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombClosedForm
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombClosedForm
+
+@[expose] public section
 
 /-! Polarization of the actual closed physical form norm. -/
 noncomputable section

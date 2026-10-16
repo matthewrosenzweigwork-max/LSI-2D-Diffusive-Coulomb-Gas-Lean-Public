@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianExponential
-import LeanResearch.RepulsiveCoulomb.CoulombProductVolume
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianExponential
+public import LeanResearch.RepulsiveCoulomb.CoulombProductVolume
+
+@[expose] public section
 
 /-! Literal Mehler rotation invariance of two independent planar Gaussian
 variables. The rotation is first an isometry of the actual real Euclidean

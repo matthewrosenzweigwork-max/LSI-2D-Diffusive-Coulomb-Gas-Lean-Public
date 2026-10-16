@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCutoffCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCutoffCore
+
+@[expose] public section
 
 /-! Uniform physical first-order bounds for a fixed compact cutoff. -/
 noncomputable section

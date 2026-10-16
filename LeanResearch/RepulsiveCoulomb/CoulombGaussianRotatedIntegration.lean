@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianMehlerRegularity
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianRotation
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianMehlerRegularity
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianRotation
+
+@[expose] public section
 
 /-! The entropy differentiation cancellation at the level of the actual
 Gaussian integral. A rotation makes the derivative of the original input

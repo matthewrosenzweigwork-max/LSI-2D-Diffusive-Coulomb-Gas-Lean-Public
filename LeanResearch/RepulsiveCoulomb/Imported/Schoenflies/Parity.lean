@@ -1,12 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Subdivide
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Direction
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Square
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolyPath
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Subdivide
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Direction
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Square
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolyPath
+
+@[expose] public section
 
 /-!
 # The crossing count of a polygon, and its parity

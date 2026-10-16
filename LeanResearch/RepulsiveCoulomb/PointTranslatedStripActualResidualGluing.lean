@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripSeamBoundary
-import LeanResearch.RepulsiveCoulomb.PointActualTranslatedStripIteration
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripSeamBoundary
+public import LeanResearch.RepulsiveCoulomb.PointActualTranslatedStripIteration
+
+@[expose] public section
 
 /-! SOURCE ONLY, UNCOMPILED. Apply seam gluing directly to the output of the
 actual translated-strip residual construction. The residual closure, cover,

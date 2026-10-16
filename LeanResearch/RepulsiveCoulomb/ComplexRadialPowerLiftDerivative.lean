@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ComplexPolarLiftDerivatives
-import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexPolarLiftDerivatives
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. The actual radial-power first derivative
 is a strictly positive coefficient times the cosine of the actual tangent/radial

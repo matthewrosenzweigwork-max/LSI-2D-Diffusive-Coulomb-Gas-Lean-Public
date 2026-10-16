@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.UnitAnnularCutoff
+module
+
+public import LeanResearch.RepulsiveCoulomb.UnitAnnularCutoff
+
+@[expose] public section
 
 /-! Actual scale-explicit annular cutoffs with compact support strictly inside
 {R/2 < norm z < 4R}, equal to one on {R <= norm z <= 2R}. -/

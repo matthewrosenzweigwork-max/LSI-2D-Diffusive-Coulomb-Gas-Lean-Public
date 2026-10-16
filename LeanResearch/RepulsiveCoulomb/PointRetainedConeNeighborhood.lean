@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointClosedRegionIntrinsicMetric
-import LeanResearch.RepulsiveCoulomb.PointGeodesicStarGerms
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
-import LeanResearch.RepulsiveCoulomb.MetricRegionIntrinsicGeodesic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointClosedRegionIntrinsicMetric
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicStarGerms
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
+public import LeanResearch.RepulsiveCoulomb.MetricRegionIntrinsicGeodesic
+
+@[expose] public section
 
 /-! Literal retained intervals in actual point-cone disks. These are local
 geometric inputs for an actual closed subset, to be supplied by the cut-contact

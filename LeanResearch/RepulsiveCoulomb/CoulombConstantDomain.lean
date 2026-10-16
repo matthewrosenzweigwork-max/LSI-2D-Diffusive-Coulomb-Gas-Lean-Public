@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombOuterCutoff
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombOuterCutoff
+
+@[expose] public section
 
 /-! The constant function belongs to the full closed weighted form domain. -/
 noncomputable section

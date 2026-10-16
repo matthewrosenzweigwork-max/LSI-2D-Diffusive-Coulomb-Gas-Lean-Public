@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
-import Mathlib.Topology.Order.IntermediateValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
+public import Mathlib.Topology.Order.IntermediateValue
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. A ray with genuine whole retained metric halfdisks

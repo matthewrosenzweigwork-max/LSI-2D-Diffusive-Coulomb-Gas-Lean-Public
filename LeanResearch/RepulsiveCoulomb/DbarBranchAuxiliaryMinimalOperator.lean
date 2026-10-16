@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreIBP
-import Mathlib.Analysis.InnerProductSpace.LinearPMap
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreIBP
+public import Mathlib.Analysis.InnerProductSpace.LinearPMap
+
+@[expose] public section
 
 /-! The genuine auxiliary minimal operator is the closure of the actual core
 T0 f=R dbar f. Dense compact formal-adjoint tests prove its single-valuedness.

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAlternatingMatrixIdentity
-import LeanResearch.RepulsiveCoulomb.DbarBranchCovectorMetric
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricSquareRoot
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAlternatingMatrixIdentity
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCovectorMetric
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricSquareRoot
+
+@[expose] public section
 
 /-! Apply the exact alternating-matrix identity to the explicit graph metric
 square roots. The coordinate matrix convention is M_ij=(M e_j)_i. -/

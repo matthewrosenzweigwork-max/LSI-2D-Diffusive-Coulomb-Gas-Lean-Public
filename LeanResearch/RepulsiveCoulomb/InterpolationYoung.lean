@@ -1,4 +1,8 @@
-import Mathlib.Analysis.MeanInequalities
+module
+
+public import Mathlib.Analysis.MeanInequalities
+
+@[expose] public section
 
 /-! Tunable real-power absorption for the super-Poincare interpolation. -/
 noncomputable section

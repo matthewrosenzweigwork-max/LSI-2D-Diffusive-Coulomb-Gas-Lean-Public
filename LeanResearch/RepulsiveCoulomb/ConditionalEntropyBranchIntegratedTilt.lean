@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchTilt
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchKernelIntegral
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchConditionalMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchTilt
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchKernelIntegral
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchConditionalMean
+
+@[expose] public section
 
 /-!
 Genuine integrated conditional tilt inequality. Every conditional divergence

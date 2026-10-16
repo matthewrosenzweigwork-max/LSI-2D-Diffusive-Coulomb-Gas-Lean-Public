@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.ProperMetricAnchoredLineLimit
-import Mathlib.Topology.Order.ProjIcc
-import Mathlib.Topology.MetricSpace.Lipschitz
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ProperMetricAnchoredLineLimit
+public import Mathlib.Topology.Order.ProjIcc
+public import Mathlib.Topology.MetricSpace.Lipschitz
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Explicitly recenter and clip actual finite
 segments. The whole-real-line Lipschitz maps and expanding isometric windows

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
-import Mathlib.MeasureTheory.Integral.Layercake
-import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+public import Mathlib.MeasureTheory.Integral.Layercake
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+
+@[expose] public section
 
 /-! A genuine exponential layer-cake upper bound for an arbitrary real random
 variable. The contribution below threshold one is bounded by e, rather than

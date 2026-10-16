@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourGeometry
+
+@[expose] public section
 
 /-! Local uniqueness of the actual regular-grid triangle away from its edges. -/
 noncomputable section

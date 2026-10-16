@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchVariational
-import Mathlib.MeasureTheory.Measure.LogLikelihoodRatio
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchVariational
+public import Mathlib.MeasureTheory.Measure.LogLikelihoodRatio
+
+@[expose] public section
 
 /-!
 Actual scalar tilted-law KL expansion and Jensen normalization estimate.

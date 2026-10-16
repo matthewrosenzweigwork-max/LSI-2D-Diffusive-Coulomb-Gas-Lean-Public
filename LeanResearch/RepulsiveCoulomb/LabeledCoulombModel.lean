@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PlanarWeightedGaussian
-import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
-import Mathlib.MeasureTheory.Integral.Pi
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarWeightedGaussian
+public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+public import Mathlib.MeasureTheory.Integral.Pi
+
+@[expose] public section
 
 /-! Literal full labeled N-particle repulsive Coulomb model, canonical manuscript
 thm:main. The configuration norm is the Euclidean l2 norm, not the Pi sup norm.

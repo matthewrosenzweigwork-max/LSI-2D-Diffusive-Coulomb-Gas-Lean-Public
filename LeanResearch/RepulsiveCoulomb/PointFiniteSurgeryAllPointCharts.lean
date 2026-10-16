@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentSurgeryChart
-import LeanResearch.RepulsiveCoulomb.PointNoIncidentSurgeryChart
-import LeanResearch.RepulsiveCoulomb.PointSectorInteriorOpenChart
-import LeanResearch.RepulsiveCoulomb.PointOriginalPlaneFiniteAllocation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentSurgeryChart
+public import LeanResearch.RepulsiveCoulomb.PointNoIncidentSurgeryChart
+public import LeanResearch.RepulsiveCoulomb.PointSectorInteriorOpenChart
+public import LeanResearch.RepulsiveCoulomb.PointOriginalPlaneFiniteAllocation
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Exhaustive original-plane local surgery charts.
 The actual sector-interior, incident-boundary and no-incident cases are all

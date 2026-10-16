@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalSmoothEL
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalLaplacianSharpCap
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalSmoothEL
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalLaplacianSharpCap
+
+@[expose] public section
 
 /-! The sharp physical density cap for the same smooth EL representative
 of a NEW canonical minimizer. The actual weak-Poisson identity and NEW

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricFlatDiskPatchExtension
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricFlatDiskPatchExtension
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
+
+@[expose] public section
 
 /-! Successor source-only draft. Full metric Euclidean disk charts are
 constructed from the actual retained cone disk at an interior zero-curvature

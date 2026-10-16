@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactVolumeCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactVolumeCore
+
+@[expose] public section
 
 /-! Transfer a directional derivative between the two genuine compact factors
 of convolution, both pointwise and in the actual Lebesgue-L2 classes. -/

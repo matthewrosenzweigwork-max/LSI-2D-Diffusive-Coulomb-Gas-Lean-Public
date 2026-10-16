@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianCoreGlobalSPI
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianSPIWang
-import LeanResearch.RepulsiveCoulomb.PointFormDefectiveLSI
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianCoreGlobalSPI
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianSPIWang
+public import LeanResearch.RepulsiveCoulomb.PointFormDefectiveLSI
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. New SPI, the actual Wang specialization, full-form entropy closure, and Rothaus tightening from the new PI. -/
 noncomputable section

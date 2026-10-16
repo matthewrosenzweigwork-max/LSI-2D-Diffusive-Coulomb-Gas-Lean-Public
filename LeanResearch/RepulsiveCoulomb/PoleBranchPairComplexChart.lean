@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchRelativeComplexChart
-import LeanResearch.RepulsiveCoulomb.CoulombAllPairsSwap
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchRelativeComplexChart
+public import LeanResearch.RepulsiveCoulomb.CoulombAllPairsSwap
+
+@[expose] public section
 
 /-! The existing relative chart transported to any actual pair of labels,
 with its exact collision coordinate and transposition reflection. -/

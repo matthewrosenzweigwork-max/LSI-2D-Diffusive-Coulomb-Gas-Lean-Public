@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreCutoffProducts
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreCutoffProducts
+
+@[expose] public section
 
 /-! Joint physical energy control for a cutoff and its complement. -/
 noncomputable section

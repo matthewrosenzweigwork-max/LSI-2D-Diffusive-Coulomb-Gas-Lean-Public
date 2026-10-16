@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedFullFlatDiskChart
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFullFlatDiskChart
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
+
+@[expose] public section
 
 /-! Genuine full Euclidean charts at actual interior zero-exponent points.
 The metric radius is chosen inside P using its literal interior, then the

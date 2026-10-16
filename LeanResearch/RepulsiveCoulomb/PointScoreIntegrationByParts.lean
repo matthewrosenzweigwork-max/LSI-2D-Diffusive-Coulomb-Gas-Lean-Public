@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreDivergence
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.WeakDeriv.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreDivergence
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.WeakDeriv.Basic
+
+@[expose] public section
 
 /-! Actual Haar integration by parts against the original smooth core, with
 local score regularity and integrability proved on exactly its open domain. -/

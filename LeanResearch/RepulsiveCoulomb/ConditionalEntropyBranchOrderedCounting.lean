@@ -1,5 +1,9 @@
-import Mathlib.Algebra.BigOperators.Fin
-import Mathlib.Tactic
+module
+
+public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 Exact finite ordered-pair counting for the manuscript's conditional potential.

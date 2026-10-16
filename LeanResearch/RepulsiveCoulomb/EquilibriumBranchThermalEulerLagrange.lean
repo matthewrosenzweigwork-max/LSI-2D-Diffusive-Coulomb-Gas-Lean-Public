@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalPositivity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityStationarity
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalPositivity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityStationarity
+
+@[expose] public section
 
 /-! Actual Euler--Lagrange identification for a thermal minimizer, first in
 its correct planar-a.e. form. Positivity and every finite variation-domain

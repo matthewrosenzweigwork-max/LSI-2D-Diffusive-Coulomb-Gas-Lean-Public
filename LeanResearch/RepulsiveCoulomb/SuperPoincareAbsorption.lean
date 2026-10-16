@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.SuperPoincareCoefficients
+module
+
+public import LeanResearch.RepulsiveCoulomb.SuperPoincareCoefficients
+
+@[expose] public section
 
 /-! Scalar cutoff absorption and the extension from small to all parameters. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormResolvent
-import Mathlib.Analysis.InnerProductSpace.LinearPMap
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormResolvent
+public import Mathlib.Analysis.InnerProductSpace.LinearPMap
+
+@[expose] public section
 
 /-! The actual unbounded associated-operator graph, constructed from the
 injective variational resolvent. The graph constructor's default branch is

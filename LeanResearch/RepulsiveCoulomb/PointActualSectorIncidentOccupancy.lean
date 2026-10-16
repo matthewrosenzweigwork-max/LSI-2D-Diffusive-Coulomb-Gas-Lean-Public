@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteSectorLocalGeometry
-import LeanResearch.RepulsiveCoulomb.EuclideanSectorBoundaryCases
-import LeanResearch.RepulsiveCoulomb.ContractedPassingEdgeHalfDisk
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteSectorLocalGeometry
+public import LeanResearch.RepulsiveCoulomb.EuclideanSectorBoundaryCases
+public import LeanResearch.RepulsiveCoulomb.ContractedPassingEdgeHalfDisk
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Each actual incident sector at a seam point is
 classified from its literal source. Its full local image is then an actual

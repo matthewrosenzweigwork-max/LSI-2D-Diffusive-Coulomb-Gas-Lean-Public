@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ProperBoundaryClockArclength
-import Mathlib.Topology.Instances.NNReal.Lemmas
-import Mathlib.Topology.Order.DenselyOrdered
+module
+
+public import LeanResearch.RepulsiveCoulomb.ProperBoundaryClockArclength
+public import Mathlib.Topology.Instances.NNReal.Lemmas
+public import Mathlib.Topology.Order.DenselyOrdered
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. One-sided arclength from a proper topological
 clock. Only positive-clock subarcs are required to contain minimizing segments.

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeGeometry
+
+@[expose] public section
 
 /-! Algebraic chart support for the manuscript's all-particle center of mass.
 The sole chart hypothesis says that the inverse first axis is diagonal. This

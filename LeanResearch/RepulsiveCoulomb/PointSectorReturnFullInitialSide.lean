@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PlanarFirstReturnJordanCaps
-import LeanResearch.RepulsiveCoulomb.PointRadialLoopBoundary
-import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfConeSides
-import LeanResearch.RepulsiveCoulomb.PointLineFullIntervalWidth
-import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarFirstReturnJordanCaps
+public import LeanResearch.RepulsiveCoulomb.PointRadialLoopBoundary
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfConeSides
+public import LeanResearch.RepulsiveCoulomb.PointLineFullIntervalWidth
+public import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
+
+@[expose] public section
 
 /-! Isolated, uncompiled sector-return successor. The actual full local cap
 side is selected by a connected escaping OLD ray. The input consists of actual

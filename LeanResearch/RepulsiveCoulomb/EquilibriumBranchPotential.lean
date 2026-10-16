@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogMass
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogMass
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Actual logarithmic potentials of bounded planar probability densities.
 All integrability is proved before using real-valued integrals. These lemmas

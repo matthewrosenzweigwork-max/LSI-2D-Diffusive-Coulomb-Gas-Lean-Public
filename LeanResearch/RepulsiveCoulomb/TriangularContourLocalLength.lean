@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourCrossingPrefix
-import LeanResearch.RepulsiveCoulomb.PointWeightedCrossingChain
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourCrossingPrefix
+public import LeanResearch.RepulsiveCoulomb.PointWeightedCrossingChain
+
+@[expose] public section
 
 /-! Physical local contour length and the actual crossing-component relative
 area estimate for the unit-mesh approximation stage. -/

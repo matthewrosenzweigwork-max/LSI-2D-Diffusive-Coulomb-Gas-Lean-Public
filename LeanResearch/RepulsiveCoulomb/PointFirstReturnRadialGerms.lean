@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryRayContacts
-import LeanResearch.RepulsiveCoulomb.PointGeodesicRadialGerms
-import LeanResearch.RepulsiveCoulomb.PointGeodesicStrictSectors
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryRayContacts
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicRadialGerms
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicStrictSectors
+
+@[expose] public section
 
 /-! Source-only draft. At the far contact, the reversed stopped ray and the
 chosen incident old-boundary piece have distinct radial germs in one actual

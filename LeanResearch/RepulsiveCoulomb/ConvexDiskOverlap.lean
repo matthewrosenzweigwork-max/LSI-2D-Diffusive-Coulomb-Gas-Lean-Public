@@ -1,6 +1,10 @@
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.Convex.Topology
-import Mathlib.Analysis.Normed.Affine.AddTorsor
+module
+
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Convex.Topology
+public import Mathlib.Analysis.Normed.Affine.AddTorsor
+
+@[expose] public section
 
 /-! NEW implementation after workspace loss. The two public geometric
 statements are retained; these proof bodies are not a recovery of old bytes. -/

@@ -1,4 +1,8 @@
-import RetainedReload
+module
+
+public import RetainedReload
+
+@[expose] public section
 
 -- Generated source adapter; fresh compilation and checking are still required.
 

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointClassicalConeDisk
-import Mathlib.MeasureTheory.VectorMeasure.Order
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointClassicalConeDisk
+public import Mathlib.MeasureTheory.VectorMeasure.Order
+
+@[expose] public section
 
 /-! Finite atomic polyhedral curvature, read from the now-proved classical cone
 angles. This is cone-angle curvature; no unproved distributional Laplacian

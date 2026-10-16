@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapNatLifts
-import LeanResearch.RepulsiveCoulomb.PointLineCapTurnLimit
-import LeanResearch.RepulsiveCoulomb.PointFiniteMixedGaussBonnetGerms
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Order
-import Mathlib.Tactic.NormNum
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapNatLifts
+public import LeanResearch.RepulsiveCoulomb.PointLineCapTurnLimit
+public import LeanResearch.RepulsiveCoulomb.PointFiniteMixedGaussBonnetGerms
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Order
+public import Mathlib.Tactic.NormNum
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Apply mixed original-germ GB to the actual
 natural-indexed cap. Everything except the two ordinary endpoint-representative

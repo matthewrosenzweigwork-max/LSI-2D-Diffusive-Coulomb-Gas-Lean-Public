@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianCoreLocalSPI
-import LeanResearch.RepulsiveCoulomb.PointCoreCutoffMass
-import LeanResearch.RepulsiveCoulomb.GaussianSPIRate
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianCoreLocalSPI
+public import LeanResearch.RepulsiveCoulomb.PointCoreCutoffMass
+public import LeanResearch.RepulsiveCoulomb.GaussianSPIRate
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. Actual cutoff local/exterior absorption using the new local SPI. All rate constants are newly selected. -/
 noncomputable section

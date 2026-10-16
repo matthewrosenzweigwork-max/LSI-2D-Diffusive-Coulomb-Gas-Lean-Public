@@ -1,5 +1,9 @@
-import Mathlib.Analysis.SpecificLimits.Basic
-import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
+module
+
+public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
+
+@[expose] public section
 
 /-! Explicit elementary split bounds for the dyadic series in the local
 Sobolev argument. No analytic hypothesis is hidden in these scalar estimates. -/

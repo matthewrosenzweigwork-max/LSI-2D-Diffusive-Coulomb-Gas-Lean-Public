@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveLSC
-import Mathlib.MeasureTheory.Measure.Prokhorov
-import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveLSC
+public import Mathlib.MeasureTheory.Measure.Prokhorov
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+
+@[expose] public section
 
 /-! Actual tightness and compactness of every finite objective sublevel. Moment
 control is derived from the objective itself, and applies before a density or

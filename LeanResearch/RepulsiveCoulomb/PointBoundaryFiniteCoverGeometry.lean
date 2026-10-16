@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryRayContacts
-import LeanResearch.RepulsiveCoulomb.PlanarLineHalfplaneSides
-import LeanResearch.RepulsiveCoulomb.FiniteClosedIntervalCoverSubdivision
-import LeanResearch.RepulsiveCoulomb.PointOrderedBoundaryRadialChains
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryRayContacts
+public import LeanResearch.RepulsiveCoulomb.PlanarLineHalfplaneSides
+public import LeanResearch.RepulsiveCoulomb.FiniteClosedIntervalCoverSubdivision
+public import LeanResearch.RepulsiveCoulomb.PointOrderedBoundaryRadialChains
+
+@[expose] public section
 
 /-! Successor draft. The actual finite old geodesic-piece cover is sufficient:
 its pullback to any simple compact old-boundary arc is a finite closed interval

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalLocalAntipode
-import LeanResearch.RepulsiveCoulomb.PointFiniteGeodesicTree
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalLocalAntipode
+public import LeanResearch.RepulsiveCoulomb.PointFiniteGeodesicTree
+
+@[expose] public section
 
 /-! Construct an actual opposite minimizing germ at the starting endpoint of
 any nondegenerate minimizing edge. Local distance-additivity is proved, not

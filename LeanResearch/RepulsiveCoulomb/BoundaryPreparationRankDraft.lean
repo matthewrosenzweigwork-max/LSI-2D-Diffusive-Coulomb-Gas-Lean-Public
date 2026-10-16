@@ -1,11 +1,15 @@
-import LeanResearch.RepulsiveCoulomb.PointSignedCurvatureFinite
-import Mathlib.Data.Finsupp.Basic
-import Mathlib.Data.Finset.Card
-import Mathlib.Data.Finset.Max
-import Mathlib.Data.Set.Finite.Basic
-import Mathlib.Basic.NNReal.Basic
-import Mathlib.Topology.Closure
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSignedCurvatureFinite
+public import Mathlib.Data.Finsupp.Basic
+public import Mathlib.Data.Finset.Card
+public import Mathlib.Data.Finset.Max
+public import Mathlib.Data.Set.Finite.Basic
+public import Mathlib.Basic.NNReal.Basic
+public import Mathlib.Topology.Closure
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 ISOLATED SOURCE-ONLY DRAFT, 2026-10-03. No compiler run or canonical staging.

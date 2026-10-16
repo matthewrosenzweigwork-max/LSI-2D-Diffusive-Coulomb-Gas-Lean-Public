@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalDistribution
-import LeanResearch.RepulsiveCoulomb.DbarBranchLpMollifier
-import Mathlib.Analysis.Calculus.ContDiff.Convolution
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalDistribution
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLpMollifier
+public import Mathlib.Analysis.Calculus.ContDiff.Convolution
+
+@[expose] public section
 
 /-! Localize an actual Gibbs L2 representative to a compact collision-free set,
 then construct honest global smooth convolutions. Identification with the

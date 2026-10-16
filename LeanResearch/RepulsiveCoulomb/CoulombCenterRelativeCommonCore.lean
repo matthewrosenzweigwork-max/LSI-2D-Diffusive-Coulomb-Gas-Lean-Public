@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeSliceApproximation
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeSliceApproximation
+
+@[expose] public section
 
 /-! Exact equality of the relative ambient smooth closure and collision-free
 smooth closure. It is obtained from the ORIGINAL common core via genuine

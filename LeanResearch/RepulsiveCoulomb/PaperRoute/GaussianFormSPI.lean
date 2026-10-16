@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianCoreGlobalSPI
-import LeanResearch.RepulsiveCoulomb.PointUniformSuperPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianCoreGlobalSPI
+public import LeanResearch.RepulsiveCoulomb.PointUniformSuperPoincare
+
+@[expose] public section
 
 /-! Additive experimental source. The actual new Gaussian core SPI passes to
 the full physical form domain through the conditional approximation theorem.

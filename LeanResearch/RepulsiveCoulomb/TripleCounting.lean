@@ -1,5 +1,9 @@
-import Mathlib.Data.Finset.Powerset
-import Mathlib.Tactic
+module
+
+public import Mathlib.Data.Finset.Powerset
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Exact complete-graph triple incidence counts. -/
 noncomputable section

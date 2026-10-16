@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
-import Mathlib.MeasureTheory.Measure.OpenPos
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
+public import Mathlib.MeasureTheory.Measure.OpenPos
+
+@[expose] public section
 
 /-! Symmetrization preserves the original real compact smooth collision-free
 core. Every symmetric element of the original closed physical form has a

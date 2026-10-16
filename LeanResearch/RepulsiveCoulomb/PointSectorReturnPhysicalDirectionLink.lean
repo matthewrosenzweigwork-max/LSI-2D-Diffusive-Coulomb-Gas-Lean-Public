@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualEdgeGerm
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualEdgeGerm
+
+@[expose] public section
 
 /-! Isolated, uncompiled comparison with the first-marked-direction API.
 The same actual clean-ray germ determines the raw reference-edge angle. Thus

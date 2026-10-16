@@ -1,7 +1,11 @@
-import Mathlib.Topology.UnitInterval
-import Mathlib.Topology.MetricSpace.Pseudo.Basic
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
+module
+
+public import Mathlib.Topology.UnitInterval
+public import Mathlib.Topology.MetricSpace.Pseudo.Basic
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+
+@[expose] public section
 
 /-! Concrete compact-interval consequences of local constant-speed minimizing.
 The metric may have no curvature sign and geodesics need not be unique. An

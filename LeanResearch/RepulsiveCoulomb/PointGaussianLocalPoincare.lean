@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGaussianLocalSobolev
-import LeanResearch.RepulsiveCoulomb.PowerMeanComparison
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGaussianLocalSobolev
+public import LeanResearch.RepulsiveCoulomb.PowerMeanComparison
+
+@[expose] public section
 
 /-! Actual Gaussian local quadratic Poincare, in integrated form suitable for
 the global quadratic-moment absorption. The raw weak Poincare input remains

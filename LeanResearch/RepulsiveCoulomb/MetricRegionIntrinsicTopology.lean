@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricRegionPathDistance
-import Mathlib.Topology.MetricSpace.ProperSpace
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRegionPathDistance
+public import Mathlib.Topology.MetricSpace.ProperSpace
+
+@[expose] public section
 
 /-! Topology and properness of the genuine constrained intrinsic metric.
 Only radial competitors from each local chart center are used. No ambient

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointSmoothJoinTangents
-import LeanResearch.RepulsiveCoulomb.JordanEndpointReparameterization
-import Mathlib.Analysis.Calculus.Deriv.Shift
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSmoothJoinTangents
+public import LeanResearch.RepulsiveCoulomb.JordanEndpointReparameterization
+public import Mathlib.Analysis.Calculus.Deriv.Shift
+
+@[expose] public section
 
 /-! Right-collar derivative alignment and actual middle-only speed matching.
 The two analytic radial collars are unchanged. Only the analytic middle is

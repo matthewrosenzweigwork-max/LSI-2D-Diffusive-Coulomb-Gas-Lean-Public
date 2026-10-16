@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombExponentialQuadraticMoment
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchVariational
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombExponentialQuadraticMoment
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchVariational
+
+@[expose] public section
 
 /-! Records-only uncompiled adapter. Finite relative entropy against the actual
 normalized Coulomb law implies a genuine competitor quadratic moment. -/

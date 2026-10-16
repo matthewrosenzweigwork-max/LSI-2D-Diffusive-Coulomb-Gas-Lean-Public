@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricFlatHalfDiskChart
-import LeanResearch.RepulsiveCoulomb.ComplexBoundarySideRigidity
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricFlatHalfDiskChart
+public import LeanResearch.RepulsiveCoulomb.ComplexBoundarySideRigidity
+
+@[expose] public section
 
 /-! Successor source-only draft. Closed-side two-anchor uniqueness is derived
 from Euclidean distances. This is the comparison tool for actual overlapping

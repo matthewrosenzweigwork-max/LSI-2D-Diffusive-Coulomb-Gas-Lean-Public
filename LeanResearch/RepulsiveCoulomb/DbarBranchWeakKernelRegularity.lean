@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelRepresentative
-import LeanResearch.RepulsiveCoulomb.DbarBranchHolomorphicWeakKernel
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelRepresentative
+public import LeanResearch.RepulsiveCoulomb.DbarBranchHolomorphicWeakKernel
+
+@[expose] public section
 
 /-! Exact identification of the actual weak kernel with genuine holomorphic
 weighted-L2 representatives, combining the independently proved directions. -/

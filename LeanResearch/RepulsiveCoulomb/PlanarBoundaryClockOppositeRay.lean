@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PlanarOldBoundaryComplementRay
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarOldBoundaryComplementRay
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Orient the actual full boundary clock opposite
 to a given actual proper boundary ray. The orientation is derived from the

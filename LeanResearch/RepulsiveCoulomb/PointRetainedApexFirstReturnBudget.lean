@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FirstReturnSignedCurvatureAlgebra
-import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.FirstReturnSignedCurvatureAlgebra
+public import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, NOT COMPILED. The finite signed GB accounting for a genuine sector

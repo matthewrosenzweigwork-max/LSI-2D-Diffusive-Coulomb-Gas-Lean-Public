@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkCommonChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkCommonChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Retain the actual orientation furnished by the
 flat-arc rigidity theorem, together with its exact full occupied interval.

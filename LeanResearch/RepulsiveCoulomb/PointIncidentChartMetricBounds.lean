@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentSurgeryChart
-import LeanResearch.RepulsiveCoulomb.FiniteClosedPieceMetricBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentSurgeryChart
+public import LeanResearch.RepulsiveCoulomb.FiniteClosedPieceMetricBounds
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Cross-piece bounds for the actual incident
 chart. Forward estimates are centered local estimates on the genuine open

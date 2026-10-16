@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkCornerSaturation
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripCornerChart
-import LeanResearch.RepulsiveCoulomb.PointTranslatedFiniteWidthLimit
-import LeanResearch.RepulsiveCoulomb.PointSaturatedTwoCornerBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkCornerSaturation
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripCornerChart
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedFiniteWidthLimit
+public import LeanResearch.RepulsiveCoulomb.PointSaturatedTwoCornerBudget
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. The attained translated corner has nonnegative

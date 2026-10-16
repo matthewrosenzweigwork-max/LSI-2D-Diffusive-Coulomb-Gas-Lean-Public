@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormSymmetrizer
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormSymmetrizer
+
+@[expose] public section
 
 /-! Literal real Gibbs L2 constants, continuous mean and variance, and centering.
 All particle numbers are retained; these statements do not use a dbar estimate

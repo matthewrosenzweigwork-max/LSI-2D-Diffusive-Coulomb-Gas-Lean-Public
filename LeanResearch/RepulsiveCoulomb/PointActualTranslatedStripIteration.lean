@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripStateAdapters
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripStateAdapters
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. A companion to the frozen actual translated
 strip endpoint, with exactly the same geometric assumptions. It retains the

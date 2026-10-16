@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanSmoothSupportedTurn
-import LeanResearch.RepulsiveCoulomb.PlaneJordanSeparation
-import Mathlib.Analysis.Calculus.LocalExtr.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothSupportedTurn
+public import LeanResearch.RepulsiveCoulomb.PlaneJordanSeparation
+public import Mathlib.Analysis.Calculus.LocalExtr.Basic
+
+@[expose] public section
 
 /-! Relate a supporting-line turn calculation to the actual bounded side.
 The region is an actual bounded open set with the actual curve as its frontier;

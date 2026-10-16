@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedLongitudinalExtension
-import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
-import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedLongitudinalExtension
+public import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
+public import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
+
+@[expose] public section
 
 /-! SOURCE-ONLY ASSEMBLY. Construct an actual minimizing finite horizontal
 row of a finite translated rectangle and a complete ambient clock preserving

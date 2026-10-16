@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricFlatPatchUniqueness
-import Mathlib.Analysis.Convex.Topology
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricFlatPatchUniqueness
+public import Mathlib.Analysis.Convex.Topology
+
+@[expose] public section
 
 /-! Post-freeze successor. Genuine germ uniqueness is propagated to a whole
 closed convex rectangle, including its completed boundary, by continuity. -/

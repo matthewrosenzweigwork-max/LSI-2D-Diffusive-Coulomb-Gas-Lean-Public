@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+
+@[expose] public section
 
 /-! Fixed-configuration-space global density domination. The constant may
  depend on particle number and temperature; no uniformity is asserted. -/

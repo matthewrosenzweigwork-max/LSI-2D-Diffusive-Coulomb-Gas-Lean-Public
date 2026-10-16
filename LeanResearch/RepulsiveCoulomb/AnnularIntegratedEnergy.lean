@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.AnnularProductEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.AnnularProductEnergy
+
+@[expose] public section
 
 /-! Integral localization on the actual enlarged annulus. Compact-set
 integrability is supplied explicitly, without assuming compact support of psi. -/

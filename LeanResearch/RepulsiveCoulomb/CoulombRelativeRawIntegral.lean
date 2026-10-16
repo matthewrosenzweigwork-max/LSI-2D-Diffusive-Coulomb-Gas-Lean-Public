@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeKernel
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeKernel
+
+@[expose] public section
 
 /-! Tonelli factorization in actual center-frozen relative coordinates. -/
 noncomputable section

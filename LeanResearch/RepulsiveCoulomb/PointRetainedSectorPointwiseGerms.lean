@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexInitialEntry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexInitialEntry
+
+@[expose] public section
 
 /-! SOURCE-ONLY, NOT COMPILED. Export the pointwise old-chart germs of BOTH
 actual source rays. Their endpoints and occupied physical width are derived,

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalLocalMetric
-import Mathlib.Analysis.Calculus.Deriv.Slope
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalLocalMetric
+public import Mathlib.Analysis.Calculus.Deriv.Slope
+
+@[expose] public section
 
 /-! The local analytic flat charts identify physical speed.  Any scalar function
 whose local increments dominate the actual conformal distance consequently

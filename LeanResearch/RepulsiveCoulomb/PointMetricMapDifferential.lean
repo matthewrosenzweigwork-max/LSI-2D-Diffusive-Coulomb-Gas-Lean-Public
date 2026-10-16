@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzLength
-import LeanResearch.RepulsiveCoulomb.PointConformalMetricSpeedLower
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzLength
+public import LeanResearch.RepulsiveCoulomb.PointConformalMetricSpeedLower
+
+@[expose] public section
 
 /-! Analytic consequences of actual two-sided point-metric bounds. These do
 not construct the uniformizing map. They prove the differential extraction for

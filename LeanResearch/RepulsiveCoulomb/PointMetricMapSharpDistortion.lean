@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricMapJacobian
-import Mathlib.Analysis.InnerProductSpace.Adjoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricMapJacobian
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+
+@[expose] public section
 
 /-!
 # Sharp planar outer distortion from the actual metric bounds

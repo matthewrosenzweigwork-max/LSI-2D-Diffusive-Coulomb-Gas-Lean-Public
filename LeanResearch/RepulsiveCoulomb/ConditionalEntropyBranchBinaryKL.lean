@@ -1,6 +1,10 @@
-import Mathlib.InformationTheory.KullbackLeibler.ChainRule
-import Mathlib.InformationTheory.KullbackLeibler.DataProcessing
-import Mathlib.Probability.Kernel.Disintegration.StandardBorel
+module
+
+public import Mathlib.InformationTheory.KullbackLeibler.ChainRule
+public import Mathlib.InformationTheory.KullbackLeibler.DataProcessing
+public import Mathlib.Probability.Kernel.Disintegration.StandardBorel
+
+@[expose] public section
 
 /-!
 Actual arbitrary-law disintegration and extended-valued product KL chain rules.

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFullSideRetainedChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullSideRetainedChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
+
+@[expose] public section
 
 /-! Isolated, uncompiled comparison of the actual GB vertex angle with an
 independently CONSTRUCTED retained chart of the same actual cap. The raw-return

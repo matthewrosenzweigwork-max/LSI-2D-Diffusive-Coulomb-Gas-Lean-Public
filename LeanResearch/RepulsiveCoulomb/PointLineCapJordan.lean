@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapArc
-import LeanResearch.RepulsiveCoulomb.PointMetricLineSideRegions
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapArc
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineSideRegions
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Literal line restriction plus the constructed
 circle arc is proved Jordan using the accepted two-arc theorem. The bounded

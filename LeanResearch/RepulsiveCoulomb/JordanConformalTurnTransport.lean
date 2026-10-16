@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
-import Mathlib.Analysis.Complex.BranchLogRoot
-import Mathlib.Analysis.Calculus.Deriv.Comp
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+public import Mathlib.Analysis.Complex.BranchLogRoot
+public import Mathlib.Analysis.Calculus.Deriv.Comp
+
+@[expose] public section
 
 /-! Actual turn transport through a noncritical holomorphic coordinate chart.
 A single-valued real angle of the actual complex derivative is constructed on

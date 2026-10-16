@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombConstantDomain
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombConstantDomain
+
+@[expose] public section
 
 /-! Continuous L2 operators for literal value permutations and physical gradient differences. -/
 noncomputable section

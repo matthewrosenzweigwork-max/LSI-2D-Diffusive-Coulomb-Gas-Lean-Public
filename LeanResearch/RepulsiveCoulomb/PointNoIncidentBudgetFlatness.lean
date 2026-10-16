@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteSectorLocalGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteSectorLocalGeometry
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Exact allocation rules out positive ambient
 curvature at a point with no incident sector. Hence the unchanged local

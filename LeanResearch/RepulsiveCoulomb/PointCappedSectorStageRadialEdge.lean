@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedCappedSectorSeed
-import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
-import LeanResearch.RepulsiveCoulomb.PointConvexLocalFlatEmbedding
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedCappedSectorSeed
+public import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
+public import LeanResearch.RepulsiveCoulomb.PointConvexLocalFlatEmbedding
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Construct each actual radial metric edge of a
 finite convex flat stage and identify its true retained-chart raw direction

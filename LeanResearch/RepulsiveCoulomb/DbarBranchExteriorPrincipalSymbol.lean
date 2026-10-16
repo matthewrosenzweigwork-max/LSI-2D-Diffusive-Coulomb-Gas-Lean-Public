@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreCoordinates
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreCoordinates
+
+@[expose] public section
 
 /-! Exact principal-symbol cancellation and the Gram formula for the
 half-Frobenius exterior norm. These preserve the normalization used by the

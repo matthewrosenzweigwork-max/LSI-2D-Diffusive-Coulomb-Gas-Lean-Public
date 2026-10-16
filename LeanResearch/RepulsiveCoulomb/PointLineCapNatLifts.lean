@@ -1,10 +1,14 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapNatGerms
-import LeanResearch.RepulsiveCoulomb.PointLineCapNatWinding
-import LeanResearch.RepulsiveCoulomb.PointCircleCapCovariantTurn
-import Mathlib.Tactic.FunProp
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Order
-import Mathlib.Tactic.NormNum
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapNatGerms
+public import LeanResearch.RepulsiveCoulomb.PointLineCapNatWinding
+public import LeanResearch.RepulsiveCoulomb.PointCircleCapCovariantTurn
+public import Mathlib.Tactic.FunProp
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Order
+public import Mathlib.Tactic.NormNum
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Actual tangent and atom lifts for the nat-indexed
 cap, with zero geodesic covariant turn on each retained radial piece. Actual

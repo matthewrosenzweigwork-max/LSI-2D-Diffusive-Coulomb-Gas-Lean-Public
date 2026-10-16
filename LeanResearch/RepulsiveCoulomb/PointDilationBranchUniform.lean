@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchTransport
+
+@[expose] public section
 
 /-! Fixed-Q Gaussian scaling of the exact core and closed-domain inequalities.
 The constants are chosen at gamma=1 before gamma is quantified. The original

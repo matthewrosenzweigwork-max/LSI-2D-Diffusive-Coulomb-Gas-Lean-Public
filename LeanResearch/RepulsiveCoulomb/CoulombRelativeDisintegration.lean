@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeRawIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeRawIntegral
+
+@[expose] public section
 
 /-! Normalized relative conditional and actual center/frozen marginal. -/
 noncomputable section

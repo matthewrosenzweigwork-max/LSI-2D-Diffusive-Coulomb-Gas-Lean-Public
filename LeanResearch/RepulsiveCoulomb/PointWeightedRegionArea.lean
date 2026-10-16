@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightedPathArea
-import LeanResearch.RepulsiveCoulomb.PlanarFrontierBall
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightedPathArea
+public import LeanResearch.RepulsiveCoulomb.PlanarFrontierBall
+
+@[expose] public section
 
 /-! Squared-weight area of an actual bounded region controlled by weighted path
 length when its frontier lies in an endpoint-radius ball. No separator asserted. -/

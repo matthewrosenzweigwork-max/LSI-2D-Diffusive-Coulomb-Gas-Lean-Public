@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.RectifiableArcLengthParameter
-import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+module
+
+public import LeanResearch.RepulsiveCoulomb.RectifiableArcLengthParameter
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+
+@[expose] public section
 
 /-! The constructed Euclidean arclength parameter has unit speed almost
 everywhere. This makes integration in its parameter the literal Euclidean ds

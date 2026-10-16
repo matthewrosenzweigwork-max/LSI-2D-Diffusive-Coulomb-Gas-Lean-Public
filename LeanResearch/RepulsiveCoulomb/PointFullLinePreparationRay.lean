@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFullLinePreparationAlgebra
-import LeanResearch.RepulsiveCoulomb.PointMarkedRayClearance
-import Mathlib.Data.Finset.Max
-import Mathlib.Data.Set.Finite.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullLinePreparationAlgebra
+public import LeanResearch.RepulsiveCoulomb.PointMarkedRayClearance
+public import Mathlib.Data.Finset.Max
+public import Mathlib.Data.Set.Finite.Basic
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The finite maximum is taken on the entire new
 complete metric top line. The resulting ray is an actual shifted restriction

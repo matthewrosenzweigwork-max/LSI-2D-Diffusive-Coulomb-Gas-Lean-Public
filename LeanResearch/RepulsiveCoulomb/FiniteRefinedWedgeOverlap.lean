@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FiniteRefinedCyclicSeam
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteRefinedCyclicSeam
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Distinct cells in a two-level strict angular
 partition meet only along their endpoint rays, including the cyclic cut ray.

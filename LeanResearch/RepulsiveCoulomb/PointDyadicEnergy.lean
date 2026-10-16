@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointLocalizedMaximal
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLocalizedMaximal
+
+@[expose] public section
 
 /-! The second, global-energy estimate for each actual local gradient average. -/
 noncomputable section

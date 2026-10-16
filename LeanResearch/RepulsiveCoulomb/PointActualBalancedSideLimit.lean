@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointActualCapAtomicBalance
-import LeanResearch.RepulsiveCoulomb.PointLineCapFixedSideGerms
-import LeanResearch.RepulsiveCoulomb.PointLineCapFamilyExhaustion
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Positivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualCapAtomicBalance
+public import LeanResearch.RepulsiveCoulomb.PointLineCapFixedSideGerms
+public import LeanResearch.RepulsiveCoulomb.PointLineCapFamilyExhaustion
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Positivity
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Exact finite atom stability, actual
 mixed GB and actual cap-turn limits now imply balance on a FIXED line side.

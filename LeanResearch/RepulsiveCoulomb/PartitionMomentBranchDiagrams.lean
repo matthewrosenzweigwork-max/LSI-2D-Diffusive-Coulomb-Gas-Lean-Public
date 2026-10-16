@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchPeeling
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDiagramDegrees
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchPeeling
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDiagramDegrees
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Absolute integrability of signed ordered-edge diagrams is derived here
 from actual row moments, before any singleton cancellation. Continuous product

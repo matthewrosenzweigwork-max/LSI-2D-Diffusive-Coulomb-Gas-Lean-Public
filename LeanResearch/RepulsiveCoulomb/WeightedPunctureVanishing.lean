@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.WeightedPunctureMassBound
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedPunctureMassBound
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+
+@[expose] public section
 
 /-! Vanishing weighted local mass gives the sharp endpoint little-o control at a puncture. -/
 noncomputable section

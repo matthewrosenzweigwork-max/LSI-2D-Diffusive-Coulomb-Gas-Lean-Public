@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevMeans
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevMaximal
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevMeans
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevMaximal
+
+@[expose] public section
 
 /-! Pointwise dyadic representation conditional on a displayed weak Poincare
 estimate. This is the telescoping step of the Sobolev upgrade, not a proof of

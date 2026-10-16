@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianInterpolation
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianLSIClosure
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianInterpolation
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianLSIClosure
+
+@[expose] public section
 
 /-! The actual entropy interpolation is continuous, with exact endpoints.
 All bounds below come from the literal Gaussian kernel; no entropy continuity

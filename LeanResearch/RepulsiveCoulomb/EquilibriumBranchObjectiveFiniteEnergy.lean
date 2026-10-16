@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveDomain
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveDomain
+
+@[expose] public section
 
 /-! Finite objective implies the actual ordinary absolute energy integrability
 needed for admissible variations. This is derived from the extended objective,

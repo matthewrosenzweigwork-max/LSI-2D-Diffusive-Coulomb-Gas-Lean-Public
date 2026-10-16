@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerLoop
-import LeanResearch.RepulsiveCoulomb.JordanFiniteC1OrientedTurn
-import LeanResearch.RepulsiveCoulomb.JordanOneRegularPointWinding
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerLoop
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteC1OrientedTurn
+public import LeanResearch.RepulsiveCoulomb.JordanOneRegularPointWinding
+
+@[expose] public section
 
 /-! The literal original finite family, before smoothing, has its actual
 point-argument sum equal to the increment of every lift of the constructed

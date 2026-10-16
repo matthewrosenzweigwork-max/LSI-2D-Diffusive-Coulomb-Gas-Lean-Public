@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare
-import LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare
+
+@[expose] public section
 
 /-! The original full labeled Poincare theorem. Its new weighted coefficient
 is chosen before the particle number; the Gibbs measure and closed physical

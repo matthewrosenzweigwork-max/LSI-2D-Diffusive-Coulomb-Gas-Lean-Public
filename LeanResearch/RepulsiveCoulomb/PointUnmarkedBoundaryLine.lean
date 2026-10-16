@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointUnmarkedBoundaryIntrinsic
-import LeanResearch.RepulsiveCoulomb.ProperBoundaryClockArclength
-import LeanResearch.RepulsiveCoulomb.PointFullLinePreparationAlgebra
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
-import LeanResearch.RepulsiveCoulomb.PlanarLineHalfplaneSides
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUnmarkedBoundaryIntrinsic
+public import LeanResearch.RepulsiveCoulomb.ProperBoundaryClockArclength
+public import LeanResearch.RepulsiveCoulomb.PointFullLinePreparationAlgebra
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+public import LeanResearch.RepulsiveCoulomb.PlanarLineHalfplaneSides
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Construct the entire old minimizing boundary line
 from the ambient halfplane and actual unmarked boundary coefficient data.

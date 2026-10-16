@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreIBP
-import LeanResearch.RepulsiveCoulomb.DbarBranchTwoFormFiber
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreIBP
+public import LeanResearch.RepulsiveCoulomb.DbarBranchTwoFormFiber
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffL2
+
+@[expose] public section
 
 /-! The actual compact estimate expressed in fixed-fiber L2 norms, including
 the exact i<j exterior normalization. The final lemma passes this proved

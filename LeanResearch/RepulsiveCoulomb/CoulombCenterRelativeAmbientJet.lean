@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeEmbedding
-import Mathlib.MeasureTheory.Integral.Average
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeEmbedding
+public import Mathlib.MeasureTheory.Integral.Average
+
+@[expose] public section
 
 /-! Ambient relative physical jets and the contractive projection of original
 jets onto the relative value/gradient components. These are used to prove

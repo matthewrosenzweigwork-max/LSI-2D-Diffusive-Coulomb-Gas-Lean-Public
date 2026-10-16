@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanSmoothSupportedTurn
-import Mathlib.Analysis.Calculus.DSlope
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothSupportedTurn
+public import Mathlib.Analysis.Calculus.DSlope
+
+@[expose] public section
 
 /-! An actual small normal segment at the basepoint of a regular simple
 periodic loop meets its trace only at that basepoint. Near the two parameter

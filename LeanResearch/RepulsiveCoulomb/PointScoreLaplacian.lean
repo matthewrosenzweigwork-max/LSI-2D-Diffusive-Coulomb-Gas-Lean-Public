@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalDensity
-import LeanResearch.RepulsiveCoulomb.PointGroundStateGradient
-import Mathlib.Analysis.InnerProductSpace.Laplacian
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalDensity
+public import LeanResearch.RepulsiveCoulomb.PointGroundStateGradient
+public import Mathlib.Analysis.InnerProductSpace.Laplacian
+
+@[expose] public section
 
 /-! Actual Laplacian of the logarithmic Gaussian weight off positive punctures. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TranspositionKernel
-import LeanResearch.RepulsiveCoulomb.FiniteBochnerGap
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranspositionKernel
+public import LeanResearch.RepulsiveCoulomb.FiniteBochnerGap
+
+@[expose] public section
 
 /-! The sharp finite-dimensional random-transposition gap, with its Bochner input proved. -/
 noncomputable section

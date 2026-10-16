@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanClosedSectorSource
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanClosedSectorSource
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Closed angular windows strictly inside the
 requested positive sector. Their radial endpoint rays are interior directions,

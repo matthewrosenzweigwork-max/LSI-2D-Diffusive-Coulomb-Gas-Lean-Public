@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombOneSiteKernel
-import Mathlib.Analysis.InnerProductSpace.Adjoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombOneSiteKernel
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+
+@[expose] public section
 
 /-! Isometric coordinate insertion and the exact real physical slice gradient. -/
 noncomputable section

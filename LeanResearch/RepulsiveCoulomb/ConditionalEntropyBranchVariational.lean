@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMeasurableSup
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMeasurableSup
+
+@[expose] public section
 
 /-!
 Finite-KL variational and moment interfaces with actual integrability proofs.

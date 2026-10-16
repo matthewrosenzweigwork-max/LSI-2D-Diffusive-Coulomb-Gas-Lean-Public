@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointActualTailDirectionBound
-import LeanResearch.RepulsiveCoulomb.PointMetricLineEscapeBounds
-import LeanResearch.RepulsiveCoulomb.MetricCenteredClippedSegments
-import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
-import Mathlib.Topology.Order.ProjIcc
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualTailDirectionBound
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineEscapeBounds
+public import LeanResearch.RepulsiveCoulomb.MetricCenteredClippedSegments
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
+public import Mathlib.Topology.Order.ProjIcc
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Records-only successor. A centered sample at sufficiently large metric
  time is actually beyond the last enclosing-circle crossing. The endpoint

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombConstantDomain
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombConstantDomain
+
+@[expose] public section
 
 /-! Bounded globally smooth functions with bounded physical gradient belong to
  the original closed Coulomb form domain. The proof uses ambient compact

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreGlobalSPI
-import LeanResearch.RepulsiveCoulomb.PointFormL1Mass
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreGlobalSPI
+public import LeanResearch.RepulsiveCoulomb.PointFormL1Mass
+
+@[expose] public section
 
 /-! Gaussian-rate super-Poincare on the actual full closed physical form. -/
 noncomputable section

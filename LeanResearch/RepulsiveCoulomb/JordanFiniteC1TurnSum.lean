@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteC1Loop
-import LeanResearch.RepulsiveCoulomb.JordanSmoothArcTurnAssembly
-import Mathlib.Topology.Order.ProjIcc
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteC1Loop
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothArcTurnAssembly
+public import Mathlib.Topology.Order.ProjIcc
+
+@[expose] public section
 
 /-! Genuine finite tangent-turn summation for an actual matched-jet cyclic
 family. The global C¹ simple regular loop is constructed, its tangent lift is

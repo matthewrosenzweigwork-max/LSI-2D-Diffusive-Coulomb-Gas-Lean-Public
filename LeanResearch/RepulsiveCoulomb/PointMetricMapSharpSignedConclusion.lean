@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PlanarHomeomorphCircleOrientation
-import LeanResearch.RepulsiveCoulomb.PointMetricMapSharpDistortion
-import LeanResearch.RepulsiveCoulomb.PointMetricMapLocalSobolev
-import LeanResearch.RepulsiveCoulomb.PointRectifiableConformalMetric
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarHomeomorphCircleOrientation
+public import LeanResearch.RepulsiveCoulomb.PointMetricMapSharpDistortion
+public import LeanResearch.RepulsiveCoulomb.PointMetricMapLocalSobolev
+public import LeanResearch.RepulsiveCoulomb.PointRectifiableConformalMetric
+
+@[expose] public section
 
 /-!
 # Sharp signed analytic conclusion for a supplied actual metric homeomorphism

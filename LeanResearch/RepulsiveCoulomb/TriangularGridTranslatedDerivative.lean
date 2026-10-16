@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CompactC1GridControl
-import LeanResearch.RepulsiveCoulomb.TriangularGridRegularPoints
+module
+
+public import LeanResearch.RepulsiveCoulomb.CompactC1GridControl
+public import LeanResearch.RepulsiveCoulomb.TriangularGridRegularPoints
+
+@[expose] public section
 
 /-! Explicit physical derivatives in every translated open grid triangle and
 in the actual sampled mesh interpolant. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreNormalizedEntropy
-import LeanResearch.RepulsiveCoulomb.EntropySquareScaling
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreNormalizedEntropy
+public import LeanResearch.RepulsiveCoulomb.EntropySquareScaling
+
+@[expose] public section
 
 /-! Unconditional configuration-uniform defective LSI on the original core.
 The Gaussian SPI-to-entropy estimate is proved, not imported as a hypothesis. -/

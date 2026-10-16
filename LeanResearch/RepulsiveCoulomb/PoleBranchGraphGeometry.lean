@@ -1,9 +1,13 @@
-import Mathlib.Analysis.Normed.Module.FiniteDimension
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Topology.Algebra.Module.Basic
-import Mathlib.Topology.Baire.Lemmas
-import Mathlib.Topology.Baire.LocallyCompactRegular
-import Mathlib.Order.Interval.Set.Infinite
+module
+
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Topology.Algebra.Module.Basic
+public import Mathlib.Topology.Baire.Lemmas
+public import Mathlib.Topology.Baire.LocallyCompactRegular
+public import Mathlib.Order.Interval.Set.Infinite
+
+@[expose] public section
 
 /-! Geometry needed for finite-graph Hartogs continuation. Distinct linear graph
 heights are distinct on a dense set of transverse parameters. -/

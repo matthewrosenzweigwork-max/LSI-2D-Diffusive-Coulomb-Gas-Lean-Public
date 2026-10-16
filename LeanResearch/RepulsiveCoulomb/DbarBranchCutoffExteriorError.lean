@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCutoffAdjointError
-import LeanResearch.RepulsiveCoulomb.DbarBranchTwoFormFiber
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCutoffAdjointError
+public import LeanResearch.RepulsiveCoulomb.DbarBranchTwoFormFiber
+
+@[expose] public section
 
 /-! The literal exterior cutoff error in the fixed Hilbert fiber of i<j
 coefficients. Its squared norm equals half the full Frobenius square, and the

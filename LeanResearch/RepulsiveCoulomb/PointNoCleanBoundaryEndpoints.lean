@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointSaturatedTwoCornerBudget
-import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryRayContacts
-import Mathlib.Data.Finset.Max
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSaturatedTwoCornerBudget
+public import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryRayContacts
+public import Mathlib.Data.Finset.Max
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. Original no-clean-budget-ray hypotheses are expressed

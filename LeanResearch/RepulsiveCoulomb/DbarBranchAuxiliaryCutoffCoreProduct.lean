@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCutoffAdjointError
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreIBP
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCutoffAdjointError
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreIBP
+
+@[expose] public section
 
 /-! Literal product identities for the auxiliary core and a proper real
 cutoff. These identify the exact scalar error used in the genuine adjoint

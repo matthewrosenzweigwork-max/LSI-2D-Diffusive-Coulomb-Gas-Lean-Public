@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointHolomorphicNormalSector
-import LeanResearch.RepulsiveCoulomb.PointPositiveWindingNormalAt
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointHolomorphicNormalSector
+public import LeanResearch.RepulsiveCoulomb.PointPositiveWindingNormalAt
+
+@[expose] public section
 
 /-! The actual positive inside argument orientation selects the inside
 polar sector. The alternative local Jordan side assignment is contradicted

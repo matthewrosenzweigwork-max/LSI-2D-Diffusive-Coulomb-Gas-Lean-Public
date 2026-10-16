@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LocalAffineHessian
-import LeanResearch.RepulsiveCoulomb.CoulombWirtinger
+module
+
+public import LeanResearch.RepulsiveCoulomb.LocalAffineHessian
+public import LeanResearch.RepulsiveCoulomb.CoulombWirtinger
+
+@[expose] public section
 
 /-! Full real Laplacian of the actual particle potential, off all collisions. -/
 noncomputable section

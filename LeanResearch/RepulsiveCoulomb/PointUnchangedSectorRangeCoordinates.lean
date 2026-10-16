@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointUnchangedConeSectorChart
-import LeanResearch.RepulsiveCoulomb.PointFlatEmbeddingClosure
-import LeanResearch.RepulsiveCoulomb.EuclideanClosedSectorSource
-import Mathlib.Topology.Homeomorph.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUnchangedConeSectorChart
+public import LeanResearch.RepulsiveCoulomb.PointFlatEmbeddingClosure
+public import LeanResearch.RepulsiveCoulomb.EuclideanClosedSectorSource
+public import Mathlib.Topology.Homeomorph.Lemmas
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Invert the actual unchanged cone-sector chart
 on its exact physical range. This supplies a continuous forward branch and

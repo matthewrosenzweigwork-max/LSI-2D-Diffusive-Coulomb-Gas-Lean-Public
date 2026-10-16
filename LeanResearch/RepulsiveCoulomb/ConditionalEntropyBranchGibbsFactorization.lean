@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchFactorization
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsDefectMoment
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsEnergyIntegrability
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchFactorization
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsDefectMoment
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsEnergyIntegrability
+
+@[expose] public section
 
 /-!
 Actual finite-entropy factorization and defect nonnegativity, using the genuine

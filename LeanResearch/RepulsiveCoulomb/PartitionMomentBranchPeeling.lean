@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchHolder
+module
+
+public import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchHolder
+
+@[expose] public section
 
 /-! Genuine finite-product diagram integration by successive vertex removal.
 Each ordered edge occurrence is an element of an arbitrary finite slot set.

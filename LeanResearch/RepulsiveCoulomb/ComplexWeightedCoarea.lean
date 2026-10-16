@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanWeightedCoarea
-import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
-import Mathlib.Analysis.Calculus.FDeriv.Equiv
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanWeightedCoarea
+public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+public import Mathlib.Analysis.Calculus.FDeriv.Equiv
+
+@[expose] public section
 
 /-! Isometric transport of actual scalar coarea to the complex plane with its
 real physical gradient and Euclidean-normalized one-dimensional Hausdorff measure. -/

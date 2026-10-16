@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.FiniteMeasurePlanarMaximal
-import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.FiniteMeasurePlanarMaximal
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+
+@[expose] public section
 
 /-! A finite-distance layer-cake proof of the near/far Riesz estimate used by
 the canonical finite-atomic maximal argument. Each integrated summand has

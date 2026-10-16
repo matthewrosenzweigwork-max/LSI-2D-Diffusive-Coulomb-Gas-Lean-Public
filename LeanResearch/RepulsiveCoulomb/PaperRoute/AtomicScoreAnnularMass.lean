@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicScoreArea
-import LeanResearch.RepulsiveCoulomb.AnnularIntegratedEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicScoreArea
+public import LeanResearch.RepulsiveCoulomb.AnnularIntegratedEnergy
+
+@[expose] public section
 
 /-! The new exceptional area feeds the actual Ladyzhenskaya, cutoff, Young and
 physical-gradient localization argument, with its own new K constant.

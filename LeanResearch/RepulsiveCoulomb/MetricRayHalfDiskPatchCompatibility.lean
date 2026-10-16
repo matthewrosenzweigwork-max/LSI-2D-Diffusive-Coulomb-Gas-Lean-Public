@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MetricRayHalfDiskOverlap
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRayHalfDiskOverlap
+
+@[expose] public section
 
 /-! Successor source-only draft. Compatibility of actual arclength-aligned
 bottom halfdisk patches follows from common real anchors and the actual

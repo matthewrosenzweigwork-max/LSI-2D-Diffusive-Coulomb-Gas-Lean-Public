@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY DRAFT, NOT COMPILED. Actual angular subtraction inside an OLD

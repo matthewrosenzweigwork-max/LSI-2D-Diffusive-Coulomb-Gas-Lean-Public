@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyContinuousApprox
-import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
-import Mathlib.Topology.Semicontinuity.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyContinuousApprox
+public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+public import Mathlib.Topology.Semicontinuity.Basic
+
+@[expose] public section
 
 /-! Relative entropy is genuinely weakly lower semicontinuous on planar
 probability measures. Its bounded-continuous variational formula is proved

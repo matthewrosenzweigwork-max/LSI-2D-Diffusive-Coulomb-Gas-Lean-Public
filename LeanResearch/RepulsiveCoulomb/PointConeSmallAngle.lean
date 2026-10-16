@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeChordLower
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeChordLower
+
+@[expose] public section
 
 /-! Exact chord distance in a centered narrow sector, and then for any angular
 separation smaller than pi after development. -/

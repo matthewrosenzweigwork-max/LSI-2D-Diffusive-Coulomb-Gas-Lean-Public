@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ClassicalConeFlatArcRigidity
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkRadialTrace
+module
+
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeFlatArcRigidity
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkRadialTrace
+
+@[expose] public section
 
 /-! Isolated, uncompiled author draft. The input is an actual isometric map
 of a literal bounded Euclidean sector. The output chart and its normalized

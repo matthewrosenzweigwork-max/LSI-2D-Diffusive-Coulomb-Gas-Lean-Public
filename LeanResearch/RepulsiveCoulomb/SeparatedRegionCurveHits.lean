@@ -1,6 +1,10 @@
-import Mathlib.Topology.UnitInterval
-import Mathlib.Topology.Order.Compact
-import Mathlib.Topology.Order.IntermediateValue
+module
+
+public import Mathlib.Topology.UnitInterval
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Topology.Order.IntermediateValue
+
+@[expose] public section
 
 /-! Actual first and last hits of a continuous compact curve on a closed
 separating boundary. The outer curve pieces stay in their prescribed closed

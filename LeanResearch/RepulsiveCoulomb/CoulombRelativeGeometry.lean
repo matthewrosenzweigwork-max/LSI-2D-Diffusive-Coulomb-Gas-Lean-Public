@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeSlice
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeSlice
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory InnerProductSpace

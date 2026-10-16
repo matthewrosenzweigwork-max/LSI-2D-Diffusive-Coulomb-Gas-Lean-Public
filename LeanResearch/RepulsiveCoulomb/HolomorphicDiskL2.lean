@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicCircleL2
-import LeanResearch.RepulsiveCoulomb.RawPointWeightGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicCircleL2
+public import LeanResearch.RepulsiveCoulomb.RawPointWeightGeometry
+
+@[expose] public section
 
 /-! A disk L2 point-evaluation bound, proved by a positive-width polar annulus. -/
 noncomputable section

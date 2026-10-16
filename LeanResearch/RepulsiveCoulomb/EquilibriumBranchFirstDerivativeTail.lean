@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceCompactBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceCompactBounds
+
+@[expose] public section
 
 /-! The first physical derivative tail, with exact beta+1 polynomial exponent.
 The sharp density cap gives 0<=1-2*pi*J<=1, so the actual Cartesian score

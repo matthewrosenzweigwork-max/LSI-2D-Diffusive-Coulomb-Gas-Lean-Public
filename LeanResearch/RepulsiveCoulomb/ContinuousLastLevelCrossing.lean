@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.IntervalAngleIncrementBridge
-import Mathlib.Topology.Order.IntermediateValue
-import Mathlib.Topology.Order.Compact
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.IntervalAngleIncrementBridge
+public import Mathlib.Topology.Order.IntermediateValue
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Construct the last actual crossing of a
 level and a full radial lift on an arbitrary nonzero compact interval. -/

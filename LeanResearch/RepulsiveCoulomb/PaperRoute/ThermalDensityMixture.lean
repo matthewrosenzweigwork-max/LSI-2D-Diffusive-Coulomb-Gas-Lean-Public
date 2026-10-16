@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCappedLogEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCappedLogEnergy
+
+@[expose] public section
 
 /-! Literal affine probability-density laws,
 actual moment identities, and weak convergence under an integrable density

@@ -1,11 +1,15 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapEndpointJoinTransport
-import LeanResearch.RepulsiveCoulomb.PointLineCapMixedGaussBonnet
-import LeanResearch.RepulsiveCoulomb.PointFiniteCornerChosenRotation
-import LeanResearch.RepulsiveCoulomb.PointRadialCornerActualSide
-import LeanResearch.RepulsiveCoulomb.PointCornerPhysicalChartTransition
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Order
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapEndpointJoinTransport
+public import LeanResearch.RepulsiveCoulomb.PointLineCapMixedGaussBonnet
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCornerChosenRotation
+public import LeanResearch.RepulsiveCoulomb.PointRadialCornerActualSide
+public import LeanResearch.RepulsiveCoulomb.PointCornerPhysicalChartTransition
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Order
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Actual finite cap GB data are OUTPUTS
 from the original metric line and literal transverse circle crossings. Neither

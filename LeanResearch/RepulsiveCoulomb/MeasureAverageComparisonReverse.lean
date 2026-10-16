@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MeasureAverageComparison
+module
+
+public import LeanResearch.RepulsiveCoulomb.MeasureAverageComparison
+
+@[expose] public section
 
 /-! Reverse actual measure and normalized-average comparison. -/
 noncomputable section

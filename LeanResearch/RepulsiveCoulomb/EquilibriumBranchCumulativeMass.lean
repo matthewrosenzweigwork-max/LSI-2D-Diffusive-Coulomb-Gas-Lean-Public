@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonOrigin
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonOrigin
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+
+@[expose] public section
 
 /-! Cumulative ball mass for an actual planar reference. Absolute continuity
 makes every sphere null, so dominated convergence proves continuity without

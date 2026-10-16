@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalExteriorDensityTails
-import Mathlib.Analysis.Calculus.ContDiff.Bounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalExteriorDensityTails
+public import Mathlib.Analysis.Calculus.ContDiff.Bounds
+
+@[expose] public section
 
 /-! Actual radial-to-Cartesian derivative conversion by dilation to the unit sphere.
 The norm is differentiated ONLY on the open punctured plane. The genuine

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalTopology
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalTopology
+
+@[expose] public section
 
 /-! A smooth scalar function with derivative dominated by rho is Lipschitz for
 the smooth conformal distance. This proved transfer will be used with a proper

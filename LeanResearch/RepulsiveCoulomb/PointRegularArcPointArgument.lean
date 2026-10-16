@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
-import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
-import Mathlib.Analysis.Calculus.DSlope
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+public import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+public import Mathlib.Analysis.Calculus.DSlope
+
+@[expose] public section
 
 /-! Actual point-argument lifts on a regular embedded C1 arc, including
 observation at either endpoint. The vanishing endpoint chord is desingularized

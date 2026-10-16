@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanOneRegularPointWinding
-import LeanResearch.RepulsiveCoulomb.JordanSmoothWindingOrientation
-import Mathlib.Analysis.Calculus.Deriv.Shift
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanOneRegularPointWinding
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothWindingOrientation
+public import Mathlib.Analysis.Calculus.Deriv.Shift
+
+@[expose] public section
 
 /-! Move the actual positive inside orientation to any regular parameter of
 a C0 simple periodic loop. A global position-angle lift is constructed, and

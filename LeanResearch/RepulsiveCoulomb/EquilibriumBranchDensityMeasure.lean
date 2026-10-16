@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussian
-import Mathlib.InformationTheory.KullbackLeibler.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussian
+public import Mathlib.InformationTheory.KullbackLeibler.Basic
+
+@[expose] public section
 
 /-! Literal density measures and the exact Gaussian RN representation needed
 for the full extended entropy correspondence. No positive-entropy finiteness

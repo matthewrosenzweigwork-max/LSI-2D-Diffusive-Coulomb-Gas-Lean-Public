@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialCollarVelocity
-import LeanResearch.RepulsiveCoulomb.PointRadialLoopBoundary
-import LeanResearch.RepulsiveCoulomb.PointRadialBoundaryAtom
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialCollarVelocity
+public import LeanResearch.RepulsiveCoulomb.PointRadialLoopBoundary
+public import LeanResearch.RepulsiveCoulomb.PointRadialBoundaryAtom
+
+@[expose] public section
 
 /-! End-to-end boundary-atom argument accounting from the actual positively
 oriented simple loop. The local whole-boundary equation, regular outgoing

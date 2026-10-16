@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointGaussianCenterComparison
-import LeanResearch.RepulsiveCoulomb.PowerMeanComparison
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Calculus.Gradient
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGaussianCenterComparison
+public import LeanResearch.RepulsiveCoulomb.PowerMeanComparison
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Calculus.Gradient
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. Gaussian local geometry from an actual
 supplied raw strong Sobolev inequality, with an independent exponent κ.

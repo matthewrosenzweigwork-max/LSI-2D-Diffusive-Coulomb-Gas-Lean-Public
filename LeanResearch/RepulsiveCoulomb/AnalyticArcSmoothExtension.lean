@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicRadialArc
-import Mathlib.Analysis.Normed.Module.Ball.Pointwise
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicRadialArc
+public import Mathlib.Analysis.Normed.Module.Ball.Pointwise
+
+@[expose] public section
 
 /-! A real-analytic arc near the closed unit interval has a global smooth
 extension agreeing on a neighborhood of every point of that interval. In

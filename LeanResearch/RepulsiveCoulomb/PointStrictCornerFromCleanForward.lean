@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointZeroCornerStripExhaustion
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointZeroCornerStripExhaustion
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. Positive residual angle is derived at the actual

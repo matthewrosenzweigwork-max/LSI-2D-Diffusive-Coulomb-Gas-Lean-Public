@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightLocalComparison
-import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-import Mathlib.Analysis.InnerProductSpace.Calculus
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightLocalComparison
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import Mathlib.Analysis.InnerProductSpace.Calculus
+
+@[expose] public section
 
 /-! Regularity off exactly the positive-exponent punctures, and actual local
 integrability transfer. No uniform compact-set comparison constant is asserted.

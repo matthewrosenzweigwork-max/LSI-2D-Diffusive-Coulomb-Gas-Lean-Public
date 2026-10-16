@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
-import LeanResearch.RepulsiveCoulomb.PointGeodesicStrictSectors
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicStrictSectors
+
+@[expose] public section
 
 /-! Normalize an actual pair of distinct equal-radius rays by a unit rotation.
 The two directed polar sector widths are identified with the previously proved

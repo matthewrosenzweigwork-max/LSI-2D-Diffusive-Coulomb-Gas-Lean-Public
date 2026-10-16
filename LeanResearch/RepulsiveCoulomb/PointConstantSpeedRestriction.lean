@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicSubedge
-import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicSubedge
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
+
+@[expose] public section
 
 /-! A minimizing restriction of an actual constant-speed curve is converted
 into the existing exact geodesic edge type by its explicit affine parameter.

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ComplexRadialPower
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexRadialPower
+
+@[expose] public section
 
 /-! Classical Euclidean cone in complex polar coordinates. The coordinate's
 ordinary modulus is the intrinsic apex radius; its argument is multiplied by

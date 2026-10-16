@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1BigonCyclicChain
-import Mathlib.Data.List.Pairwise
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1BigonCyclicChain
+public import Mathlib.Data.List.Pairwise
+
+@[expose] public section
 
 /-! Actual joint half-open injectivity for the cyclic macro-list. The two
 sides meet only at the actual bigon endpoints, and opposite half-open

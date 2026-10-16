@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricFlatHalfDiskChart
-import LeanResearch.RepulsiveCoulomb.PointSignedCurvatureFinite
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricFlatHalfDiskChart
+public import LeanResearch.RepulsiveCoulomb.PointSignedCurvatureFinite
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Construct the relative endpoint chart needed
 by longitudinal continuation directly from original signed boundary geometry

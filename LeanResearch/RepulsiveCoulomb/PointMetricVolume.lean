@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricBallGauge
-import LeanResearch.RepulsiveCoulomb.RawPointVolumeGrowth
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricBallGauge
+public import LeanResearch.RepulsiveCoulomb.RawPointVolumeGrowth
+
+@[expose] public section
 
 /-! Direct uniform comparison of squared conformal distance with the raw weighted
 mass of the Euclidean ball centered at one endpoint. -/

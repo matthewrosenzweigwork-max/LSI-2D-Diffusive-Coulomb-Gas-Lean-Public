@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointDavidSemmesTransfer
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDavidSemmesTransfer
+
+@[expose] public section
 
 /-! A complete quantitative implication from the explicitly displayed, still
 unproved David--Semmes input to weak(1,2) Poincare for actual C1 observables.

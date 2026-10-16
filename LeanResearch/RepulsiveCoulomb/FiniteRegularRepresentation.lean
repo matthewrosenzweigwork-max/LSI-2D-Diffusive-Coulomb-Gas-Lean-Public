@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FiniteTranspositionGap
-import Mathlib.Analysis.InnerProductSpace.PiL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteTranspositionGap
+public import Mathlib.Analysis.InnerProductSpace.PiL2
+
+@[expose] public section
 
 /-! Actual Euclidean right-regular representation and its literal uniform average. -/
 noncomputable section

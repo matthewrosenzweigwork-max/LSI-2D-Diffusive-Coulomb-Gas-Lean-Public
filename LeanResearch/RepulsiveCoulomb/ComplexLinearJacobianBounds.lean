@@ -1,7 +1,11 @@
-import Mathlib.LinearAlgebra.Complex.Determinant
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.Normed.Module.FiniteDimension
+module
+
+public import Mathlib.LinearAlgebra.Complex.Determinant
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+
+@[expose] public section
 
 /-! Two-sided norm bounds on a genuine real-linear map of the complex plane
 control its actual determinant. This is the linear-algebra input to the

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFullSideRetainedChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullSideRetainedChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
+
+@[expose] public section
 
 /-! Successor draft. Equality of cap and old-region SET germs plus genuine
 metric charts now derives numerical FULL physical width equality, even when

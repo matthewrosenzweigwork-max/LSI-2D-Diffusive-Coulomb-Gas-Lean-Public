@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointC1DoubleOscillation
-import LeanResearch.RepulsiveCoulomb.PointOscillationTransfer
-import LeanResearch.RepulsiveCoulomb.PointMeasureAverage
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointC1DoubleOscillation
+public import LeanResearch.RepulsiveCoulomb.PointOscillationTransfer
+public import LeanResearch.RepulsiveCoulomb.PointMeasureAverage
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Exact product-integral and real-integral forms of the proved C1 inequality,
 with the literal nested average used by the downstream manuscript inputs. -/

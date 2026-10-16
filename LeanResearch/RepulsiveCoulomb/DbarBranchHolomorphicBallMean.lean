@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPhaseIdentity
-import Mathlib.Dynamics.Ergodic.MeasurePreserving
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPhaseIdentity
+public import Mathlib.Dynamics.Ergodic.MeasurePreserving
+
+@[expose] public section
 
 /-! Actual Euclidean-ball mean values in C^N from common-phase averaging.
 Global continuity is available for the smooth mollifiers to which this input

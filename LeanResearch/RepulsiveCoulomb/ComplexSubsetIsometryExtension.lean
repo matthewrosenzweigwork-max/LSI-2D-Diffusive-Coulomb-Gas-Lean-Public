@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ComplexTriangleRigidity
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexTriangleRigidity
+
+@[expose] public section
 
 /-!
 Source-only draft: extension of an actual distance-preserving map on a literal

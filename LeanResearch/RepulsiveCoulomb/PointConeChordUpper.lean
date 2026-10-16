@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeInverseChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeInverseChart
+
+@[expose] public section
 
 /-! A Euclidean chord in the right half-plane pulls back to an actual admissible
 smooth path, giving the small-sector upper bound. -/

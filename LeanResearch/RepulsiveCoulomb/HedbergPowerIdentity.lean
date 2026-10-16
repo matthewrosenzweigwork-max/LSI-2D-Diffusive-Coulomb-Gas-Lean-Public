@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointSobolevExponents
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSobolevExponents
+
+@[expose] public section
 
 /-! Exact exponents in the pointwise Sobolev interpolation bound. -/
 noncomputable section

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNelsonIntegrals
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNelsonIntegrals
+
+@[expose] public section
 
 /-! Exponential integration of an actual cutoff and tail probability bound.
 This is the analytic layer-cake adapter used after the centered correlation

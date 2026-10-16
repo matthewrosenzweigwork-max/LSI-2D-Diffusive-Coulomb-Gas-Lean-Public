@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointAveragingKernel
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointAveragingKernel
+
+@[expose] public section
 
 /-! The fully quantitative Tonelli step for moving-ball averages of the actual
 raw point measure. This establishes Bjorn's averaging mechanism independently

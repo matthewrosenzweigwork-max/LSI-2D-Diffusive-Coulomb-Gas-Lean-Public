@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointClassicalConeChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointClassicalConeChart
+
+@[expose] public section
 
 /-! Full closed-disk local isometries to classical cones, including onto-ness.
 The model disk uses ordinary modulus as its intrinsic radius. -/

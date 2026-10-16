@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffDerivative
-import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
-import Mathlib.MeasureTheory.Function.Holder
-import Mathlib.MeasureTheory.Integral.DominatedConvergence
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffDerivative
+public import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+public import Mathlib.MeasureTheory.Function.Holder
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+
+@[expose] public section
 
 /-! Actual bounded cutoff operators and their strong convergence in the
 original weighted L2 space. This is a value-space statement, not joint graph

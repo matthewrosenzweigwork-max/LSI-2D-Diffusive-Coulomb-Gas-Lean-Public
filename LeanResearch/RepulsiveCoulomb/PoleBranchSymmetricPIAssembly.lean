@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchSymmetricProjectionDistance
-import LeanResearch.RepulsiveCoulomb.PoleBranchRealComplexCenter
-import LeanResearch.RepulsiveCoulomb.PoleBranchSymmetricCoreClosure
-import LeanResearch.RepulsiveCoulomb.CoulombDbarCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchSymmetricProjectionDistance
+public import LeanResearch.RepulsiveCoulomb.PoleBranchRealComplexCenter
+public import LeanResearch.RepulsiveCoulomb.PoleBranchSymmetricCoreClosure
+public import LeanResearch.RepulsiveCoulomb.CoulombDbarCore
+
+@[expose] public section
 
 /-! Conditional assembly of the canonical symmetric Poincare argument.
 The original-core dbar projection-distance estimate is an explicit, still-open

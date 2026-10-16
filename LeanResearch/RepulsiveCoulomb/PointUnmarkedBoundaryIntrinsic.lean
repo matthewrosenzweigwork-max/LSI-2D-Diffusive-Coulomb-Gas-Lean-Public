@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointUnmarkedBoundaryLocal
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUnmarkedBoundaryLocal
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Construct the actual constrained boundary length
 metric and its minimizers; local flat-diameter chords then identify those

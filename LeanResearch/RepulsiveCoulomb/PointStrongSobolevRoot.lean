@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointStrongSobolevAverage
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointStrongSobolevAverage
+
+@[expose] public section
 
 /-! Standard squared-norm form of the complete local Sobolev upgrade, with
 literal inner/outer averages and a configuration-independent constant. -/

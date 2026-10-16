@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGlobalMeanOscillation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGlobalMeanOscillation
+
+@[expose] public section
 
 /-! Dyadic telescoping directly in terms of mean-centered L1 oscillation.
 These are actual identities and inequalities, with no Poincare hypothesis. -/

@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointActualCapAngleStability
-import LeanResearch.RepulsiveCoulomb.PointLineCapCoalescedVertices
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Order
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualCapAngleStability
+public import LeanResearch.RepulsiveCoulomb.PointLineCapCoalescedVertices
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Order
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Exact signed cap balance at actual
 coalesced atom locations, including on-line atoms. No physical boundary mass

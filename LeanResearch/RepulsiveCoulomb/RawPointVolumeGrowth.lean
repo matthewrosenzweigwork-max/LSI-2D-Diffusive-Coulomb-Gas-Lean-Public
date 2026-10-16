@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.RawPointWeightGeometry
-import Mathlib.MeasureTheory.Measure.Doubling
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointWeightGeometry
+public import Mathlib.MeasureTheory.Measure.Doubling
+
+@[expose] public section
 
 /-! Quantitative volume growth for the raw product measure, with constants
 chosen before the configuration. This is the volume condition used later in

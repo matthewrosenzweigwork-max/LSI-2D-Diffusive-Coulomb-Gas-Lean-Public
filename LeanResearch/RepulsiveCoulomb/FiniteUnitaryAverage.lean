@@ -1,5 +1,9 @@
-import Mathlib.Analysis.InnerProductSpace.LinearMap
-import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+module
+
+public import Mathlib.Analysis.InnerProductSpace.LinearMap
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+
+@[expose] public section
 
 /-! Finite averages of genuine orthogonal representations. -/
 noncomputable section

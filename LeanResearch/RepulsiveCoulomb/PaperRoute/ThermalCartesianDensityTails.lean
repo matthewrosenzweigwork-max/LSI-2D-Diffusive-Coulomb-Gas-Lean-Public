@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialCartesianConversion
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialCartesianConversion
+
+@[expose] public section
 
 /-! Complete transfer of the NEW exterior profile tails to all Cartesian Frechet
 orders, followed by the actual compact-unit-disk estimate. The exponent is

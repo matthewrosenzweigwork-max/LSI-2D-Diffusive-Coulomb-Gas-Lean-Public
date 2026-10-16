@@ -1,5 +1,9 @@
-import Mathlib.Topology.LocallyFinite
-import Mathlib.Topology.Homeomorph.Defs
+module
+
+public import Mathlib.Topology.LocallyFinite
+public import Mathlib.Topology.Homeomorph.Defs
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Finite closed-piece gluing with a constructed
 inverse. This works on the literal topological neighborhoods (or their

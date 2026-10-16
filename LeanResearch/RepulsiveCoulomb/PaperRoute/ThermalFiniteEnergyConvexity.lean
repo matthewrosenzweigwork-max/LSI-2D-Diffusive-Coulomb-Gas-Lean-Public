@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalInteractionConvexity
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogGreenZeroMass
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalInteractionConvexity
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogGreenZeroMass
+
+@[expose] public section
 
 /-! Discharge the smooth Green premise by the NEW
 zero-mass producer, then specialize the capped-density passage to the literal

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchOutputWeakSystem
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchOutputWeakSystem
+
+@[expose] public section
 
 /-! Local weak systems depend only on Lebesgue-a.e. representatives. Actual
 compact cutoff data therefore have indicator representatives with literal

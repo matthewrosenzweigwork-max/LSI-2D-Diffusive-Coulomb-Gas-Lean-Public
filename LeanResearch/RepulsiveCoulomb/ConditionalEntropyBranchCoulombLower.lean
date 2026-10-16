@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCanonicalEntropy
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchConditionalIntegrability
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchIntegratedTilt
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCanonicalEntropy
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchConditionalIntegrability
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchIntegratedTilt
+
+@[expose] public section
 
 /-!
 Actual one-site lower comparison and its summed pre-variational entropy bound

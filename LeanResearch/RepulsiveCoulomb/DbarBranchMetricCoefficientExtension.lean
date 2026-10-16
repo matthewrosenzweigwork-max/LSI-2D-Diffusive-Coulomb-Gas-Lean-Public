@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCoefficientSmoothness
-import LeanResearch.RepulsiveCoulomb.DbarBranchProperMetricCutoff
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalCoreMultiplier
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCoefficientSmoothness
+public import LeanResearch.RepulsiveCoulomb.DbarBranchProperMetricCutoff
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalCoreMultiplier
+
+@[expose] public section
 
 /-! Proper metric cutoffs extend every locally smooth coefficient to an
 actual compact smooth function equal to it near a prescribed compact set.

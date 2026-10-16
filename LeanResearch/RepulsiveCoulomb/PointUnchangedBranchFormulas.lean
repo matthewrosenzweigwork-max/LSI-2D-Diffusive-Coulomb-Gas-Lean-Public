@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointUnchangedSectorRangeCoordinates
-import LeanResearch.RepulsiveCoulomb.DirectedSectorDiskRestriction
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUnchangedSectorRangeCoordinates
+public import LeanResearch.RepulsiveCoulomb.DirectedSectorDiskRestriction
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Exact radial, inverse and center identities for
 the unchanged complement branches. These are actual maps in the old cone

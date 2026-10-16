@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.ComplexLinearJacobianBounds
-import Mathlib.Analysis.InnerProductSpace.Adjoint
-import Mathlib.Analysis.Calculus.FDeriv.Comp
-import Mathlib.Analysis.Real.Sqrt
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexLinearJacobianBounds
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import Mathlib.Analysis.Calculus.FDeriv.Comp
+public import Mathlib.Analysis.Real.Sqrt
+
+@[expose] public section
 
 /-!
 # Planar cofactor and pointwise gradient transport

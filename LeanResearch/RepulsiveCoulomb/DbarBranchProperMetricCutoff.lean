@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphExhaustion
-import Mathlib.Analysis.Calculus.BumpFunction.Basic
-import Mathlib.Analysis.Distribution.TestFunction
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphExhaustion
+public import Mathlib.Analysis.Calculus.BumpFunction.Basic
+public import Mathlib.Analysis.Distribution.TestFunction
+
+@[expose] public section
 
 /-! Genuine compact smooth cutoffs on the full collision complement, built
 from the checked proper exhaustion. Zero extension at collisions is proved

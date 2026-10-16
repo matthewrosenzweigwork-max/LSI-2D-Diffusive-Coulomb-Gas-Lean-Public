@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GibbsProductPower
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsDefectMoment
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GibbsProductPower
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsDefectMoment
+
+@[expose] public section
 
 /-! Additive repair source; validation is recorded separately. Actual Gibbs moment proof with a genuine
 one-body integrability input. No old whole-plane-normalizer or old moment

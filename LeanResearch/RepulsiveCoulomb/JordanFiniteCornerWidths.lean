@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.JordanDisjointCornerNeighborhoods
-import LeanResearch.RepulsiveCoulomb.JordanRemoteArcSeparation
-import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
-import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanDisjointCornerNeighborhoods
+public import LeanResearch.RepulsiveCoulomb.JordanRemoteArcSeparation
+public import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+public import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+
+@[expose] public section
 
 /-!
 # Constructed finite corner neighborhoods and one positive radial cut

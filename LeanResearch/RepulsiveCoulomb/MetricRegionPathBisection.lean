@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricRegionPathDistance
-import Mathlib.Topology.EMetricSpace.VariationOnFromTo
-import Mathlib.Topology.Order.IntermediateValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRegionPathDistance
+public import Mathlib.Topology.EMetricSpace.VariationOnFromTo
+public import Mathlib.Topology.Order.IntermediateValue
+
+@[expose] public section
 
 /-! A real midpoint of the actual variation length of any continuous finite
 constrained path. No Lipschitz or Euclidean rectifiability assumption is added. -/

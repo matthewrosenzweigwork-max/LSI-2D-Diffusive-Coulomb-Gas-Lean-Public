@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianFisher
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianSharpness
-import Mathlib.Analysis.Calculus.Deriv.MeanValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianFisher
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianSharpness
+public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+
+@[expose] public section
 
 /-! Elementary end-point comparison and removal of positive regularization.
 These are proof steps, not an assertion of Gaussian LSI: the positive Fisher

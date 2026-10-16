@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicRadialArc
-import LeanResearch.RepulsiveCoulomb.ConePowerGeodesicNonnegative
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicRadialArc
+public import LeanResearch.RepulsiveCoulomb.ConePowerGeodesicNonnegative
+
+@[expose] public section
 
 /-! Every short nonconstant geodesic from any point has a regular real-analytic
 Euclidean parametrization, including both endpoints. The exact change from metric

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.DisappearingSectorRemovedTopology
-import LeanResearch.RepulsiveCoulomb.DisappearingSectorRemovedEnd
-import LeanResearch.RepulsiveCoulomb.TranslatedStripResidualTopology
-import LeanResearch.RepulsiveCoulomb.PlanarOldBoundaryComplementRay
+module
+
+public import LeanResearch.RepulsiveCoulomb.DisappearingSectorRemovedTopology
+public import LeanResearch.RepulsiveCoulomb.DisappearingSectorRemovedEnd
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripResidualTopology
+public import LeanResearch.RepulsiveCoulomb.PlanarOldBoundaryComplementRay
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Construct the actual replacement line, its
 Schoenflies sides and the LITERAL disappearing-apex residual after the separate

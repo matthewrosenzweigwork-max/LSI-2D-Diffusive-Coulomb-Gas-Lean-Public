@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanNormalSegmentJump
-import LeanResearch.RepulsiveCoulomb.JordanSmoothTotalTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanNormalSegmentJump
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothTotalTurn
+
+@[expose] public section
 
 /-! Only global continuity and differentiability at one basepoint are needed.
 A uniform interval of actual normal displacements has the same signed

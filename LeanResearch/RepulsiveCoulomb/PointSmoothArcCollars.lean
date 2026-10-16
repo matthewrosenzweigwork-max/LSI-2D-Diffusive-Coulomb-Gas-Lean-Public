@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointSmoothArcChain
-import LeanResearch.RepulsiveCoulomb.PointGeodesicJordanBigon
-import LeanResearch.RepulsiveCoulomb.PointGeodesicSubedge
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSmoothArcChain
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicJordanBigon
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicSubedge
+
+@[expose] public section
 
 /-! Actual short smooth collars at either endpoint of an oriented geodesic
 subinterval. Reversal is explicit, so the returned pieces retain the original

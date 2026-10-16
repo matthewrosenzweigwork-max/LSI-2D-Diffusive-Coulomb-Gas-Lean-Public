@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombSliceGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombSliceGeometry
+
+@[expose] public section
 
 /-! Actual full collision-free test functions restrict to the prescribed
 point-punctured smooth core, with the exact physical partial gradient. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeGeometry
+
+@[expose] public section
 
 /-! Literal locations in the relative conditional; coincident roots are retained. -/
 noncomputable section

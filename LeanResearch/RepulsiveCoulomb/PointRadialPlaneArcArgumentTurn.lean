@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1ArcTransport
-import LeanResearch.RepulsiveCoulomb.PointRadialC1BigonSimplicity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1ArcTransport
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1BigonSimplicity
+
+@[expose] public section
 
 /-! Transport the actual source-geodesic argument identity through the
 forgetful plane-arc adapter and reversal. Reversal retains all endpoint

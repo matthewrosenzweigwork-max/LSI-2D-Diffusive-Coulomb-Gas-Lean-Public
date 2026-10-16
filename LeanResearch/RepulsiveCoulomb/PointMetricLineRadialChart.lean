@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicStarGerms
-import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleCorner
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorNormalization
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicStarGerms
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleCorner
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorNormalization
+
+@[expose] public section
 
 /-! Actual full cone disks along a complete minimizing point-metric line.
 The entire line in the disk, rather than merely two selected germs, is shown

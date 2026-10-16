@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.InverseGradientTransport
-import Mathlib.Analysis.Calculus.Rademacher
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.InverseGradientTransport
+public import Mathlib.Analysis.Calculus.Rademacher
+
+@[expose] public section
 
 /-!
 # Source-a.e. inverse-gradient transport for actual Lipschitz scalars

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchFiniteProduct
-import Mathlib.Algebra.BigOperators.Fin
-import Mathlib.Tactic.Linarith
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchFiniteProduct
+public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-!
 Continuous finite-product relative Han--Shearer, proved by induction from the

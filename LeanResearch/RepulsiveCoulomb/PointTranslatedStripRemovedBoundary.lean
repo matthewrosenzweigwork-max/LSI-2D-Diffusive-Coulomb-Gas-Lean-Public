@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripOldEdgeFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripOldEdgeFullness
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Classify actual removed old-boundary points
 using the exact contact equality, then instantiate the constructed apex and

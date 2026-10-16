@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointDisappearingSectorExactContact
-import LeanResearch.RepulsiveCoulomb.PointDisappearingSectorResidualTopology
-import LeanResearch.RepulsiveCoulomb.PointDisappearingSectorCurvatureMeaning
-import LeanResearch.RepulsiveCoulomb.DisappearingSectorRemovedCoefficients
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripStateAdapters
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorFiniteBoundaryCoverClassical
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingSectorExactContact
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingSectorResidualTopology
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingSectorCurvatureMeaning
+public import LeanResearch.RepulsiveCoulomb.DisappearingSectorRemovedCoefficients
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripStateAdapters
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorFiniteBoundaryCoverClassical
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. End-to-end actual supplied-sector Case II source
 construction, including exact finite departure/contact, actual ambient H',

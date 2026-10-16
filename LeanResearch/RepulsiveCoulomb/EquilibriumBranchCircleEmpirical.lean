@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDoubleCircular
-import Mathlib.MeasureTheory.Integral.Bochner.SumMeasure
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDoubleCircular
+public import Mathlib.MeasureTheory.Integral.Bochner.SumMeasure
+
+@[expose] public section
 
 /-! The actual normalized circularly smeared empirical probability measure.
 Its support is a finite union of planar-null circles, and its self and cross

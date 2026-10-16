@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
-import Mathlib.Topology.Order.IntermediateValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
+public import Mathlib.Topology.Order.IntermediateValue
+
+@[expose] public section
 
 /-! The source-time clock of an actual regular equal-image geodesic subarc
 is constructed from the literal metric distance. It is continuous and

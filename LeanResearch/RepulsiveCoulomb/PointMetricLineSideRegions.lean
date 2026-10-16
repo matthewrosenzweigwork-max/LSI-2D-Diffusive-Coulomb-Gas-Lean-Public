@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricLineCompactification
-import LeanResearch.RepulsiveCoulomb.PlaneJordanSeparation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineCompactification
+public import LeanResearch.RepulsiveCoulomb.PlaneJordanSeparation
+
+@[expose] public section
 
 /-! Construct the actual two open sides of a complete minimizing line, by
 inverting its actual Jordan compactification. The missing inversion pole is

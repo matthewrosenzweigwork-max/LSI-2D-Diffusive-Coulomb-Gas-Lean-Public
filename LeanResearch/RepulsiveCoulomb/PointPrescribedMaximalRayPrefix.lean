@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricOpenRayPrefix
-import LeanResearch.RepulsiveCoulomb.PointFiniteGeodesicTree
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricOpenRayPrefix
+public import LeanResearch.RepulsiveCoulomb.PointFiniteGeodesicTree
+
+@[expose] public section
 
 /-! Every prescribed actual minimizing edge supplies an explicit unit-speed
 open ray prefix and hence has a maximal literal extension. At negative cone

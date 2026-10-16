@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedConfinement
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedConfinement
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedIntegral
+
+@[expose] public section
 
 /-! Exact shifted interaction correspondence on the full nonatomic P2 domain.
 The positive interaction is permitted to be infinite. The extended kernel

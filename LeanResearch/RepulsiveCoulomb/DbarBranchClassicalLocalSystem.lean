@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalSystemUniqueness
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactIntegrationByParts
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalSystemUniqueness
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactIntegrationByParts
+
+@[expose] public section
 
 /-! Actual compact smooth inputs satisfy the literal local first-order weak
 system with their classical outputs. The coefficient product is a genuine

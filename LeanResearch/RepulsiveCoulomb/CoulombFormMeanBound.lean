@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCoreApproximationError
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCoreApproximationError
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. Uniform norm-one mean functional and
 mean errors under genuine original-core approximation. -/

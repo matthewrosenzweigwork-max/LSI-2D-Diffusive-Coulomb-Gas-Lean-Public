@@ -1,6 +1,10 @@
-import Mathlib.Analysis.Calculus.Deriv.MeanValue
-import Mathlib.Topology.Order.Compact
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 UNCOMPILED ADDITIVE DRAFT, 2026-10-02. No accepted-source or inventory claim.

@@ -1,4 +1,8 @@
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import Mathlib.Analysis.Complex.Basic
+
+@[expose] public section
 
 /-!
 NEW shared source definition, extracted from the caller-observed contract of

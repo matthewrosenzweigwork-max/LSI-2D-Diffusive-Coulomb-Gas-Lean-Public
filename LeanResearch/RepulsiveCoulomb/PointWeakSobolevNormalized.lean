@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointWeakSobolev
-import LeanResearch.RepulsiveCoulomb.SobolevCoefficient
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeakSobolev
+public import LeanResearch.RepulsiveCoulomb.SobolevCoefficient
+
+@[expose] public section
 
 /-! Uniform-configuration normalization of the actual weak Sobolev inequality.
 The displayed weak Poincare input remains an explicit hypothesis. -/

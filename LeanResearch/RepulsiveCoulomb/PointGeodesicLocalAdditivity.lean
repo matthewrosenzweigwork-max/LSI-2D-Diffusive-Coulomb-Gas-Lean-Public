@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonOrTriangle
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonOrTriangle
+
+@[expose] public section
 
 /-! The shortcut alternative now starts from the actual local minimizing
 condition across a corner. The extracted triangle retains that same condition

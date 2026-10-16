@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedUpperBoundaryEdge
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedUpperBoundaryEdge
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. A true symmetric minimizing interval through a
 retained-flat boundary point remains on the old frontier locally. The boundary

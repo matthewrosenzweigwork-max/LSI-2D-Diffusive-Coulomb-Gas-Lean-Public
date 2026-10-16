@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeAngularBarrier
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeAngularBarrier
+
+@[expose] public section
 
 /-! The sharp physical derivative bound for the cone support profile. -/
 noncomputable section

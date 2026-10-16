@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicSubedge
-import LeanResearch.RepulsiveCoulomb.PointGeodesicRadialGerms
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicSubedge
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicRadialGerms
+
+@[expose] public section
 
 /-! A finite family of genuine outgoing geodesic edges has one common cone
 chart and one common positive intrinsic radius. Endpoint intersections force

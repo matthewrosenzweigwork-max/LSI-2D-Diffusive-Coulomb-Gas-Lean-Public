@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.JordanSupportingPoint
-import Mathlib.Analysis.Calculus.ContDiff.Operations
-import Mathlib.Analysis.Convex.Contractible
-import Mathlib.Analysis.Normed.Module.Connected
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSupportingPoint
+public import Mathlib.Analysis.Calculus.ContDiff.Operations
+public import Mathlib.Analysis.Convex.Contractible
+public import Mathlib.Analysis.Normed.Module.Connected
+
+@[expose] public section
 
 /-! Records-only extension candidate: actual smooth Jordan total turn ±2π,
 reducing a constructed supporting point to the proved normalized support case.

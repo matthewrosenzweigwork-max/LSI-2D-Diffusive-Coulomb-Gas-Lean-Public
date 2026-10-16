@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalConnection
-import LeanResearch.RepulsiveCoulomb.PointConformalMetricCharts
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalConnection
+public import LeanResearch.RepulsiveCoulomb.PointConformalMetricCharts
+
+@[expose] public section
 
 /-! A constructed actual local isometric developing chart which retains its
 holomorphic phase potential. Its derivative is exactly exp(H), and H' is the

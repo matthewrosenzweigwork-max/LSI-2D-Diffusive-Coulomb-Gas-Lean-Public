@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
-import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryCoalescence
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
+public import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryCoalescence
+
+@[expose] public section
 
 /-! A corner record's final incoming edge is determined by the original
 family's endpoint matching and actual vertex injectivity. No knowledge of

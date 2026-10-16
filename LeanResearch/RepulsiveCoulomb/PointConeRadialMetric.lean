@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalConeCoordinate
-import Mathlib.Analysis.InnerProductSpace.NormPow
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalConeCoordinate
+public import Mathlib.Analysis.InnerProductSpace.NormPow
+
+@[expose] public section
 
 /-! The radial scale of the model cone, using the actual smooth-path metric.
 No metric-cone isometry is postulated. -/

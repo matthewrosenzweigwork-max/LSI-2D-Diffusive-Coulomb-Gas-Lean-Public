@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.SectorVariation
+module
+
+public import LeanResearch.RepulsiveCoulomb.SectorVariation
+
+@[expose] public section
 
 /-! Isolated, uncompiled author draft. Literal bounded source sectors. In
 particular beta = pi is a closed Euclidean halfdisk, with its center on the

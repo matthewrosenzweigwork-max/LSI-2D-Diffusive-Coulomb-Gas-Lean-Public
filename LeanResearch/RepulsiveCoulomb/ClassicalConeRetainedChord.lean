@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ClassicalConeSectorIsometry
-import LeanResearch.RepulsiveCoulomb.EuclideanRetainedChord
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+module
+
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeSectorIsometry
+public import LeanResearch.RepulsiveCoulomb.EuclideanRetainedChord
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+
+@[expose] public section
 
 /-! RECORDS-ONLY, UNCOMPILED DRAFT.
 

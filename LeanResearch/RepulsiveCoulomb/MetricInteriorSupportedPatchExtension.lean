@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchCompatibility
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchCompatibility
+
+@[expose] public section
 
 /-! NEW implementation after workspace loss. A full metric disk chart and an
 actual old isometry give an actual whole-ball patch at a source point interior

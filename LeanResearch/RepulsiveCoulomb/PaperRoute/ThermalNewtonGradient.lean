@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCumulativeMassIncrement
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonC1
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCumulativeMassIncrement
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonC1
+
+@[expose] public section
 
 /-! Actual Lipschitz control of the physical
 Newton gradient from bounded density and the proved annular mass increment.

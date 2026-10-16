@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PlanarTruncatedLogKernel
-import Mathlib.Analysis.Normed.Group.AddTorsor
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarTruncatedLogKernel
+public import Mathlib.Analysis.Normed.Group.AddTorsor
+
+@[expose] public section
 
 /-! The configuration-uniform weak L2 estimate for the literal finite
 logarithmic force in manuscript Lemma 3.4 (label lem:weak-field).

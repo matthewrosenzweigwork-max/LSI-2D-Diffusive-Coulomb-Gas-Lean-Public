@@ -1,4 +1,8 @@
-import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+module
+
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+
+@[expose] public section
 
 /-! A configuration-free one-dimensional logarithmic lower bound. It is intended
 as an additional analytic input for uniform radial path barriers; no global

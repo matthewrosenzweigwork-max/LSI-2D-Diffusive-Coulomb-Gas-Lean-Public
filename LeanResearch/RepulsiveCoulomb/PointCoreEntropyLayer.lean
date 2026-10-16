@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TruncationSPISum
-import LeanResearch.RepulsiveCoulomb.FiniteDyadicEntropyLayer
-import LeanResearch.RepulsiveCoulomb.RothausTightening
+module
+
+public import LeanResearch.RepulsiveCoulomb.TruncationSPISum
+public import LeanResearch.RepulsiveCoulomb.FiniteDyadicEntropyLayer
+public import LeanResearch.RepulsiveCoulomb.RothausTightening
+
+@[expose] public section
 
 /-! Integrating the finite smooth entropy-layer bound on the actual core. -/
 noncomputable section

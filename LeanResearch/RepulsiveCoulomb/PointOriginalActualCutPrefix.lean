@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteActualCutGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteActualCutGeometry
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Original geometric input endpoint for the finite
 actual prefix. Genuine current-region hypotheses are unchanged. The output is

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+
+@[expose] public section
 
 /-! A genuine intrinsic metric on the actual retained point-plane region.
 The existing all-continuous-path infimum is identified with global clipped

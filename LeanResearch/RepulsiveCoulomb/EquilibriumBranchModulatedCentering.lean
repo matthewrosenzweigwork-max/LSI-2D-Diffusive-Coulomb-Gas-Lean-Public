@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+
+@[expose] public section
 
 /-! Exact ordered-pair normalization of the manuscript's modulated energy.
 The centered U-statistic differs from A_N by a surviving one-body correction.

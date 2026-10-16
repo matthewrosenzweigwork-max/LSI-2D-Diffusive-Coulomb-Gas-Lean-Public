@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFirstSwap
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFirstSwap
+
+@[expose] public section
 
 /-! Integrated first-pair swap estimate for the original labeled core. -/
 noncomputable section

@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.WeightedPointNormalization
-import Mathlib.Analysis.SpecialFunctions.Integrals.PosLogEqCircleAverage
-import Mathlib.Analysis.Convex.Integral
-import Mathlib.Analysis.Convex.SpecificFunctions.Basic
-import Mathlib.Analysis.SpecialFunctions.PolarCoord
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedPointNormalization
+public import Mathlib.Analysis.SpecialFunctions.Integrals.PosLogEqCircleAverage
+public import Mathlib.Analysis.Convex.Integral
+public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+public import Mathlib.Analysis.SpecialFunctions.PolarCoord
+
+@[expose] public section
 
 /-! Uniform estimates for the actual finite point-weight family.
 The location factor is the one in manuscript Lemma 3.3. All integrability

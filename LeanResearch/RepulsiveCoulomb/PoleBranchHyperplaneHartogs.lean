@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchFiniteGraphHartogs
-import LeanResearch.RepulsiveCoulomb.PoleBranchLinearSplit
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchFiniteGraphHartogs
+public import LeanResearch.RepulsiveCoulomb.PoleBranchLinearSplit
+
+@[expose] public section
 
 /-! Hartogs removal for pairwise intersections in a finite family of distinct
 complex hyperplanes, expressed in the original ambient vector space. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalRadialBarrier
-import Mathlib.Topology.MetricSpace.ProperSpace
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalRadialBarrier
+public import Mathlib.Topology.MetricSpace.ProperSpace
+
+@[expose] public section
 
 /-! Properness and completeness of the finite-puncture smooth conformal metric.
 The Euclidean topology identification is used explicitly. No uniform-in-configuration

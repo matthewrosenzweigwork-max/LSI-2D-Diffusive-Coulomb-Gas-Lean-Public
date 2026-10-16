@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFullStripMarkedFirstContact
-import LeanResearch.RepulsiveCoulomb.PointActualFullStripResidual
-import LeanResearch.RepulsiveCoulomb.PointFullLinePreparationAlgebra
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullStripMarkedFirstContact
+public import LeanResearch.RepulsiveCoulomb.PointActualFullStripResidual
+public import LeanResearch.RepulsiveCoulomb.PointFullLinePreparationAlgebra
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Full interior charts and genuine boundary turns
 supply the old full/admissible retained geometry needed for contained minimizers.

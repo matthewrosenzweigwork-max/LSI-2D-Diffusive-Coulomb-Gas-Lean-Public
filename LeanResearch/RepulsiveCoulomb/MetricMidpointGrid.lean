@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalMidpoint
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalMidpoint
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-! Consistent dyadic metric subdivisions, constructed from exact midpoints.
 This is generic infrastructure for the geodesic construction, not an additional

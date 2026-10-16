@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ComplexLocalGeodesicStraightness
-import LeanResearch.RepulsiveCoulomb.MetricMidpointGeodesic
-import Mathlib.Topology.MetricSpace.Isometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexLocalGeodesicStraightness
+public import LeanResearch.RepulsiveCoulomb.MetricMidpointGeodesic
+public import Mathlib.Topology.MetricSpace.Isometry
+
+@[expose] public section
 
 /-! Globalization of an actual locally distance-preserving map into the complex
 plane. The segment hypothesis is the literal interface of the accepted

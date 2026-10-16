@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialCyclicListIndex
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialCyclicListIndex
+
+@[expose] public section
 
 /-! Retain the exact actual source-list membership and carrier while passing
 to the finite natural-number slots used by geometric Gauss--Bonnet. -/

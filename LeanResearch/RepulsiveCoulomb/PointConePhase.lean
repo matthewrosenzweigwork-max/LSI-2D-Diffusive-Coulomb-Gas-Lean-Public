@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeChordUpper
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeChordUpper
+
+@[expose] public section
 
 /-! Controlled rotations of developed cone sectors and Euclidean supporting
 projections. Argument windows are explicit to avoid principal-branch errors. -/

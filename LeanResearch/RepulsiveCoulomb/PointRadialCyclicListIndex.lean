@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1HalfOpenCorners
-import Mathlib.Logic.Equiv.Fin.Rotate
-import Mathlib.Data.List.Chain
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1HalfOpenCorners
+public import Mathlib.Logic.Equiv.Fin.Rotate
+public import Mathlib.Data.List.Chain
+
+@[expose] public section
 
 /-! Concrete cyclic indices of an actual finite radial C¹ plane chain.
 Endpoint matching and joint half-open simplicity come from the actual list,

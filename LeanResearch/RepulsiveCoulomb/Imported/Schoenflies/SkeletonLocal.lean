@@ -1,12 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Strip
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SimpleArc
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.UniformBound
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Drawing
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Strip
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SimpleArc
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.UniformBound
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Drawing
+
+@[expose] public section
 
 /-!
 # Local structure of a polygonal skeleton

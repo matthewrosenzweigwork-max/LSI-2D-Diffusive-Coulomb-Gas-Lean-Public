@@ -1,10 +1,14 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.RealizeSubdiv
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.ArcMonotone
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.RealizeSubdiv
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.ArcMonotone
+
+@[expose] public section
 
 /-!
 # Transporting a skeleton homeomorphism across an edge subdivision

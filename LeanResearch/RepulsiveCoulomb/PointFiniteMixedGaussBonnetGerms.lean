@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteMixedGaussBonnet
-import LeanResearch.RepulsiveCoulomb.PointFiniteLocalRadialCorner
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteMixedGaussBonnet
+public import LeanResearch.RepulsiveCoulomb.PointFiniteLocalRadialCorner
+
+@[expose] public section
 
 /-! Primitive mixed-family Gauss--Bonnet: actual original radial germs at
 positive atoms are enough. Their normalized corner geometry, full angles and

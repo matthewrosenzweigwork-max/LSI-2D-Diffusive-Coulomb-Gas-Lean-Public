@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointActualCapGaussBonnetData
-import LeanResearch.RepulsiveCoulomb.PointLineAtomEndpointTangents
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Order
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualCapGaussBonnetData
+public import LeanResearch.RepulsiveCoulomb.PointLineAtomEndpointTangents
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Order
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. The full ORIGINAL radial-corner angle
 is independent of the enclosing cap radius. Atom-safe equality of outgoing

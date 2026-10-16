@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRectifiableConformalMetric
-import Mathlib.Topology.Algebra.GroupWithZero
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRectifiableConformalMetric
+public import Mathlib.Topology.Algebra.GroupWithZero
+
+@[expose] public section
 
 /-!
 # Exact positive output rescaling of a supplied surgery development

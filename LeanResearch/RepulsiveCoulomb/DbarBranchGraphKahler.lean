@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricMatrices
-import LeanResearch.RepulsiveCoulomb.DbarBranchWirtingerAlgebra
-import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricMatrices
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWirtingerAlgebra
+public import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+
+@[expose] public section
 
 /-! Literal coefficient-level Kähler cancellation for the actual graph of
 1/Delta. The complex covector coefficients, their conjugation in H, and the

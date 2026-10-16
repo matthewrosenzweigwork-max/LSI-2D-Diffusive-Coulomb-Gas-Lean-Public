@@ -1,6 +1,10 @@
-import Mathlib.Topology.UnitInterval
-import Mathlib.Topology.MetricSpace.Pseudo.Basic
-import Mathlib.Tactic.Linarith
+module
+
+public import Mathlib.Topology.UnitInterval
+public import Mathlib.Topology.MetricSpace.Pseudo.Basic
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-! Literal finite gluing of Lipschitz interval curves and replacement of one
 geodesic subsegment. Zero-length outer pieces are allowed. A sharp endpoint

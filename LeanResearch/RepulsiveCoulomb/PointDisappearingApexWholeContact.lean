@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexBoundaryContinuation
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorRelativeOpenness
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexBudget
-import Mathlib.Topology.Connected.Clopen
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexBoundaryContinuation
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorRelativeOpenness
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexBudget
+public import Mathlib.Topology.Connected.Clopen
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. If the whole upper ray remains old boundary,
 actual local source disks fill P everywhere on the closed sector. Connectedness

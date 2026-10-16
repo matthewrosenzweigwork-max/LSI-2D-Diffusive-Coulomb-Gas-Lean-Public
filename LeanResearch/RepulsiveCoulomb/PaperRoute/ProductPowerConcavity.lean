@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductExponential
-import Mathlib.Analysis.Convex.SpecificFunctions.Pow
-import Mathlib.Analysis.Convex.Integral
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductExponential
+public import Mathlib.Analysis.Convex.SpecificFunctions.Pow
+public import Mathlib.Analysis.Convex.Integral
+
+@[expose] public section
 
 /-! The authored one-body product-power intermediate and the actual
 concavity of x^(1/N). All displayed real integrals are genuinely integrable. -/

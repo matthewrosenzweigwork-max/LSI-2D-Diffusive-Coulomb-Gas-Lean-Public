@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanSmoothSecantSquare
-import Mathlib.Topology.Connected.LocallyPathConnected
-import Mathlib.Analysis.Normed.Module.Connected
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothSecantSquare
+public import Mathlib.Topology.Connected.LocallyPathConnected
+public import Mathlib.Analysis.Normed.Module.Connected
+
+@[expose] public section
 
 /-! Genuine angle-increment homotopy invariance and zero winding on the actual
 unbounded Jordan side. Continuous square angle lifts are constructed. No

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointExteriorTwoRayArgument
-import Mathlib.Analysis.Calculus.FDeriv.Analytic
-import Mathlib.Analysis.Calculus.DSlope
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointExteriorTwoRayArgument
+public import Mathlib.Analysis.Calculus.FDeriv.Analytic
+public import Mathlib.Analysis.Calculus.DSlope
+
+@[expose] public section
 
 /-! An actual uniformly chosen phase correction for all short distinct
 holomorphic secants. Strict differentiability constructs a disk on which the

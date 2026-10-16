@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchMeasure
-import LeanResearch.RepulsiveCoulomb.PointWeightRegularity
-import LeanResearch.RepulsiveCoulomb.RawPointGradientScaling
-import Mathlib.Analysis.Distribution.TestFunction
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchMeasure
+public import LeanResearch.RepulsiveCoulomb.PointWeightRegularity
+public import LeanResearch.RepulsiveCoulomb.RawPointGradientScaling
+public import Mathlib.Analysis.Distribution.TestFunction
+
+@[expose] public section
 
 /-! Dilation of the literal original puncture-avoiding smooth core, with the
 exact physical-gradient factor. No form-domain equivalence is assumed. -/

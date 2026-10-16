@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceBounds
-import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
-import Mathlib.MeasureTheory.Integral.Bochner.Set
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceBounds
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+public import Mathlib.MeasureTheory.Integral.Bochner.Set
+
+@[expose] public section
 
 /-!
 Additive repair source. Validation status is recorded in separate evidence.

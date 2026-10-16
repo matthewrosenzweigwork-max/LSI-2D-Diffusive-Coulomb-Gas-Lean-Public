@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedRegularStages
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedRegularStages
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Construct the actual distance-preserving strip at
 the finite supremum of ALL actual regular widths. The map and its compatibility

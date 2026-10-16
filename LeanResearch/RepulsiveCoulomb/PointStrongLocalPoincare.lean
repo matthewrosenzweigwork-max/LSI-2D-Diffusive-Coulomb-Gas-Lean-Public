@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointStrongSobolevRoot
-import LeanResearch.RepulsiveCoulomb.PowerMeanComparison
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointStrongSobolevRoot
+public import LeanResearch.RepulsiveCoulomb.PowerMeanComparison
+
+@[expose] public section
 
 /-! Actual quadratic local Poincare as a consequence of the checked strong
 Sobolev upgrade, with the same explicit analytic input and physical gradient. -/

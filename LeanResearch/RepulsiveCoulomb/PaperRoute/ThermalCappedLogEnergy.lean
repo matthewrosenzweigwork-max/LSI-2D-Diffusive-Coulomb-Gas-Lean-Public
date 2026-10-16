@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCappedDensity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveFiniteEnergy
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCappedDensity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveFiniteEnergy
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Self-energy convergence for literal normalized
 caps. Every dominating energy is a SELF energy; no limiting cross-energy

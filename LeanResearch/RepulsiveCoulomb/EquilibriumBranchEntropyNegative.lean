@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyLower
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyLower
+
+@[expose] public section
 
 /-! The negative entropy part is actually integrable on the entire absolutely
 continuous P2 domain. The positive part may be infinite. This is a prerequisite

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchGenericCollisionGeometry
-import Mathlib.Analysis.Normed.Module.Connected
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchGenericCollisionGeometry
+public import Mathlib.Analysis.Normed.Module.Connected
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+
+@[expose] public section
 
 /-! The actual collision complement is path connected for every particle count.
 A complex affine line between two regular configurations has only finitely many

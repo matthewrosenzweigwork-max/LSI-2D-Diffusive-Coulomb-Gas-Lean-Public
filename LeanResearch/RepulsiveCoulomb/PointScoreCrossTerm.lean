@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreIntegrationByParts
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreIntegrationByParts
+
+@[expose] public section
 
 /-! Actual two-coordinate integration of the ground-state cross term. -/
 noncomputable section

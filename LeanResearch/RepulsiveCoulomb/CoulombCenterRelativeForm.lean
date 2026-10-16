@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterTensorCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterTensorCore
+
+@[expose] public section
 
 /-! The relative domain is the literal closed graph of all collision-free
 compactly supported smooth value/physical-gradient jets. Core and full-domain

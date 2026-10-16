@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircularRegularization
-import Mathlib.MeasureTheory.Group.Convolution
-import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircularRegularization
+public import Mathlib.MeasureTheory.Group.Convolution
+public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+
+@[expose] public section
 
 /-! Actual circular probability measures for the forthcoming double-smearing
 construction. They are nonatomic and supported on a Lebesgue-null circle;

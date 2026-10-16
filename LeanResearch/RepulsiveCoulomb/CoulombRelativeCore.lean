@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeRoots
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeRoots
+
+@[expose] public section
 
 /-! Collision-free smooth cores restrict to the literal relative punctured core. -/
 noncomputable section

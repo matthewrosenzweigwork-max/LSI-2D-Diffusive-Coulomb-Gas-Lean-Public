@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerOrientedTurn
-import LeanResearch.RepulsiveCoulomb.PointRadialC1HalfOpenCorners
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerOrientedTurn
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1HalfOpenCorners
+
+@[expose] public section
 
 /-! Instantiate the original finite-corner oriented-turn theorem with the
 actual chosen physical charts carried by point-metric radial C¹ macro-arcs.

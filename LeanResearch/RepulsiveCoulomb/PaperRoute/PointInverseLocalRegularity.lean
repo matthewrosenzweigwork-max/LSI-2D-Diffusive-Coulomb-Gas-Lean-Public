@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalLocalMetric
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalLocalMetric
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+
+@[expose] public section
 
 /-!
 # Local regularity of the same point-metric map's inverse

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FiniteLinkComplementTargetCover
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteLinkComplementTargetCover
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Two strict finite partitions with the same
 coarse-cell and subcell indices have precisely the same node identifications.

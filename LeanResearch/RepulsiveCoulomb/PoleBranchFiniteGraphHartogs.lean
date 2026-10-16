@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchHartogsCylinder
-import LeanResearch.RepulsiveCoulomb.PoleBranchGraphGeometry
-import LeanResearch.RepulsiveCoulomb.PoleBranchExtensionGlue
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchHartogsCylinder
+public import LeanResearch.RepulsiveCoulomb.PoleBranchGraphGeometry
+public import LeanResearch.RepulsiveCoulomb.PoleBranchExtensionGlue
+
+@[expose] public section
 
 /-! A full several-variable Hartogs theorem for a finite union of pairwise
 intersections of distinct complex-linear graph hyperplanes. No boundedness,

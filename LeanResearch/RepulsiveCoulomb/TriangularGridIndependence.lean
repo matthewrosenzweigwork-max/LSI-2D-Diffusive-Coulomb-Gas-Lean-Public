@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridConvexGeometry
-import Mathlib.LinearAlgebra.AffineSpace.Independent
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridConvexGeometry
+public import Mathlib.LinearAlgebra.AffineSpace.Independent
+
+@[expose] public section
 
 /-! Actual affine independence of the regular physical grid triangles. -/
 noncomputable section

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.RadialLogAverage
-import Mathlib.Analysis.Convex.Integral
-import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.RadialLogAverage
+public import Mathlib.Analysis.Convex.Integral
+public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+
+@[expose] public section
 
 /-! Uniform lower averages for arbitrary finite products of positive powers of
 one-dimensional distances. The constant depends on the sum of powers only,

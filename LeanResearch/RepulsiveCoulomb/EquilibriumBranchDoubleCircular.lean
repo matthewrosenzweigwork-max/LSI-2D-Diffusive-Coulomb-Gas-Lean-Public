@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEnergy
+
+@[expose] public section
 
 /-! The actual doubly circle-smeared Coulomb interaction. The single cutoff is
 not assumed to be positive type. This module proves the precise product-measure

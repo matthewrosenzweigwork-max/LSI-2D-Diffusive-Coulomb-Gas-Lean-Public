@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreLaplacian
-import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreLaplacian
+public import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+
+@[expose] public section
 
 /-! Actual directional derivatives and divergence of the physical score. -/
 noncomputable section

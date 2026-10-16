@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchCancellation
-import Mathlib.Algebra.BigOperators.Ring.Finset
+module
+
+public import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchCancellation
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+
+@[expose] public section
 
 /-! Exact even-moment expansion over ordered edge words, before support
 counting. Loops are literally zeroed at the label level and each surviving

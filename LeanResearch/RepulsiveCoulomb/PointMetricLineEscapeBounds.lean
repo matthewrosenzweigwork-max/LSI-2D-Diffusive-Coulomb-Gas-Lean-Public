@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
-import LeanResearch.RepulsiveCoulomb.PointGeodesicOrientedClock
-import Mathlib.Analysis.Normed.Group.Bounded
-import Mathlib.Topology.Order.Compact
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicOrientedClock
+public import Mathlib.Analysis.Normed.Group.Bounded
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Actual point-metric lines escape Euclidean
 compact sets. Actual finite segments can meet a fixed Euclidean disk only in a

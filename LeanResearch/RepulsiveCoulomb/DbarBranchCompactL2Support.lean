@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalDistribution
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalDistribution
+
+@[expose] public section
 
 /-! Actual compactly supported Gibbs-L2 representatives are global Lebesgue
 L2 and L1 functions. This supplies, rather than assumes, the integrability

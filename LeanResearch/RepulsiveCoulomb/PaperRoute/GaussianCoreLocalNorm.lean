@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianGlobalPoincare
-import LeanResearch.RepulsiveCoulomb.PointCoreExterior
-import LeanResearch.RepulsiveCoulomb.LocalSobolevUncentering
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianGlobalPoincare
+public import LeanResearch.RepulsiveCoulomb.PointCoreExterior
+public import LeanResearch.RepulsiveCoulomb.LocalSobolevUncentering
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. The explicitly supplied half-mass disk and the new Gaussian Sobolev theorem give uncentered norms. No older normalization producer is selected. -/
 noncomputable section

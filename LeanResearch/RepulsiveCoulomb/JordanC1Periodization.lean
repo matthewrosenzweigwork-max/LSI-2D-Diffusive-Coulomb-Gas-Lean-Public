@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.JordanSmoothTotalTurn
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff
-import Mathlib.Topology.Instances.AddCircle.Defs
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothTotalTurn
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff
+public import Mathlib.Topology.Instances.AddCircle.Defs
+
+@[expose] public section
 
 /-! Actual C¹ periodization of a closed finite-arc concatenation with matched
 endpoint derivatives. Periodize its continuous derivative, then integrate it;

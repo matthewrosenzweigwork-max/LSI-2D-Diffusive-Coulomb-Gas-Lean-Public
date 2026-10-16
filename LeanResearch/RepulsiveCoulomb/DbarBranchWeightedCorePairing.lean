@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreIBP
-import LeanResearch.RepulsiveCoulomb.DbarBranchComplexLebesguePairing
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreIBP
+public import LeanResearch.RepulsiveCoulomb.DbarBranchComplexLebesguePairing
+
+@[expose] public section
 
 /-! Exact weighted core pairings with arbitrary Gibbs-L2 data. These formulas
 make local density changes in genuine adjoint tests explicit, without assuming

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+
+@[expose] public section
 
 /-! The usual outer variational 1-capacity of the actual closed Coulomb form.
 The admissible value is at least one almost everywhere on an OPEN neighborhood

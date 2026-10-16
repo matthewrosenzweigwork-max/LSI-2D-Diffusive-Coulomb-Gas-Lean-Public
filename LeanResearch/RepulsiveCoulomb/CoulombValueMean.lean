@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombValueRepresentation
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombValueRepresentation
+
+@[expose] public section
 
 /-! Actual Gibbs L2 means and variances, with no core restriction. -/
 noncomputable section

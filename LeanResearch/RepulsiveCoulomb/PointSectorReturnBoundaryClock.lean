@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnCleanRay
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnCapAdapter
-import Mathlib.Topology.Order.IntermediateValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnCleanRay
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnCapAdapter
+public import Mathlib.Topology.Order.IntermediateValue
+
+@[expose] public section
 
 /-! Isolated, uncompiled successor. The actual old-boundary clock orientation
 is constructed; the first-return extraction's s != t is not strengthened by

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.UnitDiskLogIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.UnitDiskLogIntegral
+
+@[expose] public section
 
 /-! The literal lower witness displayed in manuscript Lemma 3.3.
 The density convention is exp(-gamma*|z|^2/2). Its unit-disk minimum is

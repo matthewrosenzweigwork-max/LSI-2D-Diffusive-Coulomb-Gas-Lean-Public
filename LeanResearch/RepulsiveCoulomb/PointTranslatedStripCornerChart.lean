@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedStripCornerSourceV2
-import LeanResearch.RepulsiveCoulomb.PointBoundedCornerRetainedChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripCornerSourceV2
+public import LeanResearch.RepulsiveCoulomb.PointBoundedCornerRetainedChart
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Concrete target chart at z=F(b*v), obtained
 from the supplied literal translated strip. Corner coverage, free-ray germ,

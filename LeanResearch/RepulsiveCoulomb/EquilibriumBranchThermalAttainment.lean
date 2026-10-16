@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveCompactness
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussianObjective
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveCompactness
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussianObjective
+
+@[expose] public section
 
 /-! Actual direct-method attainment for every beta>0. A finite Gaussian
 sublevel is proved nonempty and compact; its minimizer is proved globally

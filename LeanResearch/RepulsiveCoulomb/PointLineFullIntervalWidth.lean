@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointLineFixedSideAllPoints
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
-import Mathlib.Tactic.Positivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineFixedSideAllPoints
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Positivity
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Full physical side widths are recovered from
 actual oriented interval membership, including reflex intervals. No chord,

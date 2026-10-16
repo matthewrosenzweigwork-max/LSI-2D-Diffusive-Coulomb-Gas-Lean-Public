@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchGenericCollisionRemoval
-import LeanResearch.RepulsiveCoulomb.PoleBranchOpenExtensionGlue
-import LeanResearch.RepulsiveCoulomb.PoleBranchHolomorphicSymmetry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchGenericCollisionRemoval
+public import LeanResearch.RepulsiveCoulomb.PoleBranchOpenExtensionGlue
+public import LeanResearch.RepulsiveCoulomb.PoleBranchHolomorphicSymmetry
+
+@[expose] public section
 
 /-! The manuscript collision-removal statement, with the genuine original
 holomorphic class, actual normalized Gibbs L2 integrability, a.e. permutation

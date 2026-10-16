@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchRawPairingTestAlgebra
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffSymbols
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchRawPairingTestAlgebra
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffSymbols
+
+@[expose] public section
 
 /-! The exact weak cutoff product equation for the closed compatibility
 subspace. The additional source is defined by literal derivatives of the

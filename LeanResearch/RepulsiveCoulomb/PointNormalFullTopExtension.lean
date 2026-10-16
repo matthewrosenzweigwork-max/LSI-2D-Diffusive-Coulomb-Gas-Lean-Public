@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricShearedTopExtension
-import LeanResearch.RepulsiveCoulomb.MetricInteriorSupportedPatchExtension
-import LeanResearch.RepulsiveCoulomb.PointConvexFlatClosedEmbedding
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricShearedTopExtension
+public import LeanResearch.RepulsiveCoulomb.MetricInteriorSupportedPatchExtension
+public import LeanResearch.RepulsiveCoulomb.PointConvexFlatClosedEmbedding
+
+@[expose] public section
 
 /-! NEW header reconstruction. The retained proof suffix is unchanged. -/
 noncomputable section

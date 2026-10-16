@@ -1,11 +1,15 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.QCScalarEnergy
-import LeanResearch.RepulsiveCoulomb.PaperRoute.PlanarAnnulusOscillationEnergy
-import LeanResearch.RepulsiveCoulomb.PaperRoute.WeakQuasisymmetryGeometry
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.Normed.Group.Bounded
-import Mathlib.Analysis.Normed.Module.RCLike.Real
-import Mathlib.Topology.Order.IntermediateValue
-import Mathlib.Tactic.Linarith
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.QCScalarEnergy
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.PlanarAnnulusOscillationEnergy
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.WeakQuasisymmetryGeometry
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Normed.Group.Bounded
+public import Mathlib.Analysis.Normed.Module.RCLike.Real
+public import Mathlib.Topology.Order.IntermediateValue
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-!
 # Analytic planar QC homeomorphisms are quantitatively weakly quasisymmetric

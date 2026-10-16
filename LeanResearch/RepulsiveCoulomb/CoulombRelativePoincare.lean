@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeCore
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeKernel
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeCore
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeKernel
+
+@[expose] public section
 
 /-! Relative conditional PI with the exact unscaled full-gradient convention. -/
 noncomputable section

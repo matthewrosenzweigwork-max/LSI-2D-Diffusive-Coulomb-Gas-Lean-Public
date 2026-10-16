@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSupportSign
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSupportSign
+
+@[expose] public section
 
 /-! Exact quadratic-energy expansion for the explicit common-measure sign
 representation. This applies to mutually singular nonatomic probabilities,

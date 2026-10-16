@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalCompleteness
-import Mathlib.Analysis.Complex.Harmonic.Analytic
-import Mathlib.Analysis.Complex.HasPrimitives
-import Mathlib.Analysis.Calculus.InverseFunctionTheorem.Deriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalCompleteness
+public import Mathlib.Analysis.Complex.Harmonic.Analytic
+public import Mathlib.Analysis.Complex.HasPrimitives
+public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.Deriv
+
+@[expose] public section
 
 /-! Holomorphic developing primitives away from actual punctures. This uses the
 attributed Mathlib harmonic-conjugate theorem and disk-primitive theorem directly.

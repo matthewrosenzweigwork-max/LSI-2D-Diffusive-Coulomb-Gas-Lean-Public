@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointRefinedAngularBranchPasting
-import LeanResearch.RepulsiveCoulomb.PointOccupiedBranchBoundary
-import LeanResearch.RepulsiveCoulomb.DirectedSectorDiskRestriction
-import LeanResearch.RepulsiveCoulomb.ContinuousSubtypeExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRefinedAngularBranchPasting
+public import LeanResearch.RepulsiveCoulomb.PointOccupiedBranchBoundary
+public import LeanResearch.RepulsiveCoulomb.DirectedSectorDiskRestriction
+public import LeanResearch.RepulsiveCoulomb.ContinuousSubtypeExtension
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED, UNSTAGED.
 

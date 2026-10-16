@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointSmoothRadialChartGerms
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSmoothRadialChartGerms
+
+@[expose] public section
 
 /-! Choose a chart once per physical vertex. Incident gaps then use the same
 literal holomorphic chart, instead of incompatible independent existential

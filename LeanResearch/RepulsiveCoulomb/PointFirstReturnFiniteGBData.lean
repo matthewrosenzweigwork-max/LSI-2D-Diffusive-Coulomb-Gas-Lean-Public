@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteMixedGaussBonnetGerms
-import LeanResearch.RepulsiveCoulomb.PointRadialPositiveFamily
-import LeanResearch.RepulsiveCoulomb.PointRadialCornerActualSide
-import LeanResearch.RepulsiveCoulomb.PointCornerPhysicalChartTransition
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteMixedGaussBonnetGerms
+public import LeanResearch.RepulsiveCoulomb.PointRadialPositiveFamily
+public import LeanResearch.RepulsiveCoulomb.PointRadialCornerActualSide
+public import LeanResearch.RepulsiveCoulomb.PointCornerPhysicalChartTransition
+
+@[expose] public section
 
 /-! Source-only draft. General mixed Gauss--Bonnet on the SAME actual cap
 supplied by first-return topology. The finite source-derived geodesic family,

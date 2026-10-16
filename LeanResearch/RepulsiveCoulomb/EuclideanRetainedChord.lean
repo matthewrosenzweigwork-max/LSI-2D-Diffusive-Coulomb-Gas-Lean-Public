@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.SectorVariation
+module
+
+public import LeanResearch.RepulsiveCoulomb.SectorVariation
+
+@[expose] public section
 
 /-!
 RECORDS-ONLY PROPOSED MODULE. This file has not been compiled or staged.

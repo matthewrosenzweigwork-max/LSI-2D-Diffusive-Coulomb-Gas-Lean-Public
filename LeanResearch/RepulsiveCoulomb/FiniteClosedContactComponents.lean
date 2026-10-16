@@ -1,7 +1,11 @@
-import Mathlib.Topology.UnitInterval
-import Mathlib.Topology.Order.Monotone
-import Mathlib.Topology.Order.Compact
-import Mathlib.Order.Interval.Set.OrdConnected
+module
+
+public import Mathlib.Topology.UnitInterval
+public import Mathlib.Topology.Order.Monotone
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Order.Interval.Set.OrdConnected
+
+@[expose] public section
 
 /-! Source-only draft. A finite union of closed order intervals has a genuine
 next contact after a terminal contact component. This fills the gap left by

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
-import LeanResearch.RepulsiveCoulomb.JordanAffineTraceTangent
-import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
+public import LeanResearch.RepulsiveCoulomb.JordanAffineTraceTangent
+public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+
+@[expose] public section
 
 /-! The literal positively traversed circle cap, its actual derivative,
 regularity, and full tangent increment. No tangent-turn value is supplied as

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombSymmetricPairs
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombSymmetricPairs
+
+@[expose] public section
 
 /-! Exact all-pair Euclidean gradient accounting. -/
 noncomputable section

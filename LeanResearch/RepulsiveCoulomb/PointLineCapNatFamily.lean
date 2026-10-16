@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapFiniteChain
-import Mathlib.Data.List.Chain
-import Mathlib.Data.List.GetD
-import Mathlib.Tactic.Order
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapFiniteChain
+public import Mathlib.Data.List.Chain
+public import Mathlib.Data.List.GetD
+public import Mathlib.Tactic.Order
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Literal finite cap lists are converted to the
 n-bounded natural-index family used by mixed Gauss--Bonnet. The radial pieces

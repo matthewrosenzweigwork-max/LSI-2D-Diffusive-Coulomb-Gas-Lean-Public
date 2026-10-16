@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointLocalChartMetricShrink
-import LeanResearch.RepulsiveCoulomb.PointFiniteSurgeryAllPointCharts
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLocalChartMetricShrink
+public import LeanResearch.RepulsiveCoulomb.PointFiniteSurgeryAllPointCharts
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual sharp local metric charts at every point,
 constructed from the original coefficients. The finite branch estimates are

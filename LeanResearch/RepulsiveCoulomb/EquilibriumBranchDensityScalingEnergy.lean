@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityScalingBasics
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityScalingBasics
+
+@[expose] public section
 
 /-! Exact scaling of the actual finite logarithmic interaction. The spatial
 diagonal is explicitly excluded in the pointwise kernel identity and proved

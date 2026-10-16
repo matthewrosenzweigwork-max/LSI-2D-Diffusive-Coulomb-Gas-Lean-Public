@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPhaseIntegrability
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPhaseIntegrability
+
+@[expose] public section
 
 /-! The manuscript's common-phase identity under its exact integrability hypothesis. -/
 noncomputable section

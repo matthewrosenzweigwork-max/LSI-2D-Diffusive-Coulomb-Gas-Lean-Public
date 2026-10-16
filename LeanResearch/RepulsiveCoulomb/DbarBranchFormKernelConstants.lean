@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchRealKernel
-import LeanResearch.RepulsiveCoulomb.PoleBranchCollisionConnectedness
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchRealKernel
+public import LeanResearch.RepulsiveCoulomb.PoleBranchCollisionConnectedness
+
+@[expose] public section
 
 /-! Every actual zero-energy full-form value is almost everywhere constant,
 for all N and β > 0. The argument uses domain connectedness and weak-kernel

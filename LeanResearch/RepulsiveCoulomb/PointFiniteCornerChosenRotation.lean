@@ -1,13 +1,17 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
-import LeanResearch.RepulsiveCoulomb.PointFiniteCyclicCornerOrder
-import LeanResearch.RepulsiveCoulomb.PointRotatedRadialChart
-import LeanResearch.RepulsiveCoulomb.PointRadialCyclicTurnCharts
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.FunProp
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Order
-import Mathlib.Tactic.Positivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCyclicCornerOrder
+public import LeanResearch.RepulsiveCoulomb.PointRotatedRadialChart
+public import LeanResearch.RepulsiveCoulomb.PointRadialCyclicTurnCharts
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.FunProp
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Order
+public import Mathlib.Tactic.Positivity
+
+@[expose] public section
 
 /-! Uncompiled records-only successor retaining the actual chosen-chart
 rotation that the earlier constructor deliberately forgot. Construct a genuine

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.SectorVariation
-import Mathlib.Topology.Homeomorph.Defs
+module
+
+public import LeanResearch.RepulsiveCoulomb.SectorVariation
+public import Mathlib.Topology.Homeomorph.Defs
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. An actual closed-sector piece homeomorphism,
 including the apex and both seams. Forward and inverse continuity are proved

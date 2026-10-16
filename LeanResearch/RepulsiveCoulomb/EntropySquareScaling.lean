@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreEntropyLayer
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreEntropyLayer
+
+@[expose] public section
 
 /-! Zero-safe entropy and physical energy scaling for core normalization. -/
 noncomputable section

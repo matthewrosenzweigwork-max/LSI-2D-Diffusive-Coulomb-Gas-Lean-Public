@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
-import LeanResearch.RepulsiveCoulomb.PointFiniteCyclicCornerOrder
-import LeanResearch.RepulsiveCoulomb.PointRotatedRadialChart
-import LeanResearch.RepulsiveCoulomb.PointRadialCyclicTurnCharts
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCyclicCornerOrder
+public import LeanResearch.RepulsiveCoulomb.PointRotatedRadialChart
+public import LeanResearch.RepulsiveCoulomb.PointRadialCyclicTurnCharts
+
+@[expose] public section
 
 /-! Construct a genuine radial boundary-atom record inside a mixed finite
 family. Only the incoming and outgoing original germs at the chosen vertex

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
+
+@[expose] public section
 
 /-! SOURCE-ONLY AFTER THE UNIFORM-STRIP FREEZE. Construct the literal
 arclength clock of one actual minimizing adjacent boundary edge. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeCosineFormula
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeCosineFormula
+
+@[expose] public section
 
 /-! Explicit radial-coordinate equivalences for the classical cone model. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzLength
-import LeanResearch.RepulsiveCoulomb.PointConformalGeodesicArc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzLength
+public import LeanResearch.RepulsiveCoulomb.PointConformalGeodesicArc
+
+@[expose] public section
 
 /-! A genuine shortest geodesic attachment to any compact set in the actual
 finite-point metric. Its interior misses the old set. This is the geometric

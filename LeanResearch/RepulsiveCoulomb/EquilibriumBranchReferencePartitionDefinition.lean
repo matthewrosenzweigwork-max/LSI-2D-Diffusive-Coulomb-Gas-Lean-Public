@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedDefinition
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedDefinition
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
+
+@[expose] public section
 
 /-! The literal partition integral, independent of its later estimates. -/
 noncomputable section

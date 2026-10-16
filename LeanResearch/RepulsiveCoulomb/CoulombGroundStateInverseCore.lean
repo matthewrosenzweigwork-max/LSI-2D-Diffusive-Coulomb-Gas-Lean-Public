@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCore
+
+@[expose] public section
 
 /-! The inverse normalized ground-state transform preserves the original core.
 There is no common-support assumption and no restriction on particle collisions

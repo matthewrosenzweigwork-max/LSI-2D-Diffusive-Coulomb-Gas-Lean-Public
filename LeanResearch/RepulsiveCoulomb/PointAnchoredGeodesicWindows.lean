@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointExteriorPenetrationRadius
-import LeanResearch.RepulsiveCoulomb.PointConformalGeodesic
-import LeanResearch.RepulsiveCoulomb.PointConformalRadialBarrier
-import Mathlib.Topology.Order.ProjIcc
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointExteriorPenetrationRadius
+public import LeanResearch.RepulsiveCoulomb.PointConformalGeodesic
+public import LeanResearch.RepulsiveCoulomb.PointConformalRadialBarrier
+public import Mathlib.Topology.Order.ProjIcc
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Actual fixed-disk penetration and the
 existing radial distance barrier construct finite minimizing segments with a

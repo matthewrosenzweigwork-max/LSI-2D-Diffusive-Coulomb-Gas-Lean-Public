@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Accessible
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.AccessibleJoin
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SkeletonAccess
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Accessible
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.AccessibleJoin
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SkeletonAccess
+
+@[expose] public section
 
 /-!
 # Access from a fresh anchor, for `thm:finite-transfer`(b)

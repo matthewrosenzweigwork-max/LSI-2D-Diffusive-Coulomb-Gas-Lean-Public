@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormPermutation
-import LeanResearch.RepulsiveCoulomb.CoulombSymmetrizer
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormPermutation
+public import LeanResearch.RepulsiveCoulomb.CoulombSymmetrizer
+
+@[expose] public section
 
 /-! The actual symmetrizer preserves the full original form and does not increase its energy. -/
 noncomputable section

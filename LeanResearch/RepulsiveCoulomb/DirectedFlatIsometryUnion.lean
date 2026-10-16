@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricClosureIsometryExtension
-import Mathlib.Data.Set.UnionLift
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricClosureIsometryExtension
+public import Mathlib.Data.Set.UnionLift
+
+@[expose] public section
 
 /-! Directed union and actual Cauchy completion for compatible isometries.
 The compatibility hypothesis is stated openly: this module does not construct

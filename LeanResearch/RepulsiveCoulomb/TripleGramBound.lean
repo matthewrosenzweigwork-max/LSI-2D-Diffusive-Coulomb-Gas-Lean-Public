@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TripleGramCounting
+module
+
+public import LeanResearch.RepulsiveCoulomb.TripleGramCounting
+
+@[expose] public section
 
 /-! UNTESTED DRAFT: Gram bound from nonnegative disjoint-edge cross terms. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.RawPointMeasureMapScaling
-import LeanResearch.RepulsiveCoulomb.DoubleLayerCake
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointMeasureMapScaling
+public import LeanResearch.RepulsiveCoulomb.DoubleLayerCake
+
+@[expose] public section
 
 /-! Exact scaling of the physical double-oscillation product measure. -/
 noncomputable section

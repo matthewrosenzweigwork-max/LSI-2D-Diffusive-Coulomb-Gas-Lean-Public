@@ -1,7 +1,11 @@
-import Mathlib.MeasureTheory.Measure.Prod
-import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
-import Mathlib.MeasureTheory.Integral.Lebesgue.Add
-import Mathlib.Tactic
+module
+
+public import Mathlib.MeasureTheory.Measure.Prod
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Exact double layer cake using strict lower/upper level sets. The identity
 requires no atomlessness of the image law and holds in ENNReal before integrability. -/

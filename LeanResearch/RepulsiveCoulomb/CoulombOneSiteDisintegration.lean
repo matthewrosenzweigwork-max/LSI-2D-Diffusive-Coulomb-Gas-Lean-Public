@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombOneSiteRawIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombOneSiteRawIntegral
+
+@[expose] public section
 
 /-! The actual normalized first-site conditional law and marginal. Frozen
 collisions are allowed; no possibly zero frozen density is ever canceled. -/

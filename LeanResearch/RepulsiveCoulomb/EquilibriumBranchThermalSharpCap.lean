@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalSmooth
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCirclePotentialDifference
-import Mathlib.Analysis.Normed.Group.Bounded
-import Mathlib.Topology.Order.Compact
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalSmooth
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCirclePotentialDifference
+public import Mathlib.Analysis.Normed.Group.Bounded
+public import Mathlib.Topology.Order.Compact
+
+@[expose] public section
 
 /-! The sharp cap 1/pi from an actual attained density maximum and the exact
 circular mean identity. Continuity plus the proved Gaussian envelope gives a

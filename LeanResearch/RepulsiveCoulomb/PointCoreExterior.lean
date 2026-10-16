@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CutoffPairEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.CutoffPairEnergy
+
+@[expose] public section
 
 /-! Actual outer-core mass absorption from the uniform quadratic-moment bound. -/
 noncomputable section

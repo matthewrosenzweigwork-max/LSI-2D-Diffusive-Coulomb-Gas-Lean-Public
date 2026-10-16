@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorRelativeOpenness
-import LeanResearch.RepulsiveCoulomb.TranslatedStripResidualTopology
-import LeanResearch.RepulsiveCoulomb.PlanarOldBoundaryComplementRay
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorRelativeOpenness
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripResidualTopology
+public import LeanResearch.RepulsiveCoulomb.PlanarOldBoundaryComplementRay
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, NOT COMPILED. Actual global residual construction after the

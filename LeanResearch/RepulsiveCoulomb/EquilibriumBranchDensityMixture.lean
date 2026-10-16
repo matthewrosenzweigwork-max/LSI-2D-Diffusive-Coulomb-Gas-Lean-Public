@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFiniteDensityEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFiniteDensityEnergy
+
+@[expose] public section
 
 /-! Actual finite-energy density mixtures and the exact quadratic Coulomb
 expansion. No boundedness of the first density is assumed; the natural finite

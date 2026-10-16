@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridIncidence
-import LeanResearch.RepulsiveCoulomb.TriangularGridContourSegments
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridIncidence
+public import LeanResearch.RepulsiveCoulomb.TriangularGridContourSegments
+
+@[expose] public section
 
 /-! A genuine finite set of crossed lattice edges and their actual physical
 crossing points. Finiteness follows from finite nodal support, not an assumption. -/

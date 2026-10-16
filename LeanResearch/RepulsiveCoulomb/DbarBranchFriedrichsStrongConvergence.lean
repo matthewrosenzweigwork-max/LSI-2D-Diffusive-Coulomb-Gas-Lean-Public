@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchFriedrichsCoreCancellation
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchFriedrichsCoreCancellation
+
+@[expose] public section
 
 /-! Strong convergence of the actual first-order Friedrichs kernel on every
 Lebesgue-L2 input. It follows from proved compact-core cancellation, actual

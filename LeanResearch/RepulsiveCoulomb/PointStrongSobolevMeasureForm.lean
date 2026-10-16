@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointWeakSobolevMeasureForm
-import LeanResearch.RepulsiveCoulomb.SmoothStrongMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeakSobolevMeasureForm
+public import LeanResearch.RepulsiveCoulomb.SmoothStrongMean
+
+@[expose] public section
 
 /-! Complete actual mean-centered strong Sobolev upgrade on the raw weighted
 ball, conditional on uniform weak Poincare for all C1 observables. -/

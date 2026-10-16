@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterCylinderGeometry
-import LeanResearch.RepulsiveCoulomb.CoulombCenterTensorCore
-import LeanResearch.RepulsiveCoulomb.CoulombBoundedSmoothDomain
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterCylinderGeometry
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterTensorCore
+public import LeanResearch.RepulsiveCoulomb.CoulombBoundedSmoothDomain
+
+@[expose] public section
 
 /-! Genuine factor-cylinder tests inside the original full physical form.
 The lifts are constructed by bounded-smooth approximation, with exact entropy

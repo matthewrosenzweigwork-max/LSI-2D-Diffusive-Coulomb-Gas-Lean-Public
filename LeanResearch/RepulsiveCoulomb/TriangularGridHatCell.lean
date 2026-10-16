@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridHatSectors
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridHatSectors
+
+@[expose] public section
 
 /-! Exact barycentric hat values on both triangles of the reference unit cell. -/
 noncomputable section

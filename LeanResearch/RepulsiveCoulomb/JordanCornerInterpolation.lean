@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
-import Mathlib.Analysis.Complex.Convex
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+public import Mathlib.Analysis.Complex.Convex
+
+@[expose] public section
 
 /-! The exact turn of the actual linear interpolation of two noncuspidal
 one-sided tangent vectors. This supplies the local corner calculation in the

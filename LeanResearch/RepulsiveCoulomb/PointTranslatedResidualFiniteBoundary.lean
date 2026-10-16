@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualTranslatedStripIteration
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorFiniteBoundaryCoverClassical
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualTranslatedStripIteration
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorFiniteBoundaryCoverClassical
+
+@[expose] public section
 
 /-! SOURCE-ONLY MAXIMAL-WIDTH ADAPTER. The actual translated residual has a
 finite genuine minimizing-piece boundary cover. This uses the cut's constructed

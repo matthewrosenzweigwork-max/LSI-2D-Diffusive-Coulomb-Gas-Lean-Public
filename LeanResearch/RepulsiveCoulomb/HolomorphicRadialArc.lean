@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRegularPowerConeChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRegularPowerConeChart
+
+@[expose] public section
 
 /-! Ordinary smooth regular arcs obtained by taking a straight radial segment
 through a biholomorphic chart. This concerns Euclidean parametrization, including

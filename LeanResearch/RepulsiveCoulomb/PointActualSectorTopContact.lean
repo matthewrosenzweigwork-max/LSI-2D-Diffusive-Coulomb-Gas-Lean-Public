@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualFirstSectorData
-import LeanResearch.RepulsiveCoulomb.PointRegularOpenEdgeContinuation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualFirstSectorData
+public import LeanResearch.RepulsiveCoulomb.PointRegularOpenEdgeContinuation
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Identify first actual top-edge contact with
 the closest finite-minimum marked endpoint. The completed top edge is never

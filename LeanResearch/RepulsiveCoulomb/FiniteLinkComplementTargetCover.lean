@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FiniteLinkComplementRefinement
-import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentAngles
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteLinkComplementRefinement
+public import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentAngles
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The dependent finite index of coarse cells and
 local subdivisions already carries the required order. Construct refined

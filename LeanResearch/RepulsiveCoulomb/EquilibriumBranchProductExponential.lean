@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductDensity
-import Mathlib.Analysis.Convex.Jensen
-import Mathlib.Analysis.Convex.SpecificFunctions.Basic
-import Mathlib.MeasureTheory.Function.L2Space
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductDensity
+public import Mathlib.Analysis.Convex.Jensen
+public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+public import Mathlib.MeasureTheory.Function.L2Space
+
+@[expose] public section
 
 /-! Actual exponential averages on finite probability products and the
 nonnegative Cauchy--Schwarz estimate used in the Gibbs defect moment.

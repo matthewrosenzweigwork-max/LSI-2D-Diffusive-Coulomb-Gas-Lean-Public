@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreCutoffMass
-import LeanResearch.RepulsiveCoulomb.GaussianSPIRate
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreCutoffMass
+public import LeanResearch.RepulsiveCoulomb.GaussianSPIRate
+
+@[expose] public section
 
 /-! Configuration-uniform Gaussian-rate super-Poincare on the actual original core. -/
 noncomputable section

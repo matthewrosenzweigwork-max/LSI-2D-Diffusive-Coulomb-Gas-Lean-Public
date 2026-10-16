@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanCollarDeletion
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.StripLocal
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolygonalJordan
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanCollarDeletion
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.StripLocal
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolygonalJordan
+
+@[expose] public section
 
 /-! The actual prescribed-neighborhood polygon collar has one connected exterior
 side. Consequently removing a filled polygon preserves connectedness of an open

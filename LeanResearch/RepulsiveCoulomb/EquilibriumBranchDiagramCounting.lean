@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDiagramDegrees
-import Mathlib.Data.Finset.Powerset
-import Mathlib.Data.Nat.Choose.Bounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDiagramDegrees
+public import Mathlib.Data.Finset.Powerset
+public import Mathlib.Data.Nat.Choose.Bounds
+
+@[expose] public section
 
 /-! Explicit finite counting of ordered edge lists by their active particle
 labels. Repetitions are retained. Lists with a fixed active set inject into

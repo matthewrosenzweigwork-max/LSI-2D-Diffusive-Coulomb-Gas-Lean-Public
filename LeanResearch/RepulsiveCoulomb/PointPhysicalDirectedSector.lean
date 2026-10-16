@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteCornerTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCornerTurn
+
+@[expose] public section
 
 /-! Identify the full directed sector from the ACTUAL physical outward
 tangents. Positive, possibly unequal endpoint speeds cancel. This transports

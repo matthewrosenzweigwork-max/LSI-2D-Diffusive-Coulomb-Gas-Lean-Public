@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.RawPointDoubleOscillationScaling
-import LeanResearch.RepulsiveCoulomb.RawPointGradientScaling
-import LeanResearch.RepulsiveCoulomb.TriangularGridDoubleOscillation
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointDoubleOscillationScaling
+public import LeanResearch.RepulsiveCoulomb.RawPointGradientScaling
+public import LeanResearch.RepulsiveCoulomb.TriangularGridDoubleOscillation
+
+@[expose] public section
 
 /-! Actual mesh-rescaled PL double oscillation on any positive physical scale.
 The only mesh condition is16h<=R, which vanishes in the fine-mesh limit. -/

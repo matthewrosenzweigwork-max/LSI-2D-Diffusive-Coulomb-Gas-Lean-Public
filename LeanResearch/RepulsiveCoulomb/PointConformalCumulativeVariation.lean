@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricCumulativeVariation
-import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzLength
-import LeanResearch.RepulsiveCoulomb.PointConformalIntrinsicLength
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricCumulativeVariation
+public import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzLength
+public import LeanResearch.RepulsiveCoulomb.PointConformalIntrinsicLength
+
+@[expose] public section
 
 /-! Actual scalar cumulative variation for the finite-point conformal metric.
 Every Euclidean Lipschitz curve is also Lipschitz in this metric on its compact

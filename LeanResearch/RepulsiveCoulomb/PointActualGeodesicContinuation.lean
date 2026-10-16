@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointActualBigonExclusion
-import LeanResearch.RepulsiveCoulomb.PointActualTriangleExclusion
-import LeanResearch.RepulsiveCoulomb.PointPrescribedLineObstruction
-import LeanResearch.RepulsiveCoulomb.PointLocalGeodesicObstruction
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualBigonExclusion
+public import LeanResearch.RepulsiveCoulomb.PointActualTriangleExclusion
+public import LeanResearch.RepulsiveCoulomb.PointPrescribedLineObstruction
+public import LeanResearch.RepulsiveCoulomb.PointLocalGeodesicObstruction
+
+@[expose] public section
 
 /-! Eliminate the actual Jordan obstructions to local-to-global minimizing
 continuation. Every literal prescribed segment extends to an actual proper

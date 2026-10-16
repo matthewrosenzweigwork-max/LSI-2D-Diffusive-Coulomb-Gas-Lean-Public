@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FiniteRefinedWedgeOverlap
-import LeanResearch.RepulsiveCoulomb.PointConstructedRefinedAngles
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteRefinedWedgeOverlap
+public import LeanResearch.RepulsiveCoulomb.PointConstructedRefinedAngles
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Instantiate two-sided cyclic seam compatibility
 and distinct-cell overlap classification on the actual complement refinement.

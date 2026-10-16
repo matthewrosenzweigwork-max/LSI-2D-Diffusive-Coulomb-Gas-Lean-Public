@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointActualBalancedLine
-import LeanResearch.RepulsiveCoulomb.PointZeroExponentGeometry
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualBalancedLine
+public import LeanResearch.RepulsiveCoulomb.PointZeroExponentGeometry
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Join the actual positive-mass balanced
 line construction with the literal Euclidean zero-mass branch, without any

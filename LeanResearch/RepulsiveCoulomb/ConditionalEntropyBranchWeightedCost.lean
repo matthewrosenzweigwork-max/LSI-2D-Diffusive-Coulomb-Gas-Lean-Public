@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchDensityDisintegration
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchKernelIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchDensityDisintegration
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchKernelIntegral
+
+@[expose] public section
 
 /-!
 Outer-marginal weighting of actual conditional KL and its integral upper bound

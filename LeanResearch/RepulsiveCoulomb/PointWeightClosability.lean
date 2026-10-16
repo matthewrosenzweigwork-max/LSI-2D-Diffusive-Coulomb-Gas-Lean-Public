@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightLocalGraph
-import Mathlib.Topology.Compactness.Lindelof
-import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightLocalGraph
+public import Mathlib.Topology.Compactness.Lindelof
+public import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
+
+@[expose] public section
 
 /-! Closability of the actual weighted physical gradient on the full
 point-punctured smooth core. The local Haar result is passed to the whole

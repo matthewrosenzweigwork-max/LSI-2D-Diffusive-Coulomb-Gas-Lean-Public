@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ClassicalConeClosedHalfSector
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+module
+
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeClosedHalfSector
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+
+@[expose] public section
 
 /-! Construct actual inverse flat charts from genuine retained interval links.
 A boundary interval of physical width pi is flat even if the ambient cone is

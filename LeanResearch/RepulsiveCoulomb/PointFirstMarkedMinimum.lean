@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
-import Mathlib.Data.Finset.Max
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
+public import Mathlib.Data.Finset.Max
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY first marked direction and attained finite minimum.
 All edge and direction choices are constructed from the actual geometry.

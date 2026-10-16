@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCoordinateSplit
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCoordinateSplit
+
+@[expose] public section
 
 /-! Jointly measurable actual point measures and nonnegative integral formulae. -/
 noncomputable section

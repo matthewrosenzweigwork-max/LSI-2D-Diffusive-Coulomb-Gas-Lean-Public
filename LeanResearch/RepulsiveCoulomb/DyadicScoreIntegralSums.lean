@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DyadicScoreAnnuli
+module
+
+public import LeanResearch.RepulsiveCoulomb.DyadicScoreAnnuli
+
+@[expose] public section
 
 /-! Finite integral overlap bounds. Integrability is explicit at every
 real-valued integral comparison. -/

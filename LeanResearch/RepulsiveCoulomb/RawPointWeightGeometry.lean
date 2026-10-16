@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointConstantDomain
-import LeanResearch.RepulsiveCoulomb.PointWeightAnnularNormalization
-import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
-import Mathlib.MeasureTheory.Group.Integral
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConstantDomain
+public import LeanResearch.RepulsiveCoulomb.PointWeightAnnularNormalization
+public import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+public import Mathlib.MeasureTheory.Group.Integral
+
+@[expose] public section
 
 /-! Uniform local geometry of the raw product weight. This module starts with
 literal weights and elementary local bounds. It does not postulate a strong-A-infinity

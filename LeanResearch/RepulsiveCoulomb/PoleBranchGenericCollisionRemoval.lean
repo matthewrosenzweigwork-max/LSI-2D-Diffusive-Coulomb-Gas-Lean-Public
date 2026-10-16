@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchPairWeightedIntegrability
-import LeanResearch.RepulsiveCoulomb.PoleBranchGenericCollisionGeometry
-import LeanResearch.RepulsiveCoulomb.PoleBranchCauchyFamily
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchPairWeightedIntegrability
+public import LeanResearch.RepulsiveCoulomb.PoleBranchGenericCollisionGeometry
+public import LeanResearch.RepulsiveCoulomb.PoleBranchCauchyFamily
+
+@[expose] public section
 
 /-! Genuine local removal at a generic selected collision. The chart is the
 actual orthonormal relative coordinate, transported by the selected label

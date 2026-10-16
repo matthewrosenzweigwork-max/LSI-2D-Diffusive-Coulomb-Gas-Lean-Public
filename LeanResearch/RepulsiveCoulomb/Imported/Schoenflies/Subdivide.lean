@@ -1,10 +1,14 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SegmentCut
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SegmentOrder
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SegmentCut
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SegmentOrder
+
+@[expose] public section
 
 /-!
 # Subdividing a list of segments

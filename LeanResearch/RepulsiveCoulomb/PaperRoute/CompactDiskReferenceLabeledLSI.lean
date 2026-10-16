@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.DiskSpatialGibbsBounds
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LabeledEntropyFromExplicitMoments
-import LeanResearch.RepulsiveCoulomb.PaperRoute.CompactResolventLabeledPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.DiskSpatialGibbsBounds
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LabeledEntropyFromExplicitMoments
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.CompactResolventLabeledPoincare
+
+@[expose] public section
 
 /-! Additive compact-temperature assembly. The common defect is the
 literal supremum over the supplied reference family, not a convenient upper

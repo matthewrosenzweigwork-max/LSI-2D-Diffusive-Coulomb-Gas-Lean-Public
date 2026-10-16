@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCenteredError
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCenteredError
+
+@[expose] public section
 
 /-! Actual centered-error row moments for every positive integer order. Jensen
 controls the centering potentials and their mean; the four-term inequality

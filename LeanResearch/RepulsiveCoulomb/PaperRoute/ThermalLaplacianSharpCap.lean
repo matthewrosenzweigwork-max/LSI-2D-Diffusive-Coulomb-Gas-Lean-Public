@@ -1,11 +1,15 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalBoundedPoisson
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialELBootstrap
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalLaplacianMaximum
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchELTailBound
-import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
-import Mathlib.MeasureTheory.Measure.OpenPos
-import Mathlib.Analysis.Normed.Group.Bounded
-import Mathlib.Topology.Order.Compact
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalBoundedPoisson
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialELBootstrap
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalLaplacianMaximum
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchELTailBound
+public import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
+public import Mathlib.MeasureTheory.Measure.OpenPos
+public import Mathlib.Analysis.Normed.Group.Bounded
+public import Mathlib.Topology.Order.Compact
+
+@[expose] public section
 
 /-! The original Laplacian-at-maximum proof
 of the sharp density cap. Actual weak Poisson is upgraded to classical

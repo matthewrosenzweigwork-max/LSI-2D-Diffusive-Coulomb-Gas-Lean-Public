@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
-import Mathlib.Analysis.InnerProductSpace.Adjoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+
+@[expose] public section
 
 /-! Algebraic rank-one graph metric and its explicit inverse. This module does
 not identify a curvature operator, prove completeness, or assert any basic

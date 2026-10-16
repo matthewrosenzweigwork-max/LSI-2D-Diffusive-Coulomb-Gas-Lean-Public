@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanC1Joining
-import LeanResearch.RepulsiveCoulomb.JordanHolomorphicBezierArc
-import LeanResearch.RepulsiveCoulomb.JordanSymmetricCornerPatch
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanC1Joining
+public import LeanResearch.RepulsiveCoulomb.JordanHolomorphicBezierArc
+public import LeanResearch.RepulsiveCoulomb.JordanSymmetricCornerPatch
+
+@[expose] public section
 
 /-! Construct an actual global C¹ replacement across one radial chart corner.
 The collar functions are left unchanged outside the two equal-width cuts.

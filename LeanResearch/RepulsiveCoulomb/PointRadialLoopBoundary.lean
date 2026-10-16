@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
-import Mathlib.Topology.Order.ProjIcc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
+public import Mathlib.Topology.Order.ProjIcc
+
+@[expose] public section
 
 /-! The entire local boundary near a based simple loop corner is derived
 from the actual radial collars. Compactness excludes the rest of the loop.

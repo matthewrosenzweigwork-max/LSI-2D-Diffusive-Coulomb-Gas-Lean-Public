@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFullStripResidualWidths
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullStripResidualWidths
+
+@[expose] public section
 
 /-! Exact equality of signed coefficients as functions on the ambient plane.
 The old interior coefficient is -pi times the coalesced exponent; the boundary

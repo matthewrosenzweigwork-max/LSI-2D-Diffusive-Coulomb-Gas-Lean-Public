@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianMehlerRegularity
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianMehlerRegularity
+
+@[expose] public section
 
 /-! Differentiating the literal Mehler interpolation. Uniform domination is
 proved on every compact subinterval of (0,1), using the Gaussian first moment. -/

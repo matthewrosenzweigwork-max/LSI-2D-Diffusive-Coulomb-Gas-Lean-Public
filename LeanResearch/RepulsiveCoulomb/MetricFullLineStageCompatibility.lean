@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskAnchoredStageUniqueness
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskAnchoredStageUniqueness
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+
+@[expose] public section
 
 /-! NEW post-loss stage compatibility. Actual arclength alignment of one
 center halfdisk supplies the common two anchors. Local agreement and its

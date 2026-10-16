@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchProperMetricCutoff
-import Mathlib.Analysis.Calculus.ContDiff.Deriv
-import Mathlib.Analysis.Calculus.Deriv.Support
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchProperMetricCutoff
+public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+public import Mathlib.Analysis.Calculus.Deriv.Support
+
+@[expose] public section
 
 /-! Exact derivative and actual O(1/R) metric-dual bound for the proper
 cutoffs. This supplies the cutoff coefficient bound; it does not by itself

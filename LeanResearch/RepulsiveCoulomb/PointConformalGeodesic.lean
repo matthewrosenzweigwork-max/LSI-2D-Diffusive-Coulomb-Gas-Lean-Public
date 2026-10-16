@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MetricMidpointGeodesic
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricMidpointGeodesic
+
+@[expose] public section
 
 /-! Actual geodesics for every admissible point configuration. Completeness and
 midpoints are proved inputs, not hypotheses left to the caller. Continuity below

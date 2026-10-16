@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridWeightedGradientLimit
-import LeanResearch.RepulsiveCoulomb.DoubleOscillationFatou
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridWeightedGradientLimit
+public import LeanResearch.RepulsiveCoulomb.DoubleOscillationFatou
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-! Actual compact-C1 double oscillation, obtained from the constructed mesh
 approximations by Fatou and weighted physical-gradient dominated convergence. -/

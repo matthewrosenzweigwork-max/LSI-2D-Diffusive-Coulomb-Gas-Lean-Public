@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombLocalL2
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.W1p.Basic
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.TestFunctionLp
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombLocalL2
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.W1p.Basic
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.TestFunctionLp
+
+@[expose] public section
 
 /-! Literal value/real-Euclidean-gradient graph of the full collision-free
 smooth core. Tau Ceti supplies the Hilbert jet, not a weighted Haar relation. -/

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchBinaryKL
-import Mathlib.Probability.Kernel.Composition.RadonNikodym
-import Mathlib.Probability.Kernel.Composition.AbsolutelyContinuous
-import Mathlib.Probability.Kernel.MeasurableLIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchBinaryKL
+public import Mathlib.Probability.Kernel.Composition.RadonNikodym
+public import Mathlib.Probability.Kernel.Composition.AbsolutelyContinuous
+public import Mathlib.Probability.Kernel.MeasurableLIntegral
+
+@[expose] public section
 
 /-!
 The missing fiber-integral interface for conditional KL in countably generated

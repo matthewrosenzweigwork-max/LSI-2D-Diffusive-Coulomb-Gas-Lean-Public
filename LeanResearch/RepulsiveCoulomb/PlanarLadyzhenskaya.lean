@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.WeightedPointNormalization
-import Mathlib.Analysis.FunctionalSpaces.SobolevInequality
-import Mathlib.Analysis.Calculus.Gradient.Basic
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedPointNormalization
+public import Mathlib.Analysis.FunctionalSpaces.SobolevInequality
+public import Mathlib.Analysis.Calculus.Gradient.Basic
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+
+@[expose] public section
 
 /-! The planar Ladyzhenskaya inequality (manuscript Lemma 3.5).
 We apply the endpoint Sobolev inequality to the square, use its actual

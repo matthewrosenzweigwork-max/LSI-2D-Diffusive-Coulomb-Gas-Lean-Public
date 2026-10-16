@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanArgumentHomotopy
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanArgumentHomotopy
+
+@[expose] public section
 
 /-! Actual argument increments are preserved by the endpoint-fixed local
 corner homotopies, even though the corner arcs themselves are not closed.

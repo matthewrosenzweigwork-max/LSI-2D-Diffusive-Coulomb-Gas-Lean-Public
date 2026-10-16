@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativePositiveEntropy
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativePositiveEntropy
+
+@[expose] public section
 
 /-! The native full-relative-domain optimum is finite for every N≥2, proved
 using the actual positive-entropy core witness. The REAL supremum is only used

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FullStripResidualSource
+module
+
+public import LeanResearch.RepulsiveCoulomb.FullStripResidualSource
+
+@[expose] public section
 
 /-! Literal cut topology. The hypotheses in the intermediate theorem concern
 ordinary local openness and connectedness; the point-metric endpoint constructs

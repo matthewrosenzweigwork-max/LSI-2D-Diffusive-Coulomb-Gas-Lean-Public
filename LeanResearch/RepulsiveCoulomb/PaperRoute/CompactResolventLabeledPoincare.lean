@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalLabeledPoincare
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ResolventLabeledPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalLabeledPoincare
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ResolventLabeledPoincare
+
+@[expose] public section
 
 /-! Additive compact-temperature application of the freshly proved
 resolvent-fed symmetric endpoint. No new constants and no coefficient change. -/

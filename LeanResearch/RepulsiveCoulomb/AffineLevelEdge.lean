@@ -1,6 +1,10 @@
-import Mathlib.Analysis.Convex.Segment
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.Convex.Segment
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Literal contour points on an affine edge, determined only by endpoint values.
 This makes shared-edge consistency independent of the adjacent triangle formula. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchNamedRelativeConditionals
-import LeanResearch.RepulsiveCoulomb.CoulombFirstSwapBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchNamedRelativeConditionals
+public import LeanResearch.RepulsiveCoulomb.CoulombFirstSwapBound
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED. Constant-preserving conditional and first-pair
 swap transport. P is supplied, never reselected. The factors are exactly 4 and 1/2. -/

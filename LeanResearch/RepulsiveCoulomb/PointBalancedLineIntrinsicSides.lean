@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualBalancedLineAllMasses
-import LeanResearch.RepulsiveCoulomb.PointClosedRegionIntrinsicMetric
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualBalancedLineAllMasses
+public import LeanResearch.RepulsiveCoulomb.PointClosedRegionIntrinsicMetric
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Match the already constructed fixed
 balanced sides to the genuine intrinsic side construction, allowing exactly

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianLocalGeometry
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolev
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianLocalGeometry
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolev
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. The actual new generic doubling/weak-PI
 producer supplies the raw Sobolev input used by the Gaussian transfer.

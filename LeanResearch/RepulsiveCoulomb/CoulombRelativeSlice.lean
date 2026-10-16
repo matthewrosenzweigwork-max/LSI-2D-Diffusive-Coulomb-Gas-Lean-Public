@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPairRotation
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPairRotation
+
+@[expose] public section
 
 /-! Exact center-frozen relative slice and its physical gradient. -/
 noncomputable section

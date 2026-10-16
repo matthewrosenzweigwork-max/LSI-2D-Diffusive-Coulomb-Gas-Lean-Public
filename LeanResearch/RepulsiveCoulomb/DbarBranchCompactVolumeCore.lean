@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactKernelRepresentation
-import LeanResearch.RepulsiveCoulomb.DbarBranchTranslationMultiplier
-import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
-import Mathlib.Analysis.Calculus.MeanValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactKernelRepresentation
+public import LeanResearch.RepulsiveCoulomb.DbarBranchTranslationMultiplier
+public import Mathlib.Analysis.InnerProductSpace.Projection.Submodule
+public import Mathlib.Analysis.Calculus.MeanValue
+
+@[expose] public section
 
 /-! The actual compact smooth core in global Lebesgue L2, with directional
 derivatives, products and density. This core will test the first-order

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointMeasureParametric
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMeasureParametric
+
+@[expose] public section
 
 /-! Actual Tonelli factorization of the unnormalized full labeled density. -/
 noncomputable section

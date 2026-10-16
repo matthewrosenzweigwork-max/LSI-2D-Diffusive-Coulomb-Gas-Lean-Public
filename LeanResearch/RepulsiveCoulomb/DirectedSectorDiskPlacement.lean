@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DirectedSectorPlacement
+module
+
+public import LeanResearch.RepulsiveCoulomb.DirectedSectorPlacement
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The ordered target wedge is exactly the image
 of the literal new sector disk under its explicit Euclidean placement. Both

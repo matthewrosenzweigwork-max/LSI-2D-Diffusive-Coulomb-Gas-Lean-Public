@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridAffineLevels
-import LeanResearch.RepulsiveCoulomb.TriangularGridIndependence
-import LeanResearch.RepulsiveCoulomb.AffineTriangleNondegenerate
-import LeanResearch.RepulsiveCoulomb.FiniteSegmentUnion
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridAffineLevels
+public import LeanResearch.RepulsiveCoulomb.TriangularGridIndependence
+public import LeanResearch.RepulsiveCoulomb.AffineTriangleNondegenerate
+public import LeanResearch.RepulsiveCoulomb.FiniteSegmentUnion
+
+@[expose] public section
 
 /-! Actual finite nondegenerate segment representation of every grid-interpolant
 level outside its finite exceptional value set. Loops/incidence are not assumed. -/

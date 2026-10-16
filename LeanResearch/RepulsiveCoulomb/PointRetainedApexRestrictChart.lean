@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY, NOT COMPILED. Restrict an existing WHOLE retained chart to a
 smaller positive closed metric disk, preserving its entire ordered interval. -/

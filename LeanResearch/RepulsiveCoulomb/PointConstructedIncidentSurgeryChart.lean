@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteSurgeryIncidentData
-import LeanResearch.RepulsiveCoulomb.PointOccupiedBranchProvenance
-import LeanResearch.RepulsiveCoulomb.PointRefinedComplementBranch
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteSurgeryIncidentData
+public import LeanResearch.RepulsiveCoulomb.PointOccupiedBranchProvenance
+public import LeanResearch.RepulsiveCoulomb.PointRefinedComplementBranch
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual finite incident chart construction:
 choose paired source models, derive cyclic order and physical angle balance,

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FiniteLinkEndpointSubdivision
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteLinkEndpointSubdivision
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Construct a finite subdivision into physical
 angles at most pi. This is necessary even for an unchanged complement gap:

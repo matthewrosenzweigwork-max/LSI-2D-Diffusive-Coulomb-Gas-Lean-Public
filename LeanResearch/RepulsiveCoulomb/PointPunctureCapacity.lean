@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCutoffBump
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCutoffBump
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+
+@[expose] public section
 
 /-! Configuration-dependent point-puncture estimates for the literal normalized
 weighted planar Gaussian. No separation is assumed. A selected positive exponent

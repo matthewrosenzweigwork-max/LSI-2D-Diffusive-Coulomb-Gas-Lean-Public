@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkBoundaryFullness
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexInitialEntry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkBoundaryFullness
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexInitialEntry
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Equality of the supplied sector width with the
 actual full old angle implies LITERAL local filling, using only ONE old-boundary

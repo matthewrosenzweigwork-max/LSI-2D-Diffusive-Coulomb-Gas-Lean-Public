@@ -1,10 +1,14 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedCoercivity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussianObjective
-import Mathlib.MeasureTheory.Measure.Prokhorov
-import Mathlib.MeasureTheory.Measure.LevyProkhorovMetric
-import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
-import Mathlib.Topology.Order.IsLUB
-import Mathlib.Topology.Instances.EReal.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedCoercivity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussianObjective
+public import Mathlib.MeasureTheory.Measure.Prokhorov
+public import Mathlib.MeasureTheory.Measure.LevyProkhorovMetric
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+public import Mathlib.Topology.Order.IsLUB
+public import Mathlib.Topology.Instances.EReal.Lemmas
+
+@[expose] public section
 
 /-! Literal canonical minimizing sequences and their genuine moment compactness.
 The sole objective use is the finite Gaussian competitor and exact algebraic

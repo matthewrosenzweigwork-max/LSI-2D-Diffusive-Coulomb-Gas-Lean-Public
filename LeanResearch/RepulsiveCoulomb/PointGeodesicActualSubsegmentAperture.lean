@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicSubsegmentConservedLifts
-import LeanResearch.RepulsiveCoulomb.PointGeodesicExteriorRadialConvexity
-import LeanResearch.RepulsiveCoulomb.ComplexRadialPowerLiftDerivative
-import LeanResearch.RepulsiveCoulomb.ScalarRadialTurningTime
-import LeanResearch.RepulsiveCoulomb.ExteriorPhaseCosineAperture
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicSubsegmentConservedLifts
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicExteriorRadialConvexity
+public import LeanResearch.RepulsiveCoulomb.ComplexRadialPowerLiftDerivative
+public import LeanResearch.RepulsiveCoulomb.ScalarRadialTurningTime
+public import LeanResearch.RepulsiveCoulomb.ExteriorPhaseCosineAperture
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Actual minimizing segment to actual
 constructed subsegment aperture. All angle lifts, the radial turning time,

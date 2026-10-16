@@ -1,6 +1,10 @@
-import Mathlib.Analysis.Convex.Segment
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.Convex.Segment
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! A finite chain with step at most2 has a full-edge crossing prefix inside the
 exact doubled ball when R>=16. This is an intermediate unit-mesh statement. -/

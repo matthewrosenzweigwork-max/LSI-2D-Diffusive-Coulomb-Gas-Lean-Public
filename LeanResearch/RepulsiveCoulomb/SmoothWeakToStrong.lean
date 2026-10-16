@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DyadicMomentBound
-import LeanResearch.RepulsiveCoulomb.DyadicTruncationEnergy
-import LeanResearch.RepulsiveCoulomb.SmoothTruncationMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.DyadicMomentBound
+public import LeanResearch.RepulsiveCoulomb.DyadicTruncationEnergy
+public import LeanResearch.RepulsiveCoulomb.SmoothTruncationMean
+
+@[expose] public section
 
 /-! Actual smooth-truncation upgrade of a uniform mean-centered weak estimate
 for all C1 observables. Half support controls the means of the truncations;

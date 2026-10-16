@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombLabels
-import LeanResearch.RepulsiveCoulomb.PointFormDefectiveLSI
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombLabels
+public import LeanResearch.RepulsiveCoulomb.PointFormDefectiveLSI
+
+@[expose] public section
 
 /-!
 One single positive K is chosen before every particle number, frozen

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchUniformDefect
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchOneSiteWitness
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoreClosure
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchUniformDefect
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchOneSiteWitness
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoreClosure
+
+@[expose] public section
 
 /-!
 Source-level defective LSI from the actual conditional-entropy chain. The same

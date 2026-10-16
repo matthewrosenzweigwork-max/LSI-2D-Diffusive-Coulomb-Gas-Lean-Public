@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
-import Mathlib.LinearAlgebra.Matrix.Hermitian
-import Mathlib.LinearAlgebra.Matrix.Trace
-import Mathlib.Analysis.InnerProductSpace.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+public import Mathlib.LinearAlgebra.Matrix.Hermitian
+public import Mathlib.LinearAlgebra.Matrix.Trace
+public import Mathlib.Analysis.InnerProductSpace.Basic
+
+@[expose] public section
 
 /-! Exact index and conjugation conventions for the compact basic identity.
 The Frobenius square is an explicit sum of entry norms; it is not Mathlib's

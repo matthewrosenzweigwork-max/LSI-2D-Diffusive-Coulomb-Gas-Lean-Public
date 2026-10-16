@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricAlgebra
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricAlgebra
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+
+@[expose] public section
 
 /-! Explicit square-root factors for the rank-one graph metric. These are
 pointwise algebraic identities only; variable-coefficient L2 domains and their

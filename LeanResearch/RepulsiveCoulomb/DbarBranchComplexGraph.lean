@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchDenseDomain
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchDenseDomain
+
+@[expose] public section
 
 /-! Complex linearity of the actual maximal weak dbar graph. The underlying
 closed set is unchanged; only its proved scalar structure is upgraded. -/

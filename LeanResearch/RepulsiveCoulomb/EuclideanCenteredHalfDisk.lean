@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanSectorEdgeHalfDisk
-import LeanResearch.RepulsiveCoulomb.FlatLinkSectorDisk
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanSectorEdgeHalfDisk
+public import LeanResearch.RepulsiveCoulomb.FlatLinkSectorDisk
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. An actual rigid recentering of a closed halfdisk
 inside a closed sector. The range is proved to be exactly the intersection

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicRadialAverage
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicRadialAverage
+
+@[expose] public section
 
 /-! The exact regular-singular differential identity for the weighted radial
 average. It is proved by the fundamental theorem of calculus, not assumed. -/

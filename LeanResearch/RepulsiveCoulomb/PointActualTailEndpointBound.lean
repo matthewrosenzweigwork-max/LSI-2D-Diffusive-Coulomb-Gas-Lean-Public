@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointActualOutwardTailAngle
-import LeanResearch.RepulsiveCoulomb.ContinuousLastLevelCrossing
-import Mathlib.Topology.Order.DenselyOrdered
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualOutwardTailAngle
+public import LeanResearch.RepulsiveCoulomb.ContinuousLastLevelCrossing
+public import Mathlib.Topology.Order.DenselyOrdered
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Construct the last circle crossing on an
 actual minimizing segment and carry the uniform angular bound to its original

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedBackwardEnd
-import LeanResearch.RepulsiveCoulomb.PointTranslatedRowClock
-import LeanResearch.RepulsiveCoulomb.TranslatedRelativePatchHalfDisk
-import LeanResearch.RepulsiveCoulomb.PointParallelEdgeInterior
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedBackwardEnd
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedRowClock
+public import LeanResearch.RepulsiveCoulomb.TranslatedRelativePatchHalfDisk
+public import LeanResearch.RepulsiveCoulomb.PointParallelEdgeInterior
+
+@[expose] public section
 
 /-! SOURCE-ONLY ASSEMBLY. Actual finite translated rectangles have no old
 boundary return along their positive top row. The backward end, two easy-edge

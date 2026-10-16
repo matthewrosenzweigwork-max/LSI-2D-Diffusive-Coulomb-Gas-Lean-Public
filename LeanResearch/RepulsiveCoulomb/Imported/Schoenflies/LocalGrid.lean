@@ -1,10 +1,14 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SquareMeshFixed
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.TwoPaths
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SquareMeshFixed
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.TwoPaths
+
+@[expose] public section
 
 /-!
 # The local source grid, and the missing hypothesis of the anchored square mesh

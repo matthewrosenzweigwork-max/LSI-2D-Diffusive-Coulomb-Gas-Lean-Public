@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.RetainedSectorPassingHalfDisk
-import Mathlib.Topology.Maps.Proper.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.RetainedSectorPassingHalfDisk
+public import Mathlib.Topology.Maps.Proper.Basic
+
+@[expose] public section
 
 /-! SOURCE-ONLY, NOT COMPILED. Literal source closure, properness of a supplied
 sector isometry, and connectedness after removing its free ray. These are

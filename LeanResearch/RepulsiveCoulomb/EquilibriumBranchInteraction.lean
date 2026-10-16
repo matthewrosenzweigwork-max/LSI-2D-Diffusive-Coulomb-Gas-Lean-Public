@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPotential
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPotential
+
+@[expose] public section
 
 /-! Interaction integrability and quantitative energy bounds for actual
 bounded planar probability densities. These bounds retain the logarithmic

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointDisappearingSectorNoLaterContact
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingSectorNoLaterContact
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Exact sector contact from the independently
 constructed finite departure. Later contact is disproved by the actual cap

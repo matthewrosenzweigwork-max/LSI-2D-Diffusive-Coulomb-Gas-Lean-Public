@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
+module
+
+public import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
+
+@[expose] public section
 
 /-! Source-only, uncompiled. Literal completion of all widths below a finite
 positive h, using actual Cauchy completion rather than a maximum certificate. -/

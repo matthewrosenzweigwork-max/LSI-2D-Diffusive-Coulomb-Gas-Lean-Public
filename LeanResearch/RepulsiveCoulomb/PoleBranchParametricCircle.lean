@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchDerivativeBounds
-import Mathlib.Analysis.Calculus.FDeriv.Measurable
-import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
-import Mathlib.Topology.MetricSpace.Thickening
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchDerivativeBounds
+public import Mathlib.Analysis.Calculus.FDeriv.Measurable
+public import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
+public import Mathlib.Topology.MetricSpace.Thickening
+
+@[expose] public section
 
 /-! Holomorphic parameter dependence of circle integration, for the actual
 Frechet-holomorphic class. Compactness and the Schwarz derivative estimate

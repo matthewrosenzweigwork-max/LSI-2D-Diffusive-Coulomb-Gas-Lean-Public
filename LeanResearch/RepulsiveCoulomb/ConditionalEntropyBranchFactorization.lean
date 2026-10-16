@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombLower
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombLower
+
+@[expose] public section
 
 /-!
 Scalar variational assembly of the actual conditional-entropy inequality.

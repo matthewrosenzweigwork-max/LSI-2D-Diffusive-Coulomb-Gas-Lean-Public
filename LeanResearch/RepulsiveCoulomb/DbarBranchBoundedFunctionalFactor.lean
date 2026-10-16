@@ -1,5 +1,9 @@
-import Mathlib.Analysis.Normed.Module.HahnBanach
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import Mathlib.Analysis.Normed.Module.HahnBanach
+public import Mathlib.Analysis.Complex.Basic
+
+@[expose] public section
 
 /-! A bounded functional on the algebraic range of a linear map extends
 to its ambient normed space with the same bound. The application will supply

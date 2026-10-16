@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteGeodesicTree
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteGeodesicTree
+
+@[expose] public section
 
 /-! Actual geodesic subedges obtained by affine reparametrization of the original
 unit interval. These preserve the literal endpoint distance and parameter speed. -/

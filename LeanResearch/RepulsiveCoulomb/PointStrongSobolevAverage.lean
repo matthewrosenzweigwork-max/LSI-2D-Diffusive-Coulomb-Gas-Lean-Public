@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointStrongSobolev
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointStrongSobolev
+
+@[expose] public section
 
 /-! Literal weighted-average normalization for the strong moment inequality. -/
 noncomputable section

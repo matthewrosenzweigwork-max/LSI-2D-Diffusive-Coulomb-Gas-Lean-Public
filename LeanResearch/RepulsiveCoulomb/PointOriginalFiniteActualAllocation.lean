@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteActualPreparation
-import LeanResearch.RepulsiveCoulomb.PointOriginalActualCutPrefix
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteActualPreparation
+public import LeanResearch.RepulsiveCoulomb.PointOriginalActualCutPrefix
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Total finite actual allocation from the genuine
 original halfplane inputs. The existing honest prefix type and all its sector

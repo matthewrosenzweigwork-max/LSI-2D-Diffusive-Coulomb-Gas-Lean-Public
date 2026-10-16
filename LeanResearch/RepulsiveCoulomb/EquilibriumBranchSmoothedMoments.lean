@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSmoothedDensity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceCompactBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSmoothedDensity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceCompactBounds
+
+@[expose] public section
 
 /-! Circle smoothing preserves every real nonnegative polynomial moment of
 the actual thermal reference. The bound is (1+epsilon)^m times the original

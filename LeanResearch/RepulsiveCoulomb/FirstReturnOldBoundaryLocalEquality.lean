@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PlanarFirstReturnJordanCaps
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarFirstReturnJordanCaps
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+
+@[expose] public section
 
 /-! Source-only draft. A bounded first-return cap agrees with the literal old
 closed halfplane at every old-arc point away from the stopped ray. This is a

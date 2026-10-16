@@ -1,9 +1,13 @@
-import Mathlib.Analysis.Calculus.Rademacher
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.MeasureTheory.Function.LocallyIntegrable
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.WeakDeriv.Basic
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.Calculus.Rademacher
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.WeakDeriv.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! The independent generic ballwise-Lipschitz
 weak-derivative proof, extracted from PointMetricMapLocalSobolev. Its actual

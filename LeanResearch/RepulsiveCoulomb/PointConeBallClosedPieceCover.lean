@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointUnchangedConeSectorChart
-import LeanResearch.RepulsiveCoulomb.OrderedEuclideanWedgeCover
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUnchangedConeSectorChart
+public import LeanResearch.RepulsiveCoulomb.OrderedEuclideanWedgeCover
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The finite closed angular cover lives on an
 actual open old cone ball in the original plane. Its openness and whole-ball

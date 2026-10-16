@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalWeakLSC
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalWeakLSC
+
+@[expose] public section
 
 /-! Liminf control of the full logarithmic
 interaction, with the negative part proved finite through genuine P² control.

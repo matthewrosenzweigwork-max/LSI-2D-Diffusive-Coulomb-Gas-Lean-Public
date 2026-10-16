@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFormCenter
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFormCenter
+
+@[expose] public section
 
 /-! Literal ball-complement control and the scalar absorption step. -/
 noncomputable section

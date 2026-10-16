@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricMatrices
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricNorms
-import Mathlib.Analysis.Calculus.FDeriv.Measurable
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricMatrices
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricNorms
+public import Mathlib.Analysis.Calculus.FDeriv.Measurable
+
+@[expose] public section
 
 /-! The actual inverse square-root coefficients are measurable and bounded,
 including at points where the total derivative uses its standard default.

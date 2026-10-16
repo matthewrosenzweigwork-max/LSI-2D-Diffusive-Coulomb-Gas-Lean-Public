@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceErrorMoments
-import Mathlib.Analysis.Convex.Integral
-import Mathlib.Analysis.Convex.Mul
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceErrorMoments
+public import Mathlib.Analysis.Convex.Integral
+public import Mathlib.Analysis.Convex.Mul
+
+@[expose] public section
 
 /-! Actual Jensen/Fubini transfer of the checked planar error moments to the
 second circle average. The double error proxy equals g-P^2g only off the spatial

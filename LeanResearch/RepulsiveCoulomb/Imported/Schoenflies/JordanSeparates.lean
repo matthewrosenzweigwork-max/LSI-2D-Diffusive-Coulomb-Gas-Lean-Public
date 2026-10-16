@@ -1,14 +1,18 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.K33Land
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.OuterFace
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.TwoArcs
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SimpleArc
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SegmentCut
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SegmentOrder
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.K33Land
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.OuterFace
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.TwoArcs
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SimpleArc
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SegmentCut
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SegmentOrder
+
+@[expose] public section
 
 /-!
 # A Jordan curve separates the plane

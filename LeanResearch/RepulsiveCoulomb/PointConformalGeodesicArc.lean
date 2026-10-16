@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalGeodesic
-import LeanResearch.RepulsiveCoulomb.PointConformalJordan
-import Mathlib.Topology.Order.ProjIcc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalGeodesic
+public import LeanResearch.RepulsiveCoulomb.PointConformalJordan
+public import Mathlib.Topology.Order.ProjIcc
+
+@[expose] public section
 
 /-! Geodesics in the actual point metric give simple topological arcs. Two such
 arcs meeting only at their endpoints bound a Jordan region, without any polygonality

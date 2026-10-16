@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.FlatLinkCircularArcSubdivision
-import Mathlib.Order.Fin.Basic
-import Mathlib.Topology.Instances.Real.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.FlatLinkCircularArcSubdivision
+public import Mathlib.Order.Fin.Basic
+public import Mathlib.Topology.Instances.Real.Lemmas
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Construct the ordered target disk wedges from
 actual positive widths with their scalar total. The finite cover and closed

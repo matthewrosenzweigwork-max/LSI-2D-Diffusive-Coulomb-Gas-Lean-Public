@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogGreenCutoff
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogPotentialDecay
-import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogGreenCutoff
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogPotentialDecay
+public import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
+
+@[expose] public section
 
 /-! Expanding-cutoff Green identity for the literal logarithmic potential of a
 compact zero-mass source. Boundary errors are quantitatively estimated. -/

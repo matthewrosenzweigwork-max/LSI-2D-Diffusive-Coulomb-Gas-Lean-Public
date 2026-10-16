@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalAttainment
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveFiniteEnergy
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchUniformSetDensity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchMixtureDecrease
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalAttainment
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveFiniteEnergy
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchUniformSetDensity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchMixtureDecrease
+
+@[expose] public section
 
 /-! Actual positivity of an attained thermal minimizer. A genuine normalized
 finite-energy filling density is constructed in any positive-volume zero set;

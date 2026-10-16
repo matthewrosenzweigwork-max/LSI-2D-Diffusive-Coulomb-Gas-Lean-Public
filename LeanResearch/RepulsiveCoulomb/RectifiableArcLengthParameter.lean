@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzMetric
-import Mathlib.Topology.EMetricSpace.VariationOnFromTo
-import Mathlib.Topology.Order.IntermediateValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzMetric
+public import Mathlib.Topology.EMetricSpace.VariationOnFromTo
+public import Mathlib.Topology.Order.IntermediateValue
+
+@[expose] public section
 
 /-! Actual arclength factorization of every continuous Euclidean-rectifiable
 planar curve. The cumulative parameter is its Euclidean partition variation,

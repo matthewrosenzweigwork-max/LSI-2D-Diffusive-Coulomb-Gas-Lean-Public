@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointBoundedCornerRetainedChart
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnGermWidthIdentification
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointBoundedCornerRetainedChart
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnGermWidthIdentification
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Produce the ACTUAL raw initial direction and
 proper-old-end local germ required by the cap frontend from an actual isometric

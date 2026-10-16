@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ClassicalConeFlatArcRigidity
+module
+
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeFlatArcRigidity
+
+@[expose] public section
 
 /-! Isolated, uncompiled author draft. Full directed widths are recovered from
 actual equal-radius cone distances, using only LOCAL cosine injectivity. A

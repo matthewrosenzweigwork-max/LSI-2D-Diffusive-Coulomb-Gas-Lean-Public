@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGaussianCenterComparison
-import LeanResearch.RepulsiveCoulomb.PointStrongSobolevRoot
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGaussianCenterComparison
+public import LeanResearch.RepulsiveCoulomb.PointStrongSobolevRoot
+
+@[expose] public section
 
 /-! Gaussian local Sobolev transfer with explicit exponential-in-radius-square
 loss, conditional on the displayed raw weak Poincare input. -/

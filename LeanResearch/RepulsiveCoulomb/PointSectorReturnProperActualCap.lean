@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointProperOldEndBoundaryClock
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnProperFixedEndpoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointProperOldEndBoundaryClock
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnProperFixedEndpoint
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual Jordan cap and full initial angle
 with a proper (possibly broken) old-end selector. Only the old-end local germ

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicFixedDiskPenetration
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicFixedDiskPenetration
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. An explicit finite-configuration radius
 satisfies every quantitative visibility threshold. The final theorem chooses

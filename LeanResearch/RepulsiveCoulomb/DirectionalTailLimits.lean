@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.AffineAngularTailPotential
-import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
-import Mathlib.Topology.Algebra.Order.Field
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.AffineAngularTailPotential
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+public import Mathlib.Topology.Algebra.Order.Field
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Convert actual angular bounds to ordinary
 unit-direction bounds and pass them through actual convergent curve samples.

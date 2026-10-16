@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoreClosure
-import LeanResearch.RepulsiveCoulomb.CoulombFormCenter
-import LeanResearch.RepulsiveCoulomb.RothausTightening
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoreClosure
+public import LeanResearch.RepulsiveCoulomb.CoulombFormCenter
+public import LeanResearch.RepulsiveCoulomb.RothausTightening
+
+@[expose] public section
 
 /-! Records-only uncompiled full-form centering and Rothaus tightening.
 Public statements and proof bodies moved unchanged from the final assembly. -/

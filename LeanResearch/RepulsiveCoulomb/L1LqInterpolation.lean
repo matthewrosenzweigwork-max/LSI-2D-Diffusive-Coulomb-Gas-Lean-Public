@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.IntegralPowerInterpolation
-import LeanResearch.RepulsiveCoulomb.InterpolationYoung
+module
+
+public import LeanResearch.RepulsiveCoulomb.IntegralPowerInterpolation
+public import LeanResearch.RepulsiveCoulomb.InterpolationYoung
+
+@[expose] public section
 
 /-! L1--Lq interpolation in squared-norm form, and local energy absorption. -/
 noncomputable section

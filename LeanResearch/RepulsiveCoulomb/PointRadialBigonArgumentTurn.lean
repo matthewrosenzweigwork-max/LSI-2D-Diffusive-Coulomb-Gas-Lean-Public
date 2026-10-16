@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialPlaneArcArgumentTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialPlaneArcArgumentTurn
+
+@[expose] public section
 
 /-! Preserve the genuine source lists while constructing the simple plane
 cycle, and install the source-geodesic flux identity on every actual edge.

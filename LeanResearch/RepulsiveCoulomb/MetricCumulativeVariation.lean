@@ -1,5 +1,9 @@
-import Mathlib.Topology.EMetricSpace.VariationOnFromTo
-import Mathlib.Analysis.Calculus.Deriv.Slope
+module
+
+public import Mathlib.Topology.EMetricSpace.VariationOnFromTo
+public import Mathlib.Analysis.Calculus.Deriv.Slope
+
+@[expose] public section
 
 /-! Scalar cumulative variation of a Lipschitz metric-valued curve.  Its
 increments dominate metric displacement, and it has the same Lipschitz

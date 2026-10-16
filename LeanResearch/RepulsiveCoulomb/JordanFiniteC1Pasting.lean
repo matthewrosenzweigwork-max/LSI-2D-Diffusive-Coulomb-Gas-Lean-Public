@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanC1GlueGeometry
-import Mathlib.Analysis.Calculus.Deriv.Shift
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanC1GlueGeometry
+public import Mathlib.Analysis.Calculus.Deriv.Shift
+
+@[expose] public section
 
 /-! Actual finite equal-slot C¹ pasting. Starting with the first curve, each
 successor is glued at the next integer parameter. Literal endpoint values and

@@ -1,13 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.VertexSquares
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.CycleJordan
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolyLocal
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Polygonal
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Concatenate
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.VertexSquares
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.CycleJordan
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolyLocal
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Polygonal
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Concatenate
+
+@[expose] public section
 
 /-!
 # The polygonal redrawing of a finite plane graph

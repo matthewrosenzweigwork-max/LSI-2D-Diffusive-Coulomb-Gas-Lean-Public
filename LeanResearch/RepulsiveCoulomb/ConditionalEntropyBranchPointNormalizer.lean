@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightUniformTails
-import LeanResearch.RepulsiveCoulomb.PointMeasureParametric
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogKernel
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightUniformTails
+public import LeanResearch.RepulsiveCoulomb.PointMeasureParametric
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogKernel
+
+@[expose] public section
 
 /-!
 Actual logarithmic normalizer control from the checked point-weight bounds.

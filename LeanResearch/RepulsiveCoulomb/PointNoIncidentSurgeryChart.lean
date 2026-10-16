@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointNoIncidentBudgetFlatness
-import LeanResearch.RepulsiveCoulomb.PointFiniteSurgeryIncidentData
-import LeanResearch.RepulsiveCoulomb.PointConeBallClosedPieceCover
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointNoIncidentBudgetFlatness
+public import LeanResearch.RepulsiveCoulomb.PointFiniteSurgeryIncidentData
+public import LeanResearch.RepulsiveCoulomb.PointConeBallClosedPieceCover
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Genuine unchanged open disk charts at points
 incident to no allocated sector. Budget exhaustion proves zero curvature;

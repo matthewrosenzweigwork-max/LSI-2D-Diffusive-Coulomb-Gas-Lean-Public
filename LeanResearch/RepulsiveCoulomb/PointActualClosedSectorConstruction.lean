@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointActualUnboundedWindow
-import LeanResearch.RepulsiveCoulomb.EuclideanSectorWindowExhaustion
-import LeanResearch.RepulsiveCoulomb.PointRetainedConvexFlatEmbedding
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualUnboundedWindow
+public import LeanResearch.RepulsiveCoulomb.EuclideanSectorWindowExhaustion
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConvexFlatEmbedding
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Construct the actual entire closed sector by
 nested angular exhaustion and complete-target metric extension. Neither an

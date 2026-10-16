@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourPlanarCarrier
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourPlanarCarrier
+
+@[expose] public section
 
 /-! Exact physical component carriers, covering the whole contour and disjoint
 for distinct graph components. -/

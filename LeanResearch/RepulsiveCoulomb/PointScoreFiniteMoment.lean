@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreAnnularUniformBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreAnnularUniformBound
+
+@[expose] public section
 
 /-! Finite dyadic summation and absorption with explicit analytic premises.
 The next core application must discharge every integrability/support premise. -/

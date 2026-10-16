@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedErrorIdentity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedErrorIdentity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+
+@[expose] public section
 
 /-! Exact scale and event algebra for the Nelson partition tail. The radius
 exp(-s/T) and the factor 1/2 in the regularized lower bound are retained. This

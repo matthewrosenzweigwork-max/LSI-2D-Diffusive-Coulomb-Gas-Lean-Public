@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFiniteCutoff
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFiniteCutoff
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter

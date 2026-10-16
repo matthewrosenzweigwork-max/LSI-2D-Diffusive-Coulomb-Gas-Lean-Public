@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombOneSiteDisintegration
-import Mathlib.Probability.Kernel.Defs
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombOneSiteDisintegration
+public import Mathlib.Probability.Kernel.Defs
+
+@[expose] public section
 
 /-! Actual measurable probability kernel for the first coordinate, with
 configuration- and particle-number-uniform full-domain PI/LSI. -/

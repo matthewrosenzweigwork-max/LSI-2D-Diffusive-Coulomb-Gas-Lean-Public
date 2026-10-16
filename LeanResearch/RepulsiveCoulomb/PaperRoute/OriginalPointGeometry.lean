@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.MapBackedDavidSemmes
-import LeanResearch.RepulsiveCoulomb.PaperRoute.PointInverseLocalRegularity
-import LeanResearch.RepulsiveCoulomb.PointOriginalSharpBonkLang
-import LeanResearch.RepulsiveCoulomb.PointMetricMapDifferential
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.MapBackedDavidSemmes
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.PointInverseLocalRegularity
+public import LeanResearch.RepulsiveCoulomb.PointOriginalSharpBonkLang
+public import LeanResearch.RepulsiveCoulomb.PointMetricMapDifferential
+
+@[expose] public section
 
 /-!
 # Original finite point configurations through the same-map paper route

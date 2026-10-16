@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.RetainedSectorPassingHalfDisk
-import LeanResearch.RepulsiveCoulomb.PointFlatHalfDiskEdgeOccupancy
-import LeanResearch.RepulsiveCoulomb.PointPassingEdgeComplementChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.RetainedSectorPassingHalfDisk
+public import LeanResearch.RepulsiveCoulomb.PointFlatHalfDiskEdgeOccupancy
+public import LeanResearch.RepulsiveCoulomb.PointPassingEdgeComplementChart
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, NOT COMPILED. Construct the new retained chart at EVERY nonapex

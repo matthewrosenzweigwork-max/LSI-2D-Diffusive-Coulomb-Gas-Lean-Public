@@ -1,13 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Concatenate
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Polygonal
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Bounded
-import Mathlib.Topology.Homeomorph.Lemmas
-import Mathlib.Topology.Maps.Basic
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Concatenate
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Polygonal
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Bounded
+public import Mathlib.Topology.Homeomorph.Lemmas
+public import Mathlib.Topology.Maps.Basic
+
+@[expose] public section
 
 /-!
 # The model curve, and the parametrization of a Jordan curve by it

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombSliceGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombSliceGeometry
+
+@[expose] public section
 
 /-! Actual orthonormal center/relative coordinate rotation. -/
 noncomputable section

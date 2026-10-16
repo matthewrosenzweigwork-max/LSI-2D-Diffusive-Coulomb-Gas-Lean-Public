@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.CylindricalTraceLabeledPoincare
-import LeanResearch.RepulsiveCoulomb.PaperRoute.CollisionLaplacianCalculus
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.CylindricalTraceLabeledPoincare
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.CollisionLaplacianCalculus
+
+@[expose] public section
 
 /-! Additive original-paper producer. Full-space cylindrical logarithmic fundamental solution.
 Normal planar delta production, tangential compact IBP and justified Fubini

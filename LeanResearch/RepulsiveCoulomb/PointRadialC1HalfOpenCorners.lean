@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1BigonSimplicity
-import LeanResearch.RepulsiveCoulomb.PointRadialGermNoncuspidality
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1BigonSimplicity
+public import LeanResearch.RepulsiveCoulomb.PointRadialGermNoncuspidality
+
+@[expose] public section
 
 /-! Actual half-open simplicity suffices for noncuspidality at every cyclic
 join, including a two-edge loop whose full closed arcs share two endpoints. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.CollisionNormalLabeledPoincare
-import Mathlib.Analysis.InnerProductSpace.Laplacian
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.CollisionNormalLabeledPoincare
+public import Mathlib.Analysis.InnerProductSpace.Laplacian
+
+@[expose] public section
 
 /-! Additive original-paper producer. The literal physical Laplacian splits into the two real
 normal directions and the remaining tangential Euclidean directions. -/

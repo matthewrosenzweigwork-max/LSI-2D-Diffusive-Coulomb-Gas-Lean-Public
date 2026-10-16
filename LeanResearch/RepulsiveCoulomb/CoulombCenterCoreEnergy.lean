@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeCore
-import LeanResearch.RepulsiveCoulomb.CoulombCutoffEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeCore
+public import LeanResearch.RepulsiveCoulomb.CoulombCutoffEnergy
+
+@[expose] public section
 
 /-! Fubini and integrability for the actual two parts of a physical core
 energy. Every signed integral used in tensorization is justified here. -/

@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.FiniteTransfer
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.InitialPairFixed
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.BoundaryContinuity2
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.FiniteTransfer
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.InitialPairFixed
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.BoundaryContinuity2
+
+@[expose] public section
 
 /-!
 # Stage 0: the initial pair as a `GeneratedPair`

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyLower
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyLower
+
+@[expose] public section
 
 /-! Explicit manuscript free-energy coercivity on bounded finite-energy
 probability densities. Extended-energy weak compactness and attainment are

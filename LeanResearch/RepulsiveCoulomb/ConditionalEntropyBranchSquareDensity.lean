@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchDensityKL
-import LeanResearch.PeriodicAttractiveLogGas.Rothaus
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchDensityKL
+public import LeanResearch.PeriodicAttractiveLogGas.Rothaus
+
+@[expose] public section
 
 /-!
 Zero-safe normalized densities and the literal extended square entropy used

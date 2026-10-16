@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.RealLineNormDet
-import LeanResearch.RepulsiveCoulomb.Imported.ScalarCoarea.ScalarCoarea
-import LeanResearch.RepulsiveCoulomb.PointWeightedPathArea
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
+module
+
+public import LeanResearch.RepulsiveCoulomb.RealLineNormDet
+public import LeanResearch.RepulsiveCoulomb.Imported.ScalarCoarea.ScalarCoarea
+public import LeanResearch.RepulsiveCoulomb.PointWeightedPathArea
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+
+@[expose] public section
 
 /-! Exact weighted Hausdorff length of an injective regular C1 arc, using the
 approved lower-dimensional area formula and the proved one-dimensional Jacobian. -/

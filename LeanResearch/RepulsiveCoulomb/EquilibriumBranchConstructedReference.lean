@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalSharpCap
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalMoment
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalSharpCap
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalMoment
+
+@[expose] public section
 
 /-! Packaging only of properties already proved by the direct-method and
 variation chain. The reference is genuinely constructed for every beta>0;

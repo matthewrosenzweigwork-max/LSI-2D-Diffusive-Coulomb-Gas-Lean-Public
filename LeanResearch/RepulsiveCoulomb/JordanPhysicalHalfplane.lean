@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanCornerInterpolation
-import Mathlib.Analysis.Calculus.Deriv.MeanValue
-import Mathlib.Analysis.Calculus.Deriv.Comp
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanCornerInterpolation
+public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.Analysis.Calculus.Deriv.Comp
+
+@[expose] public section
 
 /-! Actual physical tangent half-planes. These lemmas do not identify the
 turn through a nonconformal chart with its coordinate turn. They construct

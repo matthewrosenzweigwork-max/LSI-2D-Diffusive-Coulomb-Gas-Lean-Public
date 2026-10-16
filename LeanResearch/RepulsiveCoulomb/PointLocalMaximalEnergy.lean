@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointDyadicEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDyadicEnergy
+
+@[expose] public section
 
 /-! A pointwise finite localized maximal energy for continuous inputs, and its
 actual control of the square-root averages in the Poincare chain. -/

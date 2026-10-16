@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FiniteLinkEndpointSubdivision
-import Mathlib.Order.Fin.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteLinkEndpointSubdivision
+public import Mathlib.Order.Fin.Basic
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Turn the explicitly sorted seam endpoints into
 an indexed partition with its actual first and last coordinates. Any whole

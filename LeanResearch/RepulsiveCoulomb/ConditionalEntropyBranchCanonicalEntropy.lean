@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCompetitorIntegrability
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchTilt
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchBinaryKL
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCanonicalSplitting
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCompetitorIntegrability
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchTilt
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchBinaryKL
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCanonicalSplitting
+
+@[expose] public section
 
 /-!
 Actual canonical/modulated entropy correspondence for finite-KL competitors.

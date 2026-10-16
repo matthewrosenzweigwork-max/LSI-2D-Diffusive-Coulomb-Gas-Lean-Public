@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConePowerGeodesic
-import Mathlib.Analysis.InnerProductSpace.Convex
-import Mathlib.Analysis.Convex.StrictConvexBetween
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConePowerGeodesic
+public import Mathlib.Analysis.InnerProductSpace.Convex
+public import Mathlib.Analysis.Convex.StrictConvexBetween
+
+@[expose] public section
 
 /-! Include the flat alpha=0 case in the exact cone geodesic power law. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchHolomorphicL2Uniform
-import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchHolomorphicL2Uniform
+public import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
+
+@[expose] public section
 
 /-! Identify a locally uniform function limit with the actual L2 limit by a
 proved almost-everywhere convergent subsequence. This step preserves the original

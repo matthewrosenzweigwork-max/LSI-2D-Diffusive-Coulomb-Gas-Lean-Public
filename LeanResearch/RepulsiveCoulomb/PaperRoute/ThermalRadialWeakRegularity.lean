@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalNewtonGradient
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalLipschitzWeakDerivative
-import Mathlib.Analysis.Normed.Operator.Bilinear
-import Mathlib.MeasureTheory.Function.LpSpace.Basic
-import Mathlib.Topology.MetricSpace.Holder
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalNewtonGradient
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalLipschitzWeakDerivative
+public import Mathlib.Analysis.Normed.Operator.Bilinear
+public import Mathlib.MeasureTheory.Function.LpSpace.Basic
+public import Mathlib.Topology.MetricSpace.Holder
+
+@[expose] public section
 
 /-! A genuine bounded-radial-potential regularity
 instance. The only inputs are a measurable nonnegative bounded P2 probability

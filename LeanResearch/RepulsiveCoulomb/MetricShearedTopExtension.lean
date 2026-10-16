@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ShearedTopPatchThickening
+module
+
+public import LeanResearch.RepulsiveCoulomb.ShearedTopPatchThickening
+
+@[expose] public section
 
 /-! NEW implementation after source loss. Actual supported local patches
 are glued and restricted to the genuinely enlarged rectangle interior. For

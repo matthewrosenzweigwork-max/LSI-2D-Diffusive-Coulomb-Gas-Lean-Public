@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.SmoothDyadicTruncation
-import LeanResearch.RepulsiveCoulomb.HalfSupportMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.SmoothDyadicTruncation
+public import LeanResearch.RepulsiveCoulomb.HalfSupportMean
+
+@[expose] public section
 
 /-! Smooth truncations are integrable and their actual means are controlled
 by a median half-support hypothesis. -/

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentCellAngleBalance
-import LeanResearch.RepulsiveCoulomb.FiniteLinkPhysicalSubdivision
-import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentCellAngleBalance
+public import LeanResearch.RepulsiveCoulomb.FiniteLinkPhysicalSubdivision
+public import Mathlib.Algebra.BigOperators.Group.Finset.Sigma
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Keep occupied cells whole and physically
 subdivide only complement cells. The refined widths remain positive and their

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchDiagrams
+module
+
+public import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchDiagrams
+
+@[expose] public section
 
 /-! Signed singleton cancellation under an actual finite product probability.
 Fubini is applied only with the absolute integrability proved in Diagrams.

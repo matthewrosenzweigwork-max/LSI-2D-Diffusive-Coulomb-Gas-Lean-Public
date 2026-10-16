@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalExteriorProfiles
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalExteriorProfiles
+
+@[expose] public section
 
 /-! Differentiating r*u'=-M produces the exact radial recurrence, then exterior
 potential-derivative bounds using only the lower density derivatives specified

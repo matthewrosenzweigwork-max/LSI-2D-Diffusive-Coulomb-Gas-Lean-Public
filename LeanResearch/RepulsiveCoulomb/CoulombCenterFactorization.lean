@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombHelmertCoordinates
-import LeanResearch.RepulsiveCoulomb.CoulombCenterFormTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombHelmertCoordinates
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterFormTransport
+
+@[expose] public section
 
 /-! Unconditional all-N measure factorization in the manuscript's explicit
 Helmert coordinates. This closes the measure/metric assertion of prop:com;

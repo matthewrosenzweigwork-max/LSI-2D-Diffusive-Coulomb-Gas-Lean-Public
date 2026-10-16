@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchWeightedCost
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchWeightedCost
+
+@[expose] public section
 
 /-! Two genuinely different factor spaces are allowed. Binary KL tensorization
 is proved from the exact chain rule and marginal data processing, including

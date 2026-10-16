@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
-import LeanResearch.RepulsiveCoulomb.MetricFlatDiskPatchExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
+public import LeanResearch.RepulsiveCoulomb.MetricFlatDiskPatchExtension
+
+@[expose] public section
 
 /-! Source-only, uncompiled. Genuine whole-ball charts imply actual local
 surjectivity of a strip image, including its bottom. This is derived by rigid

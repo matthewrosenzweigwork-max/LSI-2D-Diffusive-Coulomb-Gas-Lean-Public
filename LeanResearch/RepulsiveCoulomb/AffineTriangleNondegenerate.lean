@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.AffineTriangleRegularLevel
-import Mathlib.LinearAlgebra.AffineSpace.Independent
+module
+
+public import LeanResearch.RepulsiveCoulomb.AffineTriangleRegularLevel
+public import Mathlib.LinearAlgebra.AffineSpace.Independent
+
+@[expose] public section
 
 /-! The two contour endpoints of a genuine affine triangle are distinct. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricCompactFrontFlatExtension
-import LeanResearch.RepulsiveCoulomb.PointConvexFlatClosedEmbedding
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricCompactFrontFlatExtension
+public import LeanResearch.RepulsiveCoulomb.PointConvexFlatClosedEmbedding
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT, 2026-10-03.
 

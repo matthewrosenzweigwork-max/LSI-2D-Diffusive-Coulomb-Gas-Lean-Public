@@ -1,11 +1,15 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapFixedSideGerms
-import LeanResearch.RepulsiveCoulomb.PointChosenRadialMetricTransition
-import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleCorner
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Positivity
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapFixedSideGerms
+public import LeanResearch.RepulsiveCoulomb.PointChosenRadialMetricTransition
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleCorner
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Positivity
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. The actual two full fixed-side widths
 are at least pi. Equal-radius points on their two actual boundary rays lie on

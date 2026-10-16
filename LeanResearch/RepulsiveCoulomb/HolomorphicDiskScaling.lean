@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicDiskL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicDiskL2
+
+@[expose] public section
 
 /-! Actual planar scaling for the local holomorphic L2 evaluation estimate. -/
 noncomputable section

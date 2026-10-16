@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPolynomialGaussian
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPolynomialGaussian
+
+@[expose] public section
 
 /-! Exact reference-potential and normalization bounds for the actually
 constructed equilibrium. The sharp cap gives U<=1/2, and the exact second

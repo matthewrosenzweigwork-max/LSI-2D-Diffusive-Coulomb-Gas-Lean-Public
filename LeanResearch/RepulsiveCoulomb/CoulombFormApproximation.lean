@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombClosedForm
-import Mathlib.Topology.Sequences
-import Mathlib.Topology.MetricSpace.Antilipschitz
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombClosedForm
+public import Mathlib.Topology.Sequences
+public import Mathlib.Topology.MetricSpace.Antilipschitz
+
+@[expose] public section
 
 /-! Original-core approximation and the closed full physical-gradient graph.
 The product topology is used only for closedness; form energy is Euclidean. -/

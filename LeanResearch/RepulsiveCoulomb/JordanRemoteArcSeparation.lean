@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanDisjointCornerNeighborhoods
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanDisjointCornerNeighborhoods
+
+@[expose] public section
 
 /-! Actual compact separation of all nonlocal pieces from a chosen corner of
 a simple closed parametrized loop. Instantiating the finite neighborhood

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FiniteUnitaryAverage
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteUnitaryAverage
+
+@[expose] public section
 
 /-! Positive differences of orthogonal involutions and commuting cross terms. -/
 noncomputable section

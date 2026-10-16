@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY exact subsegment consistency. The curves compared here
 are the actual minimizing segments and literal clean-ray restrictions. -/

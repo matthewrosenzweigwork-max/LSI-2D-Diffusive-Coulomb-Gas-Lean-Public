@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCoreSlice
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCoreSlice
+
+@[expose] public section
 
 /-! Uniform conditional inequalities for the actual labeled smooth core.
 The energy is the first component of the full real Euclidean gradient. -/

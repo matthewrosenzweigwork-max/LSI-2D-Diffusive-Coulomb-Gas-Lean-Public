@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.HilbertTranspositionGap
-import LeanResearch.RepulsiveCoulomb.CoulombPairGradientSum
-import Mathlib.GroupTheory.Perm.Support
+module
+
+public import LeanResearch.RepulsiveCoulomb.HilbertTranspositionGap
+public import LeanResearch.RepulsiveCoulomb.CoulombPairGradientSum
+public import Mathlib.GroupTheory.Perm.Support
+
+@[expose] public section
 
 /-! Additive original-paper adapter. The finite transition matrix is the actual
 uniform ordered-pair transposition walk. It is related to the proved finite

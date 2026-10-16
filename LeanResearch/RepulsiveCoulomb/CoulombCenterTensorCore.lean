@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterCoreEnergy
-import LeanResearch.RepulsiveCoulomb.CoulombCenterTensorEntropy
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoreClosure
-import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalLSIRate
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterCoreEnergy
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterTensorEntropy
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoreClosure
+public import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalLSIRate
+
+@[expose] public section
 
 /-! Exact tensorization from the two literal factor-core inequalities to every
 member of the original closed many-particle form. The hypotheses are the two

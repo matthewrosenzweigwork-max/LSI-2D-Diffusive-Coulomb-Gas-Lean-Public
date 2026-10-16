@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.BoundaryPreparationRankDraft
-import Mathlib.Algebra.BigOperators.Finsupp.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.BoundaryPreparationRankDraft
+public import Mathlib.Algebra.BigOperators.Finsupp.Basic
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Narrow algebra after the ACTUAL geometry has
 identified the ambient Finsupp transfer. These lemmas assert no geometric move. -/

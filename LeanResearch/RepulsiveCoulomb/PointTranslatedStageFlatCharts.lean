@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedTopRowInterior
-import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedTopRowInterior
+public import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY ASSEMBLY. Derive every positive-height/positive-length chart
 of an actual finite translated stage from the original signed geometry.

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactIntegrationByParts
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalCoreMultiplier
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactIntegrationByParts
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalCoreMultiplier
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCore
+
+@[expose] public section
 
 /-! The actual weighted formal adjoint on compact complex tests. It is the
 literal -rho^{-1} partial(rho phi), with the normalized Coulomb density rho.

@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointAnchoredGeodesicWindows
-import LeanResearch.RepulsiveCoulomb.MetricCenteredClippedSegments
-import LeanResearch.RepulsiveCoulomb.PointGeodesicOrientedClock
-import Mathlib.Topology.Order.Compact
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointAnchoredGeodesicWindows
+public import LeanResearch.RepulsiveCoulomb.MetricCenteredClippedSegments
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicOrientedClock
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Construct an actual complete minimizing
 point-metric line from opposite-endpoint segments, retaining the actual segment

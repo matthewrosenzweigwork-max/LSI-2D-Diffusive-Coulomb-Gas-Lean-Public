@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointCircleCapArc
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorNormalization
-import LeanResearch.RepulsiveCoulomb.CircleTransverseCorner
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCircleCapArc
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorNormalization
+public import LeanResearch.RepulsiveCoulomb.CircleTransverseCorner
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Choose the literal counterclockwise arc from the
 positive crossing to the negative crossing. Its width is strictly between zero

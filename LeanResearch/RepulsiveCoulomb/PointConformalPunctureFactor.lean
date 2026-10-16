@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalFlatPrimitive
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalFlatPrimitive
+
+@[expose] public section
 
 /-! Exact local factorization at a merged puncture. Removing every exponent at
 one location leaves a smooth positive conformal density on a neighborhood of that

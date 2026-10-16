@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityMixture
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMixture
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityMixture
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMixture
+
+@[expose] public section
 
 /-! Exact canonical-normalized finite free-energy variation for disjoint
 probability densities. The entropy gain gives a strict decrease for an actual

@@ -1,13 +1,17 @@
-import LeanResearch.RepulsiveCoulomb.PointChosenSmoothRadialChart
-import LeanResearch.RepulsiveCoulomb.PointClassicalConeChart
-import LeanResearch.RepulsiveCoulomb.PointGeodesicOrientedClock
-import LeanResearch.RepulsiveCoulomb.PointLineFullIntervalWidth
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.FunProp
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Positivity
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointChosenSmoothRadialChart
+public import LeanResearch.RepulsiveCoulomb.PointClassicalConeChart
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicOrientedClock
+public import LeanResearch.RepulsiveCoulomb.PointLineFullIntervalWidth
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.FunProp
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Positivity
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Recover the metric information retained
 by the construction of the chosen smooth chart, then use THAT SAME chart to

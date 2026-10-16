@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalExteriorPotentialBounds
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPolynomialGaussian
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalExteriorPotentialBounds
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPolynomialGaussian
+
+@[expose] public section
 
 /-! The actual exterior real-profile induction. Lower q tails give finite sup bounds;
 NEW potential recurrence bounds the higher derivatives of r+u'; Leibniz applied

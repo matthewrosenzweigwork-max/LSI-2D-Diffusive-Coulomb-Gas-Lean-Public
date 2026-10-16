@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanArcArgumentHomotopy
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanArcArgumentHomotopy
+
+@[expose] public section
 
 /-! Exact argument bookkeeping across one actual endpoint-fixed corner
 replacement. The angle lifts on the homotopy's two end arcs are constructed;

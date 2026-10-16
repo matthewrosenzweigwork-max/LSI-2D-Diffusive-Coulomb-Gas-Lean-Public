@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCurvatureDuality
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelRegularity
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCurvatureDuality
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelRegularity
+
+@[expose] public section
 
 /-! Recover the original Euclidean weak graph from the curvature-weighted
 auxiliary solution, then use the actual original projection's minimality.

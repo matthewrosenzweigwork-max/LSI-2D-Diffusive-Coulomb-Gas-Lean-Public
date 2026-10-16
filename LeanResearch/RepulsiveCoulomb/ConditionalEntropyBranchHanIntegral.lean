@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchHanShearer
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchKernelIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchHanShearer
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchKernelIntegral
+
+@[expose] public section
 
 /-!
 Literal expected one-site conditional divergences and manuscript eq:han-shearer.

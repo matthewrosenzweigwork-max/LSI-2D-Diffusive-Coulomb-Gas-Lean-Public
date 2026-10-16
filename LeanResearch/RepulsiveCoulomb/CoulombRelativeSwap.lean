@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativePoincare
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeSymmetry
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativePoincare
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeSymmetry
+
+@[expose] public section
 
 /-! A genuine conditional swap estimate; no global spectral gap is assumed. -/
 noncomputable section

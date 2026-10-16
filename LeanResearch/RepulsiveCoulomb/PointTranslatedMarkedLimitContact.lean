@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointMarkedParallelEdgeInterior
-import LeanResearch.RepulsiveCoulomb.PointTranslatedContactAngle
-import LeanResearch.RepulsiveCoulomb.PointTranslatedBackwardEnd
-import LeanResearch.RepulsiveCoulomb.PointTranslatedRowClock
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMarkedParallelEdgeInterior
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedContactAngle
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedBackwardEnd
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedRowClock
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Exact old-boundary contact for the attained marked
 limit once strict residual-angle positivity has been separately established.

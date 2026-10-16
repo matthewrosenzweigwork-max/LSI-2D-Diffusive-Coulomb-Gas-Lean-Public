@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchVolumeTestPairing
-import LeanResearch.RepulsiveCoulomb.DbarBranchMollifierRepresentation
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchVolumeTestPairing
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMollifierRepresentation
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Actual Lebesgue-L2 convolution by an arbitrary smooth compact real
 kernel, including signed directional derivatives of mollifiers. -/

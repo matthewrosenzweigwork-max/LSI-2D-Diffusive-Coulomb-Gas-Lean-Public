@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapLocalSide
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapLocalSide
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Recenter the ORIGINAL metric line at each actual
 source point before constructing its full cone chart. The fixed global sides

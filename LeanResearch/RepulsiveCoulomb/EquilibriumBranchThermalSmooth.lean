@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRadialMassFormula
-import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRadialMassFormula
+public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+
+@[expose] public section
 
 /-! Global C1 and smoothness bootstrapping for the actual pointwise thermal
 EL density. Newton's derivative includes the origin, and the exact mass

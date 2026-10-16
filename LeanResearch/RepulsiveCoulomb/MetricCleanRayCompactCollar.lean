@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricRayHalfDiskPatchedUnion
-import LeanResearch.RepulsiveCoulomb.NormalRectangleSource
-import Mathlib.Topology.MetricSpace.Thickening
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRayHalfDiskPatchedUnion
+public import LeanResearch.RepulsiveCoulomb.NormalRectangleSource
+public import Mathlib.Topology.MetricSpace.Thickening
+
+@[expose] public section
 
 /-! NEW source-only implementation. Construct a genuine positive-width
 compact bottom collar from actual metric halfdisk charts. The width follows

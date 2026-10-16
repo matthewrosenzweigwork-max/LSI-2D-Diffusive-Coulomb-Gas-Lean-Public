@@ -1,10 +1,14 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
-import LeanResearch.RepulsiveCoulomb.CircleTransverseCorner
-import Mathlib.Analysis.Calculus.Deriv.MeanValue
-import Mathlib.Analysis.Normed.Group.Bounded
-import Mathlib.Topology.Order.IntermediateValue
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+public import LeanResearch.RepulsiveCoulomb.CircleTransverseCorner
+public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.Analysis.Normed.Group.Bounded
+public import Mathlib.Topology.Order.IntermediateValue
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Large-circle crossings are constructed from actual
 radial-component inequalities. No crossing, cap, or turning certificate is an

@@ -1,6 +1,10 @@
-import Mathlib.Algebra.Order.BigOperators.Group.Finset
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
-import Mathlib.Data.Finset.Card
+module
+
+public import Mathlib.Algebra.Order.BigOperators.Group.Finset
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.Data.Finset.Card
+
+@[expose] public section
 
 /-! The strict two-corner budget used at the final actual bigon exclusion.
 Physical vertex injectivity allows at most one exceptional corner at each

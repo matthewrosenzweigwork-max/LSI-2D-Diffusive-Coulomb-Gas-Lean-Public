@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnOrientedPoint
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnBothEndpointAngles
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnOrientedPoint
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnBothEndpointAngles
+
+@[expose] public section
 
 /-! Isolated, uncompiled actual frontend. The old boundary clock, actual Jordan
 cap, clean-ray carrier avoidance, all three radial germs, endpoint labeling,

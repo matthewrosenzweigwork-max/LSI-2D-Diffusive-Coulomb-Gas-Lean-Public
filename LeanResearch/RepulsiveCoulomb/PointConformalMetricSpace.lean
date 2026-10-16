@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalPathBarrier
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalPathBarrier
+
+@[expose] public section
 
 /-! A genuine finite metric structure built from the smooth-path conformal distance.
 This is deliberately not a global instance on the ambient complex plane: equality

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.WeightedArcLength
-import Mathlib.Analysis.Calculus.AddTorsor.AffineMap
-import Mathlib.Analysis.Calculus.Deriv.AffineMap
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedArcLength
+public import Mathlib.Analysis.Calculus.AddTorsor.AffineMap
+public import Mathlib.Analysis.Calculus.Deriv.AffineMap
+
+@[expose] public section
 
 /-! Literal weighted length of straight segments, including zero-length segments,
 and its exact relation to normalized Hausdorff length for nondegenerate edges. -/

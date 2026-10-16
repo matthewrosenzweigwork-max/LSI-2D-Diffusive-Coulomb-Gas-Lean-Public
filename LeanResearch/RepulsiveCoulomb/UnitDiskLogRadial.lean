@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircularRegularization
-import LeanResearch.RepulsiveCoulomb.PointWeightAnnularNormalization
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircularRegularization
+public import LeanResearch.RepulsiveCoulomb.PointWeightAnnularNormalization
+
+@[expose] public section
 
 /-! Exact radial calculation for the unit-disk logarithmic potential in
 manuscript Lemma 3.3. The planar identification is supplied separately. -/

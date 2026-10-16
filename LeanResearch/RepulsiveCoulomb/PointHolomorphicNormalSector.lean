@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointExteriorSectorObservers
-import Mathlib.Analysis.Calculus.DSlope
-import Mathlib.Analysis.Complex.RealDeriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointExteriorSectorObservers
+public import Mathlib.Analysis.Calculus.DSlope
+public import Mathlib.Analysis.Complex.RealDeriv
+
+@[expose] public section
 
 /-! A positively directed actual left normal enters the left polar sector
 in a holomorphic chart. This supplies the missing local orientation test

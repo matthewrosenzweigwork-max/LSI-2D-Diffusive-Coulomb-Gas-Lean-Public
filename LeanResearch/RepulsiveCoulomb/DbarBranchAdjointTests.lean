@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchHilbertAdjoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchHilbertAdjoint
+
+@[expose] public section
 
 /-! Actual adjoint-domain tests obtained by Riesz representation of the
 already proved unweighted distributional pairings. These prove density of the

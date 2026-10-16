@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointConvexLocalFlatEmbedding
-import LeanResearch.RepulsiveCoulomb.PointMarkedRayClearance
-import LeanResearch.RepulsiveCoulomb.EuclideanSectorContraction
-import Mathlib.Topology.Instances.Real.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConvexLocalFlatEmbedding
+public import LeanResearch.RepulsiveCoulomb.PointMarkedRayClearance
+public import LeanResearch.RepulsiveCoulomb.EuclideanSectorContraction
+public import Mathlib.Topology.Instances.Real.Lemmas
+
+@[expose] public section
 
 /-! Literal Euclidean sheared rectangles and the manuscript's exact transverse
 distance. The source metric is the Euclidean metric on C, never the max/product

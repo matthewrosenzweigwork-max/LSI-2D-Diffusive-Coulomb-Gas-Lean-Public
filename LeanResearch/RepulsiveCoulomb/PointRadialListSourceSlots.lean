@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialCyclicListIndex
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialCyclicListIndex
+
+@[expose] public section
 
 /-! Successor draft. Retain actual first/last source identities and the initial
 physical vertex when passing to natural slots. This extends the accepted list

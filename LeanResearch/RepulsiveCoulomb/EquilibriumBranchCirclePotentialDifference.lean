@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonCircleIdentity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleMoments
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchErrorMoments
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonCircleIdentity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleMoments
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchErrorMoments
+
+@[expose] public section
 
 /-! Exact circular mean increment of an actual bounded-density potential and
 the sharp local error lower bound. Both retain pi*epsilon^2/2 and use genuine

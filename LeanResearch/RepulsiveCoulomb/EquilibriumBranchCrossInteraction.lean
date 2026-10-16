@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPotential
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPotential
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Actual absolute integrability of cross Coulomb interactions and signed
 density differences. This discharges the natural finite-energy hypotheses

@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointFullLineInitialRectangle
-import LeanResearch.RepulsiveCoulomb.PointFullLineStageFlatCharts
-import LeanResearch.RepulsiveCoulomb.PointNormalFullTopExtension
-import LeanResearch.RepulsiveCoulomb.MetricFullLineStageCompatibility
-import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullLineInitialRectangle
+public import LeanResearch.RepulsiveCoulomb.PointFullLineStageFlatCharts
+public import LeanResearch.RepulsiveCoulomb.PointNormalFullTopExtension
+public import LeanResearch.RepulsiveCoulomb.MetricFullLineStageCompatibility
+public import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
+
+@[expose] public section
 
 /-! Actual fixed-width construction for each finite portion of a complete
 clean boundary line. Initial patches, arbitrary-stage agreement, Cauchy

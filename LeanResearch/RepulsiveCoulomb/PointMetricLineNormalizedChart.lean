@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricLineRadialChart
-import Mathlib.Topology.Algebra.GroupWithZero
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineRadialChart
+public import Mathlib.Topology.Algebra.GroupWithZero
+
+@[expose] public section
 
 /-! Normalize an actual complete line's full cone chart by an actual unit
 rotation. The whole line boundary in the chart disk is identified with the

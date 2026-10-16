@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchNamedConstants
-import LeanResearch.RepulsiveCoulomb.CoulombRelativePoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchNamedConstants
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativePoincare
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED. Literal named relative constants from the single
 chosen unit pair. The fixed and compact-temperature conditional PI and core

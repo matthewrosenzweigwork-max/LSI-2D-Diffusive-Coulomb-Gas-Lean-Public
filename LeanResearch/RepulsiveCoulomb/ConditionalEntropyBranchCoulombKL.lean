@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombLabels
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchKernelIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombLabels
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchKernelIntegral
+
+@[expose] public section
 
 /-!
 Genuine arbitrary-Q one-site conditional laws for the actual Gibbs system.

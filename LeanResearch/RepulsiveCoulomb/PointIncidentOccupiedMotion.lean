@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentSurgeryChart
-import LeanResearch.RepulsiveCoulomb.PointFiniteSurgeryAllPointCharts
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentSurgeryChart
+public import LeanResearch.RepulsiveCoulomb.PointFiniteSurgeryAllPointCharts
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The actual occupied pieces retain their exact
 motion relative to the original global sector contraction. These formulas

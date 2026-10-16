@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MetricDyadicParameter
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricDyadicParameter
+
+@[expose] public section
 
 /-! Construction of geodesics in complete metric spaces with exact midpoints,
 by consistent dyadic subdivision and limits. -/

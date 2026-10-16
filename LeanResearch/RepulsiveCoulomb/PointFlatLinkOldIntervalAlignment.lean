@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.ClassicalConeRetainedArcWidth
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkRadialTrace
-import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeRetainedArcWidth
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkRadialTrace
+public import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Flat occupancy is aligned INSIDE the actual
 old full retained interval. Two unrelated normalized charts are not compared

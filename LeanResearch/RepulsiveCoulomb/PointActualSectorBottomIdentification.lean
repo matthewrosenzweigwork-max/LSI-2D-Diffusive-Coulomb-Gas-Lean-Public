@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualClosedSectorConstruction
-import Mathlib.Analysis.Complex.ReImTopology
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualClosedSectorConstruction
+public import Mathlib.Analysis.Complex.ReImTopology
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Identify the actual completed sector's bottom
 with the given clean ray using derived intrinsic boundary flatness, and give

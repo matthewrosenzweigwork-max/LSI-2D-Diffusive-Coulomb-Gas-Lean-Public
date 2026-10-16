@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchNamedSwapTransport
-import LeanResearch.RepulsiveCoulomb.CoulombFormSwap
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchNamedSwapTransport
+public import LeanResearch.RepulsiveCoulomb.CoulombFormSwap
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED. The supplied constant is preserved through
 actual label permutations and original-core closure to the full physical form. -/

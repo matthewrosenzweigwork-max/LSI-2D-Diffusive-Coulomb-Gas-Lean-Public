@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointUniformPoincare
-import LeanResearch.RepulsiveCoulomb.AnnularProductEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUniformPoincare
+public import LeanResearch.RepulsiveCoulomb.AnnularProductEnergy
+
+@[expose] public section
 
 /-! Actual inner and outer localization in the original smooth core. -/
 noncomputable section

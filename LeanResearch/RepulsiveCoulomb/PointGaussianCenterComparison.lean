@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGaussianAverageComparison
-import LeanResearch.RepulsiveCoulomb.AverageRpowCentering
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGaussianAverageComparison
+public import LeanResearch.RepulsiveCoulomb.AverageRpowCentering
+
+@[expose] public section
 
 /-! The actual change of weighted mean in Gaussian local Sobolev transfer. -/
 noncomputable section

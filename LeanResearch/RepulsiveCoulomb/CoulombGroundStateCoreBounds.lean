@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoercivity
-import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoercivity
+public import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+
+@[expose] public section
 
 /-! Simultaneous actual mass, gradient and moment bounds for a form-bounded
 family of original-core functions after the normalized ground-state transform. -/

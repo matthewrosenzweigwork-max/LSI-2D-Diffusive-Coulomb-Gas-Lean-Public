@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogPositivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogPositivity
+
+@[expose] public section
 
 /-! An explicit common-measure representation of two mutually singular
 probability measures supported on opposite sides of a measurable set.

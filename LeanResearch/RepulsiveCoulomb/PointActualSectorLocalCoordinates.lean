@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorContractionChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorContractionChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Genuine local coordinates on a physical closed
 sector, centered using an explicitly described Euclidean patch in its actual

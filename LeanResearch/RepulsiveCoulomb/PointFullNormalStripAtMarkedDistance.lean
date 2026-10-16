@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFullLineUniformNormalStrip
-import LeanResearch.RepulsiveCoulomb.FullNormalStripWidthClosure
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullLineUniformNormalStrip
+public import LeanResearch.RepulsiveCoulomb.FullNormalStripWidthClosure
+
+@[expose] public section
 
 /-! Source-only, uncompiled. Every subcritical width is instantiated from the
 selected full-line rectangle continuation. Cross-width compatibility is proved

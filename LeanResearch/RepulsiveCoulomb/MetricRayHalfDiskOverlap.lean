@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricCleanRayHalfDiskPatches
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricCleanRayHalfDiskPatches
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
+
+@[expose] public section
 
 /-! Successor source-only draft. Actual overlap geometry for bottom halfdisks.
 Projection to the common real bottom gives real anchor points and quantitative

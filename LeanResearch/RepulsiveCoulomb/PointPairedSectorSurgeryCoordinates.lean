@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorLocalCoordinates
-import LeanResearch.RepulsiveCoulomb.PointIncidentSectorSourcePatch
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorLocalCoordinates
+public import LeanResearch.RepulsiveCoulomb.PointIncidentSectorSourcePatch
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Construct the old directed source patch and new
 inverse coordinates as one pair. Their exact seam formula uses the same

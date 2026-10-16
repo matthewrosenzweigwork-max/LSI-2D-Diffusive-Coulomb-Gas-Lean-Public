@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TripleCounting
-import Mathlib.Analysis.InnerProductSpace.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.TripleCounting
+public import Mathlib.Analysis.InnerProductSpace.Basic
+
+@[expose] public section
 
 /-! UNTESTED DRAFT: exact triple incidence applied to ordered pairs of edges. -/
 noncomputable section

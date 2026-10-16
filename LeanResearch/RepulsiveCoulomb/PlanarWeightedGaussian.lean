@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreTightLSI
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreTightLSI
+
+@[expose] public section
 
 /-! Theorem 1.2 (thm:weighted) of the canonical repulsive manuscript, source
 SHA256 334c42429035ed3f994e16ec801ccb5568c43ca85c4750ecb89ef68a7c1f5e42.

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPermutation
-import LeanResearch.RepulsiveCoulomb.CoulombCoreSlice
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPermutation
+public import LeanResearch.RepulsiveCoulomb.CoulombCoreSlice
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory InnerProductSpace

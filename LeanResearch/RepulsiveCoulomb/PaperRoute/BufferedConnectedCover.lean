@@ -1,15 +1,19 @@
-import Mathlib.Topology.MetricSpace.CoveringNumbers
-import Mathlib.Topology.MetricSpace.Bounded
-import Mathlib.Topology.Connected.Basic
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
-import Mathlib.MeasureTheory.Measure.Real
-import Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected
-import Mathlib.Analysis.Normed.Affine.AddTorsor
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Positivity
-import Mathlib.Tactic.FieldSimp
+module
+
+public import Mathlib.Topology.MetricSpace.CoveringNumbers
+public import Mathlib.Topology.MetricSpace.Bounded
+public import Mathlib.Topology.Connected.Basic
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+public import Mathlib.MeasureTheory.Measure.Real
+public import Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected
+public import Mathlib.Analysis.Normed.Affine.AddTorsor
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Positivity
+public import Mathlib.Tactic.FieldSimp
+
+@[expose] public section
 
 /-!
 # Finite connected buffered covers of actual planar continua

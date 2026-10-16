@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.MetricDoublingComparison
-import LeanResearch.RepulsiveCoulomb.PaperRoute.SignedAreaBall
-import LeanResearch.RepulsiveCoulomb.PaperRoute.WeakQuasisymmetryGeometry
-import LeanResearch.RepulsiveCoulomb.PaperRoute.QCWeakQuasisymmetry
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.MetricDoublingComparison
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.SignedAreaBall
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.WeakQuasisymmetryGeometry
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.QCWeakQuasisymmetry
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+
+@[expose] public section
 
 /-!
 # Same-map Semmes metric doubling from signed area and weak quasisymmetry

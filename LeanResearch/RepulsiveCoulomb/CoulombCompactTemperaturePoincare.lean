@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombTemperatureGapContradiction
-import LeanResearch.RepulsiveCoulomb.CoulombFormCenter
-import Mathlib.Analysis.Normed.Module.RCLike.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombTemperatureGapContradiction
+public import LeanResearch.RepulsiveCoulomb.CoulombFormCenter
+public import Mathlib.Analysis.Normed.Module.RCLike.Basic
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. Fixed-particle Poincare constants uniform
 on a compact positive temperature interval, on the full original form domain. -/

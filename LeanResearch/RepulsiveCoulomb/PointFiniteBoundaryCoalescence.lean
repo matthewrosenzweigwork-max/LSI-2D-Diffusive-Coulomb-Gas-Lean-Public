@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalPunctureFactor
-import LeanResearch.RepulsiveCoulomb.PointFiniteOpenArgument
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalPunctureFactor
+public import LeanResearch.RepulsiveCoulomb.PointFiniteOpenArgument
+
+@[expose] public section
 
 /-! Actual positive boundary atoms occur only at vertices of the finite
 puncture-gap family, and half-open simplicity makes those vertices distinct.

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityTiltInteraction
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityTiltInteraction
+
+@[expose] public section
 
 /-! Finite-domain admissibility and the actual first derivative of the
 manuscript free energy along bounded zero-mass density tilts. These are

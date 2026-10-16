@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceGibbsMomentFromPartition
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ResolventLabeledPoincare
-import LeanResearch.RepulsiveCoulomb.CoulombFormTightening
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceGibbsMomentFromPartition
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ResolventLabeledPoincare
+public import LeanResearch.RepulsiveCoulomb.CoulombFormTightening
+
+@[expose] public section
 
 /-! Additive experimental source; verification is recorded separately in evidence. Concrete full-domain Rothaus assembly
 from the NEW labeled PI and NEW weighted one-site rate. Thermal physical data

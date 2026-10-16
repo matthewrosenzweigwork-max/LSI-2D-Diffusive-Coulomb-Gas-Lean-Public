@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDiagramCounting
-import Mathlib.Order.Interval.Finset.Nat
-import Mathlib.Algebra.Order.BigOperators.Group.Finset
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDiagramCounting
+public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.Order.BigOperators.Group.Finset
+
+@[expose] public section
 
 /-! Finite support-count summation for actual ordered words. This file is pure
 finite algebra and does not postulate any analytic or correlation theorem.

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchComplexVectorCore
-import LeanResearch.RepulsiveCoulomb.DbarBranchInverseRootL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchComplexVectorCore
+public import LeanResearch.RepulsiveCoulomb.DbarBranchInverseRootL2
+
+@[expose] public section
 
 /-! Genuine compact integration by parts for T0 f=R dbar f in the ordinary
 weighted Hilbert spaces. It supplies dense formal-adjoint test values for

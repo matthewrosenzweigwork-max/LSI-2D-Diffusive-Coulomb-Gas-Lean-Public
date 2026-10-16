@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCanonicalSplitting
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductExponential
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceCompactBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCanonicalSplitting
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductExponential
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceCompactBounds
+
+@[expose] public section
 
 /-! The actual exponential moment in the manuscript's additive entropy defect.
 The one-body term has its exact factor 1/N. Product Jensen and Cauchy--Schwarz

@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.MetricDoublingComparison
-import Mathlib.Algebra.Order.Archimedean.Basic
-import Mathlib.Algebra.Order.Floor.Ring
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Positivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.MetricDoublingComparison
+public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Algebra.Order.Floor.Ring
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Positivity
+
+@[expose] public section
 
 /-!
 # Actual global doubling implies polynomial growth and volume balance

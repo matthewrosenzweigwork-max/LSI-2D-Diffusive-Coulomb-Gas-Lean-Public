@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightAnnularNormalization
-import Mathlib.MeasureTheory.Measure.TightNormed
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightAnnularNormalization
+public import Mathlib.MeasureTheory.Measure.TightNormed
+
+@[expose] public section
 
 /-! Configuration-uniform domination and tails of the normalized point weight.
 The location factor is cancelled only after its strict positivity and finiteness

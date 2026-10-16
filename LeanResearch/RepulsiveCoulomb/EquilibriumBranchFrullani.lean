@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogKernel
-import Mathlib.Analysis.SpecialFunctions.FrullaniIntegral
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogKernel
+public import Mathlib.Analysis.SpecialFunctions.FrullaniIntegral
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+
+@[expose] public section
 
 /-! Actual Gaussian-mixture representation of -log |z| off the diagonal.
 All scalar improper integrals are proved integrable. The absolute integral

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeReflection
-import LeanResearch.RepulsiveCoulomb.PointRetainedFrontierEndpoint
-import Mathlib.Topology.Order.DenselyOrdered
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeReflection
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFrontierEndpoint
+public import Mathlib.Topology.Order.DenselyOrdered
+
+@[expose] public section
 
 /-! SOURCE-ONLY MAXIMAL-CONTINUATION PRODUCER. Construct an actual adjacent
 minimizing old-boundary edge directly from the genuine positive corner. The

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianInterpolation
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianRotatedIntegration
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianFisher
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianInterpolation
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianRotatedIntegration
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianFisher
+
+@[expose] public section
 
 /-! Actual differentiation of Gaussian entropy along the Mehler interpolation.
 The analytic exchange of derivative and both Gaussian integrals is justified

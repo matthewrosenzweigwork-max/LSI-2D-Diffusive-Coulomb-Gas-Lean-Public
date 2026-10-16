@@ -1,12 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolygonBridge
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.StripLocal
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutCells
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Bounded
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolygonBridge
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.StripLocal
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutCells
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Bounded
+
+@[expose] public section
 
 /-!
 # The polygonal Jordan curve theorem

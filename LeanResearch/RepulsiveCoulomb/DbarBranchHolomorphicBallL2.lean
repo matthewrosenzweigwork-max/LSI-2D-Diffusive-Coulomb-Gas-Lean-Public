@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchHolomorphicBallMean
-import Mathlib.MeasureTheory.Function.L2Space
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchHolomorphicBallMean
+public import Mathlib.MeasureTheory.Function.L2Space
+
+@[expose] public section
 
 /-! Local holomorphic L2 point evaluation in the actual finite-dimensional
 configuration space, obtained from the proved ball mean value and Hilbert

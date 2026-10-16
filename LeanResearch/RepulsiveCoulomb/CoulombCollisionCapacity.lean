@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFirstCollisionCapacity
-import LeanResearch.RepulsiveCoulomb.CoulombAllPairsSwap
-import LeanResearch.RepulsiveCoulomb.PointCutoffApproximation
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFirstCollisionCapacity
+public import LeanResearch.RepulsiveCoulomb.CoulombAllPairsSwap
+public import LeanResearch.RepulsiveCoulomb.PointCutoffApproximation
+
+@[expose] public section
 
 /-! Actual smooth cutoffs and vanishing weighted energy for every collision pair. -/
 noncomputable section

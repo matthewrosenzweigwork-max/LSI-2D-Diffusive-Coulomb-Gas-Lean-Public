@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.ScalarTailPotentialComparison
-import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ScalarTailPotentialComparison
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Explicit decreasing angular-tail potential
 in the original affine parameter. No inverse radius map or FTC is assumed. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleGeometry
-import LeanResearch.RepulsiveCoulomb.DirectedFlatIsometryUnion
+module
+
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleGeometry
+public import LeanResearch.RepulsiveCoulomb.DirectedFlatIsometryUnion
+
+@[expose] public section
 
 /-! Newly authored after source loss; this is not a recovery of the old body.
 

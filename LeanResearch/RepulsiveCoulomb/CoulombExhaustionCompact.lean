@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombExhaustionGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombExhaustionGeometry
+
+@[expose] public section
 
 /-! Compact sublevels of the canonical exhaustion stay away from every collision. -/
 noncomputable section

@@ -1,4 +1,8 @@
-import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+module
+
+public import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+
+@[expose] public section
 
 /-! Fatou transfer of eventually valid integral bounds to an actual pointwise
 a.e. limit. All quantities remain in ENNReal until later normalization. -/

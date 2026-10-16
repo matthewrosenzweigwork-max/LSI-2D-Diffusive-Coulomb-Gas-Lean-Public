@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombAmbientCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombAmbientCore
+
+@[expose] public section
 
 /-! Scale-explicit ambient Euclidean outer bumps in the literal particle space. -/
 noncomputable section

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapJordan
-import Mathlib.Analysis.Complex.AbsMax
-import Mathlib.Analysis.Normed.Module.RCLike.Real
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapJordan
+public import Mathlib.Analysis.Complex.AbsMax
+public import Mathlib.Analysis.Normed.Module.RCLike.Real
+
+@[expose] public section
 
 /-! Records-only, uncompiled. A constructed bounded cap lies in the actual
 large disk and entirely in one of the actual open sides of the complete line.

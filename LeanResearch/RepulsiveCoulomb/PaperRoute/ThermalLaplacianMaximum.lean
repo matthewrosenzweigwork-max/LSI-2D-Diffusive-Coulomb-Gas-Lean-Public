@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogFundamentalSolution
-import Mathlib.Analysis.Calculus.ContDiff.Deriv
-import Mathlib.Analysis.Convex.Deriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogFundamentalSolution
+public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+public import Mathlib.Analysis.Convex.Deriv
+
+@[expose] public section
 
 /-! A genuine second-order maximum test.
 Positive second derivative would imply strict local convexity and contradict

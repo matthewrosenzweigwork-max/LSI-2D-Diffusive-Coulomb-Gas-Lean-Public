@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialPlaneArcArgumentTurn
-import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleSubedges
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialPlaneArcArgumentTurn
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleSubedges
+
+@[expose] public section
 
 /-! The three genuine minimizing sides of an actual simple triangle supply
 one finite cyclic radial macro-list, with source intervals, simplicity and

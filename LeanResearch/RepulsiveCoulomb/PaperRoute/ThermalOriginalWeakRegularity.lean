@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalBoundedRadialEL
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalBoundedPoisson
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialWeakRegularity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalBoundedRadialEL
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalBoundedPoisson
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialWeakRegularity
+
+@[expose] public section
 
 /-! Actual weak Poisson and local second-order regularity for the same bounded
 positive EL representative selected from a NEW canonical minimizer. The weak

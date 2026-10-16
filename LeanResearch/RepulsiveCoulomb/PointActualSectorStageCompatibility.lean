@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorStageGeometry
-import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchCompatibility
-import LeanResearch.RepulsiveCoulomb.EuclideanInteriorAngularWindow
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorStageGeometry
+public import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchCompatibility
+public import LeanResearch.RepulsiveCoulomb.EuclideanInteriorAngularWindow
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Stage compatibility is derived from the
 actual shared chart seed and actual geometric stage-flatness theorem. -/

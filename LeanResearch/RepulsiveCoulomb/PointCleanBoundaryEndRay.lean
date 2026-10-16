@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatBoundaryClockArc
-import LeanResearch.RepulsiveCoulomb.PointUnmarkedBoundaryLine
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatBoundaryClockArc
+public import LeanResearch.RepulsiveCoulomb.PointUnmarkedBoundaryLine
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Convert an actual clean topological boundary end
 into a complete ambient minimizing ray. The initial point may be a corner;

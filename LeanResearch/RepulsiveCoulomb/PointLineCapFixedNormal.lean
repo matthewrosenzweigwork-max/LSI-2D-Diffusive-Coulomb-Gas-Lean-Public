@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapPeriodization
-import Mathlib.Tactic.FieldSimp
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapPeriodization
+public import Mathlib.Tactic.FieldSimp
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Positive winding is transported from the actual
 circle midpoint to a fixed regular point of the oriented line. The resulting

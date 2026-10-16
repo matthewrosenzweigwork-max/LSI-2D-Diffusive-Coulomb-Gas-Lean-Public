@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityMeasure
-import Mathlib.MeasureTheory.Integral.DominatedConvergence
-import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityMeasure
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Explicit normalized capped compact probability
 densities, actual moment control, and weak convergence. No energy, convexity,

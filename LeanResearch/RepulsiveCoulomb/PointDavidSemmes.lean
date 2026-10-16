@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointDoubleOscillationReal
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDoubleOscillationReal
+
+@[expose] public section
 
 /-! The actual configuration-uniform David--Semmes double-average estimate for
 the literal point weights, every C1 observable, every positive radius and exact

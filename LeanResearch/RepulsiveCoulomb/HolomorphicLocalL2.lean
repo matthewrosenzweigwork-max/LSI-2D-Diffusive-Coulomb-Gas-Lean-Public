@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicDiskScaling
-import Mathlib.Analysis.Calculus.BumpFunction.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicDiskScaling
+public import Mathlib.Analysis.Calculus.BumpFunction.Basic
+
+@[expose] public section
 
 /-! Local holomorphic L2 evaluation, with no global continuity premise. -/
 noncomputable section

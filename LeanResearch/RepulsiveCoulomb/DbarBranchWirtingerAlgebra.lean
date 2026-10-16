@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombWirtinger
-import Mathlib.Analysis.Calculus.FDeriv.Mul
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombWirtinger
+public import Mathlib.Analysis.Calculus.FDeriv.Mul
+
+@[expose] public section
 
 /-! Literal holomorphic-coordinate derivatives and elementary conjugation and
 product identities, with the same one-half convention as the checked dbar. -/

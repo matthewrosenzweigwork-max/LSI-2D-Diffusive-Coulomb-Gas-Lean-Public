@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityMeasure
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyNegative
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityMeasure
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyNegative
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedIntegral
+
+@[expose] public section
 
 /-! Exact Gaussian entropy correspondence on the entire P2 density domain,
 including infinite positive entropy. The normalized Gaussian and its RN

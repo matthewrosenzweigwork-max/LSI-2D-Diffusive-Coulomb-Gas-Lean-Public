@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteSurgeryMetricCharts
-import LeanResearch.RepulsiveCoulomb.PointSurgeryIncidentOverlap
-import LeanResearch.RepulsiveCoulomb.FlatAtlasLengthGlobalization
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteSurgeryMetricCharts
+public import LeanResearch.RepulsiveCoulomb.PointSurgeryIncidentOverlap
+public import LeanResearch.RepulsiveCoulomb.FlatAtlasLengthGlobalization
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Join original finite allocation, all actual local
 surgery charts, actual seam-overlap rigidity, constructed global development,

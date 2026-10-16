@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormCore
+
+@[expose] public section
 
 /-! Local Haar weak-derivative identification after the proved weighted L2
 restriction. The weighted law is not used as a Haar measure. -/

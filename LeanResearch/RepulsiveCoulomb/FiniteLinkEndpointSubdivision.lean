@@ -1,7 +1,11 @@
-import Mathlib.Data.Finset.Sort
-import Mathlib.Data.Finset.Max
-import Mathlib.Algebra.Order.ToIntervalMod
-import Mathlib.Tactic
+module
+
+public import Mathlib.Data.Finset.Sort
+public import Mathlib.Data.Finset.Max
+public import Mathlib.Algebra.Order.ToIntervalMod
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Construct the finite cyclic ordering of supplied
 actual link endpoints by reducing their real lifts to one chosen period and

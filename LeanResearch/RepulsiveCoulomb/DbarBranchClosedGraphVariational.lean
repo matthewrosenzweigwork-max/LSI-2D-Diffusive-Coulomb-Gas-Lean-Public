@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchBoundedFunctionalFactor
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryClosedGraphSeparation
-import Mathlib.Analysis.InnerProductSpace.Dual
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchBoundedFunctionalFactor
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryClosedGraphSeparation
+public import Mathlib.Analysis.InnerProductSpace.Dual
+
+@[expose] public section
 
 /-! Hahn-Banach and Riesz produce an actual graph solution from a bounded
 adjoint pairing. The graph is tested in the genuine Hilbert product via the

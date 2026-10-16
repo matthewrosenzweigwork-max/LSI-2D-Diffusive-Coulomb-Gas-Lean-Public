@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRadialAverageSmooth
-import Mathlib.Analysis.Calculus.ParametricIntegral
-import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRadialAverageSmooth
+public import Mathlib.Analysis.Calculus.ParametricIntegral
+public import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
+
+@[expose] public section
 
 /-! A bounded weighted radial integral and its actual first derivative, for
 Banach-valued functions. This is the quantitative input for higher density

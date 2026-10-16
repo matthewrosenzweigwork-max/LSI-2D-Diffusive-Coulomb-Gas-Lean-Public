@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricLineSideGeodesic
-import LeanResearch.RepulsiveCoulomb.PointConformalIntrinsicLength
-import Mathlib.Topology.Order.ProjIcc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineSideGeodesic
+public import LeanResearch.RepulsiveCoulomb.PointConformalIntrinsicLength
+public import Mathlib.Topology.Order.ProjIcc
+
+@[expose] public section
 
 /-! The actual intrinsic metric of a closed line side. The infimum runs over
 all continuous curves in the actual subset and uses genuine metric variation.

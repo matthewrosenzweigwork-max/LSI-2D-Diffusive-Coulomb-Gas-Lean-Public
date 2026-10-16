@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointActualDisappearingApexReturnObstruction
-import LeanResearch.RepulsiveCoulomb.PointActualHalfDiskDepartureDirection
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexActualDeparture
-import LeanResearch.RepulsiveCoulomb.DisappearingSectorRemovedEnd
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualDisappearingApexReturnObstruction
+public import LeanResearch.RepulsiveCoulomb.PointActualHalfDiskDepartureDirection
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexActualDeparture
+public import LeanResearch.RepulsiveCoulomb.DisappearingSectorRemovedEnd
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Original-sector adapter for the disappearing-apex
 no-later-return theorem. The proper broken old end, its local halfdisk germs,

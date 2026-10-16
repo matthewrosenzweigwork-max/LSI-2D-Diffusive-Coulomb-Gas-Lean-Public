@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.NormalRectangleSource
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleInteriorGeometry
-import Mathlib.Topology.Maps.Proper.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.NormalRectangleSource
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleInteriorGeometry
+public import Mathlib.Topology.Maps.Proper.Basic
+
+@[expose] public section
 
 /-!
 NEW implementation of the recovered full-line source geometry contract.

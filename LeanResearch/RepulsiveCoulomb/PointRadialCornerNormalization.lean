@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorNormalization
-import LeanResearch.RepulsiveCoulomb.JordanConformalTurnTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorNormalization
+public import LeanResearch.RepulsiveCoulomb.JordanConformalTurnTransport
+
+@[expose] public section
 
 /-! Normalize arbitrary actual incident radial velocities, retaining their
 positive rates and the full directed sector angle. No equal-speed assumption

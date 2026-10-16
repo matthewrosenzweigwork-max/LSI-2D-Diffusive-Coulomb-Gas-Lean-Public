@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricTranslatedTopExtension
-import LeanResearch.RepulsiveCoulomb.FlatLinkSectorDisk
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricTranslatedTopExtension
+public import LeanResearch.RepulsiveCoulomb.FlatLinkSectorDisk
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Construct the literal bounded halfdisk used
 by the retained parallel-return theorem from the actual relative patch.

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleTranslation
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDoubleErrorMoments
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleTranslation
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDoubleErrorMoments
+
+@[expose] public section
 
 /-! Joint measurability and exact symmetry of the finite double-error proxy.
 The value on the spatial diagonal is proved zero; the equality with g-P^2g

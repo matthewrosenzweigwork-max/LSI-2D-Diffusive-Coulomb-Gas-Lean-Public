@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricCenteredClippedSegments
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricCenteredClippedSegments
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Actual reversal of finite unit-interval segments, including their globally
  clipped centered samples. This changes no metric or source curve image. -/

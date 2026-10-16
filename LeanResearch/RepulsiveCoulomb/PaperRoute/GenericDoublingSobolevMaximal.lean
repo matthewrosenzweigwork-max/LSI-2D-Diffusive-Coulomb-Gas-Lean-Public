@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright (c) 2026 The Tau Ceti contributors. All rights reserved.
 Released under Apache 2.0 license; see Imported/TauCeti/LICENSE.
@@ -10,9 +12,11 @@ constant, through the newly proved closed-fourfold bound D cubed. The upstream H
 hypothesis is neither erased nor applied to a non-Haar measure; its frozen
 source and PROVENANCE.json remain unchanged.
 -/
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevBasics
-import Mathlib.MeasureTheory.Covering.Vitali
-import Mathlib.MeasureTheory.Integral.Prod
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevBasics
+public import Mathlib.MeasureTheory.Covering.Vitali
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Actual global weak (1,1) control, from the supplied global D only.
 No null-sphere premise and no assumed maximal-function certificate occurs. -/

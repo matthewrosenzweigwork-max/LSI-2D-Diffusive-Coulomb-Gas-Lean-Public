@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FiniteClosedContactComponents
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteClosedContactComponents
+
+@[expose] public section
 
 /-! Successor draft. A finite closed order-connected cover of the actual
 compact parameter interval produces finitely many transition times. It is not

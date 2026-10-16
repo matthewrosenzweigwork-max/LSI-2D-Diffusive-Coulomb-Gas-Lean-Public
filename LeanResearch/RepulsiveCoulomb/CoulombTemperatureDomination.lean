@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization
+
+@[expose] public section
 
 /-! A single integrable Gaussian majorant on any positive compact temperature
 interval. The constants may depend on particle number and the interval. -/

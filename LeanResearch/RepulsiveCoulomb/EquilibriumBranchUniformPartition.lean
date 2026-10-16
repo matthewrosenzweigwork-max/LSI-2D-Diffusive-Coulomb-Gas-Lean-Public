@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchActualNelsonTail
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExponentialTailBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchActualNelsonTail
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExponentialTailBound
+
+@[expose] public section
 
 /-! Actual uniform repulsive partition bound for the constructed thermal
 reference. The proof instantiates the proved finite-list correlation estimate,

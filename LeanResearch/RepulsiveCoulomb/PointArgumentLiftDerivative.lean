@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
-import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+
+@[expose] public section
 
 /-! Differentiate an actual continuous argument lift. The local logarithm is
 constructed by dividing by the nonzero base vector; the principal branch is

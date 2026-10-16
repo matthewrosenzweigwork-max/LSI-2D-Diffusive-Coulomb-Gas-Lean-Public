@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TripleGramBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.TripleGramBound
+
+@[expose] public section
 
 /-! Sharp global Bochner constant from exact triple incidence. -/
 noncomputable section

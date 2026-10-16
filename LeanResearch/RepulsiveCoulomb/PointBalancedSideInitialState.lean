@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointBalancedSideRetainedCharts
-import LeanResearch.RepulsiveCoulomb.PointBalancedLineIntrinsicSides
-import LeanResearch.RepulsiveCoulomb.PointOriginalFiniteActualAllocation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointBalancedSideRetainedCharts
+public import LeanResearch.RepulsiveCoulomb.PointBalancedLineIntrinsicSides
+public import LeanResearch.RepulsiveCoulomb.PointOriginalFiniteActualAllocation
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Initial signed halfplanes from the original
 nonnegative exponents and locations. The line, fixed sides, ambient halfplane

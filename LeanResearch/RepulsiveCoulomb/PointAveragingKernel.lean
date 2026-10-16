@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointBallMassComparison
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointBallMassComparison
+
+@[expose] public section
 
 /-! The moving-ball averaging kernel has uniformly bounded mass in its center
 variable. This is the actual doubling-measure kernel estimate needed in Bjorn's

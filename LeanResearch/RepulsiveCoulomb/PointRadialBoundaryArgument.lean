@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointArcObserverCorrection
-import LeanResearch.RepulsiveCoulomb.PointHolomorphicExteriorRays
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointArcObserverCorrection
+public import LeanResearch.RepulsiveCoulomb.PointHolomorphicExteriorRays
+
+@[expose] public section
 
 /-! The actual outside-zero winding theorem and the two literal radial
 collars determine the argument increment on the rest of a Jordan boundary.

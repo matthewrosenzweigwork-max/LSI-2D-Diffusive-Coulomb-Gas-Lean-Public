@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointUnchangedBranchFormulas
-import LeanResearch.RepulsiveCoulomb.ContinuousSubtypeExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUnchangedBranchFormulas
+public import LeanResearch.RepulsiveCoulomb.ContinuousSubtypeExtension
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual forward/inverse maps for an unchanged
 complement piece, extended only by fixed irrelevant outside values. The

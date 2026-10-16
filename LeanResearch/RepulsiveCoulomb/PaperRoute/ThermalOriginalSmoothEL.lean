@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalWeakRegularity
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialELBootstrap
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalWeakRegularity
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialELBootstrap
+
+@[expose] public section
 
 /-! Smoothness of the actual positive radial EL representative from a NEW
 canonical minimizer, retaining the genuine weak-Poisson/local-second-order

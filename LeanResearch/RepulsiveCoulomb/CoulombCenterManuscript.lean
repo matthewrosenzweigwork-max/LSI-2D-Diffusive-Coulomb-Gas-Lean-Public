@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeCommonCore
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRealOptimalFactorization
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeCommonCore
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRealOptimalFactorization
+
+@[expose] public section
 
 /-! Complete source-facing center-of-mass proposition: literal Helmert
 factorization, relative common-core domain identification, and equality of the

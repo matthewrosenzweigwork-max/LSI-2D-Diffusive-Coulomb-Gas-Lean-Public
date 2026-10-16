@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactMargin
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactMargin
+
+@[expose] public section
 
 /-! A genuine local weak system with compactly supported L2 values extends
 to the global compact-coefficient system by one proper cutoff. The same

@@ -1,5 +1,9 @@
-import Mathlib.MeasureTheory.Constructions.Pi
-import Mathlib.Dynamics.Ergodic.MeasurePreserving
+module
+
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.Dynamics.Ergodic.MeasurePreserving
+
+@[expose] public section
 
 /-! Finite sigma-finite product measure reassociation, including Lebesgue factors. -/
 noncomputable section

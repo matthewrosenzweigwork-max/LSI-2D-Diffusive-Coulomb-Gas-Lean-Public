@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricRegionLengthPath
-import Mathlib.Topology.Connected.Clopen
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRegionLengthPath
+public import Mathlib.Topology.Connected.Clopen
+
+@[expose] public section
 
 /-! The genuine constrained path-length infimum, before any ambient-convexity
 conclusion. Local radial competitors imply finite reachability by connectedness. -/

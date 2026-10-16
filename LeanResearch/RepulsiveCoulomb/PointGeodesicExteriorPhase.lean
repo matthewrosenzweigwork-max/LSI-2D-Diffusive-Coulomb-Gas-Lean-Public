@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicAcceleration
-import LeanResearch.RepulsiveCoulomb.PointExteriorConnectionEstimates
-import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicAcceleration
+public import LeanResearch.RepulsiveCoulomb.PointExteriorConnectionEstimates
+public import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 UNCOMPILED ADDITIVE DRAFT, 2026-10-02. No accepted-source or inventory claim.

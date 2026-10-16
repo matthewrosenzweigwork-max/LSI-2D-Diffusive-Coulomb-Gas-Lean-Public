@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConePhase
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConePhase
+
+@[expose] public section
 
 /-! Sharp small-sector lower bound from rotated C1 supporting functions. -/
 noncomputable section

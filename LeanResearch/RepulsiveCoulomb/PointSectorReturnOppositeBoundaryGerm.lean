@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedFrontierEndpoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFrontierEndpoint
+
+@[expose] public section
 
 /-! Isolated, uncompiled frontend. The old compact arc's actual radial germ
 is forced to the endpoint opposite the clean ray. Source containment and small

@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.PlanarCofactorGradient
-import LeanResearch.RepulsiveCoulomb.PaperRoute.SignedAreaBall
-import Mathlib.Analysis.Calculus.FDeriv.OfCompLeft
-import Mathlib.Analysis.Calculus.ContDiff.Basic
-import Mathlib.MeasureTheory.Function.LocallyIntegrable
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.PlanarCofactorGradient
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.SignedAreaBall
+public import Mathlib.Analysis.Calculus.FDeriv.OfCompLeft
+public import Mathlib.Analysis.Calculus.ContDiff.Basic
+public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+
+@[expose] public section
 
 /-!
 # Actual inverse-gradient transport on image balls

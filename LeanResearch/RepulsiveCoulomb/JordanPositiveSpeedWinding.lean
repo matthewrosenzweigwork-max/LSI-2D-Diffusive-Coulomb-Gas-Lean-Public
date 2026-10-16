@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanSupportedWinding
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSupportedWinding
+
+@[expose] public section
 
 /-! The actual signed inside/outside classification needs only positive real
 velocity at the horizontal support, rather than velocity exactly 1. The

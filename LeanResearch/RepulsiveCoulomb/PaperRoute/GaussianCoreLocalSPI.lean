@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianCoreLocalNorm
-import LeanResearch.RepulsiveCoulomb.L1LqInterpolation
-import LeanResearch.RepulsiveCoulomb.SuperPoincareCoefficients
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianCoreLocalNorm
+public import LeanResearch.RepulsiveCoulomb.L1LqInterpolation
+public import LeanResearch.RepulsiveCoulomb.SuperPoincareCoefficients
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. Generic-exponent local SPI from the new Gaussian geometry. The exponent κ/(κ-1) is not the weight cap Q. -/
 noncomputable section

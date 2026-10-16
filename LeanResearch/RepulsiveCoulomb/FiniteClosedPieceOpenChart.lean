@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.FiniteClosedPieceHomeomorph
-import Mathlib.Topology.OpenPartialHomeomorph.Defs
-import Mathlib.Topology.ContinuousOn
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteClosedPieceHomeomorph
+public import Mathlib.Topology.OpenPartialHomeomorph.Defs
+public import Mathlib.Topology.ContinuousOn
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The old comparison neighborhood is genuinely
 open before gluing. A smaller open target is used only after the continuous

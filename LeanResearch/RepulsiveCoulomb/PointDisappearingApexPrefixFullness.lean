@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexWholeContact
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexWholeContact
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Every point strictly inside the original common
 upper-boundary segment has actual full retained width pi and no curvature turn.

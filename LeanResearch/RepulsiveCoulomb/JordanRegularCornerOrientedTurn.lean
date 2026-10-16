@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanFinitePhysicalRounding
-import LeanResearch.RepulsiveCoulomb.JordanFiniteNonzeroWindingTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFinitePhysicalRounding
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteNonzeroWindingTurn
+
+@[expose] public section
 
 /-! End-to-end finite regular non-antipodal C1 Jordan turning. The common
 physical positive half-planes, actual simple C1 smoothing and avoiding

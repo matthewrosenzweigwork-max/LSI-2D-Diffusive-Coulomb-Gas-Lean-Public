@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialCyclicTurn
-import LeanResearch.RepulsiveCoulomb.PointFiniteCyclicCornerOrder
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialCyclicTurn
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCyclicCornerOrder
+
+@[expose] public section
 
 /-! Express the checked actual radial-cycle total turn on the same finite
 natural-number slots used by original point-flux accounting. -/

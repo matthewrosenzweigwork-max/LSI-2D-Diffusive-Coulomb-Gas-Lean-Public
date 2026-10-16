@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointOriginalExtremeBoundaryRay
-import LeanResearch.RepulsiveCoulomb.PointActualAttainedTranslatedContact
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointOriginalExtremeBoundaryRay
+public import LeanResearch.RepulsiveCoulomb.PointActualAttainedTranslatedContact
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The actual current-region marked-boundary and
 no-clean-budget-ray obstruction now produces the extreme marked corner, its

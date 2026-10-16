@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointActualOutwardTailSine
-import LeanResearch.RepulsiveCoulomb.DirectionalTailLimits
-import LeanResearch.RepulsiveCoulomb.CircleTransverseCorner
-import Mathlib.Analysis.Calculus.Deriv.Comp
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualOutwardTailSine
+public import LeanResearch.RepulsiveCoulomb.DirectionalTailLimits
+public import LeanResearch.RepulsiveCoulomb.CircleTransverseCorner
+public import Mathlib.Analysis.Calculus.Deriv.Comp
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Exact affine-parameter transport and elementary angle algebra used to apply
  the finite original-time tail estimate directly to the actual limiting line. -/

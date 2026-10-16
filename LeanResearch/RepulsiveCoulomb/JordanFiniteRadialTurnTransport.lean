@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanRadialCornerTangentAccounting
-import Mathlib.Analysis.Convex.Contractible
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanRadialCornerTangentAccounting
+public import Mathlib.Analysis.Convex.Contractible
+
+@[expose] public section
 
 /-! Actual finite tangent-turn preservation under simultaneous radial
 rounding. Every chart disk, physical radial trace, positive source clock,

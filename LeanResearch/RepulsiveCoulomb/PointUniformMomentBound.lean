@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFormMomentClosure
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFormMomentClosure
+
+@[expose] public section
 
 /-! Manuscript cor:U-bound on the full actual closed physical form domain.
 The constant is independent of point number, exponents and locations. -/

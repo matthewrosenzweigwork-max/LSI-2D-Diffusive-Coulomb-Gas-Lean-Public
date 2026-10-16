@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointAveragingFubini
-import LeanResearch.RepulsiveCoulomb.PointMeasureAverage
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointAveragingFubini
+public import LeanResearch.RepulsiveCoulomb.PointMeasureAverage
+
+@[expose] public section
 
 /-! The moving-ball kernel estimate in literal normalized-average form. -/
 noncomputable section

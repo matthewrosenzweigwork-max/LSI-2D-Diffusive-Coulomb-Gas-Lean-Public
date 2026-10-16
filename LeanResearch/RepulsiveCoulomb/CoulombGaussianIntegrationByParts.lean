@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianMehler
-import Mathlib.Analysis.InnerProductSpace.Calculus
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianMehler
+public import Mathlib.Analysis.InnerProductSpace.Calculus
+
+@[expose] public section
 
 /-! Gaussian integration by parts for bounded C¹ functions. All integrability
 conditions are established from the literal Gaussian's finite second moment;

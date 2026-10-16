@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.WeightedPointModel
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedPointModel
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Finite-positive normalization of the literal weighted planar Gaussian.
 The planar integration step uses Mathlib's volume-preserving real-product

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalDiskReferenceBounds
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GibbsMomentFromOneBody
-import LeanResearch.RepulsiveCoulomb.PaperRoute.SpatialReferenceLabeledLSI
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalDiskReferenceBounds
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GibbsMomentFromOneBody
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.SpatialReferenceLabeledLSI
+
+@[expose] public section
 
 /-! Additive disk-normalized physical Gibbs moment application. Constants
 are chosen from the spatial fixed-coupling/Hölder theorem before beta,R,N.

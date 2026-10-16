@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCleanBoundaryContinuation
-import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCleanBoundaryContinuation
+public import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Actual nonbranching along full flat interior
 points, followed by endpoint continuity. The final endpoint may be marked or

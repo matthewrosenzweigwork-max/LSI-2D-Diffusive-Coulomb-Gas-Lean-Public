@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFullLineWidthSupremum
-import LeanResearch.RepulsiveCoulomb.DirectedFlatIsometryUnion
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullLineWidthSupremum
+public import LeanResearch.RepulsiveCoulomb.DirectedFlatIsometryUnion
+
+@[expose] public section
 
 /-! The full-line strip is constructed as the union of symmetric finite
 normal rectangles, all of the same positive width. Length compatibility is

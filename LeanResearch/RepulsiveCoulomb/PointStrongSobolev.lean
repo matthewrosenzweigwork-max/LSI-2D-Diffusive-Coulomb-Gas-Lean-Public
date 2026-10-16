@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointStrongSobolevMeasureForm
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointStrongSobolevMeasureForm
+
+@[expose] public section
 
 /-! Complete normalized strong Sobolev moment bound, conditional on the
 explicit uniform weak Poincare input. All constants precede the configuration. -/

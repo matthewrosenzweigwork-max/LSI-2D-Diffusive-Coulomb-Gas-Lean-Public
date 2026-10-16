@@ -1,13 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Inversion
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.ModelCurve
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SquareMover
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Topology
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Inversion
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.ModelCurve
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SquareMover
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Topology
+
+@[expose] public section
 
 /-!
 # The endgame: from the square extension to the relative Jordan–Schönflies theorem

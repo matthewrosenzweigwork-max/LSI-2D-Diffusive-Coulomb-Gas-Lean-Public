@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentArcSeparation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentArcSeparation
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Choose an actual seam endpoint as cyclic origin.
 Actual cross-piece separation excludes it from other occupied interiors;

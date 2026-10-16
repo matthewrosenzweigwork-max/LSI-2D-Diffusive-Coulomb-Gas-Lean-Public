@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeRotation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeRotation
+
+@[expose] public section
 
 /-! Isolated, uncompiled transport of genuine ray germs under the constructed
 whole-retained-chart rotation. Only actual chart values are used. -/

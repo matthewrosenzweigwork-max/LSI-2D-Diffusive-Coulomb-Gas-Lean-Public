@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.CoulombOptimalPoincare
-import Mathlib.Data.Finset.Lattice.Fold
-import Mathlib.Order.Interval.Finset.Nat
-import Mathlib.Algebra.Order.Floor.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombOptimalPoincare
+public import Mathlib.Data.Finset.Lattice.Fold
+public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Algebra.Order.Floor.Ring
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED. The manuscript's exact C_sym, using the actual
 optimal full-domain Poincare coefficient from CoulombOptimalPoincare. The

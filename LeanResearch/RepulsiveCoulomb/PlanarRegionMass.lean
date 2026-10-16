@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PlanarLpIntegralIdentities
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarLpIntegralIdentities
+
+@[expose] public section
 
 /-! Actual small-region mass control by Holder and planar Ladyzhenskaya. -/
 noncomputable section

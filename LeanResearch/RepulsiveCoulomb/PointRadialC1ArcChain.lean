@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicRadialC1Gap
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicRadialC1Gap
+
+@[expose] public section
 
 /-! Ordered macro-arcs between actual puncture times. Every piece is C1,
 regular and embedded, with the literal common physical-vertex charts and

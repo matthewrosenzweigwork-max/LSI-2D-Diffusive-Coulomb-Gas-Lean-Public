@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.EmpiricalSpatialInteraction
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePartitionBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.EmpiricalSpatialInteraction
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePartitionBounds
+
+@[expose] public section
 
 /-! Additive experimental source; verification is recorded separately in evidence. The actual physical
 reference discharges all row/product integrability and atomlessness facts.

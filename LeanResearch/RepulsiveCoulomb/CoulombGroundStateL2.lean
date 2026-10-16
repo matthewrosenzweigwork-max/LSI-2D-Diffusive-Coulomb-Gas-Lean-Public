@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateEnergy
+
+@[expose] public section
 
 /-! The actual normalized ground-state map as a real L2 linear isometry.
 No dependent cast of an Lp element is used. -/

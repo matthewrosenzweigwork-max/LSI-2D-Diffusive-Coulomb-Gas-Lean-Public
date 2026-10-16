@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointOriginalAttainedTranslatedContact
-import LeanResearch.RepulsiveCoulomb.PointOriginalStrictTranslatedCorner
-import LeanResearch.RepulsiveCoulomb.PointTranslatedNextGeometricState
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointOriginalAttainedTranslatedContact
+public import LeanResearch.RepulsiveCoulomb.PointOriginalStrictTranslatedCorner
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedNextGeometricState
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. A genuine maximal translated-strip move from the
 current signed halfplane, marked frontier and absence of a clean budget ray.

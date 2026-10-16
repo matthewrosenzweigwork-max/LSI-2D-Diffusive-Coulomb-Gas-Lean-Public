@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussian
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussian
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+
+@[expose] public section
 
 /-! Explicit planar Gaussian domination for every real nonnegative polynomial
 exponent. This preserves the manuscript's full m>=0 range without restricting

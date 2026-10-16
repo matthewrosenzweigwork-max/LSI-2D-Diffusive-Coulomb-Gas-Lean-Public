@@ -1,11 +1,15 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapNatGerms
-import LeanResearch.RepulsiveCoulomb.PointLineCapActualFamily
-import LeanResearch.RepulsiveCoulomb.PointLineCapAtomSupport
-import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryCoalescence
-import Mathlib.Algebra.BigOperators.Group.Finset.Basic
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Order
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapNatGerms
+public import LeanResearch.RepulsiveCoulomb.PointLineCapActualFamily
+public import LeanResearch.RepulsiveCoulomb.PointLineCapAtomSupport
+public import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryCoalescence
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Order
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. The actual positive line atoms and
 positive cap vertices are bijectively identified. Coincident original source

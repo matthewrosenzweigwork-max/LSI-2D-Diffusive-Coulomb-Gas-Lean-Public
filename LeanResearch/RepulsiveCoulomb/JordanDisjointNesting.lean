@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanRegionNesting
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanRegionNesting
+
+@[expose] public section
 
 /-! Disjoint Jordan curves have nested filled interiors or disjoint filled
 interiors. This supplies pairwise topology, not finite-family exterior connectivity. -/

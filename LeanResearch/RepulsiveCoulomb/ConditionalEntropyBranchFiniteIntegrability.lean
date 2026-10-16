@@ -1,5 +1,9 @@
-import Mathlib.MeasureTheory.Integral.Bochner.Basic
-import Mathlib.Tactic.Linarith
+module
+
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-! Finite signed-sum bookkeeping: integrability of a sum together with genuine
 integrable lower bounds implies integrability of every term. This prevents

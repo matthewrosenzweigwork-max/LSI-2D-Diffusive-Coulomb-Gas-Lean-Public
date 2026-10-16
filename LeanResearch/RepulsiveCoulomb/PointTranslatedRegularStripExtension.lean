@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedRegularStages
-import LeanResearch.RepulsiveCoulomb.PointTranslatedResidualFiniteBoundary
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripActualResidualGluing
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedRegularStages
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedResidualFiniteBoundary
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripActualResidualGluing
+
+@[expose] public section
 
 /-! SOURCE ONLY, UNCOMPILED. A regular actual whole strip extends to a strictly
 wider regular actual whole strip. The literal residual, its signed state, its

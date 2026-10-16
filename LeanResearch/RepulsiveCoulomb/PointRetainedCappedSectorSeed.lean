@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
-import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+public import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT, 2026-10-03.
 

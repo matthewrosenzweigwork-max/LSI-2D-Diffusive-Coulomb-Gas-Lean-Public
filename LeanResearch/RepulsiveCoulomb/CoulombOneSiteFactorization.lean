@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization
-import LeanResearch.RepulsiveCoulomb.CoulombProductVolume
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization
+public import LeanResearch.RepulsiveCoulomb.CoulombProductVolume
+
+@[expose] public section
 
 /-! Exact first-coordinate factorization with the unchanged pair exponent.
 This is a density identity; normalized disintegration is a separate step. -/

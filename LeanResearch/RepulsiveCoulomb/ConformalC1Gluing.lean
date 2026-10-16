@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConeSimilarity
-import Mathlib.Topology.Piecewise
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeSimilarity
+public import Mathlib.Topology.Piecewise
+
+@[expose] public section
 
 /-! Elementary C1 gluing for the cone support functions. Both values and first
 physical derivatives must agree on the interface. -/

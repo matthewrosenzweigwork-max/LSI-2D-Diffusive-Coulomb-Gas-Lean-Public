@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexBudgetTransport
-import Mathlib.Algebra.Order.Floor.Semiring
-import Mathlib.Data.Finset.Card
-import Mathlib.Topology.Closure
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexBudgetTransport
+public import Mathlib.Algebra.Order.Floor.Semiring
+public import Mathlib.Data.Finset.Card
+public import Mathlib.Topology.Closure
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Discrete outer rank and terminal budget algebra.
 No sector family, move existence, rank-decrease certificate, or termination

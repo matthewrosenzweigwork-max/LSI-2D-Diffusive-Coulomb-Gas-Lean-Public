@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointAttainedTranslatedResidual
-import LeanResearch.RepulsiveCoulomb.PointGeometricCutState
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointAttainedTranslatedResidual
+public import LeanResearch.RepulsiveCoulomb.PointGeometricCutState
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Repackage the ACTUALLY constructed translated
 residual as the same current-state type used by finite preparation recursion.

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
-import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchCompatibility
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
+public import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchCompatibility
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT, 2026-10-03. No compiler invocation.
 

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogSmoothConvolution
-import LeanResearch.RepulsiveCoulomb.CoulombCoordinateSplit
-import LeanResearch.RepulsiveCoulomb.CoulombSliceGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogSmoothConvolution
+public import LeanResearch.RepulsiveCoulomb.CoulombCoordinateSplit
+public import LeanResearch.RepulsiveCoulomb.CoulombSliceGeometry
+
+@[expose] public section
 
 /-! Additive original-paper producer. Genuine cylindrical logarithmic integrability for arbitrary
 compactly supported continuous tests on the full Euclidean configuration

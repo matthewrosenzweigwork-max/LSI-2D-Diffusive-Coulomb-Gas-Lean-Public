@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchOutputSystemCoefficients
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchOutputSystemCoefficients
+
+@[expose] public section
 
 /-! The genuine weak equation for C div(Aw), written in the finite combined
 system used by Friedrichs approximation. All coefficient-derivative terms

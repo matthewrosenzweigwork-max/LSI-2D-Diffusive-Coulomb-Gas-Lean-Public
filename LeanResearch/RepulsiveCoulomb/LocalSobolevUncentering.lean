@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.IntegralNormUncentering
-import Mathlib.Analysis.SpecialFunctions.Sqrt
+module
+
+public import LeanResearch.RepulsiveCoulomb.IntegralNormUncentering
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+
+@[expose] public section
 
 /-! Converting a centered local Sobolev bound on a half-mass region into an
 uncentered integral norm, with every normalization accounted for. -/

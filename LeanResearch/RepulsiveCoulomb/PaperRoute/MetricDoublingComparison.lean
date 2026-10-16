@@ -1,11 +1,15 @@
-import Mathlib.MeasureTheory.Measure.Real
-import Mathlib.MeasureTheory.Measure.WithDensity
-import Mathlib.Analysis.Real.Sqrt
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
-import Mathlib.Topology.MetricSpace.Basic
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
+module
+
+public import Mathlib.MeasureTheory.Measure.Real
+public import Mathlib.MeasureTheory.Measure.WithDensity
+public import Mathlib.Analysis.Real.Sqrt
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+public import Mathlib.Topology.MetricSpace.Basic
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-!
 # Quantitative comparison for the original paper's diameter-ball gauge

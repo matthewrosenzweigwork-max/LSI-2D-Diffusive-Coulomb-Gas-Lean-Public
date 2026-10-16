@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalConnection
-import LeanResearch.RepulsiveCoulomb.PointArgumentLiftDerivative
-import LeanResearch.RepulsiveCoulomb.JordanConformalTurnTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalConnection
+public import LeanResearch.RepulsiveCoulomb.PointArgumentLiftDerivative
+public import LeanResearch.RepulsiveCoulomb.JordanConformalTurnTransport
+
+@[expose] public section
 
 /-! Actual phase and point-argument transport identities. A fixed developed
 nonzero tangent determines the tangent-angle increment, and continuous argument

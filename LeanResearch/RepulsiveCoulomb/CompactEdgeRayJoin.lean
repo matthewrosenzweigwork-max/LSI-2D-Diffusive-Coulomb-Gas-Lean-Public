@@ -1,8 +1,12 @@
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Topology.Instances.NNReal.Lemmas
-import Mathlib.Topology.Order.OrderClosed
-import Mathlib.Topology.Order.Compact
-import Mathlib.Topology.Maps.Proper.Basic
+module
+
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Topology.Instances.NNReal.Lemmas
+public import Mathlib.Topology.Order.OrderClosed
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Topology.Maps.Proper.Basic
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Build the proper broken backward old end
 BEFORE an unbounded strip has been constructed. Its compact edge and clean

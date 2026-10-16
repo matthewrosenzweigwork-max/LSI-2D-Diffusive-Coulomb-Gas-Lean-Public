@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightBounds
+
+@[expose] public section
 
 /-! Local comparison for the literal normalized weighted Gaussian.
 These compact-set constants may depend on the configuration and the set.

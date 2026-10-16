@@ -1,7 +1,11 @@
-import Mathlib.Topology.MetricSpace.Isometry
-import Mathlib.Topology.Instances.NNReal.Lemmas
-import Mathlib.Data.ENNReal.Real
-import Mathlib.Order.Zorn
+module
+
+public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Topology.Instances.NNReal.Lemmas
+public import Mathlib.Data.ENNReal.Real
+public import Mathlib.Order.Zorn
+
+@[expose] public section
 
 /-! Literal compatible extensions of open metric-ray prefixes. Curves may branch
 after the same initial germ, so only an actual extension chain is glued. The

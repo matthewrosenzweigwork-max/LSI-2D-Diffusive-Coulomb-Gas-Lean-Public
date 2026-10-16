@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryJointData
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryJointData
+
+@[expose] public section
 
 /-! Coefficients of C div(Aw) in nondivergence form. The lower coefficient
 is C times the derivative of A; derivatives of C belong to the weak product

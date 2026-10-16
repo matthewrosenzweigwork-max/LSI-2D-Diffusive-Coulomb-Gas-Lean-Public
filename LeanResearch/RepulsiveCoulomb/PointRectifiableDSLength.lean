@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.RectifiableArcLengthSpeed
+module
+
+public import LeanResearch.RepulsiveCoulomb.RectifiableArcLengthSpeed
+
+@[expose] public section
 
 /-! Literal weighted ds length of a continuous Euclidean-rectifiable curve,
 defined by its constructed unit-speed Euclidean arclength parametrization.

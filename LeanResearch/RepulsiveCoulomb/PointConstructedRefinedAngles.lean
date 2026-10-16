@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FiniteLinkComplementTargetCover
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteLinkComplementTargetCover
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Instantiate the refined disk cover and all short
 positive widths from actual incident geometry and pointwise budget balance.

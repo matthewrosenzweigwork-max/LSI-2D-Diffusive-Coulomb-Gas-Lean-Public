@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.RawPointMeasureScaling
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointMeasureScaling
+
+@[expose] public section
 
 /-! Exact raw-weighted physical-gradient integral scaling for an arbitrary
 observable, including its total Frechet derivative at nonsmooth points. -/

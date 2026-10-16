@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.MetricRegionPathBisection
-import LeanResearch.RepulsiveCoulomb.LocalMetricBoundGlobalization
-import Mathlib.Topology.EMetricSpace.Basic
-import Mathlib.Analysis.Complex.Norm
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRegionPathBisection
+public import LeanResearch.RepulsiveCoulomb.LocalMetricBoundGlobalization
+public import Mathlib.Topology.EMetricSpace.Basic
+public import Mathlib.Analysis.Complex.Norm
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED, UNSTAGED.

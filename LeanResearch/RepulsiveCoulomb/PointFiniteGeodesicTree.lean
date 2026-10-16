@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicNearestAttachment
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicNearestAttachment
+
+@[expose] public section
 
 /-! Actual finite geodesic trees connecting any finite point set. Every new
 simple arc attaches to the previously constructed compact tree at exactly one

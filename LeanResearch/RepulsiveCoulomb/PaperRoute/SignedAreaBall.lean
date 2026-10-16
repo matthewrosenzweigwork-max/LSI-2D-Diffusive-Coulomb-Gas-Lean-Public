@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.Imported.ScalarCoarea.ScalarCoarea
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.Imported.ScalarCoarea.ScalarCoarea
+public import Mathlib.Analysis.Complex.Basic
+
+@[expose] public section
 
 /-!
 # Signed area on Euclidean balls

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightedBoundaryArea
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightedBoundaryArea
+
+@[expose] public section
 
 /-! A path crossing the annulus from B(c,R) to outside B(c,2R) has uniformly
 positive squared weighted length relative to the squared-weight mass of B(c,R).

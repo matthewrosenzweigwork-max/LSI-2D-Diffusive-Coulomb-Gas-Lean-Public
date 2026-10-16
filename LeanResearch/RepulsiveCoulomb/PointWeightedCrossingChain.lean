@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightedPolygonalChain
-import LeanResearch.RepulsiveCoulomb.PointWeightedCrossingArea
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightedPolygonalChain
+public import LeanResearch.RepulsiveCoulomb.PointWeightedCrossingArea
+
+@[expose] public section
 
 /-! A configuration-uniform crossing-area bound for the actual finite weighted
 chain. The constants depend only on the total exponent budget. -/

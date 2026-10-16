@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
-import Mathlib.MeasureTheory.Function.LpSeminorm.LpNorm
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+public import Mathlib.MeasureTheory.Function.LpSeminorm.LpNorm
+
+@[expose] public section
 
 /-! Uncentering in a finite-measure real Lq norm. -/
 noncomputable section

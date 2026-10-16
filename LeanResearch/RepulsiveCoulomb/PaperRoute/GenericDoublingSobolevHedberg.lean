@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevEnergy
-import LeanResearch.RepulsiveCoulomb.DyadicHedberg
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevEnergy
+public import LeanResearch.RepulsiveCoulomb.DyadicHedberg
+
+@[expose] public section
 
 /-! Actual Hedberg split and pointwise oscillation from supplied global doubling
 and the displayed weak PI. The exponent is determined by the new D alone. -/

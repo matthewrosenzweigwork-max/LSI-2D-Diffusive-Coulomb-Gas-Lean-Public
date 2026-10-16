@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombLabels
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchHanIntegral
-import Mathlib.Logic.Equiv.Fin.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombLabels
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchHanIntegral
+public import Mathlib.Logic.Equiv.Fin.Basic
+
+@[expose] public section
 
 /-!
 Exact reconciliation of the actual Coulomb selected-label charts with the

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerBoundaryPointSum
-import LeanResearch.RepulsiveCoulomb.PointPositiveRadialBoundaryAtom
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerBoundaryPointSum
+public import LeanResearch.RepulsiveCoulomb.PointPositiveRadialBoundaryAtom
+
+@[expose] public section
 
 /-! An original finite family's actual positive inside point-angle sum selects
 the actual boundary sector. The unshifted whole-loop inside lift and its +2π

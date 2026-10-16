@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourEdgeCarrier
-import LeanResearch.RepulsiveCoulomb.PointLengthMeasure
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourEdgeCarrier
+public import LeanResearch.RepulsiveCoulomb.PointLengthMeasure
+
+@[expose] public section
 
 /-! Exact raw weighted Hausdorff length of each nonexceptional interpolant level,
 counting each actual unoriented contour edge exactly once. -/

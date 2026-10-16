@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricCompactFrontFlatExtension
-import LeanResearch.RepulsiveCoulomb.DirectedFlatIsometryUnion
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricCompactFrontFlatExtension
+public import LeanResearch.RepulsiveCoulomb.DirectedFlatIsometryUnion
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Actual Cauchy completion of already verified
 compatible bounded-radius stages. This is only the limiting-map helper; stage

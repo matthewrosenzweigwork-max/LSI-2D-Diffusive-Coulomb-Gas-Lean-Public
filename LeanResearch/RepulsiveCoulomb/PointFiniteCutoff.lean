@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCutoffApproximation
-import Mathlib.Algebra.Order.Chebyshev
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCutoffApproximation
+public import Mathlib.Algebra.Order.Chebyshev
+
+@[expose] public section
 
 /-! Finite products of smooth point-avoidance cutoffs. Only positive exponents
 participate; repeated point locations are permitted. -/

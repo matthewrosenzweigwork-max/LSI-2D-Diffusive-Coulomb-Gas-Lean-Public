@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointActualRetainedApexSectorRemoval
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualRetainedApexSectorRemoval
+
+@[expose] public section
 
 /-!
 NEW SUCCESSOR, SOURCE-ONLY, NOT COMPILED. The original frozen body is unchanged.

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.TripleBochner
-import LeanResearch.RepulsiveCoulomb.UnitaryDifferences
-import Mathlib.GroupTheory.Perm.ViaEmbedding
-import Mathlib.GroupTheory.Perm.Support
+module
+
+public import LeanResearch.RepulsiveCoulomb.TripleBochner
+public import LeanResearch.RepulsiveCoulomb.UnitaryDifferences
+public import Mathlib.GroupTheory.Perm.ViaEmbedding
+public import Mathlib.GroupTheory.Perm.Support
+
+@[expose] public section
 
 /-! Exact transport of the local three-label inequality to arbitrary labels. -/
 noncomputable section

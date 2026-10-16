@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MetricGeodesicRay
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricGeodesicRay
+
+@[expose] public section
 
 /-! Unboundedness and genuine unit-speed rays in the literal point-density metric. -/
 noncomputable section

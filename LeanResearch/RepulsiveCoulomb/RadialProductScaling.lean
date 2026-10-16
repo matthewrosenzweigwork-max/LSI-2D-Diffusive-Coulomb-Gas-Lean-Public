@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.RadialProductAverage
+module
+
+public import LeanResearch.RepulsiveCoulomb.RadialProductAverage
+
+@[expose] public section
 
 /-! The lower radial average at every positive scale, with no dependence on the
 number, separation or multiplicities of the nonnegative radial locations. -/

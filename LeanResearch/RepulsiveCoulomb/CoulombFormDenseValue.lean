@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
-import LeanResearch.RepulsiveCoulomb.DbarBranchDenseDomain
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
+public import LeanResearch.RepulsiveCoulomb.DbarBranchDenseDomain
+
+@[expose] public section
 
 /-! Density of the actual real closed-form value range in Gibbs L2.
 The proof uses weighted-measure test annihilation, not a Haar theorem on Gibbs. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanSmoothSecantSquare
-import Mathlib.Analysis.Calculus.Deriv.Shift
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothSecantSquare
+public import Mathlib.Analysis.Calculus.Deriv.Shift
+
+@[expose] public section
 
 /-! A genuine, geometrically supported smooth turning theorem.
 

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.InterpolationYoung
+module
+
+public import LeanResearch.RepulsiveCoulomb.InterpolationYoung
+
+@[expose] public section
 
 /-! Exact Young coefficient and Gaussian-radius majorants. -/
 noncomputable section

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchComplexGraph
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchComplexGraph
+
+@[expose] public section
 
 /-! The actual weak kernel is a closed Hilbert subspace, and subtracting its
 orthogonal projection gives the minimal-norm weak solution for data already

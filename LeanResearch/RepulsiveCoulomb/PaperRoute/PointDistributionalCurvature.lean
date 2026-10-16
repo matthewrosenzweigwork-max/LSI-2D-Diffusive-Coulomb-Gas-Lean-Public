@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogSmoothConvolution
-import LeanResearch.RepulsiveCoulomb.PointConformalDensity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogSmoothConvolution
+public import LeanResearch.RepulsiveCoulomb.PointConformalDensity
+
+@[expose] public section
 
 /-!
 # Finite-point distributional curvature

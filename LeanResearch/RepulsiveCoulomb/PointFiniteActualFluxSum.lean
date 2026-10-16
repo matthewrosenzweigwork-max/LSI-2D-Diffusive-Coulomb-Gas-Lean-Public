@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryCoalescence
-import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryCoalescence
+public import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
+
+@[expose] public section
 
 /-! Finite point-flux assembly for an actual simple original radial family.
 Inside/outside/boundary values are derived by the corresponding geometric

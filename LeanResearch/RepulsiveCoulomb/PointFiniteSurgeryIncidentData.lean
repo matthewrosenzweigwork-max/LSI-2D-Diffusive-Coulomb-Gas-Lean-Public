@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConstructedRefinedAngles
-import LeanResearch.RepulsiveCoulomb.PointPairedSectorSurgeryCoordinates
-import LeanResearch.RepulsiveCoulomb.PointFiniteIncidentLinkModel
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConstructedRefinedAngles
+public import LeanResearch.RepulsiveCoulomb.PointPairedSectorSurgeryCoordinates
+public import LeanResearch.RepulsiveCoulomb.PointFiniteIncidentLinkModel
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Construct all common local input from the
 actual finite allocation. The paired old/new source coordinates are chosen

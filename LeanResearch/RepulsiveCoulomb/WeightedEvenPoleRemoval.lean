@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.WeightedPunctureVanishing
-import Mathlib.Analysis.Complex.RemovableSingularity
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedPunctureVanishing
+public import Mathlib.Analysis.Complex.RemovableSingularity
+
+@[expose] public section
 
 /-! Weighted L2 and evenness remove the puncture, including the endpoint exponent two. -/
 noncomputable section

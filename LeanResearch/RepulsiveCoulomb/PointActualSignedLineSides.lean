@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointActualBalancedSideLimit
-import Mathlib.Data.Finsupp.Defs
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualBalancedSideLimit
+public import Mathlib.Data.Finsupp.Defs
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Genuine finitely supported signed
 curvature coefficients on the fixed ambient complex plane. Boundary values

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1ChainHalfOpen
-import Mathlib.Analysis.Calculus.Deriv.Shift
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1ChainHalfOpen
+public import Mathlib.Analysis.Calculus.Deriv.Shift
+
+@[expose] public section
 
 /-! Oriented C1 plane macro-arcs retaining the same physical-vertex chart
 at each endpoint. Reversal swaps the two actual outward radial vectors. -/

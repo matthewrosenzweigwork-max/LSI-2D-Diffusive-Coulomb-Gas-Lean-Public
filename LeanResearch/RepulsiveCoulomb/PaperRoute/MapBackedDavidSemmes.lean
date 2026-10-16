@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.SemmesMetricDoubling
-import LeanResearch.RepulsiveCoulomb.PaperRoute.InverseGradientTransport
-import LeanResearch.RepulsiveCoulomb.PaperRoute.PlanarDSPoincare
-import LeanResearch.RepulsiveCoulomb.PaperRoute.BufferedCoverOscillation
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.SemmesMetricDoubling
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.InverseGradientTransport
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.PlanarDSPoincare
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.BufferedCoverOscillation
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+
+@[expose] public section
 
 /-!
 # Supplied-map planar David--Semmes and global-C1 weak Poincare

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricLineNormalizedChart
-import LeanResearch.RepulsiveCoulomb.PointClosedRegionIntrinsicMetric
-import LeanResearch.RepulsiveCoulomb.PointRadialChartSideTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineNormalizedChart
+public import LeanResearch.RepulsiveCoulomb.PointClosedRegionIntrinsicMetric
+public import LeanResearch.RepulsiveCoulomb.PointRadialChartSideTransport
+
+@[expose] public section
 
 /-! Identify the actual closed sides with the two actual local cone sectors.
 The side assignment is obtained from the actual open-region partition, common

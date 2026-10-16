@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeRoots
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeRoots
+
+@[expose] public section
 
 /-! Exact relative-coordinate factorization of the original particle density. -/
 noncomputable section

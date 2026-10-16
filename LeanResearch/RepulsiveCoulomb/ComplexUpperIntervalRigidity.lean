@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ComplexTriangleRigidity
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexTriangleRigidity
+
+@[expose] public section
 
 /-!
 Source-only bounded successor to the frozen three-module rigidity packet.

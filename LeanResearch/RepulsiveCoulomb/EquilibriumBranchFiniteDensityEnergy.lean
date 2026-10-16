@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFreeEnergyCorrespondence
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCoercivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFreeEnergyCorrespondence
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCoercivity
+
+@[expose] public section
 
 /-! Exact finite-domain bridge from literal densities and their actual product
 integrals to the canonical extended free energy. This supports genuine

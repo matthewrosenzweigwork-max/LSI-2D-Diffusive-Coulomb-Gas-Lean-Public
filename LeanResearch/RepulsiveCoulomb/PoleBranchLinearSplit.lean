@@ -1,5 +1,9 @@
-import Mathlib.Analysis.Normed.Module.FiniteDimension
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Analysis.Complex.Basic
+
+@[expose] public section
 
 /-! A genuine complex-linear product chart adapted to a transverse line. -/
 noncomputable section

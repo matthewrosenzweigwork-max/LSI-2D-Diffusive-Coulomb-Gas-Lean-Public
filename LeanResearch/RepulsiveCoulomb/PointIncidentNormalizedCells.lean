@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.FiniteLinkCellOwnership
-import LeanResearch.RepulsiveCoulomb.PointIncidentSeamOrigin
-import LeanResearch.RepulsiveCoulomb.OrderedEuclideanWedgeCover
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteLinkCellOwnership
+public import LeanResearch.RepulsiveCoulomb.PointIncidentSeamOrigin
+public import LeanResearch.RepulsiveCoulomb.OrderedEuclideanWedgeCover
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Normalize the actual directed common-chart arcs
 at a derived safe seam ray. Periodicity transports the actual closed/open

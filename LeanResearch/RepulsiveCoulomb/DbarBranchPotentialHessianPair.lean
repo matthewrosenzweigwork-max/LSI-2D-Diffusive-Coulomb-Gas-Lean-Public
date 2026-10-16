@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPotentialLaplacian
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPotentialLaplacian
+
+@[expose] public section
 
 /-! The actual real Hessian contracted along a complex line. This uses the
 checked local affine pullback and exact Coulomb Levi quadratic for every vector,

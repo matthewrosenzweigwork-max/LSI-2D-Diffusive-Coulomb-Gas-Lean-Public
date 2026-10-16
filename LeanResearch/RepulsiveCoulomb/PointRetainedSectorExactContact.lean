@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorPointwiseGerms
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorRelativeOpenness
-import LeanResearch.RepulsiveCoulomb.PointActualSectorReturnObstruction
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnGermWidthIdentification
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorPointwiseGerms
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorRelativeOpenness
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorReturnObstruction
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnGermWidthIdentification
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, NOT COMPILED. Exact retained-apex contact for the ACTUAL supplied

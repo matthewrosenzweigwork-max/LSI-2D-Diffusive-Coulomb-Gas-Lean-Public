@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfplaneHomeomorphisms
-import Mathlib.Topology.Order.OrderClosed
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfplaneHomeomorphisms
+public import Mathlib.Topology.Order.OrderClosed
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED DRAFT. A bent replacement boundary is not a
 metric line. This module constructs its proper embedding and Schoenflies sides

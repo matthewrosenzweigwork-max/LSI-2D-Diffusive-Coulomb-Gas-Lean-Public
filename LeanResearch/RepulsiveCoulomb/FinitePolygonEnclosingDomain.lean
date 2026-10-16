@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FinitePolygonLocalExterior
+module
+
+public import LeanResearch.RepulsiveCoulomb.FinitePolygonLocalExterior
+
+@[expose] public section
 
 /-! Select the innermost polygon enclosing a connected observation set, if one
 exists. This avoids the false assumption that the global exterior meets that set. -/

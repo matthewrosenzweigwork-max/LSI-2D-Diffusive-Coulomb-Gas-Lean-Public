@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombSliceGeometry
-import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombSliceGeometry
+public import Mathlib.Analysis.Calculus.FDeriv.RestrictScalars
+
+@[expose] public section
 
 /-! Literal Wirtinger coordinate derivatives, with the original real-gradient convention. -/
 noncomputable section

@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
-import LeanResearch.RepulsiveCoulomb.ClassicalConeClosedHalfSector
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkRadialTrace
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkDirectedCommonChart
-import LeanResearch.RepulsiveCoulomb.PointIncidentArcSeparation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeClosedHalfSector
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkRadialTrace
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkDirectedCommonChart
+public import LeanResearch.RepulsiveCoulomb.PointIncidentArcSeparation
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual unchanged complement-piece coordinates
 inside the already constructed ambient cone chart. Every short physical

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointClosedTranslatedTopExtension
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryContinuation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointClosedTranslatedTopExtension
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryContinuation
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Strengthen the actual closed top extension by
 proving that its newly exposed compact-edge values follow the original old

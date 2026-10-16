@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConePowerGeodesic
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
-import Mathlib.Topology.EMetricSpace.BoundedVariation
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConePowerGeodesic
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+public import Mathlib.Topology.EMetricSpace.BoundedVariation
+
+@[expose] public section
 
 /-! Euclidean rectifiability of an analytic image of a power-parametrized radial
 segment. The exponent may be arbitrarily small and positive. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicScoreUncertainty
-import LeanResearch.RepulsiveCoulomb.PointFormMomentClosure
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicScoreUncertainty
+public import LeanResearch.RepulsiveCoulomb.PointFormMomentClosure
+
+@[expose] public section
 
 /-! Canonical atomic-maximal confinement on the actual full physical form domain.
 Ground-state identities convert the new uncertainty bound to U*(5+4*gamma);

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeRadialMetric
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeRadialMetric
+
+@[expose] public section
 
 /-! Principal-sector Euclidean developing map for the model density |z|^alpha.
 This proves a branch-local exact length transformation; angular gluing into the

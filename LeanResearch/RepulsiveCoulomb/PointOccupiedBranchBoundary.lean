@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentRotatedOccupancy
-import LeanResearch.RepulsiveCoulomb.PointPairedSectorSurgeryCoordinates
-import LeanResearch.RepulsiveCoulomb.DirectedSectorDiskPlacement
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentRotatedOccupancy
+public import LeanResearch.RepulsiveCoulomb.PointPairedSectorSurgeryCoordinates
+public import LeanResearch.RepulsiveCoulomb.DirectedSectorDiskPlacement
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual forward and inverse occupied-branch
 boundary formulas in the same seam-normalized old chart and ordered target

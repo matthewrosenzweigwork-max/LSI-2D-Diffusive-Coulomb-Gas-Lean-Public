@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCollisionNull
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCollisionNull
+
+@[expose] public section
 
 /-! Actual normalized particle density, null-set equivalence and compact
 comparison away from collisions. Constants here may depend on N,beta,K. -/

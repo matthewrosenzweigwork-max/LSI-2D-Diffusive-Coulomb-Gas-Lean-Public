@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryRawWeakSystem
-import Mathlib.Algebra.BigOperators.Option
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryRawWeakSystem
+public import Mathlib.Algebra.BigOperators.Option
+
+@[expose] public section
 
 /-! One common input and the actual scalar/raw exterior weak rows, followed
 by the literal output transformation to the scalar adjoint and i<j exterior

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointCompleteLineEndDirections
-import LeanResearch.RepulsiveCoulomb.PointLineOutwardRadialTail
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCompleteLineEndDirections
+public import LeanResearch.RepulsiveCoulomb.PointLineOutwardRadialTail
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Both actual outward tails of the constructed complete line. Local
  regularity, radial signs and tangent radiality are derived from the line's

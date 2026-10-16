@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFormMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFormMean
+
+@[expose] public section
 
 /-! Continuity of the actual L1 mass on the full physical form domain. -/
 noncomputable section

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianWeightedRoute
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombLabels
-import LeanResearch.RepulsiveCoulomb.CoulombCoreConditional
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianWeightedRoute
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombLabels
+public import LeanResearch.RepulsiveCoulomb.CoulombCoreConditional
+
+@[expose] public section
 
 /-! Additive experimental source; verification is recorded separately in evidence. Actual one-site full-domain entropy
 and summed conditional core costs from the newly proved weighted witnesses.

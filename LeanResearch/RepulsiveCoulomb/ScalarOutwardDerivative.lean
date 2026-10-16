@@ -1,5 +1,9 @@
-import Mathlib.Analysis.Calculus.Deriv.MeanValue
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. A strictly convex exterior portion which
 lies above its initial level has strictly positive first derivative. -/

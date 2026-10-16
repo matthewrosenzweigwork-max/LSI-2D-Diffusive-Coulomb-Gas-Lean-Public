@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FinitePolygonExterior
-import Mathlib.Order.Preorder.Finite
+module
+
+public import LeanResearch.RepulsiveCoulomb.FinitePolygonExterior
+public import Mathlib.Order.Preorder.Finite
+
+@[expose] public section
 
 /-! Removing nesting by actual finite maximal selection. The common exterior of
 any finite family of pairwise disjoint polygonal Jordan curves is connected. -/

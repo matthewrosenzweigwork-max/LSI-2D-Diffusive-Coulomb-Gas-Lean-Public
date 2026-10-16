@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointActualRetainedParallelReturn
-import LeanResearch.RepulsiveCoulomb.PointInitialDirectionSubsegment
-import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualRetainedParallelReturn
+public import LeanResearch.RepulsiveCoulomb.PointInitialDirectionSubsegment
+public import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Remove the first-contact and boundary-gap
 premises from the genuine retained parallel-return obstruction. A supplied

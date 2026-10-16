@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicClockDifferentiable
-import LeanResearch.RepulsiveCoulomb.PointConformalArgumentTransport
-import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicClockDifferentiable
+public import LeanResearch.RepulsiveCoulomb.PointConformalArgumentTransport
+public import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+
+@[expose] public section
 
 /-! The actual conformal tangent equation on a regular reparameterized
 geodesic. A positive clock factor is derived, so the normalized tangent phase

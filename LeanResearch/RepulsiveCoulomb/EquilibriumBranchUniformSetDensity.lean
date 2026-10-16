@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCrossInteraction
-import Mathlib.MeasureTheory.Integral.Bochner.Set
-import Mathlib.MeasureTheory.Measure.Regular
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCrossInteraction
+public import Mathlib.MeasureTheory.Integral.Bochner.Set
+public import Mathlib.MeasureTheory.Measure.Regular
+
+@[expose] public section
 
 /-! A genuine finite-energy mass-filling competitor on a bounded measurable
 set of positive planar volume. This supplies the one-sided zero-set variation

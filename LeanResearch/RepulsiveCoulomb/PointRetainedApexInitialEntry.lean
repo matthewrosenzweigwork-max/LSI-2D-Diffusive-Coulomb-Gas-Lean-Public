@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexUnorientedChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexUnorientedChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY, NOT COMPILED. The free ray actually starts inside P, with
 both old endpoint orientations proved. It also never meets the clean bottom

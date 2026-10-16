@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorRadiusConstruction
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorRadiusConstruction
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Construct a genuinely unbounded flat map on
 every closed strict interior angular window, by compatible finite-radius maps.

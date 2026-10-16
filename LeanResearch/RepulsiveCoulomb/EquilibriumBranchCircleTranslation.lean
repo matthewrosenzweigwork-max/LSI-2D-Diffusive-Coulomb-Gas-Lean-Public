@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDoubleCircular
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDoubleCircular
+
+@[expose] public section
 
 /-! Exact translated circle laws, used to keep the circle of integration fixed
 in parameter measurability and to identify every double-smoothed energy term. -/

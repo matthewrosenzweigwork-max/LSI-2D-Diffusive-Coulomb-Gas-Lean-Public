@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DevelopedPathMetric
-import LeanResearch.RepulsiveCoulomb.MetricMidpointGeodesic
-import Mathlib.Topology.MetricSpace.ProperSpace
+module
+
+public import LeanResearch.RepulsiveCoulomb.DevelopedPathMetric
+public import LeanResearch.RepulsiveCoulomb.MetricMidpointGeodesic
+public import Mathlib.Topology.MetricSpace.ProperSpace
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Topology, properness, completeness, and NEW
 minimizing segments are derived for the actual developed path infimum.

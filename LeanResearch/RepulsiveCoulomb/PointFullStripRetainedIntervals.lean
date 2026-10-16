@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointFullSideRetainedChart
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
-import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
-import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfplaneHomeomorphisms
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullSideRetainedChart
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
+public import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfplaneHomeomorphisms
+
+@[expose] public section
 
 /-! Whole metric disks are restricted literally. The two retained side charts
 are constructed in one normalized actual cone chart with complementary FULL

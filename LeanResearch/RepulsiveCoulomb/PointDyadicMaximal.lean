@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightedVitali
-import LeanResearch.RepulsiveCoulomb.PointDyadicAveragingFubini
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightedVitali
+public import LeanResearch.RepulsiveCoulomb.PointDyadicAveragingFubini
+
+@[expose] public section
 
 /-! A measurable bounded-radius dyadic maximal operator for the actual point
 measure, with a configuration-uniform weak (1,1) estimate. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedOriginalData
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleLengthSupremum
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedOriginalData
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleLengthSupremum
+
+@[expose] public section
 
 /-! SOURCE-ONLY ASSEMBLY. Construct the nonempty stage set from the actual
 corner chart, derive compatibility and every advancing-front chart from the

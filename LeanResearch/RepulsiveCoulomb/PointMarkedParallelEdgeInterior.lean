@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointActualRetainedMarkedParallelReturn
-import LeanResearch.RepulsiveCoulomb.PointRetainedCornerParallelDirection
-import LeanResearch.RepulsiveCoulomb.PointParallelEdgeInterior
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualRetainedMarkedParallelReturn
+public import LeanResearch.RepulsiveCoulomb.PointRetainedCornerParallelDirection
+public import LeanResearch.RepulsiveCoulomb.PointParallelEdgeInterior
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual parallel-row no-return at a possibly marked
 attachment. A positive residual angle and the actual occupied corner give

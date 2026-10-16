@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCoreCompatibility
-import LeanResearch.RepulsiveCoulomb.PoleBranchDerivativeBounds
-import Mathlib.Analysis.Calculus.FDeriv.Measurable
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCoreCompatibility
+public import LeanResearch.RepulsiveCoulomb.PoleBranchDerivativeBounds
+public import Mathlib.Analysis.Calculus.FDeriv.Measurable
+
+@[expose] public section
 
 /-! Every genuine holomorphic weighted-L2 representative belongs to the
 actual weak kernel. Local derivative integrability follows from measurability

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+
+@[expose] public section
 
 /-! Concrete branch-cut avoidance and one-sided argument limits for the ratio
 (z−iε)/(z+iε). This is the signed local-jump calculation for an actual normal

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterGradient
-import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalLSIRate
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterGradient
+public import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalLSIRate
+
+@[expose] public section
 
 /-! Transport of every element of the original closed physical form domain.
 This module does not silently replace that domain by smooth tests, a surrogate

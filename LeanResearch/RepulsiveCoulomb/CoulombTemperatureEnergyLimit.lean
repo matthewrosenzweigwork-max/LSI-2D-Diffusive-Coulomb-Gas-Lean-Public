@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateTemperature
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateTemperature
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. Exact energy transfer to a limiting
 positive temperature, with explicit uniform drift and mass bounds. -/

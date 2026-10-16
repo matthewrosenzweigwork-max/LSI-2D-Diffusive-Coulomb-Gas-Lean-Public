@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteCutoff
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCutoff
+
+@[expose] public section
 
 /-! Common-core approximation, retaining the actual weighted Euclidean gradient. -/
 noncomputable section

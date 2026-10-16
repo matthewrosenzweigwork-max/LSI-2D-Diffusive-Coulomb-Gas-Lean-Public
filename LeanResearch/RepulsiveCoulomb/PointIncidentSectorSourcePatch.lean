@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkOpenArcLifting
-import LeanResearch.RepulsiveCoulomb.CenteredHalfDiskInteriorTransfer
-import LeanResearch.RepulsiveCoulomb.PointActualSectorIncidentOccupancy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkOpenArcLifting
+public import LeanResearch.RepulsiveCoulomb.CenteredHalfDiskInteriorTransfer
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorIncidentOccupancy
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Retain the constructed actual source patch,
 rather than forgetting it after proving occupancy. It is built from a

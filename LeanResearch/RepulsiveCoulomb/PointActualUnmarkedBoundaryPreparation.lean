@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointUnmarkedBoundaryLine
-import LeanResearch.RepulsiveCoulomb.PointActualFullLinePreparation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUnmarkedBoundaryLine
+public import LeanResearch.RepulsiveCoulomb.PointActualFullLinePreparation
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Original-input preliminary full-strip preparation.
 The former entire-frontier minimizing-line hypothesis has been removed: that

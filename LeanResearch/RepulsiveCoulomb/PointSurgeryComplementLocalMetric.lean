@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentOccupiedMotion
-import LeanResearch.RepulsiveCoulomb.PointIncidentChartMetricBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentOccupiedMotion
+public import LeanResearch.RepulsiveCoulomb.PointIncidentChartMetricBounds
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. At an actual point outside all selected closed
 sector images, every active refined branch of an incident chart is one of

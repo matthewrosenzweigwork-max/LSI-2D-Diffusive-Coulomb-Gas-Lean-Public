@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConvexLocalFlatEmbedding
-import LeanResearch.RepulsiveCoulomb.MetricClosureIsometryExtension
-import LeanResearch.RepulsiveCoulomb.PointClosedRegionIntrinsicMetric
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConvexLocalFlatEmbedding
+public import LeanResearch.RepulsiveCoulomb.MetricClosureIsometryExtension
+public import LeanResearch.RepulsiveCoulomb.PointClosedRegionIntrinsicMetric
+
+@[expose] public section
 
 /-! The literal closed-boundary extension into a closed region P.
 

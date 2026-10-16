@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright (c) 2026 The Tau Ceti contributors. All rights reserved.
 Released under Apache 2.0 license; see Imported/TauCeti/LICENSE.
@@ -10,9 +12,11 @@ different: planar volume measures the covering, while an arbitrary Borel
 measure supplies the mass. In particular no density or null-sphere hypothesis
 is imposed on the source measure.
 -/
-import Mathlib.MeasureTheory.Covering.Vitali
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
-import Mathlib.Tactic
+public import Mathlib.MeasureTheory.Covering.Vitali
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! The actual centered maximal density of an arbitrary finite planar Borel
 measure, including atoms, and its weak (1,1) bound by fourfold open-ball Vitali

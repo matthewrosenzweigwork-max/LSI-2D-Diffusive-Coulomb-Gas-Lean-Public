@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSignedGaussian
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFrullani
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSignedGaussian
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFrullani
+
+@[expose] public section
 
 /-! Genuine repulsivity of the literal planar logarithmic kernel on its
 finite absolute-energy zero-mass domain. The proof uses the actual Gaussian

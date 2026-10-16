@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompatibilityCutoff
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompatibilityCutoff
+
+@[expose] public section
 
 /-! The weak cutoff source is the actual integral of dbar(theta) wedge Su.
 Every term is integrable by compact raw testing; this does not assert global

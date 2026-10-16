@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridLocalGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridLocalGeometry
+
+@[expose] public section
 
 /-! An interior point of a physical grid edge belongs only to the two actual
 incident closed grid triangles. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeSmallAngle
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeSmallAngle
+
+@[expose] public section
 
 /-! The classical all-pairs cosine formula for the constructed positive-exponent
 cone metric. Circular angular separation uses the principal argument of z/x. -/

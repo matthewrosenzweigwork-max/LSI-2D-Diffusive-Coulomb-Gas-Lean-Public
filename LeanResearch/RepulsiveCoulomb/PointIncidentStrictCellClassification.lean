@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointComplementCellSectorExclusion
-import LeanResearch.RepulsiveCoulomb.PointIncidentOccupiedMotion
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointComplementCellSectorExclusion
+public import LeanResearch.RepulsiveCoulomb.PointIncidentOccupiedMotion
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Strict refined-cell classification.
 

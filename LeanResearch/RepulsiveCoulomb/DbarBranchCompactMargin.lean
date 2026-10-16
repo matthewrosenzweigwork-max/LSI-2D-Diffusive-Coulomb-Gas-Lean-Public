@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCoefficientExtension
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactInputMollifier
-import Mathlib.Topology.MetricSpace.Thickening
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCoefficientExtension
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactInputMollifier
+public import Mathlib.Topology.MetricSpace.Thickening
+
+@[expose] public section
 
 /-! A common compact support margin and a single shrinking bump family for
 all coefficients, inputs and outputs of a localized auxiliary system. -/

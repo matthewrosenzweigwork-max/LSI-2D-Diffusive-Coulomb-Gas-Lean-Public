@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalLSIRate
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalLSIRate
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED. Exact nested infima of the actual optimal LSI
 rates. Empty temperature sets have extended-real infimum +infinity. On

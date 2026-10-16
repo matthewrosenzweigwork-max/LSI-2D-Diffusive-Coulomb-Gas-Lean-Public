@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DirectedSectorDiskPlacement
+module
+
+public import LeanResearch.RepulsiveCoulomb.DirectedSectorDiskPlacement
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. An actual small ordered target wedge maps
 continuously into a branch's larger canonical Euclidean sector disk. The

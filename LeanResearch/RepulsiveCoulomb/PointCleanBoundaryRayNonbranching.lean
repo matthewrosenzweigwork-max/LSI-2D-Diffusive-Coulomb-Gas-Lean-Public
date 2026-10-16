@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskRayNonbranching
-import LeanResearch.RepulsiveCoulomb.PointCleanRayRetainedHalfDisks
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskRayNonbranching
+public import LeanResearch.RepulsiveCoulomb.PointCleanRayRetainedHalfDisks
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. Actual clean old-boundary rays are nonbranching

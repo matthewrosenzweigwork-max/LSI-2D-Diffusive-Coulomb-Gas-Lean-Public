@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.JordanPhysicalHalfplane
-import LeanResearch.RepulsiveCoulomb.JordanAffineTraceTangent
-import LeanResearch.RepulsiveCoulomb.JordanRoundedPointIncrement
-import Mathlib.Analysis.Calculus.TangentCone.Real
-import Mathlib.Tactic.Linarith
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanPhysicalHalfplane
+public import LeanResearch.RepulsiveCoulomb.JordanAffineTraceTangent
+public import LeanResearch.RepulsiveCoulomb.JordanRoundedPointIncrement
+public import Mathlib.Analysis.Calculus.TangentCone.Real
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-! Exact physical tangent transport across a small C1 replacement. All
 hypotheses concern actual traces, derivatives and positive physical projections;

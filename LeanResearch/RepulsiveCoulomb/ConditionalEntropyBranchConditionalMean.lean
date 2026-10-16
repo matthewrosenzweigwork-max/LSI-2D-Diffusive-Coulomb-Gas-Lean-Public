@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchBinaryKL
-import Mathlib.Probability.Kernel.Disintegration.Integral
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchBinaryKL
+public import Mathlib.Probability.Kernel.Disintegration.Integral
+
+@[expose] public section
 
 /-! Signed-integrable conditional means for the genuinely constructed arbitrary
 law, with absolute integrability established before the tower identity.

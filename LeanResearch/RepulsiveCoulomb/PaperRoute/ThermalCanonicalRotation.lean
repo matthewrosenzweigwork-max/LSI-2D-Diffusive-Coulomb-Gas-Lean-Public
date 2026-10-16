@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalUniqueness
-import Mathlib.Analysis.Complex.Isometry
-import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
-import Mathlib.MeasureTheory.MeasurableSpace.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalUniqueness
+public import Mathlib.Analysis.Complex.Isometry
+public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+public import Mathlib.MeasureTheory.MeasurableSpace.Prod
+
+@[expose] public section
 
 /-! Literal canonical-energy invariance under
 real linear isometries, followed by measure invariance from the NEW Green/

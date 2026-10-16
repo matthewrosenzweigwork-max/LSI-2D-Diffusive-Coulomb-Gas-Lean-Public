@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridC1Convergence
-import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridC1Convergence
+public import Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence
+
+@[expose] public section
 
 /-! Actual dominated convergence of the physical weighted-gradient integral for
 the constructed compact-C1 mesh samples. -/

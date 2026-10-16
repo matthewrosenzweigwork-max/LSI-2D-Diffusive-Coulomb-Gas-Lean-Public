@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreCompactness
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreCompactness
+
+@[expose] public section
 
 /-! Actual compactness of the full original closed form domain in Gibbs L2,
 for each fixed particle number and positive temperature. Core approximation

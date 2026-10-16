@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreSmoothTruncation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreSmoothTruncation
+
+@[expose] public section
 
 /-! Finite actual-core energy sums inherit the disjoint-band bound. -/
 noncomputable section

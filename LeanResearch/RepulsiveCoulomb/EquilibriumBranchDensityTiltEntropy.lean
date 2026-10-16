@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityMeasure
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMixture
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyTiltDerivative
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityMeasure
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMixture
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyTiltDerivative
+
+@[expose] public section
 
 /-! Actual entropy of a bounded multiplicative density variation. The base
 entropy is absolutely integrable and the varying logarithm has a uniform

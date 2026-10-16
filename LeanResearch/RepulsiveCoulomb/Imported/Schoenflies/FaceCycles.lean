@@ -1,12 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.CycleJordan
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.RelativeEar
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.OuterFace
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Subarc
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.CycleJordan
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.RelativeEar
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.OuterFace
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Subarc
+
+@[expose] public section
 
 /-!
 # Face cycles: the base cycle, and the faces of a plane graph that grows by ears

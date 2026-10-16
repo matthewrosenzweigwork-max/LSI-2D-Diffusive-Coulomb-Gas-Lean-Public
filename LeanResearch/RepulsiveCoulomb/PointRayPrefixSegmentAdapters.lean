@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointPrescribedMaximalRayPrefix
-import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointPrescribedMaximalRayPrefix
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
+
+@[expose] public section
 
 /-! Exact closed-time metric facts for the prescribed seed, and the actual
 reverse edge of a completed metric prefix. These are explicit curve adapters,

@@ -1,6 +1,10 @@
-import Mathlib.MeasureTheory.VectorMeasure.Prod
-import Mathlib.MeasureTheory.VectorMeasure.Variation.SignedMeasure
-import Mathlib.Tactic.Ring
+module
+
+public import Mathlib.MeasureTheory.VectorMeasure.Prod
+public import Mathlib.MeasureTheory.VectorMeasure.Variation.SignedMeasure
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Additive experimental source; verification is recorded separately in evidence. Genuine signed-product
 algebra and variation-integrable restricted interaction; no product or

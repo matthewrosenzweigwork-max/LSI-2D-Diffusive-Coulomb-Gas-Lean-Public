@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalStrictEntropy
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalFiniteEnergyConvexity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFiniteDensityEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalStrictEntropy
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalFiniteEnergyConvexity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFiniteDensityEnergy
+
+@[expose] public section
 
 /-! Strict convexity of the unchanged canonical
 free energy, after all self/mixed entropy and interaction integrability has

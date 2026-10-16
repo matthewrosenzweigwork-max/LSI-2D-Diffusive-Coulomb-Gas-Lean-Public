@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGaussianStrongSobolev
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGaussianStrongSobolev
+
+@[expose] public section
 
 /-! The literal Gaussian local Sobolev corollary, in the manuscript's norm
 form, with a single constant in front and in the exponential. The raw weak

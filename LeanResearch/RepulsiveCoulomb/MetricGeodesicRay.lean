@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalGeodesic
-import Mathlib.Topology.Compactness.Compact
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalGeodesic
+public import Mathlib.Topology.Compactness.Compact
+
+@[expose] public section
 
 /-! A compactness construction of metric rays from arbitrarily long segments.
 The compact product supplies a single compatible ray; no unproved subsequence or

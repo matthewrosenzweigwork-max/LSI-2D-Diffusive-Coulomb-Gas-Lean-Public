@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PlanarProperRayCompactification
-import Mathlib.Topology.Homeomorph.Lemmas
-import Mathlib.Topology.Algebra.Group.ContinuousDiv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarProperRayCompactification
+public import Mathlib.Topology.Homeomorph.Lemmas
+public import Mathlib.Topology.Algebra.Group.ContinuousDiv
+
+@[expose] public section
 
 /-! Remove the common marked infinity of an actual compactification extension.
 The inverse pole is restored by properness of the ambient homeomorphism; the

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombJetPermutation
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombJetPermutation
+
+@[expose] public section
 
 /-! Label permutations act on the full original closed form, preserving physical energy. -/
 noncomputable section

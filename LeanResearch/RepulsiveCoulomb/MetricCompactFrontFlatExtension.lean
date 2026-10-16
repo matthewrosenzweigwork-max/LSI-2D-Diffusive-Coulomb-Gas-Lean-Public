@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchedUnion
-import LeanResearch.RepulsiveCoulomb.MetricInteriorSupportedPatchExtension
-import Mathlib.Topology.MetricSpace.Thickening
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchedUnion
+public import LeanResearch.RepulsiveCoulomb.MetricInteriorSupportedPatchExtension
+public import Mathlib.Topology.MetricSpace.Thickening
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT, 2026-10-03.
 

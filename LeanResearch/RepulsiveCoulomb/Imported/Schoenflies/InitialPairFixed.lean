@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.InitialPair
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.BoundaryCycles
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.InitialPair
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.BoundaryCycles
+
+@[expose] public section
 
 /-!
 # The complete construction of `prop:initial-pair`

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FinitePolygonRelativeExterior
+module
+
+public import LeanResearch.RepulsiveCoulomb.FinitePolygonRelativeExterior
+
+@[expose] public section
 
 /-! One strict level side in any connected observation set is covered by the
 bounded interiors of exactly the polygonal level components meeting that set. -/

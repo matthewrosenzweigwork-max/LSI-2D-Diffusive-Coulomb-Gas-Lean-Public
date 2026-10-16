@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedStripSourceGeometry
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripSourceGeometry
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
+
+@[expose] public section
 
 /-! SOURCE-ONLY MAXIMAL-WIDTH HELPER. Actual Cauchy completion on an
 UNBOUNDED strip at a finite width supremum. All source closure and all-pairs

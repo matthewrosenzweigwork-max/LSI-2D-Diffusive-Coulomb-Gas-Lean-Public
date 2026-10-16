@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricFlatHalfDiskChart
-import LeanResearch.RepulsiveCoulomb.ComplexUpperIntervalRigidity
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricFlatHalfDiskChart
+public import LeanResearch.RepulsiveCoulomb.ComplexUpperIntervalRigidity
+
+@[expose] public section
 
 /-! Successor source-only draft. An actual two-sided unit-speed old boundary
 segment determines the horizontal arclength coordinate of a genuine retained

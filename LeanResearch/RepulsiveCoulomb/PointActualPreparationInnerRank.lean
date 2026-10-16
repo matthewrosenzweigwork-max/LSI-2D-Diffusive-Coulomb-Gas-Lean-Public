@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointOriginalMaximalTranslatedMove
-import LeanResearch.RepulsiveCoulomb.PointActualUnmarkedPreparationState
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointOriginalMaximalTranslatedMove
+public import LeanResearch.RepulsiveCoulomb.PointActualUnmarkedPreparationState
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The actual translated move strictly decreases
 the common-mark rank n+i. Here n counts supp(nu) UNION supp(alpha), including

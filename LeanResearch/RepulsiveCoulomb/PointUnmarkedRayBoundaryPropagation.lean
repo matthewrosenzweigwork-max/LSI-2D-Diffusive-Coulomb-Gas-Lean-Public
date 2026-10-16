@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatBoundaryInterval
-import Mathlib.Topology.Connected.Clopen
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatBoundaryInterval
+public import Mathlib.Topology.Connected.Clopen
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. A minimizing ray with zero signed coefficient at
 all positive-time boundary contacts has either no positive boundary contact or

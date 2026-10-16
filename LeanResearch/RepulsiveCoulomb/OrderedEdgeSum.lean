@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FinitePermutationPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.FinitePermutationPoincare
+
+@[expose] public section
 
 /-! Identification of unordered edges with pairs i<j, without multiplicity loss. -/
 noncomputable section

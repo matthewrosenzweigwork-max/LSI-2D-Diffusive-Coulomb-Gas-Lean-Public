@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.JordanPhysicalCornerMap
-import LeanResearch.RepulsiveCoulomb.JordanPhysicalCornerTurn
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerWidths
-import LeanResearch.RepulsiveCoulomb.JordanSplitCornerEdges
-import LeanResearch.RepulsiveCoulomb.JordanCornerReplacementHomotopy
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanPhysicalCornerMap
+public import LeanResearch.RepulsiveCoulomb.JordanPhysicalCornerTurn
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerWidths
+public import LeanResearch.RepulsiveCoulomb.JordanSplitCornerEdges
+public import LeanResearch.RepulsiveCoulomb.JordanCornerReplacementHomotopy
+
+@[expose] public section
 
 /-! Constructed simultaneous rounding for arbitrary regular C1 non-antipodal
 corners. The additive real maps need no injectivity or conformality. Positivity

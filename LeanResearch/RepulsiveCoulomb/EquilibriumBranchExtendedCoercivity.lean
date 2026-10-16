@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFreeEnergyCorrespondence
-import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFreeEnergyCorrespondence
+public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+
+@[expose] public section
 
 /-! The manuscript's exact quarter-moment coercivity, separately from the
 weaker eighth-moment estimate used internally for compactness. The Gaussian

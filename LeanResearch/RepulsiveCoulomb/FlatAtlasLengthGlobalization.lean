@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DevelopedPathMetricLocalIsometry
-import LeanResearch.RepulsiveCoulomb.PointConformalGeodesic
-import LeanResearch.RepulsiveCoulomb.PointRectifiableConformalMetric
+module
+
+public import LeanResearch.RepulsiveCoulomb.DevelopedPathMetricLocalIsometry
+public import LeanResearch.RepulsiveCoulomb.PointConformalGeodesic
+public import LeanResearch.RepulsiveCoulomb.PointRectifiableConformalMetric
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. Conditional assembly boundary for the ACTUAL finite

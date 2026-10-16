@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.SmoothTruncationGradient
+module
+
+public import LeanResearch.RepulsiveCoulomb.SmoothTruncationGradient
+
+@[expose] public section
 
 /-! Disjoint dyadic value bands and the actual sum of truncated physical
 energies. Endpoints have zero truncation derivative, so no level-set nullness

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreLocalSPI
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreLocalSPI
+
+@[expose] public section
 
 /-! Actual L1 and L2 mass controls for the inner/outer smooth-core split. -/
 noncomputable section

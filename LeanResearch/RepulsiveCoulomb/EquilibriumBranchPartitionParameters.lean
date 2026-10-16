@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNelsonParameters
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNelsonParameters
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+
+@[expose] public section
 
 /-! Particle-number-independent parameters for the actual partition tail
 assembly. This specializes the already proved corrected integer construction;

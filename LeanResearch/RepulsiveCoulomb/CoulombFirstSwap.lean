@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeJointLaw
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeSwap
-import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeJointLaw
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeSwap
+public import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter ProbabilityTheory

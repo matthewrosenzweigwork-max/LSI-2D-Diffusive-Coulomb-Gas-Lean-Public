@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedActualInitialAngle
-import LeanResearch.RepulsiveCoulomb.ComplexLocalGeodesicStraightness
-import Mathlib.Topology.Connected.Clopen
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedActualInitialAngle
+public import LeanResearch.RepulsiveCoulomb.ComplexLocalGeodesicStraightness
+public import Mathlib.Topology.Connected.Clopen
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY COMPANION, begun 2026-10-03 12:56 UTC.
 No compiler invocation, canonical staging, or acceptance claim.

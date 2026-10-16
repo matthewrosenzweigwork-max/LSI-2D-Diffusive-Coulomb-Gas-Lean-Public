@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchPositiveCoreEntropy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchPositiveCoreEntropy
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED. The actual optimal LSI rate is the supremum of
 zero and every positive rate satisfying the literal inequality on the full

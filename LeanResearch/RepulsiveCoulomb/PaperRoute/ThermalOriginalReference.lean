@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalSharpCap
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalSharpCap
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
+
+@[expose] public section
 
 /-! The unchanged physical reference record is populated from the SAME
 actual positive smooth sharply capped EL density of a NEW canonical

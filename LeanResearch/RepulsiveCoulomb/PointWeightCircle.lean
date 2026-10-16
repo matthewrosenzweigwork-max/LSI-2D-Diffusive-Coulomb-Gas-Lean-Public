@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightBounds
+
+@[expose] public section
 
 /-! The Euclidean circle-average input for the uniform lower normalization
 bound. The logarithmic average is Mathlib's exact planar identity, and

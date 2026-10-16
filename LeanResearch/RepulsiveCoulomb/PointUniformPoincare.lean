@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFormMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFormMean
+
+@[expose] public section
 
 /-! Configuration-uniform global Poincare on the full physical closed form. -/
 noncomputable section

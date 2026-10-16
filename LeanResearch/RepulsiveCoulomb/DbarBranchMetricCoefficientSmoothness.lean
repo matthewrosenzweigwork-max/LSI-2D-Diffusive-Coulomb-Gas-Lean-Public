@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricMatrixMeasurability
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphKahler
-import Mathlib.Analysis.Calculus.ContDiff.WithLp
-import Mathlib.Analysis.InnerProductSpace.Calculus
-import Mathlib.Analysis.SpecialFunctions.Sqrt
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricMatrixMeasurability
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphKahler
+public import Mathlib.Analysis.Calculus.ContDiff.WithLp
+public import Mathlib.Analysis.InnerProductSpace.Calculus
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+
+@[expose] public section
 
 /-! The literal square-root and inverse-root matrix coefficients are real
 C-infinity on the collision complement. The conjugated Hilbert representer

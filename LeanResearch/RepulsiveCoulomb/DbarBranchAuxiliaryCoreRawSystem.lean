@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreWeakEquations
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryJointData
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreWeakEquations
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryJointData
+
+@[expose] public section
 
 /-! Both literal raw weak rows for arbitrary compact vector cores. This
 does not require those cores to lie in the compatibility subspace: their

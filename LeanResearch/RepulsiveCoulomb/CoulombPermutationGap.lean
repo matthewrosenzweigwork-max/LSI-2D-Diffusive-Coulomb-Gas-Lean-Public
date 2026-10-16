@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.HilbertTranspositionGap
-import LeanResearch.RepulsiveCoulomb.CoulombFormSymmetrizer
-import LeanResearch.RepulsiveCoulomb.CoulombFormPairSum
+module
+
+public import LeanResearch.RepulsiveCoulomb.HilbertTranspositionGap
+public import LeanResearch.RepulsiveCoulomb.CoulombFormSymmetrizer
+public import LeanResearch.RepulsiveCoulomb.CoulombFormPairSum
+
+@[expose] public section
 
 /-! Actual Gibbs L2 transposition gap and full-domain label-dependent variance bound. -/
 noncomputable section

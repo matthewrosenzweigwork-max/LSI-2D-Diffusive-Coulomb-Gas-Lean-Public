@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianLocalGeometry
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzSobolevClosure
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianLocalGeometry
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzSobolevClosure
+
+@[expose] public section
 
 /-! The original local strong-Sobolev displays for the genuine locally-Lipschitz
 class. Constants, exponent and dilation11 are unchanged from the actual new

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricFlatDiskPatchExtension
-import LeanResearch.RepulsiveCoulomb.MetricFlatHalfDiskChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricFlatDiskPatchExtension
+public import LeanResearch.RepulsiveCoulomb.MetricFlatHalfDiskChart
+
+@[expose] public section
 
 /-! Successor source-only draft. Interior points of an actual isometric
 Euclidean patch onto a whole metric ball have actual full flat metric disks.

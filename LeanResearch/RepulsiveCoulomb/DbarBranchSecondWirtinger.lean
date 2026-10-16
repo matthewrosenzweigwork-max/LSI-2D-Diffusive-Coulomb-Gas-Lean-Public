@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWirtingerAlgebra
-import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWirtingerAlgebra
+public import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+
+@[expose] public section
 
 /-! Actual second Wirtinger differentiation and commutation on C2 germs,
 proved from the symmetric real Frechet Hessian. -/

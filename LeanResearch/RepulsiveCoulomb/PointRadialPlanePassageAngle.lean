@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1PassageAngle
-import LeanResearch.RepulsiveCoulomb.PointRadialC1PlaneArc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1PassageAngle
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1PlaneArc
+
+@[expose] public section
 
 /-! The same-chart passage bound for two actual radial plane arcs with local
 metric additivity. This covers the retained triangle corner even when its

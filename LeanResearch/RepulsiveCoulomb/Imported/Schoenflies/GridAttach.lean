@@ -1,12 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.LocalGrid
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Ear
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Line
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolygonalCarrier
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.LocalGrid
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Ear
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Line
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolygonalCarrier
+
+@[expose] public section
 
 /-!
 # Attaching a local source grid — `prop:local-grid-attachment`

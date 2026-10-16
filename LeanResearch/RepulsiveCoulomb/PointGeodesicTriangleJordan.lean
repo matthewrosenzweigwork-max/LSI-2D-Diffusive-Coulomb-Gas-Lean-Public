@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleSubedges
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Concatenate
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleSubedges
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Concatenate
+
+@[expose] public section
 
 /-! The extracted three minimizing subedges form a genuine Jordan curve via
 the approved arbitrary-arc concatenation theorem, without polygonal substitution. -/

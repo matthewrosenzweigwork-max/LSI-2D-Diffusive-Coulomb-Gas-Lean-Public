@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointSmoothJoinTangents
-import LeanResearch.RepulsiveCoulomb.JordanConformalTurnTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSmoothJoinTangents
+public import LeanResearch.RepulsiveCoulomb.JordanConformalTurnTransport
+
+@[expose] public section
 
 /-! Noncuspidality at an actual radial-chart corner follows from genuine
 endpoint-only intersection. A positive coincidence of the two outgoing rays

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreAnnularDecomposition
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreAnnularDecomposition
+
+@[expose] public section
 
 /-! Fixed absorption parameter and radius-uniform lower-order coefficients. -/
 noncomputable section

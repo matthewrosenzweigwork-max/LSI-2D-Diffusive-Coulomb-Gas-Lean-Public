@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanCenteredHalfDisk
-import LeanResearch.RepulsiveCoulomb.ClosedSectorContractionHomeomorph
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanCenteredHalfDisk
+public import LeanResearch.RepulsiveCoulomb.ClosedSectorContractionHomeomorph
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual post-contraction passing-edge charts.
 The target halfdisk is centered at the contracted edge point; its source

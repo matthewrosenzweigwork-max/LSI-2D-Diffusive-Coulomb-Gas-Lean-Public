@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicOrientedClock
-import LeanResearch.RepulsiveCoulomb.PointGeodesicPhysicalSpeed
-import LeanResearch.RepulsiveCoulomb.PointConformalPhaseChart
-import Mathlib.Analysis.Calculus.Deriv.Slope
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicOrientedClock
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicPhysicalSpeed
+public import LeanResearch.RepulsiveCoulomb.PointConformalPhaseChart
+public import Mathlib.Analysis.Calculus.Deriv.Slope
+
+@[expose] public section
 
 /-! A regular equal-image representative of an actual geodesic has a
 strictly positive differentiable source clock away from the punctures.

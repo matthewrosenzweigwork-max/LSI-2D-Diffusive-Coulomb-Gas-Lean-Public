@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourGraph
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourGraph
+
+@[expose] public section
 
 /-! Exact physical coordinates of open regular-grid edges and injectivity of the
 actual contour-vertex position map. -/

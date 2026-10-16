@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.AffineTriangleSlice
+module
+
+public import LeanResearch.RepulsiveCoulomb.AffineTriangleSlice
+
+@[expose] public section
 
 /-! Threshold and orientation invariant triangle slices from two genuine incident
 edge crossings. No affine formula is assumed to be globally shared by cells. -/

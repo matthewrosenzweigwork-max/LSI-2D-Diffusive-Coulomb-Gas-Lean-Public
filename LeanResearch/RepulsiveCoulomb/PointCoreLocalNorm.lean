@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightUniformTails
-import LeanResearch.RepulsiveCoulomb.PointCoreExterior
-import LeanResearch.RepulsiveCoulomb.LocalSobolevUncentering
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightUniformTails
+public import LeanResearch.RepulsiveCoulomb.PointCoreExterior
+public import LeanResearch.RepulsiveCoulomb.LocalSobolevUncentering
+
+@[expose] public section
 
 /-! Uncentered local Gaussian Sobolev control for the actual original core,
 with a radius chosen uniformly before every weighted point configuration. -/

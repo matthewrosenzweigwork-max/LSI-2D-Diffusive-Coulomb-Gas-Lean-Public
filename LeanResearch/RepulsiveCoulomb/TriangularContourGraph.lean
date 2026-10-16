@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridCrossedTriangles
-import Mathlib.Combinatorics.SimpleGraph.Matching
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridCrossedTriangles
+public import Mathlib.Combinatorics.SimpleGraph.Matching
+
+@[expose] public section
 
 /-! The actual finite contour graph has exactly two neighbors at every vertex.
 Its vertices are crossed physical grid edges; adjacency is shared-triangle

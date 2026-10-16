@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
-import LeanResearch.RepulsiveCoulomb.PlanarProperRayCompactification
-import LeanResearch.RepulsiveCoulomb.PlanarClosedRayTopology
-import LeanResearch.RepulsiveCoulomb.PointGeodesicJordanBigon
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+public import LeanResearch.RepulsiveCoulomb.PlanarProperRayCompactification
+public import LeanResearch.RepulsiveCoulomb.PlanarClosedRayTopology
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicJordanBigon
+
+@[expose] public section
 
 /-! An actual minimizing complete line has two proper rays, a nonempty planar
 complement, and an actual Jordan compactification under inversion. This is the

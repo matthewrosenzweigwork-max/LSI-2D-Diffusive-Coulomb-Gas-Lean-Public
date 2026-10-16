@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterOptimalOrder
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterOptimalOrder
+
+@[expose] public section
 
 /-! A genuine normalized compact relative-core test with positive finite
 entropy. This supplies finite upper bounds for the actual relative optimal

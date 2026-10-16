@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEmpirical
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCommonMeasureEnergy
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveFiniteEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEmpirical
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCommonMeasureEnergy
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveFiniteEnergy
+
+@[expose] public section
 
 /-! Actual signed-measure repulsivity for the singular circle-smeared empirical
 probability and a finite-objective reference. The common measure, nonatomicity,

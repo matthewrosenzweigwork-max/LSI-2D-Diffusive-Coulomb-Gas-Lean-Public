@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedIntegral
+
+@[expose] public section
 
 /-! Exact extended-real algebra for the nonnegative free-energy decomposition.
 Both entropy and positive interaction may independently be infinite. The

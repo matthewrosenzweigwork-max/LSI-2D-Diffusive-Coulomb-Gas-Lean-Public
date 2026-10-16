@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCompactZeroGradientLimit
-import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
-import Mathlib.Analysis.SpecificLimits.Basic
-import Mathlib.Analysis.Normed.Module.RCLike.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCompactZeroGradientLimit
+public import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
+public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Analysis.Normed.Module.RCLike.Basic
+
+@[expose] public section
 
 /-! Compactness-to-coercivity adapter. The explicit zero-gradient mean-zero
 kernel premise is a separate genuine input, not claimed proved by compactness. -/

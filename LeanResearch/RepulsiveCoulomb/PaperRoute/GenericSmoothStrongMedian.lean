@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericSmoothWeakToStrong
-import Mathlib.Analysis.Calculus.FDeriv.Add
-import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericSmoothWeakToStrong
+public import Mathlib.Analysis.Calculus.FDeriv.Add
+public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+
+@[expose] public section
 
 /-
 Additive paper-route copy of the generic argument in SmoothStrongMedian.lean.

@@ -1,18 +1,22 @@
+module
+
 /-
 Copyright (c) 2026 Asher Yan. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Asher Yan with ChatGPT 5.6
 -/
-import Mathlib.Analysis.Calculus.FDeriv.Measurable
-import Mathlib.Analysis.Calculus.Rademacher
-import Mathlib.Analysis.InnerProductSpace.NormDet
-import Mathlib.Geometry.Euclidean.Volume.Measure
-import Mathlib.LinearAlgebra.Matrix.SchurComplement
-import Mathlib.MeasureTheory.Function.Jacobian
-import Mathlib.MeasureTheory.Constructions.Pi
-import Mathlib.MeasureTheory.Integral.Lebesgue.Add
-import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
-import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+public import Mathlib.Analysis.Calculus.FDeriv.Measurable
+public import Mathlib.Analysis.Calculus.Rademacher
+public import Mathlib.Analysis.InnerProductSpace.NormDet
+public import Mathlib.Geometry.Euclidean.Volume.Measure
+public import Mathlib.LinearAlgebra.Matrix.SchurComplement
+public import Mathlib.MeasureTheory.Function.Jacobian
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Basic
+public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+
+@[expose] public section
 
 /-!
 # Scalar coarea

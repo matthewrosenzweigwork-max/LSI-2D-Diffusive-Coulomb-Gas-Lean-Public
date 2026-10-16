@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchExpansion
-import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchSupportSum
+module
+
+public import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchExpansion
+public import LeanResearch.RepulsiveCoulomb.PartitionMomentBranchSupportSum
+
+@[expose] public section
 
 /-! Derived centered finite-product ordered-pair correlation moments.
 The proof follows the finite-word expansion, absolute integrability, signed

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSmoothedMoments
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEmpiricalRepulsivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSmoothedMoments
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEmpiricalRepulsivity
+
+@[expose] public section
 
 /-! Genuine common-measure Coulomb positivity after smearing both the empirical
 and reference measures. Mass, cap, P2, absolute energies, nonatomicity and support

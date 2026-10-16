@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchWeakProjectionSymmetry
-import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchWeakProjectionSymmetry
+public import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
+
+@[expose] public section
 
 /-! Real L2 centering inside the literal complex Gibbs L2 space. These lemmas
 use the existing scalar postcomposition operation, not a second form-domain

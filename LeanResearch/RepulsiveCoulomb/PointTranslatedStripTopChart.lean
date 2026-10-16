@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedStripLocalSources
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripCornerChart
-import LeanResearch.RepulsiveCoulomb.PointActualHalfDiskComplement
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripLocalSources
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripCornerChart
+public import LeanResearch.RepulsiveCoulomb.PointActualHalfDiskComplement
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Every positive-time point of the actual free
 top ray gets a genuine FULL complementary retained chart. The input may be an

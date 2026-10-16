@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreCoordinates
-import Mathlib.MeasureTheory.Function.L2Space
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreCoordinates
+public import Mathlib.MeasureTheory.Function.L2Space
+
+@[expose] public section
 
 /-! The actual inverse metric square root is a bounded complex-linear
 self-adjoint contraction on the original fixed-fiber weighted vector L2.

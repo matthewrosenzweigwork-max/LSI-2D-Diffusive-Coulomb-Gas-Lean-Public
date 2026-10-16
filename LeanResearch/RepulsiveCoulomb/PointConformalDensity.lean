@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointExponentCoalescence
-import LeanResearch.RepulsiveCoulomb.PointWeightScore
-import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointExponentCoalescence
+public import LeanResearch.RepulsiveCoulomb.PointWeightScore
+public import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+
+@[expose] public section
 
 /-! The literal conformal density used in the Bonk--Lang reduction.
 The logarithmic density is harmonic away from positive-exponent punctures.

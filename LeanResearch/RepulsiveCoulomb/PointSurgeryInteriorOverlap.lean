@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentOccupiedMotion
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentOccupiedMotion
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. All actual constructed local model cases have
 rigid overlap at points inside a selected open sector. The relevant global

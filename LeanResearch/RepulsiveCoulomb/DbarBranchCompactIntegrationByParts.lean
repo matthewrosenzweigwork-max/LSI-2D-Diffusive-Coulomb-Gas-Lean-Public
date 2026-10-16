@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWirtingerAlgebra
-import LeanResearch.RepulsiveCoulomb.CoulombDbarCore
-import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWirtingerAlgebra
+public import LeanResearch.RepulsiveCoulomb.CoulombDbarCore
+public import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
+
+@[expose] public section
 
 /-! Actual compact-support integration by parts for complex test functions and
 the literal dbar/partial operators. Every split integral has an integrability

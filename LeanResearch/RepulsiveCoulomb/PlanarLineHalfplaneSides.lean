@@ -1,6 +1,10 @@
-import Mathlib.Analysis.Complex.ReImTopology
-import Mathlib.Analysis.Convex.PathConnected
-import Mathlib.Topology.Homeomorph.Lemmas
+module
+
+public import Mathlib.Analysis.Complex.ReImTopology
+public import Mathlib.Analysis.Convex.PathConnected
+public import Mathlib.Topology.Homeomorph.Lemmas
+
+@[expose] public section
 
 /-! Literal upper/lower halfplane sides and restrictions of a constructed line
 straightening. Side labels are explicit: positive imaginary coordinate is the

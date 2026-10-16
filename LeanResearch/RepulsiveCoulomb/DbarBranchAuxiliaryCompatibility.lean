@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryOriginalGraph
-import LeanResearch.RepulsiveCoulomb.DbarBranchDistributionCompatibility
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryOriginalGraph
+public import LeanResearch.RepulsiveCoulomb.DbarBranchDistributionCompatibility
+
+@[expose] public section
 
 /-! The closed raw compatibility space K={g:curl(Sg)=0 distributionally}.
 Its equations are continuous compact pairings on auxiliary L2. The actual

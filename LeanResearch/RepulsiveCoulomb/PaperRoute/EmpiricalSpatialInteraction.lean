@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.SignedProductExpansion
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.SignedProductExpansion
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+
+@[expose] public section
 
 /-! Additive experimental source; verification is recorded separately in evidence. The empirical measure
 is literal; the energy is an actual signed-product integral restricted off

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalRotation
-import Mathlib.Analysis.InnerProductSpace.Projection.Reflection
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalRotation
+public import Mathlib.Analysis.InnerProductSpace.Projection.Reflection
+
+@[expose] public section
 
 /-! Genuine extended logarithmic potentials
 retain the positive singular infinity and have an independently integrable

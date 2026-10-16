@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FiniteTranspositionGap
-import Mathlib.Topology.Algebra.Module.ContinuousLinearMap.Restrict
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteTranspositionGap
+public import Mathlib.Topology.Algebra.Module.ContinuousLinearMap.Restrict
+
+@[expose] public section
 
 /-! Restrict a genuine finite-group representation to the finite-dimensional orbit span. -/
 noncomputable section

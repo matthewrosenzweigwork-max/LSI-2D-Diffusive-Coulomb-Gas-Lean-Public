@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightedSegment
-import LeanResearch.RepulsiveCoulomb.PointWeightedRegionArea
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightedSegment
+public import LeanResearch.RepulsiveCoulomb.PointWeightedRegionArea
+
+@[expose] public section
 
 /-! Uniform area control by the actual sum of weighted edge lengths of a finite
 polygonal chain. No global C1 parametrization of a polygon is assumed. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceGibbsIntegrability
-import LeanResearch.RepulsiveCoulomb.PaperRoute.DiskSpatialGibbsBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceGibbsIntegrability
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.DiskSpatialGibbsBounds
+
+@[expose] public section
 
 /-! Parameterized authored entropy route. The supplied physical reference is
 explicit. The exact fixed-T/Hölder theorem is used at T=2*(1+ell)*b; no old

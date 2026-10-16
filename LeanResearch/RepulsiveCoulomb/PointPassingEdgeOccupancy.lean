@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanCenteredHalfDisk
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkCommonChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanCenteredHalfDisk
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkCommonChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The actual passing-edge halfdisk is obtained by
 restricting the original sector map to an explicit centered source halfdisk.

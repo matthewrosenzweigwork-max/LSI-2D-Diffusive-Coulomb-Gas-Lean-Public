@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericSmoothTruncationGradient
-import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
-import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericSmoothTruncationGradient
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Complex
+
+@[expose] public section
 
 /-
 Additive paper-route copy of the generic argument in DyadicTruncationEnergy.lean.

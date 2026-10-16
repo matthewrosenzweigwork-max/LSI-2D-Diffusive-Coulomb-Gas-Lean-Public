@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreEntropyLayer
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreEntropyLayer
+
+@[expose] public section
 
 /-! The normalized defective entropy bound from actual smooth dyadic SPI. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanC1Joining
-import Mathlib.Analysis.Calculus.Deriv.Shift
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanC1Joining
+public import Mathlib.Analysis.Calculus.Deriv.Shift
+
+@[expose] public section
 
 /-! Glue the two halves of neighboring actual corner patches through the
 unchanged middle of each edge. Global C¹ and cyclic endpoint-jet matching are

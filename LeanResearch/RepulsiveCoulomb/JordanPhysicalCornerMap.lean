@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanPhysicalCornerPatch
-import LeanResearch.RepulsiveCoulomb.JordanSymmetricCornerPatch
-import Mathlib.Analysis.Calculus.Deriv.Shift
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanPhysicalCornerPatch
+public import LeanResearch.RepulsiveCoulomb.JordanSymmetricCornerPatch
+public import Mathlib.Analysis.Calculus.Deriv.Shift
+
+@[expose] public section
 
 /-! The actual additive real C1 map encoding both collars. It is not asserted
 holomorphic or locally injective; physical monotonicity proves patch simplicity.

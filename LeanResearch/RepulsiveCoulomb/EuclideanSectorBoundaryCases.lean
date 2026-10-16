@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanCenteredHalfDisk
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanCenteredHalfDisk
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Classify actual source boundary points. This
 supplies the apex/passing-edge alternative from membership and failure of

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevWeak
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Calculus.Gradient
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevWeak
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Calculus.Gradient
+
+@[expose] public section
 
 /-! All-C1 physical weak Sobolev in the two-measure form for genuine smooth truncation. -/
 noncomputable section

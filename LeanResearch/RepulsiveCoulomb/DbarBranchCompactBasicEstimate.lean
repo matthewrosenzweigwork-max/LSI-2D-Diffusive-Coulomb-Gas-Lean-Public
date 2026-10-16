@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricMatrixMeasurability
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactDivergenceIdentity
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricMatrixMeasurability
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactDivergenceIdentity
+
+@[expose] public section
 
 /-! The curvature estimate for actual compact vector cores. All differential
 operators and the half-Frobenius exterior norm are literal. The passage to the

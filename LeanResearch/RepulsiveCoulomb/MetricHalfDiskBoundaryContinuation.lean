@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MetricRelativeHalfDiskPatchExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRelativeHalfDiskPatchExtension
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. A closed flat extension cannot choose a
 different continuation of an old boundary edge inside a genuine retained

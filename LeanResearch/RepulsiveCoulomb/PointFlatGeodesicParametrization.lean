@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicFlatness
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicFlatness
+
+@[expose] public section
 
 /-! A flat metric chart with its analytic inverse retained, and the exact affine
 parameter formula for a geodesic segment lying in such a chart. -/

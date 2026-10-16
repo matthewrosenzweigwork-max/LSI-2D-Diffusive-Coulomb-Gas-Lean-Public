@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointGlobalMeanOscillation
-import Mathlib.Analysis.Convex.Integral
-import Mathlib.Analysis.Convex.Mul
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGlobalMeanOscillation
+public import Mathlib.Analysis.Convex.Integral
+public import Mathlib.Analysis.Convex.Mul
+
+@[expose] public section
 
 /-! The raw/squared-weight Cauchy--Schwarz radius factor in Bjorn's p=1
 transfer. Applying strong A-infinity to the doubled exponents yields the exact

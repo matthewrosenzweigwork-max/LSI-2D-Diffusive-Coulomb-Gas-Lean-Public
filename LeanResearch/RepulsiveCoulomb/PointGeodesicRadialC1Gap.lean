@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointChosenRadialGapTriple
-import LeanResearch.RepulsiveCoulomb.JordanThreePieceGap
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointChosenRadialGapTriple
+public import LeanResearch.RepulsiveCoulomb.JordanThreePieceGap
+
+@[expose] public section
 
 /-! Actual C¹ regular embedded representatives of puncture gaps, retaining
 both exact affine radial germs in the charts chosen once per physical vertex.

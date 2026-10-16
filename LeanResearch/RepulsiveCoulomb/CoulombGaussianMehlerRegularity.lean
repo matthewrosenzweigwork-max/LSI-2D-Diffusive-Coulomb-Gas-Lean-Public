@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianIntegrationByParts
-import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianIntegrationByParts
+public import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+
+@[expose] public section
 
 /-! Bounded C¹ regularity of the actual Mehler integral, including the log
 composition needed in the entropy derivative. -/

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.FullStripResidualSource
-import LeanResearch.RepulsiveCoulomb.MetricFlatDiskPatchExtension
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
+module
+
+public import LeanResearch.RepulsiveCoulomb.FullStripResidualSource
+public import LeanResearch.RepulsiveCoulomb.MetricFlatDiskPatchExtension
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
+
+@[expose] public section
 
 /-! Isometries are NOT asserted open in an arbitrary metric plane. Interior
 fullness is proved by actual Euclidean rigidity in a whole disk chart. Bottom

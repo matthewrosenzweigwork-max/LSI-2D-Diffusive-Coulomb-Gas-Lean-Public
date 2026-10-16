@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRegularArcPointArgument
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRegularArcPointArgument
+
+@[expose] public section
 
 /-! A continuous loop with one-sided regular endpoint extensions has an
 actual continuous boundary-point argument lift up to both sides of its corner.

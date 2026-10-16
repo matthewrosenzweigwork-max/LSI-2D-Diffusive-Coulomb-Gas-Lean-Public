@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.HedbergPowerIdentity
+module
+
+public import LeanResearch.RepulsiveCoulomb.HedbergPowerIdentity
+
+@[expose] public section
 
 /-! Exact normalization of the weak Sobolev coefficient. -/
 noncomputable section

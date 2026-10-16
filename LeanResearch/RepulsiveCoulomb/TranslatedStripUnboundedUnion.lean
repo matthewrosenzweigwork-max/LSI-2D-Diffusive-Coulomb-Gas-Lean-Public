@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedStripWidthSupremum
-import Mathlib.Topology.Connected.Clopen
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripWidthSupremum
+public import Mathlib.Topology.Connected.Clopen
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. The union of an unbounded family of literal translated

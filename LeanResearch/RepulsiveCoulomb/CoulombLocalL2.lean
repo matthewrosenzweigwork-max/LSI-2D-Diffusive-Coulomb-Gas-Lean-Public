@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+
+@[expose] public section
 
 /-! Actual local weighted-to-Lebesgue L2 restriction for the particle model.
 No Haar instance is imposed on the Gibbs measure. -/

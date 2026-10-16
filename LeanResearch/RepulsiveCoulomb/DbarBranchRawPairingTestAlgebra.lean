@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCompatibility
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCompatibility
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffL2
+
+@[expose] public section
 
 /-! Actual multiplication and directional-product identities for compact
 raw Sg test pairings. These are weak identities on auxiliary L2 and require

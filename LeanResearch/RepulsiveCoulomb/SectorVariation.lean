@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanSectorMap
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanSectorMap
+
+@[expose] public section
 
 /-! Angular contraction bounds for lengths of arbitrary curves, expressed through
 metric variation, and exact preservation along boundary rays. -/

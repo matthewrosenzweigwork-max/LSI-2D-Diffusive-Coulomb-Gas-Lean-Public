@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
-import LeanResearch.RepulsiveCoulomb.TranslatedRectangleExchange
+module
+
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
+public import LeanResearch.RepulsiveCoulomb.TranslatedRectangleExchange
+
+@[expose] public section
 
 /-! SOURCE-ONLY ASSEMBLY. Actual Cauchy completion at a supremum of finite
 longitudinal lengths, with transverse width fixed. This low-level gluing lemma

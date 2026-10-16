@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourComponents
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourComponents
+
+@[expose] public section
 
 /-! Exact pairwise-disjoint polygonal Jordan decomposition of every regular
 finite-grid level, indexed by its genuinely finite graph components. -/

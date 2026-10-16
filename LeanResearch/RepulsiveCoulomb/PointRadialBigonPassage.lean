@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialBigonArgumentTurn
-import LeanResearch.RepulsiveCoulomb.PointRadialC1PassageAngle
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialBigonArgumentTurn
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1PassageAngle
+
+@[expose] public section
 
 /-! Internal passage additivity on the actual source-preserving bigon list.
 A join away from the two original endpoints lies on one original minimizing

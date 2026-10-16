@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFormDefectiveLSI
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFormDefectiveLSI
+
+@[expose] public section
 
 /-! Rothaus tightening using the actual constant form and the proved global PI. -/
 noncomputable section

@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedDefinition
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEmpiricalRepulsivity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircularPotential
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedCentering
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedDefinition
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEmpiricalRepulsivity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircularPotential
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedCentering
+
+@[expose] public section
 
 /-! The actual deterministic Onsager lower bound for the canonical modulated
 energy. Circular empirical self-energy is genuinely doubly smeared, the

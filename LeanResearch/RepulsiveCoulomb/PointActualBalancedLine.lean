@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSignedLineSides
-import LeanResearch.RepulsiveCoulomb.PointActualLinePhysicalAngleBounds
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Positivity
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSignedLineSides
+public import LeanResearch.RepulsiveCoulomb.PointActualLinePhysicalAngleBounds
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Positivity
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Actual full intervals of the fixed
 sides, their nonpositive curvature coefficients and both balanced signed

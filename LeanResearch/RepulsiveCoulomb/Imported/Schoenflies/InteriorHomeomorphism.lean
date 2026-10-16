@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.InitialGenerated
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.InitialOuterCycle
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.QuantitativeRecursion
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.InitialGenerated
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.InitialOuterCycle
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.QuantitativeRecursion
+
+@[expose] public section
 
 /-!
 # The interior homeomorphism

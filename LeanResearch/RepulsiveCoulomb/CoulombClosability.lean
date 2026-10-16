@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombLocalGraph
-import Mathlib.Topology.Compactness.Lindelof
-import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombLocalGraph
+public import Mathlib.Topology.Compactness.Lindelof
+public import Mathlib.Topology.MetricSpace.ProperSpace.Lemmas
+
+@[expose] public section
 
 /-! Closability of the full labeled physical gradient, obtained from local
 Haar graph uniqueness and the proved full-measure collision complement. -/

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointConePhase
-import Mathlib.Analysis.SpecialFunctions.Complex.Circle
-import Mathlib.Topology.Connected.Basic
-import Mathlib.Topology.Order.IntermediateValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConePhase
+public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
+public import Mathlib.Topology.Connected.Basic
+public import Mathlib.Topology.Order.IntermediateValue
+
+@[expose] public section
 
 /-! Actual open polar sectors cut a disk by two rays. Connectedness and the
 complete complement decomposition are proved from polar coordinates. These

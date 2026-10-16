@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointChosenSmoothRadialChart
-import LeanResearch.RepulsiveCoulomb.PointSmoothArcCollars
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointChosenSmoothRadialChart
+public import LeanResearch.RepulsiveCoulomb.PointSmoothArcCollars
+
+@[expose] public section
 
 /-! Actual collars in the one chart selected per physical vertex. The power
 law and exact neighborhood radial formula are retained for later derivative

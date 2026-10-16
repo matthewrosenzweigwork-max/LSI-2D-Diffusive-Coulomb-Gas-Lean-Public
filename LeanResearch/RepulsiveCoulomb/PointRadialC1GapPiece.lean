@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1ArcChain
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1ArcChain
+
+@[expose] public section
 
 /-! Package the actually constructed gap macro-arc while retaining its
 literal chosen-chart vectors, their nonzeroness, and its source interval. -/

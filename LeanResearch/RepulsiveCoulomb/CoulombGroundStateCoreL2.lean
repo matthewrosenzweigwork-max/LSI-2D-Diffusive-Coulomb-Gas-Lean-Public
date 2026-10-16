@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateL2
-import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateL2
+public import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
+
+@[expose] public section
 
 /-! Identification of the actual original-core ground state with the global
 volume-L2 image of its Gibbs-L2 class. No measure-dependent cast is used. -/

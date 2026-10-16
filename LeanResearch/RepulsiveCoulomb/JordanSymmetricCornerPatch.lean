@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+
+@[expose] public section
 
 /-! The symmetric parameter-width quadratic replacement matches the actual
 incoming and outgoing radial velocities exactly. This elementary jet identity

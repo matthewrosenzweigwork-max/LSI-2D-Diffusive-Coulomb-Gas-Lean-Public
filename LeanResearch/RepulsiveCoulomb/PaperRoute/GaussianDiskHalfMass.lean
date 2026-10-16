@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianLocalGeometry
-import LeanResearch.RepulsiveCoulomb.UnitDiskUniformTails
-import Mathlib.MeasureTheory.Measure.TightNormed
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianLocalGeometry
+public import LeanResearch.RepulsiveCoulomb.UnitDiskUniformTails
+public import Mathlib.MeasureTheory.Measure.TightNormed
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. The actual half-mass disk is obtained
 from the manuscript's literal unit-disk logarithmic-average/Jensen partition

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.GeodesicTriangleBridgeInterval
+module
+
+public import LeanResearch.RepulsiveCoulomb.GeodesicTriangleBridgeInterval
+
+@[expose] public section
 
 /-! Three actual nondegenerate minimizing subedges forming a simple triangle
 are extracted from two disjoint minimizing legs and a shorter shortcut. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialTriangleArgumentTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialTriangleArgumentTurn
+
+@[expose] public section
 
 /-! Active punctures occur only at actual vertices of the source-preserving
 triangle macro-list, including on its literally reversed right-hand side. -/

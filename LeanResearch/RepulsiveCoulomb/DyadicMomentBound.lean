@@ -1,7 +1,11 @@
-import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
-import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
-import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Countable
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Actual dyadic superlevel control of positive-part moments and the
 superlinear summation bound used for disjoint truncation energies. -/

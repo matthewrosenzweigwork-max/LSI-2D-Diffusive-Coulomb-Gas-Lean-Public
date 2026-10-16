@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Component
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Ear
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Tree
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Component
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Ear
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Tree
+
+@[expose] public section
 
 /-!
 # The relative ear decomposition

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourCarrier
-import LeanResearch.RepulsiveCoulomb.TriangularGridEdgeIncidence
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourCarrier
+public import LeanResearch.RepulsiveCoulomb.TriangularGridEdgeIncidence
+
+@[expose] public section
 
 /-! Actual endpoint values and uniqueness of a regular level crossing on a
 physical grid edge, with no assumed geometric realization. -/

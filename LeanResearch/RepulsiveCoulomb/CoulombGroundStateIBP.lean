@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCore
-import LeanResearch.RepulsiveCoulomb.CoulombPotentialLaplacian
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.WeakDeriv.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCore
+public import LeanResearch.RepulsiveCoulomb.CoulombPotentialLaplacian
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.WeakDeriv.Basic
+
+@[expose] public section
 
 /-! Actual directional Haar integration by parts for the full particle
 potential. Every product is supported inside the collision-free open set. -/

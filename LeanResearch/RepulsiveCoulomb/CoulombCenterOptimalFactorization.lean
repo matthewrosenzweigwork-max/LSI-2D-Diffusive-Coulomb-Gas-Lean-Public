@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterOptimalOrder
-import LeanResearch.RepulsiveCoulomb.CoulombCenterFactorization
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianSharpLSI
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterOptimalOrder
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterFactorization
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianSharpLSI
+
+@[expose] public section
 
 /-! Exact optimal-rate equality in prop:com. Both factor tests and tensorization
 use genuine physical closed domains. The original optimal rate is the source's

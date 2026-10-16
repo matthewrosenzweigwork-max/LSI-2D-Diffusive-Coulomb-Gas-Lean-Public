@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PlaneJordanSeparation
-import LeanResearch.RepulsiveCoulomb.PointConformalCompleteness
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlaneJordanSeparation
+public import LeanResearch.RepulsiveCoulomb.PointConformalCompleteness
+
+@[expose] public section
 
 /-! Actual Jordan separation for the completed point-conformal metric plane.
 All open sets, components, frontiers and compactness in the conclusion use the

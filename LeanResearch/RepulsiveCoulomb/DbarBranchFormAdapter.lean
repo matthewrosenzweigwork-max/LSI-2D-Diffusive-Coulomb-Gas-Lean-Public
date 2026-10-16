@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCoreCompatibility
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelProjection
-import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCoreCompatibility
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelProjection
+public import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
+
+@[expose] public section
 
 /-! The actual full physical form embeds in the maximal weak dbar graph.
 Closedness and original-core approximation extend the literal one-half

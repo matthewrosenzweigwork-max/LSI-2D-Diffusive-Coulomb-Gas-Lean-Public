@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.RawPointMeasureScaling
-import LeanResearch.RepulsiveCoulomb.PointMeasureParametric
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointMeasureScaling
+public import LeanResearch.RepulsiveCoulomb.PointMeasureParametric
+
+@[expose] public section
 
 /-! Literal Gaussian point-weight dilation, including the partition factor and
 normalized measure. Indexed roots are transported without combining or dropping

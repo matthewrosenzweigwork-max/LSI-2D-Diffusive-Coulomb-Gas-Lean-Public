@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductDensity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedDefinition
-import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
-import LeanResearch.RepulsiveCoulomb.CoulombPairGradientSum
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductDensity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedDefinition
+public import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
+public import LeanResearch.RepulsiveCoulomb.CoulombPairGradientSum
+
+@[expose] public section
 
 /-! Exact canonical Gibbs splitting, with physical l2 confinement and the
 full one-body centering correction. These pointwise identities explicitly

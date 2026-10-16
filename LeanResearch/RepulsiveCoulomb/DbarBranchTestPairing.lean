@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalDistribution
-import Mathlib.MeasureTheory.Function.L2Space
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalDistribution
+public import Mathlib.MeasureTheory.Function.L2Space
+
+@[expose] public section
 
 /-! Each genuine Lebesgue test pairing is continuous on weighted L2, by
 restriction to the test support and the local lower density bound. -/

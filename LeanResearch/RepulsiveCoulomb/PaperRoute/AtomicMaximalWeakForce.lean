@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicRieszMaximal
-import LeanResearch.RepulsiveCoulomb.PointLogForceWeakL2
-import Mathlib.MeasureTheory.Measure.Dirac.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicRieszMaximal
+public import LeanResearch.RepulsiveCoulomb.PointLogForceWeakL2
+public import Mathlib.MeasureTheory.Measure.Dirac.Basic
+
+@[expose] public section
 
 /-! The canonical finite-atomic maximal-function proof of the physical
 logarithmic force weak L2 estimate. The old weak L2 theorem and kernel

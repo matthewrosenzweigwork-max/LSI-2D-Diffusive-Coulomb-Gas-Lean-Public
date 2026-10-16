@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleMeasure
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleMeasure
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Actual logarithmic energies for the singular circular probability measures.
 The row estimate proves absolute integrability even when the point lies on the

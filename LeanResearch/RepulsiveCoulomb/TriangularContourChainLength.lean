@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourWalkCarrier
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourWalkCarrier
+
+@[expose] public section
 
 /-! The ordered physical chain length of a simple contour cycle equals the raw
 weighted Hausdorff length of its actual component, without multiplicity. -/

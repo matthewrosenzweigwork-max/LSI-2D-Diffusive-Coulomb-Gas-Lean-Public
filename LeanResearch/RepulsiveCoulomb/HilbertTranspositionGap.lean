@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FiniteOrbitSpan
-import LeanResearch.RepulsiveCoulomb.OrderedEdgeSum
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteOrbitSpan
+public import LeanResearch.RepulsiveCoulomb.OrderedEdgeSum
+
+@[expose] public section
 
 /-! The sharp transposition bound in an arbitrary real Hilbert representation. -/
 noncomputable section

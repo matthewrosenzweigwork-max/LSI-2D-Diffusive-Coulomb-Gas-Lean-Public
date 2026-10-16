@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanRegularCornerOrientedTurn
-import LeanResearch.RepulsiveCoulomb.PointRadialFiniteTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanRegularCornerOrientedTurn
+public import LeanResearch.RepulsiveCoulomb.PointRadialFiniteTurn
+
+@[expose] public section
 
 /-! The genuine regular C1 corner-turn theorem in the original finite Nat
 slots used by actual weighted point-flux accounting. Only the finite cyclic

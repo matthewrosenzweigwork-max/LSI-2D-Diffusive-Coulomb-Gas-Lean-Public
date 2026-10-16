@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapJordan
-import LeanResearch.RepulsiveCoulomb.PlanarLineHalfplaneSides
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapJordan
+public import LeanResearch.RepulsiveCoulomb.PlanarLineHalfplaneSides
+
+@[expose] public section
 
 /-! Source-only draft. The old-boundary arc is constructed by restricting its
 actual proper-line parametrization. Only that parametrization's continuity and

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleJordan
-import LeanResearch.RepulsiveCoulomb.PointGeodesicJordanBigon
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleJordan
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicJordanBigon
+
+@[expose] public section
 
 /-! A genuinely shorter shortcut across two locally separated minimizing germs
 produces an actual simple minimizing bigon or an actual simple minimizing

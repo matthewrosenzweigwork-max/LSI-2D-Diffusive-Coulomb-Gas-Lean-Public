@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TranspositionBochner
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranspositionBochner
+
+@[expose] public section
 
 /-! Kernel identification by positivity and transposition generation. -/
 noncomputable section

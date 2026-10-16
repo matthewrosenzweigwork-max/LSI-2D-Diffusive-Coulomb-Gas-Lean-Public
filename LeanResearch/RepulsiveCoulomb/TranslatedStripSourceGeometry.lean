@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleInteriorGeometry
-import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfplaneHomeomorphisms
-import Mathlib.Analysis.Convex.PathConnected
-import Mathlib.Topology.Maps.Proper.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleInteriorGeometry
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfplaneHomeomorphisms
+public import Mathlib.Analysis.Convex.PathConnected
+public import Mathlib.Topology.Maps.Proper.Basic
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Uses the accepted literal complex strip
 `flatShearedStrip`, not a product metric. `flatShearHomeomorph` is itself a NEW

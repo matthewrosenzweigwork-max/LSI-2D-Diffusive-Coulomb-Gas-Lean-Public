@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LocalIsometryBall
-import LeanResearch.RepulsiveCoulomb.PointConformalMetricCharts
+module
+
+public import LeanResearch.RepulsiveCoulomb.LocalIsometryBall
+public import LeanResearch.RepulsiveCoulomb.PointConformalMetricCharts
+
+@[expose] public section
 
 /-! Actual local charts into the classical cone metric, with intrinsic radial
 coordinates. Coincident exponents are merged and zero-exponent points remain flat. -/

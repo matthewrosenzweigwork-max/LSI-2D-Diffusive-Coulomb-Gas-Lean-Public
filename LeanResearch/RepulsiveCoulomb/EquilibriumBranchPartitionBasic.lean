@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferencePartitionDefinition
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductModulation
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceBounds
-import Mathlib.Analysis.Convex.Integral
-import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferencePartitionDefinition
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductModulation
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceBounds
+public import Mathlib.Analysis.Convex.Integral
+public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+
+@[expose] public section
 
 /-! The actual canonical modulated partition: its integrand is integrable for
 every fixed N and t>=0, and Jensen gives the exact exp(t*c_beta/2) lower bound.

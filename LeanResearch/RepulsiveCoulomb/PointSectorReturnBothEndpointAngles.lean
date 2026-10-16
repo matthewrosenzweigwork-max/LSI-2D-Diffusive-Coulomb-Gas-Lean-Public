@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnCleanRay
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualCleanGerm
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualEdgeGerm
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnOrderedCapChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeRotationTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnCleanRay
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualCleanGerm
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualEdgeGerm
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnOrderedCapChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeRotationTransport
+
+@[expose] public section
 
 /-! Isolated, uncompiled actual two-orientation initial-angle construction.
 The clean endpoint and opposite old-arc germ are constructed from the same

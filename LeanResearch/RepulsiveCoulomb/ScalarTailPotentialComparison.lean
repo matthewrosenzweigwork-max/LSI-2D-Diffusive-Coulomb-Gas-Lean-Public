@@ -1,5 +1,9 @@
-import Mathlib.Analysis.Calculus.Deriv.MeanValue
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Two-sided derivative control is integrated
 by scalar comparison potentials and the mean-value theorem, with no inverse

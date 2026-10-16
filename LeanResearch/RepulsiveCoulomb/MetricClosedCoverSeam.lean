@@ -1,5 +1,9 @@
-import Mathlib.Topology.Connected.Basic
-import Mathlib.Topology.UnitInterval
+module
+
+public import Mathlib.Topology.Connected.Basic
+public import Mathlib.Topology.UnitInterval
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. A continuous path in a closed two-set cover must
 meet the intersection if its endpoints belong to the respective sets. The

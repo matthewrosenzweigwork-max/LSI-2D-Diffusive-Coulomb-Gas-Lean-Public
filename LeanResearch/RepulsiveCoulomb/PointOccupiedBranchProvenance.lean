@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointOccupiedRefinedAngularBranch
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointOccupiedRefinedAngularBranch
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Preserve the literal occupied branch formula
 through existential assembly, so later rigid-overlap proofs can compare the

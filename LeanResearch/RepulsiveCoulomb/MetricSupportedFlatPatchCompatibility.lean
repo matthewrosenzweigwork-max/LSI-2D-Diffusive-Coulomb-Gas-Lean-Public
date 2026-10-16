@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricClosedFlatPatchUniqueness
-import LeanResearch.RepulsiveCoulomb.MetricFlatChartInterior
-import LeanResearch.RepulsiveCoulomb.ConvexDiskOverlap
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricClosedFlatPatchUniqueness
+public import LeanResearch.RepulsiveCoulomb.MetricFlatChartInterior
+public import LeanResearch.RepulsiveCoulomb.ConvexDiskOverlap
+
+@[expose] public section
 
 /-! Post-freeze successor. Genuine overlap comparison for mixed full-disk and
 supporting-halfdisk patches. A common convex supporting set H contains the old

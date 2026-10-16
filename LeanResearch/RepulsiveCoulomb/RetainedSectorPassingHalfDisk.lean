@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexSectorGerms
-import LeanResearch.RepulsiveCoulomb.EuclideanRetainedChord
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexSectorGerms
+public import LeanResearch.RepulsiveCoulomb.EuclideanRetainedChord
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, NOT COMPILED. The actual rigid halfdisk cut out of a supplied

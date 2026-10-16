@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryWeightedApproximation
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryWeightedApproximation
+
+@[expose] public section
 
 /-! The exact curvature-weighted estimate on the genuine auxiliary adjoint
 restricted to the closed compatibility space. First pass a common local

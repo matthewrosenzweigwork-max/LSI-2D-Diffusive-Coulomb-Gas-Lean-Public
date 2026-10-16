@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ExteriorPhaseAperture
-import LeanResearch.RepulsiveCoulomb.ContinuousCosineBranches
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ExteriorPhaseAperture
+public import LeanResearch.RepulsiveCoulomb.ContinuousCosineBranches
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Normalizes scalar angle data without
 reversing the geodesic or changing its parameter. The positive speed factor is

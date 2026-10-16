@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteC1OrientedTurn
-import LeanResearch.RepulsiveCoulomb.PlaneJordanSeparation
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteC1OrientedTurn
+public import LeanResearch.RepulsiveCoulomb.PlaneJordanSeparation
+
+@[expose] public section
 
 /-! Nonzero ACTUAL point winding identifies the actual bounded component of
 a constructed finite regular simple matched-jet loop. In particular this

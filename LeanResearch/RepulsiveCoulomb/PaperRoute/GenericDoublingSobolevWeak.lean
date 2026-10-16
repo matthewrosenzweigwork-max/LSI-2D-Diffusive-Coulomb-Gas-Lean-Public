@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevHedberg
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevHedberg
+
+@[expose] public section
 
 /-! Actual weak distribution and normalized local Sobolev inequality, derived
 from global doubling and the displayed weak (1,2) Poincare hypothesis. -/

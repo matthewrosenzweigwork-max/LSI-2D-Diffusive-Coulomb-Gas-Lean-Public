@@ -1,10 +1,14 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.FaceCyclesLand
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.TwoConnected
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.FaceCyclesLand
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.TwoConnected
+
+@[expose] public section
 
 /-!
 # The outer face of a chain of plane graphs

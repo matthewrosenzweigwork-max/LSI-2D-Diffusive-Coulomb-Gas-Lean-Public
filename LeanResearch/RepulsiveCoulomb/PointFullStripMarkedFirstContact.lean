@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.FiniteMarkedLineDistanceAttained
-import LeanResearch.RepulsiveCoulomb.PointFullNormalStripAtMarkedDistance
-import LeanResearch.RepulsiveCoulomb.MetricFullStripFirstContact
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
-import LeanResearch.RepulsiveCoulomb.PointActualGeodesicUniqueness
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteMarkedLineDistanceAttained
+public import LeanResearch.RepulsiveCoulomb.PointFullNormalStripAtMarkedDistance
+public import LeanResearch.RepulsiveCoulomb.MetricFullStripFirstContact
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
+public import LeanResearch.RepulsiveCoulomb.PointActualGeodesicUniqueness
+
+@[expose] public section
 
 /-! Source-only, uncompiled. First contact is constructed from actual retained
 geometry, finite marks and the selected all-width strip predecessor. Contained

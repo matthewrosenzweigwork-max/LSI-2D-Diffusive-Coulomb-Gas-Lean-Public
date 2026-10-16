@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+
+@[expose] public section
 
 /-! Correct L1 centering for a finite positive restriction, in normalized form. -/
 noncomputable section

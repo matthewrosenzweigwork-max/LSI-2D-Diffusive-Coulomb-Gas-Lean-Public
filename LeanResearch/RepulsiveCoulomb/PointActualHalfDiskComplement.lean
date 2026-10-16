@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatHalfDiskEdgeOccupancy
-import LeanResearch.RepulsiveCoulomb.PointPassingEdgeComplementChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatHalfDiskEdgeOccupancy
+public import LeanResearch.RepulsiveCoulomb.PointPassingEdgeComplementChart
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Actual halfdisk occupancy and its actual
 diameter image construct a FULL complementary chart. The given set germs refer

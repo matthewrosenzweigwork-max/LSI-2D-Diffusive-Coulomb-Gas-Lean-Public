@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EdgeTransposition
-import LeanResearch.RepulsiveCoulomb.TripleBochnerCounting
+module
+
+public import LeanResearch.RepulsiveCoulomb.EdgeTransposition
+public import LeanResearch.RepulsiveCoulomb.TripleBochnerCounting
+
+@[expose] public section
 
 /-! The sharp Bochner inequality for all complete-graph transpositions. -/
 noncomputable section

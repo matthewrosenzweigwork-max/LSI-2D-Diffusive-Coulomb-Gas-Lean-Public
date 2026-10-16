@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircularRegularization
-import Mathlib.Analysis.Complex.Exponential
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircularRegularization
+public import Mathlib.Analysis.Complex.Exponential
+
+@[expose] public section
 
 /-! All integer moment bounds for the literal circular regularization error.
 The epsilon-squared rate and factorial dependence are explicit and are uniform

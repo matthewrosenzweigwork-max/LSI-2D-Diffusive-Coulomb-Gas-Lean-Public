@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialMetricLower
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialMetricLower
+
+@[expose] public section
 
 /-! A direct two-sided, configuration-uniform comparison between the actual
 conformal path distance and the explicit radial ball factor. This analytic

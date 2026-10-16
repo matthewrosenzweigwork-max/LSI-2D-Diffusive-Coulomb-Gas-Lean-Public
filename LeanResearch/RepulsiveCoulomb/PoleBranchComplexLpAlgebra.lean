@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelProjection
-import LeanResearch.RepulsiveCoulomb.PoleBranchPairComplexChart
-import Mathlib.Analysis.InnerProductSpace.Projection.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelProjection
+public import LeanResearch.RepulsiveCoulomb.PoleBranchPairComplexChart
+public import Mathlib.Analysis.InnerProductSpace.Projection.Basic
+
+@[expose] public section
 
 /-! Literal complex Gibbs L2 permutation and conjugation operations for the
 symmetric projection argument. These are independent of a dbar estimate. -/

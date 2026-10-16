@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.MeasureTheory.Function.Lp.Translation
-import Mathlib.Analysis.Calculus.BumpFunction.Convolution
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.MeasureTheory.Function.Lp.Translation
+public import Mathlib.Analysis.Calculus.BumpFunction.Convolution
+
+@[expose] public section
 
 /-! Norm-convergent interior regularization at the level of actual Lebesgue L2
 classes. The scalar-convolution representative and weak-equation preservation

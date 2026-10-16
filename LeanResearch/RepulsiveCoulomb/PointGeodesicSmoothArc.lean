@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicRegularArc
-import LeanResearch.RepulsiveCoulomb.AnalyticArcSmoothExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicRegularArc
+public import LeanResearch.RepulsiveCoulomb.AnalyticArcSmoothExtension
+
+@[expose] public section
 
 /-! Globally smooth regular Euclidean arc representatives for every short
 nonconstant point-conformal geodesic, including arcs issuing from punctures. -/

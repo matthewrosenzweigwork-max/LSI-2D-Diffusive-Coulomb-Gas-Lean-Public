@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreCoreIntegrability
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreCoreIntegrability
+
+@[expose] public section
 
 /-! Manuscript prop:uncertainty on the actual original smooth core.
 All score/moment/gradient integrability and finite dyadic support are proved;

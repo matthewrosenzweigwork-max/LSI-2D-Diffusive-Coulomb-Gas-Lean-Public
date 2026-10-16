@@ -1,6 +1,10 @@
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Topology.MetricSpace.Isometry
-import Mathlib.Tactic.LinearCombination
+module
+
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Tactic.LinearCombination
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The seam rigidity step uses direct complex rigid
 motions z ↦ u*z+b. Full Euclidean motions do not satisfy the two-anchor rule:

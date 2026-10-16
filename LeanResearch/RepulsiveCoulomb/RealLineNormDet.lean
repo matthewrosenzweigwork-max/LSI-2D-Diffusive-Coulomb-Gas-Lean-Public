@@ -1,5 +1,9 @@
-import Mathlib.Analysis.InnerProductSpace.NormDet
-import Mathlib.Analysis.InnerProductSpace.PiL2
+module
+
+public import Mathlib.Analysis.InnerProductSpace.NormDet
+public import Mathlib.Analysis.InnerProductSpace.PiL2
+
+@[expose] public section
 
 /-! Exact one-real-dimensional Jacobian: the norm determinant of a map from the
 real line is its speed, with no normalization constant. -/

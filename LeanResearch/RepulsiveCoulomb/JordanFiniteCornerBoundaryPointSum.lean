@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPointWinding
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPointWinding
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
+
+@[expose] public section
 
 /-! Keep the original corner as the period seam. Endpoint-extended point
 arguments need only satisfy the actual normalized chord identity on the open

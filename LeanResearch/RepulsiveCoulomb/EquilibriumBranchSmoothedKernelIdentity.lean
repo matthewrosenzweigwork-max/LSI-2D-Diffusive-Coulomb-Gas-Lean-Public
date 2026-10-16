@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSmoothedRepulsivity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleTranslation
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSmoothedRepulsivity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleTranslation
+
+@[expose] public section
 
 /-! Exact transport of both cross and reference self terms through the actual
 circle-smoothed reference. The same double circular kernel appears in all

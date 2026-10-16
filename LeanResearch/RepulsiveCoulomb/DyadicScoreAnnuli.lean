@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.AnnularIntegratedEnergy
-import Mathlib.Order.Interval.Finset.Nat
+module
+
+public import LeanResearch.RepulsiveCoulomb.AnnularIntegratedEnergy
+public import Mathlib.Order.Interval.Finset.Nat
+
+@[expose] public section
 
 /-! Configuration-free bounded overlap of the actual enlarged dyadic annuli. -/
 noncomputable section

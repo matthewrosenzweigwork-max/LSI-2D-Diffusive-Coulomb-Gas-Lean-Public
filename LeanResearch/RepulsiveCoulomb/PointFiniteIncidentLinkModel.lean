@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorIncidentOccupancy
-import LeanResearch.RepulsiveCoulomb.FiniteLinkEndpointSubdivision
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorIncidentOccupancy
+public import LeanResearch.RepulsiveCoulomb.FiniteLinkEndpointSubdivision
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. A common-radius model for every actual incident
 sector in a finite family. Nonincident closed sectors are excluded on the

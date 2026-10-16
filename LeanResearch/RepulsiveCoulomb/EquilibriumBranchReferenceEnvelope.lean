@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceBounds
+
+@[expose] public section
 
 /-! One explicit Gaussian-polynomial envelope for every actual equilibrium
 reference in a compact positive-temperature interval. The constants depend

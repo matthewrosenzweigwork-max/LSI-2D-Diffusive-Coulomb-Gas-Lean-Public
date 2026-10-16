@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ComplexWeightedCoarea
-import LeanResearch.RepulsiveCoulomb.TriangularGridInterpolant
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexWeightedCoarea
+public import LeanResearch.RepulsiveCoulomb.TriangularGridInterpolant
+
+@[expose] public section
 
 /-! Actual complex-plane coarea for globally Lipschitz functions, including the
 constructed polygonal nodal interpolants. No C1 or regular-level hypothesis. -/

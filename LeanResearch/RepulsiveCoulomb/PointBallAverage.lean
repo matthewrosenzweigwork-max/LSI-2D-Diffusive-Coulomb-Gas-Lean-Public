@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.RawPointVolumeGrowth
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointVolumeGrowth
+
+@[expose] public section
 
 /-! Actual weighted ball averages of continuous observables converge at every
 point, including positive punctures. No differentiation theorem or Poincare

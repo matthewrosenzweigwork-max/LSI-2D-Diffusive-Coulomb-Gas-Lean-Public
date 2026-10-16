@@ -1,6 +1,10 @@
-import Mathlib.Analysis.Calculus.LocalExtr.Rolle
-import Mathlib.Analysis.Calculus.Deriv.MeanValue
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.Calculus.LocalExtr.Rolle
+public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive draft. Rolle plus strictly increasing derivative
 constructs the unique interior turning time and its two actual derivative signs.

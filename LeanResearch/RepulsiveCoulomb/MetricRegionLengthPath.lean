@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.AffineCurveVariation
-import Mathlib.Topology.Order.ProjIcc
+module
+
+public import LeanResearch.RepulsiveCoulomb.AffineCurveVariation
+public import Mathlib.Topology.Order.ProjIcc
+
+@[expose] public section
 
 /-! Actual continuous paths in a subset, with their ambient partition-variation
 length. Global representatives merely simplify concatenation; clipping gives

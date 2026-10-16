@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterMeasure
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterMeasure
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchTransport
+
+@[expose] public section
 
 /-! Exact Gaussian normalization, true coordinate marginals, and extended
 entropy change of variables. Neither finite entropy nor an LSI is assumed. -/

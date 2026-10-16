@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMeasureDual
-import Mathlib.MeasureTheory.Function.ContinuousMapDense
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMeasureDual
+public import Mathlib.MeasureTheory.Function.ContinuousMapDense
+
+@[expose] public section
 
 /-! Bound-preserving continuous approximation of measurable entropy tests.
 The exponential Lipschitz bound is explicit, so later measure-dual convergence

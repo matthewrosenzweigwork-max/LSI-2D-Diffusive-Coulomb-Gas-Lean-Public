@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityScalingEnergy
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalPositivity
-import Mathlib.Analysis.Calculus.LocalExtr.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityScalingEnergy
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalPositivity
+public import Mathlib.Analysis.Calculus.LocalExtr.Basic
+
+@[expose] public section
 
 /-! The exact manuscript second moment, obtained from actual normalized
 spatial dilations and global minimality. No differentiability, radiality or

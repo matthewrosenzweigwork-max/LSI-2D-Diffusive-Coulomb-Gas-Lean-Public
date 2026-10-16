@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.WeightedMeanCentering
-import Mathlib.MeasureTheory.Integral.Average
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedMeanCentering
+public import Mathlib.MeasureTheory.Integral.Average
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Quantitative comparisons of actual finite-measure averages, for the dyadic
 argument in Bjorn2001. These are elementary integral inequalities; no Poincare

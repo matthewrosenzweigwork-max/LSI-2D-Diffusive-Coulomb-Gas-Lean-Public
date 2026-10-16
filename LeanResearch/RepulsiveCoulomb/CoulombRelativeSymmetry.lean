@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeKernel
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeKernel
+
+@[expose] public section
 
 /-! Sign symmetry of the literal relative conditional. -/
 noncomputable section

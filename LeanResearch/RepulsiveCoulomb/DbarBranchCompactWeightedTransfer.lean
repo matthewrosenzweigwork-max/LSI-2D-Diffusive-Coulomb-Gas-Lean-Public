@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombLocalL2
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.MeasureTheory.Function.Lp.ExtendByZero
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.MeasureTheory.Function.Lp.CastMeasure
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombLocalL2
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.MeasureTheory.Function.Lp.ExtendByZero
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.MeasureTheory.Function.Lp.CastMeasure
+
+@[expose] public section
 
 /-! An actual bounded map sends global Lebesgue L2 to Gibbs L2 by restriction
 to a fixed compact collision-free set and zero extension. It transfers a

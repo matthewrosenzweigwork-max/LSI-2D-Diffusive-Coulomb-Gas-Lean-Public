@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskAnchoredStageUniqueness
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskAnchoredStageUniqueness
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+
+@[expose] public section
 
 /-! Genuine uniqueness of two flat maps with the same positive boundary-ray
 interval. This is the ray version of the accepted complete-line comparison;

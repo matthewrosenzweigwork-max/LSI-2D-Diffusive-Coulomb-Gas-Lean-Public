@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveDomain
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyWeakLSC
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPositiveIntegralLSC
-import Mathlib.MeasureTheory.Measure.FiniteMeasureProd
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveDomain
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyWeakLSC
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPositiveIntegralLSC
+public import Mathlib.MeasureTheory.Measure.FiniteMeasureProd
+
+@[expose] public section
 
 /-! Genuine weak lower semicontinuity of the complete nonnegative objective on
 all planar probability measures. No moment, density or entropy finiteness is

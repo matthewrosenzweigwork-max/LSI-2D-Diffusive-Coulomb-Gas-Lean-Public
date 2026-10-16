@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalEulerLagrange
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalEulerLagrange
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+
+@[expose] public section
 
 /-! Tail bounds before any regularity or radiality argument. The lower
 potential estimate only uses actual row integrability; finite absolute pair

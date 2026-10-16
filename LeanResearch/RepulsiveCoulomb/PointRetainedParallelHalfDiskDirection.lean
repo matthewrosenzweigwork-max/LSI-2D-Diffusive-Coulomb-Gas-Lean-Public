@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointBoundedCornerRetainedChart
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointBoundedCornerRetainedChart
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The translated line's actual full direction is
 constructed from a literal isometric halfdisk, its backward old-edge germ, and

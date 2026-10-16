@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialCyclicTurnCharts
-import LeanResearch.RepulsiveCoulomb.PointRadialCyclicListIndex
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialCyclicTurnCharts
+public import LeanResearch.RepulsiveCoulomb.PointRadialCyclicListIndex
+
+@[expose] public section
 
 /-! Actual geodesic macro-list instantiation of finite-corner oriented turn.
 Finite indices, cyclic permutation, common charts, noncuspidality and the

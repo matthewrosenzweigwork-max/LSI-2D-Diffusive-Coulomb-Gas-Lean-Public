@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalLocalMetric
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalLocalMetric
+
+@[expose] public section
 
 /-! Actual ambient metric charts for the literal point-density metric. The singular
 model is the previously constructed singleton smooth-path metric. Its identification

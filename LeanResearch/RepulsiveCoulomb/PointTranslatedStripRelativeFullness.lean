@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRemovedBoundary
-import LeanResearch.RepulsiveCoulomb.MetricFullStripLocalFullness
-import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRemovedBoundary
+public import LeanResearch.RepulsiveCoulomb.MetricFullStripLocalFullness
+public import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Relative openness of the actual strip below
 its top is derived, including the removed apex and compact edge. Boundary

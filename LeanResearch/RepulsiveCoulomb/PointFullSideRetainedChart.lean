@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnFullSides
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnFullSides
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+
+@[expose] public section
 
 /-! Successor draft. Convert an actual full Jordan-side smooth/physical chart
 pair into the literal retained-cone-neighborhood type. The metric radius,

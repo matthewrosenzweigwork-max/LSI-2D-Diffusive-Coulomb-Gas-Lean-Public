@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConvexFlatClosedEmbedding
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
-import LeanResearch.RepulsiveCoulomb.MetricRegionPathTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConvexFlatClosedEmbedding
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
+public import LeanResearch.RepulsiveCoulomb.MetricRegionPathTransport
+
+@[expose] public section
 
 /-! Adapter for an actual admissible residual region, and arbitrary curve
 lengths. The admissibility theorem is the residualadmissible8 successor,

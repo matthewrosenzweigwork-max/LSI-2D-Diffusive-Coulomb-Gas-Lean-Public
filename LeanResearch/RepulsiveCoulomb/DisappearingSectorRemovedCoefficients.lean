@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexActualDeparture
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexActualDeparture
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. All original curvature and budget coefficients
 on the literal removed piece vanish except at the fully spent original apex.

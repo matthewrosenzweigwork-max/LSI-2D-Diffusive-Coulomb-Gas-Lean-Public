@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PlanarCircleLinearWinding
-import Mathlib.Analysis.Calculus.FDeriv.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarCircleLinearWinding
+public import Mathlib.Analysis.Calculus.FDeriv.Basic
+
+@[expose] public section
 
 /-!
 The actual first-order straight homotopy on sufficiently small circles.

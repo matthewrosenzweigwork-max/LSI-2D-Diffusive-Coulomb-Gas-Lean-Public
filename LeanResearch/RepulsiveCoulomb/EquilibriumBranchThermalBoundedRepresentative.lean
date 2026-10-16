@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchELRepresentative
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchELRepresentative
+
+@[expose] public section
 
 /-! Actual bounded pointwise-EL densities for the attained minimizers. All
 properties are derived from finite objective and canonical minimization;

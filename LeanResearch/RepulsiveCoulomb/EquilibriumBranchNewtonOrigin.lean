@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonCircleIdentity
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonCircleIdentity
+
+@[expose] public section
 
 /-! Exact origin increment of a bounded measurable radial logarithmic
 potential. The checked circular-error mass gives a quadratic bound with the

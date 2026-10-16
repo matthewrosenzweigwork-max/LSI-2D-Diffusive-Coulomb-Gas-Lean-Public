@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerWidths
-import LeanResearch.RepulsiveCoulomb.JordanSplitCornerEdges
-import LeanResearch.RepulsiveCoulomb.JordanC1RadialCornerPatch
-import LeanResearch.RepulsiveCoulomb.JordanCornerReplacementHomotopy
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerWidths
+public import LeanResearch.RepulsiveCoulomb.JordanSplitCornerEdges
+public import LeanResearch.RepulsiveCoulomb.JordanC1RadialCornerPatch
+public import LeanResearch.RepulsiveCoulomb.JordanCornerReplacementHomotopy
+
+@[expose] public section
 
 /-! Actual simultaneous rounding with the original radial windows retained.
 Unlike a geometry-only existence statement, this conclusion retains the exact

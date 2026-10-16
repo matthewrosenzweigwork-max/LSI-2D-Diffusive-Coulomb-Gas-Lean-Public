@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorBottomIdentification
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeReflection
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorBottomIdentification
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeReflection
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Build the entire actual-data context from the
 original halfplane, true finite nu/alpha geometry and budget, admissible local

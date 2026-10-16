@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchTranslationMultiplier
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchTranslationMultiplier
+
+@[expose] public section
 
 /-! The literal L2-valued first-order Friedrichs kernel and its quantitative
 bound. The derivative moment is exposed explicitly; kernel cancellation and

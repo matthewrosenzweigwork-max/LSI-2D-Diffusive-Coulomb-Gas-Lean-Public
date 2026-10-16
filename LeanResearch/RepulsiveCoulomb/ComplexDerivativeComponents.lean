@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridTranslatedDerivative
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridTranslatedDerivative
+
+@[expose] public section
 
 /-! Real-linear derivative control from the two physical complex coordinate directions. -/
 noncomputable section

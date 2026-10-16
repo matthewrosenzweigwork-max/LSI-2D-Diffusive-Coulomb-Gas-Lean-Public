@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonRadiusDerivative
-import Mathlib.Analysis.InnerProductSpace.Calculus
-import Mathlib.Analysis.Asymptotics.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonRadiusDerivative
+public import Mathlib.Analysis.InnerProductSpace.Calculus
+public import Mathlib.Analysis.Asymptotics.Lemmas
+
+@[expose] public section
 
 /-! A global C1 Newton potential for bounded measurable radial densities.
 Continuity of cumulative mass and the quadratic origin estimate are proved

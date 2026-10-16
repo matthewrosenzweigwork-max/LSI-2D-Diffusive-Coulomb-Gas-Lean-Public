@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRectifiableConformalMetric
-import Mathlib.LinearAlgebra.Complex.Determinant
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRectifiableConformalMetric
+public import Mathlib.LinearAlgebra.Complex.Determinant
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+
+@[expose] public section
 
 /-! The zero-total-exponent case of the literal finite point-weight geometry.
 Nonnegative exponents with zero sum all vanish, including at repeated locations.

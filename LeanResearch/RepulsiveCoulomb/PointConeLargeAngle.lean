@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeBarrierSmooth
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeBarrierSmooth
+
+@[expose] public section
 
 /-! Exact classical-cone distance in the regime where the developed angular
 separation is at least pi. The minimizing distance is the sum of apex radii. -/

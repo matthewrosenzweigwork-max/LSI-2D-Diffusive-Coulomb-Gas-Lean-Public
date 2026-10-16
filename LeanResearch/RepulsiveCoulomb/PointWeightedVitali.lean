@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright (c) 2026 The Tau Ceti contributors. All rights reserved.
 Released under Apache 2.0 license; see Imported/TauCeti/LICENSE.
@@ -10,8 +12,10 @@ Haar scaling by the proved raw-point-weight growth bound. The upstream Haar
 hypothesis is neither erased nor applied to a non-Haar measure; its frozen
 source and PROVENANCE.json remain unchanged.
 -/
-import LeanResearch.RepulsiveCoulomb.PointBallMassComparison
-import Mathlib.MeasureTheory.Covering.Vitali
+public import LeanResearch.RepulsiveCoulomb.PointBallMassComparison
+public import Mathlib.MeasureTheory.Covering.Vitali
+
+@[expose] public section
 
 /-! Actual weighted weak-type covering control, uniformly in the configuration. -/
 noncomputable section

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombProductVolume
-import LeanResearch.RepulsiveCoulomb.CoulombCollisionNull
-import Mathlib.Analysis.Normed.Lp.MeasurableSpace
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombProductVolume
+public import LeanResearch.RepulsiveCoulomb.CoulombCollisionNull
+public import Mathlib.Analysis.Normed.Lp.MeasurableSpace
+
+@[expose] public section
 
 /-! Actual coordinate transport for physical Euclidean volume and the genuine
 Coulomb weight. Collision-nullity is transported from the checked physical

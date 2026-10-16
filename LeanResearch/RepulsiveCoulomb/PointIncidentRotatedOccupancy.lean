@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentNormalizedCells
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkDirectedCommonChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentNormalizedCells
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkDirectedCommonChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Convert the constructed normalized endpoint
 identities into exact full physical range membership in the same rotated

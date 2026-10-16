@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanArgumentHomotopy
-import LeanResearch.RepulsiveCoulomb.ComplexLinearJacobianBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanArgumentHomotopy
+public import LeanResearch.RepulsiveCoulomb.ComplexLinearJacobianBounds
+
+@[expose] public section
 
 /-!
 Actual circles and signed winding of invertible real-linear maps of the plane.

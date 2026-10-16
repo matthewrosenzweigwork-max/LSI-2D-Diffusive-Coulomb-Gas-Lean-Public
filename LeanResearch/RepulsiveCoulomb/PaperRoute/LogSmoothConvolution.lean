@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogFundamentalSolution
-import Mathlib.Analysis.Calculus.ContDiff.Convolution
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogFundamentalSolution
+public import Mathlib.Analysis.Calculus.ContDiff.Convolution
+
+@[expose] public section
 
 /-! The literal logarithmic potential of a smooth compact source.
 All row integrals are genuinely integrable. The physical Poisson equation is

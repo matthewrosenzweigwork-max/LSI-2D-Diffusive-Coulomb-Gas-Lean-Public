@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import Mathlib.Combinatorics.Graph.Maps
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Drawing
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.TwoConnected
+public import Mathlib.Combinatorics.Graph.Maps
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Drawing
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.TwoConnected
+
+@[expose] public section
 
 /-!
 # Combinatorial invariance

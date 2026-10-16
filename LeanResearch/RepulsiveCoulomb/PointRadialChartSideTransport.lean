@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialJordanSideChoice
-import Mathlib.Topology.OpenPartialHomeomorph.IsImage
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialJordanSideChoice
+public import Mathlib.Topology.OpenPartialHomeomorph.IsImage
+
+@[expose] public section
 
 /-! Transport actual Jordan regions into a local chart and back. The side
 choice is derived from the actual region partition and frontier incidences;

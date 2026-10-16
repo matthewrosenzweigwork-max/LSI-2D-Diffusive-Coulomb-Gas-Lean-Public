@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryAdjointDensity
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactLocalMultiplier
-import LeanResearch.RepulsiveCoulomb.DbarBranchCutoffDataSupport
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryAdjointDensity
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactLocalMultiplier
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCutoffDataSupport
+
+@[expose] public section
 
 /-! The actual density-scaled compact data used by the local combined weak
 system. Every input component and scalar output is proved in Lebesgue L2;

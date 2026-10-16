@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MetricRegionPathDistance
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRegionPathDistance
+
+@[expose] public section
 
 /-! An exact exit-cost localization of the constrained path metric. A supplied
 short actual path in a closed metric ball prevents outside excursions from

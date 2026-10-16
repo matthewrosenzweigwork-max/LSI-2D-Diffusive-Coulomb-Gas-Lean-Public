@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorContractionChart
-import LeanResearch.RepulsiveCoulomb.EuclideanSectorBoundaryCases
-import Mathlib.Topology.OpenPartialHomeomorph.Defs
-import Mathlib.Topology.Homeomorph.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorContractionChart
+public import LeanResearch.RepulsiveCoulomb.EuclideanSectorBoundaryCases
+public import Mathlib.Topology.OpenPartialHomeomorph.Defs
+public import Mathlib.Topology.Homeomorph.Lemmas
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Points inside a selected open sector have actual
 ambient open charts directly from that sector's angular contraction. This

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCirclePotentialDifference
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCirclePotentialDifference
+
+@[expose] public section
 
 /-! Exact single-cutoff potential error for a bounded planar density. The
 coefficient pi*epsilon^2/2 is retained, independently of the coarser all-p

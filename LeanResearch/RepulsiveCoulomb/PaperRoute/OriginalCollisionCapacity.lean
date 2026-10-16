@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGlobalVariationalCapacity
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGlobalVariationalCapacity
+
+@[expose] public section
 
 /-! Fresh literal exposure of the original global variational 1-capacity and
 ambient common core. Admissibility is on an open neighborhood and the cost is

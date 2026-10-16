@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleGeometry
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. The actual Euclidean reflection exchanging
 longitudinal and transverse arclength coordinates. It lets compact-top

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FiniteRegularRepresentation
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteRegularRepresentation
+
+@[expose] public section
 
 /-! Literal uniform permutation Poincare inequality, exact coefficient 1/(2N). -/
 noncomputable section

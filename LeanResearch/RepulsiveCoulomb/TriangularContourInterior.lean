@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourChainLength
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourChainLength
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
+
+@[expose] public section
 
 /-! The actual bounded Jordan interior of each contour component, transported
 back to the physical complex plane, with a configuration-uniform weighted area bound. -/

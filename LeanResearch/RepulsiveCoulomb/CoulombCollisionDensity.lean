@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+
+@[expose] public section
 
 /-! Compact density upper bound retaining one actual collision exponent.
 Other collisions, including intersections, require no separation. -/

@@ -1,7 +1,11 @@
-import Mathlib.Analysis.InnerProductSpace.Convex
-import LeanResearch.RepulsiveCoulomb.PointConformalGeodesicArc
-import LeanResearch.RepulsiveCoulomb.PointConformalMetricCharts
-import Mathlib.Analysis.Convex.StrictConvexBetween
+module
+
+public import Mathlib.Analysis.InnerProductSpace.Convex
+public import LeanResearch.RepulsiveCoulomb.PointConformalGeodesicArc
+public import LeanResearch.RepulsiveCoulomb.PointConformalMetricCharts
+public import Mathlib.Analysis.Convex.StrictConvexBetween
+
+@[expose] public section
 
 /-! Two actual local facts needed for the geometric continuation: nonconstant
 geodesics meet the finite puncture set only finitely often, and a minimizing

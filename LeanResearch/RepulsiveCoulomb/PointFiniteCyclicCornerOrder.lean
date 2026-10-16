@@ -1,5 +1,9 @@
-import Mathlib.Data.Nat.ModEq
-import Mathlib.Tactic
+module
+
+public import Mathlib.Data.Nat.ModEq
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! The literal cyclic re-enumeration starting at any selected original
 vertex. All finite bijection, adjacency, closing and predecessor facts are

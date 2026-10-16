@@ -1,5 +1,9 @@
-import Mathlib.Analysis.InnerProductSpace.Positive
-import Mathlib.Analysis.InnerProductSpace.Spectrum
+module
+
+public import Mathlib.Analysis.InnerProductSpace.Positive
+public import Mathlib.Analysis.InnerProductSpace.Spectrum
+
+@[expose] public section
 
 /-! Finite-dimensional spectral conversion of a genuine Bochner inequality. -/
 noncomputable section

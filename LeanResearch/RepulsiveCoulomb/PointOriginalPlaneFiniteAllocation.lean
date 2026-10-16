@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointBalancedSideInitialState
-import LeanResearch.RepulsiveCoulomb.PointFiniteSectorLocalGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointBalancedSideInitialState
+public import LeanResearch.RepulsiveCoulomb.PointFiniteSectorLocalGeometry
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Finite actual allocation on the original plane.
 Both sides are constructed from ha,y, allocated by the completed halfplane

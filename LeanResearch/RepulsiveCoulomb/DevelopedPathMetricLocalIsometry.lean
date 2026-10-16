@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.DevelopedPathMetricTopology
-import LeanResearch.RepulsiveCoulomb.CompleteLocalIsometryEquiv
-import LeanResearch.RepulsiveCoulomb.EuclideanChartTransition
-import Mathlib.Analysis.Normed.Module.Convex
-import Mathlib.Topology.OpenPartialHomeomorph.Continuity
+module
+
+public import LeanResearch.RepulsiveCoulomb.DevelopedPathMetricTopology
+public import LeanResearch.RepulsiveCoulomb.CompleteLocalIsometryEquiv
+public import LeanResearch.RepulsiveCoulomb.EuclideanChartTransition
+public import Mathlib.Analysis.Normed.Module.Convex
+public import Mathlib.Topology.OpenPartialHomeomorph.Continuity
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. A sufficiently small straight coordinate segment is

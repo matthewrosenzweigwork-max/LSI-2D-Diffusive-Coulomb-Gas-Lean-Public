@@ -1,7 +1,11 @@
-import LeanResearch.PeriodicAttractiveLogGas.Entropy
-import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
-import Mathlib.MeasureTheory.Function.L2Space
-import Mathlib.Topology.Sequences
+module
+
+public import LeanResearch.PeriodicAttractiveLogGas.Entropy
+public import Mathlib.MeasureTheory.Function.ConvergenceInMeasure
+public import Mathlib.MeasureTheory.Function.L2Space
+public import Mathlib.Topology.Sequences
+
+@[expose] public section
 
 /-! Entropy limits in the actual L2 topology. Source: lem:cutoffs and the last
 paragraph of the proof of thm:main. The later concrete smooth-gradient graph

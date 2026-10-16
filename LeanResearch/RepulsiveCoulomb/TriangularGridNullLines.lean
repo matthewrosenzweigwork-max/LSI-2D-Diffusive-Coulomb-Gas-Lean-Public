@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridPointClassification
-import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
-import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridPointClassification
+public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+
+@[expose] public section
 
 /-! Actual volume-null grid skeletons, including a countable sequence of meshes.
 No union over all real mesh sizes is used. -/

@@ -1,6 +1,10 @@
-import Mathlib.Topology.MetricSpace.Isometry
-import Mathlib.Topology.Instances.NNReal.Lemmas
-import Mathlib.Tactic.Linarith
+module
+
+public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Topology.Instances.NNReal.Lemmas
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-! Join actual opposite unit-speed rays into a complete unit-speed line.
 The cross-distance equality is explicit. No assertion that a merely local

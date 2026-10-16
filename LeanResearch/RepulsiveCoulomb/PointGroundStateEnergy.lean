@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreCrossTerm
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreCrossTerm
+
+@[expose] public section
 
 /-! Actual normalized ground-state energy identity, with all terms integrable
 on the original puncture-avoiding smooth core. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicSmoothArc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicSmoothArc
+
+@[expose] public section
 
 /-! One common holomorphic chart for all short incident geodesic collars.
 The global smooth representatives agree on neighborhoods of the whole closed

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapActualFamily
-import LeanResearch.RepulsiveCoulomb.PointLineCapAtomSupport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapActualFamily
+public import LeanResearch.RepulsiveCoulomb.PointLineCapAtomSupport
+
+@[expose] public section
 
 /-! Records-only, uncompiled. The constructed fixed side/common anchor now
 instantiate compact-path exhaustion for the actual cap family. Interior atom

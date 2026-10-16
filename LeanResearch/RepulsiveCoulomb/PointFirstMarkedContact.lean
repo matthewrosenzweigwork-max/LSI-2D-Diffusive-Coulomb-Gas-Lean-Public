@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFirstMarkedMinimum
-import LeanResearch.RepulsiveCoulomb.PointInitialDirectionSubsegment
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFirstMarkedMinimum
+public import LeanResearch.RepulsiveCoulomb.PointInitialDirectionSubsegment
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY bounded first marked contact.
 No sector embedding, extension to infinity, old-boundary return exclusion, or

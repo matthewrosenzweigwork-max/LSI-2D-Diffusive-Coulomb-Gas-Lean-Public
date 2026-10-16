@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FiniteNestedPolygonExterior
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteNestedPolygonExterior
+
+@[expose] public section
 
 /-! Local connected exterior for finite polygon families whose filled interiors
 are contained in the prescribed connected open set. Nesting is allowed. -/

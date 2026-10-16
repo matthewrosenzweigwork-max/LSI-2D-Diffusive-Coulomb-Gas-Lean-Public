@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedRegionIntrinsicMetric
-import LeanResearch.RepulsiveCoulomb.MetricRegionPathLocalization
-import LeanResearch.RepulsiveCoulomb.MetricRegionPathTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedRegionIntrinsicMetric
+public import LeanResearch.RepulsiveCoulomb.MetricRegionPathLocalization
+public import LeanResearch.RepulsiveCoulomb.MetricRegionPathTransport
+
+@[expose] public section
 
 /-! The exact local interval-cone length model of a literal retained region.
 Its model distance is itself the genuine path infimum in the retained cone

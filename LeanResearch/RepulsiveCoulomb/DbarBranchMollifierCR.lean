@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMollifierTest
-import LeanResearch.RepulsiveCoulomb.DbarBranchClassicalCR
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMollifierTest
+public import LeanResearch.RepulsiveCoulomb.DbarBranchClassicalCR
+
+@[expose] public section
 
 /-! Interior smoothing preserves the actual weak Cauchy-Riemann equations.
 The data are elements of the original weighted L2 weak kernel; the smooth

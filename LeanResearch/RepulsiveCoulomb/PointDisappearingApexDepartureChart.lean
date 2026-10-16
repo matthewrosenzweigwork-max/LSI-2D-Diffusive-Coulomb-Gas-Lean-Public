@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.RetainedSectorPassingHalfDisk
-import LeanResearch.RepulsiveCoulomb.PointBoundedCornerRetainedChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorRelativeOpenness
+module
+
+public import LeanResearch.RepulsiveCoulomb.RetainedSectorPassingHalfDisk
+public import LeanResearch.RepulsiveCoulomb.PointBoundedCornerRetainedChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorRelativeOpenness
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. After constructing the first departure radius r,
 this file constructs every field of the new chart at z from an ACTUAL source

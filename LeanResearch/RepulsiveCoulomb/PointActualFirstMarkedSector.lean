@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorTopContact
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorTopContact
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Original-input first-marked sector endpoint.
 The only supplied maps are the actual halfplane homeomorphism, finitely many

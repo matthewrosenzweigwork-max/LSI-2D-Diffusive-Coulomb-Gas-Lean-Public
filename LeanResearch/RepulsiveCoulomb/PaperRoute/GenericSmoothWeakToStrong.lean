@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DyadicMomentBound
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericSmoothTruncationEnergy
-import LeanResearch.RepulsiveCoulomb.SmoothTruncationMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.DyadicMomentBound
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericSmoothTruncationEnergy
+public import LeanResearch.RepulsiveCoulomb.SmoothTruncationMean
+
+@[expose] public section
 
 /-
 Additive paper-route copy of the generic argument in SmoothWeakToStrong.lean.

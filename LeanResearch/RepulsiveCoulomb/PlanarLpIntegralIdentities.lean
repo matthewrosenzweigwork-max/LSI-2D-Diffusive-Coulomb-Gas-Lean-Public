@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PlanarLadyzhenskaya
-import Mathlib.MeasureTheory.Function.LpSeminorm.LpNorm
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarLadyzhenskaya
+public import Mathlib.MeasureTheory.Function.LpSeminorm.LpNorm
+
+@[expose] public section
 
 /-! Exact finite-real norm/integral identities used in the annular estimate. -/
 noncomputable section

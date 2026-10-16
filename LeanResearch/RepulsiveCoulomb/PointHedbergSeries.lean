@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointLocalEnergyScale
-import LeanResearch.RepulsiveCoulomb.DyadicHedberg
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLocalEnergyScale
+public import LeanResearch.RepulsiveCoulomb.DyadicHedberg
+
+@[expose] public section
 
 /-! The actual local square-root energy series and its optimized bound.
 Positive and zero energy/maximal cases are all treated explicitly. -/

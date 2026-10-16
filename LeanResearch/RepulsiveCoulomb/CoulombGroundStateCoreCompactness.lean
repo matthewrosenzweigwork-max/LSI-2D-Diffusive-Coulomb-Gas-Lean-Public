@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreBounds
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreL2
-import LeanResearch.RepulsiveCoulomb.SmoothMomentCompactness
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreBounds
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreL2
+public import LeanResearch.RepulsiveCoulomb.SmoothMomentCompactness
+
+@[expose] public section
 
 /-! Actual global compactness of normalized ground states of a bounded
 original-core form family. The Gaussian moment estimate and physical gradient

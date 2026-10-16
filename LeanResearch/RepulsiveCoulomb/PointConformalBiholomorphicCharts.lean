@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicChartRestriction
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicChartRestriction
+
+@[expose] public section
 
 /-! Regular and singular density charts with actual holomorphic inverses.
 These interfaces permit smooth paths to be transported in both directions. -/

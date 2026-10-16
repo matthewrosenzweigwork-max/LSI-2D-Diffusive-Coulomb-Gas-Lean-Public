@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate_pos",
+    "RepulsiveCoulomb.PaperRoute.paper_full_labeled_lsi_original",
+    "RepulsiveCoulomb.PaperRoute.paper_uniform_labeled_lsi_original"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

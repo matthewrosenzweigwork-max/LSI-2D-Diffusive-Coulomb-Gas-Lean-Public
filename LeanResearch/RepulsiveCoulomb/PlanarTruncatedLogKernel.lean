@@ -1,6 +1,10 @@
-import Mathlib.Analysis.SpecialFunctions.Pow.Integral
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
-import Mathlib.MeasureTheory.Group.Integral
+module
+
+public import Mathlib.Analysis.SpecialFunctions.Pow.Integral
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+public import Mathlib.MeasureTheory.Group.Integral
+
+@[expose] public section
 
 /-! Exact L1 control of the truncated planar logarithmic-force kernel.
 The radial change of variables is Mathlib's Haar-to-sphere theorem. The

@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicRadialGerms
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
-import LeanResearch.RepulsiveCoulomb.PointActualGeodesicUniqueness
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
-import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicRadialGerms
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+public import LeanResearch.RepulsiveCoulomb.PointActualGeodesicUniqueness
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
+public import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+
+@[expose] public section
 
 /-!
 ISOLATED SOURCE-ONLY DRAFT. Never compiled, staged, or accepted.

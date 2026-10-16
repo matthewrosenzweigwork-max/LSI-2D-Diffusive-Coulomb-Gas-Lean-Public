@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeightedCoreMultiplierL2
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffSymbols
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffL2
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeightedCoreMultiplierL2
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffSymbols
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffL2
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-! The actual scalar cutoff commutator is a bounded complex-linear map on
 auxiliary vector L2. Its representative is <R dbar(theta),u>, and its norm

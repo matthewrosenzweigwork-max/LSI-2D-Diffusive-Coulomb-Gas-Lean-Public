@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnProperActualCap
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualGBLink
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnVertexBookkeeping
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnOldSignedCoefficients
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexReturnBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnProperActualCap
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualGBLink
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnVertexBookkeeping
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnOldSignedCoefficients
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexReturnBudget
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Complete actual finite-GB contradiction
 from a genuine metric stopped edge and a proper broken old end. The Jordan cap,

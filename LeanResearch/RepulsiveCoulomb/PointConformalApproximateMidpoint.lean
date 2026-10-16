@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalIntrinsicLength
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalIntrinsicLength
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+
+@[expose] public section
 
 /-! Length bisection and approximate metric midpoints, including curves through
 zero-density punctures. -/

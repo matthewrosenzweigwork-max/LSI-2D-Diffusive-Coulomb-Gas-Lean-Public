@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchExtensionGlue
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchExtensionGlue
+
+@[expose] public section
 
 /-! Local extensions on an open intermediate domain glue before the final
 Hartogs step. -/

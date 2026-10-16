@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFullStripCurvatureTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullStripCurvatureTransport
+
+@[expose] public section
 
 /-! Final concrete supplied-strip endpoint. Closed/proper image and interior
 membership of every positive source height are DERIVED from the actual isometry,

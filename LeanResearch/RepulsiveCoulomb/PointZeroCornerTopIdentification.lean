@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCleanBoundaryRayNonbranching
-import LeanResearch.RepulsiveCoulomb.PointTranslatedContactAngle
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCleanBoundaryRayNonbranching
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedContactAngle
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. At a zero-residual corner, the actual top is the

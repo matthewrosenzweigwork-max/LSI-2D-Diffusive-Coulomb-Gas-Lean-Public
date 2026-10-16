@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.SuperPoincareAbsorption
+module
+
+public import LeanResearch.RepulsiveCoulomb.SuperPoincareAbsorption
+
+@[expose] public section
 
 /-! Polynomial small-parameter costs are absorbed into the Gaussian SPI rate. -/
 noncomputable section

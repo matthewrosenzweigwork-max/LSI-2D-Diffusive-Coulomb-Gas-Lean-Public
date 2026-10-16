@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCanonicalSplitting
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
-import Mathlib.Probability.Moments.IntegrableExpMul
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCanonicalSplitting
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+public import Mathlib.Probability.Moments.IntegrableExpMul
+
+@[expose] public section
 
 /-! Actual integrability of the modulated energy under the canonical Gibbs
 law, derived from two genuine exponential moments and the exact tilted-law

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.RadialPrimitive
-import Mathlib.MeasureTheory.Integral.DominatedConvergence
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.RadialPrimitive
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-! Smooth radial masks shrink to the origin and recover the integral of every
 continuous nonnegative radial density by dominated convergence. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexFirstReturnBudget
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexFirstReturnBudget
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexBudget
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The disappearing-apex return contradiction uses
 strict initial turn nu(z)+pi<pi and nonpositive remaining turns. It does NOT

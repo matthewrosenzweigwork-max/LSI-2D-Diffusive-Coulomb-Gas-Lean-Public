@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointSmoothJoinTangents
-import LeanResearch.RepulsiveCoulomb.JordanSmoothArcTurnAssembly
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSmoothJoinTangents
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothArcTurnAssembly
+
+@[expose] public section
 
 /-! Actual positive-affine trace comparison, including the closed endpoints.
 Derivative uniqueness on the closed unit interval prevents any use of an

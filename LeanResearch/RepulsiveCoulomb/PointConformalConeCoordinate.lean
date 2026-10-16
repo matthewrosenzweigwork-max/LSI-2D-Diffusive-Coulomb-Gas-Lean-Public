@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicConeCoordinate
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicConeCoordinate
+
+@[expose] public section
 
 /-! Actual cone-density coordinates for the literal finite point configuration.
 The coordinate is a local homeomorphism and preserves the weighted lengths of

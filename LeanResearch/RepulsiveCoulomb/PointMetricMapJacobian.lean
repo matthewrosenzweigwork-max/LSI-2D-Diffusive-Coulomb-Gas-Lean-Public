@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricMapDifferential
-import LeanResearch.RepulsiveCoulomb.ComplexLinearJacobianBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricMapDifferential
+public import LeanResearch.RepulsiveCoulomb.ComplexLinearJacobianBounds
+
+@[expose] public section
 
 /-! Literal absolute-Jacobian and analytic distortion bounds extracted from
 an actual point-metric bi-Lipschitz map. Map existence is intentionally separate.

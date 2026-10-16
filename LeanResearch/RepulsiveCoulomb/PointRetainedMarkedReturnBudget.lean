@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedParallelReturnBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedParallelReturnBudget
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The actual marked attachment turn is nu(z)+nu(p).
 Both p and z are omitted from the remaining old arc, and each positive atom is

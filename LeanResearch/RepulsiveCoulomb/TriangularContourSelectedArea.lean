@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourLocalLength
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourLocalLength
+
+@[expose] public section
 
 /-! Weighted area and exact local boundary-length accounting for any finite
 selection of actual contour interiors. -/

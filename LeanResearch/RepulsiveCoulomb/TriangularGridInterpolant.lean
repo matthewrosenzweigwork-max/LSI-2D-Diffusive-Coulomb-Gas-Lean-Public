@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridHatLattice
-import Mathlib.Analysis.Normed.MulAction
-import Mathlib.Data.Finsupp.Basic
-import Mathlib.Topology.Algebra.Group.ContinuousDiv
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridHatLattice
+public import Mathlib.Analysis.Normed.MulAction
+public import Mathlib.Data.Finsupp.Basic
+public import Mathlib.Topology.Algebra.Group.ContinuousDiv
+
+@[expose] public section
 
 /-! An actual finite nodal interpolant on the regular diagonal grid. It is
 compactly supported and globally Lipschitz, with exact prescribed lattice values. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRadialDerivativeBounds
-import Mathlib.Analysis.Calculus.ContDiff.Bounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRadialDerivativeBounds
+public import Mathlib.Analysis.Calculus.ContDiff.Bounds
+
+@[expose] public section
 
 /-! Finite-order product estimates used for the physical thermal-density
 Gaussian tails. Constants are finite sums of the actual Leibniz coefficients;

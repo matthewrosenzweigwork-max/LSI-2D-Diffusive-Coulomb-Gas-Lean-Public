@@ -1,18 +1,22 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.RefinementStars
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.OverlayGraph
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SkeletonAccess
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.RelativeEar
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Relabel
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.CycleJordan
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.BoundaryCyclesGenerated
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.MatchedSplit
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.MatchedArc
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.RefinementStars
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.OverlayGraph
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SkeletonAccess
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.RelativeEar
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Relabel
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.CycleJordan
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.BoundaryCyclesGenerated
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.MatchedSplit
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.MatchedArc
+
+@[expose] public section
 
 /-!
 # Finite transfer, direction (a): toward the square

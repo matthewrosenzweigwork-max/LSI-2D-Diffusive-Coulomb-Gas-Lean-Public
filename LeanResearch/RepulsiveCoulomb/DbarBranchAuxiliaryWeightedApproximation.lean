@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchExtendedCoreOutput
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactDensityReturn
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactOutputTransfer
-import LeanResearch.RepulsiveCoulomb.DbarBranchFiniteL2Convergence
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchExtendedCoreOutput
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactDensityReturn
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactOutputTransfer
+public import LeanResearch.RepulsiveCoulomb.DbarBranchFiniteL2Convergence
+
+@[expose] public section
 
 /-! One genuine compact-core sequence approximates a fixed cutoff value,
 its actual Hilbert-adjoint output and its transformed exterior error in

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchJointMollification
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchJointMollification
+
+@[expose] public section
 
 /-! Compactly supported L2 inputs are mollified into genuine compact smooth
 test functions. Their literal directional derivatives represent the L2

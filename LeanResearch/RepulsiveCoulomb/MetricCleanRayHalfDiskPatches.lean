@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
-import LeanResearch.RepulsiveCoulomb.MetricFlatChartInterior
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskBoundaryAlignment
+public import LeanResearch.RepulsiveCoulomb.MetricFlatChartInterior
+
+@[expose] public section
 
 /-! Successor source-only draft. Actual arclength-aligned halfdisk patches
 along a clean minimizing ray, away from its base. Genuine retained halfdisks

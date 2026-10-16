@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripOldEdgeFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripOldEdgeFullness
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. If the actual free top lies on the old frontier,
 its positive points fill P locally. Both source diameter endpoints are genuine

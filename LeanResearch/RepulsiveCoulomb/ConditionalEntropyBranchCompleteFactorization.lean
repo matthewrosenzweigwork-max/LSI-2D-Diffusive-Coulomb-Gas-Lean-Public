@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchGibbsFactorization
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchUniformGibbsDefect
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchGibbsFactorization
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchUniformGibbsDefect
+
+@[expose] public section
 
 /-! Compact upper bound for the exact finite-particle defects. The four finite
 Gibbs factorization declarations are supplied by GibbsFactorization under their

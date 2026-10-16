@@ -1,5 +1,9 @@
-import Mathlib.Topology.EMetricSpace.BoundedVariation
-import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+module
+
+public import Mathlib.Topology.EMetricSpace.BoundedVariation
+public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+
+@[expose] public section
 
 /-! Local-to-global rectifiability on the compact unit interval. A Lebesgue
 number gives a finite subdivision; variation is then additive over its cells. -/

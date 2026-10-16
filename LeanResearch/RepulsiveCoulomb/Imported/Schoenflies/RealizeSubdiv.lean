@@ -1,10 +1,14 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CellulationInvariants
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Subarc
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CellulationInvariants
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Subarc
+
+@[expose] public section
 
 /-!
 # Realizing an edge subdivision

@@ -1,12 +1,16 @@
-import LeanResearch.RepulsiveCoulomb.OrientedClockEndpointTangents
-import LeanResearch.RepulsiveCoulomb.PointLineCapNatFamily
-import LeanResearch.RepulsiveCoulomb.PointLineCapAngleLimits
-import LeanResearch.RepulsiveCoulomb.AffineLineTailTransport
-import LeanResearch.RepulsiveCoulomb.PointGeodesicOrientedClock
-import Mathlib.Tactic.FunProp
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.OrientedClockEndpointTangents
+public import LeanResearch.RepulsiveCoulomb.PointLineCapNatFamily
+public import LeanResearch.RepulsiveCoulomb.PointLineCapAngleLimits
+public import LeanResearch.RepulsiveCoulomb.AffineLineTailTransport
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicOrientedClock
+public import Mathlib.Tactic.FunProp
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Actual line representatives retain the
 oriented endpoint tangent direction. Their clock is constructed from literal

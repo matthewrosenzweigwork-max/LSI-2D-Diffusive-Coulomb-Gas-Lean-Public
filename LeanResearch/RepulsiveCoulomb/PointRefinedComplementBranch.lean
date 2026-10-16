@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointComplementCoordinateMaps
-import LeanResearch.RepulsiveCoulomb.PointRefinedAngularBranchPasting
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointComplementCoordinateMaps
+public import LeanResearch.RepulsiveCoulomb.PointRefinedAngularBranchPasting
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Fill every local branch law for an actual
 unowned refined complement cell. The physical sector isometry, full range,

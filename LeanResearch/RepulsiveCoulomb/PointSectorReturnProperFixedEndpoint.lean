@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnCleanRay
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnOppositeBoundaryGerm
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualEdgeGerm
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnOrderedCapChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeRotationTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnCleanRay
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnOppositeBoundaryGerm
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualEdgeGerm
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnOrderedCapChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeRotationTransport
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Proper-old-end variant of the both-orientation
 cap constructor. A genuinely escaping old end and a local radial germ suffice;

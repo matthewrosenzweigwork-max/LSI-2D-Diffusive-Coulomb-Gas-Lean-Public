@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourLevelProduct
-import LeanResearch.RepulsiveCoulomb.DoubleLayerCake
-import LeanResearch.RepulsiveCoulomb.ComplexLipschitzCoarea
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourLevelProduct
+public import LeanResearch.RepulsiveCoulomb.DoubleLayerCake
+public import LeanResearch.RepulsiveCoulomb.ComplexLipschitzCoarea
+
+@[expose] public section
 
 /-! The actual unit-grid double-oscillation estimate, obtained from the proved
 relative separator by strict double layer cake and physical-gradient coarea.

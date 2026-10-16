@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexPrefixFullness
-import LeanResearch.RepulsiveCoulomb.RetainedSectorSourceTopology
-import Mathlib.Analysis.Convex.PathConnected
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexPrefixFullness
+public import LeanResearch.RepulsiveCoulomb.RetainedSectorSourceTopology
+public import Mathlib.Analysis.Convex.PathConnected
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Connectedness and relative openness of the
 literal removed piece S minus the UPPER TAIL BASED AT z. The original apex and

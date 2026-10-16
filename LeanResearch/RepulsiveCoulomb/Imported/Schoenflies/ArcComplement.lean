@@ -1,13 +1,17 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.ArcComplementPrep
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CombinatorialInvariance
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.VertexSquares
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.OuterChainClosed
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.AccessibleJoin
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.ArcComplementPrep
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CombinatorialInvariance
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.VertexSquares
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.OuterChainClosed
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.AccessibleJoin
+
+@[expose] public section
 
 /-!
 # A simple arc does not separate the plane

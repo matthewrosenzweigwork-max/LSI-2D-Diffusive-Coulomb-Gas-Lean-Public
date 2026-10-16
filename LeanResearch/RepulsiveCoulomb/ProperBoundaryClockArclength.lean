@@ -1,11 +1,15 @@
-import Mathlib.Topology.Homeomorph.Lemmas
-import Mathlib.Topology.Maps.Proper.Basic
-import Mathlib.Topology.MetricSpace.Isometry
-import Mathlib.Topology.MetricSpace.ProperSpace
-import Mathlib.Topology.Order.Compact
-import Mathlib.Topology.Order.IntermediateValue
-import Mathlib.Topology.UnitInterval
-import Mathlib.Tactic
+module
+
+public import Mathlib.Topology.Homeomorph.Lemmas
+public import Mathlib.Topology.Maps.Proper.Basic
+public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Topology.MetricSpace.ProperSpace
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Topology.Order.IntermediateValue
+public import Mathlib.Topology.UnitInterval
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Arclength parametrization of a proper topological boundary clock

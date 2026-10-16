@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.AffineTriangleLevel
-import LeanResearch.RepulsiveCoulomb.TriangleSignAlternative
+module
+
+public import LeanResearch.RepulsiveCoulomb.AffineTriangleLevel
+public import LeanResearch.RepulsiveCoulomb.TriangleSignAlternative
+
+@[expose] public section
 
 /-! Every nonvertex affine triangular level is empty or exactly the segment
 between two actual incident-edge crossing points. -/

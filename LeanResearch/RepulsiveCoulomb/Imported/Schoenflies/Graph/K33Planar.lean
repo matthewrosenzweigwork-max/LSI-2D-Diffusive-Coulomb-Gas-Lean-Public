@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.K33
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Redrawing
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.AlternatingCrosscuts
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.K33
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Redrawing
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.AlternatingCrosscuts
+
+@[expose] public section
 
 /-!
 # Lemma 3.10: the utility graph is not planar, and Corollary 3.11 for its subdivisions

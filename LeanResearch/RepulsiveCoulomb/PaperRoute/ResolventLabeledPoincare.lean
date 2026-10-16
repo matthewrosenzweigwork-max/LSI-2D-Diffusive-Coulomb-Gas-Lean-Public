@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare
-import LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.RelativeLabeledPoincare
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-! Additive original-paper adapter. Compact resolvent, its actual graph inverse,
 and the associated-operator constants kernel feed the fixed-N gap. No old

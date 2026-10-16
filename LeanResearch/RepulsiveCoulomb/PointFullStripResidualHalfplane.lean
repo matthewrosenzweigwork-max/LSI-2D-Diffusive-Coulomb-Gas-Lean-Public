@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.FullStripResidualTopology
-import LeanResearch.RepulsiveCoulomb.MetricFullStripLocalFullness
-import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.FullStripResidualTopology
+public import LeanResearch.RepulsiveCoulomb.MetricFullStripLocalFullness
+public import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+
+@[expose] public section
 
 /-! The concrete endpoint instantiates the topology from the given actual map,
 retained old-boundary charts, and the ordinary marked-support hypotheses. The

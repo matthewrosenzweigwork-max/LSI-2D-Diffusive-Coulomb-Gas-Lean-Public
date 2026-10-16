@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryRawPairing
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryRawPairing
+
+@[expose] public section
 
 /-! Closure of the auxiliary core preserves the literal local weak dbar
 relations. When its raw output Sg additionally belongs to the original

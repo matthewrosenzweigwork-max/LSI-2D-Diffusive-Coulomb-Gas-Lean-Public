@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteRadialTurnTransport
-import LeanResearch.RepulsiveCoulomb.JordanFiniteNonzeroWindingTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteRadialTurnTransport
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteNonzeroWindingTurn
+
+@[expose] public section
 
 /-! End-to-end oriented total turn for an actual finite noncuspidal radial-
 chart Jordan family. The common rounding width, all disjoint neighborhoods,

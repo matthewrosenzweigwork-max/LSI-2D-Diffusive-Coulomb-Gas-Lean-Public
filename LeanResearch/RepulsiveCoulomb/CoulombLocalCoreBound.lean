@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
-import LeanResearch.RepulsiveCoulomb.CoulombLocalL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+public import LeanResearch.RepulsiveCoulomb.CoulombLocalL2
+
+@[expose] public section
 
 /-! Actual unweighted local physical H1 control on the full closed form.
 The compact set must avoid collisions; compactness itself is not asserted. -/

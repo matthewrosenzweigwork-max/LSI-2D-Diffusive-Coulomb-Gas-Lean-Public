@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointCenteredTailSampleBound
-import LeanResearch.RepulsiveCoulomb.RationalDirectionRetention
-import Mathlib.Order.Filter.AtTopBot.Archimedean
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCenteredTailSampleBound
+public import LeanResearch.RepulsiveCoulomb.RationalDirectionRetention
+public import Mathlib.Order.Filter.AtTopBot.Archimedean
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Records-only successor. The actual retained rational-time samples inherit
  the original endpoints' uniform direction bounds. The eventual parameter and

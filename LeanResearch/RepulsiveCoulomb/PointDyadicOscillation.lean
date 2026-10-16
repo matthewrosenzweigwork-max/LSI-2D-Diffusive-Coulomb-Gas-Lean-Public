@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointMeasureAverage
-import LeanResearch.RepulsiveCoulomb.WeightedDoubleOscillation
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMeasureAverage
+public import LeanResearch.RepulsiveCoulomb.WeightedDoubleOscillation
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-! An actual dyadic oscillation representation for the raw point measure.
 The right side contains genuine double averages; replacing those by gradient

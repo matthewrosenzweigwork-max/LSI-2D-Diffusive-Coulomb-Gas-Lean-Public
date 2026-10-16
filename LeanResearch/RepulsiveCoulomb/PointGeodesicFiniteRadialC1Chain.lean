@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1FiniteAssembly
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1FiniteAssembly
+
+@[expose] public section
 
 /-! Construct the actual finite ordered macro-arc chain of every nonconstant
 geodesic. All true vertices are source puncture times or endpoints; the exact

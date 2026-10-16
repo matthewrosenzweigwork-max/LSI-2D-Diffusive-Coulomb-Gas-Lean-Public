@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialBoundaryArgument
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialBoundaryArgument
+
+@[expose] public section
 
 /-! The full boundary-point argument is the actual interior sector angle.
 The outside observer is geometrically specified, both original radial collars

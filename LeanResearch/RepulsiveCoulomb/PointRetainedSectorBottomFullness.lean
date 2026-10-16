@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.RetainedSectorBottomHalfDisk
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkBoundaryFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.RetainedSectorBottomHalfDisk
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkBoundaryFullness
+
+@[expose] public section
 
 /-! SOURCE-ONLY, NOT COMPILED. The sector covers the ENTIRE old region locally
 at every positive bottom point. Both local source edges lie on the actual old

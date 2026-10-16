@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnBoundaryClock
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnBoundaryClock
+
+@[expose] public section
 
 /-! Isolated, uncompiled topological endpoint form of the actual boundary
 clock constructor. Its return point is genuinely outside the old metric ray;

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointSquaredWeightRadius
-import LeanResearch.RepulsiveCoulomb.PointDyadicAveragingFubini
-import LeanResearch.RepulsiveCoulomb.WeightedSetMeanCentering
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSquaredWeightRadius
+public import LeanResearch.RepulsiveCoulomb.PointDyadicAveragingFubini
+public import LeanResearch.RepulsiveCoulomb.WeightedSetMeanCentering
+
+@[expose] public section
 
 /-! The pointwise portion of Bjorn's transfer, explicitly conditional on an
 actual double-average gradient estimate. That estimate remains an OPEN input;

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCappedSectorStageRadialEdge
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCappedSectorStageRadialEdge
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Keep the supplied geometric apex as the
 literal start field of each constructed finite-stage radial edge. -/

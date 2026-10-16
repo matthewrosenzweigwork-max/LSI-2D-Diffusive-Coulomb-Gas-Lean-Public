@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombDensityGlobal
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombDensityGlobal
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. Actual Gaussian exponential moment of the
 literal normalized labeled Gibbs law. No uniformity in N is asserted. -/

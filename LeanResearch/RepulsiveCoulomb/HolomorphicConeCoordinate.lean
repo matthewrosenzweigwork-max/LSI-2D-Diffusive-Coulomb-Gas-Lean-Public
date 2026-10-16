@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicRadialEquation
-import LeanResearch.RepulsiveCoulomb.LocalHolomorphicLogarithm
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicRadialEquation
+public import LeanResearch.RepulsiveCoulomb.LocalHolomorphicLogarithm
+
+@[expose] public section
 
 /-! Analytic coordinate algebra for a cone density. This module first proves the
 exact pullback identity from the proved radial differential equation. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MeanRpowCentering
+module
+
+public import LeanResearch.RepulsiveCoulomb.MeanRpowCentering
+
+@[expose] public section
 
 /-! Actual comparison of quadratic and higher moments under a finite measure. -/
 noncomputable section

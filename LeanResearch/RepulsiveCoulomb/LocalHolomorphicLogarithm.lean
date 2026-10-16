@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicRadialAverage
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicRadialAverage
+
+@[expose] public section
 
 /-! A local analytic logarithm constructed by normalizing the value at the center
 and using the principal logarithm near 1. No global branch is presumed. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombOneSiteKernel
-import Mathlib.Probability.Kernel.Composition.IntegralCompProd
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombOneSiteKernel
+public import Mathlib.Probability.Kernel.Composition.IntegralCompProd
+
+@[expose] public section
 
 /-! Equality of the actual joint law with marginal times the conditional
 kernel, and a signed tower with genuine integrability hypotheses. -/

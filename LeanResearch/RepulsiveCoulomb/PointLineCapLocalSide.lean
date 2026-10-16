@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapActualFamily
-import LeanResearch.RepulsiveCoulomb.PointLineCapAtomSupport
-import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfConeSides
-import Mathlib.Tactic.Linarith
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapActualFamily
+public import LeanResearch.RepulsiveCoulomb.PointLineCapAtomSupport
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfConeSides
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-! Records-only, uncompiled. An actual cap and the fixed line component have
 the SAME full local closed side in a common cone chart. This is a local set

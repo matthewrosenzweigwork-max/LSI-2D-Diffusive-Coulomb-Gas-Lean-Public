@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleGeometry
-import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleGeometry
+public import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
+
+@[expose] public section
 
 /-! NEW proofs for the retained marked-avoidance interfaces. The original
 uniform geometric clearance and actual transverse distances exclude marks

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointPhysicalDirectedSector
-import LeanResearch.RepulsiveCoulomb.PointRadialC1PlaneArc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointPhysicalDirectedSector
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1PlaneArc
+
+@[expose] public section
 
 /-! The raw vectors retained by adjacent macro-arcs and their actual physical
 outward tangents have exactly the same two cone-sector angles. Both tangents

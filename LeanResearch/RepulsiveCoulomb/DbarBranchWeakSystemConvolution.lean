@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeakSystemTests
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeakSystemTests
+
+@[expose] public section
 
 /-! The combined weak system commutes with interior convolution up to the
 literal finite sum of Friedrichs kernels. This uses the joint weak equation

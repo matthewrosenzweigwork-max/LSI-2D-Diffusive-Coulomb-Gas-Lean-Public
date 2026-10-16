@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPairGradientSum
-import LeanResearch.RepulsiveCoulomb.CoulombFormSwap
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPairGradientSum
+public import LeanResearch.RepulsiveCoulomb.CoulombFormSwap
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory

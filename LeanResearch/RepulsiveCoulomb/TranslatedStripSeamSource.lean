@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedStripSourceGeometry
-import Mathlib.Analysis.Normed.Affine.Convex
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.LinearCombination
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripSourceGeometry
+public import Mathlib.Analysis.Normed.Affine.Convex
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.LinearCombination
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Literal source geometry for two successive
 translated strips. All metrics below are Euclidean metrics on complex numbers.

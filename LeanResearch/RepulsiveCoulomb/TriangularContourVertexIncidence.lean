@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridEdgeLevel
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridEdgeLevel
+
+@[expose] public section
 
 /-! A physical contour edge contains no contour vertices other than its actual
 endpoints. This supplies the vertex exclusion needed by a planar drawing. -/

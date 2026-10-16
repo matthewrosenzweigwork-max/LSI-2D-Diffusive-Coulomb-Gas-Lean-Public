@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombSqrtDensityContinuity
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombSqrtDensityContinuity
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateL2
+
+@[expose] public section
 
 /-! A fixed ambient volume-L2 realization of normalized square-root Gibbs
 weights and genuine strong continuity at every positive temperature.

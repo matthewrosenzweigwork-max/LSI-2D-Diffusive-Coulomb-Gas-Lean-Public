@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerReversal
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerReversal
+
+@[expose] public section
 
 /-! Choose the positive traversal of the actual original finite family.
 The sign is first derived from the original Jordan theorem; only the negative

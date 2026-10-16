@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanSectorContraction
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanSectorContraction
+
+@[expose] public section
 
 /-! Actual angular contractions as bijections of closed Euclidean sectors, with
 sharp two-sided metric estimates and preserved radial length. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ComplexSubsetIsometryExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexSubsetIsometryExtension
+
+@[expose] public section
 
 /-!
 Source-only draft: the boundary reflection ambiguity is settled from the actual

@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointLineFixedSideAllPoints
-import LeanResearch.RepulsiveCoulomb.PointActualCapGaussBonnetData
-import LeanResearch.RepulsiveCoulomb.PointLineCapCoalescedVertices
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineFixedSideAllPoints
+public import LeanResearch.RepulsiveCoulomb.PointActualCapGaussBonnetData
+public import LeanResearch.RepulsiveCoulomb.PointLineCapCoalescedVertices
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Cap and fixed-side equality is promoted
 from a cone-chart disk to an actual ambient neighborhood germ, then transported

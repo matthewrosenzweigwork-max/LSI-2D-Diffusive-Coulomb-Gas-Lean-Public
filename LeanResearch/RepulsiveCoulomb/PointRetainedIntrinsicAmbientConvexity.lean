@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAngle
-import LeanResearch.RepulsiveCoulomb.MetricCenteredIntervalCriterion
-import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAngle
+public import LeanResearch.RepulsiveCoulomb.MetricCenteredIntervalCriterion
+public import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
+
+@[expose] public section
 
 /-! Admissible actual retained regions are ambient convex. Intrinsic metrics
 and minimizing segments have already been constructed from curve lengths.

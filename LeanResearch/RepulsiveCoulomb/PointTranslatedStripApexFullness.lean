@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedStripLocalSources
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripCornerChart
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkBoundaryFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripLocalSources
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripCornerChart
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkBoundaryFullness
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Actual local filling at the removed apex p.
 The old physical angle lambda and its positive turn pi-lambda are DERIVED from

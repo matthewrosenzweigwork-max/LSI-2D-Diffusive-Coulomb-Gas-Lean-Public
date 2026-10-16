@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCutoffBump
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCutoffBump
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+
+@[expose] public section
 
 /-! Unnormalized planar power-weight cutoff energy, for tensorized collision tubes. -/
 noncomputable section

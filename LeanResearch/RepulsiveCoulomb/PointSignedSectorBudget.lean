@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointSignedCurvatureFinite
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSignedCurvatureFinite
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+
+@[expose] public section
 
 /-!
 The actual scalar hypotheses of Pro Lemma 5.1: domination of the negative part,

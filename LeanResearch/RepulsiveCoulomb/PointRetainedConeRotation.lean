@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
-import LeanResearch.RepulsiveCoulomb.PointMetricLineNormalizedChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineNormalizedChart
+
+@[expose] public section
 
 /-! Isolated, uncompiled geometric normalization. A unit rotation translates
 both endpoints of a genuine full retained interval by the SAME real amount.

@@ -1,10 +1,14 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicSubsegmentConservedLifts
-import LeanResearch.RepulsiveCoulomb.PointGeodesicExteriorRadialConvexity
-import LeanResearch.RepulsiveCoulomb.PointGeodesicActualSubsegmentAperture
-import LeanResearch.RepulsiveCoulomb.ComplexRadialPowerLiftDerivative
-import LeanResearch.RepulsiveCoulomb.AffineMomentumPotentialBound
-import LeanResearch.RepulsiveCoulomb.ScalarOutwardDerivative
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicSubsegmentConservedLifts
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicExteriorRadialConvexity
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicActualSubsegmentAperture
+public import LeanResearch.RepulsiveCoulomb.ComplexRadialPowerLiftDerivative
+public import LeanResearch.RepulsiveCoulomb.AffineMomentumPotentialBound
+public import LeanResearch.RepulsiveCoulomb.ScalarOutwardDerivative
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Construct the actual angle lifts on a
 genuine outward geodesic tail starting on a fixed circle. Prove the radial sign

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGroundStateEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGroundStateEnergy
+
+@[expose] public section
 
 /-! The configuration-uniform weighted moment bound on the actual smooth core.
 Extension to the full closed form is a separate remaining step. -/

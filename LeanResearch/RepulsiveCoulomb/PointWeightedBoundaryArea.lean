@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightedRegionArea
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightedRegionArea
+
+@[expose] public section
 
 /-! A genuine weighted isoperimetric upper bound for a bounded region whose
 frontier is covered by one C1 path. Uniform in all point configurations of bounded

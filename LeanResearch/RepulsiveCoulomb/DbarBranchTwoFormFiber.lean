@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+
+@[expose] public section
 
 /-! The fixed Hilbert fiber of alternating two-form coefficients is indexed
 by i<j. Its norm is distinct from the ordinary matrix norm. -/

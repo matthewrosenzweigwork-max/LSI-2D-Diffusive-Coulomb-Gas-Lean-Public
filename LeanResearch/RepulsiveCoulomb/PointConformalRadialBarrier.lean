@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalMetricBarrier
-import Mathlib.Analysis.Calculus.FDeriv.Norm
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalMetricBarrier
+public import Mathlib.Analysis.Calculus.FDeriv.Norm
+
+@[expose] public section
 
 /-! A smooth proper radial scalar function, constant near all punctures and with
 physical derivative controlled by rho outside a configuration-dependent disk. -/

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCoordinateWeight
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSplittingWeight
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferencePartitionDefinition
-import Mathlib.MeasureTheory.Measure.Tilted
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCoordinateWeight
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSplittingWeight
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferencePartitionDefinition
+public import Mathlib.MeasureTheory.Measure.Tilted
+
+@[expose] public section
 
 /-! The genuine canonical Gibbs law as the exponentially tilted literal
 product reference. Exponential integrability is obtained directly from the

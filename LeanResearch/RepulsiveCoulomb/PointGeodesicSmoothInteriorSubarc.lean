@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicJordanBigon
-import LeanResearch.RepulsiveCoulomb.PointGeodesicPhysicalSpeed
-import LeanResearch.RepulsiveCoulomb.AnalyticArcSmoothExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicJordanBigon
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicPhysicalSpeed
+public import LeanResearch.RepulsiveCoulomb.AnalyticArcSmoothExtension
+
+@[expose] public section
 
 /-! An actual regular smooth representative of every closed interior subarc
 which avoids positive punctures. Together with radial endpoint collars, this

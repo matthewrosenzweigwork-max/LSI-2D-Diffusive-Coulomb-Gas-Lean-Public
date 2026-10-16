@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.RadialCutoffApproximation
-import LeanResearch.RepulsiveCoulomb.PointRadialDensity
+module
+
+public import LeanResearch.RepulsiveCoulomb.RadialCutoffApproximation
+public import LeanResearch.RepulsiveCoulomb.PointRadialDensity
+
+@[expose] public section
 
 /-! An actual radial barrier lower bound for the smooth conformal path metric.
 The origin is regularized with genuine C1 barriers and the cutoff is removed by

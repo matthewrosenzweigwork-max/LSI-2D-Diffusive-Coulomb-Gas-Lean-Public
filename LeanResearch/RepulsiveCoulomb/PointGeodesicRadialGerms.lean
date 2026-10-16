@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicAtPuncture
-import LeanResearch.RepulsiveCoulomb.ConePowerGeodesicNonnegative
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicAtPuncture
+public import LeanResearch.RepulsiveCoulomb.ConePowerGeodesicNonnegative
+
+@[expose] public section
 
 /-! Uniform intrinsic-radius radial formulas at every point, including the
 zero-exponent flat case. The metric chart and its whole disk are retained for

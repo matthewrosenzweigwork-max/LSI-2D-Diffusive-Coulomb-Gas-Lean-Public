@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterGaussian
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityMeasure
-import Mathlib.Analysis.Complex.OperatorNorm
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterGaussian
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityMeasure
+public import Mathlib.Analysis.Complex.OperatorNorm
+
+@[expose] public section
 
 /-! Exact exponential witnesses for the planar center Gaussian. The integrals
 are computed from the literal density by translation, without Gaussian LSI,

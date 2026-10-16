@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalSequence
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalWeakLSC
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalSequence
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalWeakLSC
+
+@[expose] public section
 
 /-! Original-input canonical thermal existence through a literal minimizing
 sequence, exact quarter coercivity, Markov/Prokhorov extraction, and the new

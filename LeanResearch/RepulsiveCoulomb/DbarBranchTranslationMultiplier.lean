@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLpMollifier
-import Mathlib.MeasureTheory.Function.Holder
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLpMollifier
+public import Mathlib.MeasureTheory.Function.Holder
+
+@[expose] public section
 
 /-! Actual fixed multiplication operators and their commutators with strongly
 continuous Lebesgue-L2 translations. These are ingredients for a simultaneous

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourGeometry
+
+@[expose] public section
 
 /-! The actual geometric segment of a regular grid triangle has exactly the two
 canonical crossed-edge points as endpoints. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityTiltAdmissible
-import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityTiltAdmissible
+public import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+
+@[expose] public section
 
 /-! Literal normalized planar dilations and their exact entropy/moment laws.
 The Jacobian is t^2, and the entropy shift is -2 log t. These inputs support

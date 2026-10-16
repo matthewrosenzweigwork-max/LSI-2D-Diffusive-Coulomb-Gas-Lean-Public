@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointDyadicOscillation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDyadicOscillation
+
+@[expose] public section
 
 /-! Comparison with the mean on a fixed original ball, closing the initial
 term in the pointwise dyadic oscillation representation. -/

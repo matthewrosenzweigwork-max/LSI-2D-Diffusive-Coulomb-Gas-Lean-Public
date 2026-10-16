@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalMetricSpace
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalMetricSpace
+
+@[expose] public section
 
 /-! Local cutoff barriers for comparison of the smooth conformal metric topology
 with the original Euclidean topology. Constants here may depend on configuration. -/

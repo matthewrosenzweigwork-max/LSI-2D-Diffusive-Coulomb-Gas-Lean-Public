@@ -1,6 +1,10 @@
-import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
-import Mathlib.Topology.Semicontinuity.Basic
-import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+module
+
+public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+public import Mathlib.Topology.Semicontinuity.Basic
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+
+@[expose] public section
 
 /-! Weak lower semicontinuity of the genuine nonnegative integral of a
 continuous real function. The proof uses actual bounded continuous truncations

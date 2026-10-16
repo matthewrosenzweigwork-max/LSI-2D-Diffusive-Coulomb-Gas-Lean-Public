@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalPositiveLogPortmanteau
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalLogUniformIntegrability
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFreeEnergyCorrespondence
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalPositiveLogPortmanteau
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalLogUniformIntegrability
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFreeEnergyCorrespondence
+
+@[expose] public section
 
 /-! Exact splitting of the unchanged canonical energy. The positive singular
 kernel has genuine infinity on the diagonal; absolute continuity is used only

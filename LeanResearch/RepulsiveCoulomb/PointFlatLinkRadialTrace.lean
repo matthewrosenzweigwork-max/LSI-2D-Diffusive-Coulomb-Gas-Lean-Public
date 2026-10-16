@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
-import LeanResearch.RepulsiveCoulomb.FlatLinkSectorDisk
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
+public import LeanResearch.RepulsiveCoulomb.FlatLinkSectorDisk
+
+@[expose] public section
 
 /-! Isolated, uncompiled author draft. Radiality and the actual positive-radius
 trace are derived from the input isometry. No link model is assumed. -/

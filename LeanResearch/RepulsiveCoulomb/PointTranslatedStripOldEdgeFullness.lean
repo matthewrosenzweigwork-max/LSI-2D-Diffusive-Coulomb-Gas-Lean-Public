@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripApexFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripApexFullness
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Full local image coverage at every removed
 old regular edge point. Width pi is derived from an actual halfdisk and its

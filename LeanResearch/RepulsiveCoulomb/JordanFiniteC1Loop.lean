@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteC1Pasting
-import LeanResearch.RepulsiveCoulomb.JordanC1Periodization
-import Mathlib.Algebra.Order.Floor.Semiring
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteC1Pasting
+public import LeanResearch.RepulsiveCoulomb.JordanC1Periodization
+public import Mathlib.Algebra.Order.Floor.Semiring
+
+@[expose] public section
 
 /-! Construct an actual closed regular simple C¹ parametrization of a finite
 matched-jet cyclic family. Simplicity comes from literal half-open arc images;

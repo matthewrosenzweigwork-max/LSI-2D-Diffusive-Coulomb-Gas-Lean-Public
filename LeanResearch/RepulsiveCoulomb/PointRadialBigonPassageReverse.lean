@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialBigonPassage
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialBigonPassage
+
+@[expose] public section
 
 /-! The actual bigon source list retains puncture-free open edges and its
 internal metric additivity under the literal positive-traversal reversal. -/

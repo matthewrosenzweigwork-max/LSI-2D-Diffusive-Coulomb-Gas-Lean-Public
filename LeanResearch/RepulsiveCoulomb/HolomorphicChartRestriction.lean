@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeSectorMap
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeSectorMap
+
+@[expose] public section
 
 /-! Nonsingular restrictions and analytic inverses of the actual local charts. -/
 noncomputable section

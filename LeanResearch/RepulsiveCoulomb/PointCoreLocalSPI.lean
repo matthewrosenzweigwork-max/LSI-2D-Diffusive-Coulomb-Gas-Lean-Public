@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreLocalNorm
-import LeanResearch.RepulsiveCoulomb.L1LqInterpolation
-import LeanResearch.RepulsiveCoulomb.SuperPoincareCoefficients
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreLocalNorm
+public import LeanResearch.RepulsiveCoulomb.L1LqInterpolation
+public import LeanResearch.RepulsiveCoulomb.SuperPoincareCoefficients
+
+@[expose] public section
 
 /-! Actual local super-Poincare with Gaussian radius dependence. -/
 noncomputable section

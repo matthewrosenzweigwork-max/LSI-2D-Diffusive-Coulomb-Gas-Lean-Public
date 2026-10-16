@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreUncertainty
-import LeanResearch.RepulsiveCoulomb.PointPunctureCapacity
-import Mathlib.Analysis.SpecialFunctions.Sqrt
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreUncertainty
+public import LeanResearch.RepulsiveCoulomb.PointPunctureCapacity
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+
+@[expose] public section
 
 /-! The actual normalized ground-state transformation preserves the original
 smooth puncture-avoiding core. No separation is imposed. -/

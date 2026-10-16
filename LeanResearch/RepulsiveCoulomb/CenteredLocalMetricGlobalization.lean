@@ -1,10 +1,14 @@
-import Mathlib.Topology.MetricSpace.Lipschitz
-import Mathlib.Topology.Order.IntermediateValue
-import Mathlib.Topology.Order.ProjIcc
-import Mathlib.Analysis.Normed.Affine.AddTorsor
-import Mathlib.Analysis.Convex.Basic
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
+module
+
+public import Mathlib.Topology.MetricSpace.Lipschitz
+public import Mathlib.Topology.Order.IntermediateValue
+public import Mathlib.Topology.Order.ProjIcc
+public import Mathlib.Analysis.Normed.Affine.AddTorsor
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Point-centered local metric bounds globalize
 along genuine minimizing segments. The proof is continuous induction on the

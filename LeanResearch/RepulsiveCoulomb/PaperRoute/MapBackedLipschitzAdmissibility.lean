@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.MapBackedDavidSemmes
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzInverseGradientTransport
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzPlanarPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.MapBackedDavidSemmes
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzInverseGradientTransport
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LipschitzPlanarPoincare
+
+@[expose] public section
 
 /-!
 # Same-map full locally-Lipschitz weak 2-admissibility

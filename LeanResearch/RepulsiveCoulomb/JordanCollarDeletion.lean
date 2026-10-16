@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanDisjointNesting
-import Mathlib.Topology.Connected.LocallyConnected
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanDisjointNesting
+public import Mathlib.Topology.Connected.LocallyConnected
+
+@[expose] public section
 
 /-! Removing a filled Jordan region from a connected open set preserves
 connectedness when an actual connected exterior collar is present. -/

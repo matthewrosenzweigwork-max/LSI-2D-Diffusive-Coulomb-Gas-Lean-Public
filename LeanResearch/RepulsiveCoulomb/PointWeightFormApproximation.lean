@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightClosedForm
-import Mathlib.Topology.Sequences
-import Mathlib.Topology.MetricSpace.Antilipschitz
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightClosedForm
+public import Mathlib.Topology.Sequences
+public import Mathlib.Topology.MetricSpace.Antilipschitz
+
+@[expose] public section
 
 /-! Approximation and the closed physical-gradient graph. The ordinary
 product L2 topology below is used only to express closedness; the form norm

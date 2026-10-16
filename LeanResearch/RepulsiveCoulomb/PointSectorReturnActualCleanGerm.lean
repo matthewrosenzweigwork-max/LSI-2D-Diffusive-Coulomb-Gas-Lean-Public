@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnOppositeBoundaryGerm
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnOppositeBoundaryGerm
+
+@[expose] public section
 
 /-! Isolated, uncompiled. The actual clean metric ray determines its radial
 chart germ and one of the two full old endpoint coordinates. Neither its radial

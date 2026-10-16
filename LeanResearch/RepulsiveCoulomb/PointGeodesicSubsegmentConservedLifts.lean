@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicExteriorConservation
-import Mathlib.Topology.Order.ProjIcc
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicExteriorConservation
+public import Mathlib.Topology.Order.ProjIcc
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive draft. Construct globally continuous representatives
 of the actual two angle lifts on a compact interior geodesic subsegment, then

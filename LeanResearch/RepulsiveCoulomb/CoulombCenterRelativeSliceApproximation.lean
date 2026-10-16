@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeAmbientLift
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativePositiveEntropy
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeAmbientLift
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativePositiveEntropy
+
+@[expose] public section
 
 /-! Good-center slice selection, with actual Fubini integrability and
 contractive physical-jet projection. No regularity of a parameter integral,

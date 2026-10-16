@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialTriangleArgumentTurn
-import LeanResearch.RepulsiveCoulomb.PointRadialListSlots
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialTriangleArgumentTurn
+public import LeanResearch.RepulsiveCoulomb.PointRadialListSlots
+
+@[expose] public section
 
 /-! Successor draft, separate from frozen firstReturnCurvature5. Ordered radial
 macro-chains on the literal boundary parametrization. Each local chain below

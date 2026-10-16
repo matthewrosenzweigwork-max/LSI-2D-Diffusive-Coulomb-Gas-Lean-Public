@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnInternalNewTurns
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnInternalNewTurns
+
+@[expose] public section
 
 /-! Successor draft. Identify the two actual contact points as unique vertices
 of the constructed positive family, and identify all other old-frontier

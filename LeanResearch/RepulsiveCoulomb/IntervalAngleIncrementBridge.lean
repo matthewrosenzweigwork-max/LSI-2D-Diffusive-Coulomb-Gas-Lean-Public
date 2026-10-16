@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
-import Mathlib.Topology.Order.ProjIcc
-import Mathlib.Topology.Order.DenselyOrdered
-import Mathlib.Topology.Constructions.SumProd
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+public import Mathlib.Topology.Order.ProjIcc
+public import Mathlib.Topology.Order.DenselyOrdered
+public import Mathlib.Topology.Constructions.SumProd
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Construct a full continuous radial lift,
 compare its increments with actual subinterval lifts, and pass a uniform

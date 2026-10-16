@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliarySystemDirections
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliarySystemDirections
+
+@[expose] public section
 
 /-! The scalar row of the actual auxiliary adjoint is identified with the
 literal finite weak divergence system after w=rho*u. Its input has only local

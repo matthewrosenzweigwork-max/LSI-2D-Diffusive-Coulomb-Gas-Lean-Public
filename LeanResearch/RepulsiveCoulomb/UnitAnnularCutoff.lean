@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCutoffBump
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCutoffBump
+
+@[expose] public section
 
 /-! One fixed smooth annular cutoff with a strict support margin inside
 {1/2 < norm z < 4}. Its rescalings are used in prop:uncertainty. -/

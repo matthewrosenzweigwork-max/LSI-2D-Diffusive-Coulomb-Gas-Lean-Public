@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeKernel
-import LeanResearch.RepulsiveCoulomb.CoulombPermutation
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeKernel
+public import LeanResearch.RepulsiveCoulomb.CoulombPermutation
+
+@[expose] public section
 
 /-! Complex-linearity of the existing exact, volume-preserving relative chart. -/
 noncomputable section

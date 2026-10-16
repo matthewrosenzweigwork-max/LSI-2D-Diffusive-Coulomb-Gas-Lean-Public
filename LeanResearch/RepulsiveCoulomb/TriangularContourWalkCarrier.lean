@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourComponentLength
-import LeanResearch.RepulsiveCoulomb.PointWeightedPolygonalChain
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourComponentLength
+public import LeanResearch.RepulsiveCoulomb.PointWeightedPolygonalChain
+
+@[expose] public section
 
 /-! The actual ordered vertex chain of a contour walk and its exact physical
 carrier, with no repeated unoriented edges for trails. -/

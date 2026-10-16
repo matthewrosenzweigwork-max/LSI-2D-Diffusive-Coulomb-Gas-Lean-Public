@@ -1,4 +1,8 @@
-import IntegratedPaperRoute
+module
+
+public import IntegratedPaperRoute
+
+@[expose] public section
 noncomputable section
 open MeasureTheory PeriodicAttractiveLogGas
 open RepulsiveCoulomb RepulsiveCoulomb.PaperRoute

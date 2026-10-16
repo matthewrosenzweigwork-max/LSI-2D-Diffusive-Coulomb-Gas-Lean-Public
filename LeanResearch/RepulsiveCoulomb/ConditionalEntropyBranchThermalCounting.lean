@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchThermalTilt
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchChartCompatibility
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchOrderedCounting
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedDefinition
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchThermalTilt
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchChartCompatibility
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchOrderedCounting
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedDefinition
+
+@[expose] public section
 
 /-!
 Actual thermal-reference conditional means and exact ordered-pair centering.

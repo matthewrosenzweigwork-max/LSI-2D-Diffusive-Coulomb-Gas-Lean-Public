@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricLineSideRegions
-import LeanResearch.RepulsiveCoulomb.SeparatedRegionCurveHits
-import LeanResearch.RepulsiveCoulomb.MetricIntervalGeodesicReplacement
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineSideRegions
+public import LeanResearch.RepulsiveCoulomb.SeparatedRegionCurveHits
+public import LeanResearch.RepulsiveCoulomb.MetricIntervalGeodesicReplacement
+
+@[expose] public section
 
 /-! A minimizing curve contained in either actual closed side of a minimizing
 line. An ambient minimizer's entire middle portion between its first and last

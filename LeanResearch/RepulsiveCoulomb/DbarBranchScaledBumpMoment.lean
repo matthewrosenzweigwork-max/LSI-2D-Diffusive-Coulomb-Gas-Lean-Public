@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchFriedrichsKernel
-import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchFriedrichsKernel
+public import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+
+@[expose] public section
 
 /-! A single fixed-shape smooth mollifier family has an exactly scale-invariant
 first derivative moment. This discharges the radius-uniform constant needed

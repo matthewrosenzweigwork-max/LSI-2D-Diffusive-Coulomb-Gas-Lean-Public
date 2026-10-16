@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchPointNormalizer
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceBounds
-import LeanResearch.RepulsiveCoulomb.CoulombOneSiteKernel
-import LeanResearch.RepulsiveCoulomb.PointWeightLocalComparison
-import Mathlib.MeasureTheory.Measure.Tilted
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchPointNormalizer
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceBounds
+public import LeanResearch.RepulsiveCoulomb.CoulombOneSiteKernel
+public import LeanResearch.RepulsiveCoulomb.PointWeightLocalComparison
+public import Mathlib.MeasureTheory.Measure.Tilted
+
+@[expose] public section
 
 /-!
 Actual one-site Coulomb conditional as a normalized thermal-reference tilt.

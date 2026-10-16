@@ -1,8 +1,12 @@
-import Mathlib.MeasureTheory.Measure.Real
-import Mathlib.MeasureTheory.Measure.Continuity
-import Mathlib.Analysis.SpecificLimits.Basic
-import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
-import Mathlib.Tactic
+module
+
+public import Mathlib.MeasureTheory.Measure.Real
+public import Mathlib.MeasureTheory.Measure.Continuity
+public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.MeasureTheory.Constructions.BorelSpace.Order
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Actual medians for bounded measurable observables under a finite nonzero
 measure. Strict sub- and superlevel sets both have at most half the mass;

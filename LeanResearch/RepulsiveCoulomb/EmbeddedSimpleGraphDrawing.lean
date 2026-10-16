@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.CycleJordan
-import Mathlib.Combinatorics.Graph.Simple
-import Mathlib.Combinatorics.Graph.Maps
+module
+
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.CycleJordan
+public import Mathlib.Combinatorics.Graph.Simple
+public import Mathlib.Combinatorics.Graph.Maps
+
+@[expose] public section
 
 /-! A straight-line drawing of an injectively embedded simple graph, derived from
 explicit vertex exclusion and edge intersection estimates. Edge labels remain Sym2. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyNegative
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyNegative
+
+@[expose] public section
 
 /-! Exact disjoint-support entropy mixtures and the strict one-sided decrease
 used to prove positivity of an attained minimizer. The decisive binary-entropy

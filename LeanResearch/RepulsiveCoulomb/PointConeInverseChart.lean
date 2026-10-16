@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConeLargeAngle
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeLargeAngle
+
+@[expose] public section
 
 /-! The inverse power map on the right half-plane, with exact physical length
 transport. This will supply the Euclidean-chord competitor in a narrow sector. -/

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointOriginalSurgeryDevelopment
-import LeanResearch.RepulsiveCoulomb.PointMetricMapSharpRescaling
-import LeanResearch.RepulsiveCoulomb.PointMetricMapSharpSignedConclusion
-import LeanResearch.RepulsiveCoulomb.PointMetricMapLocalSobolev
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointOriginalSurgeryDevelopment
+public import LeanResearch.RepulsiveCoulomb.PointMetricMapSharpRescaling
+public import LeanResearch.RepulsiveCoulomb.PointMetricMapSharpSignedConclusion
+public import LeanResearch.RepulsiveCoulomb.PointMetricMapLocalSobolev
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Original-input sharp Bonk--Lang endpoint.
 The genuine map is produced by finite angular surgery, actual flat atlas,

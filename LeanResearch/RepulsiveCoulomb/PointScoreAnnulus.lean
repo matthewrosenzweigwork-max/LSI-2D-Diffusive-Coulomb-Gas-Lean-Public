@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightScore
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightScore
+
+@[expose] public section
 
 /-! Actual bad-score annuli and their configuration-uniform area control. -/
 noncomputable section

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanSecantAverage
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSecantAverage
+
+@[expose] public section
 
 /-! The actual closed secant square of a regular C¹ periodic simple loop.
 The diagonal and closing-edge values are constructed by averaged derivatives;

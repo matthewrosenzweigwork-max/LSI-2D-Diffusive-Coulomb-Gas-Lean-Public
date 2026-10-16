@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
-import Mathlib.Analysis.Convex.Contractible
-import Mathlib.Analysis.Normed.Module.Connected
-import Mathlib.Topology.Connected.LocallyPathConnected
-import Mathlib.Analysis.Calculus.DSlope
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+public import Mathlib.Analysis.Convex.Contractible
+public import Mathlib.Analysis.Normed.Module.Connected
+public import Mathlib.Topology.Connected.LocallyPathConnected
+public import Mathlib.Analysis.Calculus.DSlope
+
+@[expose] public section
 
 /-! A genuine geometric construction for the Hopf secant proof of total turn.
 The open ordered-parameter triangle is constructed, proved contractible, and

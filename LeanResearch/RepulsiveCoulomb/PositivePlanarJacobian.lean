@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DifferentiablePlanarCircleHomotopy
-import LeanResearch.RepulsiveCoulomb.PointMetricMapJacobian
+module
+
+public import LeanResearch.RepulsiveCoulomb.DifferentiablePlanarCircleHomotopy
+public import LeanResearch.RepulsiveCoulomb.PointMetricMapJacobian
+
+@[expose] public section
 
 /-!
 A signed-Jacobian bridge with a genuine topological orientation hypothesis.

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchJointCoreApproximation
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactMargin
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchJointCoreApproximation
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactMargin
+
+@[expose] public section
 
 /-! One actual joint mollifier sequence with a prescribed common support
 margin. This support information permits the fixed-compact Gibbs transfer

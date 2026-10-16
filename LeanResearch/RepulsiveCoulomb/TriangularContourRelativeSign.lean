@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourInterior
-import LeanResearch.RepulsiveCoulomb.FinitePolygonLevelSign
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourInterior
+public import LeanResearch.RepulsiveCoulomb.FinitePolygonLevelSign
+
+@[expose] public section
 
 /-! Actual regular interpolant level sides on a connected physical observation
 set are controlled by the interiors of the contour components meeting that set. -/

@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Curve
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Concatenate
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Topology
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Curve
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Concatenate
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Topology
+
+@[expose] public section
 
 /-!
 # Separating curves, absorption, and the two cells of a crosscut

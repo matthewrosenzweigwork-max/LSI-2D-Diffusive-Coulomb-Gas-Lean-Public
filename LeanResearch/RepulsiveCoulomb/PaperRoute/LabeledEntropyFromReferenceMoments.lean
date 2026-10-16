@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.PaperOneSiteEntropy
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchDefectiveLSI
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.PaperOneSiteEntropy
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchDefectiveLSI
+
+@[expose] public section
 
 /-! Additive experimental source; verification is recorded separately in evidence. The supplied thermal reference is
 physical data, not an old selected constructor. Uniform inputs are literal

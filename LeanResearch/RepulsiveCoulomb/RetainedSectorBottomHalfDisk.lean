@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexInitialEntry
-import LeanResearch.RepulsiveCoulomb.RetainedSectorPassingHalfDisk
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexInitialEntry
+public import LeanResearch.RepulsiveCoulomb.RetainedSectorPassingHalfDisk
+
+@[expose] public section
 
 /-! SOURCE-ONLY, NOT COMPILED. Literal source halfdisk at a positive-radius
 bottom point, with exact source coverage. This is the local model needed to

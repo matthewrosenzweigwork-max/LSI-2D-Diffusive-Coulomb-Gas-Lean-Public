@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnBoundaryClock
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnBoundaryClock
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual boundary clock orientation from a
 proper old end, potentially broken away from its start. No metric clock is

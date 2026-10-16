@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMeasureDual
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMeasureDual
+
+@[expose] public section
 
 /-! Actual variational formula over bounded measurable tests for KL of finite
 measures. Infinite entropy and singular measures are included. Continuous-test

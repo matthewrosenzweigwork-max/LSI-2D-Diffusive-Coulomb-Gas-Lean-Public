@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedSupportingHalfplane
-import LeanResearch.RepulsiveCoulomb.MetricInteriorSupportedPatchExtension
-import LeanResearch.RepulsiveCoulomb.MetricShearedTopExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedSupportingHalfplane
+public import LeanResearch.RepulsiveCoulomb.MetricInteriorSupportedPatchExtension
+public import LeanResearch.RepulsiveCoulomb.MetricShearedTopExtension
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT, 2026-10-03. Construct the mixed compact-top
 extension. Its left endpoint uses the real old-boundary interval and a retained

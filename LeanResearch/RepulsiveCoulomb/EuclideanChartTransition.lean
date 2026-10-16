@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.FlatAtlasDevelopment
-import Mathlib.Analysis.Normed.Affine.MazurUlam
-import Mathlib.Analysis.Normed.Affine.AddTorsorBases
+module
+
+public import LeanResearch.RepulsiveCoulomb.FlatAtlasDevelopment
+public import Mathlib.Analysis.Normed.Affine.MazurUlam
+public import Mathlib.Analysis.Normed.Affine.AddTorsorBases
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Construct the discrete transition cocycle from
 actual locally rigid chart overlaps. Neither a cocycle nor path independence

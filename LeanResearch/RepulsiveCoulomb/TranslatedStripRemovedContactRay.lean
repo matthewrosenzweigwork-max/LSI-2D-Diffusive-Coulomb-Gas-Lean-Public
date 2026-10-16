@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedStripSourceGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripSourceGeometry
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. The removed old boundary is an ACTUAL proper
 ray starting at z: first the compact edge backwards to p, then the bottom ray.

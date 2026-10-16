@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedTopPreservesEdge
-import LeanResearch.RepulsiveCoulomb.TranslatedRectangleExchange
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedTopPreservesEdge
+public import LeanResearch.RepulsiveCoulomb.TranslatedRectangleExchange
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Advance the escaping-ray direction while
 holding one positive transverse width fixed. This avoids a separate

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteC1TurnSum
-import LeanResearch.RepulsiveCoulomb.JordanSmoothWindingOrientation
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteC1TurnSum
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothWindingOrientation
+
+@[expose] public section
 
 /-! The oriented finite turn sum for a genuinely constructed matched-jet
 simple loop. The sign is identified with the actual argument increment about

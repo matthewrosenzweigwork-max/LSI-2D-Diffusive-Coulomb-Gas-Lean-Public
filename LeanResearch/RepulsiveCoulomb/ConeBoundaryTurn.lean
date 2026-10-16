@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConeGeodesicAngle
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConeGeodesicAngle
+
+@[expose] public section
 
 /-! The two complementary sector angles at a minimizing passage through a cone
 vertex are both at least pi. Their turns are nonpositive and sum to the actual

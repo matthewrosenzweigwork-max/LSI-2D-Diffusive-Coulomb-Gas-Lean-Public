@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConeBoundaryTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConeBoundaryTurn
+
+@[expose] public section
 
 /-! Distinct synchronized rays at an endpoint give strictly positive values
 for both complementary cone-sector angles. The chart and positive metric

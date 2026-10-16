@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalGeodesicArc
-import Mathlib.Topology.Order.Compact
-import Mathlib.Topology.MetricSpace.Lipschitz
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalGeodesicArc
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Topology.MetricSpace.Lipschitz
+
+@[expose] public section
 
 /-! An unconditional topological reduction of a hypothetical failure of actual
 point-metric geodesic uniqueness to a simple geodesic bigon. In particular,

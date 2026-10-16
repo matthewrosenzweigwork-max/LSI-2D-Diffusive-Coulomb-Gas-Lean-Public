@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchCore
-import LeanResearch.RepulsiveCoulomb.PlanarWeightedGaussian
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchCore
+public import LeanResearch.RepulsiveCoulomb.PlanarWeightedGaussian
+
+@[expose] public section
 
 /-! Exact variance, extended-entropy and physical-energy transport between the
 original Gaussian parameter and the unit parameter. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridCrossedEdges
-import LeanResearch.RepulsiveCoulomb.TriangleLevelSigns
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridCrossedEdges
+public import LeanResearch.RepulsiveCoulomb.TriangleLevelSigns
+
+@[expose] public section
 
 /-! Exact two-crossing-edge structure of each active regular-grid triangle. -/
 noncomputable section

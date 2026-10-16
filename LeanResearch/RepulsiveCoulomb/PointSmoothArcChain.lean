@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicSmoothArc
-import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicSmoothArc
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
+
+@[expose] public section
 
 /-! Ordered finite lists of actual smooth regular representatives of subarcs.
 All source intervals have positive length, every endpoint and image is explicit,

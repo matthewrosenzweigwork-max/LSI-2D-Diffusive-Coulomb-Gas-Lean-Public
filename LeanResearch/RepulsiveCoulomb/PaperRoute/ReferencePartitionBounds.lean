@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePolynomialIntegrability
-import LeanResearch.RepulsiveCoulomb.PaperRoute.DGFixedCoupling
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ExponentialHolder
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePolynomialIntegrability
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.DGFixedCoupling
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ExponentialHolder
+
+@[expose] public section
 
 /-! The fixed-coupling partition bound is transported to lower couplings by
 actual Hölder. Constants are selected before beta, the physical reference,

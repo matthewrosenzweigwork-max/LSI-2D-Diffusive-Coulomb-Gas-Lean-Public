@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGroundStateCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGroundStateCore
+
+@[expose] public section
 
 /-! Actual physical gradient identity for the normalized ground-state transform. -/
 noncomputable section

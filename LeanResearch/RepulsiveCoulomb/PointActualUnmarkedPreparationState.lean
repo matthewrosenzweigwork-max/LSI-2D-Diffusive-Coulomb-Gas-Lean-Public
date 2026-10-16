@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorEndpointDichotomy
-import LeanResearch.RepulsiveCoulomb.PointActualUnmarkedBoundaryPreparation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorEndpointDichotomy
+public import LeanResearch.RepulsiveCoulomb.PointActualUnmarkedBoundaryPreparation
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Close the original unmarked-boundary preparation
 branch and preserve every current-state invariant, including a genuine finite

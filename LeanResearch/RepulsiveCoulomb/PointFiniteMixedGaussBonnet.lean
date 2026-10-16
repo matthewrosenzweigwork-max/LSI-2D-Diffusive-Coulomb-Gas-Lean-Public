@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteRegularTurn
-import LeanResearch.RepulsiveCoulomb.PointFiniteActualFluxSum
-import LeanResearch.RepulsiveCoulomb.PointFiniteCornerTurn
-import LeanResearch.RepulsiveCoulomb.PointFiniteCornerPredecessor
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteRegularTurn
+public import LeanResearch.RepulsiveCoulomb.PointFiniteActualFluxSum
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCornerTurn
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCornerPredecessor
+
+@[expose] public section
 
 /-! Full signed Gauss--Bonnet for a genuine finite regular C1 Jordan family
 with radial germs only at positive boundary atoms. Ordinary zero-mass corners

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentCellAngleBalance
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentCellAngleBalance
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. End-to-end join of the actual incident geometry,
 constructed cell ownership, literal list budget, positive target widths and

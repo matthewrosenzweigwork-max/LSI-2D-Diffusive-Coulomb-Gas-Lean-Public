@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryRayContacts
-import Mathlib.Topology.Order.Monotone
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryRayContacts
+public import Mathlib.Topology.Order.Monotone
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Order/topology layer of the first departure.
 This constructs the endpoint, rather than accepting a first-departure point.

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourPlanarDrawing
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourPlanarDrawing
+
+@[expose] public section
 
 /-! Actual polygonal Jordan realizations of the finite contour component cycles. -/
 noncomputable section

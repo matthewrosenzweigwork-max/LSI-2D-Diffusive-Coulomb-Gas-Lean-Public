@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreNormalizedEntropy
-import LeanResearch.RepulsiveCoulomb.EntropySquareScaling
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreNormalizedEntropy
+public import LeanResearch.RepulsiveCoulomb.EntropySquareScaling
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. The needed conditional Gaussian SPI-to-defective-LSI specialization and exact denormalization. -/
 noncomputable section

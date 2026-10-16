@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombWirtinger
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombWirtinger
+
+@[expose] public section
 
 /-! The converse classical Cauchy-Riemann implication on the actual Euclidean
 configuration space. Real differentiability is essential here; this theorem

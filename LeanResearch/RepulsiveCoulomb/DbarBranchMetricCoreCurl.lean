@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphKahler
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalCoreMultiplier
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphKahler
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalCoreMultiplier
+
+@[expose] public section
 
 /-! Actual compact covectors g=Hv and the exact cancellation of derivatives
 of H in their exterior dbar. This applies the finite matrix algebra to the

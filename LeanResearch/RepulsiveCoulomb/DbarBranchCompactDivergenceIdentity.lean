@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeightedCoreCommutator
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCoreCurl
-import LeanResearch.RepulsiveCoulomb.DbarBranchDenseDomain
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeightedCoreCommutator
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCoreCurl
+public import LeanResearch.RepulsiveCoulomb.DbarBranchDenseDomain
+
+@[expose] public section
 
 /-! Finite-sum weighted integration-by-parts identity on actual compact
 complex vector cores. The curvature coefficient is derived from the actual

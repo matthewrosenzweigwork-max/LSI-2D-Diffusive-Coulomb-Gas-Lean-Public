@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointHedbergSeries
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointHedbergSeries
+
+@[expose] public section
 
 /-! The full actual-series bound, including all zero cases, followed by the
 explicitly conditional pointwise oscillation estimate. -/

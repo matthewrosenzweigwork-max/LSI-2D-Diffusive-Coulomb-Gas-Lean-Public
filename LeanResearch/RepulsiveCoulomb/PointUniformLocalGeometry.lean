@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointDavidSemmes
-import LeanResearch.RepulsiveCoulomb.PointConditionalLocalGeometry
-import LeanResearch.RepulsiveCoulomb.PointConditionalGaussianGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDavidSemmes
+public import LeanResearch.RepulsiveCoulomb.PointConditionalLocalGeometry
+public import LeanResearch.RepulsiveCoulomb.PointConditionalGaussianGeometry
+
+@[expose] public section
 
 /-! Unconditional configuration-uniform local physical Sobolev and Poincare
 geometry. The formerly conditional David--Semmes input is discharged by its

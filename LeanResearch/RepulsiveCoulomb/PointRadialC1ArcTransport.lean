@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicArgumentTurn
-import LeanResearch.RepulsiveCoulomb.PointRadialC1ArcChain
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicArgumentTurn
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1ArcChain
+
+@[expose] public section
 
 /-! Install the proved source-clock and weighted argument transport on the
 actual puncture-gap macro-arcs constructed from the original geodesic. -/

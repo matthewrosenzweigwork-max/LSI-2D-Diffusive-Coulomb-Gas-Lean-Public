@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
-import Mathlib.Analysis.Calculus.LineDeriv.Basic
-import Mathlib.Data.Finset.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
+public import Mathlib.Analysis.Calculus.LineDeriv.Basic
+public import Mathlib.Data.Finset.Prod
+
+@[expose] public section
 
 /-! Actual homogeneity and physical radial Euler identity for the collision
 Vandermonde. No separation or bound on the collision exponent is imposed. -/

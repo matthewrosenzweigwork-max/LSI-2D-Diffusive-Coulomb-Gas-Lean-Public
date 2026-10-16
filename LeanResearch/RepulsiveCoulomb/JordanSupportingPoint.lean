@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.JordanSmoothSupportedTurn
-import Mathlib.Algebra.Field.Periodic
-import Mathlib.Analysis.Calculus.LocalExtr.Basic
-import Mathlib.Topology.Instances.Real.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothSupportedTurn
+public import Mathlib.Algebra.Field.Periodic
+public import Mathlib.Analysis.Calculus.LocalExtr.Basic
+public import Mathlib.Topology.Instances.Real.Lemmas
+
+@[expose] public section
 
 /-! Construct a genuine supporting point of a regular periodic curve using
 compactness and Fermat's theorem. No supporting-point certificate is input.

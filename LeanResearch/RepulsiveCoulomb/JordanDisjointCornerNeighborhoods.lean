@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.UniformBound
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Tactic.Linarith
+module
+
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.UniformBound
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-!
 # Actual disjoint corner neighborhoods and chart disks

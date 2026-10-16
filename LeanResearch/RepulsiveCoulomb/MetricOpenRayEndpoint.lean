@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricOpenRayPrefix
-import Mathlib.Topology.Order.IsLUB
-import Mathlib.Topology.MetricSpace.Cauchy
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricOpenRayPrefix
+public import Mathlib.Topology.Order.IsLUB
+public import Mathlib.Topology.MetricSpace.Cauchy
+
+@[expose] public section
 
 /-! A finite open isometric ray prefix in a complete metric space has its actual
 Cauchy endpoint. Adding that endpoint preserves every pairwise distance. This

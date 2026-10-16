@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointPassingEdgeOccupancy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointPassingEdgeOccupancy
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Strict halfdisk source points really lie in the
 interior of the original sector source. This bridges directed open-arc lifting

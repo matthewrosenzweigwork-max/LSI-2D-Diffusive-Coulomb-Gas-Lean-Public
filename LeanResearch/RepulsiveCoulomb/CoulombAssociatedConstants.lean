@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombAssociatedVariational
-import LeanResearch.RepulsiveCoulomb.CoulombFormCenter
-import LeanResearch.RepulsiveCoulomb.DbarBranchFormKernelConstants
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombAssociatedVariational
+public import LeanResearch.RepulsiveCoulomb.CoulombFormCenter
+public import LeanResearch.RepulsiveCoulomb.DbarBranchFormKernelConstants
+
+@[expose] public section
 
 /-! The actual associated operator has precisely constant zero modes.
 No Poincare gap is used to prove the kernel assertion. -/

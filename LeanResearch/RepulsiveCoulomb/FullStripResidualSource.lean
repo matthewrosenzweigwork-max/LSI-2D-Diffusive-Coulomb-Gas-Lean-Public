@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
-import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfplaneHomeomorphisms
-import Mathlib.Analysis.Convex.PathConnected
+module
+
+public import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfplaneHomeomorphisms
+public import Mathlib.Analysis.Convex.PathConnected
+
+@[expose] public section
 
 /-! New source-only residual-strip construction. All source metrics below are
 Complex subtype metrics, never the max metric on a product. -/

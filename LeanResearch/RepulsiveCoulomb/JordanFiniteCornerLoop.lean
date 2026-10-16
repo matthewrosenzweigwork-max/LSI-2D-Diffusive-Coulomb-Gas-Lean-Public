@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteC1Loop
-import LeanResearch.RepulsiveCoulomb.PointContinuousLoopPeriodization
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteC1Loop
+public import LeanResearch.RepulsiveCoulomb.PointContinuousLoopPeriodization
+
+@[expose] public section
 
 /-! The original unmatched-corner family has a constructed C0 periodic
 parametrization on equal slots. Shifting to a chosen interior point of the

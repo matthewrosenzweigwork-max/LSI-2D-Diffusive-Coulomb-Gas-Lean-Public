@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityDerivativeTail
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityDerivativeTail
+
+@[expose] public section
 
 /-! The literal Cartesian multi-index tail in eq:mu-tail. The partial
 operators below are actual successive Fréchet derivatives in the real unit

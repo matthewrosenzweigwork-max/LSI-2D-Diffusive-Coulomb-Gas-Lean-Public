@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FiniteLinkActualPartition
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteLinkActualPartition
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Exact cell ownership is constructed from actual
 closed/open interval separation. Each occupied interval is one whole cell;

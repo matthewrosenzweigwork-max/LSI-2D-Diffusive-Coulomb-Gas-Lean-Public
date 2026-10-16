@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
-import Mathlib.Algebra.Group.Finsupp
-import Mathlib.Tactic.Ext
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+public import Mathlib.Algebra.Group.Finsupp
+public import Mathlib.Tactic.Ext
+
+@[expose] public section
 
 /-!
 Full-angle rigidity in Pro Lemma 5.1. The premises are only the original budget

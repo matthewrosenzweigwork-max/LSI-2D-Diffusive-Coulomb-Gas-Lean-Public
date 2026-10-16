@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchCoulombHartogs
-import LeanResearch.RepulsiveCoulomb.CoulombCollisionNull
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchCoulombHartogs
+public import LeanResearch.RepulsiveCoulomb.CoulombCollisionNull
+
+@[expose] public section
 
 /-! The intermediate domain is open and contains the original full-measure
 collision complement. Every newly added point has exactly one possible

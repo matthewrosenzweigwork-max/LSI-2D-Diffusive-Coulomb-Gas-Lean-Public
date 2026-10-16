@@ -1,5 +1,9 @@
-import Mathlib.MeasureTheory.Integral.MeanInequalities
-import Mathlib.MeasureTheory.Integral.Marginal
+module
+
+public import Mathlib.MeasureTheory.Integral.MeanInequalities
+public import Mathlib.MeasureTheory.Integral.Marginal
+
+@[expose] public section
 
 /-! Probability-space Hölder with genuinely integrated moments and explicit
 padding by the constant one. This is the analytic one-vertex input for the

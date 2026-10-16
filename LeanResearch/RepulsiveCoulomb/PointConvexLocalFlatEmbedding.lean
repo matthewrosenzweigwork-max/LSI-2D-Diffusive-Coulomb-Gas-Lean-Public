@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
-import Mathlib.Analysis.Convex.Basic
-import Mathlib.Analysis.Normed.Affine.AddTorsor
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Analysis.Normed.Affine.AddTorsor
+
+@[expose] public section
 
 /-! Convex Euclidean domains mapping into the actual conformal plane.
 

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridApproximationError
-import Mathlib.Analysis.Calculus.MeanValue
-import Mathlib.Topology.UniformSpace.HeineCantor
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridApproximationError
+public import Mathlib.Analysis.Calculus.MeanValue
+public import Mathlib.Topology.UniformSpace.HeineCantor
+
+@[expose] public section
 
 /-! Actual global controls for a compact C1 observable, without a C2 assumption. -/
 noncomputable section

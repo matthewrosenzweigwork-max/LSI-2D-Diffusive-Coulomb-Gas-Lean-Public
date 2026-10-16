@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourRelativeSign
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourRelativeSign
+
+@[expose] public section
 
 /-! Unit-grid contour edges have physical diameter at most2. These explicit
 mesh bounds will remove clipping from the localized crossing-chain argument. -/

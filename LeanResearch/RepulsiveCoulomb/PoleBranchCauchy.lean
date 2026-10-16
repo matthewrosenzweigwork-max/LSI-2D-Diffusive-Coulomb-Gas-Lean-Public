@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.WeightedEvenPoleRemoval
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedEvenPoleRemoval
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! A fixed Cauchy integral selects the weighted removable extension canonically.
 The product-measure theorem uses actual weighted integrability, not a Laurent or

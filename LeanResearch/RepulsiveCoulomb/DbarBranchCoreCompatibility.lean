@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMaximalGraph
-import LeanResearch.RepulsiveCoulomb.CoulombDbarCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMaximalGraph
+public import LeanResearch.RepulsiveCoulomb.CoulombDbarCore
+
+@[expose] public section
 
 /-! The closed maximal weak graph contains the literal complex smooth core,
 with precisely the already checked Wirtinger derivative. This is interior

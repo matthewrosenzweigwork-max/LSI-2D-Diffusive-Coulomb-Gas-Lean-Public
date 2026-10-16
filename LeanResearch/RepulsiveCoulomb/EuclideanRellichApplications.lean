@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.RellichKondrachov
-import Mathlib.Analysis.InnerProductSpace.PiL2
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+module
+
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.RellichKondrachov
+public import Mathlib.Analysis.InnerProductSpace.PiL2
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+
+@[expose] public section
 
 /-! Actual Euclidean applications of the pinned Rellich theorem.
 The physical real Hilbert gradient, not a gradient relative to a weighted

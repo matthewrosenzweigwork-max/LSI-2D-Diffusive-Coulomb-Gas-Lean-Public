@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreAnnulus
-import LeanResearch.RepulsiveCoulomb.AnnularCutoff
-import LeanResearch.RepulsiveCoulomb.PlanarRegionMass
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreAnnulus
+public import LeanResearch.RepulsiveCoulomb.AnnularCutoff
+public import LeanResearch.RepulsiveCoulomb.PlanarRegionMass
+
+@[expose] public section
 
 /-! The actual exceptional-annulus mass estimate from the score area bound,
 strictly supported smooth cutoff, Holder and Ladyzhenskaya. No local Poincare

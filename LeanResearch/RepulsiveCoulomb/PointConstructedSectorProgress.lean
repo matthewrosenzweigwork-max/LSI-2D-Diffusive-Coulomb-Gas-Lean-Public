@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGeometricCutState
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeometricCutState
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual retained-apex next state and its strict
 outer progress, plus the exact terminal branch. These constructions call the

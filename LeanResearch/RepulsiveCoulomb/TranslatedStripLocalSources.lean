@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedStripCornerSourceV2
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripCornerSourceV2
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Literal Euclidean local models for all
 remaining translated-strip boundary strata. Every model has exact ambient

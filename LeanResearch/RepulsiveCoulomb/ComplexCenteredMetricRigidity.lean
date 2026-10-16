@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.CenteredLocalMetricGlobalization
-import LeanResearch.RepulsiveCoulomb.ComplexSubsetIsometryExtension
-import Mathlib.Topology.OpenPartialHomeomorph.Continuity
-import Mathlib.Analysis.Convex.Topology
+module
+
+public import LeanResearch.RepulsiveCoulomb.CenteredLocalMetricGlobalization
+public import LeanResearch.RepulsiveCoulomb.ComplexSubsetIsometryExtension
+public import Mathlib.Topology.OpenPartialHomeomorph.Continuity
+public import Mathlib.Analysis.Convex.Topology
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The short metric bridge used by actual
 unselected chart overlaps. Centered local equalities are promoted to a

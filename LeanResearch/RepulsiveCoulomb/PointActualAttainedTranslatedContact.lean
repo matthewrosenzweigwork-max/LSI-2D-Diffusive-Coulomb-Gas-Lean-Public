@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointActualFiniteMaximalWidth
-import LeanResearch.RepulsiveCoulomb.PointTranslatedUnmarkedLimitRegular
-import LeanResearch.RepulsiveCoulomb.PointTranslatedRegularStripExtension
-import LeanResearch.RepulsiveCoulomb.PointTranslatedContactAngle
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualFiniteMaximalWidth
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedUnmarkedLimitRegular
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedRegularStripExtension
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedContactAngle
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual finite maximal-width marked-contact
 attainment. The width set, nonempty initial strip, compatibility, finite bound,

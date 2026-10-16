@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryRawWeakIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryRawWeakIntegral
+
+@[expose] public section
 
 /-! The raw exterior row is the literal finite weak divergence system in the
 same density-scaled input as the scalar row. The source is the actual cutoff

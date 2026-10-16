@@ -1,11 +1,15 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialGeodesicGaussBonnet
-import LeanResearch.RepulsiveCoulomb.PointRadialListSlots
-import LeanResearch.RepulsiveCoulomb.PointRadialTrianglePunctures
-import LeanResearch.RepulsiveCoulomb.PointRadialTriangleLocalAdditivity
-import LeanResearch.RepulsiveCoulomb.PointRadialTriangleLocalAdditivityReverse
-import LeanResearch.RepulsiveCoulomb.PointRadialPlanePassageAngle
-import LeanResearch.RepulsiveCoulomb.PointRadialPhysicalTurn
-import LeanResearch.RepulsiveCoulomb.FiniteTwoCornerTurnBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialGeodesicGaussBonnet
+public import LeanResearch.RepulsiveCoulomb.PointRadialListSlots
+public import LeanResearch.RepulsiveCoulomb.PointRadialTrianglePunctures
+public import LeanResearch.RepulsiveCoulomb.PointRadialTriangleLocalAdditivity
+public import LeanResearch.RepulsiveCoulomb.PointRadialTriangleLocalAdditivityReverse
+public import LeanResearch.RepulsiveCoulomb.PointRadialPlanePassageAngle
+public import LeanResearch.RepulsiveCoulomb.PointRadialPhysicalTurn
+public import LeanResearch.RepulsiveCoulomb.FiniteTwoCornerTurnBound
+
+@[expose] public section
 
 /-! Exclude a genuine simple minimizing triangle whose retained corner is
 locally metric-additive. All source geometry and full oriented Gauss--Bonnet

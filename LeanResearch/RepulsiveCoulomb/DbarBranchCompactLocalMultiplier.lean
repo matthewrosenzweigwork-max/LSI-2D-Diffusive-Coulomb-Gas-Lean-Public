@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCoefficientExtension
-import LeanResearch.RepulsiveCoulomb.DbarBranchTranslationMultiplier
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCoefficientExtension
+public import LeanResearch.RepulsiveCoulomb.DbarBranchTranslationMultiplier
+
+@[expose] public section
 
 /-! Locally smooth coefficients act by actual bounded L2 multipliers after
 one common compact localization. This is the precise local mechanism for the

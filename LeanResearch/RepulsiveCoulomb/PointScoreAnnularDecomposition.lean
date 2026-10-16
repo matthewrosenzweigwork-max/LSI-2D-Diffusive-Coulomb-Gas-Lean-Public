@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DyadicScoreCover
+module
+
+public import LeanResearch.RepulsiveCoulomb.DyadicScoreCover
+
+@[expose] public section
 
 /-! Actual good/bad score decomposition on a radial annulus. The score-energy
 integrability premise is explicit and must be discharged on the original core. -/

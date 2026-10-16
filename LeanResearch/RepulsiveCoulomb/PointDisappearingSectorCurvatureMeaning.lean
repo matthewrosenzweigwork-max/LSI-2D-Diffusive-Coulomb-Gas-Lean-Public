@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointDisappearingSectorPassingChart
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingSectorPassingChart
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexBudget
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. All-point geometric interpretation of the
 ambient finite update after the literal disappearing cut is constructed. New

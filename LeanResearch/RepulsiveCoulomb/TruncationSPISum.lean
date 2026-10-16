@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TruncationSPIWeighted
-import LeanResearch.RepulsiveCoulomb.FiniteTruncationEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.TruncationSPIWeighted
+public import LeanResearch.RepulsiveCoulomb.FiniteTruncationEnergy
+
+@[expose] public section
 
 /-! Summed logarithmically weighted truncated masses, with finite defect. -/
 noncomputable section

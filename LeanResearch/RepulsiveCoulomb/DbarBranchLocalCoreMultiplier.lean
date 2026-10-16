@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombDbarCore
-import LeanResearch.RepulsiveCoulomb.CoulombDensitySmooth
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombDbarCore
+public import LeanResearch.RepulsiveCoulomb.CoulombDensitySmooth
+
+@[expose] public section
 
 /-! Honest smooth core multipliers from functions smooth only on the collision
 complement. Vanishing near the complement supplies global smoothness. -/

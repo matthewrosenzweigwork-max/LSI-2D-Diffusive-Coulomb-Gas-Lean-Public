@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricMidpointGrid
-import Mathlib.Algebra.Order.Floor.Semifield
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricMidpointGrid
+public import Mathlib.Algebra.Order.Floor.Semifield
+
+@[expose] public section
 
 /-! Dyadic floor parameters and their convergence. -/
 noncomputable section

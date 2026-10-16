@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
-import LeanResearch.RepulsiveCoulomb.CoulombPermutation
-import Mathlib.MeasureTheory.Measure.OpenPos
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+public import LeanResearch.RepulsiveCoulomb.CoulombPermutation
+public import Mathlib.MeasureTheory.Measure.OpenPos
+
+@[expose] public section
 
 /-! Permutation symmetry of Gibbs-L2 classes becomes pointwise symmetry of
 continuous (in particular genuinely holomorphic) collision-free representatives. -/

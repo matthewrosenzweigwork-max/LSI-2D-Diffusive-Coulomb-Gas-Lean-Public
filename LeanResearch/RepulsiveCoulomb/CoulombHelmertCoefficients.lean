@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterChart
-import Mathlib.Order.Interval.Finset.Fin
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterChart
+public import Mathlib.Order.Interval.Finset.Fin
+
+@[expose] public section
 
 /-! The exact real coefficients of the manuscript Helmert transform.  All
 statements are finite algebra, including the cancellation of a shorter row

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteActualCutPrefix
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteActualCutPrefix
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Geometry and quantitative bounds of the actual
 finite prefix, plus exact allocation if its produced endpoint is terminal.

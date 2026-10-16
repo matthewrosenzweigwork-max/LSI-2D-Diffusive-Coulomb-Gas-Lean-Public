@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussianPositivity
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussianPositivity
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Gaussian repulsivity for actual integrable signed densities against any
 sigma-finite planar reference measure. All triple-integral side conditions

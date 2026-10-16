@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchActualErrorMoments
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNelsonMarkov
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchActualErrorMoments
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNelsonMarkov
+
+@[expose] public section
 
 /-! The actual Nelson tail bound for canonical A_N under the constructed
 thermal product reference. Its moment input is the instantiated generic

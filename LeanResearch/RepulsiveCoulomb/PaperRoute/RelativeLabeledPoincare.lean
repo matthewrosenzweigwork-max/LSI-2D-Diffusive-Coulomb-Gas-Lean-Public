@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianWeightedRoute
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchNamedLabelTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianWeightedRoute
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchNamedLabelTransport
+
+@[expose] public section
 
 /-! Additive original-paper relative-coordinate route. Constants are selected
 only by the new original-input weighted theorem. The historically named

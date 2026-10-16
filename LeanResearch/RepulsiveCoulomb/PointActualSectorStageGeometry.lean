@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorEdgeInterior
-import LeanResearch.RepulsiveCoulomb.PointActualOpenDirectionUnmarked
-import LeanResearch.RepulsiveCoulomb.PointCappedSectorStageAtApex
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorEdgeInterior
+public import LeanResearch.RepulsiveCoulomb.PointActualOpenDirectionUnmarked
+public import LeanResearch.RepulsiveCoulomb.PointCappedSectorStageAtApex
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Collect only actual geometric data and proved
 finite-direction inequalities, then derive arbitrary finite-stage regularity.

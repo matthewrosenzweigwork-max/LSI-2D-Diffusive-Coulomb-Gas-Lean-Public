@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanEndpointReparameterization
-import Mathlib.Analysis.Calculus.Deriv.Basic
-import Mathlib.Topology.Order.OrderClosed
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanEndpointReparameterization
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Topology.Order.OrderClosed
+
+@[expose] public section
 
 /-! Actual C¹ gluing at a matched value and velocity. The derivative is proved
 on both half-lines and at the seam, then its continuity is established by the

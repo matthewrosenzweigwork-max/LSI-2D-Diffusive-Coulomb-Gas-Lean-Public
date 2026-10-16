@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnFiniteGBData
-import Mathlib.Algebra.Order.BigOperators.Group.Finset
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnFiniteGBData
+public import Mathlib.Algebra.Order.BigOperators.Group.Finset
+
+@[expose] public section
 
 /-! Source-only draft. Correct SIGNED finite curvature accounting after actual
 mixed GB, and the independent old-boundary positive-mass comparison. Negative

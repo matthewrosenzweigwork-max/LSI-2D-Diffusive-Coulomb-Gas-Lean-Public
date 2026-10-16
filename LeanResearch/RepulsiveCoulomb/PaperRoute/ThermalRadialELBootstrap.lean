@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialWeakRegularity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRadialMassFormula
-import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialWeakRegularity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRadialMassFormula
+public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+
+@[expose] public section
 
 /-! An actual smooth bootstrap starting from
 supplied C1 regularity of the literal potential, with a raw-input wrapper

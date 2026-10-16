@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.UnitDiskLogRadial
+module
+
+public import LeanResearch.RepulsiveCoulomb.UnitDiskLogRadial
+
+@[expose] public section
 
 /-! Literal Lebesgue disk average, including integrability of the logarithmic
 singularity and the radial Jacobian. All equalities concern the original log. -/

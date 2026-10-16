@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EntropySquareScaling
-import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
-import LeanResearch.RepulsiveCoulomb.CoulombCutoffEnergy
-import LeanResearch.PeriodicAttractiveLogGas.EntropyL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.EntropySquareScaling
+public import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+public import LeanResearch.RepulsiveCoulomb.CoulombCutoffEnergy
+public import LeanResearch.PeriodicAttractiveLogGas.EntropyL2
+
+@[expose] public section
 
 /-!
 Zero-safe particle-core normalization and extension to the full original

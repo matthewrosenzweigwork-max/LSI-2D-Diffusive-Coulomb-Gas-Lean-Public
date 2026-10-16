@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCovectorMetric
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricSquareRoot
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCovectorMetric
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricSquareRoot
+
+@[expose] public section
 
 /-! Pointwise norm comparisons for the auxiliary metric. They distinguish
 its H^{-1} one-form norm from the Euclidean norm controlled by curvature.

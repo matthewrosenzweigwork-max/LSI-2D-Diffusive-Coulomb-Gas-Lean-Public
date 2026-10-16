@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointMomentTail
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMomentTail
+
+@[expose] public section
 
 /-! Quadratic moment tails in any real normed configuration space.
 Both the mass and moment integrability are explicit, excluding Bochner defaults. -/

@@ -1,12 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.OverlayGraph
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.ModelCurve
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.OuterFace
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Redrawing
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.OverlayGraph
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.ModelCurve
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.OuterFace
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Redrawing
+
+@[expose] public section
 
 /-!
 # The anchored square mesh

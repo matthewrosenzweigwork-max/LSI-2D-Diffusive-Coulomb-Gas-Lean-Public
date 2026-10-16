@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointBallAverage
-import LeanResearch.RepulsiveCoulomb.PointBallMassComparison
-import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
-import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointBallAverage
+public import LeanResearch.RepulsiveCoulomb.PointBallMassComparison
+public import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+
+@[expose] public section
 
 /-! Identify abstract measure averages with the literal point-weighted integrals.
 Open and closed balls have the same restricted measure, not merely the same mass. -/

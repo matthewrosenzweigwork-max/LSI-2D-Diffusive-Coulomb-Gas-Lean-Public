@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicBigonExtraction
+
+@[expose] public section
 
 /-! The disagreement subarcs are reparameterized as actual constant-speed
 minimizing geodesics on the standard interval. Their Jordan curve is obtained

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnFiniteGBData
-import LeanResearch.RepulsiveCoulomb.FirstReturnOldBoundaryLocalEquality
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnFiniteGBData
+public import LeanResearch.RepulsiveCoulomb.FirstReturnOldBoundaryLocalEquality
+
+@[expose] public section
 
 /-! Source-only draft. Every actual finite first-return corner, including
 zero-mass vertices, has an actual full positive Jordan interval. At an old

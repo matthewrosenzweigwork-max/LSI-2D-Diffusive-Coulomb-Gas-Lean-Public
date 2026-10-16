@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1GapPiece
-import Mathlib.Data.Finset.Card
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1GapPiece
+public import Mathlib.Data.Finset.Card
+
+@[expose] public section
 
 /-! Genuine finite-exception assembly. Every recursion step selects an actual
 interior exceptional time and strictly reduces its finite cardinality on both

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircularRegularization
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircularRegularization
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Nonnegative continuous approximants to the genuinely extended logarithmic
 interaction. The diagonal is +infinity, never the real-log default value zero.

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussian
-import LeanResearch.PeriodicAttractiveLogGas.Rothaus
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGaussian
+public import LeanResearch.PeriodicAttractiveLogGas.Rothaus
+
+@[expose] public section
 
 /-! Direct entropy lower bound against the actual normalized Gaussian.
 No relative entropy inequality or finite Gaussian mass is assumed. -/

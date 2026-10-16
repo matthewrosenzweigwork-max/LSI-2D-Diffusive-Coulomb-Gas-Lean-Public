@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombOneSiteFactorization
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombOneSiteFactorization
+
+@[expose] public section
 
 /-! Actual measure-preserving first-coordinate splitting of Euclidean configurations. -/
 noncomputable section

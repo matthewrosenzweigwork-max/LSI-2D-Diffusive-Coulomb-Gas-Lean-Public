@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchELTailBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchELTailBound
+
+@[expose] public section
 
 /-! A genuine positive bounded representative satisfying EL at every point.
 An a.e. finite-energy EL density is first clipped on a null set, which makes

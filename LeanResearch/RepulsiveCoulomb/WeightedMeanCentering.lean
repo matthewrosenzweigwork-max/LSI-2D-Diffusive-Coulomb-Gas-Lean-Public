@@ -1,4 +1,8 @@
-import Mathlib.MeasureTheory.Integral.Bochner.Basic
+module
+
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+
+@[expose] public section
 
 /-! The correctly oriented L1 centering inequality used in the Bjorn transfer
 argument: mean-centered oscillation is at most twice oscillation about any

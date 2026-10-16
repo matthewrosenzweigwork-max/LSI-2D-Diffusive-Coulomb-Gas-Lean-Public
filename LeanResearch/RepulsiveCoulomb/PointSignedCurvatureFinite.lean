@@ -1,8 +1,12 @@
-import Mathlib.Basic.Complex.Basic
-import Mathlib.Data.Finsupp.Defs
-import Mathlib.Algebra.BigOperators.Group.Finset.Basic
-import Mathlib.Algebra.Order.BigOperators.Group.Finset
-import Mathlib.Tactic.Linarith
+module
+
+public import Mathlib.Basic.Complex.Basic
+public import Mathlib.Data.Finsupp.Defs
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Algebra.Order.BigOperators.Group.Finset
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-!
 Finite signed curvature coefficients on the fixed ambient complex plane.

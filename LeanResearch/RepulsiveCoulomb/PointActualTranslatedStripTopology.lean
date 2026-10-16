@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRelativeFullness
-import LeanResearch.RepulsiveCoulomb.TranslatedStripRemovedContactRay
-import LeanResearch.RepulsiveCoulomb.TranslatedStripResidualTopology
-import LeanResearch.RepulsiveCoulomb.PlanarOldBoundaryComplementRay
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRelativeFullness
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripRemovedContactRay
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripResidualTopology
+public import LeanResearch.RepulsiveCoulomb.PlanarOldBoundaryComplementRay
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. END-TO-END conditional cut topology from the
 ACTUAL supplied translated strip, old ambient H, exact contact, admissible old

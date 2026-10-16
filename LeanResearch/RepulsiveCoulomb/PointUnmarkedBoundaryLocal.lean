@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedFrontierEndpoint
-import LeanResearch.RepulsiveCoulomb.MetricFlatHalfDiskChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
-import Mathlib.Analysis.Complex.ReImTopology
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFrontierEndpoint
+public import LeanResearch.RepulsiveCoulomb.MetricFlatHalfDiskChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
+public import Mathlib.Analysis.Complex.ReImTopology
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. A physically flat retained boundary has literal
 local minimizing diameter segments. Positive ambient cone exponents are allowed.

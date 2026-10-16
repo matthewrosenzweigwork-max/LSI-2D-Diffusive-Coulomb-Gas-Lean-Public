@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateL2
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. Recover a genuine fixed-temperature
 closed-form element from a convergent ground-state sequence and vanishing

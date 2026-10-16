@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridSampling
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridSampling
+
+@[expose] public section
 
 /-! Actual uniform value error for the sampled finite-grid interpolant. -/
 noncomputable section

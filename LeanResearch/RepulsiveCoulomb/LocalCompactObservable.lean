@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCutoffBump
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCutoffBump
+
+@[expose] public section
 
 /-! An actual compactly supported C1 extension agreeing locally with any C1
 observable throughout a prescribed closed ball. No constant enters coarea. -/

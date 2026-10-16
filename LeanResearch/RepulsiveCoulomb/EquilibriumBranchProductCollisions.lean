@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
-import Mathlib.Probability.Independence.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+public import Mathlib.Probability.Independence.Basic
+
+@[expose] public section
 
 /-! Actual product-reference collision nullity. The reference is literally
 mu to the Nth tensor power, transported to physical l2 configurations.

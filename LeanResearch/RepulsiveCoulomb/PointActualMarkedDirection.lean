@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointCleanBoundaryContinuation
-import LeanResearch.RepulsiveCoulomb.PointRetainedFrontierEndpoint
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCleanBoundaryContinuation
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFrontierEndpoint
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY INTEGRATION. No compiler or canonical staging.
 The local frontier theorem is the immutable outside sector-worker companion.

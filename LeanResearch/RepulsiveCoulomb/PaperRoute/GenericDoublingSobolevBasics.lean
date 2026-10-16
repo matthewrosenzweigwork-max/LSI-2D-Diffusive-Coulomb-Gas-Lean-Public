@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GlobalDoublingGrowth
-import Mathlib.MeasureTheory.Integral.Average
-import Mathlib.MeasureTheory.Integral.IntegrableOn
-import Mathlib.Analysis.SpecificLimits.Basic
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GlobalDoublingGrowth
+public import Mathlib.MeasureTheory.Integral.Average
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Measure foundations for the new global-doubling Sobolev route

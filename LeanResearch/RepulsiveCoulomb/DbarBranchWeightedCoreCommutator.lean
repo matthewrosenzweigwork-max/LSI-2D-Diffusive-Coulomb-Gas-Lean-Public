@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeightedCoreScore
-import LeanResearch.RepulsiveCoulomb.DbarBranchPotentialMixedWirtinger
-import LeanResearch.RepulsiveCoulomb.DbarBranchSecondWirtinger
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeightedCoreScore
+public import LeanResearch.RepulsiveCoulomb.DbarBranchPotentialMixedWirtinger
+public import LeanResearch.RepulsiveCoulomb.DbarBranchSecondWirtinger
+
+@[expose] public section
 
 /-! The actual compact-core commutator [dbar_i,delta_j], identified with the
 actual Coulomb potential Hessian. The commutator itself is a genuine compact

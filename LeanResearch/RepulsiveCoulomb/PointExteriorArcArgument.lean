@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointExteriorConnectionEstimates
-import LeanResearch.RepulsiveCoulomb.PointArcObserverCorrection
-import LeanResearch.RepulsiveCoulomb.PointFiniteOpenArgument
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointExteriorConnectionEstimates
+public import LeanResearch.RepulsiveCoulomb.PointArcObserverCorrection
+public import LeanResearch.RepulsiveCoulomb.PointFiniteOpenArgument
+
+@[expose] public section
 
 /-! Exact weighted point-argument increments along an actual exterior arc.
 The canonical correction is constructed from the literal finite product;

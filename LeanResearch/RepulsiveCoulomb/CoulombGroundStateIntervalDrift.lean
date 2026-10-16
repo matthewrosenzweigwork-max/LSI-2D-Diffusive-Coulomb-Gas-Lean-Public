@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateTemperature
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoercivity
-import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateTemperature
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoercivity
+public import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. A common drift-energy bound for original
 core ground states on a positive compact temperature interval. -/

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanClosedSectorSource
-import LeanResearch.RepulsiveCoulomb.ComplexDirectMotionRigidity
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanClosedSectorSource
+public import LeanResearch.RepulsiveCoulomb.ComplexDirectMotionRigidity
+public import Mathlib.Analysis.Complex.Basic
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual halfdisk source models at a nonapex
 point of either boundary ray. The beta = pi endpoint is handled separately.

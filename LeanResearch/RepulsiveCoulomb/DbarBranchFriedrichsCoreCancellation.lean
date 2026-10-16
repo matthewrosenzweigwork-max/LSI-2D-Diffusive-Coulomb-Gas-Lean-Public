@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchKernelDerivative
-import LeanResearch.RepulsiveCoulomb.DbarBranchScaledBumpMoment
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchKernelDerivative
+public import LeanResearch.RepulsiveCoulomb.DbarBranchScaledBumpMoment
+
+@[expose] public section
 
 /-! The first-order kernel is genuinely the differential commutator on the
 dense compact smooth core. The coefficient derivative is literal; its

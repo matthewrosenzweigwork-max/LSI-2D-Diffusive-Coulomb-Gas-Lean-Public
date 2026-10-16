@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointIntegratedTransfer
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIntegratedTransfer
+
+@[expose] public section
 
 /-! Normalized L1 transfer with actual raw point measures. Every conclusion in
 this file remains explicitly conditional on the displayed double-average input.

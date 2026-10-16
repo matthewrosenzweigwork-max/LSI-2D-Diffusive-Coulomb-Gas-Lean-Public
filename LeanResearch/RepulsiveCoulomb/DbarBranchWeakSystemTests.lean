@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchFriedrichsStrongConvergence
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchFriedrichsStrongConvergence
+
+@[expose] public section
 
 /-! Literal weak equations for one finite first-order system, with a single
 input vector and all output components. No componentwise operator-domain

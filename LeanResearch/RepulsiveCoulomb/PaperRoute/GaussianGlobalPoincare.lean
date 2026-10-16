@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianLocalGeometry
-import LeanResearch.RepulsiveCoulomb.PointMomentTail
-import LeanResearch.RepulsiveCoulomb.PointUniformPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianLocalGeometry
+public import LeanResearch.RepulsiveCoulomb.PointMomentTail
+public import LeanResearch.RepulsiveCoulomb.PointUniformPoincare
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. New local PI and the explicitly supplied actual full-form U-bound imply global PI. No old moment producer is selected. -/
 noncomputable section

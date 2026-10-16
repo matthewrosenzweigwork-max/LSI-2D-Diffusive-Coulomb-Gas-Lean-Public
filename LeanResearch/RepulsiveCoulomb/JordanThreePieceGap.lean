@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanC1GlueGeometry
-import Mathlib.Analysis.Calculus.Deriv.Shift
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanC1GlueGeometry
+public import Mathlib.Analysis.Calculus.Deriv.Shift
+
+@[expose] public section
 
 /-! Actual C¹ regular embedded gluing of an unchanged incoming collar, a
 middle arc with matched velocities, and an unchanged outgoing collar. The

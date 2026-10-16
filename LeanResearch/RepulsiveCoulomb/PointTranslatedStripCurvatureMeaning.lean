@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripTopChart
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRetainedGerms
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripApexFullness
-import LeanResearch.RepulsiveCoulomb.BoundaryPreparationRankDraft
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripTopChart
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRetainedGerms
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripApexFullness
+public import LeanResearch.RepulsiveCoulomb.BoundaryPreparationRankDraft
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Geometric meaning of the general AMBIENT
 Finsupp transfer, proved using the constructed actual retained charts. The

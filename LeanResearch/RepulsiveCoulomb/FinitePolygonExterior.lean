@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PolygonExteriorCollar
+module
+
+public import LeanResearch.RepulsiveCoulomb.PolygonExteriorCollar
+
+@[expose] public section
 
 /-! Connected exterior of finitely many disjoint filled polygons. This is an
 actual finite-family topological consequence of the approved polygon collars. -/

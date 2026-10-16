@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFullStripCurvatureTransport
-import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
-import Mathlib.Data.Finsupp.Basic
-import Mathlib.Data.Finset.Card
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullStripCurvatureTransport
+public import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+public import Mathlib.Data.Finsupp.Basic
+public import Mathlib.Data.Finset.Card
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual ambient Finsupp representation and finite
 support adapters for the full-line preparation. The old representation records

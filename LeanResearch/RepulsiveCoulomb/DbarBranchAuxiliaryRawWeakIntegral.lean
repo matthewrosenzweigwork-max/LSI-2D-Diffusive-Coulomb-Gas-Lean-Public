@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompatibilityCutoffIntegral
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryScalarWeakSystem
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompatibilityCutoffIntegral
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryScalarWeakSystem
+
+@[expose] public section
 
 /-! Literal raw exterior weak equations and their local integrability. The
 untransformed coefficient Su is used only locally and in compact pairings. -/

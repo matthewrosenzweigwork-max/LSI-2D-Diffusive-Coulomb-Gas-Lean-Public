@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourEdgeCarrier
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourEdgeCarrier
+
+@[expose] public section
 
 /-! The canonical planar drawing occupies exactly the transported physical level,
 including its vertices as well as its unoriented edges. -/

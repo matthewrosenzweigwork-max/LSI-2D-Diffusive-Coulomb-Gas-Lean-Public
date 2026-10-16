@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialFiniteGaussBonnet
-import LeanResearch.RepulsiveCoulomb.PointRadialPositiveFamily
-import LeanResearch.RepulsiveCoulomb.PlaneJordanSeparation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialFiniteGaussBonnet
+public import LeanResearch.RepulsiveCoulomb.PointRadialPositiveFamily
+public import LeanResearch.RepulsiveCoulomb.PlaneJordanSeparation
+
+@[expose] public section
 
 /-! Geodesic Gauss--Bonnet for an actual source-derived finite radial family.
 The actual Jordan components, positive traversal, inside witness and every

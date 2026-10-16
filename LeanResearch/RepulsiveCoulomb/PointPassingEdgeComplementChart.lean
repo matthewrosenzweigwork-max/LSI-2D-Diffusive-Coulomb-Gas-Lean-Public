@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexAngularCut
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexAngularCut
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY DRAFT, NOT COMPILED. Complementary FULL interval at a newly exposed

@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicClockDifferentiable
-import LeanResearch.RepulsiveCoulomb.PointGeodesicAnalytic
-import LeanResearch.RepulsiveCoulomb.PointArgumentLiftDerivative
-import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-import Mathlib.Analysis.Analytic.ChangeOrigin
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicClockDifferentiable
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicAnalytic
+public import LeanResearch.RepulsiveCoulomb.PointArgumentLiftDerivative
+public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+public import Mathlib.Analysis.Analytic.ChangeOrigin
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 UNCOMPILED ADDITIVE DRAFT, 2026-10-02. No accepted-source or inventory claim.

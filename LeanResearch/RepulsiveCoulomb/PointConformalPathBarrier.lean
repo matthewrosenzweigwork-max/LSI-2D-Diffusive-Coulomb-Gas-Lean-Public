@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointSmoothConformalDistance
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSmoothConformalDistance
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.ContDiff
+
+@[expose] public section
 
 /-! Smooth test functions whose physical derivatives are dominated by the conformal
 density control endpoint oscillation along genuine smooth paths. This is a step

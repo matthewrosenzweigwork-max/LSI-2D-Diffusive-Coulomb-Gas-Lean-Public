@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointActualBalancedLineAllMasses
-import LeanResearch.RepulsiveCoulomb.PointFullStripRetainedIntervals
-import Mathlib.Tactic.FieldSimp
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualBalancedLineAllMasses
+public import LeanResearch.RepulsiveCoulomb.PointFullStripRetainedIntervals
+public import Mathlib.Tactic.FieldSimp
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Genuine retained metric disks on the fixed
 balanced sides, including both full physical intervals at every line atom.

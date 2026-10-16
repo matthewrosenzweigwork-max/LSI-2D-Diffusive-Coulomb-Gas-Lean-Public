@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+
+@[expose] public section
 
 /-! SOURCE-ONLY MAXIMAL-WIDTH ALGEBRA. Keep the marked attachment case
 separate from the retained-flat initial collar. A zero residual angle consumes

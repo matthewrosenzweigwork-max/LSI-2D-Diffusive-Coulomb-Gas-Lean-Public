@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCrossTerm
-import LeanResearch.RepulsiveCoulomb.CoulombCutoffRellich
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCrossTerm
+public import LeanResearch.RepulsiveCoulomb.CoulombCutoffRellich
+
+@[expose] public section
 
 /-! Literal normalized ground-state energy identity for the full particle
 core, with every term genuinely integrable. -/

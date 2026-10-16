@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
+
+@[expose] public section
 
 /-! SOURCE-ONLY, NOT COMPILED. Genuine full retained cone charts at ordinary
 interior points, including ambient cone atoms. This does not infer flatness. -/

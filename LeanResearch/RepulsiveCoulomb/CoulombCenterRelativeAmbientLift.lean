@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeAmbientJet
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeAmbientJet
+
+@[expose] public section
 
 /-! Every ambient compact smooth relative jet lifts to the actual original
 closed form, independently of relative collision-free support. -/

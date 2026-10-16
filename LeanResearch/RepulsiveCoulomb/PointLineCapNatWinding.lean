@@ -1,11 +1,15 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapNatFamily
-import LeanResearch.RepulsiveCoulomb.PointLineCapPositiveOrientation
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPointWinding
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Positivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapNatFamily
+public import LeanResearch.RepulsiveCoulomb.PointLineCapPositiveOrientation
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPointWinding
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Positivity
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Positive winding is derived for the actual
 natural-indexed mixed family. The basepoint is moved to the midpoint of its

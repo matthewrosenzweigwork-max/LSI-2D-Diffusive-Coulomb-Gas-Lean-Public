@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedErrorIdentity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedErrorIdentity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+
+@[expose] public section
 
 /-! Transfer from the generic centered-statistic moment to the actual
 canonical regularization error. The factor 1/2 and the surviving one-body

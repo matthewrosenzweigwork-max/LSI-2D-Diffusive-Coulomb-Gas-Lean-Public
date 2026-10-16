@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.LocalIsometryGlobalization
-import Mathlib.Analysis.Normed.Module.Convex
-import Mathlib.Topology.Connected.Clopen
+module
+
+public import LeanResearch.RepulsiveCoulomb.LocalIsometryGlobalization
+public import Mathlib.Analysis.Normed.Module.Convex
+public import Mathlib.Topology.Connected.Clopen
+
+@[expose] public section
 
 /-! Surjectivity requires genuine additional hypotheses: a complete nonempty
 source and an actually open map. Completeness closes the isometric image;

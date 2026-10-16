@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedStripUnboundedUnion
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRelativeFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripUnboundedUnion
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRelativeFullness
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. Infinite-width exhaustion is proved from genuine stage

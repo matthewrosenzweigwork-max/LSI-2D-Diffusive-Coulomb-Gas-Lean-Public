@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFullStripTopOccupancy
-import LeanResearch.RepulsiveCoulomb.PointFullStripResidualHalfplane
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullStripTopOccupancy
+public import LeanResearch.RepulsiveCoulomb.PointFullStripResidualHalfplane
+
+@[expose] public section
 
 /-! Identify the halfdisk with the correct global removed side, compare its
 actual retained width, and subtract from the complementary whole cone interval.

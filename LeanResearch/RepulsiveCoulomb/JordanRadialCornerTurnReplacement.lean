@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanConformalTurnTransport
-import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanConformalTurnTransport
+public import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+
+@[expose] public section
 
 /-! The actual holomorphic quadratic rounding preserves the sum of the two
 actual incident radial arc turns and their actual principal corner turn.

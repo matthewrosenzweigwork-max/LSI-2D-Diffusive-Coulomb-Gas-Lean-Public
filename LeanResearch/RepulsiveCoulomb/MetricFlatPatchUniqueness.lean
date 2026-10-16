@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricFlatDiskPatchExtension
-import Mathlib.Topology.Connected.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricFlatDiskPatchExtension
+public import Mathlib.Topology.Connected.Basic
+
+@[expose] public section
 
 /-! NEW post-loss proof bodies. The main public interface is grounded in
 recovered callers; the common-chart helper spelling is new. Agreement spreads

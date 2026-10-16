@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFullLinePreparationCharts
-import LeanResearch.RepulsiveCoulomb.PointFullLinePreparationRay
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFullLinePreparationCharts
+public import LeanResearch.RepulsiveCoulomb.PointFullLinePreparationRay
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual full-line preparation, assembled from the
 recovered first-contact and literal-residual constructions. The complete metric

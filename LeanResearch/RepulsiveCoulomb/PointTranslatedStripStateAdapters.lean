@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointActualTranslatedStripResidual
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
-import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualTranslatedStripResidual
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntrinsicAmbientConvexity
+public import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Output adapters for the actual translated cut.
 The frozen supplied-strip construction is unchanged. These definitions expose

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointPunctureCapacity
-import Mathlib.MeasureTheory.Integral.DominatedConvergence
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointPunctureCapacity
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+
+@[expose] public section
 
 /-! Vanishing value errors for point cutoffs and finite-puncture preparation.
 All measures are the literal normalized weighted Gaussian. -/

@@ -1,10 +1,14 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.FaceCyclesProof
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PrePolygonArc
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.FaceCyclesProof
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PrePolygonArc
+
+@[expose] public section
 
 /-!
 # `lem:face-cycles`, with nothing assumed

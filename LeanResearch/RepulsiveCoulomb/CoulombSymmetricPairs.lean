@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombOneSiteFactorization
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombOneSiteFactorization
+
+@[expose] public section
 
 /-! Elementary symmetric-pair product identity, avoiding ordered-label assumptions. -/
 noncomputable section

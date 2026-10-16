@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapNatFamily
-import LeanResearch.RepulsiveCoulomb.PointRadialC1ArcTransport
-import LeanResearch.RepulsiveCoulomb.PointRadialC1HalfOpenCorners
-import LeanResearch.RepulsiveCoulomb.PointPolyhedralCurvature
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Order
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapNatFamily
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1ArcTransport
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1HalfOpenCorners
+public import LeanResearch.RepulsiveCoulomb.PointPolyhedralCurvature
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Order
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Preserve the actual original positive-atom
 radial germs in the natural-index family. All open edges avoid active atoms,

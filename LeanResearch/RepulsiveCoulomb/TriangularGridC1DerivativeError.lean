@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridDerivativeEdges
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridDerivativeEdges
+
+@[expose] public section
 
 /-! Actual C1 derivative error on open mesh triangles. Only first-derivative
 oscillation is used; there is no C2 or unproved approximation hypothesis. -/

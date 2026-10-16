@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalSymmetricConstant
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalSymmetricConstant
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED. The exact compact-temperature C_sym bound, with
 actual interval suprema of optimal Poincare coefficients inside the finite

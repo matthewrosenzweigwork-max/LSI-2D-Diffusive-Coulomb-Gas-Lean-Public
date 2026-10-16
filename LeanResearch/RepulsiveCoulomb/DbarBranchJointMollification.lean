@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeakSystemConvolution
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeakSystemConvolution
+
+@[expose] public section
 
 /-! One fixed mollifier family approximates a finite combined weak first-order
 system in its value norm and all output norms simultaneously. Each coordinate

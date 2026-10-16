@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNelsonTailAlgebra
-import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNelsonTailAlgebra
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+
+@[expose] public section
 
 /-! The actual Markov transfer from a proved canonical error moment to the
 Boltzmann tail event. It uses genuine ENNReal probability measures and the

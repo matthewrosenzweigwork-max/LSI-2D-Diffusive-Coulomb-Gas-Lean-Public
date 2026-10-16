@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchELUniqueness
-import Mathlib.Analysis.Complex.Isometry
-import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchELUniqueness
+public import Mathlib.Analysis.Complex.Isometry
+public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+
+@[expose] public section
 
 /-! Actual radiality of positive bounded pointwise-EL densities. Orthogonal
 pullbacks preserve planar volume and the literal logarithmic potential.

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombLocalCoreBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombLocalCoreBound
+
+@[expose] public section
 
 /-! Genuine compact localization of core functions and physical gradients. -/
 noncomputable section

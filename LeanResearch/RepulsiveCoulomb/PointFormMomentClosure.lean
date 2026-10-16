@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFormMomentApproximation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFormMomentApproximation
+
+@[expose] public section
 
 /-! Fatou closure of the actual weighted moment bound. Finiteness is proved in
 ENNReal before the real Bochner integral is used. -/

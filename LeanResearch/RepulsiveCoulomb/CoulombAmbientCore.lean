@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCommonCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCommonCore
+
+@[expose] public section
 
 /-! Ambient smooth functions are represented in the closure of the prescribed
 puncture-avoiding core, with both value and physical gradient identified. -/

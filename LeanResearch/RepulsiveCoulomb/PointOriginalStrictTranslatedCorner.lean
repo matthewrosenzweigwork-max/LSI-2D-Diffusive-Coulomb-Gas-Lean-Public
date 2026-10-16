@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PlanarBoundaryClockOppositeRay
-import LeanResearch.RepulsiveCoulomb.PointOriginalExtremeBoundaryRay
-import LeanResearch.RepulsiveCoulomb.PointStrictCornerFromCleanForward
-import LeanResearch.RepulsiveCoulomb.PointNoCleanBoundaryEndpoints
-import LeanResearch.RepulsiveCoulomb.TranslatedStripRemovedContactRay
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarBoundaryClockOppositeRay
+public import LeanResearch.RepulsiveCoulomb.PointOriginalExtremeBoundaryRay
+public import LeanResearch.RepulsiveCoulomb.PointStrictCornerFromCleanForward
+public import LeanResearch.RepulsiveCoulomb.PointNoCleanBoundaryEndpoints
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripRemovedContactRay
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. Strict residual angle at the actual attained corner

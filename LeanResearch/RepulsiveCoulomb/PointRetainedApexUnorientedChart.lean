@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexSectorGerms
-import LeanResearch.RepulsiveCoulomb.PointRetainedUpperApexAngularCut
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkFrontierEndpoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexSectorGerms
+public import LeanResearch.RepulsiveCoulomb.PointRetainedUpperApexAngularCut
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkFrontierEndpoint
+
+@[expose] public section
 
 /-! SOURCE-ONLY, NOT COMPILED. Both old endpoint orientations are derived from
 actual source-bottom membership in the old frontier. No lower-endpoint premise,

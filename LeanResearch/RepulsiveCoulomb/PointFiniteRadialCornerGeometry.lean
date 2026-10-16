@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPositiveBoundaryAtom
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPositiveBoundaryAtom
+
+@[expose] public section
 
 /-! A source-retaining geometric interface for a selected corner of an
 actual finite family. Only literal cyclic re-enumeration, partial charts and

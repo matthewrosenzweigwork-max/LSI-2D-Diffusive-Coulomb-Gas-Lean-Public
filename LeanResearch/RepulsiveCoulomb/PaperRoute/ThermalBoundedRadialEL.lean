@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialPotential
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalBoundedRepresentative
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalRadialPotential
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalBoundedRepresentative
+
+@[expose] public section
 
 /-! Apply the conditional finite-canonical-minimizer to
 bounded EL representative theorem to NEW minimizers, then derive actual

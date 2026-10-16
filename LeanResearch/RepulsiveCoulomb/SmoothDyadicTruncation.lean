@@ -1,8 +1,12 @@
-import Mathlib.Analysis.SpecialFunctions.SmoothTransition
-import Mathlib.Analysis.Calculus.LocalExtr.Basic
-import Mathlib.Analysis.Calculus.ContDiff.Deriv
-import Mathlib.Topology.Order.Compact
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
+public import Mathlib.Analysis.Calculus.LocalExtr.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Genuine smooth one-sided truncations for the weak-to-strong Sobolev upgrade.
 Their derivative lives in one dyadic value band, including exact endpoint zeros. -/

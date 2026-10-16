@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricClosedFlatPatchUniqueness
-import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
-import LeanResearch.RepulsiveCoulomb.ConvexDiskOverlap
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricClosedFlatPatchUniqueness
+public import LeanResearch.RepulsiveCoulomb.MetricHalfDiskTwoAnchorUniqueness
+public import LeanResearch.RepulsiveCoulomb.ConvexDiskOverlap
+
+@[expose] public section
 
 /-! Full-line continuation uses one actual aligned boundary halfdisk, not a
 positive corner. Two real anchors construct the local agreement; genuine full

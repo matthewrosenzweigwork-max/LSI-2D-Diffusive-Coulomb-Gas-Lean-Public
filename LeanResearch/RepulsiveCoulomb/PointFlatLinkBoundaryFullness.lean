@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkFrontierEndpoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkFrontierEndpoint
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. If the two source edges of an actual flat
 sector meet the two old boundary germs, the sector fills the entire old region

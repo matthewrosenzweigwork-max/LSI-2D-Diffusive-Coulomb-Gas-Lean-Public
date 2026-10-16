@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridConvexGeometry
-import LeanResearch.RepulsiveCoulomb.AffineLevelEdge
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridConvexGeometry
+public import LeanResearch.RepulsiveCoulomb.AffineLevelEdge
+
+@[expose] public section
 
 /-! Actual affine formulas on each physical grid triangle and exact finite
 representation of every nonzero interpolant level as triangle/line intersections. -/

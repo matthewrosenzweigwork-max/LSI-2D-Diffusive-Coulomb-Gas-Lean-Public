@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
-import Mathlib.Data.Finsupp.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudget
+public import Mathlib.Data.Finsupp.Basic
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY DRAFT, NOT COMPILED. Algebra for the geometrically established

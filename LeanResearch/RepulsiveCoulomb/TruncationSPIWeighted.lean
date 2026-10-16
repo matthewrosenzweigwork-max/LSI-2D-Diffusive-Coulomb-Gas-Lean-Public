@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreSmoothTruncation
-import Mathlib.Analysis.SpecificLimits.Normed
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreSmoothTruncation
+public import Mathlib.Analysis.SpecificLimits.Normed
+
+@[expose] public section
 
 /-! Weighted dyadic mass bounds directly from the proved Gaussian SPI. -/
 noncomputable section

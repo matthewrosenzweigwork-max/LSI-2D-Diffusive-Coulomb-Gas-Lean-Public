@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointClassicalConeDisk
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointClassicalConeDisk
+
+@[expose] public section
 
 /-! A minimizing path through a positive-curvature-excess cone vertex must leave
 at angular separation at least pi. Derived from the actual metric cosine formula. -/

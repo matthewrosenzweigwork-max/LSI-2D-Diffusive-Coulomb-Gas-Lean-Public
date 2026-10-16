@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridEdgeGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridEdgeGeometry
+
+@[expose] public section
 
 /-! Unified actual triangle geometry and consistency of canonical edge crossings
 with the affine formulas on either incident triangle. -/

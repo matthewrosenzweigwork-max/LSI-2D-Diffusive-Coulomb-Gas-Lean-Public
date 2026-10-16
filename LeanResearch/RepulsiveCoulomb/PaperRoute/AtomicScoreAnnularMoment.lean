@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicScoreAnnularMass
-import LeanResearch.RepulsiveCoulomb.PointScoreAnnularDecomposition
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicScoreAnnularMass
+public import LeanResearch.RepulsiveCoulomb.PointScoreAnnularDecomposition
+
+@[expose] public section
 
 /-! Finite dyadic annular summation and absorption, using the new atomic-maximal K.
 The generic overlap constants 3 and 12 and absorption delta=1/96 are unchanged.

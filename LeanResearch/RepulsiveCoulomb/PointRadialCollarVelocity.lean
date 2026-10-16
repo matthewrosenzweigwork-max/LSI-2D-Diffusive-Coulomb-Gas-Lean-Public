@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointPositiveWindingSectorChoice
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorNormalization
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointPositiveWindingSectorChoice
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorNormalization
+
+@[expose] public section
 
 /-! Choose an actual regular point on the outgoing radial collar of the
 original loop. Its positive chart velocity is derived by differentiating the

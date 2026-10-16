@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointSurgeryComplementLocalMetric
-import LeanResearch.RepulsiveCoulomb.ComplexCenteredMetricRigidity
-import Mathlib.Topology.OpenPartialHomeomorph.Composition
-import Mathlib.Topology.OpenPartialHomeomorph.IsImage
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSurgeryComplementLocalMetric
+public import LeanResearch.RepulsiveCoulomb.ComplexCenteredMetricRigidity
+public import Mathlib.Topology.OpenPartialHomeomorph.Composition
+public import Mathlib.Topology.OpenPartialHomeomorph.IsImage
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual all-model rigid overlap away from the
 selected closed sectors, including all artificial complement subdivision

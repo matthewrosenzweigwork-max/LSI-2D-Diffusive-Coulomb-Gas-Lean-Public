@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointSquaredWeightRadius
-import LeanResearch.RepulsiveCoulomb.PointConformalApproximateMidpoint
-import LeanResearch.RepulsiveCoulomb.PointMetricVolume
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSquaredWeightRadius
+public import LeanResearch.RepulsiveCoulomb.PointConformalApproximateMidpoint
+public import LeanResearch.RepulsiveCoulomb.PointMetricVolume
+
+@[expose] public section
 
 /-! The doubled-exponent metric controls squared-weight area by actual raw-weighted
 smooth path length. This is a geometric input, not the relative separator theorem. -/

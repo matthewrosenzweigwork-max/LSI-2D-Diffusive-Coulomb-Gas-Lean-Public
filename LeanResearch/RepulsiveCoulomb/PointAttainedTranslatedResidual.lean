@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedMarkedLimitContact
-import LeanResearch.RepulsiveCoulomb.PointActualTranslatedStripIteration
-import LeanResearch.RepulsiveCoulomb.PointTranslatedResidualFiniteBoundary
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedMarkedLimitContact
+public import LeanResearch.RepulsiveCoulomb.PointActualTranslatedStripIteration
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedResidualFiniteBoundary
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The attained maximal strip produces the literal
 residual closure(P \\ range F), all-point transferred signed state, genuine

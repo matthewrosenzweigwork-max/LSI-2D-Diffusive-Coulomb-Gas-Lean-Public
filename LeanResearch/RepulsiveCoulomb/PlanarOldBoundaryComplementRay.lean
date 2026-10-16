@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.NNRealProperClockHalfline
-import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfplaneHomeomorphisms
-import Mathlib.Topology.Algebra.Group.ContinuousDiv
+module
+
+public import LeanResearch.RepulsiveCoulomb.NNRealProperClockHalfline
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineHalfplaneHomeomorphisms
+public import Mathlib.Topology.Algebra.Group.ContinuousDiv
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. Construct the untouched proper old-boundary ray

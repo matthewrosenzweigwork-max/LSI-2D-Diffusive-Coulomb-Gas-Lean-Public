@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ConnectedEuclideanMotionGerms
-import LeanResearch.RepulsiveCoulomb.FiniteClosedPieceMetricBounds
-import LeanResearch.RepulsiveCoulomb.ComplexSubsetIsometryExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConnectedEuclideanMotionGerms
+public import LeanResearch.RepulsiveCoulomb.FiniteClosedPieceMetricBounds
+public import LeanResearch.RepulsiveCoulomb.ComplexSubsetIsometryExtension
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. A genuine local homeomorphism pieced from full
 Euclidean motions is locally rigid. Forward and inverse finite closed-cover

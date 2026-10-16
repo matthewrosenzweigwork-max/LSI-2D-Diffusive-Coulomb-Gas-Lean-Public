@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCollisionTensor
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeRawIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCollisionTensor
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeRawIntegral
+
+@[expose] public section
 
 /-! Vanishing global weighted energy at the first collision hyperplane.
 The positive power beta/(N+2) is retained exactly. -/

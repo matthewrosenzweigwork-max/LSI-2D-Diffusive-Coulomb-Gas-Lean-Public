@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapBoundedSide
-import Mathlib.Topology.Connected.LocallyPathConnected
-import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapBoundedSide
+public import Mathlib.Topology.Connected.LocallyPathConnected
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+
+@[expose] public section
 
 /-! Records-only, uncompiled. The actual compact-path exhaustion argument.
 The inputs are region geometry, boundary location, and a common interior

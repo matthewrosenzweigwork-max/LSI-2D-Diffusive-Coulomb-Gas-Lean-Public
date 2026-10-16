@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalConnection
-import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalConnection
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 UNCOMPILED ADDITIVE DRAFT, 2026-10-02. No accepted-source or inventory claim.

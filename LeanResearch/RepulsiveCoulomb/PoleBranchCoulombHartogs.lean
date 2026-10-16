@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchHyperplaneHartogs
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchHyperplaneHartogs
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+
+@[expose] public section
 
 /-! The actual Coulomb collision hyperplanes are distinct. Hence the proved
 finite-hyperplane Hartogs theorem removes every simultaneous collision once

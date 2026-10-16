@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PointLinePieceEndpointTangents
-import LeanResearch.RepulsiveCoulomb.PointLineCapNatGerms
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Order
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLinePieceEndpointTangents
+public import LeanResearch.RepulsiveCoulomb.PointLineCapNatGerms
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Order
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Close the two ordinary endpoint
 representative conditions of the mixed cap consumer. The actual tangent

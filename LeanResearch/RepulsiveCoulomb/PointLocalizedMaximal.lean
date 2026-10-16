@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointPoincareChain
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointPoincareChain
+
+@[expose] public section
 
 /-! Localization of the maximal operator to the dilated ball used in the
 Sobolev argument. The gradient-ball radius is five times the telescoping radius. -/

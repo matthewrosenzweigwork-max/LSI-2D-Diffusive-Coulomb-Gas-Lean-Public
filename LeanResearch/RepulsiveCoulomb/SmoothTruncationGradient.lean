@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.SmoothDyadicTruncation
-import LeanResearch.RepulsiveCoulomb.PointConditionalPhysicalPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.SmoothDyadicTruncation
+public import LeanResearch.RepulsiveCoulomb.PointConditionalPhysicalPoincare
+
+@[expose] public section
 
 /-! Physical Euclidean gradient control for genuine smooth truncations. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.SmoothDyadicTruncation
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Calculus.Gradient
+module
+
+public import LeanResearch.RepulsiveCoulomb.SmoothDyadicTruncation
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Calculus.Gradient
+
+@[expose] public section
 
 /-
 Additive paper-route copy of the generic argument in SmoothTruncationGradient.lean.

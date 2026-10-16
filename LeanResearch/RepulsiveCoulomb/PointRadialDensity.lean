@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalDensity
-import LeanResearch.RepulsiveCoulomb.RadialProductScaling
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalDensity
+public import LeanResearch.RepulsiveCoulomb.RadialProductScaling
+
+@[expose] public section
 
 /-! Literal radial lower densities for the planar conformal density. -/
 noncomputable section

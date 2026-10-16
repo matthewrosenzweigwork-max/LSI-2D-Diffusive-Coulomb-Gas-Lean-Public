@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
-import LeanResearch.RepulsiveCoulomb.JordanConformalTurnTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
+public import LeanResearch.RepulsiveCoulomb.JordanConformalTurnTransport
+
+@[expose] public section
 
 /-! Explicit argument branches for the two radial legs viewed from an
 exterior polar point. The interior angle may be reflex: only 0 < θ < 2π is

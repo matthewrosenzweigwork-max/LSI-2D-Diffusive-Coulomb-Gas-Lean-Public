@@ -1,10 +1,14 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicAcceleration
-import LeanResearch.RepulsiveCoulomb.PointExteriorConnectionEstimates
-import Mathlib.Analysis.Convex.Deriv
-import Mathlib.Analysis.InnerProductSpace.Calculus
-import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicAcceleration
+public import LeanResearch.RepulsiveCoulomb.PointExteriorConnectionEstimates
+public import Mathlib.Analysis.Convex.Deriv
+public import Mathlib.Analysis.InnerProductSpace.Calculus
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 UNCOMPILED ADDITIVE DRAFT, 2026-10-02. No accepted-source or inventory claim.

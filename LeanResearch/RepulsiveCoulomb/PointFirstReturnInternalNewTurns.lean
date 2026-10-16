@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnActualFiniteFamily
-import LeanResearch.RepulsiveCoulomb.PointRadialPlanePassageAngle
-import LeanResearch.RepulsiveCoulomb.PointRadialPhysicalTurn
-import LeanResearch.RepulsiveCoulomb.PointPhysicalDirectedSector
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnActualFiniteFamily
+public import LeanResearch.RepulsiveCoulomb.PointRadialPlanePassageAngle
+public import LeanResearch.RepulsiveCoulomb.PointRadialPhysicalTurn
+public import LeanResearch.RepulsiveCoulomb.PointPhysicalDirectedSector
+
+@[expose] public section
 
 /-! Successor draft. Internal new-ray vertices are identified by actual
 frontier avoidance. Both incident representatives then come from the same

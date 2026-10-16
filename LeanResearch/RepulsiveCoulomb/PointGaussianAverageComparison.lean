@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGaussianBallComparison
-import LeanResearch.RepulsiveCoulomb.MeasureAverageComparisonReverse
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGaussianBallComparison
+public import LeanResearch.RepulsiveCoulomb.MeasureAverageComparisonReverse
+
+@[expose] public section
 
 /-! Actual normalized restrictions of the Gaussian point measure and raw
 product measure are comparable. The partition function cancels exactly. -/

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombDensitySmooth
-import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
-import LeanResearch.RepulsiveCoulomb.CoulombCutoffCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombDensitySmooth
+public import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
+public import LeanResearch.RepulsiveCoulomb.CoulombCutoffCore
+
+@[expose] public section
 
 /-! The literal normalized ground-state transform on the original
 collision-avoiding core, in the full physical configuration space. -/

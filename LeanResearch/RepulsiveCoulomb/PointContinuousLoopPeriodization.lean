@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanSupportingPoint
-import Mathlib.Topology.Instances.AddCircle.Defs
-import Mathlib.Analysis.Calculus.Deriv.Shift
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSupportingPoint
+public import Mathlib.Topology.Instances.AddCircle.Defs
+public import Mathlib.Analysis.Calculus.Deriv.Shift
+
+@[expose] public section
 
 /-! Genuine C0 periodization of the original, possibly cornered boundary.
 One regular interior parameter can be moved to the seam with exact local

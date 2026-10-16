@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorReturnObstruction
-import LeanResearch.RepulsiveCoulomb.PointInitialDirectionSubsegment
-import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorReturnObstruction
+public import LeanResearch.RepulsiveCoulomb.PointInitialDirectionSubsegment
+public import LeanResearch.RepulsiveCoulomb.PointActualGeodesicContinuation
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT, 2026-10-03.
 

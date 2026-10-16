@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogKernel
-import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogKernel
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+
+@[expose] public section
 
 /-! The exact positive-logarithm mass that yields the manuscript upper
 potential bound `U ≤ 1/2` from `ρ ≤ 1/pi`. -/

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricLineCompactification
-import LeanResearch.RepulsiveCoulomb.PlanarPointedLineCompactification
-import LeanResearch.RepulsiveCoulomb.PlanarInversionConjugateHomeomorph
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineCompactification
+public import LeanResearch.RepulsiveCoulomb.PlanarPointedLineCompactification
+public import LeanResearch.RepulsiveCoulomb.PlanarInversionConjugateHomeomorph
+
+@[expose] public section
 
 /-! Full, parameter-preserving topological straightening of the actual metric
 line. This is a construction from the approved compactification and relative

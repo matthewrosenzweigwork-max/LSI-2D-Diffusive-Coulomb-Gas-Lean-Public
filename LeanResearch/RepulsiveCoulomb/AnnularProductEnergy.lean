@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreAnnularMass
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreAnnularMass
+
+@[expose] public section
 
 /-! Physical product-gradient control and tunable Young absorption for the
 actual score exceptional-annulus estimate. -/

@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapCrossingLimits
-import Mathlib.Analysis.SpecialFunctions.Complex.Arg
-import Mathlib.Analysis.SpecialFunctions.Complex.Circle
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Ring
-import Mathlib.Tactic.NormNum
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapCrossingLimits
+public import Mathlib.Analysis.SpecialFunctions.Complex.Arg
+public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.NormNum
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Full CCW width and the two literal physical
 line/circle principal turns converge. No angle equality is a hypothesis. The

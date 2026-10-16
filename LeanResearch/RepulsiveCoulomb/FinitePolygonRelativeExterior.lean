@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.FinitePolygonEnclosingDomain
+module
+
+public import LeanResearch.RepulsiveCoulomb.FinitePolygonEnclosingDomain
+
+@[expose] public section
 
 /-! A connected zero-free region containing the observation set outside the
 filled interiors of precisely those polygonal contours that meet it. -/

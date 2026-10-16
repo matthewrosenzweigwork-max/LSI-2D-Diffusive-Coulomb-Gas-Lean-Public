@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalFlatPrimitive
-import Mathlib.Analysis.Complex.RealDeriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalFlatPrimitive
+public import Mathlib.Analysis.Complex.RealDeriv
+
+@[expose] public section
 
 /-! The literal logarithmic connection underlying conformal turn. The real
 differential of the actual density logarithm is proved, then the derivative of

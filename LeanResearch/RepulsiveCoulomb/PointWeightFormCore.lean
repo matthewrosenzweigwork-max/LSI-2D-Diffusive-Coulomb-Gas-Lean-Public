@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightLocalL2
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.W1p.Basic
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.TestFunctionLp
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightLocalL2
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.W1p.Basic
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.TestFunctionLp
+
+@[expose] public section
 
 /-! The literal value/physical-gradient graph on the point-punctured smooth
 core. The fibre uses Tau Ceti's Euclidean value-gradient jet, but integration

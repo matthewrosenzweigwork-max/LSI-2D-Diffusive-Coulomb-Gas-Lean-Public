@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.SmoothDyadicTruncation
-import Mathlib.Analysis.SpecialFunctions.Log.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.SmoothDyadicTruncation
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+
+@[expose] public section
 
 /-! A finite logarithmically weighted smooth dyadic layer bound. -/
 noncomputable section

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriplePermutationAlgebra
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriplePermutationAlgebra
+
+@[expose] public section
 
 /-! Exact local S3 Bochner inequality, proved by the alternating orthogonal projection. -/
 noncomputable section

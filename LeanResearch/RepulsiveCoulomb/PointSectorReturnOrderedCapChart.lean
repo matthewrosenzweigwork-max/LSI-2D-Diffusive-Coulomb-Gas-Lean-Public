@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnUnclockedBoundary
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnUnclockedBoundary
+
+@[expose] public section
 
 /-! Isolated, uncompiled orientation-neutral side constructor. Two actual
 boundary germs are at 0 and omega; the actual escaping old germ lies strictly

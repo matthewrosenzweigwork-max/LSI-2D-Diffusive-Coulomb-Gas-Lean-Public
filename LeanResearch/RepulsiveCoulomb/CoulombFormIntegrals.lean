@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
+
+@[expose] public section
 
 /-! Actual mass and physical energy integrals for the full particle form. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import Mathlib.Topology.MetricSpace.HausdorffDistance
-import Mathlib.Topology.MetricSpace.Isometry
+module
+
+public import Mathlib.Topology.MetricSpace.HausdorffDistance
+public import Mathlib.Topology.MetricSpace.Isometry
+
+@[expose] public section
 
 /-! A finite set separated from a closed set has one positive metric clearance.
 In applications the closed set is the entire proper bottom ray, not a bounded

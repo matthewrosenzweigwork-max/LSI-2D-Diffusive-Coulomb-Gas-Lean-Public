@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourVertexIncidence
-import LeanResearch.RepulsiveCoulomb.TriangularGridPointClassification
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourVertexIncidence
+public import LeanResearch.RepulsiveCoulomb.TriangularGridPointClassification
+
+@[expose] public section
 
 /-! Distinct physical contour edges meet only at their shared contour vertices.
 The proof uses the exhaustive physical grid strata, not a planar-graph axiom. -/

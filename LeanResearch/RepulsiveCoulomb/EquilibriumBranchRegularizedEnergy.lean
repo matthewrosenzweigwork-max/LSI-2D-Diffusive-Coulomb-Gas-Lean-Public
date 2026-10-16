@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSmoothedKernelIdentity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDoubleErrorStructure
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchOnsager
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchSmoothedKernelIdentity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDoubleErrorStructure
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchOnsager
+
+@[expose] public section
 
 /-! Actual doubly regularized canonical energy. Both reference terms use the
 same double-circle kernel as the particle pairs. Product integrability and

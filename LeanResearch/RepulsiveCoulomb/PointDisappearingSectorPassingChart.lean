@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorPassingChart
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexDepartureChart
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRetainedGerms
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorPassingChart
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexDepartureChart
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRetainedGerms
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Transfer the actual passing halfdisk complement
 chart to the TAIL-based residual. The whole-upper-ray cut is used only as a

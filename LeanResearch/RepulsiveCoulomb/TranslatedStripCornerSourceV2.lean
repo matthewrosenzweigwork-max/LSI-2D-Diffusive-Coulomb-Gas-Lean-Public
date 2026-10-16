@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.TranslatedStripSourceGeometry
-import LeanResearch.RepulsiveCoulomb.FlatLinkSectorDisk
-import LeanResearch.RepulsiveCoulomb.EuclideanRetainedChord
+module
+
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripSourceGeometry
+public import LeanResearch.RepulsiveCoulomb.FlatLinkSectorDisk
+public import LeanResearch.RepulsiveCoulomb.EuclideanRetainedChord
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. The literal translated-strip corner at b*v
 is a genuine bounded Euclidean sector of angle pi-lambda. Both inclusion and

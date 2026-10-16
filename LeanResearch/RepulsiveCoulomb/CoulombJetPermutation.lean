@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombValueRepresentation
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombValueRepresentation
+
+@[expose] public section
 
 /-! Actual value/physical-gradient jet transport by label permutations. -/
 noncomputable section

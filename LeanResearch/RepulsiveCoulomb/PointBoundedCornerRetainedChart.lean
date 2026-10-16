@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkFrontierEndpoint
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexRestrictChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexAngularCut
-import LeanResearch.RepulsiveCoulomb.PointRetainedUpperApexAngularCut
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkFrontierEndpoint
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexRestrictChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexAngularCut
+public import LeanResearch.RepulsiveCoulomb.PointRetainedUpperApexAngularCut
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. A bounded genuine corner disk and its actual
 extended free ray suffice for the new retained chart. The local strip-patch

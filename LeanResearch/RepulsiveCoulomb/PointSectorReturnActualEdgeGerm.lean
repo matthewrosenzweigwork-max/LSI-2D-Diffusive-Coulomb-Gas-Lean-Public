@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualMarkedDirection
+
+@[expose] public section
 
 /-! Isolated, uncompiled frontend adapter. The radial-germ inputs needed by
 cap topology are extracted from the constructed actual raw direction of the

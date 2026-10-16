@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombWirtinger
-import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
-import Mathlib.MeasureTheory.SpecificCodomains.WithLp
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombWirtinger
+public import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+public import Mathlib.MeasureTheory.SpecificCodomains.WithLp
+
+@[expose] public section
 
 /-! Actual compact smooth dbar core and weighted L2 realizations. -/
 noncomputable section

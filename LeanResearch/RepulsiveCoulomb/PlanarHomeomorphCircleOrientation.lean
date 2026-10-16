@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PositivePlanarJacobian
+module
+
+public import LeanResearch.RepulsiveCoulomb.PositivePlanarJacobian
+
+@[expose] public section
 
 /-!
 # Orientation from one genuine nondegenerate point

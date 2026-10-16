@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedFiniteWidthLimit
-import LeanResearch.RepulsiveCoulomb.PointUnmarkedRayBoundaryPropagation
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripOldEdgeFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedFiniteWidthLimit
+public import LeanResearch.RepulsiveCoulomb.PointUnmarkedRayBoundaryPropagation
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripOldEdgeFullness
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. If the actual attained finite limit has no new
 marked point, it is an actual regular stage. Boundary contact of its unmarked

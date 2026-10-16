@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormMeanBound
-import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormMeanBound
+public import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. Core selection at varying temperatures.
 Only scalar norms and means are compared across the different form spaces. -/

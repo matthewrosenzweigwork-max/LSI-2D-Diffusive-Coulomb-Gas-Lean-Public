@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAdjointTests
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalCoreMultiplier
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAdjointTests
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalCoreMultiplier
+
+@[expose] public section
 
 /-! Compact complex test functions define genuine continuous unweighted
 Lebesgue pairings on the Gibbs L2 space. This permits local variable-coefficient

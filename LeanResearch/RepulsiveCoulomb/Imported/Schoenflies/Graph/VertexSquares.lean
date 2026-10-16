@@ -1,12 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Square
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.UniformBound
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Subarc
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Drawing
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Square
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.UniformBound
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Subarc
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Drawing
+
+@[expose] public section
 
 /-!
 # The vertex squares, the last parameter inside a closed set, and the cores

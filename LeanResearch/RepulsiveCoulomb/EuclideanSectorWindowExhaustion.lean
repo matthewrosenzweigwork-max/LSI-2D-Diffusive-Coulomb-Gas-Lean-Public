@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanInteriorAngularWindow
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanInteriorAngularWindow
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Explicit nested interior angular windows and
 literal completion to the entire closed sector, including both boundary rays.

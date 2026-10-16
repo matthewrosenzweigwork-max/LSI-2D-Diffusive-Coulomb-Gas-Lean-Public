@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogMass
-import LeanResearch.RepulsiveCoulomb.PointWeightCircle
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogMass
+public import LeanResearch.RepulsiveCoulomb.PointWeightCircle
+
+@[expose] public section
 
 /-! Actual circular regularization of the planar logarithmic kernel and its
 quantitative L1 error. This is a genuine small-scale input for the partition

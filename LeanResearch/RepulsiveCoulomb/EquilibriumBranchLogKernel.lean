@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PlanarTruncatedLogKernel
-import Mathlib.Analysis.SpecialFunctions.Log.Basic
-import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarTruncatedLogKernel
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
+
+@[expose] public section
 
 /-! Elementary analytic bounds for the literal planar Coulomb kernel.
 The value at zero is the harmless real-log convention; later off-diagonal

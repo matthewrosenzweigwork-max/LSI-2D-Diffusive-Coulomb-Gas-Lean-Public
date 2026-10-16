@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ProductPowerConcavity
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePolynomialIntegrability
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsDefectMoment
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ProductPowerConcavity
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePolynomialIntegrability
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsDefectMoment
+
+@[expose] public section
 
 /-! Exact authored Gibbs moment intermediate with the one-body integral to
 power N/2, followed by actual x^(1/N) concavity. -/

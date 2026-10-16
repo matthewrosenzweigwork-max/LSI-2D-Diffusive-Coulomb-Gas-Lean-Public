@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ClassicalConeRetainedArcWidth
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+module
+
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeRetainedArcWidth
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeNeighborhood
+
+@[expose] public section
 
 /-! Isolated, uncompiled author draft. Width comparison for genuine charts of
 actual local closed regions. The same old metric and center are used throughout.

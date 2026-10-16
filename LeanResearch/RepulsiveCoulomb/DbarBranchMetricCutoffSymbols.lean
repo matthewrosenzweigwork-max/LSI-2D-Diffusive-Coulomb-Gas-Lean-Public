@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchExteriorPrincipalSymbol
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffDerivative
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchExteriorPrincipalSymbol
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffDerivative
+
+@[expose] public section
 
 /-! The real cutoff differential gives exactly twice the transformed dbar
 symbol. Both the scalar adjoint and the half-Frobenius exterior symbols have

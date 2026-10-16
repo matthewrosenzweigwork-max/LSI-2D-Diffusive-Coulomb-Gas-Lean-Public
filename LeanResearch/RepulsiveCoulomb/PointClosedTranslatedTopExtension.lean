@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricTranslatedTopExtension
-import LeanResearch.RepulsiveCoulomb.PointConvexFlatClosedEmbedding
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricTranslatedTopExtension
+public import LeanResearch.RepulsiveCoulomb.PointConvexFlatClosedEmbedding
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Actual closed-map continuation from the mixed
 relative-halfdisk/full-disk top construction. Ambient local-to-global geometry

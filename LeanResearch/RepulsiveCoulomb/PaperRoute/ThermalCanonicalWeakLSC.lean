@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalSplitting
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyWeakLSC
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPositiveIntegralLSC
-import Mathlib.Topology.Instances.EReal.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalSplitting
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyWeakLSC
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPositiveIntegralLSC
+public import Mathlib.Topology.Instances.EReal.Lemmas
+
+@[expose] public section
 
 /-! Canonical liminf control through Gaussian KL, the genuine positive singular
 part, and the newly proved negative-log uniform integrability theorem. -/

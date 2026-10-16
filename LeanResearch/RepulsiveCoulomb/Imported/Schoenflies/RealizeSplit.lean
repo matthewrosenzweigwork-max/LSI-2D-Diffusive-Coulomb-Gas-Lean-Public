@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CellulationInvariants
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.PathGraph
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CellulationInvariants
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanClosed
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.PathGraph
+
+@[expose] public section
 
 /-!
 # Realizing a 2-cell split

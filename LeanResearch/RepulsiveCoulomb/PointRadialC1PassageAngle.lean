@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1ArcChain
-import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleCorner
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1ArcChain
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleCorner
+
+@[expose] public section
 
 /-! Passage-angle bounds in the same chosen holomorphic chart carried by the
 actual C1 macro-pieces. The source geodesic supplies metric additivity; the

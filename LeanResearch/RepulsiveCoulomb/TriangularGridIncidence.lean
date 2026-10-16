@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridCells
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridCells
+
+@[expose] public section
 
 /-! Explicit regular-grid edge labels and exact two-triangle incidence. Directions
 0,1,2 mean horizontal, vertical, and rising diagonal. No manifold axiom is used. -/

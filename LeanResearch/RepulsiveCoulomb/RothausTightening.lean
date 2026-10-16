@@ -1,5 +1,9 @@
-import LeanResearch.PeriodicAttractiveLogGas.Rothaus
-import LeanResearch.PeriodicAttractiveLogGas.EntropyL2
+module
+
+public import LeanResearch.PeriodicAttractiveLogGas.Rothaus
+public import LeanResearch.PeriodicAttractiveLogGas.EntropyL2
+
+@[expose] public section
 
 /-!
 General probability-space tightening used in Section 6 of the supplied

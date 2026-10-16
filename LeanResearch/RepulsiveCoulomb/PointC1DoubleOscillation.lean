@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointCompactC1DoubleOscillation
-import LeanResearch.RepulsiveCoulomb.LocalCompactObservable
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCompactC1DoubleOscillation
+public import LeanResearch.RepulsiveCoulomb.LocalCompactObservable
+
+@[expose] public section
 
 /-! Actual double oscillation for every C1 observable, localized to the exact
 observation and doubled balls. No compact-support hypothesis remains. -/

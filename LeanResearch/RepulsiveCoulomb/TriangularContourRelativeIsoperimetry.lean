@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourSelectedArea
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourSelectedArea
+
+@[expose] public section
 
 /-! Actual configuration-uniform localized relative isoperimetry for regular
 finite-grid levels. R>=16 is solely the unit-mesh approximation-stage condition. -/

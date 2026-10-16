@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceEnvelope
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceEnvelope
+
+@[expose] public section
 
 /-! Actual compact-temperature moment bounds for the constructed reference.
 All real polynomial exponents m>=0 and every theta>0 are preserved. Bounds

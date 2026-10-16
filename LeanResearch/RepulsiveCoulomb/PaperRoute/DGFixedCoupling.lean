@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchActualNelsonTail
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExponentialTailBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchActualNelsonTail
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExponentialTailBound
+
+@[expose] public section
 
 /-! Correctly normalized fixed-coupling upper-bound instance of the
 Delgadino–Gvalani type, for the actual supplied thermal-reference class.

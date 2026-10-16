@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.RawPointVolumeGrowth
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointVolumeGrowth
+
+@[expose] public section
 
 /-! Explicit exponents satisfying the quantitative volume-balance condition in
 Bjorn's Sobolev upgrade. This is exponent data, not an asserted Sobolev theorem. -/

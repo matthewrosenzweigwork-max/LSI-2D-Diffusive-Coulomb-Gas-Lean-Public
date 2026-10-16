@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.SmoothStrongMedian
-import LeanResearch.RepulsiveCoulomb.MeanRpowCentering
-import LeanResearch.RepulsiveCoulomb.FiniteMeasureMedian
+module
+
+public import LeanResearch.RepulsiveCoulomb.SmoothStrongMedian
+public import LeanResearch.RepulsiveCoulomb.MeanRpowCentering
+public import LeanResearch.RepulsiveCoulomb.FiniteMeasureMedian
+
+@[expose] public section
 
 /-! Complete mean-centered weak-to-strong upgrade for C1 functions with actual
 finite inner moments. The weak estimate is quantified over all C1 truncations. -/

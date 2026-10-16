@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialTriangleLocalAdditivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialTriangleLocalAdditivity
+
+@[expose] public section
 
 /-! Literal traversal reversal preserves the actual triangle's local join
 additivity. The threshold remains min(r₀,1), and the only exceptional physical

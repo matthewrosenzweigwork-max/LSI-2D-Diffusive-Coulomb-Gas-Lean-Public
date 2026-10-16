@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchUniform
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchUniform
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED. One pair of unit-Gaussian constants is selected
 for each Q, once and for all. Every named weighted constant below uses this

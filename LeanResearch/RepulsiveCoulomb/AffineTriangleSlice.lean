@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangleSliceBarycentric
-import Mathlib.Analysis.Convex.Combination
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangleSliceBarycentric
+public import Mathlib.Analysis.Convex.Combination
+
+@[expose] public section
 
 /-! Exact mixed-sign affine slice of a genuine three-vertex convex hull. -/
 noncomputable section

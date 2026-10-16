@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialCornerNormalization
-import Mathlib.Topology.OpenPartialHomeomorph.Composition
-import Mathlib.Topology.Algebra.GroupWithZero
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialCornerNormalization
+public import Mathlib.Topology.OpenPartialHomeomorph.Composition
+public import Mathlib.Topology.Algebra.GroupWithZero
+
+@[expose] public section
 
 /-! The normalized radial inverse is the inverse of an actual rotated
 partial-homeomorphism chart. Exact source/target, analytic maps and derivative

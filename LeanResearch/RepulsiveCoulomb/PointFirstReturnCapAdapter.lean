@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryRayContacts
-import LeanResearch.RepulsiveCoulomb.PlanarFirstReturnJordanCaps
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnRadialGerms
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteBoundaryRayContacts
+public import LeanResearch.RepulsiveCoulomb.PlanarFirstReturnJordanCaps
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnRadialGerms
+
+@[expose] public section
 
 /-! Source-only draft. End-to-end bounded topology adapter for an actual ray
 entering an actual halfplane and subsequently returning. This endpoint chooses

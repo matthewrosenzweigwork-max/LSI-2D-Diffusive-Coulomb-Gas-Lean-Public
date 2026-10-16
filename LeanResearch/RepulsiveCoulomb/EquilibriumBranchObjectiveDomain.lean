@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFreeEnergyCorrespondence
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFreeEnergyCorrespondence
+
+@[expose] public section
 
 /-! The nonnegative extended objective on all probability measures. Finite
 objective implies absolute continuity and the actual P2 condition; neither is

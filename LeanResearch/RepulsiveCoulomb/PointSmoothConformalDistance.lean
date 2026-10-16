@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalDensity
-import Mathlib.Geometry.Manifold.Riemannian.PathELength
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalDensity
+public import Mathlib.Geometry.Manifold.Riemannian.PathELength
+
+@[expose] public section
 
 /-! A smooth-path construction for the literal conformal density. We reuse Mathlib's
 Riemannian path-length machinery, allowing a degenerate norm at the finitely many

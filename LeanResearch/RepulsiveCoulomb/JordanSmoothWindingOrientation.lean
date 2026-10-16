@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanPositiveSpeedWinding
-import LeanResearch.RepulsiveCoulomb.JordanSmoothTotalTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanPositiveSpeedWinding
+public import LeanResearch.RepulsiveCoulomb.JordanSmoothTotalTurn
+
+@[expose] public section
 
 /-! Actual inside winding agrees with actual tangent turn for every regular
 C¹ periodic simple loop. A support point is constructed, its two possible

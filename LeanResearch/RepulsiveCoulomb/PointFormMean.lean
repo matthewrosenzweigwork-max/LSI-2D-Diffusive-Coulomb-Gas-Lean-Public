@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCorePoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCorePoincare
+
+@[expose] public section
 
 /-! Actual mean and variance continuity on the full physical form domain. -/
 noncomputable section

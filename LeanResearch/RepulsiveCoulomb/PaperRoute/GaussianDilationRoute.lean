@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianTightLSI
-import LeanResearch.RepulsiveCoulomb.PointDilationBranchTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianTightLSI
+public import LeanResearch.RepulsiveCoulomb.PointDilationBranchTransport
+
+@[expose] public section
 
 /-! Additive experimental source. Verification status is recorded separately in evidence. Gaussian dilation using newly selected unit-Gaussian PI/LSI constants and actual physical core transport. -/
 noncomputable section

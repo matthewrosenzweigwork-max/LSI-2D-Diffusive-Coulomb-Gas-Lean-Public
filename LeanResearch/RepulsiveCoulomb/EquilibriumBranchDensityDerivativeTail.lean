@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDerivativeBounds
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFirstDerivativeTail
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDerivativeBounds
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFirstDerivativeTail
+
+@[expose] public section
 
 /-! Quantitative tails of every physical Fréchet derivative of the actually
 constructed thermal density. The induction derives global bounds for all

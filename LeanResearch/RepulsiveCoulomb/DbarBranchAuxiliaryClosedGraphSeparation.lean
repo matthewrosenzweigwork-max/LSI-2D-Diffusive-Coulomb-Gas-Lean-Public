@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCompatibility
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCompatibility
+
+@[expose] public section
 
 /-! Closed-graph separation in the genuine L2 product Hilbert space. The
 ordinary product used to store the graph is transported through the explicit

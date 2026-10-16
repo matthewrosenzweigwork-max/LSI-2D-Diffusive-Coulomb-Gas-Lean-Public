@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceSpatialPartition
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LabeledLSIFromReferenceMoments
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferenceSpatialPartition
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LabeledLSIFromReferenceMoments
+
+@[expose] public section
 
 /-! Supplied-reference entropy assembly through the literal spatial partition.
 The signed-product normalization/collision-free/a.e. correspondence is now

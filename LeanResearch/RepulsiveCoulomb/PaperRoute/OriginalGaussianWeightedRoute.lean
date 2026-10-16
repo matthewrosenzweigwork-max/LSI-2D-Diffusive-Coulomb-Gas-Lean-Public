@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianLocalGeometry
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianDiskHalfMass
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianDilationRoute
-import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicFormMoment
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalGaussianLocalGeometry
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianDiskHalfMass
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GaussianDilationRoute
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicFormMoment
+
+@[expose] public section
 
 /-! Additive experimental source. Original finite-point data feed the new
 same-map geometry, generic-doubling Sobolev, literal disk/Jensen normalization,

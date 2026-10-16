@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnFullInitialSide
-import LeanResearch.RepulsiveCoulomb.PointLineCapLocalSide
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnFullInitialSide
+public import LeanResearch.RepulsiveCoulomb.PointLineCapLocalSide
+
+@[expose] public section
 
 /-! Isolated, uncompiled successor for genuinely arbitrary original boundary
 clocks. A continuous embedded arc with a radial germ fills all sufficiently

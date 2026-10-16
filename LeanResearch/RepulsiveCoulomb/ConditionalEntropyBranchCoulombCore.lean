@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchWeightedCost
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchTransport
-import LeanResearch.RepulsiveCoulomb.CoulombCoreConditional
-import LeanResearch.RepulsiveCoulomb.CoulombOneSiteJointLaw
-import LeanResearch.RepulsiveCoulomb.CoulombCutoffEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchWeightedCost
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchTransport
+public import LeanResearch.RepulsiveCoulomb.CoulombCoreConditional
+public import LeanResearch.RepulsiveCoulomb.CoulombOneSiteJointLaw
+public import LeanResearch.RepulsiveCoulomb.CoulombCutoffEnergy
+
+@[expose] public section
 
 /-!
 Actual first-coordinate conditional KL of Q = phi^2 P for the unchanged

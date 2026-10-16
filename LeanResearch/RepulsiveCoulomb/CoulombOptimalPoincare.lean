@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCompactTemperaturePoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCompactTemperaturePoincare
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. The actual optimal Poincare coefficient,
 not a renamed admissible witness. Finiteness is proved for particle counts>=2. -/

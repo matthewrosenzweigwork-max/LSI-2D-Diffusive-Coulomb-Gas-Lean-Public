@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.ComplexPolarLiftDerivatives
-import LeanResearch.RepulsiveCoulomb.PointGeodesicExteriorPhase
-import Mathlib.Analysis.SpecialFunctions.Sqrt
-import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexPolarLiftDerivatives
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicExteriorPhase
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Exact radial and angular-momentum
 derivatives in the original metric-affine parameter. There is no Euclidean

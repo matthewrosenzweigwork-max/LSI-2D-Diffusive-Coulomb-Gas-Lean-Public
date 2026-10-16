@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointChosenRadialCollars
-import LeanResearch.RepulsiveCoulomb.PointSmoothGapJoinTangents
-import LeanResearch.RepulsiveCoulomb.PointGeodesicSmoothInteriorSubarc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointChosenRadialCollars
+public import LeanResearch.RepulsiveCoulomb.PointSmoothGapJoinTangents
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicSmoothInteriorSubarc
+
+@[expose] public section
 
 /-! Constructed three-piece data for each actual puncture gap. Both endpoint
 collars retain the once-per-vertex chart, exact power law and analytic radial

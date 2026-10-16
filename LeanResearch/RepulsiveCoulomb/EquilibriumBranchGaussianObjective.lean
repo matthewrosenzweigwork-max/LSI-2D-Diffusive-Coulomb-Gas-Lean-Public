@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveDomain
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCrossInteraction
-import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchObjectiveDomain
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCrossInteraction
+public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+
+@[expose] public section
 
 /-! The actual normalized Gaussian has finite complete nonnegative objective.
 In particular the product-space logarithmic energy is justified via the

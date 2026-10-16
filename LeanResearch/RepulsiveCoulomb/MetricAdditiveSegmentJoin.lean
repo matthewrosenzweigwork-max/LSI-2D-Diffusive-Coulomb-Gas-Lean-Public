@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricOpenRayPrefix
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricOpenRayPrefix
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Literal concatenation of two exact metric segments when the outer endpoint
 triangle inequality is an equality. This uses elementary metric inequalities,

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.RawPointVolumeGrowth
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointVolumeGrowth
+
+@[expose] public section
 
 /-! Reduction to distinct positive-exponent locations, as required by Bonk--Lang,
 *Bi-Lipschitz parameterization of surfaces* (2003), Theorem 9.1, p. 168.

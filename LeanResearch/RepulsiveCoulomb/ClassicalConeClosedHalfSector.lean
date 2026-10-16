@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ClassicalConeSectorIsometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeSectorIsometry
+
+@[expose] public section
 
 /-! Source-only draft: the endpoint beta = pi is included. This supplies the
 literal inverse development needed at intrinsically regular boundary points,

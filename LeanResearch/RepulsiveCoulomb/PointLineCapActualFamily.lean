@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointLineRadialCrossings
-import LeanResearch.RepulsiveCoulomb.PointLineCapFixedNormal
-import LeanResearch.RepulsiveCoulomb.PointLineCapCompactExhaustion
-import LeanResearch.RepulsiveCoulomb.PointCompleteLineTransverseTails
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineRadialCrossings
+public import LeanResearch.RepulsiveCoulomb.PointLineCapFixedNormal
+public import LeanResearch.RepulsiveCoulomb.PointLineCapCompactExhaustion
+public import LeanResearch.RepulsiveCoulomb.PointCompleteLineTransverseTails
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Construct actual cap geometry from the actual
 line, then identify one fixed component and a common interior anchor. The

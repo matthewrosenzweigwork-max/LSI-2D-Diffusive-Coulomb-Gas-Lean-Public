@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLeviMatrixContraction
-import LeanResearch.RepulsiveCoulomb.DbarBranchWirtingerAlgebra
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCrossTerm
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLeviMatrixContraction
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWirtingerAlgebra
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCrossTerm
+
+@[expose] public section
 
 /-! The actual mixed Wirtinger derivatives of the potential, with their
 contracted curvature exactly beta/2. This is a derivative identity, not the

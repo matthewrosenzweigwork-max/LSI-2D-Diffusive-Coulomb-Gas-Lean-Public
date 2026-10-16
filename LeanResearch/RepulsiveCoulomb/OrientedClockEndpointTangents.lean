@@ -1,12 +1,16 @@
-import LeanResearch.RepulsiveCoulomb.JordanSecantAngle
-import LeanResearch.RepulsiveCoulomb.JordanAffineTraceTangent
-import Mathlib.Analysis.Calculus.Deriv.Slope
-import Mathlib.Topology.Order.Basic
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.FunProp
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanSecantAngle
+public import LeanResearch.RepulsiveCoulomb.JordanAffineTraceTangent
+public import Mathlib.Analysis.Calculus.Deriv.Slope
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.FunProp
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. Endpoint tangent direction is obtained
 from ordered secants. A continuous strictly increasing source clock need NOT

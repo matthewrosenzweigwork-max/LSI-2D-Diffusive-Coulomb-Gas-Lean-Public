@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombVariationalCapacity
-import LeanResearch.RepulsiveCoulomb.CoulombConstantDomain
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombVariationalCapacity
+public import LeanResearch.RepulsiveCoulomb.CoulombConstantDomain
+
+@[expose] public section
 
 /-! Literal global collision capacity, manuscript Proposition prop:capacity.
 The existing constant-domain theorem was proved by the actual outer and

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanCornerHomotopyIncrements
-import LeanResearch.RepulsiveCoulomb.JordanRadialRoundingWindows
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanCornerHomotopyIncrements
+public import LeanResearch.RepulsiveCoulomb.JordanRadialRoundingWindows
+
+@[expose] public section
 
 /-! The actual finite local corner homotopies preserve the total physical
 point-argument increment. There is no assumed global winding equality or

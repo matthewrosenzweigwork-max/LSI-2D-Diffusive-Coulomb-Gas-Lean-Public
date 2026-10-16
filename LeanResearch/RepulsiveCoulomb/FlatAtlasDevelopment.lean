@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.CompleteLocalIsometryEquiv
-import Mathlib.Topology.FiberBundle.Basic
-import Mathlib.Topology.Homotopy.Lifting
-import Mathlib.Topology.OpenPartialHomeomorph.Continuity
+module
+
+public import LeanResearch.RepulsiveCoulomb.CompleteLocalIsometryEquiv
+public import Mathlib.Topology.FiberBundle.Basic
+public import Mathlib.Topology.Homotopy.Lifting
+public import Mathlib.Topology.OpenPartialHomeomorph.Continuity
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED.

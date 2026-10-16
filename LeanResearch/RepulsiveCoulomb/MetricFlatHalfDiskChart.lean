@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+
+@[expose] public section
 
 /-! NEW implementation after workspace loss; independently reviewed revision.
 This is not a recovered historical source and inherits no historical check.

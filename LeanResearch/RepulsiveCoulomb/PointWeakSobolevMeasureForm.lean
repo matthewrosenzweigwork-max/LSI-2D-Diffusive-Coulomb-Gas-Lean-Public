@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointWeakSobolevNormalized
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeakSobolevNormalized
+
+@[expose] public section
 
 /-! The actual weak estimate in the two-measure form consumed by smooth
 truncation, with explicit normalization and no assumed moment identities. -/

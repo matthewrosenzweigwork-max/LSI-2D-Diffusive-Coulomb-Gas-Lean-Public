@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchPotentialHessianPair
-import LeanResearch.RepulsiveCoulomb.DbarBranchClassicalCR
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchPotentialHessianPair
+public import LeanResearch.RepulsiveCoulomb.DbarBranchClassicalCR
+
+@[expose] public section
 
 /-! Exact conversion from a real bilinear Hessian to its Hermitian coordinate
 contraction. The sign is fixed by the convention partial_j followed by dbar_i.

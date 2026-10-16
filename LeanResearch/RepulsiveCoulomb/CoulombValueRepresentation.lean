@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormPairMaps
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormPairMaps
+
+@[expose] public section
 
 /-! The actual normalized Gibbs L2 representation of the label group. -/
 noncomputable section

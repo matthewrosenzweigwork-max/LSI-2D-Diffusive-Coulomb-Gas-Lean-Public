@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridC1DerivativeError
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridC1DerivativeError
+
+@[expose] public section
 
 /-! Actual value and almost-everywhere physical-gradient convergence for any
 positive mesh sequence tending to zero, with a mesh-uniform gradient majorant. -/

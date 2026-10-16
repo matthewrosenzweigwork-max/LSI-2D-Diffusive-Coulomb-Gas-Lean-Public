@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombConstantDomain
-import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombConstantDomain
+public import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
+
+@[expose] public section
 
 /-! Actual centering inside the original closed form domain for every
 particle number at least two. The full-domain constant is the checked limit

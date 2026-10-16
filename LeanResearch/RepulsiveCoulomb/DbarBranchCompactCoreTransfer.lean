@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactWeightedTransfer
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactLocalMultiplier
-import LeanResearch.RepulsiveCoulomb.DbarBranchJointApproximationSupport
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactWeightedTransfer
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactLocalMultiplier
+public import LeanResearch.RepulsiveCoulomb.DbarBranchJointApproximationSupport
+
+@[expose] public section
 
 /-! The fixed-compact measure-transfer map preserves actual core values and
 locally smooth coefficient products. These representative identities let

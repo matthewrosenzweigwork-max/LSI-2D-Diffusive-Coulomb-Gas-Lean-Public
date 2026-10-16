@@ -1,11 +1,15 @@
-import LeanResearch.RepulsiveCoulomb.DirectedSectorDiskPlacement
-import LeanResearch.RepulsiveCoulomb.EuclideanClosedSectorSource
-import LeanResearch.RepulsiveCoulomb.EuclideanSectorBoundaryCases
-import LeanResearch.RepulsiveCoulomb.PointActualSectorBottomIdentification
-import LeanResearch.RepulsiveCoulomb.OrderedEuclideanWedgeCover
-import Mathlib.Analysis.Convex.Topology
-import Mathlib.Analysis.Normed.Affine.MazurUlam
-import Mathlib.Analysis.Normed.Module.RCLike.Real
+module
+
+public import LeanResearch.RepulsiveCoulomb.DirectedSectorDiskPlacement
+public import LeanResearch.RepulsiveCoulomb.EuclideanClosedSectorSource
+public import LeanResearch.RepulsiveCoulomb.EuclideanSectorBoundaryCases
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorBottomIdentification
+public import LeanResearch.RepulsiveCoulomb.OrderedEuclideanWedgeCover
+public import Mathlib.Analysis.Convex.Topology
+public import Mathlib.Analysis.Normed.Affine.MazurUlam
+public import Mathlib.Analysis.Normed.Module.RCLike.Real
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Ordinary positive short Euclidean wedges have
 connected nonempty interiors dense in the whole closed wedge. Every interior

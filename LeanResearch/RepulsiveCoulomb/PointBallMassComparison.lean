@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.RawPointVolumeGrowth
-import Mathlib.MeasureTheory.Measure.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointVolumeGrowth
+public import Mathlib.MeasureTheory.Measure.Prod
+
+@[expose] public section
 
 /-! Actual local finiteness and measurable moving-ball masses, with uniform
 comparison for intersecting equal-radius balls. -/

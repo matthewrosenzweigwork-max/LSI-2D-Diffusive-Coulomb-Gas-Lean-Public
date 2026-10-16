@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchComplexLebesguePairing
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryMinimalOperator
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchComplexLebesguePairing
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryMinimalOperator
+
+@[expose] public section
 
 /-! Compact weak pairings for the raw auxiliary coefficient Sg. They are
 continuous on auxiliary vector L2 because every S entry is multiplied by a

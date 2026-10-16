@@ -1,7 +1,11 @@
-import Mathlib.InformationTheory.KullbackLeibler.KLFun
-import Mathlib.MeasureTheory.Integral.Lebesgue.Add
-import Mathlib.Data.EReal.Operations
-import Mathlib.Topology.Instances.EReal.Lemmas
+module
+
+public import Mathlib.InformationTheory.KullbackLeibler.KLFun
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+public import Mathlib.Data.EReal.Operations
+public import Mathlib.Topology.Instances.EReal.Lemmas
+
+@[expose] public section
 
 /-!
 Extended entropy for the manuscript's nonnegative integrable observables.

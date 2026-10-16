@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CompactEdgeRayJoin
-import LeanResearch.RepulsiveCoulomb.MetricTranslatedStageEdgeAvoidance
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+module
+
+public import LeanResearch.RepulsiveCoulomb.CompactEdgeRayJoin
+public import LeanResearch.RepulsiveCoulomb.MetricTranslatedStageEdgeAvoidance
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+
+@[expose] public section
 
 /-! SOURCE-ONLY ASSEMBLY. Construct the proper backward old end, its exact
 carrier, the removed original positive corner, and avoidance by every positive

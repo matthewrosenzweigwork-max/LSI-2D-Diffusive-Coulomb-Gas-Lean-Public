@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalCumulativeVariation
-import LeanResearch.RepulsiveCoulomb.PointConformalMetricSpeedLower
-import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzMetric
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalCumulativeVariation
+public import LeanResearch.RepulsiveCoulomb.PointConformalMetricSpeedLower
+public import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzMetric
+
+@[expose] public section
 
 /-! The physical weighted derivative integral equals actual conformal partition
 variation for every Euclidean Lipschitz curve.  The reverse inequality is proved

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.RefinedIncidentSeamCorrespondence
-import LeanResearch.RepulsiveCoulomb.PointConeBallClosedPieceCover
-import LeanResearch.RepulsiveCoulomb.FiniteClosedPieceOpenChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.RefinedIncidentSeamCorrespondence
+public import LeanResearch.RepulsiveCoulomb.PointConeBallClosedPieceCover
+public import LeanResearch.RepulsiveCoulomb.FiniteClosedPieceOpenChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Paste the physical branches over the actually
 constructed refined angular covers. Forward and inverse overlap agreement

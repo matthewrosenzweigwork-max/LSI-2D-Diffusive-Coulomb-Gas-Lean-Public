@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedKernel
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedKernel
+
+@[expose] public section
 
 /-! Nonnegative shifted confinement and full-P2 negative interaction control.
 These hold for arbitrary finite measures, including singular measures. They do

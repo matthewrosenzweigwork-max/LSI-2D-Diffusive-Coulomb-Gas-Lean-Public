@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapJordan
-import LeanResearch.RepulsiveCoulomb.PointLineCapPositiveOrientation
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPointWinding
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapJordan
+public import LeanResearch.RepulsiveCoulomb.PointLineCapPositiveOrientation
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerPointWinding
+
+@[expose] public section
 
 /-! Records-only, uncompiled. An explicit two-arc periodic realization of the
 cap, based at the circle midpoint, proves its positive orientation before any

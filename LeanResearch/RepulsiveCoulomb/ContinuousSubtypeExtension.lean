@@ -1,4 +1,8 @@
-import Mathlib.Topology.ContinuousOn
+module
+
+public import Mathlib.Topology.ContinuousOn
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Extend an actual continuous map on a literal
 subtype by an arbitrary fixed outside value. Continuity is asserted only on

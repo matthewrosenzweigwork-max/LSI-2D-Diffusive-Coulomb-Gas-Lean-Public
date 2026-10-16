@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.DirectionalTailLimits
-import Mathlib.Topology.Instances.Rat
-import Mathlib.Topology.Algebra.Order.Field
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.DirectionalTailLimits
+public import Mathlib.Topology.Instances.Rat
+public import Mathlib.Topology.Algebra.Order.Field
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Rational-time direction bounds extend by
 actual local continuity, and Euclidean radial escape makes the explicit tail

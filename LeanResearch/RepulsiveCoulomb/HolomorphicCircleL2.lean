@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightAnnularNormalization
-import Mathlib.Analysis.Complex.MeanValue
-import Mathlib.Analysis.Convex.Mul
-import Mathlib.Analysis.Normed.Module.Convex
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightAnnularNormalization
+public import Mathlib.Analysis.Complex.MeanValue
+public import Mathlib.Analysis.Convex.Mul
+public import Mathlib.Analysis.Normed.Module.Convex
+
+@[expose] public section
 
 /-! Circle L2 submean inequality from actual holomorphic mean value and Jensen. -/
 noncomputable section

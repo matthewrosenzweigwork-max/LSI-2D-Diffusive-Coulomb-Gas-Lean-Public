@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.QuadraticMomentTail
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.MeasureTheory.Function.Lp.FrechetKolmogorov
+module
+
+public import LeanResearch.RepulsiveCoulomb.QuadraticMomentTail
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.MeasureTheory.Function.Lp.FrechetKolmogorov
+
+@[expose] public section
 
 /-! Actual L2 tightness from a uniformly bounded integrable quadratic moment. -/
 noncomputable section

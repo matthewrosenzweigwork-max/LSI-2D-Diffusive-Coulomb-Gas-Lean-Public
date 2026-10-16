@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConeGeodesicAngle
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConeGeodesicAngle
+
+@[expose] public section
 
 /-! Every intrinsic direction has an actual equally distant antipode in a
 constructed small point-metric disk. This supplies local extendibility through

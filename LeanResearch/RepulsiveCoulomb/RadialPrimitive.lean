@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalRadialBarrier
-import Mathlib.Analysis.Calculus.ContDiff.Deriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalRadialBarrier
+public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+
+@[expose] public section
 
 /-! C1 radial primitives whose radial derivative vanishes near the center.
 Their genuine Euclidean derivative is bounded by the nonnegative radial density. -/

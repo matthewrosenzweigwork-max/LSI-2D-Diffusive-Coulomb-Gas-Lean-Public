@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ComplexLineLaplacian
-import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexLineLaplacian
+public import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+
+@[expose] public section
 
 /-! A genuine planar norm-square Laplacian identity, including the derivative-square terms. -/
 noncomputable section

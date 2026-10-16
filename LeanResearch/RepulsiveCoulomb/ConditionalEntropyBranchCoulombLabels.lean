@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombCore
-import LeanResearch.RepulsiveCoulomb.CoulombPermutationCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombCore
+public import LeanResearch.RepulsiveCoulomb.CoulombPermutationCore
+
+@[expose] public section
 
 /-!
 Actual all-label conditional charts and integrated core KL upper bound.

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombVandermondeEuler
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombVandermondeEuler
+
+@[expose] public section
 
 /-! The actual potential's radial coercivity, before integration by parts. -/
 noncomputable section

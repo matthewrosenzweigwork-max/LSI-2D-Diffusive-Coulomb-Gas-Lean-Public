@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLpMollifier
-import Mathlib.Analysis.Distribution.Distribution
-import Mathlib.MeasureTheory.Function.L2Space
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLpMollifier
+public import Mathlib.Analysis.Distribution.Distribution
+public import Mathlib.MeasureTheory.Function.L2Space
+
+@[expose] public section
 
 /-! Genuine continuous test pairings for global Lebesgue L2, used to identify
 Bochner L2 mollification with scalar convolution without evaluating L2 classes

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNelsonParameters
-import Mathlib.Data.Finset.Card
-import Mathlib.Data.Fintype.BigOperators
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNelsonParameters
+public import Mathlib.Data.Finset.Card
+public import Mathlib.Data.Fintype.BigOperators
+
+@[expose] public section
 
 /-! Multiplicity-aware finite edge-list degrees for the centered correlation
 estimate. Repeated and reversed ordered edges are separate occurrences. The

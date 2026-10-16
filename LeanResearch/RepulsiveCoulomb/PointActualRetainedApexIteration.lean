@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorFiniteBoundaryCoverClassical
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorFiniteBoundaryCoverClassical
+
+@[expose] public section
 
 /-!
 NEW SOURCE-ONLY, UNCOMPILED. An iteration-facing companion with exactly the

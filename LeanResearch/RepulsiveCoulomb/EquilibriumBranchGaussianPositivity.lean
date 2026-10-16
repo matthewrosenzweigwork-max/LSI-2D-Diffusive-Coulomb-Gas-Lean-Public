@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.WeightedPointNormalization
-import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedPointNormalization
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+
+@[expose] public section
 
 /-! Genuine Gaussian-kernel positivity from its planar overlap representation.
 This is the positive-kernel input for the Frullani construction of repulsive

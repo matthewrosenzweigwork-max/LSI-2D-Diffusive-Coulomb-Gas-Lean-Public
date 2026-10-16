@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualUniformTranslatedStrip
-import LeanResearch.RepulsiveCoulomb.PointTranslatedCornerGermAdapter
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualUniformTranslatedStrip
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedCornerGermAdapter
+
+@[expose] public section
 
 /-! SOURCE-ONLY ORIGINAL-GEOMETRY ENDPOINT. Actual initial positive uniform
 translated strip from a genuine (possibly unoriented) positive retained corner,

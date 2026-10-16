@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+
+@[expose] public section
 
 /-! Normalized integral comparison under actual two-sided measure bounds.
 The global density normalization cancels in the ratio C/c. -/

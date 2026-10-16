@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalSystemRepresentatives
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalDistribution
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalSystemRepresentatives
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalDistribution
+
+@[expose] public section
 
 /-! The actual injective distributional representation identifies two
 weighted-L2 outputs of the same local weak system. This is operator-output

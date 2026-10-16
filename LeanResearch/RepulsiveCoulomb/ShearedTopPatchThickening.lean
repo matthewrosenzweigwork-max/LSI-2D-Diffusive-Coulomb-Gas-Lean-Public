@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchedUnion
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleInteriorGeometry
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
-import Mathlib.Topology.MetricSpace.Thickening
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchedUnion
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleInteriorGeometry
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleWidthSupremum
+public import Mathlib.Topology.MetricSpace.Thickening
+
+@[expose] public section
 
 /-! NEW implementation after source loss. The whole closed top, including
 both endpoints, has a finite ambient-open ball cover. Compactness gives one

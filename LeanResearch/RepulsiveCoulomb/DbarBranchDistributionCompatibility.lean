@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMaximalGraph
-import Mathlib.Analysis.Calculus.FDeriv.Symmetric
-import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMaximalGraph
+public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+public import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+
+@[expose] public section
 
 /-! Distributional Wirtinger operators and genuine compatibility of maximal
 weak dbar data. Mixed derivatives commute because smooth test Hessians are

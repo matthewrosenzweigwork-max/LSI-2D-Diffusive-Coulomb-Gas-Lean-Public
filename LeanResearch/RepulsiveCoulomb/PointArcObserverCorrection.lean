@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanArgumentHomotopy
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanArgumentHomotopy
+
+@[expose] public section
 
 /-! A moving observer near a point avoided by a compact actual arc has a
 single, constructed principal correction to every argument lift. This gives

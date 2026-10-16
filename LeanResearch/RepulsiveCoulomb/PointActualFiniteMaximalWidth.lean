@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedFiniteWidthLimit
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripWidthBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedFiniteWidthLimit
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripWidthBound
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Original genuine corner data produce a finite,
 positive supremal width and its actual closed isometric limiting strip. The

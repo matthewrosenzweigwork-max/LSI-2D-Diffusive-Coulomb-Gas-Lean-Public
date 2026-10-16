@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogPositivity
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCrossInteraction
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogPositivity
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCrossInteraction
+
+@[expose] public section
 
 /-! Actual application of logarithmic repulsivity to bounded probability
 densities. The finite absolute-energy input is proved by CrossInteraction,

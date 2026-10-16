@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCollisionCapacity
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCollisionCapacity
+
+@[expose] public section
 
 /-! Finite products avoiding all particle collisions, including their intersections. -/
 noncomputable section

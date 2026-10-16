@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ComplexDerivativeComponents
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexDerivativeComponents
+
+@[expose] public section
 
 /-! The horizontal and vertical sample differences used by the actual triangle
 derivative, with physical edge increments and distance bounds. -/

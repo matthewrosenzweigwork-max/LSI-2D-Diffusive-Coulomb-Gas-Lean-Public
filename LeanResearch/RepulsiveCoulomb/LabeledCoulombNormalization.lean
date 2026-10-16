@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
-import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
+
+@[expose] public section
 
 /-! Finite-positive normalization of the literal labeled Gibbs density.
 The bound is deliberately allowed to depend on N; no uniform LSI is asserted. -/

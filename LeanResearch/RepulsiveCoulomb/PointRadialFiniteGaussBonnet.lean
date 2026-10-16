@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialFiniteTurn
-import LeanResearch.RepulsiveCoulomb.PointRadialFiniteCornerGeometry
-import LeanResearch.RepulsiveCoulomb.PointFiniteActualFluxSum
-import LeanResearch.RepulsiveCoulomb.PointFiniteCornerTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialFiniteTurn
+public import LeanResearch.RepulsiveCoulomb.PointRadialFiniteCornerGeometry
+public import LeanResearch.RepulsiveCoulomb.PointFiniteActualFluxSum
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCornerTurn
+
+@[expose] public section
 
 /-! Full Gauss--Bonnet accounting on an actual finite radial C1 Jordan family.
 All local corner geometry is constructed from the original macro-arcs; the

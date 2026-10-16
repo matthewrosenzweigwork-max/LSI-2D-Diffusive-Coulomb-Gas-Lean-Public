@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchDerivativeBounds
-import Mathlib.Analysis.Calculus.UniformLimitsDeriv
-import Mathlib.Topology.MetricSpace.Cauchy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchDerivativeBounds
+public import Mathlib.Analysis.Calculus.UniformLimitsDeriv
+public import Mathlib.Topology.MetricSpace.Cauchy
+
+@[expose] public section
 
 /-! Uniform limits of genuinely holomorphic maps on complex normed-space
 balls. Derivative convergence is proved from the Schwarz derivative bound,

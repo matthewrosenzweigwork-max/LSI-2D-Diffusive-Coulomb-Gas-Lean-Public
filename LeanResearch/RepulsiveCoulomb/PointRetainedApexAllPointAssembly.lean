@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexUnorientedChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorPassingChart
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexBudgetTransport
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRetainedGerms
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexUnorientedChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorPassingChart
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexBudgetTransport
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripRetainedGerms
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, NOT COMPILED. Explicit all-point geometric characterization of the

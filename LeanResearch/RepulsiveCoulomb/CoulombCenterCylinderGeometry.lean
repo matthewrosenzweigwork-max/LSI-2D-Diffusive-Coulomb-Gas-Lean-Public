@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeCore
+
+@[expose] public section
 
 /-! Actual factor projections and isometric gradients of smooth cylinders.
 These statements supply both upper-bound tests for optimal tensorization. -/

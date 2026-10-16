@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormInner
-import LeanResearch.RepulsiveCoulomb.CoulombFormDenseValue
-import LeanResearch.RepulsiveCoulomb.CoulombFormGlobalCompactness
-import Mathlib.Analysis.InnerProductSpace.Adjoint
-import Mathlib.Analysis.Normed.Operator.Compact.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormInner
+public import LeanResearch.RepulsiveCoulomb.CoulombFormDenseValue
+public import LeanResearch.RepulsiveCoulomb.CoulombFormGlobalCompactness
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import Mathlib.Analysis.Normed.Operator.Compact.Basic
+
+@[expose] public section
 
 /-! The actual variational resolvent candidate V V*, with compactness and
 self-adjointness. Identification with the unbounded associated operator and

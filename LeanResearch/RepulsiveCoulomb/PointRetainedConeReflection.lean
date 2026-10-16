@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedCappedSectorSeed
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualCleanGerm
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedCappedSectorSeed
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualCleanGerm
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Construct the actual reflected retained cone
 chart and use the genuine clean-ray endpoint theorem to orient the seed at the

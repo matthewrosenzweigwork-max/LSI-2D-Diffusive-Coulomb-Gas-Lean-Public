@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.SectorVariation
-import LeanResearch.RepulsiveCoulomb.PointMetricLineNormalizedChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.SectorVariation
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineNormalizedChart
+
+@[expose] public section
 
 /-! RECORDS-ONLY, UNCOMPILED DRAFT.
 

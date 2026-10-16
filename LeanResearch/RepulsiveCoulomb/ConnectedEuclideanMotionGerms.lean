@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EuclideanChartTransition
-import Mathlib.Topology.LocallyConstant.Basic
-import Mathlib.Topology.Separation.Hausdorff
+module
+
+public import LeanResearch.RepulsiveCoulomb.EuclideanChartTransition
+public import Mathlib.Topology.LocallyConstant.Basic
+public import Mathlib.Topology.Separation.Hausdorff
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Genuine local Euclidean-motion formulas on an
 open connected region propagate to one full motion. Equality is tested as

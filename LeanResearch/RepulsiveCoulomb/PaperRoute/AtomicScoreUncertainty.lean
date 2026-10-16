@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicScoreAnnularMoment
-import LeanResearch.RepulsiveCoulomb.PointScoreCoreIntegrability
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicScoreAnnularMoment
+public import LeanResearch.RepulsiveCoulomb.PointScoreCoreIntegrability
+
+@[expose] public section
 
 /-! Actual uncertainty on the original puncture-avoiding smooth core.
 The cutoff bound is chosen before the configuration. The newly produced

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointActualTailEndpointBound
-import LeanResearch.RepulsiveCoulomb.DirectionalTailLimits
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualTailEndpointBound
+public import LeanResearch.RepulsiveCoulomb.DirectionalTailLimits
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Actual last-circle-crossing direction bound
 for an original finite-segment endpoint, with all angle lifts eliminated from

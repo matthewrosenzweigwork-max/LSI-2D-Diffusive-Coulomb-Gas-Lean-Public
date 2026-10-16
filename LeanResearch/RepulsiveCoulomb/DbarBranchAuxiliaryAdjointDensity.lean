@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeightedCorePairing
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryMinimalOperator
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeightedCorePairing
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryMinimalOperator
+
+@[expose] public section
 
 /-! The genuine auxiliary adjoint, after the local change w=rho*u, is the
 ordinary Lebesgue divergence -sum partial_j(Rw)_j. These are exact weak test

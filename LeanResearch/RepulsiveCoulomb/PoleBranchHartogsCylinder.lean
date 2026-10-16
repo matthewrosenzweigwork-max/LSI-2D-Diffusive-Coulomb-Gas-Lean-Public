@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchParametricCircle
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchParametricCircle
+
+@[expose] public section
 
 /-! A proved Hartogs-cylinder continuation principle. Its hypotheses refer only
 to an open holomorphic domain, a fixed admissible contour, and a dense family

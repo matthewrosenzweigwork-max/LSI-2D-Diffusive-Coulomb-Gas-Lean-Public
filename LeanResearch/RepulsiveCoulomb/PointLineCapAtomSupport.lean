@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapBoundedSide
-import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapBoundedSide
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Atomic boundary support is already stable for
 EVERY sufficiently large actual cap, independently of the unresolved global

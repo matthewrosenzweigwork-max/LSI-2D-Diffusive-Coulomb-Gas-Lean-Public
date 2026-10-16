@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SquareCycle
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolyArcRealize
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Jordan
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SquareCycle
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.PolyArcRealize
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Jordan
+
+@[expose] public section
 
 /-!
 # Part I, with nothing assumed

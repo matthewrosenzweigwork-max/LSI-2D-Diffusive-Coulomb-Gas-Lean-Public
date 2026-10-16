@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.SignedAreaBall
-import LeanResearch.RepulsiveCoulomb.PaperRoute.PlanarLogCutoff
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.SignedAreaBall
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.PlanarLogCutoff
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+
+@[expose] public section
 
 /-!
 # Actual scalar Dirichlet energy pulled back by a planar QC homeomorphism

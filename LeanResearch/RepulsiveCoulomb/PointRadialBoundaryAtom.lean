@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialCornerWinding
-import LeanResearch.RepulsiveCoulomb.PointCornerLoopArgumentLift
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialCornerWinding
+public import LeanResearch.RepulsiveCoulomb.PointCornerLoopArgumentLift
+
+@[expose] public section
 
 /-! An actual radial-chart Jordan corner supplies its own continuous
 boundary-point argument lift and its full side-sector increment. The endpoint

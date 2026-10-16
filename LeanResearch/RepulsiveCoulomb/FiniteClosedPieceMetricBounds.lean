@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.CenteredLocalMetricGlobalization
-import LeanResearch.RepulsiveCoulomb.FiniteClosedPieceOpenChart
-import Mathlib.Topology.MetricSpace.Isometry
-import Mathlib.Order.Filter.Finite
+module
+
+public import LeanResearch.RepulsiveCoulomb.CenteredLocalMetricGlobalization
+public import LeanResearch.RepulsiveCoulomb.FiniteClosedPieceOpenChart
+public import Mathlib.Topology.MetricSpace.Isometry
+public import Mathlib.Order.Filter.Finite
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Sharp metric estimates for actual finite pastes.
 Finite closedness gives an incident-piece neighborhood at each center. This

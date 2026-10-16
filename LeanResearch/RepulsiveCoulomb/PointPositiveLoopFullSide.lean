@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialCollarVelocity
-import LeanResearch.RepulsiveCoulomb.PointRadialLoopBoundary
-import LeanResearch.RepulsiveCoulomb.PointRadialBoundaryAtom
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialCollarVelocity
+public import LeanResearch.RepulsiveCoulomb.PointRadialLoopBoundary
+public import LeanResearch.RepulsiveCoulomb.PointRadialBoundaryAtom
+
+@[expose] public section
 
 /-! Uncompiled records-only accessor. Actual full boundary-sector membership
 is retained as the output, including reflex sectors. End-to-end boundary-atom accounting from the actual positively

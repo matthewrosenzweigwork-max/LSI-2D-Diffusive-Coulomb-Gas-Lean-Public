@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
-import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormApproximation
+public import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. Quantitative selection from the original
 smooth core; no subtraction of constants from a core function is performed. -/

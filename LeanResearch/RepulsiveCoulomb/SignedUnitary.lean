@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.FiniteUnitaryAverage
-import Mathlib.GroupTheory.Perm.Sign
-import Mathlib.Algebra.Group.Units.Hom
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteUnitaryAverage
+public import Mathlib.GroupTheory.Perm.Sign
+public import Mathlib.Algebra.Group.Units.Hom
+
+@[expose] public section
 
 /-! Real sign characters and their genuine orthogonal twists. -/
 noncomputable section

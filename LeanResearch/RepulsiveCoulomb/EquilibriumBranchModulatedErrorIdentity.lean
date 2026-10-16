@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCenteredError
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductModulation
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCenteredError
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductModulation
+
+@[expose] public section
 
 /-! Exact canonical error identity for double regularization. Potential and
 self-energy differences are actual integrals, and the finite centered sum

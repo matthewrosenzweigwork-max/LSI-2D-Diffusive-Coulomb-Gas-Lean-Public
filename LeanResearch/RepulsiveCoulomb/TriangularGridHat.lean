@@ -1,8 +1,12 @@
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.Normed.Group.Basic
-import Mathlib.Topology.MetricSpace.Lipschitz
-import Mathlib.Topology.Algebra.Support
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Normed.Group.Basic
+public import Mathlib.Topology.MetricSpace.Lipschitz
+public import Mathlib.Topology.Algebra.Support
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! A literal compactly supported nodal hat for the regular diagonal triangular
 lattice. Its Lipschitz and support bounds are proved before using it in approximation. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.SmoothWeakToStrong
+module
+
+public import LeanResearch.RepulsiveCoulomb.SmoothWeakToStrong
+
+@[expose] public section
 
 /-! Two-sided strong estimate about an actual median, with the physical
 Euclidean energy unchanged by the two signed translations. -/

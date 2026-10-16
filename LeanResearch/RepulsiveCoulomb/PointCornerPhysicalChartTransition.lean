@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointChosenRadialMetricTransition
-import LeanResearch.RepulsiveCoulomb.PointFiniteCornerChosenRotation
-import LeanResearch.RepulsiveCoulomb.PointMetricLineNormalizedChart
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointChosenRadialMetricTransition
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCornerChosenRotation
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineNormalizedChart
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. An original-germ normalized corner
 chart receives an actual classical-cone metric chart by the explicit radial

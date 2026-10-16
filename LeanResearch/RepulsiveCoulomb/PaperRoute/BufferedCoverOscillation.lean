@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.BufferedConnectedCover
-import LeanResearch.RepulsiveCoulomb.PaperRoute.EuclideanBallPoincare
-import LeanResearch.RepulsiveCoulomb.PaperRoute.FinitePunctureBallPoincare
-import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.BufferedConnectedCover
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.EuclideanBallPoincare
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.FinitePunctureBallPoincare
+public import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
+
+@[expose] public section
 
 /-!
 # Oscillation on an actual buffered planar continuum

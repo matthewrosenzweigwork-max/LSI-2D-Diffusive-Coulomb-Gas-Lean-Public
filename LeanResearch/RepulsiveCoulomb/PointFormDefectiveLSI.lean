@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointCoreDefectiveLSI
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCoreDefectiveLSI
+
+@[expose] public section
 
 /-! Actual entropy lower semicontinuity extends the defective estimate to the
 full closed form, without assuming entropy integrability of the limit. -/

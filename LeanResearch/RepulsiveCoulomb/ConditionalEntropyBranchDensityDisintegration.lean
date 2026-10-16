@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchNormalizedKernel
-import Mathlib.Probability.Kernel.Composition.WithDensity
-import Mathlib.Probability.Kernel.Composition.IntegralCompProd
-import Mathlib.Probability.Kernel.Disintegration.Unique
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchNormalizedKernel
+public import Mathlib.Probability.Kernel.Composition.WithDensity
+public import Mathlib.Probability.Kernel.Composition.IntegralCompProd
+public import Mathlib.Probability.Kernel.Disintegration.Unique
+
+@[expose] public section
 
 /-!
 Actual disintegration of a normalized nonnegative density over a genuine

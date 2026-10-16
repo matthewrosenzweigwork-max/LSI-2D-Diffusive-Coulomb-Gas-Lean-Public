@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricLineStraightening
-import LeanResearch.RepulsiveCoulomb.PlanarLineHalfplaneSides
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineStraightening
+public import LeanResearch.RepulsiveCoulomb.PlanarLineHalfplaneSides
+
+@[expose] public section
 
 /-! Genuine initial closed topological halfplanes. Every field below is
 constructed from an actual proper isometric line, rather than assumed as a

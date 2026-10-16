@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceEntropy
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedInteraction
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFreeEnergyAlgebra
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchReferenceEntropy
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedInteraction
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFreeEnergyAlgebra
+
+@[expose] public section
 
 /-! Exact canonical/shifted free-energy correspondence on the whole P2
 probability domain. The canonical entropy and interaction are genuine signed

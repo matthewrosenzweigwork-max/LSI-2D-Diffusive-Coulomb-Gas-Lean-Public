@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchDensityKL
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchDensityKL
+
+@[expose] public section
 
 /-! Exact transport of the literal density law through coordinate charts.
 Records-only draft, not staged or checked. -/

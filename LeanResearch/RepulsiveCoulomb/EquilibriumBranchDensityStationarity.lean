@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityTiltAdmissible
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchStationaryConstant
-import Mathlib.Analysis.Calculus.LocalExtr.Basic
-import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityTiltAdmissible
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchStationaryConstant
+public import Mathlib.Analysis.Calculus.LocalExtr.Basic
+public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+
+@[expose] public section
 
 /-! Derivation of stationarity from genuine canonical minimization, using
 admissible finite-energy density tilts and the physical free-energy derivative.

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialSectorTopology
+
+@[expose] public section
 
 /-! Local inside/outside choice is forced by the actual two-ray boundary.
 The polar sectors are concrete connected sets, and their opposite side choices

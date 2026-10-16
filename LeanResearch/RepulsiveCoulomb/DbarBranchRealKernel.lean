@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelRegularity
-import LeanResearch.RepulsiveCoulomb.DbarBranchFormAdapter
-import Mathlib.Analysis.Calculus.MeanValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchWeakKernelRegularity
+public import LeanResearch.RepulsiveCoulomb.DbarBranchFormAdapter
+public import Mathlib.Analysis.Calculus.MeanValue
+
+@[expose] public section
 
 /-! Real-valued consequences of the actual all-N weak-kernel regularity.
 Connectedness is an explicit geometric input here, to be discharged separately

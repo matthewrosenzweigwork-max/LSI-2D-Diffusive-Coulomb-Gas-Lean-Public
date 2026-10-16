@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointHedbergBound
-import LeanResearch.RepulsiveCoulomb.HedbergPowerIdentity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointHedbergBound
+public import LeanResearch.RepulsiveCoulomb.HedbergPowerIdentity
+
+@[expose] public section
 
 /-! Quantitative pointwise Hedberg estimate for actual continuous observables,
 conditional only on the displayed weak (1,2) Poincare estimate. -/

@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchProjectionDistance
-import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalSymmetricPI
-import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalSymmetricCompact
-import LeanResearch.RepulsiveCoulomb.CoulombAssociatedConstants
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchProjectionDistance
+public import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalSymmetricPI
+public import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalSymmetricCompact
+public import LeanResearch.RepulsiveCoulomb.CoulombAssociatedConstants
+
+@[expose] public section
 
 /-! Original-paper analytic instances on the literal normalized Gibbs measure.
 The Euclidean maximal dbar graph, holomorphic kernel, collision removal,

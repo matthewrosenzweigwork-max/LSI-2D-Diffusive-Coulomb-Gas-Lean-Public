@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricClosedCoverSeam
-import LeanResearch.RepulsiveCoulomb.TranslatedStripSeamSource
-import LeanResearch.RepulsiveCoulomb.PointMetricLineSideGeodesic
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricClosedCoverSeam
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripSeamSource
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineSideGeodesic
+
+@[expose] public section
 
 /-! SOURCE ONLY, UNCOMPILED. Actual all-pairs gluing of two successive literal
 complex strips. The residual is the genuine set difference. The ambient

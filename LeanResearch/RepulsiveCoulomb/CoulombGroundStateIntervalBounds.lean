@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreBounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreBounds
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. Uniform ground-state bounds for a compact
 positive temperature interval, on the actual original smooth core. -/

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+
+@[expose] public section
 
 /-! Correct centering of nonnegative truncations supported on at most half
 the measure. This is the missing justification when using mean-centered weak

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalCompleteness
-import Mathlib.Topology.MetricSpace.HausdorffDistance
-import Mathlib.Topology.MetricSpace.Isometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalCompleteness
+public import Mathlib.Topology.MetricSpace.HausdorffDistance
+public import Mathlib.Topology.MetricSpace.Isometry
+
+@[expose] public section
 
 /-! Source-only, uncompiled. The finite nonempty marked set and the actual
 complete metric line produce the minimum. No distance-attainment field is used. -/

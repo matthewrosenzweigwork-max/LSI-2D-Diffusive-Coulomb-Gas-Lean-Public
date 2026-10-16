@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreOutputIdentification
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryLocalMollification
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreOutputIdentification
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryLocalMollification
+
+@[expose] public section
 
 /-! On the constructed common support margin the compact coefficient
 extension gives exactly the original local classical operator. Combining

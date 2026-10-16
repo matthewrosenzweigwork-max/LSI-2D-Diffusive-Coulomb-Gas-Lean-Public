@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricNorms
-import LeanResearch.RepulsiveCoulomb.CoulombExhaustionCompact
-import Mathlib.Analysis.InnerProductSpace.ProdL2
-import Mathlib.Analysis.InnerProductSpace.Calculus
-import Mathlib.Analysis.SpecialFunctions.Sqrt
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricNorms
+public import LeanResearch.RepulsiveCoulomb.CoulombExhaustionCompact
+public import Mathlib.Analysis.InnerProductSpace.ProdL2
+public import Mathlib.Analysis.InnerProductSpace.Calculus
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+
+@[expose] public section
 
 /-! The actual holomorphic graph and the square-root exhaustion have the
 pointwise derivative bound required for proper metric cutoffs. The graph target

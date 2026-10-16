@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCompetitorIntegrability
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchThermalCounting
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchConditionalMean
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombKL
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCompetitorIntegrability
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchThermalCounting
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchConditionalMean
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCoulombKL
+
+@[expose] public section
 
 /-!
 Integrability interfaces for every actual selected-label conditional under

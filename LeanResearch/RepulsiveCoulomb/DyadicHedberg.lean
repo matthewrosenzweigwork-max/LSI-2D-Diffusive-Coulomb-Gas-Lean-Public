@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DyadicSeriesScale
+module
+
+public import LeanResearch.RepulsiveCoulomb.DyadicSeriesScale
+
+@[expose] public section
 
 /-! The optimized dyadic split, including the regime where the balancing
 radius is outside the initial ball. The zero-energy cases are separate. -/

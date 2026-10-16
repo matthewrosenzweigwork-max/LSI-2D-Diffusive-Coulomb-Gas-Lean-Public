@@ -1,12 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CommonSubdivision
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutExists
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.FreshAccess
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.VertexSquares
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CommonSubdivision
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutExists
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.FreshAccess
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.VertexSquares
+
+@[expose] public section
 
 /-!
 # Finite transfer, direction (b): toward the Jordan domain

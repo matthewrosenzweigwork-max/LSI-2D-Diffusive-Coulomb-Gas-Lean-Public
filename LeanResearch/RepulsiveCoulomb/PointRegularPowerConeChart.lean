@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalMetricCharts
-import LeanResearch.RepulsiveCoulomb.AnalyticRadialRectifiability
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalMetricCharts
+public import LeanResearch.RepulsiveCoulomb.AnalyticRadialRectifiability
+
+@[expose] public section
 
 /-! A power-density cone chart retaining both analytic regularity directions and a whole closed
 point-metric neighborhood in its source. -/

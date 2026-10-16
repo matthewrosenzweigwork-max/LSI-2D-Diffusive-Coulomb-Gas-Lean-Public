@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicMaximalWeakForce
-import LeanResearch.RepulsiveCoulomb.PointScoreAnnulus
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.AtomicMaximalWeakForce
+public import LeanResearch.RepulsiveCoulomb.PointScoreAnnulus
+
+@[expose] public section
 
 /-! Actual bad-score region area from the new W=64*pi atomic-maximal force bound.
 The new area constant is 4*W*Q^2/gamma^2 = 256*pi*Q^2/gamma^2.

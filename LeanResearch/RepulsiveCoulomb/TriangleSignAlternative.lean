@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangleLevelSigns
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangleLevelSigns
+
+@[expose] public section
 
 /-! Explicit isolated-sign selection for every nonvertex triangular level. -/
 noncomputable section

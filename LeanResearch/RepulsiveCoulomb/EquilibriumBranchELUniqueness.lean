@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalBoundedRepresentative
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityRepulsivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchThermalBoundedRepresentative
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityRepulsivity
+
+@[expose] public section
 
 /-! Uniqueness through strict entropy monotonicity and actual logarithmic
 repulsivity. The cross and self energies are proved absolutely integrable

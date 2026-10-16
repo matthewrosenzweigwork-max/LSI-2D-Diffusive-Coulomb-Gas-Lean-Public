@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchVolumeTestPairing
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalMollifier
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchVolumeTestPairing
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalMollifier
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Identify the actual Bochner L2 mollifier with the scalar convolution by
 continuous test pairings and Fubini. This avoids point evaluation on L2. -/

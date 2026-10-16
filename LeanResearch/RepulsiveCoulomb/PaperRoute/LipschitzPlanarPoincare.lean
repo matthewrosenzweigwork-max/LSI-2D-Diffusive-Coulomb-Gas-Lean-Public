@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.PlanarDSPoincare
-import Mathlib.Analysis.Calculus.FDeriv.Measurable
-import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
-import Mathlib.Topology.MetricSpace.Lipschitz
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.PlanarDSPoincare
+public import Mathlib.Analysis.Calculus.FDeriv.Measurable
+public import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
+public import Mathlib.Topology.MetricSpace.Lipschitz
+
+@[expose] public section
 
 /-!
 # Measurable-gradient DS consumer and the full local Lipschitz test class

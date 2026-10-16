@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricRegionIntrinsicTopology
-import LeanResearch.RepulsiveCoulomb.MetricRegionPathBisection
-import LeanResearch.RepulsiveCoulomb.MetricMidpointGeodesic
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRegionIntrinsicTopology
+public import LeanResearch.RepulsiveCoulomb.MetricRegionPathBisection
+public import LeanResearch.RepulsiveCoulomb.MetricMidpointGeodesic
+
+@[expose] public section
 
 /-! Actual minimizing segments for the constrained path metric. Approximate
 midpoints come from bisection of a near-minimizing continuous path; properness

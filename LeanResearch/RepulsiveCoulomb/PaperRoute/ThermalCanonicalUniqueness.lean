@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalStrictConvexity
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalAttainment
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCanonicalStrictConvexity
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalAttainment
+
+@[expose] public section
 
 /-! Uniqueness of every original canonical
 minimizer from new attainment-domain control, new Green-based interaction

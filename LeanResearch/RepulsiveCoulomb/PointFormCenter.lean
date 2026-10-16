@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointUniformMomentBound
-import LeanResearch.RepulsiveCoulomb.PointConstantDomain
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUniformMomentBound
+public import LeanResearch.RepulsiveCoulomb.PointConstantDomain
+
+@[expose] public section
 
 /-! Subtraction of actual constants inside the full physical form domain. -/
 noncomputable section

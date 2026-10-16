@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanPhysicalHalfplane
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanPhysicalHalfplane
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! The exact algebra needed at a cap circle. Eventual radial transversality
 of the actual minimizing tail is intentionally not asserted here. -/

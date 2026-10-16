@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointUniformSuperPoincare
-import LeanResearch.RepulsiveCoulomb.DyadicTruncationEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUniformSuperPoincare
+public import LeanResearch.RepulsiveCoulomb.DyadicTruncationEnergy
+
+@[expose] public section
 
 /-! The actual smooth dyadic truncations preserve the original core, with an
 L1 bound by the untruncated square mass. -/

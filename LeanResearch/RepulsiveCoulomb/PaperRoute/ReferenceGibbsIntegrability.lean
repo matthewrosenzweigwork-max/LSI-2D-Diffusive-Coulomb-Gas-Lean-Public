@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePolynomialIntegrability
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchDefectiveLSI
-import LeanResearch.RepulsiveCoulomb.PaperRoute.PositiveLogGibbsIntegrability
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ReferencePolynomialIntegrability
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchDefectiveLSI
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.PositiveLogGibbsIntegrability
+
+@[expose] public section
 
 /-! Genuine canonical A and B integrability through elementary finite-N
 polynomial moments. The B/core consumer selects the authored retained-collision-power

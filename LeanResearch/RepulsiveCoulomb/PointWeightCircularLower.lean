@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightCircle
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightCircle
+
+@[expose] public section
 
 /-! Jensen lower bounds on circles avoiding the finitely many puncture radii.
 The exceptional radii are subsequently removed by radial almost-everywhere

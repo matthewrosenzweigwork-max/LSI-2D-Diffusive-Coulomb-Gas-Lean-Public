@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PlanarTwoRayStraightening
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarTwoRayStraightening
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED DRAFT. Unlike a full-strip cut, P \ S is
 usually not open: it contains the retained old forward boundary. The correct

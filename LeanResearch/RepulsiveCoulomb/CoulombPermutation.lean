@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombSymmetricPairs
-import LeanResearch.RepulsiveCoulomb.CoulombProductVolume
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombSymmetricPairs
+public import LeanResearch.RepulsiveCoulomb.CoulombProductVolume
+
+@[expose] public section
 
 /-! Actual label permutations preserve the physical Euclidean metric and Gibbs law. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalTopology
-import Mathlib.Analysis.Calculus.Deriv.Slope
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalTopology
+public import Mathlib.Analysis.Calculus.Deriv.Slope
+
+@[expose] public section
 
 /-! Sharp local slope bounds for the actual finite-point conformal distance.
 These apply to every nonnegative finite point configuration, including at the

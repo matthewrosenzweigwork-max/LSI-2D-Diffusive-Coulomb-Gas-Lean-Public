@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEnergy
-import Mathlib.Analysis.Complex.MeanValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEnergy
+public import Mathlib.Analysis.Complex.MeanValue
+
+@[expose] public section
 
 /-! Exact affine and quadratic moments of the actual normalized circular
 measure. The quadratic increment is epsilon^2, which fixes the one-half

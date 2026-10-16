@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateIntervalBounds
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreL2
-import LeanResearch.RepulsiveCoulomb.SmoothMomentCompactness
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateIntervalBounds
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreL2
+public import LeanResearch.RepulsiveCoulomb.SmoothMomentCompactness
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. Compactness of the actual union of
 bounded core ground states over a positive compact temperature interval. -/

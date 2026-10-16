@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointCompleteLineViaCompactLimits
-import LeanResearch.RepulsiveCoulomb.PointRetainedRationalDirection
-import LeanResearch.RepulsiveCoulomb.CenteredSegmentReversal
-import Mathlib.Order.Filter.AtTopBot.Archimedean
-import Mathlib.Order.Filter.AtTopBot.Field
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointCompleteLineViaCompactLimits
+public import LeanResearch.RepulsiveCoulomb.PointRetainedRationalDirection
+public import LeanResearch.RepulsiveCoulomb.CenteredSegmentReversal
+public import Mathlib.Order.Filter.AtTopBot.Archimedean
+public import Mathlib.Order.Filter.AtTopBot.Field
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Records-only successor. Both actual end directions of a complete minimizing
  line are constructed from its retained opposite-endpoint approximants. The

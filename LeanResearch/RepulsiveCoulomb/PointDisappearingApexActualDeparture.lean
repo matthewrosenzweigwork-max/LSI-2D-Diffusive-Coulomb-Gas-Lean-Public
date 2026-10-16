@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DisappearingApexFirstDeparture
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexPrefixFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.DisappearingApexFirstDeparture
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexPrefixFullness
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual finite first departure from the original
 closed isometric sector and original finite all-point curvature/budget data.

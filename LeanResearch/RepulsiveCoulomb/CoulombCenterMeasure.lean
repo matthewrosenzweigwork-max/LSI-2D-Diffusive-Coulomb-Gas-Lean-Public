@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterChart
-import LeanResearch.RepulsiveCoulomb.PointMeasureParametric
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterChart
+public import LeanResearch.RepulsiveCoulomb.PointMeasureParametric
+
+@[expose] public section
 
 /-! Actual normalized all-particle center/relative product measure. All
 normalization and probability assertions are proved from the literal density;

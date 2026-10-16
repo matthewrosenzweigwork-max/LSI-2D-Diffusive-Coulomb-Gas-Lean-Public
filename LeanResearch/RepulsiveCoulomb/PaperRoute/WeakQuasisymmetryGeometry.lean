@@ -1,11 +1,15 @@
-import Mathlib.Analysis.Normed.Affine.AddTorsor
-import Mathlib.Analysis.Normed.Module.Convex
-import Mathlib.Analysis.Normed.Module.RCLike.Real
-import Mathlib.Analysis.Convex.PathConnected
-import Mathlib.Topology.MetricSpace.Bounded
-import Mathlib.Topology.Homeomorph.Lemmas
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
+module
+
+public import Mathlib.Analysis.Normed.Affine.AddTorsor
+public import Mathlib.Analysis.Normed.Module.Convex
+public import Mathlib.Analysis.Normed.Module.RCLike.Real
+public import Mathlib.Analysis.Convex.PathConnected
+public import Mathlib.Topology.MetricSpace.Bounded
+public import Mathlib.Topology.Homeomorph.Lemmas
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-!
 # Geometry produced by an actual weakly quasisymmetric map

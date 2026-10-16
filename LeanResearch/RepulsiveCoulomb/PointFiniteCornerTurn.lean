@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
-import LeanResearch.RepulsiveCoulomb.PointRadialCornerNormalization
-import Mathlib.Analysis.Calculus.TangentCone.Real
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
+public import LeanResearch.RepulsiveCoulomb.PointRadialCornerNormalization
+public import Mathlib.Analysis.Calculus.TangentCone.Real
+
+@[expose] public section
 
 /-! The full normalized sector geometry determines the principal turn of
 actual adjacent original tangents. Equality only on the actual closed collars

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointMaximalRayObstruction
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
-import LeanResearch.RepulsiveCoulomb.MetricOppositeRays
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMaximalRayObstruction
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+public import LeanResearch.RepulsiveCoulomb.MetricOppositeRays
+
+@[expose] public section
 
 /-! An actual prescribed complete line, or an actual Jordan obstruction.
 Both infinite rays are constructed by the maximal-prefix alternatives. Their

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormPairMaps
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormPairMaps
+
+@[expose] public section
 
 /-! All-label swap bound on the full original closed physical form. -/
 noncomputable section

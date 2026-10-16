@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedIntervalLocalMetric
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedIntervalLocalMetric
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Transfer every field of a genuine WHOLE
 retained interval chart to a locally identical region. This handles unchanged

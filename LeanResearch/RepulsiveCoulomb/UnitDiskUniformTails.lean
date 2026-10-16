@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.UnitDiskNormalization
+module
+
+public import LeanResearch.RepulsiveCoulomb.UnitDiskNormalization
+
+@[expose] public section
 
 /-! The tail division in Lemma 3.3 using its literal displayed disk witness,
 without replacing the earlier annular endpoint or normalization proof. -/

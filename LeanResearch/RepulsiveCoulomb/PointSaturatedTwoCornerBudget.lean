@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedSharpBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedSharpBudget
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. The zero-residual-angle configuration saturates the

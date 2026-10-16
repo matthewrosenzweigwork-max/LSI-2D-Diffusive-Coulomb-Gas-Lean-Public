@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.CompactDensityLogApproximation
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalDensityMixture
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalInteractionWeakLSC
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.CompactDensityLogApproximation
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalDensityMixture
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalInteractionWeakLSC
+
+@[expose] public section
 
 /-! Conditional smooth-Green-to-finite-energy
 interaction convexity. The smooth zero-mass positivity premise is explicit

@@ -1,5 +1,9 @@
-import Mathlib.Analysis.Convex.Segment
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.Convex.Segment
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! A finite family of empty sets or genuine segments has an actual finite
 nondegenerate segment representation, with exact union equality. -/

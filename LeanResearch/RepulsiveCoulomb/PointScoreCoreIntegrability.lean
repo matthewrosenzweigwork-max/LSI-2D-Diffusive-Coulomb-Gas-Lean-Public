@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreFiniteMoment
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreFiniteMoment
+
+@[expose] public section
 
 /-! Actual score-energy integrability on the original puncture-avoiding core.
 Only positive exponents create punctures; coincidences are unrestricted. -/

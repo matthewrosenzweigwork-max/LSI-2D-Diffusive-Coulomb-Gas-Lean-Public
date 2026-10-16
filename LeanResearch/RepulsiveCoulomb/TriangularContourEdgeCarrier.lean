@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourJordanLoops
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourJordanLoops
+
+@[expose] public section
 
 /-! A finite unoriented-edge carrier for the actual contour, with each physical
 segment counted once. -/

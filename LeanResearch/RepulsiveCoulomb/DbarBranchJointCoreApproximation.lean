@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactInputMollifier
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactInputMollifier
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-! Actual compact smooth approximants for a finite combined first-order
 system. The same sequence approximates the whole input and every prescribed

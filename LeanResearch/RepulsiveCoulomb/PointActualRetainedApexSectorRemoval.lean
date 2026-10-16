@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorExactContact
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorResidualTopology
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexAllPointAssembly
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorFullInteriorChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorExactContact
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorResidualTopology
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexAllPointAssembly
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorFullInteriorChart
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, NOT COMPILED. The actual supplied-sector retained-apex case.

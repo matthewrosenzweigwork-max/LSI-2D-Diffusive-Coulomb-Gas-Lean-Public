@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCollisionGaussian
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCompetitorIntegrability
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCollisionGaussian
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCompetitorIntegrability
+
+@[expose] public section
 
 /-! The authored collision-log integrability argument: retain one positive
 collision power, bound r^alpha*(-log r)_+, and absorb all remaining factors in

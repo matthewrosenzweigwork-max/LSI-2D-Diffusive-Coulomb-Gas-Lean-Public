@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCutoffEnergy
-import LeanResearch.RepulsiveCoulomb.EuclideanRellichApplications
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCutoffEnergy
+public import LeanResearch.RepulsiveCoulomb.EuclideanRellichApplications
+
+@[expose] public section
 
 /-! A genuine localized Rellich bound for the original physical core.
 Global compactness still requires uniform control of the excluded regions. -/

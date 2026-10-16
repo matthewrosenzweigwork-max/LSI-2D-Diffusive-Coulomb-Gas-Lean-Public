@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedLengthConstruction
-import LeanResearch.RepulsiveCoulomb.TranslatedStripSourceGeometry
-import LeanResearch.RepulsiveCoulomb.PointUniformStripMarkedAvoidance
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedLengthConstruction
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripSourceGeometry
+public import LeanResearch.RepulsiveCoulomb.PointUniformStripMarkedAvoidance
+
+@[expose] public section
 
 /-! SOURCE-ONLY ASSEMBLY. Construct the actual unbounded positive translated
 strip from original signed geometry and a genuine locally normalized corner.

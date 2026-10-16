@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+
+@[expose] public section
 
 /-! Smoothness of the exact many-particle density off the full collision set. -/
 noncomputable section

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1PassageAngle
-import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleSubedges
-import LeanResearch.RepulsiveCoulomb.PointRadialC1PlaneArc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1PassageAngle
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicTriangleSubedges
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1PlaneArc
+
+@[expose] public section
 
 /-! Actual joined-pair metric additivity in the source-retaining triangular
 macro-list. A same-source join uses the original minimizing identity. A join

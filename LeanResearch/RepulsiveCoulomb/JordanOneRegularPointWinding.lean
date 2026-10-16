@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanOrientedNormalJump
-import LeanResearch.RepulsiveCoulomb.JordanArgumentHomotopy
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanOrientedNormalJump
+public import LeanResearch.RepulsiveCoulomb.JordanArgumentHomotopy
+
+@[expose] public section
 
 /-! A continuous simple periodic Jordan loop with just one regular basepoint
 has actual inside argument increment +2π or -2π. The two small normal observers

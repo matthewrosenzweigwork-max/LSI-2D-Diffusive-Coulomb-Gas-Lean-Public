@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRectifiableDSLength
-import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzLengthEquality
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRectifiableDSLength
+public import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzLengthEquality
+
+@[expose] public section
 
 /-! Source-faithful identification of the conformal path metric with the infimum
 of ∫sqrt(w) ds over all continuous Euclidean-rectifiable competitors. The ds

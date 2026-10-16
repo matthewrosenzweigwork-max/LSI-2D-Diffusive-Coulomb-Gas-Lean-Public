@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightFormApproximation
-import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightFormApproximation
+public import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+
+@[expose] public section
 
 /-! Actual smooth cutoff functions at a point, with scale-explicit physical
 gradient control. The scale bound is derived from a single compactly

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalPunctureFactor
-import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
-import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalPunctureFactor
+public import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+
+@[expose] public section
 
 /-! Weighted radial averaging for construction of a local cone coordinate.
 All integrals use the actual holomorphic factor; no differential equation or

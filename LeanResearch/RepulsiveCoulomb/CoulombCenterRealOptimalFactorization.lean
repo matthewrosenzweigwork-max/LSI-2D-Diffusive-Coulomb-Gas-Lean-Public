@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeFiniteRate
-import LeanResearch.RepulsiveCoulomb.CoulombCenterOptimalFactorization
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterRelativeFiniteRate
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterOptimalFactorization
+
+@[expose] public section
 
 /-! The literal REAL-valued optimal-rate minimum in manuscript prop:com.
 Relative finiteness is proved from an actual positive-entropy smooth test,

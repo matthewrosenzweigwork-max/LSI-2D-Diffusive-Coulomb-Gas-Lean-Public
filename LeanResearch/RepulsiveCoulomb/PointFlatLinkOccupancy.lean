@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkNormalizedPolar
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkNormalizedPolar
+
+@[expose] public section
 
 /-! Isolated, uncompiled author draft. Exact local image membership in a
 constructed normalized cone chart. Physical width is the source angle, and a

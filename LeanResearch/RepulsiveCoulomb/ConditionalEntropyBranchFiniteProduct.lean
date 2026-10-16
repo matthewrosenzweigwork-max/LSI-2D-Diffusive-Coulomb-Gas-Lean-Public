@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchBinaryKL
-import Mathlib.MeasureTheory.Constructions.Pi
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchBinaryKL
+public import Mathlib.MeasureTheory.Constructions.Pi
+
+@[expose] public section
 
 /-!
 Literal finite-product coordinate charts, arbitrary-Q conditional kernels,

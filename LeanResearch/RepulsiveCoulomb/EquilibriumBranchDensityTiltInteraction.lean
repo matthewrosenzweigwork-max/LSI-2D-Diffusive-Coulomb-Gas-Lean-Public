@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFiniteDensityEnergy
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityTiltEntropy
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchFiniteDensityEnergy
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDensityTiltEntropy
+
+@[expose] public section
 
 /-! Actual finite logarithmic interaction under a bounded multiplicative tilt.
 Every linear and quadratic product-space integrand is integrable, and the

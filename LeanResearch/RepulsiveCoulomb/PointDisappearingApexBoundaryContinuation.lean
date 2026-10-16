@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexFullness
-import LeanResearch.RepulsiveCoulomb.PointRetainedEndpointFrontierConverse
-import LeanResearch.RepulsiveCoulomb.PointDisappearingApexDepartureChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexFullness
+public import LeanResearch.RepulsiveCoulomb.PointRetainedEndpointFrontierConverse
+public import LeanResearch.RepulsiveCoulomb.PointDisappearingApexDepartureChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Genuine forward boundary continuation at full
 occupancy. It uses the derived angular trace of the actual isometric disk and

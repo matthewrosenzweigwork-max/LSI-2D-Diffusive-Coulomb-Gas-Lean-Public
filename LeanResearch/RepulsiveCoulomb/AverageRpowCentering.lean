@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MeanRpowCentering
+module
+
+public import LeanResearch.RepulsiveCoulomb.MeanRpowCentering
+
+@[expose] public section
 
 /-! Normalized real Lq recentering, with all needed actual moments integrable. -/
 noncomputable section

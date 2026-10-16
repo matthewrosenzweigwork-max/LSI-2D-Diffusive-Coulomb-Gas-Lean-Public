@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeRotation
-import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
-import Mathlib.Analysis.SpecialFunctions.PolarCoord
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeRotation
+public import LeanResearch.RepulsiveCoulomb.PointRetainedWidthInvariance
+public import Mathlib.Analysis.SpecialFunctions.PolarCoord
+
+@[expose] public section
 
 /-! Isolated, uncompiled local frontier bridge. Principal polar coordinates
 are used only on a small auxiliary angular neighborhood to prove openness.

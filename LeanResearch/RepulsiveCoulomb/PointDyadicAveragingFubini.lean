@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointAverageFubini
-import LeanResearch.RepulsiveCoulomb.PointDyadicOscillation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointAverageFubini
+public import LeanResearch.RepulsiveCoulomb.PointDyadicOscillation
+
+@[expose] public section
 
 /-! Summation and averaging of the actual dyadic ball averages. All exchanges
 use nonnegative integrals and proved measurability, without an assumed finite

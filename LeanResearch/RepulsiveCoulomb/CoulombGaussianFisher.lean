@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianRotation
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianMehler
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianRotation
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianMehler
+
+@[expose] public section
 
 /-! Weighted Cauchy--Schwarz and the exact Fisher-information contraction of
 the actual planar Mehler integral. Integrability, Gaussian invariance, and

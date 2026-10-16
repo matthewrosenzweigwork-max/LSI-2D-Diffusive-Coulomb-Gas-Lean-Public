@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchParametricCircle
-import LeanResearch.RepulsiveCoulomb.PoleBranchCauchy
-import Mathlib.MeasureTheory.Measure.OpenPos
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchParametricCircle
+public import LeanResearch.RepulsiveCoulomb.PoleBranchCauchy
+public import Mathlib.MeasureTheory.Measure.OpenPos
+
+@[expose] public section
 
 /-! The canonical removable extension is jointly holomorphic in all parameters.
 Actual weighted product integrability initially gives only almost every fiber;

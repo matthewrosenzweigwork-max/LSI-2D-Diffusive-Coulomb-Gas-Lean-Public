@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCollisionCutoff
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCollisionCutoff
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory

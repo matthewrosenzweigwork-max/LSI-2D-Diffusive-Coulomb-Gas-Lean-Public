@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualSectorIncidentOccupancy
-import Mathlib.Topology.Homeomorph.Lemmas
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorIncidentOccupancy
+public import Mathlib.Topology.Homeomorph.Lemmas
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual continuous forward and inverse coordinates
 on the physical closed sector image. The inverse of the original sector map

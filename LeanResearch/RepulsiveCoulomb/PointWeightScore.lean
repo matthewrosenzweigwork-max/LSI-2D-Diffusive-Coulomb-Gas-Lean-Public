@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightFormApproximation
-import LeanResearch.RepulsiveCoulomb.PointWeightCircularLower
-import LeanResearch.RepulsiveCoulomb.PointLogForceWeakL2
-import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightFormApproximation
+public import LeanResearch.RepulsiveCoulomb.PointWeightCircularLower
+public import LeanResearch.RepulsiveCoulomb.PointLogForceWeakL2
+public import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+
+@[expose] public section
 
 /-! Identification of the physical score of the normalized point density.
 Zero-exponent locations are not punctures. Derivatives are over the real

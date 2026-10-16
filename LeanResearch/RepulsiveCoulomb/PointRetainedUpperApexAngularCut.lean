@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexAngularCut
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexAngularCut
+
+@[expose] public section
 
 /-! SOURCE-ONLY, NOT COMPILED. The second genuine old-endpoint case. This avoids
 postulating that the clean bottom ray chooses the lower endpoint, and avoids

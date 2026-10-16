@@ -1,6 +1,10 @@
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
-import Mathlib.Topology.Order.IntermediateValue
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.Topology.Order.IntermediateValue
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive draft. Actual continuous angle lifts cannot jump
 between cosine-sign components. This derives the radial tangent branches used

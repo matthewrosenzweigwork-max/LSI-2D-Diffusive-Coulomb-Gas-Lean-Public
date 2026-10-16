@@ -1,10 +1,14 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.BoundaryContinuity
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Endgame
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.BoundaryContinuity
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Endgame
+
+@[expose] public section
 
 /-!
 # Continuity at the Jordan curve, and `thm:square-extension`

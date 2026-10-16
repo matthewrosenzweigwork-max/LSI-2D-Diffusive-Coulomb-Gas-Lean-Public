@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalDiskReferenceBounds
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalDiskReferenceBounds
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchPartitionBasic
+
+@[expose] public section
 
 /-! Fixed-N exponential integrability directly from the original logarithmic
 lower bound and genuine disk-derived polynomial moments. No Onsager/zero-mass

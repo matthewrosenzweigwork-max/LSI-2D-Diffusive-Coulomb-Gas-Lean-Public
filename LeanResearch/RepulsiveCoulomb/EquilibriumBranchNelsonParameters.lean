@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogKernel
-import Mathlib.Algebra.Order.Floor.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchLogKernel
+public import Mathlib.Algebra.Order.Floor.Ring
+
+@[expose] public section
 
 /-! Exact auxiliary integer choices for the repulsive partition tail argument.
 The displayed choices in the cited paper do not imply their asserted strict

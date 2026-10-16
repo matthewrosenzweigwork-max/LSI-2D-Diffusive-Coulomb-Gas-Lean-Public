@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
-import LeanResearch.RepulsiveCoulomb.ComplexSubsetIsometryExtension
-import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkConeDisk
+public import LeanResearch.RepulsiveCoulomb.ComplexSubsetIsometryExtension
+public import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The image of the source interior is proved
 ambient-open using the actual zero-exponent cone chart and an extension of a

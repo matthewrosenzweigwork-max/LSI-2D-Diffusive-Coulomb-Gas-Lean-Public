@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointActualTranslatedStripTopology
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripCurvatureMeaning
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripTransferBounds
-import LeanResearch.RepulsiveCoulomb.PointFullStripResidualWidths
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualTranslatedStripTopology
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripCurvatureMeaning
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripTransferBounds
+public import LeanResearch.RepulsiveCoulomb.PointFullStripResidualWidths
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. Complete CONDITIONAL supplied-strip endpoint:
 actual literal residual, constructed new halfplane and complete retained charts,

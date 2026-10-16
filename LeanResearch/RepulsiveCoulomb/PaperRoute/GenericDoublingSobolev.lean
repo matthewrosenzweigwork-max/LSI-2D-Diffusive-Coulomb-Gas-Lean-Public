@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevWeakMeasure
-import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericSmoothStrongMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericDoublingSobolevWeakMeasure
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.GenericSmoothStrongMean
+
+@[expose] public section
 
 /-!
 # Actual C1 Sobolev producer from supplied global doubling and weak PI

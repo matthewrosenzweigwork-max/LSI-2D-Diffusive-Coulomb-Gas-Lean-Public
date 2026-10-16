@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConeRadialGeodesic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConeRadialGeodesic
+
+@[expose] public section
 
 /-! Actual local radial normal form for all constant-speed minimizing geodesics
 issuing from a positive puncture. The cone chart and full metric disk are constructed,

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalSystemRepresentatives
-import LeanResearch.RepulsiveCoulomb.DbarBranchJointApproximationSupport
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalSystemRepresentatives
+public import LeanResearch.RepulsiveCoulomb.DbarBranchJointApproximationSupport
+
+@[expose] public section
 
 /-! Actual Lebesgue-L2 classes of compact indicator representatives of the
 genuine cutoff input and both outputs. Their weak system and global L1

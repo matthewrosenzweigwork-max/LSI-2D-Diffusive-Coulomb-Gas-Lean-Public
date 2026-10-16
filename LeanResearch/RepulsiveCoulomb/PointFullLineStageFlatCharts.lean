@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
-import LeanResearch.RepulsiveCoulomb.ComplexBoundarySideRigidity
-import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+public import LeanResearch.RepulsiveCoulomb.ComplexBoundarySideRigidity
+public import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
+
+@[expose] public section
 
 /-! NEW post-loss full-line stage geometry. Return exclusion is derived from
 two actual bottom distances; interior membership and zero exponent then follow

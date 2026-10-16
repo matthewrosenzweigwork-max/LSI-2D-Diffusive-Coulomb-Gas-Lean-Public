@@ -1,5 +1,7 @@
 # Lean formalization of uniform logarithmic Sobolev inequalities for the two-dimensional Coulomb gas
 
+> Compatibility candidate: Lean/Mathlib pins and module interfaces differ from the frozen release. See [migration status](docs/palomar/MIGRATION_STATUS.md). Use `python3 scripts/check_migration.py` on this branch. The current candidate has not passed a project build or Palomar verification.
+
 This repository contains the frozen Lean source supporting the paper's two main theorems and the listed supporting results. The [target inventory](verification/PUBLIC_TARGETS.json) identifies the checked declarations.
 
 ## Building

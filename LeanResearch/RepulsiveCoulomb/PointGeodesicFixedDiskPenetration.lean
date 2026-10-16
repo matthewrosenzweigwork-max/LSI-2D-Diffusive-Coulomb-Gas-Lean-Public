@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicActualSubsegmentAperture
-import LeanResearch.RepulsiveCoulomb.IntervalAngleIncrementBridge
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicActualSubsegmentAperture
+public import LeanResearch.RepulsiveCoulomb.IntervalAngleIncrementBridge
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Actual full-segment angle aperture and
 fixed-disk penetration. The full radial lift is constructed, local lift increments

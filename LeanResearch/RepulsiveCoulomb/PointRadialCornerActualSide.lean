@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
-import LeanResearch.RepulsiveCoulomb.PointFiniteCornerFullSide
-import LeanResearch.RepulsiveCoulomb.PointLineFullIntervalWidth
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCornerFullSide
+public import LeanResearch.RepulsiveCoulomb.PointLineFullIntervalWidth
+
+@[expose] public section
 
 /-! Uncompiled records-only successor. At an actual positive radial vertex,
 the full initial sector is proved to be the actual positive Jordan side. -/

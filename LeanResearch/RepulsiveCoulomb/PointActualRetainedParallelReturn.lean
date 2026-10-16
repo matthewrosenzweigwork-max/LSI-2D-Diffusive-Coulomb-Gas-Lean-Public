@@ -1,10 +1,14 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnProperActualCap
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualGBLink
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnVertexBookkeeping
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnOldSignedCoefficients
-import LeanResearch.RepulsiveCoulomb.PointRetainedParallelReturnBudget
-import LeanResearch.RepulsiveCoulomb.PointRetainedParallelHalfDiskDirection
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnProperActualCap
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualGBLink
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnVertexBookkeeping
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnOldSignedCoefficients
+public import LeanResearch.RepulsiveCoulomb.PointRetainedParallelReturnBudget
+public import LeanResearch.RepulsiveCoulomb.PointRetainedParallelHalfDiskDirection
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The actual Jordan cap, initial full angle,
 old signed coefficients and far strict turn are constructed for a retained-flat

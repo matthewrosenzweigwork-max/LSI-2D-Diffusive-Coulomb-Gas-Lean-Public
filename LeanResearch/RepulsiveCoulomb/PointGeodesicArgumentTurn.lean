@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicMacroPhase
-import LeanResearch.RepulsiveCoulomb.PointRegularArcPointArgument
-import Mathlib.Analysis.Calculus.Deriv.MeanValue
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicMacroPhase
+public import LeanResearch.RepulsiveCoulomb.PointRegularArcPointArgument
+public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+
+@[expose] public section
 
 /-! Actual weighted point-argument transport on a complete regular C1
 geodesic macro-arc. Continuous point-argument lifts, including at a boundary

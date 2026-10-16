@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalDensityMixture
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyNegative
-import Mathlib.Analysis.SpecialFunctions.Log.NegMulLog
-import Mathlib.MeasureTheory.Integral.Bochner.Basic
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalDensityMixture
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyNegative
+public import Mathlib.Analysis.SpecialFunctions.Log.NegMulLog
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Genuine mixed entropy integrability and
 integrated strict entropy for the actual P² finite-entropy density domain. -/

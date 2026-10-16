@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutCells
+module
+
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutCells
+
+@[expose] public section
 
 /-! Pairwise nesting of actual Jordan regions. Uses the approved Jordan separation
 and absorption theorems, not a newly assumed finite-family exterior property. -/

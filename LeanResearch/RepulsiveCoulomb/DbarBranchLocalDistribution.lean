@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombLocalL2
-import Mathlib.Analysis.Distribution.Distribution
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombLocalL2
+public import Mathlib.Analysis.Distribution.Distribution
+
+@[expose] public section
 
 /-! The actual weighted L2 space embeds injectively into Lebesgue distributions
 on the collision complement. No distribution is formed from a non-locally-

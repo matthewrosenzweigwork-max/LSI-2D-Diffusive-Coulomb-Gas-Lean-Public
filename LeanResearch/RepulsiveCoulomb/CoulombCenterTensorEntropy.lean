@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterTensorKL
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterTensorKL
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchTransport
+
+@[expose] public section
 
 /-! Actual heterogeneous product entropy estimate from the two slice estimates.
 The conditional costs, their finiteness and the density disintegrations are

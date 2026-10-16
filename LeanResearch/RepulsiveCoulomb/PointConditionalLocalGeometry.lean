@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointStrongLocalPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointStrongLocalPoincare
+
+@[expose] public section
 
 /-! Complete conditional local analytic bridge from the explicitly displayed
 David--Semmes input to strong Sobolev and quadratic Poincare, using the actual

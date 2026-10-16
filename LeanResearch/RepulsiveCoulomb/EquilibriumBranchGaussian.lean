@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchInteraction
-import LeanResearch.RepulsiveCoulomb.WeightedPointNormalization
-import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchInteraction
+public import LeanResearch.RepulsiveCoulomb.WeightedPointNormalization
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
+
+@[expose] public section
 
 /-! A genuine finite-free-energy Gaussian competitor for every positive
 confinement parameter. This is the first direct-method existence input,

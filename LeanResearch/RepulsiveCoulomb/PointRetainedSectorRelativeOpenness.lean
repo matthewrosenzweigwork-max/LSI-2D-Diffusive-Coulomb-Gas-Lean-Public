@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorBottomFullness
-import LeanResearch.RepulsiveCoulomb.RetainedSectorSourceTopology
-import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
-import LeanResearch.RepulsiveCoulomb.MetricFullStripLocalFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorBottomFullness
+public import LeanResearch.RepulsiveCoulomb.RetainedSectorSourceTopology
+public import LeanResearch.RepulsiveCoulomb.PointInteriorZeroExponentFlatChart
+public import LeanResearch.RepulsiveCoulomb.MetricFullStripLocalFullness
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, NOT COMPILED. Actual relative openness of the removed sector S\T.

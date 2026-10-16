@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPhaseRotation
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPhaseRotation
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Joint integrability needed for the actual common-phase Fubini argument. -/
 noncomputable section

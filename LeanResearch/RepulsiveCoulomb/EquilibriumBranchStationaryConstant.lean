@@ -1,5 +1,9 @@
-import Mathlib.MeasureTheory.Function.AEEqOfIntegral
-import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
+module
+
+public import Mathlib.MeasureTheory.Function.AEEqOfIntegral
+public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
+
+@[expose] public section
 
 /-! The final measure-theoretic step in Euler--Lagrange identification.
 An actual integrable chemical potential annihilating bounded, measurable,

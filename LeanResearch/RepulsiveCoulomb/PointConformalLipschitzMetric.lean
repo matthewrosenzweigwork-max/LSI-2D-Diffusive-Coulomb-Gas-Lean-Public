@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzLength
-import LeanResearch.RepulsiveCoulomb.PointConformalIntrinsicLength
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalLipschitzLength
+public import LeanResearch.RepulsiveCoulomb.PointConformalIntrinsicLength
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+
+@[expose] public section
 
 /-! Equality with the infimum of literal physical lengths over all Lipschitz
 curves, and the physical upper bound on their metric variation. The additional

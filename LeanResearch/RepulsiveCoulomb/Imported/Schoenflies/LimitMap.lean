@@ -1,10 +1,14 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.RefinementStars
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Inversion
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.RefinementStars
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Inversion
+
+@[expose] public section
 
 /-!
 # The limit homeomorphism of the interiors

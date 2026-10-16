@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianExponential
-import LeanResearch.RepulsiveCoulomb.PointOuterCutoff
-import LeanResearch.RepulsiveCoulomb.CutoffPairEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianExponential
+public import LeanResearch.RepulsiveCoulomb.PointOuterCutoff
+public import LeanResearch.RepulsiveCoulomb.CutoffPairEnergy
+
+@[expose] public section
 
 /-! Sharpness of the physical planar Gaussian logarithmic Sobolev rate.
 Every cutoff is a literal compact smooth function. Mass and gradient energy

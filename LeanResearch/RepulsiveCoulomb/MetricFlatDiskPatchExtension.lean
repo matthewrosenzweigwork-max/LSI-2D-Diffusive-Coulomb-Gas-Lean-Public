@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ComplexSubsetIsometryExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexSubsetIsometryExtension
+
+@[expose] public section
 
 /-! NEW implementation after workspace loss. An actual whole-ball Euclidean
 chart and the old map determine the new patch by accepted plane rigidity.

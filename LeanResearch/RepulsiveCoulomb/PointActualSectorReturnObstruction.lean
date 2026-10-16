@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualCapAngle
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualGBLink
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnVertexBookkeeping
-import LeanResearch.RepulsiveCoulomb.PointFirstReturnOldSignedCoefficients
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexFirstReturnBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualCapAngle
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnActualGBLink
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnVertexBookkeeping
+public import LeanResearch.RepulsiveCoulomb.PointFirstReturnOldSignedCoefficients
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexFirstReturnBudget
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, NOT COMPILED. ACTUAL metric-edge first-return obstruction with the

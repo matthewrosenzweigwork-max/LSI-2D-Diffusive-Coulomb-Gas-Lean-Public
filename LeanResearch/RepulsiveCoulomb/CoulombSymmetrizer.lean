@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombValueMean
-import LeanResearch.RepulsiveCoulomb.FiniteUnitaryAverage
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombValueMean
+public import LeanResearch.RepulsiveCoulomb.FiniteUnitaryAverage
+
+@[expose] public section
 
 /-! Literal permutation symmetrizer, orthogonal decomposition and Gibbs variance. -/
 noncomputable section

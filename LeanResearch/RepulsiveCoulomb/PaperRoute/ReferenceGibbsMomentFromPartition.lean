@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LabeledEntropyFromReferenceMoments
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsDefectMoment
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LabeledEntropyFromReferenceMoments
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsDefectMoment
+
+@[expose] public section
 
 /-! Additive experimental source; verification is recorded separately in evidence. Actual Gibbs defect moments follow
 from the upper partition bound at 6*beta, the correct Jensen lower bound

@@ -1,4 +1,8 @@
-import Mathlib.Analysis.Calculus.Deriv.Slope
+module
+
+public import Mathlib.Analysis.Calculus.Deriv.Slope
+
+@[expose] public section
 
 /-! Exact derivative norm from a local constant-speed distance identity. -/
 open Filter Metric

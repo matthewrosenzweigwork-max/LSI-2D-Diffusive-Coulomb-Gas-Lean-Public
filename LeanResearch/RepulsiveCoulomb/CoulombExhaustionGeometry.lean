@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
-import LeanResearch.RepulsiveCoulomb.HarmonicNormSquare
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
+public import LeanResearch.RepulsiveCoulomb.HarmonicNormSquare
+
+@[expose] public section
 
 /-! Smooth strict complex-line subharmonicity of the canonical collision-complement exhaustion. -/
 noncomputable section

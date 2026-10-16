@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsDefectMoment
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchUniformPartition
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchGibbsDefectMoment
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchUniformPartition
+
+@[expose] public section
 
 /-! The manuscript's actual Gibbs defect moment is uniformly bounded for
 all particle numbers on compact positive-temperature intervals. The final

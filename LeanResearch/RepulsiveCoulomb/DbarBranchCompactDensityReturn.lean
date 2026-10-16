@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactCoreTransfer
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCompactData
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactCoreTransfer
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCompactData
+
+@[expose] public section
 
 /-! An actual bounded map returns the density-scaled local approximants to
 the original Gibbs L2 space on one fixed compact margin. Its action on the

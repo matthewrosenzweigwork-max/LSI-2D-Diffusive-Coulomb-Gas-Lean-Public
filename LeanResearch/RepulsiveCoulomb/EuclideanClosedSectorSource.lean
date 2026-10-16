@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedCappedSectorSeed
-import LeanResearch.RepulsiveCoulomb.PointRadialFrontClosedExtension
-import Mathlib.Analysis.Complex.Convex
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedCappedSectorSeed
+public import LeanResearch.RepulsiveCoulomb.PointRadialFrontClosedExtension
+public import Mathlib.Analysis.Complex.Convex
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Literal source geometry for closed sectors,
 including width pi. These are ordinary Euclidean facts and contain no target

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointPositiveCornerUniformTranslatedStrip
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripStateAdapters
-import LeanResearch.RepulsiveCoulomb.TranslatedStripWidthSupremum
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointPositiveCornerUniformTranslatedStrip
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripStateAdapters
+public import LeanResearch.RepulsiveCoulomb.TranslatedStripWidthSupremum
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The actual regular-width set is constructed here
 from original geometric data. It is not a supplied compatible development or

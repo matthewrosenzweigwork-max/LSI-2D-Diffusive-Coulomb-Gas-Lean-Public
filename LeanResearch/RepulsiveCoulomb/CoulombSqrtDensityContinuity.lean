@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombDensityTemperatureBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombDensityTemperatureBound
+
+@[expose] public section
 
 /-! Strong-L2 content of continuity for the actual normalized square-root
 Gibbs densities at every positive temperature. -/

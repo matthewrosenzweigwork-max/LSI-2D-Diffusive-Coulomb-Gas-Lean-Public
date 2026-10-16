@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FiniteMarkedUniformClearance
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteMarkedUniformClearance
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+
+@[expose] public section
 
 /-! Actual old-metric uniform clearance for the entire bottom ray or line.
 The marked set is the actual finite set (including budget-only boundary marks),

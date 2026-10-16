@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialChartSideTransport
-import LeanResearch.RepulsiveCoulomb.PointExteriorTwoRayArgument
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialChartSideTransport
+public import LeanResearch.RepulsiveCoulomb.PointExteriorTwoRayArgument
+
+@[expose] public section
 
 /-! Actual exterior observation points approaching a two-ray boundary
 vertex through its chart. Which sector is exterior is derived from the actual

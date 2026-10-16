@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointOriginalCornerUniformTranslatedStrip
-import LeanResearch.RepulsiveCoulomb.PointRetainedUpperBoundaryEdge
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointOriginalCornerUniformTranslatedStrip
+public import LeanResearch.RepulsiveCoulomb.PointRetainedUpperBoundaryEdge
+
+@[expose] public section
 
 /-! SOURCE-ONLY STRONGER ORIGINAL-INPUT ENDPOINT. The genuine corner itself
 constructs the adjacent minimizing boundary edge, both local trace identities,

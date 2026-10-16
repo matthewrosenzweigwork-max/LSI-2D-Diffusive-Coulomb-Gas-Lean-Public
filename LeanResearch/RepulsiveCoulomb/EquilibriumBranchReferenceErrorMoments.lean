@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDoubleCircular
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchErrorMoments
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchDoubleCircular
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchErrorMoments
+
+@[expose] public section
 
 /-! The checked planar error moments transferred to the actual thermal law.
 The sharp uniform density cap removes pi and all temperature dependence.

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentSurgeryChart
-import LeanResearch.RepulsiveCoulomb.PointActualSectorBottomIdentification
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentSurgeryChart
+public import LeanResearch.RepulsiveCoulomb.PointActualSectorBottomIdentification
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Actual complement-cell exclusion.
 

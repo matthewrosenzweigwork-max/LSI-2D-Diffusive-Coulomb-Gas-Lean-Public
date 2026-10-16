@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapJordan
-import LeanResearch.RepulsiveCoulomb.PointRadialC1ChainHalfOpen
-import Mathlib.Data.List.Pairwise
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapJordan
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1ChainHalfOpen
+public import Mathlib.Data.List.Pairwise
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Construct the actual finite radial-geodesic
 macro-chain and append the curved circle as an ordinary C1 edge. In particular

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointActualPreparationInnerRank
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualPreparationInnerRank
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Total finite preparation of any genuine current
 positive-budget state. The only recursive move is the actually constructed

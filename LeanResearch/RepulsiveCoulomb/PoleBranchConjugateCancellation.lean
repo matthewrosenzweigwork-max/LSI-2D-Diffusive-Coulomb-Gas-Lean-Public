@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchWeakProjectionSymmetry
-import LeanResearch.RepulsiveCoulomb.PoleBranchCoulombRemoval
-import LeanResearch.RepulsiveCoulomb.CoulombPhaseIdentity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchWeakProjectionSymmetry
+public import LeanResearch.RepulsiveCoulomb.PoleBranchCoulombRemoval
+public import LeanResearch.RepulsiveCoulomb.CoulombPhaseIdentity
+
+@[expose] public section
 
 /-! The canonical conjugate-projection cancellation for centered symmetric
 weak-kernel elements, using actual entire representatives and common-phase

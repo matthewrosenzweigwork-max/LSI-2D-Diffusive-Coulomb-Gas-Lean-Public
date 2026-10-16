@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreRawSystem
-import LeanResearch.RepulsiveCoulomb.DbarBranchClassicalLocalSystem
-import LeanResearch.RepulsiveCoulomb.DbarBranchOutputWeakSystem
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCoreRawSystem
+public import LeanResearch.RepulsiveCoulomb.DbarBranchClassicalLocalSystem
+public import LeanResearch.RepulsiveCoulomb.DbarBranchOutputWeakSystem
+
+@[expose] public section
 
 /-! Exact identification of the local classical system with the genuine
 compact auxiliary adjoint and curl after division by the density. Equality

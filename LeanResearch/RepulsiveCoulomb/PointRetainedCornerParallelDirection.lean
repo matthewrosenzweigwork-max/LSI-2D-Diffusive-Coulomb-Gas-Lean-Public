@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedParallelHalfDiskDirection
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedParallelHalfDiskDirection
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The actual occupied corner of angle beta has
 its last source ray strictly inside the full retained interval whenever the

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatGeodesicParametrization
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatGeodesicParametrization
+
+@[expose] public section
 
 /-! Actual real-analytic regularity of constant-speed point-conformal geodesics
 at every interior parameter away from positive-exponent punctures. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ComplexBoundarySideRigidity
-import LeanResearch.RepulsiveCoulomb.TranslatedSupportingHalfplane
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexBoundarySideRigidity
+public import LeanResearch.RepulsiveCoulomb.TranslatedSupportingHalfplane
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Exclude returns to either prescribed straight
 old edge by two distances. This covers an actual halfline or a finite edge,

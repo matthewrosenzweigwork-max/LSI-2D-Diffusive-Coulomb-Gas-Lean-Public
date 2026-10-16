@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
-import LeanResearch.RepulsiveCoulomb.AnalyticArcSmoothExtension
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+public import LeanResearch.RepulsiveCoulomb.AnalyticArcSmoothExtension
+
+@[expose] public section
 
 /-! Actual global smooth representatives of the holomorphic quadratic corner
 replacement, with the genuine endpoint velocities, regularity and embedding.

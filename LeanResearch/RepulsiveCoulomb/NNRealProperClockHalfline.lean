@@ -1,6 +1,10 @@
-import Mathlib.Topology.Instances.NNReal.Lemmas
-import Mathlib.Topology.Order.Compact
-import Mathlib.Topology.Maps.Proper.Basic
+module
+
+public import Mathlib.Topology.Instances.NNReal.Lemmas
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Topology.Maps.Proper.Basic
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. A proper injective continuous nonnegative clock

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFormGlobalCompactness
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFormGlobalCompactness
+
+@[expose] public section
 
 /-! A bounded actual form sequence with gradient tending to zero has a
 subsequence converging in the original form norm to a zero-gradient element.

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointScoreLaplacian
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointScoreLaplacian
+
+@[expose] public section
 
 /-! The real planar Laplacian of an affine complex line's squared Hilbert norm. -/
 noncomputable section

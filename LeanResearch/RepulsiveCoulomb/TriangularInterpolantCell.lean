@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridInterpolant
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridInterpolant
+
+@[expose] public section
 
 /-! Exact finite nodal-interpolant formulas on the reference cell. -/
 noncomputable section

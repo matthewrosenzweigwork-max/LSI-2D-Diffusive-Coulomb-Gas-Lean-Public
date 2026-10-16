@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateIntervalCompactness
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateIntervalCompactness
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. One shared subsequence for temperature
 and actual normalized core ground states in the fixed ambient volume L2. -/

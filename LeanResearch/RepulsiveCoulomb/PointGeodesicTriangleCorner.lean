@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicLocalAdditivity
-import LeanResearch.RepulsiveCoulomb.PointGeodesicStarGerms
-import LeanResearch.RepulsiveCoulomb.ConeBoundaryTurn
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicLocalAdditivity
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicStarGerms
+public import LeanResearch.RepulsiveCoulomb.ConeBoundaryTurn
+
+@[expose] public section
 
 /-! Both possible cone-sector turns at the retained locally minimizing triangle
 corner are nonpositive, including the regular zero-exponent case. -/

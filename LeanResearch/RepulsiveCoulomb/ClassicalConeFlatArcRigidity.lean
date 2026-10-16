@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.ClassicalConeSectorIsometry
-import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
-import Mathlib.Topology.LocallyConstant.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeSectorIsometry
+public import LeanResearch.RepulsiveCoulomb.JordanTurnAngleLift
+public import Mathlib.Topology.LocallyConstant.Basic
+
+@[expose] public section
 
 /-! Isolated, uncompiled author draft. A continuous, genuinely isometric
 positive-radius source arc determines its entire directed cone-angle lift.

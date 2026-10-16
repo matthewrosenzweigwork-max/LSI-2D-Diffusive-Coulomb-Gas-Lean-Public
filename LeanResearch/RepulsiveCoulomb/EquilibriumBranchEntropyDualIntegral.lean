@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyDual
-import Mathlib.InformationTheory.KullbackLeibler.Basic
-import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyDual
+public import Mathlib.InformationTheory.KullbackLeibler.Basic
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Add
+
+@[expose] public section
 
 /-! Genuine monotone integral approximation by bounded scalar dual tests,
 including infinite entropy. The AC case is linked to the pinned KL definition.

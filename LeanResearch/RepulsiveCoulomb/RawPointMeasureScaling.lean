@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.ComplexMeshScaling
-import LeanResearch.RepulsiveCoulomb.PointSquaredWeightRadius
+module
+
+public import LeanResearch.RepulsiveCoulomb.ComplexMeshScaling
+public import LeanResearch.RepulsiveCoulomb.PointSquaredWeightRadius
+
+@[expose] public section
 
 /-! Exact raw point-weight measure scaling, retaining the literal exponent sum.
 No location-separation or uniform approximation hypothesis is introduced. -/

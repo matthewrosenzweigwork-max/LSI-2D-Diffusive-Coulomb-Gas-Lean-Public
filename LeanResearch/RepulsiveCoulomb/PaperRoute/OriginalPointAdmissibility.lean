@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalPointGeometry
-import LeanResearch.RepulsiveCoulomb.PaperRoute.MapBackedLipschitzAdmissibility
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalPointGeometry
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.MapBackedLipschitzAdmissibility
+
+@[expose] public section
 
 /-!
 # Original-input full locally-Lipschitz weak-(1,2) geometry

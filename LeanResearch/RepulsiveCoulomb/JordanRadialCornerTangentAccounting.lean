@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.JordanAffineTraceTangent
-import LeanResearch.RepulsiveCoulomb.JordanRoundedPointIncrement
-import LeanResearch.RepulsiveCoulomb.JordanRadialCornerTurnReplacement
-import Mathlib.Analysis.Calculus.FDeriv.Analytic
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanAffineTraceTangent
+public import LeanResearch.RepulsiveCoulomb.JordanRoundedPointIncrement
+public import LeanResearch.RepulsiveCoulomb.JordanRadialCornerTurnReplacement
+public import Mathlib.Analysis.Calculus.FDeriv.Analytic
+
+@[expose] public section
 
 /-! Actual tangent accounting at one constructed radial corner. The two old
 collars and two new half-patches are identified by their literal physical

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffL2
-import Mathlib.MeasureTheory.SpecificCodomains.WithLp
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCutoffL2
+public import Mathlib.MeasureTheory.SpecificCodomains.WithLp
+
+@[expose] public section
 
 /-! Coordinate convergence recovers the genuine Euclidean-fiber L2 norm.
 The finite product of component L2 spaces is used only for convergence;

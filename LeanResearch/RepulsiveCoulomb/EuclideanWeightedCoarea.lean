@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.Imported.ScalarCoarea.ScalarCoarea
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
-import Mathlib.Analysis.Calculus.Gradient.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.Imported.ScalarCoarea.ScalarCoarea
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+public import Mathlib.Analysis.Calculus.Gradient.Basic
+
+@[expose] public section
 
 /-! The approved Asher Yan scalar coarea theorem, specialized to the actual real
 Hilbert gradient and compactly supported C1 observables. No perimeter inequality

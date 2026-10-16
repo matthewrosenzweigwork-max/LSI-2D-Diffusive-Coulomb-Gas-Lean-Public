@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombLeviQuadratic
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombLeviQuadratic
+
+@[expose] public section
 
 /-! Identification and smoothness of the actual effective potential. -/
 noncomputable section

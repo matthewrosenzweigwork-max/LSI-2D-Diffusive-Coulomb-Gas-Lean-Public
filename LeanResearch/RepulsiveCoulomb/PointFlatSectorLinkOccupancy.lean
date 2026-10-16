@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkOccupancy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkOccupancy
+
+@[expose] public section
 
 /-! Isolated, uncompiled author draft. Global closed-sector adapter. Restrict
 an actually distance-preserving closed-sector map to a unit sector disk, then

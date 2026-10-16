@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
-import LeanResearch.RepulsiveCoulomb.PointFiniteCyclicCornerOrder
-import LeanResearch.RepulsiveCoulomb.PointRotatedRadialChart
-import LeanResearch.RepulsiveCoulomb.PointRadialCyclicTurnCharts
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteRadialCornerGeometry
+public import LeanResearch.RepulsiveCoulomb.PointFiniteCyclicCornerOrder
+public import LeanResearch.RepulsiveCoulomb.PointRotatedRadialChart
+public import LeanResearch.RepulsiveCoulomb.PointRadialCyclicTurnCharts
+
+@[expose] public section
 
 /-! Build the actual finite corner geometry from the literal chosen charts
 and radial germs carried by the original macro-arcs. A common positive width

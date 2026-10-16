@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+
+@[expose] public section
 
 /-! L1 oscillation about an actual mean is bounded by the actual double-average
 oscillation. This isolates the elementary part of Bjorn's dyadic estimates. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFixedParticlePoincareAdapter
-import LeanResearch.RepulsiveCoulomb.DbarBranchFormKernelConstants
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFixedParticlePoincareAdapter
+public import LeanResearch.RepulsiveCoulomb.DbarBranchFormKernelConstants
+
+@[expose] public section
 
 /-! The actual fixed-particle Poincare gap on the original full form domain.
 The separate zero-gradient theorem is proved by weak-kernel regularity and

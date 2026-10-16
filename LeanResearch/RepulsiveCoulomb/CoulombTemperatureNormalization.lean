@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombTemperatureDomination
-import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombTemperatureDomination
+public import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+
+@[expose] public section
 
 /-! Actual finite partition and density continuity in positive temperature.
 The domination is the proved common Gaussian majorant, not properness alone. -/

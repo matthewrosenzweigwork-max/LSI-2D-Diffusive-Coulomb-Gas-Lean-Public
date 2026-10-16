@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
-import Mathlib.MeasureTheory.Group.IntegralConvolution
-import Mathlib.MeasureTheory.Group.LIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchConstructedReference
+public import Mathlib.MeasureTheory.Group.IntegralConvolution
+public import Mathlib.MeasureTheory.Group.LIntegral
+
+@[expose] public section
 
 /-! The actual circle-smoothed planar reference density. Its measure is proved
 equal to circle convolution of the original law by nonnegative Fubini and

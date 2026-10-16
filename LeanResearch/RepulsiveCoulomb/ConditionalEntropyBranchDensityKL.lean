@@ -1,6 +1,10 @@
-import LeanResearch.PeriodicAttractiveLogGas.Entropy
-import Mathlib.InformationTheory.KullbackLeibler.Basic
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.PeriodicAttractiveLogGas.Entropy
+public import Mathlib.InformationTheory.KullbackLeibler.Basic
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-!
 The literal extended entropy used by the checked LSI equals KL of a normalized

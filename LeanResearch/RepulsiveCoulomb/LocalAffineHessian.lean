@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
-import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPotentialWeight
+public import Mathlib.Analysis.Calculus.FDeriv.CompCLM
+
+@[expose] public section
 
 /-! Local affine Hessian pullback. The function is smooth only on an open
 neighborhood, not globally across the Coulomb collision set. -/

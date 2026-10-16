@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.MetricRationalLineLimit
-import Mathlib.Topology.MetricSpace.ProperSpace
-import Mathlib.Topology.MetricSpace.Lipschitz
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRationalLineLimit
+public import Mathlib.Topology.MetricSpace.ProperSpace
+public import Mathlib.Topology.MetricSpace.Lipschitz
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Proper compact balls and actual increasing
 isometric windows yield an actual complete line. The rational-time convergence

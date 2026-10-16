@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourRelativeIsoperimetry
-import LeanResearch.RepulsiveCoulomb.RelativeLevelProductBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourRelativeIsoperimetry
+public import LeanResearch.RepulsiveCoulomb.RelativeLevelProductBound
+
+@[expose] public section
 
 /-! Actual regular-level product bound in the ENNReal form needed by Tonelli,
 with the literal restricted squared-point-weight measure. -/

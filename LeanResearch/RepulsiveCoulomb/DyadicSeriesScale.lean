@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DyadicSeriesSplit
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
+module
+
+public import LeanResearch.RepulsiveCoulomb.DyadicSeriesSplit
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+
+@[expose] public section
 
 /-! Quantitative choice of the splitting radius for the dyadic Sobolev series. -/
 noncomputable section

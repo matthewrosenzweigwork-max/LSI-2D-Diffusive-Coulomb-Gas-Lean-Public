@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCollisionDensity
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCollisionDensity
+
+@[expose] public section
 
 /-! Global Gaussian domination retaining one collision power. Constants may
 depend on N and beta; no separation or collision exclusion is imposed. -/

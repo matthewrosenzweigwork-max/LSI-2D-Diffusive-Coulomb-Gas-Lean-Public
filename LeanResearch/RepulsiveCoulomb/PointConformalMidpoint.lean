@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalApproximateMidpoint
-import LeanResearch.RepulsiveCoulomb.PointConformalCompleteness
-import Mathlib.Topology.Order.Compact
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalApproximateMidpoint
+public import LeanResearch.RepulsiveCoulomb.PointConformalCompleteness
+public import Mathlib.Topology.Order.Compact
+
+@[expose] public section
 
 /-! Exact metric midpoints from compactness and verified length bisection. -/
 noncomputable section

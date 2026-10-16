@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRegularizedEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRegularizedEnergy
+
+@[expose] public section
 
 /-! Genuine centering of the finite double-error kernel under the actual
 reference. Joint measurability, row integrability, zero mean, symmetry, and

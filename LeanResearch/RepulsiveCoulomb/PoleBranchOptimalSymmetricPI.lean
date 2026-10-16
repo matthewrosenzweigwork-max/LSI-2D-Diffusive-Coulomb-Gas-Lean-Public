@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalSymmetricConstant
-import LeanResearch.RepulsiveCoulomb.PoleBranchSymmetricPIAssembly
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalSymmetricConstant
+public import LeanResearch.RepulsiveCoulomb.PoleBranchSymmetricPIAssembly
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCOMPILED CONDITIONAL APPLICATION. The exact manuscript
 C_sym is admissible on the original symmetric full form if the still-open

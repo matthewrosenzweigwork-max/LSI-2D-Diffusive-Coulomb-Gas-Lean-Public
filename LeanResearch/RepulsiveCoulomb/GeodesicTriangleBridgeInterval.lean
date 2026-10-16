@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicSubedge
-import Mathlib.Topology.Order.Compact
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicSubedge
+public import Mathlib.Topology.Order.Compact
+
+@[expose] public section
 
 /-! Actual first/last-intersection extraction for a shortcut joining two arcs.
 The extracted middle interval meets each of the two closed sets at precisely

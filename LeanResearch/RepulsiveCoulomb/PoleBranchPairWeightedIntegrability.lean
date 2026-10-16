@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PoleBranchPairComplexChart
-import LeanResearch.RepulsiveCoulomb.PoleBranchCollisionLowerBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.PoleBranchPairComplexChart
+public import LeanResearch.RepulsiveCoulomb.PoleBranchCollisionLowerBound
+
+@[expose] public section
 
 /-! Actual Gibbs L2 integrability becomes the exact |u|^(beta/(N+2)) weighted
 product integrability required by the parameter-dependent removal theorem. -/

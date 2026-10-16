@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularContourStepBound
-import LeanResearch.RepulsiveCoulomb.FiniteChainFirstExit
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularContourStepBound
+public import LeanResearch.RepulsiveCoulomb.FiniteChainFirstExit
+
+@[expose] public section
 
 /-! A component crossing from B to outside2B has an actual simple full-edge
 prefix inside2B, for the unit-mesh approximation stage R>=16. -/

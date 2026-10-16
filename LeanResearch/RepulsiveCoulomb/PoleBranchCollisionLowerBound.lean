@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
-import Mathlib.MeasureTheory.Function.L2Space
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombDensityLocal
+public import Mathlib.MeasureTheory.Function.L2Space
+
+@[expose] public section
 
 /-! Near a generic collision, the normalized Gibbs density dominates the exact
 single collision power. Other factors must be nonzero; no such comparison is

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentTransitionOnCells
-import LeanResearch.RepulsiveCoulomb.EuclideanShortWedgeInterior
-import LeanResearch.RepulsiveCoulomb.FiniteEuclideanMotionPasteRigidity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentTransitionOnCells
+public import LeanResearch.RepulsiveCoulomb.EuclideanShortWedgeInterior
+public import LeanResearch.RepulsiveCoulomb.FiniteEuclideanMotionPasteRigidity
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Rigidity at genuine selected-sector seams.
 Recenter in the actual constructed incident chart. Each literal short target

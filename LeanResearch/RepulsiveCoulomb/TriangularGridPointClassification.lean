@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridLocalGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridLocalGeometry
+
+@[expose] public section
 
 /-! Every physical point belongs to the zero-, one-, or two-dimensional stratum
 of the actual diagonal integer grid. -/

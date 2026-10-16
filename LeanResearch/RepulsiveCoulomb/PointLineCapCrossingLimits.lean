@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapActualFamily
-import Mathlib.Order.Filter.AtTopBot.Basic
-import Mathlib.Tactic.Linarith
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapActualFamily
+public import Mathlib.Order.Filter.AtTopBot.Basic
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Radius-selected crossings of the ACTUAL caps
 escape at the two correct ends. The whole-disk preimage identity proves this

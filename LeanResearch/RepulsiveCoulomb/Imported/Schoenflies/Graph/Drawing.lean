@@ -1,12 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Curve
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Topology
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Bounded
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Degree
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Curve
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Topology
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Bounded
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Graph.Degree
+
+@[expose] public section
 
 /-!
 # Plane graphs

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.MetricIntervalGeodesicReplacement
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricIntervalGeodesicReplacement
+
+@[expose] public section
 
 /-! Same-side parameter pairs follow from the two radial legs and the triangle
 inequality. Only pairs straddling the center require a geometric passage test. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalRay
-import LeanResearch.RepulsiveCoulomb.PointConeSectorMap
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalRay
+public import LeanResearch.RepulsiveCoulomb.PointConeSectorMap
+
+@[expose] public section
 
 /-! Exact rotations and homotheties of the model cone's constructed metric. -/
 noncomputable section

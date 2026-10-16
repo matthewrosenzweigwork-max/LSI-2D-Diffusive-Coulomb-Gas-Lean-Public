@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.WeakPowerDistribution
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeakPowerDistribution
+
+@[expose] public section
 
 /-! Actual weak local Sobolev distribution control, conditional on the
 explicit weak(1,2) Poincare input. This is not the strong Sobolev upgrade. -/

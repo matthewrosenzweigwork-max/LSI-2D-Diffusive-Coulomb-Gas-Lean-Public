@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkBoundaryFullness
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkBoundaryFullness
+
+@[expose] public section
 
 /-!
 SOURCE-ONLY, UNCOMPILED. One actual incoming boundary edge suffices to bound

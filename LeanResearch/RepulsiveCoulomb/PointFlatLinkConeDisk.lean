@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicStarGerms
-import LeanResearch.RepulsiveCoulomb.PointMetricLineNormalizedChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicStarGerms
+public import LeanResearch.RepulsiveCoulomb.PointMetricLineNormalizedChart
+
+@[expose] public section
 
 /-! Isolated, uncompiled author draft. A small wrapper around the actually
 constructed full metric cone disk. Its fields are proved by the existing

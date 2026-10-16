@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointConformalPathTransport
-import Mathlib.Topology.EMetricSpace.BoundedVariation
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConformalPathTransport
+public import Mathlib.Topology.EMetricSpace.BoundedVariation
+
+@[expose] public section
 
 /-! Intrinsic metric length for the constructed conformal distance. This uses
 Mathlib's partition variation, not an assumed all-rectifiable physical integral

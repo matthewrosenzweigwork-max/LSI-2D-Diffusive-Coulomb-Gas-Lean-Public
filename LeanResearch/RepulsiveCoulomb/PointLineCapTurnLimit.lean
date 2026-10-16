@@ -1,10 +1,14 @@
-import LeanResearch.RepulsiveCoulomb.PointLineCapAngleLimits
-import LeanResearch.RepulsiveCoulomb.PointLineCapAtomSupport
-import LeanResearch.RepulsiveCoulomb.PointCircleCapCovariantTurn
-import Mathlib.Topology.Algebra.Order.Field
-import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLineCapAngleLimits
+public import LeanResearch.RepulsiveCoulomb.PointLineCapAtomSupport
+public import LeanResearch.RepulsiveCoulomb.PointCircleCapCovariantTurn
+public import Mathlib.Topology.Algebra.Order.Field
+public import Mathlib.Topology.MetricSpace.Pseudo.Lemmas
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Records-only, uncompiled. The literal circle covariant turn and literal
 line/circle corner turns have the desired limit. This is not a signed side

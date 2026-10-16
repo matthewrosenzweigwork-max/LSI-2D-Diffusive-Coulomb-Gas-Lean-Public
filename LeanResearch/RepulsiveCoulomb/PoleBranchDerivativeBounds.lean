@@ -1,4 +1,8 @@
-import Mathlib.Analysis.Complex.Schwarz
+module
+
+public import Mathlib.Analysis.Complex.Schwarz
+
+@[expose] public section
 
 /-! Local Frechet-derivative bounds for the genuine holomorphic class in arbitrary
 complex normed spaces. No several-variable analyticity assumption is introduced. -/

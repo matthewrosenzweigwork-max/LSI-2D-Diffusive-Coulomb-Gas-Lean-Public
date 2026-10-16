@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointBoundaryEdgeArclength
-import LeanResearch.RepulsiveCoulomb.PointRetainedConeReflection
-import LeanResearch.RepulsiveCoulomb.PointTranslatedOriginalData
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointBoundaryEdgeArclength
+public import LeanResearch.RepulsiveCoulomb.PointRetainedConeReflection
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedOriginalData
+
+@[expose] public section
 
 /-! SOURCE-ONLY AFTER THE UNIFORM-STRIP FREEZE. Derive BOTH local corner
 traces from an arbitrary genuine admissible positive corner, the actual

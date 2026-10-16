@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombTemperatureNormalization
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombTemperatureNormalization
+
+@[expose] public section
 
 /-! An actual integrable local-in-temperature bound for normalized densities. -/
 noncomputable section

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchOnsager
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductCollisions
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchOnsager
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchProductCollisions
+
+@[expose] public section
 
 /-! Exact product-reference integrability and mean of the canonical A_N.
 All off-diagonal pair laws and their logarithmic integrability are actual;

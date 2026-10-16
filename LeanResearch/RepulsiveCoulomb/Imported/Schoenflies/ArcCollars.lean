@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Concatenate
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutAtMostTwo
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.StripLocal
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Concatenate
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutAtMostTwo
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.StripLocal
+
+@[expose] public section
 
 /-!
 # Two-sided collars along a simple polygonal arc

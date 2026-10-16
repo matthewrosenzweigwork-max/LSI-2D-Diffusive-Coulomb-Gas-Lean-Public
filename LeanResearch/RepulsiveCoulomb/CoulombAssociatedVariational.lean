@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombAssociatedSelfAdjoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombAssociatedSelfAdjoint
+
+@[expose] public section
 
 /-! Exact variational association and both inverse identities for I+A.
 Together with compactness of R, these express the literal compact resolvent

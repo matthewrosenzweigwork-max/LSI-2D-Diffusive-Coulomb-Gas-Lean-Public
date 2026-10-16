@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchInteraction
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedCentering
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchInteraction
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchModulatedCentering
+
+@[expose] public section
 
 /-! Exact canonical energy and measurability, separated from its later
 Onsager estimate. Records-only refactor after the 2026-10-01 recovery. -/

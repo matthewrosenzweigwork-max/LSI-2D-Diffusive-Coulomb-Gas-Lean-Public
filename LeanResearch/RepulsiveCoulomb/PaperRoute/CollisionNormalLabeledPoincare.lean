@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.CoulombAllPairsSwap
-import LeanResearch.RepulsiveCoulomb.CoulombCollisionNull
-import LeanResearch.RepulsiveCoulomb.CoulombPairRotation
-import LeanResearch.RepulsiveCoulomb.PaperRoute.CollisionLogLabeledPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombAllPairsSwap
+public import LeanResearch.RepulsiveCoulomb.CoulombCollisionNull
+public import LeanResearch.RepulsiveCoulomb.CoulombPairRotation
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.CollisionLogLabeledPoincare
+
+@[expose] public section
 
 /-! Additive original-paper producer. The actual unit-normal pair chart and induced tangential
 Lebesgue measure. The chart stays in the physical Euclidean configuration

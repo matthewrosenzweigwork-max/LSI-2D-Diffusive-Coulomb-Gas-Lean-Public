@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.ScalarDerivativeBarrier
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
-import Mathlib.Analysis.Calculus.Deriv.MeanValue
-import Mathlib.Topology.Order.Compact
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ScalarDerivativeBarrier
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive draft. Exact scalar aperture and backward barrier.
 The scalar inputs still need assembly from actual geodesic/lift/convexity data;

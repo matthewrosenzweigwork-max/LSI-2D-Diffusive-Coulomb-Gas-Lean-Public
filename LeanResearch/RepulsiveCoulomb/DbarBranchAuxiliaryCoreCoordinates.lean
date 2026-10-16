@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCoefficientSmoothness
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactBasicEstimate
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMetricCoefficientSmoothness
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactBasicEstimate
+
+@[expose] public section
 
 /-! Realize the compact metric inequality in ordinary fixed-fiber auxiliary
 coordinates u: the scalar adjoint is delta(Ru), the raw exterior coefficient

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointUnmarkedBoundaryIntrinsic
-import LeanResearch.RepulsiveCoulomb.ProperBoundaryEndClockArclength
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointUnmarkedBoundaryIntrinsic
+public import LeanResearch.RepulsiveCoulomb.ProperBoundaryEndClockArclength
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. A compact boundary-clock arc containing only
 retained-width-pi points is ambient minimizing. No ambient cone exponent is

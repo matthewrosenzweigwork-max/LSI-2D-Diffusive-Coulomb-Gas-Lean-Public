@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterGradient
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterGradient
+
+@[expose] public section
 
 /-! Literal relative collision-free smooth core in the (N-1)-particle Euclidean
 coordinate space, and actual Gaussian and relative slices of the original

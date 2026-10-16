@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularGridCells
-import Mathlib.Analysis.Convex.Combination
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularGridCells
+public import Mathlib.Analysis.Convex.Combination
+
+@[expose] public section
 
 /-! Genuine geometric grid triangles: affine coordinates, convexity, and exact
 convex-hull realization by the three physical complex lattice vertices. -/

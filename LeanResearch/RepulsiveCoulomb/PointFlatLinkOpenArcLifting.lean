@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkDirectedCommonChart
-import LeanResearch.RepulsiveCoulomb.EuclideanSectorBoundaryCases
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkDirectedCommonChart
+public import LeanResearch.RepulsiveCoulomb.EuclideanSectorBoundaryCases
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Open angular points lift to actual source
 interior points. This is the geometric input needed to exclude another

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PuncturedDiskGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.PuncturedDiskGeometry
+
+@[expose] public section
 
 /-! The local weighted L2 estimate retaining vanishing mass at the endpoint exponent two. -/
 noncomputable section

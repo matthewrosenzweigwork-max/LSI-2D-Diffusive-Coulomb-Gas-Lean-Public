@@ -1,8 +1,12 @@
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.LinearAlgebra.Complex.FiniteDimensional
-import Mathlib.Analysis.Normed.Module.Connected
-import Mathlib.Topology.Maps.Proper.Basic
-import Mathlib.Topology.Order.Compact
+module
+
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+public import Mathlib.Analysis.Normed.Module.Connected
+public import Mathlib.Topology.Maps.Proper.Basic
+public import Mathlib.Topology.Order.Compact
+
+@[expose] public section
 
 /-! Elementary topology of an actual closed embedded ray attached to a closed
 set at precisely its initial point. The nonempty-complement theorem is a direct

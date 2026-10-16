@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.SignedUnitary
-import Mathlib.GroupTheory.Perm.Fin
+module
+
+public import LeanResearch.RepulsiveCoulomb.SignedUnitary
+public import Mathlib.GroupTheory.Perm.Fin
+
+@[expose] public section
 
 /-! The six permutations of three labels and their exact multiplication data. -/
 noncomputable section

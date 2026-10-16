@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactCoreTransfer
-import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCompactData
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactCoreTransfer
+public import LeanResearch.RepulsiveCoulomb.DbarBranchAuxiliaryCompactData
+
+@[expose] public section
 
 /-! The local output classes return to the genuine scalar adjoint cutoff
 and exterior error classes. The finite-coordinate maps are literal L2

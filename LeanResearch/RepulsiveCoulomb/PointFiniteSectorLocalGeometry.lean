@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointFiniteActualCutGeometry
-import LeanResearch.RepulsiveCoulomb.PointFlatEmbeddingClosure
-import LeanResearch.RepulsiveCoulomb.PointPassingEdgeOccupancy
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFiniteActualCutGeometry
+public import LeanResearch.RepulsiveCoulomb.PointFlatEmbeddingClosure
+public import LeanResearch.RepulsiveCoulomb.PointPassingEdgeOccupancy
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Feed the actually constructed finite prefix into
 local surgery geometry. Interior regularity is recovered from its genuine

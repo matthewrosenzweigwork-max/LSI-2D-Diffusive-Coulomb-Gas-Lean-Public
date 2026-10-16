@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
-import LeanResearch.RepulsiveCoulomb.PlanarFirstReturnJordanCaps
-import Mathlib.Topology.Order.Compact
-import Mathlib.Tactic.Positivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricRaySegments
+public import LeanResearch.RepulsiveCoulomb.PlanarFirstReturnJordanCaps
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Tactic.Positivity
+
+@[expose] public section
 
 /-! Isolated, uncompiled clean-old-ray facts for the full initial-angle bridge.
 Compact escape follows from the actual metric ray, and carrier avoidance follows

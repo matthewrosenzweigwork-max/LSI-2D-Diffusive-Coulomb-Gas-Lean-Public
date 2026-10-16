@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanC1Joining
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanC1Joining
+
+@[expose] public section
 
 /-! Exact image and actual injectivity for C¹ gluing on arbitrary adjacent
 closed intervals. These geometric pasting lemmas use literal images and

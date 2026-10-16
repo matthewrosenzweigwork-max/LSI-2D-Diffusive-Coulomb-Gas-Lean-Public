@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointMeasureAverage
-import LeanResearch.RepulsiveCoulomb.MeasureAverageComparison
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMeasureAverage
+public import LeanResearch.RepulsiveCoulomb.MeasureAverageComparison
+
+@[expose] public section
 
 /-! Literal Gaussian-vs-raw comparison on origin-centered balls, including
 positive punctures. Constants are explicit; normalization cancellation follows

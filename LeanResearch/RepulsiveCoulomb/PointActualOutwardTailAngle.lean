@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointActualOutwardTailSine
-import LeanResearch.RepulsiveCoulomb.AffineAngularTailPotential
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualOutwardTailSine
+public import LeanResearch.RepulsiveCoulomb.AffineAngularTailPotential
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. Actual uniform angular tail bound with
 constructed lifts. Its only extra smallness condition is the explicit numerical

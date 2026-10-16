@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointAffineAngularMomentum
-import LeanResearch.RepulsiveCoulomb.ScalarTailPotentialComparison
-import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
-import Mathlib.Tactic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointAffineAngularMomentum
+public import LeanResearch.RepulsiveCoulomb.ScalarTailPotentialComparison
+public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Uncompiled additive successor. The original-time momentum derivative is
 bounded by the derivative of D/B*r^B. Scalar comparison gives the uniform sine

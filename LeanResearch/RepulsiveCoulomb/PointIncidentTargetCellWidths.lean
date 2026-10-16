@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentSurgeryChart
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConstructedIncidentSurgeryChart
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Recover strict positive short target widths
 from the actual retained chart data. These geometric bounds are conclusions,

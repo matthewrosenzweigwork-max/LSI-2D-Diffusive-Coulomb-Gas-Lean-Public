@@ -1,10 +1,14 @@
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.Normed.Field.Lemmas
-import Mathlib.Topology.UnitInterval
-import Mathlib.Topology.Order.Compact
-import Mathlib.Topology.Instances.NNReal.Lemmas
-import Mathlib.Topology.Piecewise
-import Mathlib.Topology.Algebra.Order.Field
+module
+
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Normed.Field.Lemmas
+public import Mathlib.Topology.UnitInterval
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Topology.Instances.NNReal.Lemmas
+public import Mathlib.Topology.Piecewise
+public import Mathlib.Topology.Algebra.Order.Field
+
+@[expose] public section
 
 /-! Inversion compactifies a closed embedded nonnegative real ray to a genuine
 closed arc. The point at infinity is the endpoint `1`, mapped to `0`; all other

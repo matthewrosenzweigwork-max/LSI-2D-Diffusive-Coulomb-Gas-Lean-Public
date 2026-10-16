@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchBoundedApproximation
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMeasurableSup
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchBoundedApproximation
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyMeasurableSup
+
+@[expose] public section
 
 /-! Actual approximation of bounded measurable entropy-dual values by bounded
 continuous tests. The simultaneous L1 approximation uses mu+nu, with an

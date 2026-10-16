@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchHolomorphicBallL2
-import LeanResearch.RepulsiveCoulomb.DbarBranchHolomorphicLimits
-import Mathlib.MeasureTheory.Group.Integral
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchHolomorphicBallL2
+public import LeanResearch.RepulsiveCoulomb.DbarBranchHolomorphicLimits
+public import Mathlib.MeasureTheory.Group.Integral
+
+@[expose] public section
 
 /-! Local uniform control of genuinely holomorphic functions by their actual
 Lebesgue L2 classes. The constant is the reciprocal square root of the volume

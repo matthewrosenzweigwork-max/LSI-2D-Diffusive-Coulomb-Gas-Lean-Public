@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombFiniteCutoffEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombFiniteCutoffEnergy
+
+@[expose] public section
 
 /-! Common-core approximation, retaining the actual weighted Euclidean gradient. -/
 noncomputable section

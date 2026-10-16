@@ -1,9 +1,13 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Realization
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Realization
+
+@[expose] public section
 
 /-!
 # Separation and crossing parity before normalization

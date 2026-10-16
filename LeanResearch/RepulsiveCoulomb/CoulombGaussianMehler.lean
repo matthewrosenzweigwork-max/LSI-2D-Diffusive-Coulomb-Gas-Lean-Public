@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianExponential
-import Mathlib.Analysis.Calculus.ParametricIntegral
-import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
-import Mathlib.Analysis.SpecialFunctions.Sqrt
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianExponential
+public import Mathlib.Analysis.Calculus.ParametricIntegral
+public import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+
+@[expose] public section
 
 /-! The literal Mehler integral for the normalized planar Gaussian.
 This file constructs the averaging operator from the actual density. It does

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombPermutationCore
-import LeanResearch.RepulsiveCoulomb.CoulombFirstSwapBound
-import Mathlib.Logic.Equiv.Fintype
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombPermutationCore
+public import LeanResearch.RepulsiveCoulomb.CoulombFirstSwapBound
+public import Mathlib.Logic.Equiv.Fintype
+
+@[expose] public section
 
 /-! Label transport for an arbitrary selected pair. -/
 noncomputable section

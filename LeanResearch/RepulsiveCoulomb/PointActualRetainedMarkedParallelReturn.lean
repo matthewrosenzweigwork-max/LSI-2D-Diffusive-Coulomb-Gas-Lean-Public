@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointActualRetainedParallelReturn
-import LeanResearch.RepulsiveCoulomb.PointRetainedMarkedReturnBudget
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointActualRetainedParallelReturn
+public import LeanResearch.RepulsiveCoulomb.PointRetainedMarkedReturnBudget
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Genuine marked-attachment return obstruction.
 The actual cap, strict far turn and signed old-arc coefficients are constructed

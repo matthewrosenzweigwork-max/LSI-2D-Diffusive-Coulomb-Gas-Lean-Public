@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.CylindricalDiracLabeledPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.CylindricalDiracLabeledPoincare
+
+@[expose] public section
 
 /-! Additive original-paper producer. The actual many-particle pair-collision distributional row,
 with the unit normal coordinate and its literal tangential Dirac measure.

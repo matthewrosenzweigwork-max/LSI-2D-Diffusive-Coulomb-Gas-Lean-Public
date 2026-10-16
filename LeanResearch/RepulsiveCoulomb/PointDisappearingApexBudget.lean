@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudgetEquality
-import LeanResearch.RepulsiveCoulomb.PointRetainedApexBudgetTransport
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSignedSectorBudgetEquality
+public import LeanResearch.RepulsiveCoulomb.PointRetainedApexBudgetTransport
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. General ambient finite-coefficient algebra for
 Pro's disappearing-apex cut. No original-atom or initial-line support is used.

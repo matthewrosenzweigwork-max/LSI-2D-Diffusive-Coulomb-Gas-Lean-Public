@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.HolomorphicLocalL2
+module
+
+public import LeanResearch.RepulsiveCoulomb.HolomorphicLocalL2
+
+@[expose] public section
 
 /-! Quantitative nested disks that avoid the puncture without extra separation hypotheses. -/
 noncomputable section

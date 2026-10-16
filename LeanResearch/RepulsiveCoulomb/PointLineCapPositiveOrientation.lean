@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.JordanOneRegularPointWinding
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanOneRegularPointWinding
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Records-only, uncompiled. At an actual counterclockwise circle basepoint,
 the right normal is outside the enclosing disk. The accepted signed normal

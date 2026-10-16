@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialC1PlaneArc
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialC1PlaneArc
+
+@[expose] public section
 
 /-! Construct the literal cyclic list of C1 macro-arcs of an actual bigon,
 retaining exact common-chart radial germs at every true vertex. The second

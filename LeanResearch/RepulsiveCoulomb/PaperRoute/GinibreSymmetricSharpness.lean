@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.CoulombBoundedSmoothDomain
-import LeanResearch.RepulsiveCoulomb.CoulombCenterCylinderGeometry
-import LeanResearch.RepulsiveCoulomb.CoulombHelmertCoordinates
-import LeanResearch.RepulsiveCoulomb.CoulombGaussianIntegrationByParts
-import LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombBoundedSmoothDomain
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterCylinderGeometry
+public import LeanResearch.RepulsiveCoulomb.CoulombHelmertCoordinates
+public import LeanResearch.RepulsiveCoulomb.CoulombGaussianIntegrationByParts
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.AnalyticLabeledPoincare
+
+@[expose] public section
 
 /-! The literal linear center-of-mass equality modes of the original physical
 closed form. The unbounded observable is placed in the prescribed form by

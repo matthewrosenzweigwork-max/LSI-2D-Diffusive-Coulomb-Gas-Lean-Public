@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreL2
-import LeanResearch.RepulsiveCoulomb.CoulombGroundStateInverseCore
-import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
-import LeanResearch.RepulsiveCoulomb.CoulombSqrtDensityLp
-import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateCoreL2
+public import LeanResearch.RepulsiveCoulomb.CoulombGroundStateInverseCore
+public import LeanResearch.RepulsiveCoulomb.CoulombFormIntegrals
+public import LeanResearch.RepulsiveCoulomb.CoulombSqrtDensityLp
+public import LeanResearch.RepulsiveCoulomb.PoleBranchRealLpMean
+
+@[expose] public section
 
 /-! RECORDS-ONLY UNCHECKED DRAFT. Literal norm/mean identities for normalized
 core ground states and passage of mean zero across varying temperatures. -/

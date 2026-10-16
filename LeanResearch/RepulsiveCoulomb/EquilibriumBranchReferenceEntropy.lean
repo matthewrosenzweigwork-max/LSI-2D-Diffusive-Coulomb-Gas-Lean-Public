@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedEntropy
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchExtendedEntropy
+
+@[expose] public section
 
 /-! Canonical Lebesgue RN density of any absolutely continuous P2 probability
 measure and its full extended Gaussian entropy formula. Singular measures are

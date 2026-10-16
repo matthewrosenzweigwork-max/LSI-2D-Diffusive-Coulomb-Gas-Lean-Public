@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConeRadialGeodesic
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConeRadialGeodesic
+
+@[expose] public section
 
 /-! The exact power law for an apex geodesic in the original power-density
 coordinate, as opposed to the intrinsic-radius classical cone coordinate. -/

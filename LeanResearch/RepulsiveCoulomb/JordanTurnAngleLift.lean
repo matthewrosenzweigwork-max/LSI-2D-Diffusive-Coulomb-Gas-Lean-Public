@@ -1,7 +1,11 @@
-import Mathlib.Analysis.SpecialFunctions.Complex.Circle
-import Mathlib.Topology.Homotopy.Lifting
-import Mathlib.Analysis.Calculus.ContDiff.Deriv
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
+public import Mathlib.Topology.Homotopy.Lifting
+public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Genuine prerequisites for the Euclidean total-turn problem.
 

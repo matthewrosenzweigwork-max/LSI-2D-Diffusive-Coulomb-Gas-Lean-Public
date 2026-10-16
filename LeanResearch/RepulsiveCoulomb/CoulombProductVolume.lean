@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
-import LeanResearch.RepulsiveCoulomb.FiniteProductCurrying
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombModel
+public import LeanResearch.RepulsiveCoulomb.FiniteProductCurrying
+
+@[expose] public section
 
 /-! The real Euclidean volume on complex l2 configurations is exactly the
 product of planar Lebesgue measures in particle coordinates. -/

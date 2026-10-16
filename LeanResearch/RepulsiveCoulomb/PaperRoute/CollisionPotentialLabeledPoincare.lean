@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.PairDiracLabeledPoincare
-import LeanResearch.RepulsiveCoulomb.CoulombLeviQuadratic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.PairDiracLabeledPoincare
+public import LeanResearch.RepulsiveCoulomb.CoulombLeviQuadratic
+
+@[expose] public section
 
 /-! Additive original-paper producer. Actual finite Vandermonde log decomposition and the singular
 part of the original potential's distributional Laplacian. The totalized

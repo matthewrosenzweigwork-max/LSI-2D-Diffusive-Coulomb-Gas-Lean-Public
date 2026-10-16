@@ -1,12 +1,16 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SourceJoining
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.QuantitativeStages
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.StageTower
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Windows
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.SourceJoining
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.QuantitativeStages
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.StageTower
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.Windows
+
+@[expose] public section
 
 /-!
 # Quantitative forward local-grid stages

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogSmoothConvolution
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCrossInteraction
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchInteraction
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogSmoothConvolution
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCrossInteraction
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchInteraction
+
+@[expose] public section
 
 /-! Weak Poisson for the literal potential of
 a supplied bounded measurable P2 probability density. It uses the NEW planar

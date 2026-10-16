@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalReference
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCartesianDensityTails
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchMultiIndexTail
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalReference
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalCartesianDensityTails
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchMultiIndexTail
+
+@[expose] public section
 
 /-! The complete original thermal derivative-tail clauses, first for a supplied
 physical reference, then for the reference independently constructed by the

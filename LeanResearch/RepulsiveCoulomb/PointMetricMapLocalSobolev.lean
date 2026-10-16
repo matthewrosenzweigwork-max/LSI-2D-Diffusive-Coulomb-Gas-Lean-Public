@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointMetricMapDifferential
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.WeakDeriv.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointMetricMapDifferential
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.Analysis.Sobolev.WeakDeriv.Basic
+
+@[expose] public section
 
 /-!
 # Genuine local weak derivatives for actual point-metric maps

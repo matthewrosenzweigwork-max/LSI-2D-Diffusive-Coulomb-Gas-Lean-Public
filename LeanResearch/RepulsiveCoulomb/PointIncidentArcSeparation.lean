@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentSectorSourcePatch
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentSectorSourcePatch
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Derived directed common-chart models exclude
 every closed ray of one sector from every open angular ray of another

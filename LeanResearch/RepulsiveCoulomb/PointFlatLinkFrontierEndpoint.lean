@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkOldIntervalAlignment
-import LeanResearch.RepulsiveCoulomb.PointRetainedFrontierEndpoint
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkOldIntervalAlignment
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFrontierEndpoint
+
+@[expose] public section
 
 /-! NEW SOURCE-ONLY, UNCOMPILED. The actual old-frontier condition identifies
 one of the two complete old interval endpoints. Both orientations remain

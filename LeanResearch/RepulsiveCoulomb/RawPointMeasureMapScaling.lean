@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.RawPointMeasureScaling
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointMeasureScaling
+
+@[expose] public section
 
 /-! Exact pushforward identities for raw point measures and their restrictions
 to the physical observation balls. -/

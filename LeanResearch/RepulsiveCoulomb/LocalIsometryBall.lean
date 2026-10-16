@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ClassicalConeMetric
+module
+
+public import LeanResearch.RepulsiveCoulomb.ClassicalConeMetric
+
+@[expose] public section
 
 /-! A local distance-preserving chart identifies sufficiently small CLOSED metric
 balls, including surjectivity onto the model ball. -/

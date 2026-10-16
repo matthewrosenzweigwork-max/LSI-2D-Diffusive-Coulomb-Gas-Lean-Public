@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeFactorization
-import Mathlib.Probability.Kernel.MeasurableLIntegral
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeFactorization
+public import Mathlib.Probability.Kernel.MeasurableLIntegral
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory ProbabilityTheory

@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.FullStripResidualSource
-import LeanResearch.RepulsiveCoulomb.PointFullStripRetainedIntervals
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkOccupancy
+module
+
+public import LeanResearch.RepulsiveCoulomb.FullStripResidualSource
+public import LeanResearch.RepulsiveCoulomb.PointFullStripRetainedIntervals
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkOccupancy
+
+@[expose] public section
 
 /-! A closed literal halfdisk is cut out of the SUPPLIED actual strip at each
 top point. The accepted flat-link occupancy theorem is applied to that actual

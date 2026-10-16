@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PlanarProperRayCompactification
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanSchoenflies
-import Mathlib.Topology.Compactification.OnePoint.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.PlanarProperRayCompactification
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.JordanSchoenflies
+public import Mathlib.Topology.Compactification.OnePoint.Basic
+
+@[expose] public section
 
 /-! Parameter-preserving, pointed compactification of a proper embedded line.
 The boundary correspondence is constructed before invoking relative Schoenflies.

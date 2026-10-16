@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchELRadiality
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchELRadiality
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCircleEnergy
+
+@[expose] public section
 
 /-! The actual radial Newton formula obtained from a singular circle average.
 The circle/background cross energy is genuinely absolutely integrable by the

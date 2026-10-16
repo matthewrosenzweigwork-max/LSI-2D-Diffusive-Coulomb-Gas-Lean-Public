@@ -1,10 +1,14 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.EuclideanBallPoincare
-import Mathlib.Topology.MetricSpace.HausdorffDistance
-import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
-import Mathlib.Analysis.Calculus.ContDiff.RCLike
-import Mathlib.Analysis.Calculus.FDeriv.Mul
-import Mathlib.Analysis.SpecificLimits.Basic
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.EuclideanBallPoincare
+public import Mathlib.Topology.MetricSpace.HausdorffDistance
+public import Mathlib.Topology.Algebra.MetricSpace.Lipschitz
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+public import Mathlib.Analysis.Calculus.FDeriv.Mul
+public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+
+@[expose] public section
 
 /-!
 # Planar ball Poincaré across finitely many punctures

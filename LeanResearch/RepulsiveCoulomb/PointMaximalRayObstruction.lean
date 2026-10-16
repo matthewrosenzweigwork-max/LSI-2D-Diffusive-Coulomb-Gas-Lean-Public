@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.MetricOpenRayEndpoint
-import LeanResearch.RepulsiveCoulomb.MetricAdditiveSegmentJoin
-import LeanResearch.RepulsiveCoulomb.PointRayPrefixSegmentAdapters
-import LeanResearch.RepulsiveCoulomb.PointGeodesicGermExtension
-import LeanResearch.RepulsiveCoulomb.PointGeodesicLocalAdditivity
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricOpenRayEndpoint
+public import LeanResearch.RepulsiveCoulomb.MetricAdditiveSegmentJoin
+public import LeanResearch.RepulsiveCoulomb.PointRayPrefixSegmentAdapters
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicGermExtension
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicLocalAdditivity
+
+@[expose] public section
 
 /-! A finite maximal literal ray prefix forces an actual Jordan obstruction.
 Its Cauchy endpoint is completed, the reverse prefix is an actual minimizing

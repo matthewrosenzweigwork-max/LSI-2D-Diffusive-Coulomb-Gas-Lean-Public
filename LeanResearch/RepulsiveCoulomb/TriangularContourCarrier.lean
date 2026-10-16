@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.TriangularCanonicalSegments
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularCanonicalSegments
+
+@[expose] public section
 
 /-! Exact equality between the physical carrier of the constructed finite contour
 graph and the actual interpolant level. No geometric nonintersection is assumed. -/

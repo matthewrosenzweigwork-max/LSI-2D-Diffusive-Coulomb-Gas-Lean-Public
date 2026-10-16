@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalInputLabeledLSI
-import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalLSIInfimum
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.OriginalInputLabeledLSI
+public import LeanResearch.RepulsiveCoulomb.PoleBranchOptimalLSIInfimum
+
+@[expose] public section
 
 /-! The exact actual-optimal-rate packaging of the new original-input LSI.
 The frozen optimum is the supremum of rates admissible on the original full

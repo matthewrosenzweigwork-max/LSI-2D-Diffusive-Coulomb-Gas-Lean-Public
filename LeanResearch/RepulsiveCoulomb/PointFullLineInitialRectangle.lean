@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.MetricCleanRayCompactCollar
-import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
-import LeanResearch.RepulsiveCoulomb.PointConvexLocalFlatEmbedding
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricCleanRayCompactCollar
+public import LeanResearch.RepulsiveCoulomb.FullNormalStripSourceGeometry
+public import LeanResearch.RepulsiveCoulomb.PointConvexLocalFlatEmbedding
+
+@[expose] public section
 
 /-! Construct an actual positive-width finite normal rectangle along any
 finite portion of a full clean boundary line. The source translation merely

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCompleteFactorization
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConditionalEntropyBranchCompleteFactorization
+
+@[expose] public section
 
 /-!
 The literal supremum defect over every particle number at least two. Genuine

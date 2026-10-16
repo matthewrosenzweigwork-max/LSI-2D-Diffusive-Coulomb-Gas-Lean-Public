@@ -1,11 +1,15 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutCells
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutAtMostTwo
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.TwoArcs
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutCells
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.CrosscutAtMostTwo
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.TwoArcs
+
+@[expose] public section
 
 /-!
 # The crosscut theorem for a general Jordan curve

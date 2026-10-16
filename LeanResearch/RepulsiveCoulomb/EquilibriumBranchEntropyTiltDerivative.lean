@@ -1,4 +1,8 @@
-import LeanResearch.PeriodicAttractiveLogGas.Rothaus
+module
+
+public import LeanResearch.PeriodicAttractiveLogGas.Rothaus
+
+@[expose] public section
 
 /-! Actual differentiation of the bounded multiplicative-tilt entropy at zero.
 A uniform positive factor and a constant integrable derivative majorant are

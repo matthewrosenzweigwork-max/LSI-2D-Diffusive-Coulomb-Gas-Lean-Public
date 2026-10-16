@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.JordanC1Joining
-import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanC1Joining
+public import LeanResearch.RepulsiveCoulomb.JordanBezierCorner
+
+@[expose] public section
 
 /-! Actual angle-increment preservation under positive smooth reparameterizing
 and additivity under the constructed matched-velocity C¹ concatenation.

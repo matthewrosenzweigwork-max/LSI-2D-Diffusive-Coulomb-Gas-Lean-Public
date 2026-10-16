@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointPolyhedralCurvature
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointPolyhedralCurvature
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+
+@[expose] public section
 
 /-! Sharp metric bounds for angular contraction of a flat sector. This is the
 local deformation used in Bonk--Lang's negative-curvature step; existence and

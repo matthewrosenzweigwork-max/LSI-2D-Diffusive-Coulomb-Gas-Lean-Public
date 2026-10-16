@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointSectorReturnPhysicalDirectionLink
+
+@[expose] public section
 
 /-! Isolated, uncompiled exact supplied-sector width link. Genuine radial
 formulas for the same actual rays identify the constructed raw angles. The

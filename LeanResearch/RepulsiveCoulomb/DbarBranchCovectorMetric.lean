@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricAlgebra
-import LeanResearch.RepulsiveCoulomb.CoulombExhaustionGeometry
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchGraphMetricAlgebra
+public import LeanResearch.RepulsiveCoulomb.CoulombExhaustionGeometry
+
+@[expose] public section
 
 /-! The graph metric of an actual complex covector is I + A†A. Its rank-one
 vector is the complex Hilbert representer A†1, whose coordinates are the

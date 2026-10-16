@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalReference
-import LeanResearch.RepulsiveCoulomb.PaperRoute.CompactDiskReferenceLabeledLSI
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.ThermalOriginalReference
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.CompactDiskReferenceLabeledLSI
+
+@[expose] public section
 
 /-! Original-input full-form labeled LSI. The physical reference is the
 NEW actual thermal constructor, and the supplied-reference consumer is the

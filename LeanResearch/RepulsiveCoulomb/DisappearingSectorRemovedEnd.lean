@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.RetainedSectorSourceTopology
-import LeanResearch.RepulsiveCoulomb.PointRetainedSectorRelativeOpenness
-import Mathlib.Topology.Order.Compact
+module
+
+public import LeanResearch.RepulsiveCoulomb.RetainedSectorSourceTopology
+public import LeanResearch.RepulsiveCoulomb.PointRetainedSectorRelativeOpenness
+public import Mathlib.Topology.Order.Compact
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The old removed end is a proper BROKEN ray:
 from the departure z backwards along the upper source edge to the original

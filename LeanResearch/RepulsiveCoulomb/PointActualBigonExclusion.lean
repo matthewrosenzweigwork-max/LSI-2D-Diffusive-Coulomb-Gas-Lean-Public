@@ -1,9 +1,13 @@
-import LeanResearch.RepulsiveCoulomb.PointRadialGeodesicGaussBonnet
-import LeanResearch.RepulsiveCoulomb.PointRadialListSlots
-import LeanResearch.RepulsiveCoulomb.PointRadialBigonPassageReverse
-import LeanResearch.RepulsiveCoulomb.PointRadialPlanePassageAngle
-import LeanResearch.RepulsiveCoulomb.PointRadialPhysicalTurn
-import LeanResearch.RepulsiveCoulomb.FiniteTwoCornerTurnBound
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRadialGeodesicGaussBonnet
+public import LeanResearch.RepulsiveCoulomb.PointRadialListSlots
+public import LeanResearch.RepulsiveCoulomb.PointRadialBigonPassageReverse
+public import LeanResearch.RepulsiveCoulomb.PointRadialPlanePassageAngle
+public import LeanResearch.RepulsiveCoulomb.PointRadialPhysicalTurn
+public import LeanResearch.RepulsiveCoulomb.FiniteTwoCornerTurnBound
+
+@[expose] public section
 
 /-! Exclude a genuine simple minimizing bigon for the literal point metric.
 Original source macro-arcs, Jordan regions, positive traversal, point/tangent

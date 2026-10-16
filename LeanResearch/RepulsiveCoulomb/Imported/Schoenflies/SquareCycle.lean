@@ -1,10 +1,14 @@
+module
+
 /-
 Copyright (c) 2026 Álvaro Begué. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Álvaro Begué
 -/
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.ArcComplement
-import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.FaceCycles
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.ArcComplement
+public import LeanResearch.RepulsiveCoulomb.Imported.Schoenflies.FaceCycles
+
+@[expose] public section
 
 /-!
 # The subdivided boundary of a square is a cycle

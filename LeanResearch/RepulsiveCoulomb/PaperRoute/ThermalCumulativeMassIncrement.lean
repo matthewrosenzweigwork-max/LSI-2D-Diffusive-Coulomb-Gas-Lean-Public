@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCumulativeMass
-import Mathlib.MeasureTheory.Measure.Real
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchCumulativeMass
+public import Mathlib.MeasureTheory.Measure.Real
+
+@[expose] public section
 
 /-! Actual annular cumulative-mass control from
 density domination and the physical planar ball volume. No radiality,

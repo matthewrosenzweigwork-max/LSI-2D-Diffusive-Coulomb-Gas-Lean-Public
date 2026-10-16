@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonC1
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRadialAverageSmooth
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchNewtonC1
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchRadialAverageSmooth
+
+@[expose] public section
 
 /-! Actual radial mass formula with exact planar factor 2*pi. The radial
 average is J(x)=integral_0^1 s*rho(s*x)ds, so enclosed mass is

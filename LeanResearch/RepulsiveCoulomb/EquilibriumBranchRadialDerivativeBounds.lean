@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchWeightedRadialOperator
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchWeightedRadialOperator
+
+@[expose] public section
 
 /-! All-order global derivative bounds for radial averaging. The induction
 uses the actual first derivative identity A_k' f=A_(k+1)(Df) and the pinned

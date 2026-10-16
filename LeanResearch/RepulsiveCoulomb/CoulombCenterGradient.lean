@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.CoulombCenterGaussian
-import LeanResearch.RepulsiveCoulomb.CoulombPermutationCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombCenterGaussian
+public import LeanResearch.RepulsiveCoulomb.CoulombPermutationCore
+
+@[expose] public section
 
 /-! Exact physical-gradient identities in an all-particle orthonormal chart.
 The real Euclidean metric, including the sum of the center and relative

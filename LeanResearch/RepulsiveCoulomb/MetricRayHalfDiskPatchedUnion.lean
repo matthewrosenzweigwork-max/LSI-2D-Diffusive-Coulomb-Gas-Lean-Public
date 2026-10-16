@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricRayHalfDiskPatchCompatibility
-import Mathlib.Data.Set.UnionLift
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricRayHalfDiskPatchCompatibility
+public import Mathlib.Data.Set.UnionLift
+
+@[expose] public section
 
 /-! NEW source-only implementation. Glue actual aligned metric halfdisk
 patches along a minimizing ray. Compatibility comes from the genuine-chart

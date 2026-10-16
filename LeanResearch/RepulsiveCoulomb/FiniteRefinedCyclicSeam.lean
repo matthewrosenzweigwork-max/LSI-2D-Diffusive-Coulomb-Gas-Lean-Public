@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.FiniteRefinedNodeCorrespondence
-import LeanResearch.RepulsiveCoulomb.PointIncidentSeamOrigin
+module
+
+public import LeanResearch.RepulsiveCoulomb.FiniteRefinedNodeCorrespondence
+public import LeanResearch.RepulsiveCoulomb.PointIncidentSeamOrigin
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Exact closed-period polar identification and its
 transport under a pair of ordered refined node systems. The cyclic seam is

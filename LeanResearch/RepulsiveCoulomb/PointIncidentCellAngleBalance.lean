@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointIncidentNormalizedCells
-import LeanResearch.RepulsiveCoulomb.PointNoIncidentBudgetFlatness
-import Mathlib.Algebra.BigOperators.Fin
-import Mathlib.Data.List.Pairwise
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointIncidentNormalizedCells
+public import LeanResearch.RepulsiveCoulomb.PointNoIncidentBudgetFlatness
+public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Data.List.Pairwise
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Debit each actual own-apex sector exactly once
 through its constructed cell ownership. Passing sectors contribute pi and

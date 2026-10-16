@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointLinePieceEndpointTangents
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointLinePieceEndpointTangents
+
+@[expose] public section
 
 /-! Records-only, uncompiled. Equal physical endpoint directions for two
 original regular C1 representatives of the same oriented metric line.

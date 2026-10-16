@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchCompactDivergenceIdentity
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchCompactDivergenceIdentity
+
+@[expose] public section
 
 /-! Genuine compact smooth vector values form a dense complex-linear subspace
 of the fixed-fiber Gibbs vector L2 space. This is value-norm density only. -/

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.TriangularInterpolantTranslation
-import Mathlib.Algebra.Order.Floor.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.TriangularInterpolantTranslation
+public import Mathlib.Algebra.Order.Floor.Ring
+
+@[expose] public section
 
 /-! Actual diagonal-grid cells and finite active-cell coverage of the finite
 nodal interpolant. A nonzero level is contained in finitely many actual triangles. -/

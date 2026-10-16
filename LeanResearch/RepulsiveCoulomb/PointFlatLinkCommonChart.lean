@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointFlatLinkNormalizedPolar
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointFlatLinkNormalizedPolar
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. Fixed-chart version of the actual flat-sector
 occupation formula. Several incident sector/halfdisk embeddings can now be

@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointAmbientCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointAmbientCore
+
+@[expose] public section
 
 /-! Smooth outer cutoffs for the normalized Gaussian point measure. Its proved
 finite normalization permits dominated convergence for radial tails and the

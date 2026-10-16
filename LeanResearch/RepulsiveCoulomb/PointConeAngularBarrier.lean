@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointConeClippedCosine
-import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
-import Mathlib.Analysis.Complex.OperatorNorm
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointConeClippedCosine
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+public import Mathlib.Analysis.Complex.OperatorNorm
+
+@[expose] public section
 
 /-! Angular support functions for identifying the singleton density metric with
 the classical cone. The construction clips the developed angle at pi. -/

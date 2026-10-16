@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.ConformalC1Gluing
+module
+
+public import LeanResearch.RepulsiveCoulomb.ConformalC1Gluing
+
+@[expose] public section
 
 /-! C1 angular support profile for the classical cone distance: cosine up to
 angle pi and the constant minus one beyond it. -/

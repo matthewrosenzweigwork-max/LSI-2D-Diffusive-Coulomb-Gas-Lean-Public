@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
-import LeanResearch.RepulsiveCoulomb.ShearedRectangleGeometry
-import LeanResearch.RepulsiveCoulomb.EuclideanRetainedChord
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointRetainedFlatSectorChart
+public import LeanResearch.RepulsiveCoulomb.ShearedRectangleGeometry
+public import LeanResearch.RepulsiveCoulomb.EuclideanRetainedChord
+
+@[expose] public section
 
 /-! ISOLATED SOURCE-ONLY DRAFT. Construct an actual positive two-dimensional
 translated rectangle directly from the genuine positive-turn retained corner.

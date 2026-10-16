@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.AffineLevelEdge
+module
+
+public import LeanResearch.RepulsiveCoulomb.AffineLevelEdge
+
+@[expose] public section
 
 /-! Explicit redistribution of barycentric weights on a triangle cut by a line.
 The slice is a segment between the two genuine edge crossings. -/

@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.LocallyConstantSpeedInterval
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.InnerProductSpace.Convex
-import Mathlib.Analysis.Convex.StrictConvexBetween
-import Mathlib.Tactic.Ring
+module
+
+public import LeanResearch.RepulsiveCoulomb.LocallyConstantSpeedInterval
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.InnerProductSpace.Convex
+public import Mathlib.Analysis.Convex.StrictConvexBetween
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! Local constant-speed Euclidean segments globalize on a compact interval.
 The proof uses the actual finite-subdivision shortcut corner. Euclidean strict

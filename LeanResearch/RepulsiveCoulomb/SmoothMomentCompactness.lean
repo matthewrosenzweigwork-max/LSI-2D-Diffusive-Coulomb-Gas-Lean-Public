@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.QuadraticMomentTightness
-import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.MeasureTheory.Function.Lp.Translation
+module
+
+public import LeanResearch.RepulsiveCoulomb.QuadraticMomentTightness
+public import LeanResearch.RepulsiveCoulomb.Imported.TauCeti.MeasureTheory.Function.Lp.Translation
+
+@[expose] public section
 
 /-! Global L2 compactness for an actual smooth family with uniform mass,
 derivative and integrable quadratic-moment bounds. No Poincare input. -/

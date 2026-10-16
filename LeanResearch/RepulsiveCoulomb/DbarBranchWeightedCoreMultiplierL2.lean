@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchInverseRootL2
-import Mathlib.MeasureTheory.Function.Holder
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchInverseRootL2
+public import Mathlib.MeasureTheory.Function.Holder
+
+@[expose] public section
 
 /-! Literal bounded compact-coefficient multiplication on weighted scalar L2.
 These maps are complex-linear; their representatives are the actual products. -/

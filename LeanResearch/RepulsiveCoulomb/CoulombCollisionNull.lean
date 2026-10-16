@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization
-import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+module
+
+public import LeanResearch.RepulsiveCoulomb.LabeledCoulombNormalization
+public import Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar
+
+@[expose] public section
 
 /-! Every pair-collision hyperplane is a proper real linear subspace and is
 Lebesgue null. The full collision-free domain has full Lebesgue measure. -/

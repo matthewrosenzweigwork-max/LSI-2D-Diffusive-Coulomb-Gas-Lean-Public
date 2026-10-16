@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyDualIntegral
-import Mathlib.MeasureTheory.Integral.Bochner.Set
+module
+
+public import LeanResearch.RepulsiveCoulomb.EquilibriumBranchEntropyDualIntegral
+public import Mathlib.MeasureTheory.Integral.Bochner.Set
+
+@[expose] public section
 
 /-! Actual measure-level bounded dual tests for relative entropy. The AC case
 uses clipped log RN derivatives and permits infinite entropy. The non-AC case

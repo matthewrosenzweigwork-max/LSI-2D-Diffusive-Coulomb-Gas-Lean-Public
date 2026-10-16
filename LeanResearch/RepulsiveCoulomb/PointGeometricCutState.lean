@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripStateAdapters
-import LeanResearch.RepulsiveCoulomb.PointActualRetainedApexIteration
-import LeanResearch.RepulsiveCoulomb.PointActualFirstMarkedSector
-import LeanResearch.RepulsiveCoulomb.PointCutOuterRank
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripStateAdapters
+public import LeanResearch.RepulsiveCoulomb.PointActualRetainedApexIteration
+public import LeanResearch.RepulsiveCoulomb.PointActualFirstMarkedSector
+public import LeanResearch.RepulsiveCoulomb.PointCutOuterRank
+
+@[expose] public section
 
 /-! SOURCE-ONLY, UNCOMPILED. The current state contains only genuine original
 halfplane geometry, all-point finite coefficients, the scalar invariant, and

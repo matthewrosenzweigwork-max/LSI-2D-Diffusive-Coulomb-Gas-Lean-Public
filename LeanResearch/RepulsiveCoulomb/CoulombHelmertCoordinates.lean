@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.CoulombHelmertOrthonormal
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombHelmertOrthonormal
+
+@[expose] public section
 
 /-! Literal Helmert coordinate formulas and the concrete, hypothesis-free
 center axis used by the center-of-mass density and measure factorization. -/

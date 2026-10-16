@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogSmoothConvolution
-import Mathlib.Analysis.SpecialFunctions.Pow.Integral
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogSmoothConvolution
+public import Mathlib.Analysis.SpecialFunctions.Pow.Integral
+
+@[expose] public section
 
 /-! Actual exterior control of the literal logarithmic potential.
 The physical logarithmic derivative is represented by complex inversion. -/

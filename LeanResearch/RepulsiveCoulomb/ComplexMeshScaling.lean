@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.RawPointWeightGeometry
-import LeanResearch.RepulsiveCoulomb.ComplexLipschitzCoarea
-import Mathlib.Analysis.Calculus.FDeriv.Equiv
-import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+module
+
+public import LeanResearch.RepulsiveCoulomb.RawPointWeightGeometry
+public import LeanResearch.RepulsiveCoulomb.ComplexLipschitzCoarea
+public import Mathlib.Analysis.Calculus.FDeriv.Equiv
+public import Mathlib.MeasureTheory.Integral.Lebesgue.Map
+
+@[expose] public section
 
 /-! Exact physical gradient and volume scaling on the complex plane, including
 all points of a piecewise-linear function. No differentiability assumption is inserted. -/

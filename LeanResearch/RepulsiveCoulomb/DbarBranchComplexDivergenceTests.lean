@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchLocalDivergenceSystem
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLocalDivergenceSystem
+
+@[expose] public section
 
 /-! Complex compact tests for the literal local divergence equations. This
 allows subsequent multiplication of a weak output by actual complex metric

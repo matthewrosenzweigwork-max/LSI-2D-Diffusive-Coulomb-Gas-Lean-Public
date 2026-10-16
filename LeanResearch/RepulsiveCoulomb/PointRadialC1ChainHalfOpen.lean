@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGeodesicFiniteRadialC1Chain
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGeodesicFiniteRadialC1Chain
+
+@[expose] public section
 
 /-! Actual half-open joint injectivity of macro-arcs follows from the source
 interval order. Both half-open conventions are retained for the reversed

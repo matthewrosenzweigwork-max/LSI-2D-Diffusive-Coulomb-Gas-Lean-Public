@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightFormCore
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightFormCore
+
+@[expose] public section
 
 /-! Local weak-derivative identification of the weighted smooth-core graph.
 A continuous restriction into Lebesgue L2 is constructed before the closed

@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchCompatibility
-import Mathlib.Data.Set.UnionLift
+module
+
+public import LeanResearch.RepulsiveCoulomb.MetricSupportedFlatPatchCompatibility
+public import Mathlib.Data.Set.UnionLift
+
+@[expose] public section
 
 /-! NEW implementation after source loss. Construct the supported union map
 from actual patch equivalences and old-map agreement. New-new compatibility

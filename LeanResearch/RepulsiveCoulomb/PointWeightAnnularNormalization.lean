@@ -1,5 +1,9 @@
-import LeanResearch.RepulsiveCoulomb.PointWeightCircularLower
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointWeightCircularLower
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 /-! Annular proof of the configuration-uniform normalization in manuscript
 Lemma 3.3. This uses the already established circle Jensen bound rather than

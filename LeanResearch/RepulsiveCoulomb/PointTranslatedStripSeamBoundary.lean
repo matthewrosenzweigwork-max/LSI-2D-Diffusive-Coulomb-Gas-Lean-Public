@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointTranslatedStripSeamGluing
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointTranslatedStripSeamGluing
+
+@[expose] public section
 
 /-! SOURCE ONLY, UNCOMPILED. Boundary consequences of actual seam gluing.
 The new compact edge is proved to lie on the original frontier from the genuine

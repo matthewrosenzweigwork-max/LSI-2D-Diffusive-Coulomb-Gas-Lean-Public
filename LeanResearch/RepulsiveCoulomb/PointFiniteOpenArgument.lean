@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerBoundaryPointSum
+module
+
+public import LeanResearch.RepulsiveCoulomb.JordanFiniteCornerBoundaryPointSum
+
+@[expose] public section
 
 /-! Actual inside/outside point sums for the original finite family, allowing
 only open-edge point identities. Endpoint identities are recovered from

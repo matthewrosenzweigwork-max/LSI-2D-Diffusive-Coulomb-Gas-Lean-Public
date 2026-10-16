@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
-import Mathlib.Analysis.Convex.Integral
-import Mathlib.Analysis.Convex.SpecificFunctions.Basic
-import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+module
+
+public import LeanResearch.RepulsiveCoulomb.WeightedAverageComparison
+public import Mathlib.Analysis.Convex.Integral
+public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+
+@[expose] public section
 
 /-! Actual Lq recentering from an arbitrary real center to the weighted mean. -/
 noncomputable section

@@ -1,8 +1,12 @@
-import LeanResearch.RepulsiveCoulomb.PaperRoute.LogFundamentalSolution
-import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
-import Mathlib.Analysis.Convolution
-import Mathlib.Analysis.Calculus.BumpFunction.Convolution
-import Mathlib.Analysis.Calculus.ContDiff.Convolution
+module
+
+public import LeanResearch.RepulsiveCoulomb.PaperRoute.LogFundamentalSolution
+public import Mathlib.Analysis.Calculus.BumpFunction.InnerProduct
+public import Mathlib.Analysis.Convolution
+public import Mathlib.Analysis.Calculus.BumpFunction.Convolution
+public import Mathlib.Analysis.Calculus.ContDiff.Convolution
+
+@[expose] public section
 
 /-! Actual compact-product logarithmic integrability and explicit normalized
 smooth bump mollification of signed bounded compact densities. The producer

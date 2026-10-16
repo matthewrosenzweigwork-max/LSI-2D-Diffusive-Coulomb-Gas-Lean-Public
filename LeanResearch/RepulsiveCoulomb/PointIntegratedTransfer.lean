@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointOscillationTransfer
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointOscillationTransfer
+
+@[expose] public section
 
 /-! The integrated part of the transfer, still explicitly conditional on the
 unproved double-average gradient estimate. No actual Poincare conclusion is

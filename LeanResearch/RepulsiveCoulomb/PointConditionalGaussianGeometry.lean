@@ -1,4 +1,8 @@
-import LeanResearch.RepulsiveCoulomb.PointGaussianLocalPoincare
+module
+
+public import LeanResearch.RepulsiveCoulomb.PointGaussianLocalPoincare
+
+@[expose] public section
 
 /-! Manuscript cor:local-gauss and its integrated local Poincare consequence,
 conditional on the one explicit David--Semmes input. Normalization, change of

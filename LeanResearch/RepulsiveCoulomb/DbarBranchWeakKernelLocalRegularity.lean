@@ -1,7 +1,11 @@
-import LeanResearch.RepulsiveCoulomb.DbarBranchMollifierCR
-import LeanResearch.RepulsiveCoulomb.DbarBranchMollifierRepresentation
-import LeanResearch.RepulsiveCoulomb.DbarBranchLpLocalLimits
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMollifierCR
+public import LeanResearch.RepulsiveCoulomb.DbarBranchMollifierRepresentation
+public import LeanResearch.RepulsiveCoulomb.DbarBranchLpLocalLimits
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-! Local holomorphic representatives of actual weak-kernel elements. The
 proof uses a concrete shrinking bump sequence, the actual mollified L2 classes,

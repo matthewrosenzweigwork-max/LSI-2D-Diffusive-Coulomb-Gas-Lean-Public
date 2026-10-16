@@ -1,6 +1,10 @@
-import LeanResearch.RepulsiveCoulomb.CoulombRelativeKernel
-import LeanResearch.RepulsiveCoulomb.CoulombCollisionGaussian
-import LeanResearch.RepulsiveCoulomb.PlanarPowerCutoffEnergy
+module
+
+public import LeanResearch.RepulsiveCoulomb.CoulombRelativeKernel
+public import LeanResearch.RepulsiveCoulomb.CoulombCollisionGaussian
+public import LeanResearch.RepulsiveCoulomb.PlanarPowerCutoffEnergy
+
+@[expose] public section
 
 /-! Smooth collision-tube cutoffs with the genuine full physical gradient. -/
 noncomputable section
