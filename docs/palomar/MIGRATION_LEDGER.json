@@ -11543,7 +11543,7 @@
       "path": "RetainedReload.lean",
       "kind": "compatibility-repair",
       "before_sha256": "19d21b44098574488ff9913cedb5d5e0d36b6fa72d84340e457ba2ada5924f8c",
-      "after_sha256": "c78dd8b7d0dca56664136ca8f1de196eea65da29338573f5bd8a6ad13fa15311",
+      "after_sha256": "38b433144525e6c55e4e5a6a97fc820f0c7cc5b7a567c38a5f8c5c13f39e5c0f",
       "interface_only_sha256": "216b8d7479eafc5655c5613fa03ea8caa255b0b88a7465db833ad5cfbe447f30",
       "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },

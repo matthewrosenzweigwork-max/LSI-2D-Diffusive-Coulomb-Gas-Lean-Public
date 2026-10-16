@@ -87,10 +87,17 @@ The reviewer independently read the saved c87 diagnostic: all 21 configured theo
 
 ## Final audit resource review
 
-A separate read-only diff check confirmed that removing only the seventeen scoped finite-budget commands and reverting the one prior unlimited setting recovers the parent integrated audit file byte for byte. All 94 literal arrays, 92 fatal guards, citation/body cuts and the original recursion-depth setting remain unchanged. The retained and Plan B diffs consist exactly of their previously reviewed visibility/census/collector repairs plus one scoped budget each. All nineteen audit commands have finite 2,000,000-heartbeat budgets. No mathematical proof text, statement or logical check changed. Completion of these commands is a fresh full-preflight obligation.
+A separate read-only diff check confirmed that removing only the seventeen scoped finite-budget commands and reverting the one prior unlimited setting recovers the parent integrated audit file byte for byte. All 94 literal arrays, 92 fatal guards, citation/body cuts and the original recursion-depth setting remain unchanged. The retained and Plan B diffs consist exactly of their previously reviewed visibility/census/collector repairs plus one scoped budget each. At that stage, all nineteen audit commands received finite 2,000,000-heartbeat budgets. No mathematical proof text, statement or logical check changed. Completion of these commands is a fresh full-preflight obligation.
 
 ## Retained private-census diagnosis
 
 A separate investigator reproduced the failed final candidate's exact public-only module count and the two missing private-only module names. A three-module Lean-only fixture established that retaining the public root import and separately adding `import all` restores the full private header census. It recommended the one-line visibility addition, retaining expected count 1,930, every literal module name, and both census guards. This diagnosis does not turn the failed candidate's report into a pass; the corrected immutable candidate requires a new full report.
 
 A fresh separate diff review verified the applied change: removing only `import all IntegratedPaperRoute` recovers `RetainedReload` at `5d88919` byte for byte. All 1,929 unique literal names, the single helper append, expected count 1,930, both fatal guards, budgets and example checks remain unchanged. No other source, audit or mathematical file changed in this batch; the migration ledger records the new reload hash. No blocking issue was found.
+
+
+## Retained literal annotation and finite headroom
+
+An independent read-only review of the authenticated `8116dfc` report located the sole observed failure at elaboration of the retained module-name array. It recommended the explicit `Array Lean.Name` annotation as stating the type already imposed downstream. Four separate Lean-only smoke runs used the exact 1,929-name literal plus the known helper append and confirmed both forms return 1,930 names. Reverse-order timings did not establish a consistent annotation speedup, and the tiny fixture did not reproduce the full-environment timeout. The smoke is bounded compatibility evidence on local rc3, not a pinned rc2 project pass.
+
+The applied source diff adds only that type annotation and raises only this audit command's finite heartbeat budget to 10,000,000. The original literal bytes, helper append, exact count comparison and per-module membership rejection are unchanged. No mathematical statement, proof, declaration, permitted axiom or audit guard changes; all other audit budgets remain fixed. The next exact-commit full preflight remains decisive.
