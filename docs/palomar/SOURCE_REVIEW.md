@@ -21,3 +21,11 @@ The weighted Solution import adds no local source files to the previous endpoint
 ## Compatibility scope
 
 The initial source review covered the `TwoConnected.lean` public-API adaptation and found no statement or mathematical-definition change. Later graph-library repairs are outside that initial review and require their own review and fresh machine verification. This record does not automatically certify future commits.
+
+## Incremental graph repair review
+
+The same separate reviewer inspected the three graph proof changes at `a145ceeca2efb6146934f420b204c205ab27af66` against `2987599ed28fa225a3de6fde2ce9a722e5feae4c`, before reading repair notes. In `Graph/Tree.lean`, `Graph/Relabel.lean`, and `InitialPair.lean`, explicit public vertex-set identities expose the same membership propositions before construction, simplification, or case analysis. All declaration signatures, hypotheses, maps, and mathematical content were retained; no new axiom or proof hole was found. This is source-plausibility review, with no build/elaboration assertion.
+
+## Further planar interface review
+
+A separate review against `a145ceeca2efb6146934f420b204c205ab27af66` covered four modules: `CoulombCenterRelativeForm`, `PointGeodesicBigonExtraction`, `GeodesicTriangleBridgeInterval`, and `DbarBranchCoreCompatibility`. The two helper theorem visibility changes preserve their mathematical statements and complete proofs. Explicit ordered-subtype arguments and equality transport preserve the same endpoint claims. The public `HasWeakFDerivOn.hasWeakLineDerivOn` eliminator has exactly the directional weak-derivative conclusion previously accessed through the predicate body. No mathematical definitions, hypotheses, axioms, or proof holes were added or changed. This was read-only source/API review; elaboration remains subject to hosted verification.

@@ -45,7 +45,7 @@ theorem coulombComplexCore_lineDeriv_pairing {N : ℕ}
     (ψ.continuous.locallyIntegrable.locallyIntegrableOn _)
     ((ψ.contDiff.continuous_fderiv (by simp)).locallyIntegrable.locallyIntegrableOn _)
     (fun z _ => ψ.contDiff.differentiable (by simp) z)
-  have h := (hw v).integral_lineDeriv_smul_eq_neg_integral_smul φ
+  have h := (hw.hasWeakLineDerivOn v).integral_lineDeriv_smul_eq_neg_integral_smul φ
   have hn := congrArg Neg.neg h
   simpa only [neg_neg, TestFunction.lineDerivCLM_apply, top_add, le_refl, ite_true] using hn.symm
 

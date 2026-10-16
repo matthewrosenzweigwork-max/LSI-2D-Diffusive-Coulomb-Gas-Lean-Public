@@ -97,15 +97,13 @@ theorem exists_interval_of_curve_disagreement {X : Type*}
   obtain ⟨s, hs⟩ := (hC.inter isClosed_Iic).isCompact.exists_isGreatest hleft
   obtain ⟨t, ht⟩ := (hC.inter isClosed_Ici).isCompact.exists_isLeast hright
   have hsq : s < q := by
-    apply lt_of_le_of_ne hs.1.2
+    apply lt_of_le_of_ne (a := s) (b := q) hs.1.2
     intro he
-    apply hq
-    simpa only [C, mem_setOf_eq, he] using hs.1.1
+    exact hq (he ▸ hs.1.1)
   have hqt : q < t := by
-    apply lt_of_le_of_ne ht.1.2
+    apply lt_of_le_of_ne (a := q) (b := t) ht.1.2
     intro he
-    apply hq
-    simpa only [C, mem_setOf_eq, ← he] using ht.1.1
+    exact hq (he.symm ▸ ht.1.1)
   refine ⟨s, t, hsq.trans hqt, hs.1.1, ht.1.1, ?_⟩
   intro u hu he
   by_cases huq : u ≤ q

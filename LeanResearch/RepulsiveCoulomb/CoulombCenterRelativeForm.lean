@@ -59,7 +59,7 @@ theorem coulombCenterRelativeCoreJet_coe (e : CoulombCenterRotation n)
       fun r => WithLp.toLp 2 (ψ r, gradient (ψ : CoulombConfig n → ℝ) r) :=
   (coulombCenterRelativeCoreJet_memLp e he hβ ψ).coeFn_toLp
 
-private theorem coulombCenterRelativeCoreJet_add (e : CoulombCenterRotation n)
+theorem coulombCenterRelativeCoreJet_add (e : CoulombCenterRotation n)
     (he : CoulombCenterAxis e) {β : ℝ} (hβ : 0 < β)
     (φ ψ : TestFunction (coulombCenterRelativeDomain e) ℝ ⊤) :
     coulombCenterRelativeCoreJet e he hβ (φ + ψ) =
@@ -77,7 +77,7 @@ private theorem coulombCenterRelativeCoreJet_add (e : CoulombCenterRotation n)
   exact Prod.ext rfl (TauCeti.gradient_add (φ.contDiff.differentiable (by simp) r)
     (ψ.contDiff.differentiable (by simp) r))
 
-private theorem coulombCenterRelativeCoreJet_smul (e : CoulombCenterRotation n)
+theorem coulombCenterRelativeCoreJet_smul (e : CoulombCenterRotation n)
     (he : CoulombCenterAxis e) {β : ℝ} (hβ : 0 < β)
     (a : ℝ) (ψ : TestFunction (coulombCenterRelativeDomain e) ℝ ⊤) :
     coulombCenterRelativeCoreJet e he hβ (a • ψ) = a • coulombCenterRelativeCoreJet e he hβ ψ := by

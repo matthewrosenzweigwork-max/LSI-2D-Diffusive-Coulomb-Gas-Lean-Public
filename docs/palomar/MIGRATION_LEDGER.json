@@ -753,9 +753,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/CoulombCenterRelativeForm.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "667e04f1207601f3de5ecc38e2d93b74bbcfee0fd5854a6a5d96354c1ced887d",
-      "after_sha256": "86c43281a456ccb955a1fa6b79ca5165052cb51e0e26a4992c9815105dac8f0f"
+      "after_sha256": "60db856b4d7cba188a34beb0fa280f0df54e72b8611933a30cdd61a144bfb97e",
+      "interface_only_sha256": "86c43281a456ccb955a1fa6b79ca5165052cb51e0e26a4992c9815105dac8f0f",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/CoulombCenterRelativePositiveEntropy.lean",
@@ -1911,9 +1913,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/DbarBranchCoreCompatibility.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "faa4b429ac49647d7b2c05e45620c206430584305dcc56c9081ba7bf482b2d8a",
-      "after_sha256": "4ed838ed29c641a2a5e0c0ee9b260f3e770d6c130b7bd0585e8923a078559063"
+      "after_sha256": "974e6d20b841f7deb81e673f7c64abc9ecacfc7a88f0c1697b48dec87405999e",
+      "interface_only_sha256": "4ed838ed29c641a2a5e0c0ee9b260f3e770d6c130b7bd0585e8923a078559063",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/DbarBranchCovectorMetric.lean",
@@ -3717,9 +3721,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/GeodesicTriangleBridgeInterval.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "e73af83ec720cf0c27c49eadf5ceffbd775da67a3557aa737181809810194f4f",
-      "after_sha256": "20b7ce12d14ae802442dea9f41fefaf7dc9382aa38034280afc4b4d0760889a3"
+      "after_sha256": "9011ad0a2c4368352b51dd20f68207138dd57c19fb9abf4605c46f247405542a",
+      "interface_only_sha256": "20b7ce12d14ae802442dea9f41fefaf7dc9382aa38034280afc4b4d0760889a3",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/HalfSupportMean.lean",
@@ -8165,9 +8171,11 @@
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PointGeodesicBigonExtraction.lean",
-      "kind": "module-interface-only",
+      "kind": "compatibility-repair",
       "before_sha256": "4b364ae57e0e36aabaf7b538b9228acc5bfbaec2f7c6c82b40dbcbe8e6fddc6b",
-      "after_sha256": "0d181c2f583ba79c0809f96da29cd56fe59297c8269831896930ac1a3b4f6739"
+      "after_sha256": "e904aa398ec986a91c7a666547ec7e5c4dff9227a2b5768ec610059f3c52909e",
+      "interface_only_sha256": "0d181c2f583ba79c0809f96da29cd56fe59297c8269831896930ac1a3b4f6739",
+      "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },
     {
       "path": "LeanResearch/RepulsiveCoulomb/PointGeodesicBigonOrTriangle.lean",

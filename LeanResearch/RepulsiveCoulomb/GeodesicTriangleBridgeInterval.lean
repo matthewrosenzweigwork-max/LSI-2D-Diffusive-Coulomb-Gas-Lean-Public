@@ -25,7 +25,7 @@ theorem exists_curve_bridge_interval {X : Type*} [TopologicalSpace X]
   have hCBne : ((γ ⁻¹' B) ∩ Ici s).Nonempty := ⟨⟨1, by norm_num⟩, h1, s.2.2⟩
   obtain ⟨t, ht⟩ := hCB.isCompact.exists_isLeast hCBne
   have hst : s < t := by
-    apply lt_of_le_of_ne ht.1.2
+    apply lt_of_le_of_ne (a := s) (b := t) ht.1.2
     intro he
     exact hdisj.le_bot ⟨hs.1, he.symm ▸ ht.1.1⟩
   refine ⟨s, t, hst, hs.1, ht.1.1, ?_, ?_⟩
