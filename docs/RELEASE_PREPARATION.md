@@ -1,5 +1,7 @@
 # Public release preparation
 
+Update, 17 October 2026: all three migrated packages now have passing full exact-commit Palomar preflights. See [the submission handoff](PALOMAR_SUBMISSION_HANDOFF.md) and [candidate ledger](PALOMAR_SUBMISSION_CANDIDATES.json). The historical inventory and staged plan below describe the frozen source branch, not the current migration verification status. No intake or registration has occurred.
+
 Status on 16 October 2026: this `release-preparation-2026-10-16` branch contains documentation, metadata, licensing, and byte-integrity automation. Its accepted source inputs and toolchain pins are unchanged. The owner-approved Apache-2.0 license is present; existing third-party notices are retained.
 
 The [hosted frozen-source integrity check](https://github.com/matthewrosenzweigwork-max/LSI-2D-Diffusive-Coulomb-Gas-Lean-Public/actions/runs/38929864796) passed for all 1,936 manifest inputs. The inventory and staged plan below describe this frozen branch. Compatibility migration, complete statement metadata, and fresh verification are tracked separately on [`palomar-migration-2026-10-16`](https://github.com/matthewrosenzweigwork-max/LSI-2D-Diffusive-Coulomb-Gas-Lean-Public/tree/palomar-migration-2026-10-16). Neither branch changes public `main`, and no Palomar intake or registration has been performed.

@@ -1,0 +1,53 @@
+{
+  "repository": "matthewrosenzweigwork-max/LSI-2D-Diffusive-Coulomb-Gas-Lean-Public",
+  "candidate_commit": "37081a3acb793917b284b93558c6b8598282dcb3",
+  "records": [
+    {
+      "commit": "37081a3acb793917b284b93558c6b8598282dcb3",
+      "report_sha256": "8abef8acb664d6ab9de0f45e0d75cd399c77ca5696ec6a5c1fe767e95bbd6ef3",
+      "status": "pass",
+      "stage": "complete",
+      "challenge_trust_level": "high",
+      "warnings": [],
+      "run_id": 38989785472,
+      "job_id": 117269404844,
+      "artifact_id": 12086171232,
+      "artifact_sha256": "a42b7f8e34ddd0480d0d3e3e789b4c39ae25ad629233a684bf70845903371766",
+      "workflow_commit": "d4e41c1d5b0d114c4859e6e5831dc6d3ad1d0d44",
+      "report_path": "verification/palomar/planar/mechanical-report.json",
+      "component": "planar",
+      "theorem_names": [
+        "RepulsiveCoulomb.coulombVandermonde_continuous",
+        "RepulsiveCoulomb.coulombCoreJet_memLp",
+        "RepulsiveCoulomb.coulombCoreJet_add",
+        "RepulsiveCoulomb.coulombCoreJet_smul",
+        "RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate_pos",
+        "RepulsiveCoulomb.PaperRoute.paper_full_labeled_lsi_original",
+        "RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate_pos",
+        "RepulsiveCoulomb.PaperRoute.paper_uniform_labeled_lsi_original",
+        "RepulsiveCoulomb.pointPunctures_finite",
+        "RepulsiveCoulomb.pointMeasure_isProbability",
+        "RepulsiveCoulomb.pointCoreJet_memLp",
+        "RepulsiveCoulomb.pointCoreJet_add",
+        "RepulsiveCoulomb.pointCoreJet_smul",
+        "RepulsiveCoulomb.PaperRoute.paperWeightedP1_pos",
+        "RepulsiveCoulomb.PaperRoute.paperWeightedK1_pos",
+        "RepulsiveCoulomb.PaperRoute.paperCwt_pos",
+        "RepulsiveCoulomb.PaperRoute.paperRhoWt_pos",
+        "RepulsiveCoulomb.PaperRoute.paperCwt_scaling",
+        "RepulsiveCoulomb.PaperRoute.paperRhoWt_scaling",
+        "RepulsiveCoulomb.PaperRoute.paper_weighted_named_inequalities",
+        "RepulsiveCoulomb.PaperRoute.paper_weighted_named_full_above"
+      ],
+      "definition_names": [
+        "RepulsiveCoulomb.PaperRoute.paperOriginalLabeledRate",
+        "RepulsiveCoulomb.PaperRoute.paperOriginalCompactLabeledRate",
+        "RepulsiveCoulomb.PaperRoute.paperWeightedP1",
+        "RepulsiveCoulomb.PaperRoute.paperWeightedK1"
+      ],
+      "challenge_sha256": "9aeace75383beb5146f2bebc0424a4e0b390e807563c56f0ff062dafd7480651",
+      "workflow_url": "https://github.com/matthewrosenzweigwork-max/LSI-2D-Diffusive-Coulomb-Gas-Lean-Public/actions/runs/38989785472"
+    }
+  ],
+  "provenance_note": "Artifact downloaded through authenticated GitHub connector; ZIP SHA-256 independently computed and matched GitHub artifact digest; verify job 117269404844 completed successfully. Report validated against exact immutable Git input bytes. This evidence commit is not the tested source commit."
+}
