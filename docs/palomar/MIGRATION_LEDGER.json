@@ -11535,7 +11535,7 @@
       "path": "PlanBAudit.lean",
       "kind": "compatibility-repair",
       "before_sha256": "e5feb110c2ceec2a6bdc5e5201a1807313de27e845833854065c5ce2f5ab530c",
-      "after_sha256": "1c94262177347f2e516bf4e67260cc367c04169e802eb135c85058c9b4b8c681",
+      "after_sha256": "b727793d33f2ec108671b6722b9003d07892f26688268e6f813b7db7647fa17f",
       "interface_only_sha256": "e1fdb157f16c091d415b40256244bb5a93795cf117e6188f027413254ed9edd9",
       "rationale": "Minimal compiler/library API repair; unchanged declaration statements and fixed mathematical definitions. See the component COMPATIBILITY_REPAIRS.md record; Linux kernel verification is required."
     },

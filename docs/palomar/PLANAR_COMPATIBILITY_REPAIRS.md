@@ -128,3 +128,76 @@ Full candidate `8116dfc1ae37ec00d0f464a23673aaab45e3796e`, workflow `38969408712
 The literal now has the explicit type `Array Lean.Name`, the same type already required by its single-helper append and module-name membership checks. All literal entries, the append, the namespace filter and both fatal guards are unchanged. Four tiny Lean-only smoke runs of the verbatim literal passed both inferred and annotated forms at two million heartbeats. Reversing test order showed that the initial timing difference was warm-up-sensitive; these runs neither reproduce the full-environment timeout nor establish a consistent annotation speedup. This smoke uses the locally installed rc3 compiler and does not establish the pinned rc2 project build.
 
 Only the retained census command receives additional finite headroom, 10,000,000 heartbeats. The seventeen integrated commands and Plan B command remain at 2,000,000 each; the hosted wall-clock bound remains unchanged. These are elaboration-resource settings, not logical assumptions or relaxed checks. No mathematical declaration, theorem statement, proof, axiom allowance, source-import requirement or audit criterion changes. A fresh exact-commit full preflight must still execute the complete audit chain and Comparator.
+
+## Fixed-closure audit: complete private inspection environment
+
+Full candidate `9fdff3a95ace417183a98da9ebdfce7b0040d152`, workflow
+`38974878664`, failed in `PlanBAudit` with
+`PLAN_B_FIXED_CLOSURE_MISSING_CONSTANT` for
+`_private.Mathlib.Analysis.Normed.Operator.Basic.0.ContinuousLinearMap.uniformity_eq_seminorm._simp_1_6`.
+The authenticated report ZIP, artifact `12079558645`, has SHA-256
+`cf71a6a2294bfc306f67b364c85303d386f0e2775c457b53e5f97a3b268a387e`.
+Comparator was not reached. This failed report is not a passing receipt.
+
+The fixed-closure command now reloads exactly its existing `header.imports`
+through Lean's `importModules` with `level := .private`. In the pinned rc2
+implementation this loads complete transitive data, including private proof
+helpers hidden behind ordinary module interfaces. This is a separate,
+audit-only environment. It uses `loadExts := false`, so no imported
+initializers are executed. The only additional source import is
+`import all Lean.Util.CollectAxioms`, exposing the pinned collector's private
+index for the initialization described below. The retained mathematical
+imports and their census remain unchanged. Axiom collection runs under the
+same complete environment.
+
+The fixed dependency walk is unchanged, including its type traversal and
+existing theorem-hole body cuts. All literal theorem-hole, definition and
+witness arrays are byte-identical. Declaration-kind checks, witness existence,
+required fixed-definition membership, missing-constant rejection, `sorryAx`
+rejection and the exact three-axiom allowlist remain fatal and unchanged.
+No mathematical source, theorem statement, fixed definition, proof, retained
+import census or other audit guard is changed.
+
+A three-module fixture on the exact rc2 toolchain demonstrated that a
+transitive private proof helper missing from the original environment is
+present in the reloaded environment. A separate negative fixture confirmed
+that a private nonstandard axiom is still detected by `collectAxioms`.
+A further probe using the pinned Mathlib confirmed that the exact missing
+`uniformity_eq_seminorm._simp_1_6` helper is absent in the original module
+view, present after full private reload, and depends only on `propext`,
+`Classical.choice`, and `Quot.sound`. These isolated checks do not establish
+the project build, Comparator or external kernel result. Full project runtime and exact-commit verification
+remain required.
+
+
+The first complete private-reload trial passed `IntegratedPaperRoute` in
+447 seconds and `RetainedReload` in 117 seconds, including its exact
+1930-module census. `PlanBAudit` then exited with process code 137 after
+935 seconds. It did not produce a logical audit failure or a passing receipt.
+An isolated probe overlapped the final interval, so this run does not isolate
+the cause of the resource termination.
+
+To retain the pinned collector's ordinary efficient behavior, the audit now
+initializes only `Lean.exportedAxiomsExt` from the complete environment's own
+`importedEntries`. Its `importedModuleEntries` field is populated exactly as
+the pinned extension's `addImportedFn` specifies. No entries are copied from
+another environment, no imported initializer runs, and no recursive traversal
+cache is shared between top-level queries. The existing `collectAxioms` call
+uses the resulting environment; missing indexed entries still fall back to
+kernel types and values. The fixed dependency walk, all arrays and all fatal
+guards remain unchanged.
+
+The exact missing-Mathlib-helper probe passed with this initialization on rc2
+and returned exactly `propext`, `Classical.choice`, and `Quot.sound`. The
+separate private nonstandard-axiom fixture still returned the forbidden axiom
+and triggered its expected-rejection check. Full combined compilation and
+exact-commit external verification remain required.
+
+
+With the selective index initialization, the pinned rc2 combined command
+`lake build Challenge Solution IntegratedPaperRoute RetainedReload PlanBAudit`
+completed successfully (10,870 jobs, exit 0) on 2026-10-17 UTC. All four
+`PLAN_B_FIXED_DEFINITION_COVERED` witnesses passed. The migration-preservation
+check also passed for all 1,936 baseline inputs and 1,918 recorded changes.
+This local combined build is not an external kernel or Comparator receipt;
+the full hosted exact-commit preflight is still required.
